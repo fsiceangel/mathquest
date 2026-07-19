@@ -1,9 +1,13 @@
 import katex from 'katex'
 
+// Math chunks are $...$ where the inside may contain escaped dollar signs
+// (\$ for currency). The delimiters themselves must be unescaped dollars.
+const MATH_SPLIT = /((?<!\\)\$(?:\\\$|[^$])+\$)/g
+
 // Renders a content string, converting each $...$ chunk to KaTeX.
 export function M({ children }) {
   const text = String(children ?? '')
-  const parts = text.split(/(\$[^$]+\$)/g)
+  const parts = text.split(MATH_SPLIT)
   return (
     <>
       {parts.map((part, i) => {

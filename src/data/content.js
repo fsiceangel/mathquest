@@ -8,8 +8,12 @@ const modules = {
 }
 
 const registry = {}
-for (const mod of Object.values(modules)) {
+for (const [path, mod] of Object.entries(modules)) {
   const ch = mod.default
+  if (!ch || !ch.book || !ch.number || !Array.isArray(ch.sections)) {
+    console.warn(`Skipping malformed content module: ${path}`)
+    continue
+  }
   registry[`${ch.book}/${ch.number}`] = ch
 }
 

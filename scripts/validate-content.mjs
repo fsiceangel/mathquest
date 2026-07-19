@@ -13,13 +13,14 @@ const errors = []
 const warnings = []
 
 function checkMath(where, text) {
+  // Unescaped $ are math delimiters; \$ inside math is a literal dollar sign.
   const s = String(text)
-  const dollars = (s.match(/\$/g) || []).length
+  const dollars = (s.match(/(?<!\\)\$/g) || []).length
   if (dollars % 2 !== 0) {
     errors.push(`${where}: unbalanced $ delimiters in: ${s.slice(0, 80)}`)
     return
   }
-  for (const m of s.matchAll(/\$([^$]+)\$/g)) {
+  for (const m of s.matchAll(/(?<!\\)\$((?:\\\$|[^$])+)\$/g)) {
     try {
       katex.renderToString(m[1], { throwOnError: true })
     } catch (e) {
