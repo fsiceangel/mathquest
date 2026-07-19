@@ -1,0 +1,91 @@
+// Book / chapter / section metadata for all three courses.
+// Chapter and section titles mirror the AoPS tables of contents so a student
+// can cross-reference the physical books. All quiz/learn content is original.
+// A chapter is "available" when a content module for it exists (see content.js).
+
+export const books = [
+  {
+    id: 'prealgebra',
+    title: 'Prealgebra',
+    subtitle: 'Numbers, fractions, and first steps into algebra',
+    accent: 'coral',
+    chapters: [
+      { number: 1, title: 'Properties of Arithmetic', sections: ['Addition', 'Multiplication', 'Negation', 'Subtraction', 'Reciprocals', 'Division'] },
+      { number: 2, title: 'Exponents', sections: ['Squares', 'Higher Exponents', 'Zero as an Exponent', 'Negative Exponents'] },
+      { number: 3, title: 'Number Theory', sections: ['Multiples', 'Divisibility Tests', 'Prime Numbers', 'Prime Factorization', 'Least Common Multiple', 'Divisors', 'Greatest Common Divisor'] },
+      { number: 4, title: 'Fractions', sections: ['What is a Fraction?', 'Multiplying Fractions', 'Dividing by a Fraction', 'Raising Fractions to Powers', 'Simplest Form of a Fraction', 'Comparing Fractions', 'Adding and Subtracting Fractions', 'Mixed Numbers'] },
+      { number: 5, title: 'Equations and Inequalities', sections: ['Expressions', 'Solving Linear Equations I', 'Solving Linear Equations II', 'Word Problems', 'Inequalities'] },
+      { number: 6, title: 'Decimals', sections: ['Arithmetic with Decimals', 'Rounding', 'Decimals and Fractions', 'Repeating Decimals'] },
+      { number: 7, title: 'Ratios, Conversions, and Rates', sections: ['What is a Ratio?', 'Multi-way Ratios', 'Proportions', 'Conversions', 'Speed', 'Other Rates'] },
+      { number: 8, title: 'Percents', sections: ['What is a Percent?', 'Word Problems', 'Percent Increase and Decrease'] },
+      { number: 9, title: 'Square Roots', sections: ['From Squares to Square Roots', 'Square Roots of Non-square Integers', 'Arithmetic with Square Roots'] },
+      { number: 10, title: 'Angles', sections: ['Measuring Angles', 'Parallel Lines', 'Angles in Polygons'] },
+      { number: 11, title: 'Perimeter and Area', sections: ['Measuring Segments', 'Area', 'Circles'] },
+      { number: 12, title: 'Right Triangles and Quadrilaterals', sections: ['The Pythagorean Theorem', 'Some Special Triangles', 'Types of Quadrilaterals'] },
+      { number: 13, title: 'Data and Statistics', sections: ['Basic Statistics', 'Limits of Basic Statistics', 'Tables, Graphs, and Charts'] },
+      { number: 14, title: 'Counting', sections: ['Counting with Addition and Subtraction', 'The Multiplication Principle', 'Casework', 'Counting Pairs', 'Probability'] },
+      { number: 15, title: 'Problem-Solving Strategies', sections: ['Find a Pattern', 'Make a List', 'Draw a Picture', 'Work Backwards'] },
+    ],
+  },
+  {
+    id: 'intro-algebra',
+    title: 'Introduction to Algebra',
+    subtitle: 'Equations, graphing, quadratics, and functions',
+    accent: 'teal',
+    chapters: [
+      { number: 1, title: 'Follow the Rules' },
+      { number: 2, title: 'x Marks the Spot' },
+      { number: 3, title: 'One-Variable Linear Equations' },
+      { number: 4, title: 'More Variables' },
+      { number: 5, title: 'Multi-Variable Linear Equations' },
+      { number: 6, title: 'Ratios and Percents' },
+      { number: 7, title: 'Proportion' },
+      { number: 8, title: 'Graphing Lines' },
+      { number: 9, title: 'Introduction to Inequalities' },
+      { number: 10, title: 'Quadratic Equations — Part 1' },
+      { number: 11, title: 'Special Factorizations' },
+      { number: 12, title: 'Complex Numbers' },
+      { number: 13, title: 'Quadratic Equations — Part 2' },
+      { number: 14, title: 'Graphing Quadratics' },
+      { number: 15, title: 'More Inequalities' },
+      { number: 16, title: 'Functions' },
+      { number: 17, title: 'Graphing Functions' },
+      { number: 18, title: 'Polynomials' },
+      { number: 19, title: 'Exponents and Logarithms' },
+      { number: 20, title: 'Special Functions' },
+      { number: 21, title: 'Sequences & Series' },
+      { number: 22, title: 'Special Manipulations' },
+    ],
+  },
+  {
+    id: 'intro-geometry',
+    title: 'Introduction to Geometry',
+    subtitle: 'Triangles, circles, polygons, and proofs',
+    accent: 'violet',
+    chapters: [
+      { number: 1, title: "What's in a Name?" },
+      { number: 2, title: 'Angles' },
+      { number: 3, title: 'Congruent Triangles' },
+      { number: 4, title: 'Perimeter and Area' },
+      { number: 5, title: 'Similar Triangles' },
+      { number: 6, title: 'Right Triangles' },
+      { number: 7, title: 'Special Parts of a Triangle' },
+      { number: 8, title: 'Quadrilaterals' },
+      { number: 9, title: 'Polygons' },
+      { number: 10, title: 'Geometric Inequalities' },
+      { number: 11, title: 'Circles' },
+      { number: 12, title: 'Circles and Angles' },
+      { number: 13, title: 'Power of a Point' },
+      { number: 14, title: 'Three-Dimensional Geometry' },
+      { number: 15, title: 'Curved Surfaces' },
+      { number: 16, title: 'The More Things Change...' },
+      { number: 17, title: 'Analytic Geometry' },
+      { number: 18, title: 'Introduction to Trigonometry' },
+      { number: 19, title: 'Problem Solving Strategies in Geometry' },
+    ],
+  },
+]
+
+export function getBook(id) {
+  return books.find((b) => b.id === id)
+}
