@@ -1006,6 +1006,275 @@ a.chapter-card:hover {
   font-size: 15px;
 }
 
+/* ---------- header nav + sync ---------- */
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-link {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--ink-soft);
+}
+
+.header-link:hover {
+  color: var(--accent-deep);
+}
+
+.sync-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--card);
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--ink-soft);
+  max-width: 160px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sync-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--line-strong);
+  flex: none;
+}
+
+.sync-ok .sync-dot {
+  background: var(--green);
+}
+
+.sync-syncing .sync-dot {
+  background: var(--gold);
+}
+
+.sync-error .sync-dot {
+  background: var(--coral);
+}
+
+/* ---------- family sync page ---------- */
+
+.sync-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sync-subhead {
+  font-size: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field span {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+
+.field input,
+.profile-new input {
+  font: inherit;
+  padding: 10px 14px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.field input:focus-visible,
+.profile-new input:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.sync-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.sync-error {
+  background: var(--rose-soft);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-weight: 700;
+}
+
+.sync-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.sync-detail {
+  color: var(--ink-soft);
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.profile-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.profile-new {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-new input {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ---------- progress page ---------- */
+
+.progress-book {
+  margin-bottom: 34px;
+}
+
+.progress-book-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.progress-book-head h2 {
+  font-size: 24px;
+}
+
+.progress-total {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--accent-deep);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 6px 14px;
+}
+
+.progress-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 12px;
+}
+
+.progress-cell {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.progress-cell:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.progress-cell-num {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 13px;
+  color: var(--accent-deep);
+}
+
+.progress-cell-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.progress-cell-meta {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
+.progress-note {
+  color: var(--ink-soft);
+}
+
+.recent-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.recent-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--card);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  padding: 10px 14px;
+}
+
+.recent-what {
+  font-weight: 700;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.recent-score {
+  margin-left: auto;
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--accent-deep);
+  white-space: nowrap;
+}
+
+.recent-when {
+  font-size: 13px;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
 /* ---------- animation + a11y ---------- */
 
 @keyframes rise {
