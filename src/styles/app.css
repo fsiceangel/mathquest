@@ -1006,6 +1006,75 @@ a.chapter-card:hover {
   font-size: 15px;
 }
 
+/* ---------- figures ---------- */
+
+.fig-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 14px 0;
+}
+
+.fig-wrap svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.fig-grid {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+
+.fig-axis {
+  stroke: var(--ink-soft);
+  stroke-width: 1.5;
+}
+
+.fig-stroke {
+  stroke: var(--ink);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.fig-shape {
+  stroke: var(--ink);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  fill: color-mix(in srgb, var(--accent) 14%, transparent);
+}
+
+.fig-curve {
+  stroke: var(--accent);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.fig-point {
+  fill: var(--ink);
+}
+
+.fig-point-open {
+  fill: var(--card);
+  stroke: var(--ink);
+  stroke-width: 2;
+}
+
+.fig-label {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 14px;
+  fill: var(--ink);
+}
+
+.fig-ticklabel {
+  font-family: var(--font-body);
+  font-size: 11px;
+  fill: var(--ink-soft);
+}
+
 /* ---------- header nav + sync ---------- */
 
 .app-header {

@@ -29,7 +29,38 @@ function checkMath(where, text) {
   }
 }
 
+const FIG_TYPES = new Set(['poly', 'seg', 'line', 'circle', 'arc', 'point', 'label', 'angle', 'right', 'tick', 'parabola', 'curve'])
+
+function checkNumbersDeep(where, value) {
+  if (typeof value === 'number') {
+    if (!Number.isFinite(value)) errors.push(`${where}: non-finite number in fig`)
+  } else if (Array.isArray(value)) {
+    value.forEach((v) => checkNumbersDeep(where, v))
+  } else if (value && typeof value === 'object') {
+    Object.values(value).forEach((v) => checkNumbersDeep(where, v))
+  }
+}
+
+function checkFig(where, fig) {
+  if (!Array.isArray(fig.view) || fig.view.length !== 4 || !fig.view.every(Number.isFinite)) {
+    errors.push(`${where}: fig.view must be [x0, y0, x1, y1]`)
+    return
+  }
+  if (fig.view[2] <= fig.view[0] || fig.view[3] <= fig.view[1]) {
+    errors.push(`${where}: fig.view is empty or inverted`)
+  }
+  if (!Array.isArray(fig.elems) || fig.elems.length === 0) {
+    errors.push(`${where}: fig.elems missing`)
+    return
+  }
+  fig.elems.forEach((e, i) => {
+    if (!e || !FIG_TYPES.has(e.t)) errors.push(`${where}: fig.elems[${i}] has unknown type "${e?.t}"`)
+    else checkNumbersDeep(`${where}.fig.elems[${i}]`, e)
+  })
+}
+
 function checkProblem(where, p, { mc }) {
+  if (p.fig) checkFig(where, p.fig)
   if (!p.q || typeof p.q !== 'string') errors.push(`${where}: missing q`)
   else checkMath(`${where}.q`, p.q)
   if (!p.solution || typeof p.solution !== 'string') errors.push(`${where}: missing solution`)
@@ -93,6 +124,7 @@ async function checkChapter(file) {
           checkMath(exid, ex.problem)
           ex.steps.forEach((st, j) => checkMath(`${exid}.step[${j}]`, st))
           checkMath(exid, ex.answer)
+          if (ex.fig) checkFig(exid, ex.fig)
         }
       })
     }

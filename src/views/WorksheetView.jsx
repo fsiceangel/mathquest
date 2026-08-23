@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { M } from '../lib/math.jsx'
 import { BackLink } from '../components/ui.jsx'
 import { Printer } from '../components/icons.jsx'
+import { Fig } from '../components/Fig.jsx'
 
 export default function WorksheetView({ book, chapter }) {
   const [showKey, setShowKey] = useState(false)
@@ -50,6 +51,7 @@ export default function WorksheetView({ book, chapter }) {
               <p className="ws-q">
                 <M>{p.q}</M>
               </p>
+              {p.fig && <Fig fig={p.fig} />}
               <div className="ws-space" />
               <p className="ws-answer-line">Answer: ______________</p>
             </li>

@@ -3,6 +3,7 @@ import { markLearned } from '../lib/storage.js'
 import { M } from '../lib/math.jsx'
 import { BackLink } from '../components/ui.jsx'
 import { Target, ArrowRight } from '../components/icons.jsx'
+import { Fig } from '../components/Fig.jsx'
 
 function Example({ example, index }) {
   const [revealed, setRevealed] = useState(0)
@@ -16,6 +17,7 @@ function Example({ example, index }) {
           <M>{example.problem}</M>
         </p>
       </header>
+      {example.fig && <Fig fig={example.fig} />}
       <ol className="example-steps">
         {example.steps.slice(0, revealed).map((step, i) => (
           <li key={i} className="example-step">

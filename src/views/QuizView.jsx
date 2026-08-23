@@ -3,6 +3,7 @@ import { saveResult, starsFor } from '../lib/storage.js'
 import { M } from '../lib/math.jsx'
 import { BackLink, ProgressRing, StarBar, Confetti } from '../components/ui.jsx'
 import { Check, Cross, Bulb, ArrowRight } from '../components/icons.jsx'
+import { Fig } from '../components/Fig.jsx'
 
 const END_MESSAGES = {
   3: 'Outstanding! You have mastered this one.',
@@ -117,6 +118,7 @@ export default function QuizView({ title, subtitle, problems, storageId, backHre
           <h2 className="q-text">
             <M>{problem.q}</M>
           </h2>
+          {problem.fig && <Fig fig={problem.fig} />}
           <div className="choices">
             {problem.choices.map((choice, i) => {
               let cls = 'choice'
