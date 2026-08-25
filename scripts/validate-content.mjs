@@ -16,9 +16,19 @@ const warnings = []
 // get checked. Base chapters are always loaded, since variations are checked
 // against them. Useful when several people are authoring at once and you only
 // want to hear about your own file.
+// Path separators are normalised to `/` on both sides, so `--only=ch03`,
+// `--only=intro-algebra/ch03-s1`, and the backslash form all behave the same.
+// A filter that matches nothing is an error, not a pass: a scoped run that
+// silently checks zero files prints the same cheerful OK as a real one.
 const onlyArg = process.argv.find((a) => a.startsWith('--only='))
-const only = onlyArg ? onlyArg.slice('--only='.length) : null
-const wanted = (file) => !only || file.includes(only)
+const only = onlyArg ? onlyArg.slice('--only='.length).replace(/\\/g, '/') : null
+let matched = 0
+const wanted = (file) => {
+  if (!only) return true
+  const hit = file.replace(/\\/g, '/').includes(only)
+  if (hit) matched += 1
+  return hit
+}
 
 function checkMath(where, text) {
   // Unescaped $ are math delimiters; \$ inside math is a literal dollar sign.
@@ -315,6 +325,10 @@ for (const ch of chapters.values()) {
 }
 
 for (const w of warnings) console.warn('WARN', w)
+if (only && matched === 0) {
+  console.error(`ERROR --only=${only} matched no files — nothing was checked.`)
+  process.exit(1)
+}
 if (errors.length) {
   for (const e of errors) console.error('ERROR', e)
   console.error(`\n${errors.length} error(s) across ${files.length + variantFiles.length + arenaFiles.length} file(s).`)
