@@ -72,16 +72,16 @@ const s105 = [
         'Let $y = x^2$, so the equation becomes $y^2 - 20y + 64 = 0$. We need two numbers with sum $-20$ and product $64$: those are $-4$ and $-16$, so $(y - 4)(y - 16) = 0$ and $y = 4$ or $y = 16$. But $y$ is not the answer — undo the substitution! $x^2 = 4$ gives $x = \\pm 2$ and $x^2 = 16$ gives $x = \\pm 4$, four solutions in all. Check two of them forward: $x = 2$ gives $16 - 80 + 64 = 0$ ✓ and $x = 4$ gives $256 - 320 + 64 = 0$ ✓. (The choice $x = 4$ or $x = 16$ stops at the $y$ values and never travels back to $x$; the choice $x = 2$ or $x = 4$ only keeps the positive square roots and drops both negative twins; the choice $x = \\pm 4$ only handles one of the two $y$ values and forgets the other.)',
     },
     {
-      q: 'What are ALL the solutions of $x^4 - 29x^2 + 100 = 0$?',
+      q: 'What are ALL the solutions of $x^4 - 45x^2 + 324 = 0$?',
       choices: [
-        '$x = 5, -5, 2, -2$',
-        '$x = 25$ or $x = 4$',
-        '$x = 5$ or $x = 2$ only',
-        '$x = 5$ or $x = -5$ only',
+        '$x = 6, -6, 3, -3$',
+        '$x = 36$ or $x = 9$',
+        '$x = 6$ or $x = 3$ only',
+        '$x = 6$ or $x = -6$ only',
       ],
       answer: 0,
       solution:
-        'With $y = x^2$ the equation becomes $y^2 - 29y + 100 = 0$. Two numbers with sum $-29$ and product $100$ are $-25$ and $-4$, so $(y - 25)(y - 4) = 0$ and $y = 25$ or $y = 4$. Now finish the trip back: $x^2 = 25$ gives $x = \\pm 5$, and $x^2 = 4$ gives $x = \\pm 2$ ✓. Check forward: $x = 5$ gives $625 - 725 + 100 = 0$ ✓ and $x = 2$ gives $16 - 116 + 100 = 0$ ✓. (The choice $x = 25$ or $x = 4$ reports the $y$ values as if they were $x$; the choice $x = 5$ or $x = 2$ only forgets that every positive $y$ hands back TWO values of $x$; the choice $x = \\pm 5$ only uses one $y$ value and throws the other away.)',
+        'With $y = x^2$ the equation becomes $y^2 - 45y + 324 = 0$. Two numbers with sum $-45$ and product $324$ are $-36$ and $-9$, so $(y - 36)(y - 9) = 0$ and $y = 36$ or $y = 9$. Now finish the trip back: $x^2 = 36$ gives $x = \\pm 6$, and $x^2 = 9$ gives $x = \\pm 3$ ✓. Check forward: $x = 6$ gives $1296 - 1620 + 324 = 0$ ✓ and $x = 3$ gives $81 - 405 + 324 = 0$ ✓. (The choice $x = 36$ or $x = 9$ reports the $y$ values as if they were $x$; the choice $x = 6$ or $x = 3$ only forgets that every positive $y$ hands back TWO values of $x$; the choice $x = \\pm 6$ only uses one $y$ value and throws the other away.)',
     },
     {
       q: 'Which of these is NOT a solution of $x^4 - 26x^2 + 25 = 0$?',

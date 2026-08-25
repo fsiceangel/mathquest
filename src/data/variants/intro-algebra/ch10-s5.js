@@ -28,10 +28,10 @@ const worksheet = [
   //      square behind a coefficient that must be divided away first.
   [
     {
-      q: 'Solve $x^2 = 144$.',
-      answer: '$x = 12$ or $x = -12$',
+      q: 'Solve $x^2 = 169$.',
+      answer: '$x = 13$ or $x = -13$',
       solution:
-        'We want every number whose square is $144$. The friendly one is $12$, since $12 \\cdot 12 = 144$. But squaring erases the minus sign, so the negative twin works too: $(-12)^2 = 144$. That gives two solutions, $x = 12$ or $x = -12$. Check forward: $12^2 = 144$ ✓ and $(-12)^2 = 144$ ✓. Stopping at $12$ alone is THE MISSING TWIN trap — every positive number has two square roots.',
+        'We want every number whose square is $169$. The friendly one is $13$, since $13 \\cdot 13 = 169$. But squaring erases the minus sign, so the negative twin works too: $(-13)^2 = 169$. That gives two solutions, $x = 13$ or $x = -13$. Check forward: $13^2 = 169$ ✓ and $(-13)^2 = 169$ ✓. Stopping at $13$ alone is THE MISSING TWIN trap — every positive number has two square roots.',
     },
     {
       q: 'Solve $x^2 - 225 = 0$.',
@@ -50,10 +50,10 @@ const worksheet = [
   //      variation flips both numbers negative.
   [
     {
-      q: 'Factor $x^2 + 9x + 20$.',
-      answer: '$(x + 4)(x + 5)$',
+      q: 'Factor $x^2 + 12x + 35$.',
+      answer: '$(x + 5)(x + 7)$',
       solution:
-        'We need two numbers that ADD to $9$ and MULTIPLY to $20$. Both the sum and the product are positive, so both numbers are positive. The pairs multiplying to $20$ are $1 \\cdot 20$ (sum $21$), $2 \\cdot 10$ (sum $12$), and $4 \\cdot 5$ (sum $9$) — the last one wins. Check forward by expanding: $(x + 4)(x + 5) = x^2 + 5x + 4x + 20 = x^2 + 9x + 20$ ✓.',
+        'We need two numbers that ADD to $12$ and MULTIPLY to $35$. Both the sum and the product are positive, so both numbers are positive. The pairs multiplying to $35$ are $1 \\cdot 35$ (sum $36$) and $5 \\cdot 7$ (sum $12$) — the second one wins. Check forward by expanding: $(x + 5)(x + 7) = x^2 + 7x + 5x + 35 = x^2 + 12x + 35$ ✓.',
     },
     {
       q: 'Factor $x^2 + 11x + 24$.',
@@ -72,16 +72,16 @@ const worksheet = [
   //      have opposite signs and the roots flip sign out of the factors.
   [
     {
-      q: 'Solve $x^2 - 3x - 40 = 0$.',
-      answer: '$x = 8$ or $x = -5$',
+      q: 'Solve $x^2 - 4x - 32 = 0$.',
+      answer: '$x = 8$ or $x = -4$',
       solution:
-        'We need two numbers with sum $-3$ and product $-40$. A negative product means opposite signs, and a negative sum means the bigger one is the negative one: $-8$ and $5$. So the equation becomes $(x - 8)(x + 5) = 0$, and a product is zero only when a factor is zero, giving $x = 8$ or $x = -5$. Watch the COPYING THE SIGN trap — the factor $(x + 5)$ produces the root $-5$. Check forward: $8^2 - 3(8) - 40 = 64 - 24 - 40 = 0$ ✓, and $(-5)^2 - 3(-5) - 40 = 25 + 15 - 40 = 0$ ✓.',
+        'We need two numbers with sum $-4$ and product $-32$. A negative product means opposite signs, and a negative sum means the bigger one is the negative one: $-8$ and $4$. So the equation becomes $(x - 8)(x + 4) = 0$, and a product is zero only when a factor is zero, giving $x = 8$ or $x = -4$. Watch the COPYING THE SIGN trap — the factor $(x + 4)$ produces the root $-4$. Check forward: $8^2 - 4(8) - 32 = 64 - 32 - 32 = 0$ ✓, and $(-4)^2 - 4(-4) - 32 = 16 + 16 - 32 = 0$ ✓.',
     },
     {
-      q: 'Solve $x^2 + 4x - 45 = 0$.',
-      answer: '$x = 5$ or $x = -9$',
+      q: 'Solve $x^2 + 7x - 30 = 0$.',
+      answer: '$x = 3$ or $x = -10$',
       solution:
-        'Sum $4$, product $-45$. Opposite signs again, and this time the sum is positive, so the bigger number is the positive one: $9$ and $-5$. Factor: $(x + 9)(x - 5) = 0$, so $x = -9$ or $x = 5$. Check forward: $5^2 + 4(5) - 45 = 25 + 20 - 45 = 0$ ✓, and $(-9)^2 + 4(-9) - 45 = 81 - 36 - 45 = 0$ ✓.',
+        'Sum $7$, product $-30$. Opposite signs again, and this time the sum is positive, so the bigger number is the positive one: $10$ and $-3$. Factor: $(x + 10)(x - 3) = 0$, so $x = -10$ or $x = 3$. Check forward: $3^2 + 7(3) - 30 = 9 + 21 - 30 = 0$ ✓, and $(-10)^2 + 7(-10) - 30 = 100 - 70 - 30 = 0$ ✓.',
     },
     {
       q: 'Solve $x^2 - 6x - 27 = 0$.',
@@ -182,10 +182,10 @@ const worksheet = [
   //      The third variation produces a y that no real x can make.
   [
     {
-      q: 'Find all real solutions of $x^4 - 20x^2 + 64 = 0$.',
-      answer: '$x = 2$, $x = -2$, $x = 4$, or $x = -4$',
+      q: 'Find all real solutions of $x^4 - 40x^2 + 144 = 0$.',
+      answer: '$x = 2$, $x = -2$, $x = 6$, or $x = -6$',
       solution:
-        'Let $y = x^2$. Then $x^4 = (x^2)^2 = y^2$, and the equation turns into the friendly $y^2 - 20y + 64 = 0$. We need sum $-20$ and product $64$: the numbers $-4$ and $-16$, so $(y - 4)(y - 16) = 0$ and $y = 4$ or $y = 16$. Do not stop here — that is THE HALFWAY STOP. Travel back: $x^2 = 4$ gives $x = \\pm 2$, and $x^2 = 16$ gives $x = \\pm 4$, four solutions in all. Check forward: $2^4 - 20(2^2) + 64 = 16 - 80 + 64 = 0$ ✓, and $4^4 - 20(4^2) + 64 = 256 - 320 + 64 = 0$ ✓. The negatives work automatically, since only even powers of $x$ appear.',
+        'Let $y = x^2$. Then $x^4 = (x^2)^2 = y^2$, and the equation turns into the friendly $y^2 - 40y + 144 = 0$. We need sum $-40$ and product $144$: the numbers $-4$ and $-36$, so $(y - 4)(y - 36) = 0$ and $y = 4$ or $y = 36$. Do not stop here — that is THE HALFWAY STOP. Travel back: $x^2 = 4$ gives $x = \\pm 2$, and $x^2 = 36$ gives $x = \\pm 6$, four solutions in all. Check forward: $2^4 - 40(2^2) + 144 = 16 - 160 + 144 = 0$ ✓, and $6^4 - 40(6^2) + 144 = 1296 - 1440 + 144 = 0$ ✓. The negatives work automatically, since only even powers of $x$ appear.',
     },
     {
       q: 'Find all real solutions of $x^4 - 34x^2 + 225 = 0$.',
@@ -233,10 +233,10 @@ const worksheet = [
         'Name the smaller root $r$; then the other is $2r$. For $x^2 + bx + c = 0$ the roots add to $-b$, so here they add to $15$: $r + 2r = 3r = 15$, giving $r = 5$. The roots are $5$ and $10$. And the roots multiply to $c$, which is $k$, so $k = 5 \\cdot 10 = 50$. Check forward: $x^2 - 15x + 50 = (x - 5)(x - 10)$, which really does have roots $5$ and $10$, and $10$ really is twice $5$ ✓.',
     },
     {
-      q: 'One root of $x^2 + 9x + k = 0$ is twice the other. Find $k$.',
-      answer: '$k = 18$',
+      q: 'One root of $x^2 + 18x + k = 0$ is twice the other. Find $k$.',
+      answer: '$k = 72$',
       solution:
-        'Let the roots be $r$ and $2r$. Their sum is $-b = -9$, so $3r = -9$ and $r = -3$ — a NEGATIVE root, which is fine; "twice" simply means $2 \\cdot (-3) = -6$. The roots are $-3$ and $-6$, and $k$ is their product: $k = (-3)(-6) = 18$, positive because two negatives multiply to a positive. Check forward: $x^2 + 9x + 18 = (x + 3)(x + 6)$, whose roots are $-3$ and $-6$ ✓, and $-6$ is twice $-3$ ✓.',
+        'Let the roots be $r$ and $2r$. Their sum is $-b = -18$, so $3r = -18$ and $r = -6$ — a NEGATIVE root, which is fine; "twice" simply means $2 \\cdot (-6) = -12$. The roots are $-6$ and $-12$, and $k$ is their product: $k = (-6)(-12) = 72$, positive because two negatives multiply to a positive. Check forward: $x^2 + 18x + 72 = (x + 6)(x + 12)$, whose roots are $-6$ and $-12$ ✓, and $-12$ is twice $-6$ ✓.',
     },
     {
       q: 'One root of $x^2 - 16x + k = 0$ is three times the other. Find $k$.',

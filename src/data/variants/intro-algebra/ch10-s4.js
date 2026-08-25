@@ -25,16 +25,16 @@ const challenge = [
   // factors. One version also has to be rearranged first.
   [
     {
-      q: 'Solve $x^2 - 3x - 40 = 0$.',
+      q: 'Solve $x^2 - 5x - 24 = 0$.',
       choices: [
-        '$x = -8$ or $x = 5$',
-        '$x = -8$ or $x = -5$',
-        '$x = 8$ or $x = -5$',
-        '$x = 8$ or $x = 5$',
+        '$x = -8$ or $x = 3$',
+        '$x = -8$ or $x = -3$',
+        '$x = 8$ or $x = -3$',
+        '$x = 8$ or $x = 3$',
       ],
       answer: 2,
       solution:
-        'We need two numbers with sum $-3$ and product $-40$. The negative product says the signs are opposite, and the negative sum says the bigger one is negative: $-8$ and $5$. So $x^2 - 3x - 40 = (x - 8)(x + 5) = 0$, giving $x = 8$ or $x = -5$ — the OPPOSITES of the numbers inside the factors. Check both forward: $64 - 24 - 40 = 0$ ✓ and $25 + 15 - 40 = 0$ ✓. (The choice $x = -8$ or $x = 5$ copies the signs straight out of the pair instead of flipping them — check it: $64 + 24 - 40 = 48$, not $0$; the choice $x = -8$ or $x = -5$ makes both numbers negative, which would give a product of $+40$; the choice $x = 8$ or $x = 5$ makes both positive, which would give a sum of $13$.)',
+        'We need two numbers with sum $-5$ and product $-24$. The negative product says the signs are opposite, and the negative sum says the bigger one is negative: $-8$ and $3$. So $x^2 - 5x - 24 = (x - 8)(x + 3) = 0$, giving $x = 8$ or $x = -3$ — the OPPOSITES of the numbers inside the factors. Check both forward: $64 - 40 - 24 = 0$ ✓ and $9 + 15 - 24 = 0$ ✓. (The choice $x = -8$ or $x = 3$ copies the signs straight out of the pair instead of flipping them — check it: $64 + 40 - 24 = 80$, not $0$; the choice $x = -8$ or $x = -3$ makes both numbers negative, which would give a product of $+24$; the choice $x = 8$ or $x = 3$ makes both positive, which would give a sum of $11$.)',
     },
     {
       q: 'Solve $x^2 + 4x - 45 = 0$.',
