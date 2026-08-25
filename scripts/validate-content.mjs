@@ -20,9 +20,27 @@ const warnings = []
 // Path separators are normalised to `/` on both sides, so `--only=ch03`,
 // `--only=intro-algebra/ch03-s1`, and the backslash form all behave the same.
 // A filter that matches nothing is an error, not a pass: a scoped run that
-// silently checks zero files prints the same cheerful OK as a real one.
-const onlyArg = process.argv.find((a) => a.startsWith('--only='))
-const only = onlyArg ? onlyArg.slice('--only='.length).replace(/\\/g, '/') : null
+// silently checks zero files prints the same cheerful OK as a real one. For the
+// same reason `--only ch03` (a space instead of an `=`) is accepted rather than
+// ignored, and an argument we do not recognise stops the run: reading OK off a
+// command that quietly did something else is worse than no check at all.
+const argv = process.argv.slice(2)
+let only = null
+for (let i = 0; i < argv.length; i += 1) {
+  const a = argv[i]
+  let value = null
+  if (a.startsWith('--only=')) value = a.slice('--only='.length)
+  else if (a === '--only') value = argv[++i] ?? ''
+  else {
+    console.error(`ERROR unknown argument ${a} — use --only=<path fragment>.`)
+    process.exit(1)
+  }
+  if (!value) {
+    console.error('ERROR --only needs a path fragment, e.g. --only=intro-algebra/ch11.')
+    process.exit(1)
+  }
+  only = value.replace(/\\/g, '/')
+}
 let matched = 0
 const wanted = (file) => {
   if (!only) return true
