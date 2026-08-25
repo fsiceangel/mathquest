@@ -4,7 +4,7 @@
 export default {
   id: 'set04',
   title: 'The Golden Bracket',
-  blurb: 'Twenty-five problems that start friendly and end with a real puzzle. Pace yourself.',
+  blurb: 'Full of counts that are easier backwards. When the thing you are asked for looks tangled, count everything else instead and subtract.',
   minutes: 40,
   problems: [
     {

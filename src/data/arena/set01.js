@@ -219,7 +219,7 @@ const problems = [
 export default {
   id: 'set01',
   title: 'The Opening Gauntlet',
-  blurb: 'Twenty-five problems that start friendly and finish tough. Bring a pencil, paper, and patience.',
+  blurb: 'A little of everything, in the order you learned it. The best paper to run first — it will show you which corners you know cold and which ones need another look.',
   minutes: 40,
   problems,
 }

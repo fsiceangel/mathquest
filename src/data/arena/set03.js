@@ -4,7 +4,7 @@
 export default {
   id: 'set03',
   title: 'The Long Afternoon',
-  blurb: 'Twenty-five problems that start easy and finish hard. Pace yourself and enjoy the climb.',
+  blurb: 'Heavy on patterns that repeat and sums that collapse. Long numbers here are usually a bluff — find the cycle and the work almost disappears.',
   minutes: 40,
   problems: [
     {

@@ -283,7 +283,7 @@ const problems = [
 export default {
   id: 'set02',
   title: 'The Clockwork Circuit',
-  blurb: 'Twenty-five problems that start easy and tighten like a spring — the last five are meant to be hard.',
+  blurb: 'The last five want an idea, not a calculation. If you find yourself doing heavy arithmetic near the end, stop and look for the shortcut hiding in the problem.',
   minutes: 40,
   problems,
 }

@@ -424,9 +424,9 @@ const s34 = {
     },
     {
       q: 'Which of these products is a prime factorization (every factor prime)?',
-      choices: ['$4 \\cdot 9$', '$2 \\cdot 3 \\cdot 7$', '$6 \\cdot 5$', '$2 \\cdot 15$'],
+      choices: ['$4 \\cdot 9$', '$2 \\cdot 3 \\cdot 7$', '$6 \\cdot 5$', '$2 \\cdot 2 \\cdot 21$'],
       answer: 1,
-      solution: 'In $2 \\cdot 3 \\cdot 7$, every factor is prime — this is the prime factorization of $42$. The others still contain composite factors that can be split further: $4 = 2^2$, $9 = 3^2$, $6 = 2 \\cdot 3$, and $15 = 3 \\cdot 5$.',
+      solution: 'In $2 \\cdot 3 \\cdot 7$, every factor is prime — this is the prime factorization of $42$. The others still contain composite factors that can be split further: $4 = 2^2$, $9 = 3^2$, $6 = 2 \\cdot 3$, and $21 = 3 \\cdot 7$. Notice that having lots of factors is not the point — $2 \\cdot 2 \\cdot 21$ has three factors and still is not finished.',
     },
     {
       q: 'What is the prime factorization of $100$?',
