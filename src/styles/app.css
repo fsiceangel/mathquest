@@ -1051,6 +1051,15 @@ a.chapter-card:hover {
   fill: none;
 }
 
+/* A highlighted segment: the shaded part of a number line, drawn thick and in
+   the accent colour so the solution set stands out against the plain axis. */
+.fig-ray {
+  stroke: var(--accent);
+  stroke-width: 5;
+  stroke-linecap: round;
+  fill: none;
+}
+
 .fig-point {
   fill: var(--ink);
 }

@@ -392,7 +392,7 @@ const s94 = {
           view: [-6, -1.5, 6, 1.5],
           elems: [
             { t: 'seg', a: [-6, 0], b: [6, 0] },
-            { t: 'seg', a: [2, 0], b: [6, 0] },
+            { t: 'seg', a: [2, 0], b: [6, 0], hl: true },
             { t: 'point', p: [2, 0], label: '2', open: true },
             { t: 'label', p: [4, 0], text: 'x > 2', dx: 0, dy: -16 },
           ],
@@ -410,7 +410,7 @@ const s94 = {
           view: [-6, -1.5, 6, 1.5],
           elems: [
             { t: 'seg', a: [-6, 0], b: [6, 0] },
-            { t: 'seg', a: [-1, 0], b: [3, 0] },
+            { t: 'seg', a: [-1, 0], b: [3, 0], hl: true },
             { t: 'point', p: [-1, 0], label: '-1' },
             { t: 'point', p: [3, 0], label: '3', open: true },
             { t: 'label', p: [1, 0], text: '-1 ≤ x < 3', dx: 0, dy: -16 },
@@ -455,7 +455,7 @@ const s94 = {
         view: [-6, -1.5, 6, 1.5],
         elems: [
           { t: 'seg', a: [-6, 0], b: [6, 0] },
-          { t: 'seg', a: [-1, 0], b: [6, 0] },
+          { t: 'seg', a: [-1, 0], b: [6, 0], hl: true },
           { t: 'point', p: [-1, 0], label: '-1', open: true },
         ],
       },
@@ -491,7 +491,7 @@ const s94 = {
         view: [-6, -1.5, 6, 1.5],
         elems: [
           { t: 'seg', a: [-6, 0], b: [6, 0] },
-          { t: 'seg', a: [-6, 0], b: [2, 0] },
+          { t: 'seg', a: [-6, 0], b: [2, 0], hl: true },
           { t: 'point', p: [2, 0], label: '2' },
         ],
       },
@@ -533,7 +533,7 @@ const s94 = {
         view: [-6, -1.5, 6, 1.5],
         elems: [
           { t: 'seg', a: [-6, 0], b: [6, 0] },
-          { t: 'seg', a: [-3, 0], b: [1, 0] },
+          { t: 'seg', a: [-3, 0], b: [1, 0], hl: true },
           { t: 'point', p: [-3, 0], label: '-3' },
           { t: 'point', p: [1, 0], label: '1' },
         ],

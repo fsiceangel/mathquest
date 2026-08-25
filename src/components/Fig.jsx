@@ -73,7 +73,7 @@ export function Fig({ fig }) {
       case 'seg':
         parts.push(
           <line key={k()} x1={X(e.a[0])} y1={Y(e.a[1])} x2={X(e.b[0])} y2={Y(e.b[1])}
-            className="fig-stroke" strokeDasharray={e.dash ? '6 5' : undefined} />,
+            className={e.hl ? 'fig-ray' : 'fig-stroke'} strokeDasharray={e.dash ? '6 5' : undefined} />,
         )
         break
       case 'line': {

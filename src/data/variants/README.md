@@ -62,6 +62,12 @@ A worksheet variation has the same shape as a base worksheet problem:
 6. **Figures are coordinate-exact.** If the base problem has a `fig`, the
    variation needs its own `fig` whose coordinates match its own numbers.
    Figure labels are plain text, never LaTeX.
+   On a number line, draw the axis as a plain `seg` and the solution set as a
+   second `seg` carrying `hl: true`. The highlight is what makes the shaded
+   part visible — an unmarked `seg` is drawn in the same ink as the axis and
+   vanishes into it, which leaves the question unanswerable. Use
+   `{ t: 'point', ..., open: true }` for a strict endpoint and plain `point`
+   for an inclusive one.
 7. **Answer positions spread out.** Do not put every correct answer in slot A.
 8. Currency inside math is written `$\$36$`. Math delimiters are `$…$`.
 
