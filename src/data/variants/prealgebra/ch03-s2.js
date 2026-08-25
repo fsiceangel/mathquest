@@ -587,11 +587,11 @@ const s36 = [
   // p5 — the add-one-to-each-exponent formula
   [
     {
-      q: 'How many divisors does $48$ have?',
+      q: 'How many divisors does $80$ have?',
       choices: ['$10$', '$4$', '$7$', '$5$'],
       answer: 0,
       solution:
-        'Factor: $48 = 2^4 \\cdot 3$. Add $1$ to each exponent and MULTIPLY: $(4+1)(1+1) = 5 \\times 2 = 10$. Multiplying the bare exponents gives $4$, adding the two counts gives $5 + 2 = 7$, and using only the $2$s gives $5$.',
+        'Factor: $80 = 2^4 \\cdot 5$. Add $1$ to each exponent and MULTIPLY: $(4+1)(1+1) = 5 \\times 2 = 10$. Listing confirms it: $1, 2, 4, 5, 8, 10, 16, 20, 40, 80$. ✓ Multiplying the bare exponents gives $4$, adding the two counts gives $5 + 2 = 7$, and using only the $2$s gives $5$.',
     },
     {
       q: 'How many divisors does $60$ have?',

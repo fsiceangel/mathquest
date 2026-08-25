@@ -570,11 +570,11 @@ const challenge = [
         'Four products, coefficients included: $2x \\cdot y = 2xy$, $2x \\cdot 4 = 8x$, $3 \\cdot y = 3y$, $3 \\cdot 4 = 12$. Together: $2xy + 8x + 3y + 12$. Test $x = 1$, $y = 2$: the original is $(5)(6) = 30$, and $4 + 8 + 6 + 12 = 30$. ✓ ($2xy + 12$ keeps only the firsts and the lasts; $2xy + 8x + 3y + 7$ ADDS $3 + 4$ instead of multiplying them; $2xy + 6x + 4y + 12$ pairs each number with the wrong letter — the $4$ lives with $2x$ and the $3$ lives with $y$, not the other way round.)',
     },
     {
-      q: 'Expand $(m + 4)(m + n)$.',
-      choices: ['$m^2 + 4n$', '$m^2 + mn + 4m + 4n$', '$m^2 + 5mn + 4n$', '$m^2 + mn + 4n$'],
+      q: 'Expand $(p + 7)(p + q)$.',
+      choices: ['$p^2 + 7q$', '$p^2 + pq + 7p + 7q$', '$p^2 + 8pq + 7q$', '$p^2 + pq + 7q$'],
       answer: 1,
       solution:
-        'The four products are $m \\cdot m = m^2$, $m \\cdot n = mn$, $4 \\cdot m = 4m$, $4 \\cdot n = 4n$. The terms $mn$ and $4m$ are NOT like terms, so all four stay: $m^2 + mn + 4m + 4n$. Test $m = 3$, $n = -1$: the original is $(7)(2) = 14$, and $9 - 3 + 12 - 4 = 14$. ✓ ($m^2 + 4n$ keeps only the outer pair of products; $m^2 + 5mn + 4n$ merges $mn$ and $4m$ into $5mn$; $m^2 + mn + 4n$ drops the $4m$ entirely.)',
+        'The four products are $p \\cdot p = p^2$, $p \\cdot q = pq$, $7 \\cdot p = 7p$, $7 \\cdot q = 7q$. The terms $pq$ and $7p$ are NOT like terms, so all four stay: $p^2 + pq + 7p + 7q$. Test $p = 2$, $q = 3$: the original is $(9)(5) = 45$, and $4 + 6 + 14 + 21 = 45$. ✓ ($p^2 + 7q$ keeps only the outer pair of products; $p^2 + 8pq + 7q$ merges $pq$ and $7p$ into $8pq$; $p^2 + pq + 7q$ drops the $7p$ entirely.)',
     },
   ],
   // 4. Pull out the GREATEST common factor and check by expanding.

@@ -56,10 +56,10 @@ const challenge = [
   // 3. Numbers balanced around a round centre: (n - d)(n + d) = n^2 - d^2.
   [
     {
-      q: 'Compute $48 \\times 52$.',
-      choices: ['$2496$', '$2500$', '$2504$', '$2498$'],
+      q: 'Compute $84 \\times 96$.',
+      choices: ['$8064$', '$8100$', '$8136$', '$8094$'],
       answer: 0,
-      solution: 'The two factors sit the same distance from $50$, so write them as $(50 - 2)(50 + 2)$ and distribute twice: $2500 + 100 - 100 - 4$. The middle terms cancel, leaving $2500 - 4 = 2496$. ($2500$ is just $50^2$, with the $-4$ dropped; $2504$ adds the $4$ instead of subtracting it; $2498$ subtracts the distance $2$ rather than its square.)',
+      solution: 'The two factors sit the same distance from $90$, so write them as $(90 - 6)(90 + 6)$ and distribute twice: $8100 + 540 - 540 - 36$. The middle terms cancel, leaving $8100 - 36 = 8064$. ($8100$ is just $90^2$, with the $-36$ dropped; $8136$ adds the $36$ instead of subtracting it; $8094$ subtracts the distance $6$ rather than its square.)',
     },
     {
       q: 'Compute $95 \\times 105$.',
@@ -351,9 +351,9 @@ const worksheet = [
       solution: 'Cube root first: $125^{1/3} = 5$, because $5^3 = 125$. Then square: $5^2 = 25$.',
     },
     {
-      q: 'Evaluate $16^{5/4}$.',
-      answer: '$32$',
-      solution: 'Fourth root first: $16^{1/4} = 2$, because $2^4 = 16$. Then raise to the fifth power: $2^5 = 32$. Notice the exponent is bigger than $1$, so the answer is bigger than $16$ — as it must be.',
+      q: 'Evaluate $27^{4/3}$.',
+      answer: '$81$',
+      solution: 'Cube root first: $27^{1/3} = 3$, because $3^3 = 27$. Then raise to the fourth power: $3^4 = 81$. Notice the exponent is bigger than $1$, so the answer is bigger than $27$ — as it must be.',
     },
   ],
   // 6. Pull out the LARGEST perfect square.
@@ -364,9 +364,9 @@ const worksheet = [
       solution: 'The largest perfect square dividing $147$ is $49$, since $147 = 49 \\cdot 3$. Split the root: $\\sqrt{147} = \\sqrt{49} \\cdot \\sqrt{3} = 7\\sqrt{3}$. Check: $\\left(7\\sqrt{3}\\right)^2 = 49 \\cdot 3 = 147$. ✓',
     },
     {
-      q: 'Simplify $\\sqrt{200}$.',
-      answer: '$10\\sqrt{2}$',
-      solution: 'The largest perfect square dividing $200$ is $100$: $\\sqrt{200} = \\sqrt{100} \\cdot \\sqrt{2} = 10\\sqrt{2}$. Check: $\\left(10\\sqrt{2}\\right)^2 = 100 \\cdot 2 = 200$. ✓ (Using $200 = 4 \\cdot 50$ gives $2\\sqrt{50}$, which is correct but unfinished — $\\sqrt{50}$ still hides a square factor.)',
+      q: 'Simplify $\\sqrt{108}$.',
+      answer: '$6\\sqrt{3}$',
+      solution: 'The largest perfect square dividing $108$ is $36$: $\\sqrt{108} = \\sqrt{36} \\cdot \\sqrt{3} = 6\\sqrt{3}$. Check: $\\left(6\\sqrt{3}\\right)^2 = 36 \\cdot 3 = 108$. ✓ (Using $108 = 4 \\cdot 27$ gives $2\\sqrt{27}$, which is correct but unfinished — $\\sqrt{27}$ still hides a square factor.)',
     },
     {
       q: 'Simplify $\\sqrt{252}$.',

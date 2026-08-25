@@ -3,8 +3,9 @@
 //  - every MC question has 4 unique choices and an in-range answer index
 //  - every $...$ math chunk parses under KaTeX (throwOnError)
 //  - warns when correct answers cluster on one choice position
+//  - no question repeats anywhere within a chapter, base or variation
 import { readdirSync } from 'node:fs'
-import { join, dirname } from 'node:path'
+import { join, dirname, basename } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import katex from 'katex'
 
@@ -312,6 +313,88 @@ for (const f of arenaFiles.filter(wanted)) {
     await checkArenaSet(f)
   } catch (e) {
     errors.push(`${f}: failed to load — ${e.message}`)
+  }
+}
+
+// Every question a student can meet inside one chapter — the base problems plus
+// every authored variation — has to be a different question. Variations for one
+// chapter are usually split across several files written independently, and two
+// authors starting from adjacent base problems land on the same one surprisingly
+// often. No per-file check can see that, so this pass reads the whole chapter at
+// once. It always reads EVERY variation file, even under --only, because a
+// repeat by definition involves a file you are not editing.
+const chapterQuestions = new Map()
+
+function registerQuestion(book, number, where, q) {
+  if (!q) return
+  const key = `${book}/ch${number}`
+  if (!chapterQuestions.has(key)) chapterQuestions.set(key, [])
+  chapterQuestions.get(key).push({ where, q })
+}
+
+for (const [key, ch] of chapters) {
+  const [book, number] = key.split('/')
+  for (const s of ch.sections ?? []) {
+    s.problems?.forEach((p, i) => registerQuestion(book, number, `base §${s.id}[${i + 1}]`, p?.q))
+  }
+  ch.challenge?.forEach((p, i) => registerQuestion(book, number, `base challenge[${i + 1}]`, p?.q))
+  ch.worksheet?.forEach((p, i) => registerQuestion(book, number, `base worksheet[${i + 1}]`, p?.q))
+}
+
+for (const f of variantFiles) {
+  let v
+  try {
+    v = (await import(pathToFileURL(f).href)).default
+  } catch {
+    continue // the load failure is already reported by checkVariants
+  }
+  if (!v?.book || !v.number) continue
+  const tag = basename(f, '.js')
+  const walk = (label, table) => {
+    if (!Array.isArray(table)) return
+    table.forEach((vs, i) => {
+      if (!Array.isArray(vs)) return
+      vs.forEach((p, j) => registerQuestion(v.book, v.number, `${tag} ${label}[${i + 1}]v${j + 1}`, p?.q))
+    })
+  }
+  for (const [sid, table] of Object.entries(v.sections || {})) walk(`§${sid}`, table)
+  walk('challenge', v.challenge)
+  walk('worksheet', v.worksheet)
+}
+
+// The digits in a question are its fingerprint. Same numbers in the same order
+// and one wording contained in the other is a repeat wearing a hat — "Simplify
+// $\sqrt{54}$" and "Simplify $\sqrt{54}$ completely". Anything looser than
+// containment fires constantly on these short formulaic questions ("area of a
+// circle with diameter 6" vs "perimeter of a semicircle with radius 6"), so the
+// test stays strict. The stripped form keeps `+` and `-` because moving a sign
+// makes a genuinely different question: "$x^2 - 11x + 24$" is not "$x^2 + 11x + 24$".
+const numSig = (q) => (q.match(/[0-9]+/g) || []).join(',')
+const stripped = (q) => q.toLowerCase().replace(/[^a-z0-9+-]+/g, '')
+
+for (const [chapterId, list] of chapterQuestions) {
+  const byText = new Map()
+  const byNumbers = new Map()
+  for (const item of list) {
+    const text = normQ(item.q)
+    const twin = byText.get(text)
+    if (twin) {
+      errors.push(`${chapterId}: ${twin.where} and ${item.where} are the same question`)
+      continue
+    }
+    byText.set(text, item)
+    const sig = numSig(item.q)
+    if (!sig) continue
+    if (!byNumbers.has(sig)) byNumbers.set(sig, [])
+    for (const other of byNumbers.get(sig)) {
+      const a = stripped(item.q)
+      const b = stripped(other.q)
+      const [short, long] = a.length <= b.length ? [a, b] : [b, a]
+      if (long.includes(short)) {
+        errors.push(`${chapterId}: ${other.where} and ${item.where} are the same question reworded`)
+      }
+    }
+    byNumbers.get(sig).push(item)
   }
 }
 

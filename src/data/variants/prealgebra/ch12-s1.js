@@ -74,11 +74,11 @@ const s121 = [
         'Square and add: $100 + 576 = 676$, and $26^2 = 676$, so the hypotenuse is $26$. This is the $5$-$12$-$13$ triple doubled: $10$-$24$-$26$. ($34$ is the trap of adding $10 + 24$ instead of adding the squares; $676$ is $c^2$, one step short of the answer; and $14$ is $24 - 10$, subtracting when the missing side is the hypotenuse.)',
     },
     {
-      q: 'A right triangle has legs of length $9$ and $40$. Find the hypotenuse.',
-      choices: ['$49$', '$1681$', '$41$', '$31$'],
+      q: 'A right triangle has legs of length $8$ and $15$. Find the hypotenuse.',
+      choices: ['$23$', '$289$', '$17$', '$7$'],
       answer: 2,
       solution:
-        'Both given sides are legs, so add their squares: $81 + 1600 = 1681$. Since $41^2 = 1681$, the hypotenuse is $41$ — the $9$-$40$-$41$ triple. ($49$ comes from adding $9 + 40$ without squaring; $1681$ is $c^2$ and still needs its square root; $31$ is $40 - 9$, which subtracts when this problem adds.)',
+        'Both given sides are legs, so add their squares: $64 + 225 = 289$. Since $17^2 = 289$, the hypotenuse is $17$ — the $8$-$15$-$17$ triple. ($23$ comes from adding $8 + 15$ without squaring; $289$ is $c^2$ and still needs its square root; $7$ is $15 - 8$, which subtracts when this problem adds.)',
     },
     {
       q: 'The legs of a right triangle measure $12$ and $35$. How long is the hypotenuse?',

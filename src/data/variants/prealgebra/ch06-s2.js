@@ -163,11 +163,11 @@ const s63 = [
         'Convert the fractions: $\\frac{1}{4} = 0.25$ and $\\frac{2}{5} = 0.4$. Now line all four up as hundredths: $0.25$, $0.30$, $0.24$, $0.40$. The smallest is $0.24$, which slips just one hundredth below $\\frac{1}{4}$. Choosing $0.3$ because it has the fewest digits confuses length with size.',
     },
     {
-      q: 'Which of these numbers is the largest?',
-      choices: ['$\\frac{2}{5}$', '$0.35$', '$\\frac{3}{8}$', '$0.42$'],
-      answer: 3,
+      q: 'Which of these numbers has the greatest value?',
+      choices: ['$\\frac{5}{8}$', '$0.72$', '$\\frac{7}{10}$', '$0.66$'],
+      answer: 1,
       solution:
-        'Convert the fractions: $\\frac{2}{5} = 0.400$ and $\\frac{3}{8} = 0.375$. Comparing $0.400$, $0.350$, $0.375$, and $0.420$ shows that $0.42$ is the biggest. It is tempting to assume a fraction must beat a decimal, but $\\frac{2}{5}$ falls two hundredths short.',
+        'Convert the fractions: $\\frac{5}{8} = 0.625$ and $\\frac{7}{10} = 0.700$. Comparing $0.625$, $0.720$, $0.700$, and $0.660$ shows that $0.72$ is the biggest. It is tempting to assume a fraction must beat a decimal, but $\\frac{7}{10}$ falls two hundredths short.',
     },
   ],
   // p8 — eighths and sixteenths as decimals
@@ -431,11 +431,11 @@ const s64 = [
         'Line them up: $0.\\overline{5} = 0.5555\\ldots$ and $0.55 = 0.5500\\ldots$ The first two digits match exactly, and then in the thousandths place the repeating decimal has a $5$ where $0.55$ has a $0$. So $0.\\overline{5}$ is greater — but only by a whisker.',
     },
     {
-      q: 'Which of these numbers is the smallest?',
-      choices: ['$0.\\overline{4}$', '$0.45$', '$0.4\\overline{5}$', '$0.444$'],
+      q: 'Which of these numbers is the least?',
+      choices: ['$0.\\overline{6}$', '$0.68$', '$0.6\\overline{8}$', '$0.666$'],
       answer: 3,
       solution:
-        'Write four places for each: $0.\\overline{4} = 0.4444\\ldots$, $0.45 = 0.4500$, $0.4\\overline{5} = 0.4555\\ldots$, and $0.444 = 0.4440$. All have $4$ tenths. In the hundredths, $0.\\overline{4}$ and $0.444$ show a $4$ while the other two show a $5$, so the smallest is one of that pair; they tie again in the thousandths, and in the ten-thousandths $0.\\overline{4}$ has another $4$ while $0.444$ has run out. So $0.444$ is smallest — a decimal that stops is not automatically the biggest OR the smallest.',
+        'Write four places for each: $0.\\overline{6} = 0.6666\\ldots$, $0.68 = 0.6800$, $0.6\\overline{8} = 0.6888\\ldots$, and $0.666 = 0.6660$. All have $6$ tenths. In the hundredths, $0.\\overline{6}$ and $0.666$ show a $6$ while the other two show an $8$, so the least is one of that pair; they tie again in the thousandths, and in the ten-thousandths $0.\\overline{6}$ has another $6$ while $0.666$ has run out. So $0.666$ is least — a decimal that stops is not automatically the biggest OR the smallest.',
     },
   ],
   // p8 — two-digit repeating blocks from elevenths and thirty-thirds

@@ -505,10 +505,10 @@ const challenge = [
     solution: 'Build the denominator to $1000$: since $40 \\times 25 = 1000$, multiply top and bottom by $25$ to get $\\frac{325}{1000} = 0.325$. It terminates because $40 = 2 \\times 2 \\times 2 \\times 5$ has only $2$s and $5$s.',
   },
   {
-    q: 'Which of these fractions terminates when written as a decimal?',
-    choices: ['$\\frac{5}{18}$', '$\\frac{6}{21}$', '$\\frac{14}{35}$', '$\\frac{3}{11}$'],
-    answer: 2,
-    solution: 'Reduce before judging! $\\frac{14}{35} = \\frac{2}{5}$, and $5$ is fine — it terminates as $0.4$. The others reduce to $\\frac{5}{18}$, $\\frac{2}{7}$, and $\\frac{3}{11}$, whose denominators contain $3$, $7$, and $11$ — so they all repeat.',
+    q: 'Reduce first, then decide: which of these fractions gives a decimal that stops?',
+    choices: ['$\\frac{12}{45}$', '$\\frac{9}{24}$', '$\\frac{10}{22}$', '$\\frac{7}{30}$'],
+    answer: 1,
+    solution: 'Reduce before judging! $\\frac{9}{24} = \\frac{3}{8}$, and $8 = 2 \\times 2 \\times 2$ has nothing but $2$s — so it terminates as $0.375$. (Judged unreduced, the $3$ inside $24$ would have fooled you.) The others reduce to $\\frac{4}{15}$, $\\frac{5}{11}$, and $\\frac{7}{30}$, whose denominators still contain $3$, $11$, and $3$ — so they all repeat.',
   },
   {
     q: 'Write $0.\\overline{54}$ as a fraction in simplest form.',

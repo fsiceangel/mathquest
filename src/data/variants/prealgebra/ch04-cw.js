@@ -432,10 +432,10 @@ const challenge = [
   // 1. Hop size on a number line that does not stop at 1.
   [
     {
-      q: 'The space from $0$ to $2$ is split into $10$ equal hops. What number is at the $7$th tick mark after $0$?',
-      choices: ['$\\frac{7}{5}$', '$\\frac{7}{10}$', '$\\frac{10}{7}$', '$\\frac{3}{5}$'],
+      q: 'The space from $0$ to $6$ is split into $8$ equal hops. What number is at the $5$th tick mark after $0$?',
+      choices: ['$\\frac{15}{4}$', '$\\frac{5}{8}$', '$\\frac{8}{5}$', '$\\frac{9}{4}$'],
       answer: 0,
-      solution: 'Ten hops cover a distance of $2$, so each hop is $2 \\div 10 = \\frac{1}{5}$ — fifths, not tenths, because the line runs to $2$. Seven hops reach $7 \\times \\frac{1}{5} = \\frac{7}{5}$. Treating the hops as tenths gives $\\frac{7}{10}$, flipping gives $\\frac{10}{7}$, and counting the $3$ hops left over at the far end gives $\\frac{3}{5}$.',
+      solution: 'Eight hops cover a distance of $6$, so each hop is $6 \\div 8 = \\frac{3}{4}$ — three quarters, not eighths, because the line runs to $6$. Five hops reach $5 \\times \\frac{3}{4} = \\frac{15}{4}$, a little under $4$. Treating the hops as eighths gives $\\frac{5}{8}$, flipping gives $\\frac{8}{5}$, and counting the $3$ hops left over at the far end gives $\\frac{9}{4}$.',
     },
     {
       q: 'The space from $0$ to $5$ is split into $20$ equal hops. What number is at the $9$th tick mark after $0$?',

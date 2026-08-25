@@ -486,18 +486,18 @@ const s94 = {
       solution: 'Substitute $(0,0)$: the inequality becomes $0 \\le 0 + 3$, that is, $0 \\le 3$ — true. A true result means the test point is a solution, so shade its side. (And $(0,0)$ is not on the line, since $0 \\ne 3$, so it is a legal test point.)',
     },
     {
-      q: 'Which inequality matches this graph?',
+      q: 'What inequality does this number line show?',
       fig: {
         view: [-6, -1.5, 6, 1.5],
         elems: [
           { t: 'seg', a: [-6, 0], b: [6, 0] },
-          { t: 'seg', a: [-6, 0], b: [2, 0], hl: true },
-          { t: 'point', p: [2, 0], label: '2' },
+          { t: 'seg', a: [-6, 0], b: [-4, 0], hl: true },
+          { t: 'point', p: [-4, 0], label: '-4' },
         ],
       },
-      choices: ['$x < 2$', '$x \\ge 2$', '$x > 2$', '$x \\le 2$'],
+      choices: ['$x \\ge -4$', '$x < -4$', '$x > -4$', '$x \\le -4$'],
       answer: 3,
-      solution: 'The dot at $2$ is closed (filled), so $2$ is included: the symbol has an "or equal." The shading heads left, meaning less. Together: $x \\le 2$.',
+      solution: 'The dot at $-4$ is closed (filled), so $-4$ is included: the symbol has an "or equal." The shading heads left, meaning less. Together: $x \\le -4$. Check it forward: $-5$ lies in the shaded part and satisfies $-5 \\le -4$ ✓, while $-3$ is unshaded and fails. (The two strict choices ignore the filled dot, and the two "greater" choices shade the wrong direction.)',
     },
     {
       q: 'Which of these points satisfies $y < 2x$?',

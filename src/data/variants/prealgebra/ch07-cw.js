@@ -337,9 +337,9 @@ const worksheet = [
       solution: 'Distance equals rate times time: $d = 28 \\times 3.5 = 98$ km. (Half of $28$ is $14$, so $28 \\times 3.5 = 84 + 14 = 98$.)',
     },
     {
-      q: 'A cyclist covers $84$ km in $4$ hours. What is her average speed?',
-      answer: '$21$ km/h',
-      solution: 'Speed is distance divided by time: $\\frac{84 \\text{ km}}{4 \\text{ h}} = 21$ km/h. The unit check confirms it — kilometers divided by hours gives km/h.',
+      q: 'A train covers $138$ km in $3$ hours. What is its average speed?',
+      answer: '$46$ km/h',
+      solution: 'Speed is distance divided by time: $\\frac{138 \\text{ km}}{3 \\text{ h}} = 46$ km/h. Check by going forward: $46 \\times 3 = 138$ km. ✓ The unit check agrees too — kilometers divided by hours gives km/h.',
     },
     {
       q: 'How long does it take to drive $270$ km at $60$ km/h?',

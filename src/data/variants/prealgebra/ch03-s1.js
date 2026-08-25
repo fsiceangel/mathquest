@@ -301,11 +301,11 @@ const s32 = [
   // p3 — divisibility by 3 via digit sum
   [
     {
-      q: 'Use the digit-sum test to decide: which of these numbers is divisible by $3$?',
-      choices: ['$471$', '$472$', '$473$', '$475$'],
-      answer: 0,
+      q: 'Only one of these four numbers survives the digit-sum test for $3$. Which one?',
+      choices: ['$614$', '$615$', '$617$', '$619$'],
+      answer: 1,
       solution:
-        'Add the digits of each: $4 + 7 + 1 = 12$, $4 + 7 + 2 = 13$, $4 + 7 + 3 = 14$, $4 + 7 + 5 = 16$. Only $12$ is a multiple of $3$, so only $471$ passes. Check: $471 = 3 \\times 157$. ✓',
+        'Add the digits of each: $6 + 1 + 4 = 11$, $6 + 1 + 5 = 12$, $6 + 1 + 7 = 14$, $6 + 1 + 9 = 16$. Only $12$ is a multiple of $3$, so only $615$ passes. Check: $615 = 3 \\times 205$. ✓',
     },
     {
       q: 'Which of these numbers is NOT divisible by $3$?',

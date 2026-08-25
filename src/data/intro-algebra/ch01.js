@@ -949,10 +949,10 @@ const challenge = [
     solution: 'Compare the squares: $\\left(\\sqrt{50}\\right)^2 = 50$ and $7^2 = 49$. Since $50 > 49$ and both numbers are positive, $\\sqrt{50} > 7$. Squaring is a fair referee for positive numbers.',
   },
   {
-    q: 'Solve $5(x - 2) = 3x + 8$.',
-    choices: ['$3$', '$-1$', '$5$', '$9$'],
+    q: 'Solve $7(x - 3) = 4x + 9$.',
+    choices: ['$4$', '$-4$', '$30$', '$10$'],
     answer: 3,
-    solution: 'Distribute first: $5x - 10 = 3x + 8$. Subtract $3x$ from both sides: $2x - 10 = 8$. Add $10$: $2x = 18$, so $x = 9$. Check: $5(9 - 2) = 35$ and $3 \\cdot 9 + 8 = 35$. ✓',
+    solution: 'Distribute first: $7x - 21 = 4x + 9$. Subtract $4x$ from both sides: $3x - 21 = 9$. Add $21$: $3x = 30$, so $x = 10$. Check: $7(10 - 3) = 7 \\cdot 7 = 49$ and $4 \\cdot 10 + 9 = 49$. ✓ (Choosing $4$ hands the $7$ only to the $x$ and leaves the $-3$ alone; $-4$ subtracts the $21$ instead of adding it; $30$ stops before the last division by $3$.)',
   },
   {
     q: 'Evaluate $\\left(\\frac{1}{4}\\right)^{-3/2}$.',

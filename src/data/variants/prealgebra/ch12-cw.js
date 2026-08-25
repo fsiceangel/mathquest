@@ -359,9 +359,9 @@ const worksheet = [
       solution: 'All four sides of a rhombus are equal, so each side is $68 \\div 4 = 17$.',
     },
     {
-      q: 'A rhombus has sides of length $9$. What is its perimeter?',
-      answer: '$36$',
-      solution: 'A rhombus has four equal sides, so the perimeter is $4 \\times 9 = 36$. (Do not reach for $9^2 = 81$ — that would be an area, and it is not even the area of this rhombus unless it happens to be a square.)',
+      q: 'A rhombus has sides of length $14$. What is its perimeter?',
+      answer: '$56$',
+      solution: 'A rhombus has four equal sides, so the perimeter is $4 \\times 14 = 56$. (Do not reach for $14^2 = 196$ — that would be an area, and it is not even the area of this rhombus unless it happens to be a square.)',
     },
     {
       q: 'A rhombus has a perimeter of $100$. How long is each side?',

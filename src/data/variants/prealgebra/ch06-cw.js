@@ -158,10 +158,10 @@ const challenge = [
       solution: 'The block has TWO digits, so multiply by $100$: if $x = 0.6363\\ldots$, then $100x = 63.6363\\ldots$, and subtracting $x$ cancels the endless tails: $99x = 63$. So $x = \\frac{63}{99} = \\frac{7}{11}$ after dividing top and bottom by $9$. ($\\frac{63}{100} = 0.63$ stops, so it is a different number; $\\frac{63}{90}$ comes from subtracting $10x$ instead of $x$; $\\frac{63}{999}$ uses the $999$ that belongs to a THREE-digit block.)',
     },
     {
-      q: 'Write $0.\\overline{18}$ as a fraction in simplest form.',
-      choices: ['$\\frac{9}{50}$', '$\\frac{2}{11}$', '$\\frac{18}{90}$', '$\\frac{2}{9}$'],
-      answer: 1,
-      solution: 'Two repeating digits, so multiply by $100$: with $x = 0.1818\\ldots$, we get $100x = 18.1818\\ldots$ and $100x - x = 99x = 18$. So $x = \\frac{18}{99} = \\frac{2}{11}$ after dividing top and bottom by $9$. ($\\frac{9}{50} = 0.18$ exactly, which stops; $\\frac{18}{90}$ comes from subtracting $10x$ by mistake; $\\frac{2}{9} = 0.\\overline{2}$ treats this as a one-digit block.)',
+      q: 'Write $0.\\overline{27}$ as a fraction in simplest form.',
+      choices: ['$\\frac{27}{100}$', '$\\frac{27}{90}$', '$\\frac{3}{11}$', '$\\frac{27}{999}$'],
+      answer: 2,
+      solution: 'Two repeating digits, so multiply by $100$: with $x = 0.2727\\ldots$, we get $100x = 27.2727\\ldots$ and $100x - x = 99x = 27$. So $x = \\frac{27}{99} = \\frac{3}{11}$ after dividing top and bottom by $9$. Check: $3 \\div 11 = 0.2727\\ldots$ ✓ ($\\frac{27}{100} = 0.27$ exactly, which stops; $\\frac{27}{90} = 0.3$ comes from subtracting $10x$ by mistake; $\\frac{27}{999}$ uses the $999$ that belongs to a THREE-digit block.)',
     },
     {
       q: 'Write $0.\\overline{72}$ as a fraction in simplest form.',
@@ -185,10 +185,10 @@ const challenge = [
       solution: 'Write five digits of each: $0.\\overline{71} = 0.71717$, $0.717 = 0.71700$, $0.71\\overline{7} = 0.71777$, and $0.7\\overline{1} = 0.71111$. All start $0.71$, so look at the thousandths: three of them have a $7$ and $0.7\\overline{1}$ has a $1$, which knocks it out. Among the rest the ten-thousandths place decides: $0.71\\overline{7}$ has a $7$ there while the others have $1$ and $0$.',
     },
     {
-      q: 'Which of these numbers is the smallest?',
-      choices: ['$0.585$', '$0.58\\overline{5}$', '$0.\\overline{58}$', '$0.5\\overline{8}$'],
+      q: 'Which of these numbers sits furthest to the LEFT on the number line?',
+      choices: ['$0.272$', '$0.27\\overline{2}$', '$0.\\overline{27}$', '$0.2\\overline{7}$'],
       answer: 0,
-      solution: 'Write five digits of each: $0.585 = 0.58500$, $0.58\\overline{5} = 0.58555$, $0.\\overline{58} = 0.58585$, and $0.5\\overline{8} = 0.58888$. All four agree on $0.58$, and $0.5\\overline{8}$ pulls ahead at the thousandths with its $8$. The other three all show $5$ there, so the ten-thousandths place settles it: $0$ beats $5$ and $5$, so $0.585$ — the one that simply stops — is the smallest.',
+      solution: 'Write five digits of each: $0.272 = 0.27200$, $0.27\\overline{2} = 0.27222$, $0.\\overline{27} = 0.27272$, and $0.2\\overline{7} = 0.27777$. All four agree on $0.27$, and $0.2\\overline{7}$ pulls ahead at the thousandths with its $7$. The other three all show $2$ there, so the ten-thousandths place settles it: $0$ beats $2$ and $7$, so $0.272$ — the one that simply stops — sits furthest left.',
     },
   ],
   // 10. Multiplying by a decimal that is really a familiar fraction.
@@ -360,9 +360,9 @@ const worksheet = [
       solution: 'Since $40 \\times 25 = 1000$, multiply top and bottom by $25$: $\\frac{9}{40} = \\frac{225}{1000} = 0.225$. Sense check: $\\frac{9}{40}$ is a little less than $\\frac{10}{40} = 0.25$. ✓',
     },
     {
-      q: 'Write $\\frac{3}{8}$ as a decimal.',
-      answer: '$0.375$',
-      solution: 'Since $8 \\times 125 = 1000$, multiply top and bottom by $125$: $\\frac{3}{8} = \\frac{375}{1000} = 0.375$.',
+      q: 'Write $\\frac{7}{16}$ as a decimal.',
+      answer: '$0.4375$',
+      solution: 'Since $16 \\times 625 = 10000$, multiply top and bottom by $625$: $\\frac{7}{16} = \\frac{4375}{10000} = 0.4375$. Sense check: $\\frac{7}{16}$ is a little less than $\\frac{8}{16} = 0.5$. ✓',
     },
   ],
   // 7. Dividing by a decimal divisor.
@@ -396,17 +396,17 @@ const worksheet = [
       solution: 'Write out digits: $0.\\overline{81} = 0.81818\\ldots$ and $0.815 = 0.81500\\ldots$ They tie through the hundredths at $0.81$, so the thousandths place decides: $8 > 5$, making $0.\\overline{81}$ greater. Careful — the bar covers the PAIR $81$, so the digits go $8, 1, 8, 1, \\ldots$',
     },
     {
-      q: 'Which is greater: $0.\\overline{3}$ or $0.34$?',
-      answer: '$0.34$',
-      solution: 'Write out digits: $0.\\overline{3} = 0.3333\\ldots$ and $0.34 = 0.3400\\ldots$ The tenths tie at $3$, but in the hundredths place $4 > 3$ — so $0.34$ is greater, even though the other number never ends. Going on forever does not automatically make a number bigger!',
+      q: 'Which is greater: $0.\\overline{2}$ or $0.23$?',
+      answer: '$0.23$',
+      solution: 'Write out digits: $0.\\overline{2} = 0.2222\\ldots$ and $0.23 = 0.2300\\ldots$ The tenths tie at $2$, but in the hundredths place $3 > 2$ — so $0.23$ is greater, even though the other number never ends. Going on forever does not automatically make a number bigger!',
     },
   ],
   // 9. Long division into a repeating decimal, with the bar placed correctly.
   [
     {
-      q: 'Write $\\frac{5}{12}$ as a decimal, using a bar for any repeating part.',
-      answer: '$0.41\\overline{6}$',
-      solution: 'Divide: $50 \\div 12$ is $4$ remainder $2$; then $20 \\div 12$ is $1$ remainder $8$; then $80 \\div 12$ is $6$ remainder $8$. The remainder $8$ has come back, so from here every digit is $6$: $\\frac{5}{12} = 0.41666\\ldots = 0.41\\overline{6}$. The bar covers only the $6$ — the $4$ and the $1$ happen once. (We knew it would repeat, since $12 = 2 \\times 2 \\times 3$ contains a $3$.)',
+      q: 'Write $\\frac{11}{12}$ as a decimal, using a bar for any repeating part.',
+      answer: '$0.91\\overline{6}$',
+      solution: 'Divide: $110 \\div 12$ is $9$ remainder $2$; then $20 \\div 12$ is $1$ remainder $8$; then $80 \\div 12$ is $6$ remainder $8$. The remainder $8$ has come back, so from here every digit is $6$: $\\frac{11}{12} = 0.91666\\ldots = 0.91\\overline{6}$. The bar covers only the $6$ — the $9$ and the $1$ happen once. (We knew it would repeat, since $12 = 2 \\times 2 \\times 3$ contains a $3$.)',
     },
     {
       q: 'Write $\\frac{7}{15}$ as a decimal, using a bar for any repeating part.',
@@ -422,9 +422,9 @@ const worksheet = [
   // 10. A repeating decimal with a non-repeating digit in front, turned into a fraction.
   [
     {
-      q: 'Write $0.1\\overline{6}$ as a fraction in simplest form.',
-      answer: '$\\frac{1}{6}$',
-      solution: 'Let $x = 0.1666\\ldots$ Then $10x = 1.666\\ldots$ and $100x = 16.666\\ldots$ Subtract the two so the endless tails cancel: $100x - 10x = 90x = 15$. So $x = \\frac{15}{90} = \\frac{1}{6}$. Check: $1 \\div 6 = 0.1666\\ldots$ ✓',
+      q: 'Write $0.7\\overline{2}$ as a fraction in simplest form.',
+      answer: '$\\frac{13}{18}$',
+      solution: 'Let $x = 0.7222\\ldots$ Then $10x = 7.222\\ldots$ and $100x = 72.222\\ldots$ Subtract the two so the endless tails cancel: $100x - 10x = 90x = 65$. So $x = \\frac{65}{90} = \\frac{13}{18}$ after dividing top and bottom by $5$. Check: $13 \\div 18 = 0.7222\\ldots$ ✓',
     },
     {
       q: 'Write $0.4\\overline{3}$ as a fraction in simplest form.',

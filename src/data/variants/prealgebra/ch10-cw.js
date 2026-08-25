@@ -362,9 +362,9 @@ const worksheet = [
       solution: 'Diagonals from one vertex cut a twelve-sided polygon into $12 - 2 = 10$ triangles, so the sum is $10 \\times 180^\\circ = 1800^\\circ$. (Using $12$ triangles instead of $10$ would give $2160^\\circ$ — remember the $n - 2$.)',
     },
     {
-      q: 'What is the sum of the interior angles of a heptagon (seven sides)?',
-      answer: '$900^\\circ$',
-      solution: 'A heptagon splits into $7 - 2 = 5$ triangles from one vertex, so the sum is $5 \\times 180^\\circ = 900^\\circ$.',
+      q: 'What is the sum of the interior angles of an octagon (eight sides)?',
+      answer: '$1080^\\circ$',
+      solution: 'An octagon splits into $8 - 2 = 6$ triangles from one vertex, so the sum is $6 \\times 180^\\circ = 1080^\\circ$.',
     },
     {
       q: 'The interior angles of a polygon add to $1440^\\circ$. How many sides does the polygon have?',
@@ -411,9 +411,9 @@ const worksheet = [
   // 9. Regular polygons, via the exterior angle.
   [
     {
-      q: 'Each interior angle of a regular polygon measures $162^\\circ$. How many sides does the polygon have?',
-      answer: '$20$ sides',
-      solution: 'At each corner the interior and exterior angles are supplementary, so each exterior angle is $180 - 162 = 18^\\circ$. The exterior angles of any convex polygon add to $360^\\circ$, so the polygon has $360 \\div 18 = 20$ sides. Check: $(20 - 2) \\cdot 180 \\div 20 = 3240 \\div 20 = 162^\\circ$ ✓.',
+      q: 'Each interior angle of a regular polygon measures $171^\\circ$. How many sides does the polygon have?',
+      answer: '$40$ sides',
+      solution: 'At each corner the interior and exterior angles are supplementary, so each exterior angle is $180 - 171 = 9^\\circ$. The exterior angles of any convex polygon add to $360^\\circ$, so the polygon has $360 \\div 9 = 40$ sides. Check: $(40 - 2) \\cdot 180 \\div 40 = 6840 \\div 40 = 171^\\circ$ ✓.',
     },
     {
       q: 'Each exterior angle of a regular polygon measures $12^\\circ$. How many sides does it have, and what is each interior angle?',
@@ -421,9 +421,9 @@ const worksheet = [
       solution: 'The exterior angles add to $360^\\circ$, so the number of sides is $360 \\div 12 = 30$. Each interior angle is the supplement of its exterior angle: $180 - 12 = 168^\\circ$. Check: $(30 - 2) \\cdot 180 \\div 30 = 5040 \\div 30 = 168^\\circ$ ✓.',
     },
     {
-      q: 'Each interior angle of a regular polygon measures $140^\\circ$. How many sides does the polygon have?',
-      answer: '$9$ sides',
-      solution: 'Each exterior angle is $180 - 140 = 40^\\circ$, and the exterior angles add to $360^\\circ$, so there are $360 \\div 40 = 9$ sides. Check: $(9 - 2) \\cdot 180 \\div 9 = 1260 \\div 9 = 140^\\circ$ ✓.',
+      q: 'Each interior angle of a regular polygon measures $135^\\circ$. How many sides does the polygon have?',
+      answer: '$8$ sides',
+      solution: 'Each exterior angle is $180 - 135 = 45^\\circ$, and the exterior angles add to $360^\\circ$, so there are $360 \\div 45 = 8$ sides. Check: $(8 - 2) \\cdot 180 \\div 8 = 1080 \\div 8 = 135^\\circ$ ✓.',
     },
   ],
   // 10. The angle between two angle bisectors of a triangle.

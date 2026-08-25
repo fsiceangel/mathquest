@@ -116,11 +116,11 @@ const s17 = [
   // p5 — a^{2/3}: remember the power after the root
   [
     {
-      q: 'Evaluate $64^{2/3}$.',
-      choices: ['$16$', '$4$', '$8$', '$\\frac{128}{3}$'],
+      q: 'Evaluate $343^{2/3}$.',
+      choices: ['$49$', '$7$', '$14$', '$\\frac{686}{3}$'],
       answer: 0,
       solution:
-        'Cube root first: $64^{1/3} = 4$, since $4 \\times 4 \\times 4 = 64$. Then square: $4^2 = 16$. The choice $4$ stops after the root and forgets that the $2$ on top still has work to do. The choice $8$ is the SQUARE root of $64$ — the $3$ underneath calls for a cube root. The choice $\\frac{128}{3}$ multiplies $64$ by $\\frac{2}{3}$, treating the exponent as a factor.',
+        'Cube root first: $343^{1/3} = 7$, since $7 \\times 7 \\times 7 = 343$. Then square: $7^2 = 49$. The choice $7$ stops after the root and forgets that the $2$ on top still has work to do. The choice $14$ takes the root correctly but then doubles instead of squaring — the $2$ upstairs is a power, not a multiplier. The choice $\\frac{686}{3}$ multiplies $343$ by $\\frac{2}{3}$, treating the whole exponent as a factor.',
     },
     {
       q: 'Evaluate $216^{2/3}$.',
@@ -301,11 +301,11 @@ const s18 = [
         'Since $45 = 9 \\cdot 5$, we get $\\sqrt{45} = \\sqrt{9} \\cdot \\sqrt{5} = 3\\sqrt{5}$, and $5$ is prime so nothing more can come out. Check: $(3\\sqrt{5})^2 = 9 \\cdot 5 = 45$. The choice $9\\sqrt{5}$ forgets to root the $9$ on its way out. The choice $5\\sqrt{9}$ takes out the non-square $5$ and leaves the square inside; it equals $15$. The choice $3\\sqrt{15}$ divides $45$ by only $3$ instead of by the full square factor $9$.',
     },
     {
-      q: 'Simplify $\\sqrt{75}$.',
-      choices: ['$25\\sqrt{3}$', '$3\\sqrt{25}$', '$5\\sqrt{15}$', '$5\\sqrt{3}$'],
+      q: 'Simplify $\\sqrt{50}$.',
+      choices: ['$25\\sqrt{2}$', '$2\\sqrt{25}$', '$5\\sqrt{10}$', '$5\\sqrt{2}$'],
       answer: 3,
       solution:
-        'The largest perfect square dividing $75$ is $25$, since $75 = 25 \\cdot 3$. So $\\sqrt{75} = \\sqrt{25} \\cdot \\sqrt{3} = 5\\sqrt{3}$. Check: $(5\\sqrt{3})^2 = 25 \\cdot 3 = 75$. The choice $25\\sqrt{3}$ brings the $25$ out un-rooted. The choice $3\\sqrt{25}$ pulls out the $3$ and leaves the square inside — backwards, and it equals $15$. The choice $5\\sqrt{15}$ takes a $5$ outside but divides $75$ by only $5$.',
+        'The largest perfect square dividing $50$ is $25$, since $50 = 25 \\cdot 2$. So $\\sqrt{50} = \\sqrt{25} \\cdot \\sqrt{2} = 5\\sqrt{2}$. Check: $(5\\sqrt{2})^2 = 25 \\cdot 2 = 50$. The choice $25\\sqrt{2}$ brings the $25$ out un-rooted. The choice $2\\sqrt{25}$ pulls out the $2$ and leaves the square inside — backwards, and it equals $10$. The choice $5\\sqrt{10}$ takes a $5$ outside but divides $50$ by only $5$.',
     },
   ],
   // p3 — cube roots

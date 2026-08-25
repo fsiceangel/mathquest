@@ -368,14 +368,14 @@ const worksheet = [
   // 7. Clearing two denominators.
   [
     {
-      q: 'Solve $\\frac{x}{2} + \\frac{x}{5} = 14$.',
-      answer: '$x = 20$',
-      solution: 'Multiply both sides by $10$, the least common denominator: $5x + 2x = 140$, so $7x = 140$ and $x = 20$. Check: $\\frac{20}{2} + \\frac{20}{5} = 10 + 4 = 14$. ✓',
+      q: 'Solve $\\frac{x}{3} + \\frac{x}{9} = 8$.',
+      answer: '$x = 18$',
+      solution: 'The least common denominator of $3$ and $9$ is $9$. Multiply both sides by $9$: $3x + x = 72$, so $4x = 72$ and $x = 18$. Check: $\\frac{18}{3} + \\frac{18}{9} = 6 + 2 = 8$. ✓',
     },
     {
-      q: 'Solve $\\frac{x}{4} + \\frac{x}{6} = 15$.',
-      answer: '$x = 36$',
-      solution: 'The least common denominator of $4$ and $6$ is $12$. Multiply both sides by $12$: $3x + 2x = 180$, so $5x = 180$ and $x = 36$. Check: $\\frac{36}{4} + \\frac{36}{6} = 9 + 6 = 15$. ✓',
+      q: 'Solve $\\frac{x}{6} + \\frac{x}{8} = 7$.',
+      answer: '$x = 24$',
+      solution: 'The least common denominator of $6$ and $8$ is $24$. Multiply both sides by $24$: $4x + 3x = 168$, so $7x = 168$ and $x = 24$. Check: $\\frac{24}{6} + \\frac{24}{8} = 4 + 3 = 7$. ✓',
     },
     {
       q: 'Solve $\\frac{x}{2} - \\frac{x}{6} = 9$.',

@@ -319,18 +319,18 @@ const challenge = [
     solution: 'The discriminant is $b^2 - 4ac = 16 - 4(-2)(-2) = 16 - 16 = 0$, so there is exactly one solution — the vertex itself touches the axis. Indeed, $y = -2(x-1)^2$, which is $0$ only at $x = 1$.',
   },
   {
-    q: 'What is the equation of the circle shown?',
+    q: 'Which equation describes the circle in the graph?',
     fig: {
-      view: [-8, -3, 4, 9],
+      view: [-9, -7, 1, 3],
       grid: true,
       elems: [
-        { t: 'circle', c: [-2, 3], r: 4 },
-        { t: 'point', p: [-2, 3], label: 'C', dx: 8, dy: -8 },
+        { t: 'circle', c: [-4, -2], r: 3 },
+        { t: 'point', p: [-4, -2], label: 'C', dx: 8, dy: -8 },
       ],
     },
-    choices: ['$(x + 2)^2 + (y - 3)^2 = 16$', '$(x - 2)^2 + (y + 3)^2 = 16$', '$(x + 2)^2 + (y - 3)^2 = 4$', '$(x - 3)^2 + (y + 2)^2 = 16$'],
+    choices: ['$(x + 4)^2 + (y + 2)^2 = 9$', '$(x - 4)^2 + (y - 2)^2 = 9$', '$(x + 4)^2 + (y + 2)^2 = 3$', '$(x + 2)^2 + (y + 4)^2 = 9$'],
     answer: 0,
-    solution: 'The center $C$ is at $(-2, 3)$, and the circle reaches from $x = -6$ to $x = 2$, so the radius is $4$. The equation is $(x+2)^2 + (y-3)^2 = 4^2 = 16$: subtracting the negative center coordinate turns into a plus, and the right side is the radius squared.',
+    solution: 'The center $C$ is at $(-4, -2)$, and the circle reaches from $x = -7$ to $x = -1$, so the radius is $3$. The equation is $(x+4)^2 + (y+2)^2 = 3^2 = 9$: subtracting a negative center coordinate turns into a plus, and the right side is the radius squared. Check a point forward — the top of the circle is $(-4, 1)$, and $(-4+4)^2 + (1+2)^2 = 0 + 9 = 9$. ✓ (The second choice flips both signs inside the parentheses, the third forgets to square the radius, and the last swaps the two center coordinates.)',
   },
   {
     q: 'What is the minimum value of $y = x^2 - 8x + 15$?',

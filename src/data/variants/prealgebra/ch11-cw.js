@@ -75,10 +75,10 @@ const challenge = [
       solution: 'Average the parallel sides: $\\frac{6 + 14}{2} = 10$. Multiply by the height: $10 \\times 9 = 90$ square units. The trapezoid holds exactly as much as a $10 \\times 9$ rectangle. ($180$ multiplies $(6 + 14) \\times 9$ with the $\\frac{1}{2}$ forgotten; $84 = 6 \\times 14$ multiplies the two parallel sides together, which measures no real region; $54 = 6 \\times 9$ uses only the short side, as if the figure were a rectangle.)',
     },
     {
-      q: 'A trapezoid has parallel sides $8$ and $12$, with height $7$. What is its area?',
-      choices: ['$140$', '$96$', '$70$', '$56$'],
+      q: 'A trapezoid has parallel sides $10$ and $16$, with height $5$. What is its area?',
+      choices: ['$130$', '$160$', '$65$', '$50$'],
       answer: 2,
-      solution: 'The average of the parallel sides is $\\frac{8 + 12}{2} = 10$, and $10 \\times 7 = 70$ square units. ($140$ skips the $\\frac{1}{2}$; $96 = 8 \\times 12$ multiplies the parallel sides by each other; $56 = 8 \\times 7$ uses the shorter parallel side alone.)',
+      solution: 'The average of the parallel sides is $\\frac{10 + 16}{2} = 13$, and $13 \\times 5 = 65$ square units. ($130$ skips the $\\frac{1}{2}$; $160 = 10 \\times 16$ multiplies the parallel sides by each other; $50 = 10 \\times 5$ uses the shorter parallel side alone.)',
     },
     {
       q: 'A garden plot is shaped like a trapezoid whose parallel sides measure $5$ m and $11$ m, with $12$ m between them. What is its area?',
@@ -249,10 +249,10 @@ const challenge = [
       solution: 'From $2\\pi r = 30\\pi$ we get $r = 15$ meters. Then $A = \\pi r^2 = \\pi \\times 15^2 = 225\\pi$ square meters. Two steps: the circumference hands you $r$, and the area needs $r$ squared. ($900\\pi = \\pi \\times 30^2$ squares the diameter; $30\\pi$ repeats the circumference, a distance; $15\\pi = \\pi r$ forgets the square.)',
     },
     {
-      q: 'A circle has area $36\\pi$. What is its exact circumference?',
-      choices: ['$12\\pi$', '$36\\pi$', '$6\\pi$', '$72\\pi$'],
+      q: 'A circle has area $144\\pi$. What is its exact circumference?',
+      choices: ['$24\\pi$', '$144\\pi$', '$12\\pi$', '$288\\pi$'],
       answer: 0,
-      solution: 'From $\\pi r^2 = 36\\pi$ we get $r^2 = 36$, so $r = 6$ (a radius is positive). Then $C = 2\\pi r = 12\\pi$. ($36\\pi$ repeats the area, but a square-unit measurement cannot also be a distance; $6\\pi = \\pi r$ is only half the way around; $72\\pi = 2 \\times 36\\pi$ doubles the area instead of using the circumference formula.)',
+      solution: 'From $\\pi r^2 = 144\\pi$ we get $r^2 = 144$, so $r = 12$ (a radius is positive). Then $C = 2\\pi r = 24\\pi$. ($144\\pi$ repeats the area, but a square-unit measurement cannot also be a distance; $12\\pi = \\pi r$ is only half the way around; $288\\pi = 2 \\times 144\\pi$ doubles the area instead of using the circumference formula.)',
     },
   ],
 ]

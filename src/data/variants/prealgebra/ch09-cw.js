@@ -5,10 +5,10 @@ const challenge = [
   // 1. The square root of a three-digit perfect square.
   [
     {
-      q: 'What is $\\sqrt{256}$?',
-      choices: ['$16$', '$15$', '$18$', '$128$'],
+      q: 'What is $\\sqrt{784}$?',
+      choices: ['$28$', '$27$', '$29$', '$392$'],
       answer: 0,
-      solution: 'Hunt among the squares of the middle teens: $15^2 = 225$ falls short and $16 \\times 16 = 256$ lands exactly. So $\\sqrt{256} = 16$. ($15$ and $18$ are near misses — $15^2 = 225$ and $18^2 = 324$; $128$ is half of $256$, and halving is not rooting.)',
+      solution: 'Hunt among the squares of the high twenties: $27^2 = 729$ falls short and $28 \\times 28 = 784$ lands exactly. So $\\sqrt{784} = 28$. ($27$ and $29$ are near misses — $27^2 = 729$ and $29^2 = 841$; $392$ is half of $784$, and halving is not rooting.)',
     },
     {
       q: 'What is $\\sqrt{484}$?',
@@ -26,10 +26,10 @@ const challenge = [
   // 2. Pulling the LARGEST perfect square out of a big radicand.
   [
     {
-      q: 'Simplify $\\sqrt{288}$ completely.',
-      choices: ['$6\\sqrt{2}$', '$144\\sqrt{2}$', '$12\\sqrt{2}$', '$144$'],
+      q: 'Simplify $\\sqrt{675}$ completely.',
+      choices: ['$225\\sqrt{3}$', '$3\\sqrt{15}$', '$15\\sqrt{3}$', '$15$'],
       answer: 2,
-      solution: 'The largest perfect square factor of $288$ is $144$, since $288 = 144 \\cdot 2$. So $\\sqrt{288} = \\sqrt{144} \\cdot \\sqrt{2} = 12\\sqrt{2}$. Check: $(12\\sqrt{2})^2 = 144 \\cdot 2 = 288$. ($144\\sqrt{2}$ pulls the $144$ out without rooting it; $144$ drops the leftover $\\sqrt{2}$ altogether; $6\\sqrt{2}$ comes from stopping at the smaller factor $36$, which gives $6\\sqrt{8}$, and then shrinking $\\sqrt{8}$ to $\\sqrt{2}$.)',
+      solution: 'The largest perfect square factor of $675$ is $225$, since $675 = 225 \\cdot 3$. So $\\sqrt{675} = \\sqrt{225} \\cdot \\sqrt{3} = 15\\sqrt{3}$. Check: $(15\\sqrt{3})^2 = 225 \\cdot 3 = 675$. ($225\\sqrt{3}$ pulls the $225$ out without rooting it; $15$ roots the $225$ but throws the leftover $\\sqrt{3}$ away; $3\\sqrt{15}$ puts the two numbers on the wrong sides of the radical sign.)',
     },
     {
       q: 'Simplify $\\sqrt{432}$ completely.',
@@ -101,10 +101,10 @@ const challenge = [
       solution: 'Multiply top and bottom by $\\sqrt{7}$: $\\frac{21}{\\sqrt{7}} \\cdot \\frac{\\sqrt{7}}{\\sqrt{7}} = \\frac{21\\sqrt{7}}{7} = 3\\sqrt{7}$. Check: $3\\sqrt{7} \\cdot \\sqrt{7} = 3 \\cdot 7 = 21$. ($21\\sqrt{7}$ forgets to divide by the new denominator $7$; $\\frac{3}{\\sqrt{7}}$ divides $21$ by $7$ but leaves the root in the denominator; $3$ throws the radical away.)',
     },
     {
-      q: 'Rationalize the denominator: $\\frac{8}{\\sqrt{2}} = ?$',
-      choices: ['$8\\sqrt{2}$', '$4$', '$4\\sqrt{2}$', '$\\frac{4}{\\sqrt{2}}$'],
+      q: 'Rationalize the denominator: $\\frac{20}{\\sqrt{5}} = ?$',
+      choices: ['$20\\sqrt{5}$', '$4$', '$4\\sqrt{5}$', '$\\frac{4}{\\sqrt{5}}$'],
       answer: 2,
-      solution: 'Multiply top and bottom by $\\sqrt{2}$: $\\frac{8}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{8\\sqrt{2}}{2} = 4\\sqrt{2}$. Check: $4\\sqrt{2} \\cdot \\sqrt{2} = 4 \\cdot 2 = 8$. ($8\\sqrt{2}$ skips dividing by the new denominator $2$; $\\frac{4}{\\sqrt{2}}$ halves the top but leaves the root below the bar, and it is only half as big as the right answer; $4$ loses the radical.)',
+      solution: 'Multiply top and bottom by $\\sqrt{5}$: $\\frac{20}{\\sqrt{5}} \\cdot \\frac{\\sqrt{5}}{\\sqrt{5}} = \\frac{20\\sqrt{5}}{5} = 4\\sqrt{5}$. Check: $4\\sqrt{5} \\cdot \\sqrt{5} = 4 \\cdot 5 = 20$. ($20\\sqrt{5}$ skips dividing by the new denominator $5$; $\\frac{4}{\\sqrt{5}}$ divides the top by $5$ but leaves the root below the bar, so it is only a fifth as big as the right answer; $4$ loses the radical.)',
     },
   ],
   // 6. Area of a square back to a side length in simplest radical form.
@@ -167,10 +167,10 @@ const challenge = [
   // 8. Trapping a root between consecutive integers.
   [
     {
-      q: '$\\sqrt{200}$ is between which two consecutive integers?',
-      choices: ['$13$ and $14$', '$100$ and $101$', '$14$ and $15$', '$15$ and $16$'],
+      q: '$\\sqrt{170}$ is between which two consecutive integers?',
+      choices: ['$12$ and $13$', '$85$ and $86$', '$13$ and $14$', '$14$ and $15$'],
       answer: 2,
-      solution: 'The perfect squares on either side of $200$ are $196 = 14^2$ and $225 = 15^2$. Since $196 < 200 < 225$, taking roots gives $14 < \\sqrt{200} < 15$. ($13$ and $14$ would need $200 < 196$, which is false; $15$ and $16$ would need $200 > 225$; $100$ and $101$ comes from halving, not rooting.)',
+      solution: 'The perfect squares on either side of $170$ are $169 = 13^2$ and $196 = 14^2$. Since $169 < 170 < 196$, taking roots gives $13 < \\sqrt{170} < 14$ — and $170$ sits just one past $169$, so the root barely clears $13$. ($12$ and $13$ would need $170 < 169$, which is false; $14$ and $15$ would need $170 > 196$; $85$ and $86$ comes from halving, not rooting.)',
     },
     {
       q: '$\\sqrt{250}$ is between which two consecutive integers?',
@@ -179,10 +179,10 @@ const challenge = [
       solution: 'The neighbouring perfect squares are $225 = 15^2$ and $256 = 16^2$, and $225 < 250 < 256$, so $15 < \\sqrt{250} < 16$. Notice how close $250$ sits to $256$ — the root is only a little under $16$. ($14$ and $15$ would need $250 < 225$; $16$ and $17$ would need $250 > 256$; $125$ and $126$ halves instead of rooting.)',
     },
     {
-      q: '$\\sqrt{130}$ is between which two consecutive integers?',
-      choices: ['$65$ and $66$', '$10$ and $11$', '$12$ and $13$', '$11$ and $12$'],
+      q: '$\\sqrt{115}$ is between which two consecutive integers?',
+      choices: ['$57$ and $58$', '$9$ and $10$', '$11$ and $12$', '$10$ and $11$'],
       answer: 3,
-      solution: 'The perfect squares on either side of $130$ are $121 = 11^2$ and $144 = 12^2$: since $121 < 130 < 144$, we get $11 < \\sqrt{130} < 12$. ($10$ and $11$ would need $130 < 121$; $12$ and $13$ would need $130 > 144$; $65$ and $66$ comes from halving.)',
+      solution: 'The perfect squares on either side of $115$ are $100 = 10^2$ and $121 = 11^2$: since $100 < 115 < 121$, we get $10 < \\sqrt{115} < 11$. ($9$ and $10$ would need $115 < 100$; $11$ and $12$ would need $115 > 121$; $57$ and $58$ comes from halving.)',
     },
   ],
   // 9. Multiplying two matching radical terms — the roots cash in.
@@ -326,14 +326,14 @@ const worksheet = [
   // 3. Pulling out the largest perfect square factor.
   [
     {
-      q: 'Simplify $\\sqrt{54}$ completely.',
-      answer: '$3\\sqrt{6}$',
-      solution: 'The largest perfect square factor of $54$ is $9$, since $54 = 9 \\cdot 6$. So $\\sqrt{54} = \\sqrt{9} \\cdot \\sqrt{6} = 3\\sqrt{6}$. Check: $(3\\sqrt{6})^2 = 9 \\cdot 6 = 54$. And $6 = 2 \\cdot 3$ hides no square, so we are done.',
+      q: 'Simplify $\\sqrt{175}$ completely.',
+      answer: '$5\\sqrt{7}$',
+      solution: 'The largest perfect square factor of $175$ is $25$, since $175 = 25 \\cdot 7$. So $\\sqrt{175} = \\sqrt{25} \\cdot \\sqrt{7} = 5\\sqrt{7}$. Check: $(5\\sqrt{7})^2 = 25 \\cdot 7 = 175$. And $7$ is prime, so nothing else can come out.',
     },
     {
-      q: 'Simplify $\\sqrt{112}$ completely.',
-      answer: '$4\\sqrt{7}$',
-      solution: 'The largest perfect square factor of $112$ is $16$, since $112 = 16 \\cdot 7$. So $\\sqrt{112} = \\sqrt{16} \\cdot \\sqrt{7} = 4\\sqrt{7}$. Check: $(4\\sqrt{7})^2 = 16 \\cdot 7 = 112$.',
+      q: 'Simplify $\\sqrt{242}$ completely.',
+      answer: '$11\\sqrt{2}$',
+      solution: 'The largest perfect square factor of $242$ is $121$, since $242 = 121 \\cdot 2$. So $\\sqrt{242} = \\sqrt{121} \\cdot \\sqrt{2} = 11\\sqrt{2}$. Check: $(11\\sqrt{2})^2 = 121 \\cdot 2 = 242$.',
     },
     {
       q: 'Simplify $\\sqrt{245}$ completely.',
@@ -372,9 +372,9 @@ const worksheet = [
       solution: 'Merge the roots: $\\sqrt{8} \\cdot \\sqrt{18} = \\sqrt{144} = 12$. Neither factor is a whole number on its own, yet together they land exactly on $12$.',
     },
     {
-      q: 'Compute $\\sqrt{7} \\cdot \\sqrt{28}$.',
-      answer: '$14$',
-      solution: 'Merge the roots: $\\sqrt{7} \\cdot \\sqrt{28} = \\sqrt{196} = 14$, since $14^2 = 196$.',
+      q: 'Compute $\\sqrt{10} \\cdot \\sqrt{40}$.',
+      answer: '$20$',
+      solution: 'Merge the roots: $\\sqrt{10} \\cdot \\sqrt{40} = \\sqrt{400} = 20$, since $20^2 = 400$.',
     },
   ],
   // 6. Combining a string of like radicals, including a bare one.
@@ -421,9 +421,9 @@ const worksheet = [
       solution: 'Multiply top and bottom by $\\sqrt{3}$: $\\frac{9}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{9\\sqrt{3}}{3} = 3\\sqrt{3}$. Check: $3\\sqrt{3} \\cdot \\sqrt{3} = 3 \\cdot 3 = 9$.',
     },
     {
-      q: 'Rationalize the denominator: $\\frac{14}{\\sqrt{7}}$.',
-      answer: '$2\\sqrt{7}$',
-      solution: 'Multiply top and bottom by $\\sqrt{7}$: $\\frac{14}{\\sqrt{7}} \\cdot \\frac{\\sqrt{7}}{\\sqrt{7}} = \\frac{14\\sqrt{7}}{7} = 2\\sqrt{7}$. Check: $2\\sqrt{7} \\cdot \\sqrt{7} = 2 \\cdot 7 = 14$.',
+      q: 'Rationalize the denominator: $\\frac{15}{\\sqrt{5}}$.',
+      answer: '$3\\sqrt{5}$',
+      solution: 'Multiply top and bottom by $\\sqrt{5}$: $\\frac{15}{\\sqrt{5}} \\cdot \\frac{\\sqrt{5}}{\\sqrt{5}} = \\frac{15\\sqrt{5}}{5} = 3\\sqrt{5}$. Check: $3\\sqrt{5} \\cdot \\sqrt{5} = 3 \\cdot 5 = 15$.',
     },
     {
       q: 'Rationalize the denominator: $\\frac{6}{\\sqrt{2}}$.',

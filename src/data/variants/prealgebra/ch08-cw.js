@@ -265,9 +265,9 @@ const worksheet = [
       solution: 'Divide: $5 \\div 8 = 0.625$. Slide the decimal point two places right: $62.5\\%$. Check: $\\frac{5}{8}$ is a bit more than $\\frac{1}{2} = 50\\%$, and $62.5\\%$ fits. ✓',
     },
     {
-      q: 'Write $\\frac{7}{20}$ as a percent.',
-      answer: '$35\\%$',
-      solution: 'A denominator of $20$ scales straight to $100$: multiply top and bottom by $5$ to get $\\frac{35}{100} = 35\\%$.',
+      q: 'Write $\\frac{13}{25}$ as a percent.',
+      answer: '$52\\%$',
+      solution: 'A denominator of $25$ scales straight to $100$: multiply top and bottom by $4$ to get $\\frac{52}{100} = 52\\%$. Check: $0.52 \\times 25 = 13$. ✓',
     },
     {
       q: 'Write $\\frac{9}{16}$ as a percent.',

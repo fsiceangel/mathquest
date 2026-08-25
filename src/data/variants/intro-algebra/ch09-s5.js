@@ -229,16 +229,16 @@ const worksheet = [
   //      variation asks which is SMALLER.
   [
     {
-      q: 'Which is greater, $\\sqrt{3} + \\sqrt{5}$ or $\\sqrt{15}$?',
-      answer: '$\\sqrt{3} + \\sqrt{5}$',
+      q: 'Which is greater, $\\sqrt{2} + \\sqrt{6}$ or $\\sqrt{14}$?',
+      answer: '$\\sqrt{2} + \\sqrt{6}$',
       solution:
-        'Both quantities are positive, so squaring is safe. $(\\sqrt{3} + \\sqrt{5})^2 = 3 + 2\\sqrt{15} + 5 = 8 + 2\\sqrt{15}$, while $(\\sqrt{15})^2 = 15$. The contest is now $8 + 2\\sqrt{15}$ against $15$, which after subtracting $8$ is $2\\sqrt{15}$ against $7$. Both of THOSE are positive, so square again: $4 \\times 15 = 60$ against $49$. Since $60 > 49$, we get $2\\sqrt{15} > 7$, hence $8 + 2\\sqrt{15} > 15$ and $\\sqrt{3} + \\sqrt{5} > \\sqrt{15}$. Check forward with hand-made bounds: $1.7^2 = 2.89 < 3$ so $\\sqrt{3} > 1.7$, and $2.2^2 = 4.84 < 5$ so $\\sqrt{5} > 2.2$, making the sum bigger than $3.9$; meanwhile $3.9^2 = 15.21 > 15$, so $\\sqrt{15} < 3.9$ ✓. The middle term $2\\sqrt{15}$ is exactly what a sum of roots gains over the root of a sum — without it the left side would only be $8$.',
+        'Both quantities are positive, so squaring is safe. $(\\sqrt{2} + \\sqrt{6})^2 = 2 + 2\\sqrt{12} + 6 = 8 + 2\\sqrt{12}$, while $(\\sqrt{14})^2 = 14$. The contest is now $8 + 2\\sqrt{12}$ against $14$, which after subtracting $8$ is $2\\sqrt{12}$ against $6$. Both of THOSE are positive, so square again: $4 \\times 12 = 48$ against $36$. Since $48 > 36$, we get $2\\sqrt{12} > 6$, hence $8 + 2\\sqrt{12} > 14$ and $\\sqrt{2} + \\sqrt{6} > \\sqrt{14}$. Check forward with hand-made bounds: $1.41^2 = 1.9881 < 2$ so $\\sqrt{2} > 1.41$, and $2.44^2 = 5.9536 < 6$ so $\\sqrt{6} > 2.44$, making the sum bigger than $3.85$; meanwhile $3.85^2 = 14.8225 > 14$, so $\\sqrt{14} < 3.85$ ✓. The middle term $2\\sqrt{12}$ is exactly what a sum of roots gains over the root of a sum — without it the left side would only be $8$.',
     },
     {
-      q: 'Which is greater, $\\sqrt{2} + \\sqrt{7}$ or $\\sqrt{17}$?',
-      answer: '$\\sqrt{17}$',
+      q: 'Which is greater, $\\sqrt{3} + \\sqrt{6}$ or $\\sqrt{19}$?',
+      answer: '$\\sqrt{19}$',
       solution:
-        'Square both positive sides: $(\\sqrt{2} + \\sqrt{7})^2 = 2 + 2\\sqrt{14} + 7 = 9 + 2\\sqrt{14}$, against $(\\sqrt{17})^2 = 17$. Subtract $9$ from both: compare $2\\sqrt{14}$ with $8$. Square again: $4 \\times 14 = 56$ against $64$. Since $56 < 64$, we get $2\\sqrt{14} < 8$, so $9 + 2\\sqrt{14} < 17$ and therefore $\\sqrt{2} + \\sqrt{7} < \\sqrt{17}$ — the single root is greater. Check forward with hand-made bounds: $1.42^2 = 2.0164 > 2$ so $\\sqrt{2} < 1.42$, and $2.65^2 = 7.0225 > 7$ so $\\sqrt{7} < 2.65$, making the sum smaller than $4.07$; meanwhile $4.12^2 = 16.9744 < 17$, so $\\sqrt{17} > 4.12$ ✓.',
+        'Square both positive sides: $(\\sqrt{3} + \\sqrt{6})^2 = 3 + 2\\sqrt{18} + 6 = 9 + 2\\sqrt{18}$, against $(\\sqrt{19})^2 = 19$. Subtract $9$ from both: compare $2\\sqrt{18}$ with $10$. Square again: $4 \\times 18 = 72$ against $100$. Since $72 < 100$, we get $2\\sqrt{18} < 10$, so $9 + 2\\sqrt{18} < 19$ and therefore $\\sqrt{3} + \\sqrt{6} < \\sqrt{19}$ — the single root is greater. Check forward with hand-made bounds: $1.74^2 = 3.0276 > 3$ so $\\sqrt{3} < 1.74$, and $2.45^2 = 6.0025 > 6$ so $\\sqrt{6} < 2.45$, making the sum smaller than $4.19$; meanwhile $4.35^2 = 18.9225 < 19$, so $\\sqrt{19} > 4.35$ ✓.',
     },
     {
       q: 'Which is smaller, $\\sqrt{5} + \\sqrt{7}$ or $\\sqrt{23}$?',
