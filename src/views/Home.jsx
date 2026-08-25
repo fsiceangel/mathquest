@@ -1,6 +1,6 @@
 import { books } from '../data/books.js'
 import { isChapterAvailable } from '../data/content.js'
-import { ArrowRight } from '../components/icons.jsx'
+import { ArrowRight, Clock, Swords } from '../components/icons.jsx'
 
 function BookCard({ book }) {
   const ready = book.chapters.filter((c) => isChapterAvailable(book.id, c.number)).length
@@ -41,6 +41,22 @@ export default function Home() {
           <BookCard key={b.id} book={b} />
         ))}
       </div>
+      <a className="arena-banner accent-amber" href="#/arena">
+        <span className="arena-banner-crest">
+          <Swords size={28} />
+        </span>
+        <span className="arena-banner-body">
+          <span className="arena-banner-title">Challenge Arena</span>
+          <span className="arena-banner-sub">
+            Timed papers that mix every chapter together and get harder as you go. The clock runs, nothing is marked
+            until you hand it in, and every problem is worked out afterwards.
+          </span>
+          <span className="arena-banner-meta">
+            <Clock size={15} /> 15 or 40 minutes
+          </span>
+        </span>
+        <ArrowRight size={20} />
+      </a>
     </main>
   )
 }

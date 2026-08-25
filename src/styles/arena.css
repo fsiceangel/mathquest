@@ -1,0 +1,594 @@
+/* Challenge Arena, plus the small bits of chrome the problem-variation
+   rotation needs. Kept out of app.css so the timed-paper surface stays easy to
+   read as one piece. */
+
+/* ---------- problem variations ---------- */
+
+.q-chips {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.chip-quiet {
+  background: transparent;
+  color: var(--ink-soft);
+  border: 1px solid var(--line-strong);
+}
+
+.results-note {
+  color: var(--ink-soft);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.ws-versions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.ws-versions-label {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+.ws-version {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: var(--card);
+  border: 2px solid var(--line);
+  font-family: var(--font-display);
+  font-weight: 800;
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+
+.ws-version:hover {
+  border-color: var(--accent);
+}
+
+.ws-version.is-on {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fffdf9;
+}
+
+.ws-versions-hint {
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+.sheet-version {
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+/* ---------- entry points ---------- */
+
+.arena-banner {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 30px;
+  padding: 22px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, #2f2a3a, #40364a);
+  color: #f6efe4;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.arena-banner:hover {
+  transform: translateY(-3px);
+}
+
+.arena-banner-crest {
+  flex: none;
+  width: 58px;
+  height: 58px;
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  background: rgba(207, 128, 32, 0.22);
+  color: var(--gold);
+}
+
+.arena-banner-body {
+  display: grid;
+  gap: 5px;
+}
+
+.arena-banner-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.arena-banner-sub {
+  font-size: 15px;
+  color: #d9d0c4;
+  max-width: 62ch;
+}
+
+.arena-banner-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--gold);
+}
+
+.arena-head {
+  text-align: center;
+}
+
+.arena-crest {
+  display: inline-grid;
+  place-items: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 20px;
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  margin-bottom: 12px;
+}
+
+.arena-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.arena-card-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 20px;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.arena-card-link:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.arena-card-body {
+  display: grid;
+  gap: 6px;
+  flex: 1;
+}
+
+.arena-card-kicker {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-deep);
+}
+
+.arena-card-body h3 {
+  font-size: 21px;
+}
+
+.arena-card-blurb {
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+
+.arena-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-top: 2px;
+}
+
+.arena-card-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.arena-best {
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  border-radius: 999px;
+  padding: 2px 12px;
+}
+
+.arena-best.is-empty {
+  background: transparent;
+  color: var(--ink-soft);
+  border: 1px solid var(--line-strong);
+}
+
+.arena-tips {
+  margin-top: 36px;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 22px 26px;
+}
+
+.arena-tips h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.arena-tips ol {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--ink-soft);
+  display: grid;
+  gap: 6px;
+}
+
+/* ---------- the timed run ---------- */
+
+.arena-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.arena-timer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--card);
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  box-shadow: var(--shadow-sm);
+}
+
+.arena-timer-text {
+  font-variant-numeric: tabular-nums;
+  min-width: 52px;
+}
+
+.arena-timer-bar {
+  display: block;
+  width: 90px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--line);
+  overflow: hidden;
+}
+
+.arena-timer-bar span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  transition: width 1s linear;
+}
+
+.arena-timer.is-low {
+  border-color: var(--coral);
+  color: var(--coral-deep);
+  animation: arena-pulse 1.4s ease-in-out infinite;
+}
+
+.arena-timer.is-low .arena-timer-bar span {
+  background: var(--coral);
+}
+
+@keyframes arena-pulse {
+  50% {
+    box-shadow: 0 0 0 6px rgba(231, 111, 81, 0.14);
+  }
+}
+
+.arena-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 18px 0 16px;
+}
+
+.arena-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  background: var(--card);
+  border: 2px solid var(--line);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--ink-soft);
+  position: relative;
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+
+.arena-dot:hover {
+  border-color: var(--accent);
+}
+
+.arena-dot.is-answered {
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  border-color: var(--accent-soft);
+}
+
+.arena-dot.is-flagged::after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--gold);
+  border: 2px solid var(--paper);
+}
+
+.arena-dot.is-now {
+  border-color: var(--accent);
+  color: var(--accent-deep);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.chip-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  color: var(--ink-soft);
+}
+
+.chip-flag.is-on {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #3a2b10;
+}
+
+.choice.is-picked {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.choice.is-picked .choice-letter {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fffdf9;
+}
+
+.arena-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.arena-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  color: var(--ink-soft);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(45, 42, 50, 0.45);
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  animation: arena-fade 0.15s ease;
+}
+
+@keyframes arena-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+.modal {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 26px;
+  max-width: 440px;
+  display: grid;
+  gap: 12px;
+  animation: rise 0.2s ease;
+}
+
+.modal h2 {
+  font-size: 22px;
+}
+
+.modal p {
+  color: var(--ink-soft);
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+/* ---------- the scorecard ---------- */
+
+.arena-result {
+  position: relative;
+  overflow: hidden;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 36px 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  animation: rise 0.3s ease;
+}
+
+.arena-result h1 {
+  font-size: 30px;
+}
+
+.arena-rank {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 26px;
+  color: var(--accent-deep);
+}
+
+.arena-stats {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: flex;
+  gap: 26px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.arena-stats li {
+  display: grid;
+  gap: 2px;
+}
+
+.arena-stats span {
+  font-size: 13px;
+  color: var(--ink-soft);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.arena-stats strong {
+  font-family: var(--font-display);
+  font-size: 20px;
+}
+
+.arena-pb {
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--green);
+}
+
+.arena-review-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.arena-review-item {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  border-left: 5px solid var(--line-strong);
+  padding: 18px 20px;
+  display: grid;
+  gap: 10px;
+}
+
+.arena-review-item.is-ok {
+  border-left-color: var(--green);
+}
+
+.arena-review-item.is-no {
+  border-left-color: var(--coral);
+}
+
+.arena-review-item.is-blank {
+  border-left-color: var(--gold);
+}
+
+.arena-review-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.arena-review-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 9px;
+  display: grid;
+  place-items: center;
+  background: var(--paper);
+  border: 2px solid var(--line);
+  font-family: var(--font-display);
+}
+
+.arena-review-verdict {
+  color: var(--ink-soft);
+}
+
+.arena-review-key {
+  margin-left: auto;
+  color: var(--ink);
+}
+
+.arena-review-q {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.arena-review-foot {
+  text-align: center;
+  color: var(--ink-soft);
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+@media (max-width: 560px) {
+  .arena-dot {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+
+  .arena-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .arena-actions {
+    flex-direction: column-reverse;
+  }
+
+  .arena-actions .btn {
+    justify-content: center;
+  }
+
+  .arena-review-key {
+    margin-left: 0;
+    width: 100%;
+  }
+}

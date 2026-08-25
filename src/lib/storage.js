@@ -41,6 +41,19 @@ export function saveResult(id, correct, total) {
   return data.results[id]
 }
 
+// How many times a quiz has been finished. Drives which set of problem
+// variations the next attempt serves (see lib/variants.js).
+export function getRound(id) {
+  return load().rounds?.[id] ?? 0
+}
+
+export function bumpRound(id) {
+  const data = load()
+  data.rounds ??= {}
+  data.rounds[id] = (data.rounds[id] ?? 0) + 1
+  persist(data)
+}
+
 export function starsFor(pct) {
   if (pct == null) return 0
   return pct >= 90 ? 3 : pct >= 70 ? 2 : pct >= 50 ? 1 : 0

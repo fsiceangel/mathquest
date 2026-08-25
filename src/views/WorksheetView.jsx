@@ -3,9 +3,13 @@ import { M } from '../lib/math.jsx'
 import { BackLink } from '../components/ui.jsx'
 import { Printer } from '../components/icons.jsx'
 import { Fig } from '../components/Fig.jsx'
+import { versionCount, versionSet } from '../lib/variants.js'
 
 export default function WorksheetView({ book, chapter }) {
   const [showKey, setShowKey] = useState(false)
+  const [version, setVersion] = useState(0)
+  const versions = versionCount(chapter.worksheet)
+  const worksheet = versionSet(chapter.worksheet, version)
   return (
     <main className="page page-narrow">
       <div className="ws-controls no-print">
@@ -21,6 +25,22 @@ export default function WorksheetView({ book, chapter }) {
             Print it, grab a pencil, and show your work on paper — real mathematicians write things down!
           </p>
         </header>
+        {versions > 1 && (
+          <div className="ws-versions" role="group" aria-label="Worksheet version">
+            <span className="ws-versions-label">Version</span>
+            {Array.from({ length: versions }, (_, i) => (
+              <button
+                key={i}
+                className={'ws-version' + (i === version ? ' is-on' : '')}
+                aria-pressed={i === version}
+                onClick={() => setVersion(i)}
+              >
+                {i + 1}
+              </button>
+            ))}
+            <span className="ws-versions-hint">Same skills, different numbers — print a new one each week.</span>
+          </div>
+        )}
         <div className="ws-toolbar">
           <label className="toggle">
             <input type="checkbox" checked={showKey} onChange={(e) => setShowKey(e.target.checked)} />
@@ -39,6 +59,7 @@ export default function WorksheetView({ book, chapter }) {
             <p className="sheet-brand">MathQuest</p>
             <h2>
               {book.title} — Chapter {chapter.number}: {chapter.title}
+              {versions > 1 && <span className="sheet-version"> · Version {version + 1}</span>}
             </h2>
           </div>
           <p className="sheet-namedate">
@@ -46,7 +67,7 @@ export default function WorksheetView({ book, chapter }) {
           </p>
         </header>
         <ol className="ws-problems">
-          {chapter.worksheet.map((p, i) => (
+          {worksheet.map((p, i) => (
             <li key={i} className="ws-problem">
               <p className="ws-q">
                 <M>{p.q}</M>
@@ -66,11 +87,12 @@ export default function WorksheetView({ book, chapter }) {
               <p className="sheet-brand">MathQuest · Answer Key</p>
               <h2>
                 {book.title} — Chapter {chapter.number}: {chapter.title}
+                {versions > 1 && <span className="sheet-version"> · Version {version + 1}</span>}
               </h2>
             </div>
           </header>
           <ol className="key-list">
-            {chapter.worksheet.map((p, i) => (
+            {worksheet.map((p, i) => (
               <li key={i}>
                 <p className="key-answer">
                   <M>{p.answer}</M>

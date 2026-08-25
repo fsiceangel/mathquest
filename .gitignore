@@ -2,6 +2,7 @@ node_modules/
 dist/
 *.local
 .DS_Store
+tmp_*.mjs
 server/config.json
 server/mathquest.db
 server/*.db-journal

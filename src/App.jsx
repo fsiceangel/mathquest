@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { getBook } from './data/books.js'
-import { getChapterContent } from './data/content.js'
+import { getChapterContent, loadVariants } from './data/content.js'
 import { fullSync, schedulePush, getSyncConfig, getSyncStatus, onSyncChange } from './lib/sync.js'
 import { Logo } from './components/icons.jsx'
 import Home from './views/Home.jsx'
@@ -11,6 +11,8 @@ import QuizView from './views/QuizView.jsx'
 import WorksheetView from './views/WorksheetView.jsx'
 import FamilyPage from './views/FamilyPage.jsx'
 import ProgressPage from './views/ProgressPage.jsx'
+import ArenaPage from './views/ArenaPage.jsx'
+import { AuthoredPaper, DrawnPaper } from './views/ArenaRunner.jsx'
 
 function useRoute() {
   const [hash, setHash] = useState(window.location.hash)
@@ -26,6 +28,11 @@ function useRoute() {
 }
 
 function resolve(route) {
+  if (route[0] === 'arena') {
+    if (route[1] === 'paper') return { view: <AuthoredPaper key={route[2]} paperId={route[2]} />, accent: 'amber' }
+    if (route[1]) return { view: <DrawnPaper key={route[1]} modeId={route[1]} />, accent: 'amber' }
+    return { view: <ArenaPage />, accent: 'amber' }
+  }
   if (route[0] === 'family') return { view: <FamilyPage />, accent: 'coral' }
   if (route[0] === 'progress') return { view: <ProgressPage />, accent: 'coral' }
   if (route[0] !== 'book') return { view: <Home />, accent: 'coral' }
@@ -85,8 +92,26 @@ function resolve(route) {
   return { view: <ChapterPage book={book} meta={meta} content={content} />, accent }
 }
 
+// Pull in a chapter's problem variations as soon as the student opens the
+// chapter, so the rotation is ready by the time they finish a quiz. Attaching
+// mutates the chapter object, hence the re-render tick.
+function useVariants(bookId, chapterNumber) {
+  const [, tick] = useState(0)
+  useEffect(() => {
+    if (!bookId || !chapterNumber) return
+    let alive = true
+    loadVariants(bookId, chapterNumber).then((n) => {
+      if (alive && n) tick((t) => t + 1)
+    })
+    return () => {
+      alive = false
+    }
+  }, [bookId, chapterNumber])
+}
+
 export default function App() {
   const route = useRoute()
+  useVariants(route[0] === 'book' ? route[1] : null, route[2] === 'ch' ? Number(route[3]) : null)
   const { view, accent } = resolve(route)
   const [syncStatus, setSyncStatus] = useState(getSyncStatus)
   const [, setSyncTick] = useState(0)
@@ -114,6 +139,9 @@ export default function App() {
           <span>MathQuest</span>
         </a>
         <nav className="header-nav">
+          <a className="header-link" href="#/arena">
+            Arena
+          </a>
           <a className="header-link" href="#/progress">
             Progress
           </a>

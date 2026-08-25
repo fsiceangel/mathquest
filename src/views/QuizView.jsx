@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react'
-import { saveResult, starsFor } from '../lib/storage.js'
+import { useEffect, useRef, useState } from 'react'
+import { saveResult, starsFor, getRound, bumpRound } from '../lib/storage.js'
+import { versionCount, versionSet } from '../lib/variants.js'
 import { M } from '../lib/math.jsx'
 import { BackLink, ProgressRing, StarBar, Confetti } from '../components/ui.jsx'
 import { Check, Cross, Bulb, ArrowRight } from '../components/icons.jsx'
@@ -12,11 +13,12 @@ const END_MESSAGES = {
   0: 'Every mathematician starts somewhere. Revisit the lesson and come back — you have got this!',
 }
 
-function Results({ correct, total, storageId, onRetry, backHref, isChallenge }) {
+function Results({ correct, total, storageId, onRetry, backHref, isChallenge, freshNext }) {
   const pct = Math.round((correct / total) * 100)
   const stars = starsFor(pct)
   useEffect(() => {
     saveResult(storageId, correct, total)
+    bumpRound(storageId)
   }, [storageId, correct, total])
   return (
     <div className="results">
@@ -29,6 +31,7 @@ function Results({ correct, total, storageId, onRetry, backHref, isChallenge }) 
       </ProgressRing>
       <StarBar stars={stars} size={30} />
       <p className="results-msg">{END_MESSAGES[stars]}</p>
+      {freshNext && <p className="results-note">Try again and you will get a brand-new set of numbers.</p>}
       <div className="results-actions">
         <button className="btn btn-accent btn-lg" onClick={onRetry}>
           Try again
@@ -42,11 +45,20 @@ function Results({ correct, total, storageId, onRetry, backHref, isChallenge }) 
   )
 }
 
-export default function QuizView({ title, subtitle, problems, storageId, backHref, learnHref, isChallenge }) {
+export default function QuizView({ title, subtitle, problems: base, storageId, backHref, learnHref, isChallenge }) {
+  const [round, setRound] = useState(() => getRound(storageId))
   const [idx, setIdx] = useState(0)
   const [picked, setPicked] = useState(null)
   const [correctCount, setCorrectCount] = useState(0)
   const [done, setDone] = useState(false)
+  const versions = versionCount(base)
+  // A chapter's variations arrive asynchronously, so the version set can change
+  // under us. Swapping problems is fine before the first answer and jarring
+  // after it, so once a run is under way we hold on to what we handed out.
+  const held = useRef(null)
+  const started = idx > 0 || picked !== null
+  if (!started || !held.current) held.current = versionSet(base, round)
+  const problems = held.current
   const total = problems.length
   const problem = problems[idx]
 
@@ -66,6 +78,8 @@ export default function QuizView({ title, subtitle, problems, storageId, backHre
   }
 
   function retry() {
+    held.current = null
+    setRound(getRound(storageId))
     setIdx(0)
     setPicked(null)
     setCorrectCount(0)
@@ -109,12 +123,20 @@ export default function QuizView({ title, subtitle, problems, storageId, backHre
           onRetry={retry}
           backHref={backHref}
           isChallenge={isChallenge}
+          freshNext={versions > 1}
         />
       ) : (
         <div className="q-card" key={idx}>
-          <span className="chip">
-            Question {idx + 1} of {total}
-          </span>
+          <div className="q-chips">
+            <span className="chip">
+              Question {idx + 1} of {total}
+            </span>
+            {versions > 1 && (
+              <span className="chip chip-quiet" title="Each attempt serves a different set of numbers">
+                Version {(round % versions) + 1} of {versions}
+              </span>
+            )}
+          </div>
           <h2 className="q-text">
             <M>{problem.q}</M>
           </h2>

@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import 'katex/dist/katex.min.css'
 import './styles/tokens.css'
 import './styles/app.css'
+import './styles/arena.css'
 import './styles/print.css'
 import App from './App.jsx'
 

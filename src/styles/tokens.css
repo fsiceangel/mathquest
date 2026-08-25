@@ -15,6 +15,9 @@
   --violet: #7c6ff0;
   --violet-deep: #5f53c7;
   --violet-soft: #ecebfc;
+  --amber: #cf8020;
+  --amber-deep: #a2600f;
+  --amber-soft: #fbeed8;
 
   --gold: #f4a93d;
   --green: #3e9b5f;
@@ -48,4 +51,9 @@
   --accent: var(--violet);
   --accent-deep: var(--violet-deep);
   --accent-soft: var(--violet-soft);
+}
+.accent-amber {
+  --accent: var(--amber);
+  --accent-deep: var(--amber-deep);
+  --accent-soft: var(--amber-soft);
 }

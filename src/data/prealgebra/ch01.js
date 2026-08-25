@@ -656,10 +656,10 @@ const s17 = {
       solution: 'Two negatives cancel, so the answer is positive: $64 \\div 4 = 16$.',
     },
     {
-      q: 'Compute $12 \\div \\frac{1}{2}$.',
-      choices: ['$6$', '$24$', '$\\frac{1}{24}$', '$14$'],
-      answer: 1,
-      solution: 'Dividing by $\\frac{1}{2}$ means multiplying by its reciprocal, $2$: so $12 \\div \\frac{1}{2} = 12 \\times 2 = 24$. Think of it as counting the halves inside $12$.',
+      q: 'Compute $10 \\div \\frac{2}{3}$.',
+      choices: ['$\\frac{20}{3}$', '$\\frac{3}{20}$', '$15$', '$\\frac{2}{30}$'],
+      answer: 2,
+      solution: 'Dividing by $\\frac{2}{3}$ means multiplying by its reciprocal, $\\frac{3}{2}$: so $10 \\div \\frac{2}{3} = 10 \\times \\frac{3}{2} = \\frac{30}{2} = 15$. It makes sense — two-thirds is smaller than $1$, so $10$ of them fit more than $10$ times. Multiplying by $\\frac{2}{3}$ instead of flipping gives $\\frac{20}{3}$.',
     },
     {
       q: 'Compute $900 \\div 4 \\div 25$.',

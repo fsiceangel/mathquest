@@ -86,6 +86,28 @@ export const Trophy = (p) => (
   </Svg>
 )
 
+export const Clock = (p) => (
+  <Svg {...p}>
+    <circle cx="12" cy="12" r="9" />
+    <path d="M12 7v5l3 2" />
+  </Svg>
+)
+
+export const Flag = (p) => (
+  <Svg {...p}>
+    <path d="M5 21V4" />
+    <path d="M5 5h11l-1.6 3.5L16 12H5" />
+  </Svg>
+)
+
+export const Swords = (p) => (
+  <Svg {...p}>
+    <path d="M14.5 4H20v5.5L9.5 20H4v-5.5z" />
+    <path d="m14 14 6 6" />
+    <path d="m10 10-6-6" />
+  </Svg>
+)
+
 export function Star({ filled = false, size = 18, ...rest }) {
   return (
     <svg
