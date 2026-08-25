@@ -427,9 +427,9 @@ const s54 = {
     },
     {
       q: 'Two consecutive integers add up to $45$. What is the smaller one?',
-      choices: ['$23$', '$21$', '$22$', '$\\frac{45}{2}$'],
+      choices: ['$23$', '$44$', '$22$', '$\\frac{45}{2}$'],
       answer: 2,
-      solution: 'Let the smaller be $n$: then $n + (n + 1) = 45$, so $2n + 1 = 45$, giving $2n = 44$ and $n = 22$. The integers are $22$ and $23$; the smaller is $22$. Check: $22 + 23 = 45$. ✓',
+      solution: 'Let the smaller be $n$: then $n + (n + 1) = 45$, so $2n + 1 = 45$, giving $2n = 44$ and $n = 22$. The integers are $22$ and $23$; the smaller is $22$. Check: $22 + 23 = 45$. ✓ (Stopping at $2n = 44$ reports $44$; $23$ is the LARGER of the pair; and splitting $45$ straight down the middle gives $\\frac{45}{2}$, which is not even a whole number — a sign the $+1$ was dropped.)',
     },
     {
       q: 'Sara is $4$ years older than Tom, and their ages add up to $30$. How old is Tom?',
