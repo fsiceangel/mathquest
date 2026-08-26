@@ -128,11 +128,11 @@ const s21 = [
         '$6x$ means $6$ TIMES $x$: $6 \\cdot \\frac{1}{3} = \\frac{6}{3} = 2$. Then subtract: $2 - 5 = -3$. The choice $\\frac{4}{3}$ adds $6$ and $\\frac{1}{3}$ instead of multiplying, giving $\\frac{19}{3} - 5$. The choice $2$ stops after the multiplication and never subtracts the $5$. The choice $\\frac{1}{3}$ merges $6x$ with $-5$ into $(6 - 5)x = x$, but $6x$ and $5$ are unlike terms and cannot be combined.',
     },
     {
-      q: 'Evaluate $8x + 3$ when $x = \\frac{1}{4}$.',
-      choices: ['$\\frac{45}{4}$', '$2$', '$5$', '$\\frac{11}{4}$'],
+      q: 'Evaluate $8x + 3$ when $x = \\frac{1}{2}$.',
+      choices: ['$\\frac{23}{2}$', '$4$', '$7$', '$\\frac{11}{2}$'],
       answer: 2,
       solution:
-        'Multiply first: $8 \\cdot \\frac{1}{4} = \\frac{8}{4} = 2$. Then $2 + 3 = 5$. Notice how a fraction less than $1$ shrinks the $8$ rather than growing it. The choice $\\frac{45}{4}$ adds $8 + \\frac{1}{4} + 3$ instead of multiplying. The choice $2$ stops one step early. The choice $\\frac{11}{4}$ combines $8$ and $3$ first, computing $(8 + 3) \\cdot \\frac{1}{4}$, which changes what is being multiplied.',
+        'Multiply first: $8 \\cdot \\frac{1}{2} = \\frac{8}{2} = 4$. Then $4 + 3 = 7$. Notice how a fraction less than $1$ shrinks the $8$ rather than growing it. The choice $\\frac{23}{2}$ adds $8 + \\frac{1}{2} + 3$ instead of multiplying. The choice $4$ stops one step early. The choice $\\frac{11}{2}$ combines $8$ and $3$ first, computing $(8 + 3) \\cdot \\frac{1}{2}$, which changes what is being multiplied.',
     },
     {
       q: 'Evaluate $10x - 1$ when $x = \\frac{3}{5}$.',
