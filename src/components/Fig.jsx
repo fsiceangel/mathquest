@@ -38,7 +38,9 @@ export function Fig({ fig }) {
   const k = () => key++
 
   if (fig.grid) {
-    const step = Math.max(1, Math.ceil((x1 - x0) / 12))
+    // Keep unit squares whenever they stay at least 11px apart on screen, so a
+    // solution that says "count three squares right" matches what is drawn.
+    const step = Math.max(1, Math.ceil(11 / s))
     const gridLines = []
     for (let gx = Math.ceil(x0); gx <= x1; gx += step) {
       gridLines.push(<line key={k()} x1={X(gx)} y1={Y(y0)} x2={X(gx)} y2={Y(y1)} className="fig-grid" />)
@@ -49,7 +51,8 @@ export function Fig({ fig }) {
     parts.push(<g key={k()}>{gridLines}</g>)
     if (x0 <= 0 && x1 >= 0) parts.push(<line key={k()} x1={X(0)} y1={Y(y0)} x2={X(0)} y2={Y(y1)} className="fig-axis" />)
     if (y0 <= 0 && y1 >= 0) parts.push(<line key={k()} x1={X(x0)} y1={Y(0)} x2={X(x1)} y2={Y(0)} className="fig-axis" />)
-    const labelStep = step * ((x1 - x0) / step > 8 ? 2 : 1)
+    const stepPx = step * s
+    const labelStep = step * (stepPx >= 28 ? 1 : stepPx >= 14 ? 2 : 4)
     for (let gx = Math.ceil(x0 / labelStep) * labelStep; gx <= x1; gx += labelStep) {
       if (gx !== 0 && y0 <= 0 && y1 >= 0) {
         parts.push(<text key={k()} x={X(gx)} y={Y(0) + 14} className="fig-ticklabel" textAnchor="middle">{gx}</text>)
