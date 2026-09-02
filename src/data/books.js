@@ -1,6 +1,7 @@
-// Book / chapter / section metadata for all three courses.
-// Chapter and section titles mirror the AoPS tables of contents so a student
-// can cross-reference the physical books. All quiz/learn content is original.
+// Book / chapter / section metadata for every course on the site.
+// Chapter and section numbering follows the physical books a student works
+// from, so the site can be used side by side with them. All quiz and learn
+// content is original.
 // A chapter is "available" when a content module for it exists (see content.js).
 
 export const books = [
@@ -25,6 +26,29 @@ export const books = [
       { number: 13, title: 'Data and Statistics', sections: ['Basic Statistics', 'Limits of Basic Statistics', 'Tables, Graphs, and Charts'] },
       { number: 14, title: 'Counting', sections: ['Counting with Addition and Subtraction', 'The Multiplication Principle', 'Casework', 'Counting Pairs', 'Probability'] },
       { number: 15, title: 'Problem-Solving Strategies', sections: ['Find a Pattern', 'Make a List', 'Draw a Picture', 'Work Backwards'] },
+    ],
+  },
+  {
+    id: 'intro-counting',
+    title: 'Introduction to Counting & Probability',
+    subtitle: 'Casework, combinations, probability, and expected value',
+    accent: 'green',
+    chapters: [
+      { number: 1, title: 'Counting Is Arithmetic', sections: ['Counting Lists of Numbers', 'Counting with Addition and Subtraction', 'Counting Multiple Events', 'Permutations'] },
+      { number: 2, title: 'Basic Counting Techniques', sections: ['Casework', 'Complementary Counting', 'Constructive Counting', 'Counting with Restrictions'] },
+      { number: 3, title: 'Correcting for Overcounting', sections: ['Permutations with Repeated Elements', 'Counting Pairs of Items', 'Counting with Symmetries'] },
+      { number: 4, title: 'Committees and Combinations', sections: ['Committee Forming', 'How to Compute Combinations', 'Our First Combinatorial Identity'] },
+      { number: 5, title: 'More With Combinations', sections: ['Paths on a Grid', 'More Committee-type Problems', 'Distinguishability'] },
+      { number: 6, title: 'Some Harder Counting Problems', sections: ['Problems'] },
+      { number: 7, title: 'Introduction to Probability', sections: ['Basic Probability', 'Equally Likely Outcomes', 'Counting Techniques in Probability Problems'] },
+      { number: 8, title: 'Basic Probability Techniques', sections: ['Probability and Addition', 'Complementary Probabilities', 'Probability and Multiplication', 'Probability with Dependent Events', 'Shooting Stars — a Hard Problem'] },
+      { number: 9, title: 'Think About It!', sections: ['Problems'] },
+      { number: 10, title: 'Geometric Probability', sections: ['Probability Using Lengths', 'Probability Using Areas'] },
+      { number: 11, title: 'Expected Value', sections: ['Definition of Expected Value', 'Expected Value Problems', 'A Funky Game'] },
+      { number: 12, title: "Pascal's Triangle", sections: ["Constructing Pascal's Triangle", 'Those Numbers Look Familiar!', 'An Interesting Combinatorial Identity', 'Another Interesting Combinatorial Identity'] },
+      { number: 13, title: 'The Hockey Stick Identity', sections: ['The Problem', 'A Step-by-Step Solution', 'A Clever Solution', 'The Identity'] },
+      { number: 14, title: 'The Binomial Theorem', sections: ['A Little Algebra', 'The Theorem', 'Applications of the Binomial Theorem', 'Using the Binomial Theorem in Identities'] },
+      { number: 15, title: 'More Challenging Problems', sections: ['Problems'] },
     ],
   },
   {

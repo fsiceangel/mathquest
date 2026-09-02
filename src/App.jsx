@@ -153,7 +153,7 @@ export default function App() {
       </header>
       {view}
       <footer className="app-footer no-print">
-        <p>Made with love for one very smart kid. Topics follow the Art of Problem Solving books — all problems are original.</p>
+        <p>Made with love for one very smart kid. Topics follow the books on her shelf — every problem here is original.</p>
       </footer>
     </div>
   )

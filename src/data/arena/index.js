@@ -20,7 +20,7 @@ export function getPaper(id) {
 // Rough difficulty for library problems, used to order a drawn paper so it
 // ramps the way a real contest does. Position inside a section is the strongest
 // signal we have: the tenth problem of a section is always the hardest one.
-const BOOK_WEIGHT = { prealgebra: 0, 'intro-algebra': 0.9, 'intro-geometry': 0.9 }
+const BOOK_WEIGHT = { prealgebra: 0, 'intro-counting': 0.5, 'intro-algebra': 0.9, 'intro-geometry': 0.9 }
 
 function buildPool() {
   const pool = []

@@ -9,6 +9,7 @@ const modules = {
   ...import.meta.glob('./prealgebra/ch*.js', { eager: true }),
   ...import.meta.glob('./intro-algebra/ch*.js', { eager: true }),
   ...import.meta.glob('./intro-geometry/ch*.js', { eager: true }),
+  ...import.meta.glob('./intro-counting/ch*.js', { eager: true }),
 }
 
 // Variations are three times the weight of the base bank, and a student only

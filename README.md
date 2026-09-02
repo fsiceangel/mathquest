@@ -1,13 +1,13 @@
 # MathQuest
 
-A kid-friendly math practice site that follows the structure of the Art of Problem
-Solving books (Prealgebra → Introduction to Algebra → Introduction to Geometry),
-in the spirit of Beast Academy: pick a book, pick a chapter, learn each section,
-then practice it.
+A kid-friendly math practice site organized like a shelf of textbooks
+(Prealgebra → Introduction to Counting & Probability → Introduction to Algebra →
+Introduction to Geometry): pick a book, pick a chapter, learn each section, then
+practice it.
 
 **All problems, lessons, and solutions are original MathQuest content.** Only the
-chapter/section topic structure mirrors the books, so a student can use the site
-alongside the real textbooks.
+chapter/section topic structure follows the books a student works from, so the
+site can be used alongside them.
 
 ## Features
 

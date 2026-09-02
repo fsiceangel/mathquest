@@ -21,6 +21,7 @@
 
   --gold: #f4a93d;
   --green: #3e9b5f;
+  --green-deep: #2f7a4a;
   --green-soft: #e7f4ec;
   --rose-soft: #fbe7e2;
 
@@ -56,4 +57,9 @@
   --accent: var(--amber);
   --accent-deep: var(--amber-deep);
   --accent-soft: var(--amber-soft);
+}
+.accent-green {
+  --accent: var(--green);
+  --accent-deep: var(--green-deep);
+  --accent-soft: var(--green-soft);
 }
