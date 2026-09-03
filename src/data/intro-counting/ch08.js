@@ -56,16 +56,16 @@ const s82 = {
   },
   problems: [
     {
-      q: 'A bag holds $5$ red chips, $3$ white chips, and $4$ black chips. One chip is drawn at random. What is the probability that it is red or black?',
-      choices: ['$\\frac{3}{4}$', '$\\frac{5}{12}$', '$\\frac{1}{3}$', '$\\frac{7}{12}$'],
+      q: 'A pouch holds $15$ game tokens: $6$ are square, $4$ are triangular, and $5$ are round. One token is drawn at random. What is the probability that it is square or round?',
+      choices: ['$\\frac{11}{15}$', '$\\frac{2}{5}$', '$\\frac{4}{15}$', '$\\frac{3}{5}$'],
       answer: 0,
-      solution: 'A chip cannot be both red and black, so the events are disjoint and the probabilities add: $\\frac{5}{12} + \\frac{4}{12} = \\frac{9}{12} = \\frac{3}{4}$. The choice $\\frac{5}{12}$ is red alone, and $\\frac{7}{12}$ is white or black.',
+      solution: 'A token cannot be both square and round, so the events are disjoint and the probabilities add: $\\frac{6}{15} + \\frac{5}{15} = \\frac{11}{15}$. The choice $\\frac{2}{5}$ is square alone, $\\frac{4}{15}$ is triangular, and $\\frac{3}{5}$ is triangular or round.',
     },
     {
-      q: 'A standard six-sided die is rolled once. What is the probability that the result is even or greater than $4$?',
-      choices: ['$\\frac{5}{6}$', '$\\frac{2}{3}$', '$\\frac{1}{2}$', '$\\frac{1}{3}$'],
+      q: 'Twelve cards numbered $1$ through $12$ are shuffled, and one is drawn at random. What is the probability that the number drawn is a factor of $12$ or greater than $10$?',
+      choices: ['$\\frac{2}{3}$', '$\\frac{7}{12}$', '$\\frac{1}{2}$', '$\\frac{1}{6}$'],
       answer: 1,
-      solution: 'The even results are $2, 4, 6$ and the results greater than $4$ are $5, 6$. The roll $6$ is in both lists, so $\\frac{3}{6} + \\frac{2}{6}$ counts it twice. Subtract it once: $\\frac{3 + 2 - 1}{6} = \\frac{4}{6} = \\frac{2}{3}$. The choice $\\frac{5}{6}$ forgets the overlap.',
+      solution: 'The factors of $12$ on the cards are $1, 2, 3, 4, 6, 12$ — six cards — and the numbers greater than $10$ are $11$ and $12$. The card $12$ is in both lists, so $6 + 2$ counts it twice. Subtract it once: $6 + 2 - 1 = 7$ favorable cards, giving $\\frac{7}{12}$. The choice $\\frac{2}{3}$ forgets the overlap, $\\frac{1}{2}$ is the factors alone, and $\\frac{1}{6}$ is the greater-than-$10$ cards alone.',
     },
     {
       q: 'The spinner shown is divided into four sections: half of it is red, one quarter is blue, and the remaining two sections, green and yellow, are equal in size. What is the probability that one spin lands on red or green?',
@@ -93,10 +93,10 @@ const s82 = {
       solution: 'There are $6$ multiples of $6$ ($6$ through $36$) and $6$ perfect squares ($1, 4, 9, 16, 25, 36$). The number $36$ is on both lists, so it is counted twice in $6 + 6 = 12$. Correct: $6 + 6 - 1 = 11$ favorable numbers, and $\\frac{11}{40}$. The choice $\\frac{3}{10}$ skips the overlap, $\\frac{3}{20}$ is one group alone, and $\\frac{1}{4}$ forgets that $1$ is a perfect square.',
     },
     {
-      q: 'Two standard dice are rolled. What is the probability that the sum is $5$ or the sum is $9$?',
-      choices: ['$\\frac{1}{9}$', '$\\frac{7}{36}$', '$\\frac{2}{9}$', '$\\frac{1}{4}$'],
+      q: 'Two standard dice are rolled. What is the probability that the sum of the two numbers is a perfect square?',
+      choices: ['$\\frac{1}{12}$', '$\\frac{1}{9}$', '$\\frac{7}{36}$', '$\\frac{2}{9}$'],
       answer: 2,
-      solution: 'A roll has only one sum, so the two cases are disjoint. Sum $5$: $(1,4), (2,3), (3,2), (4,1)$, four rolls. Sum $9$: $(3,6), (4,5), (5,4), (6,3)$, four rolls. Together $\\frac{4 + 4}{36} = \\frac{8}{36} = \\frac{2}{9}$. The choice $\\frac{1}{9}$ is one sum alone.',
+      solution: 'The possible sums run from $2$ to $12$, so the only perfect-square sums are $4$ and $9$, and no roll has both — disjoint cases. Sum $4$: $(1,3), (2,2), (3,1)$, three rolls. Sum $9$: $(3,6), (4,5), (5,4), (6,3)$, four rolls. Together $\\frac{3 + 4}{36} = \\frac{7}{36}$. The choice $\\frac{1}{12}$ is sum $4$ alone, $\\frac{1}{9}$ is sum $9$ alone, and $\\frac{2}{9}$ counts $(2,2)$ in two orders.',
     },
     {
       q: 'Two standard dice, one red and one blue, are rolled. What is the probability that at least one die shows a $3$ or the sum is $4$?',
@@ -105,10 +105,10 @@ const s82 = {
       solution: 'At least one $3$ happens in $11$ rolls ($6$ with a red $3$, $6$ with a blue $3$, minus the double $(3,3)$). The sum is $4$ in $3$ rolls: $(1,3), (2,2), (3,1)$. Two of those, $(1,3)$ and $(3,1)$, already contain a $3$, so they were counted in the first group. Favorable rolls: $11 + 3 - 2 = 12$, and $\\frac{12}{36} = \\frac{1}{3}$. The choice $\\frac{7}{18}$ adds $11 + 3$ without removing the overlap.',
     },
     {
-      q: 'A two-digit positive integer is chosen at random (there are $90$ of them, from $10$ through $99$). What is the probability that its tens digit is $7$ or its units digit is $7$?',
-      choices: ['$\\frac{1}{9}$', '$\\frac{19}{90}$', '$\\frac{1}{10}$', '$\\frac{1}{5}$'],
+      q: 'On any school morning, Tam’s bus is late with probability $\\frac{1}{4}$, his friend Uri’s bus is late with probability $\\frac{1}{3}$, and both buses are late with probability $\\frac{1}{10}$. On a random school morning, what is the probability that at least one of the two buses is late?',
+      choices: ['$\\frac{7}{12}$', '$\\frac{23}{60}$', '$\\frac{1}{2}$', '$\\frac{29}{60}$'],
       answer: 3,
-      solution: 'Tens digit $7$: the ten numbers $70$ through $79$. Units digit $7$: the nine numbers $17, 27, \\ldots, 97$. The number $77$ is in both groups, so the count is $10 + 9 - 1 = 18$, and $\\frac{18}{90} = \\frac{1}{5}$. The choice $\\frac{19}{90}$ counts $77$ twice, and $\\frac{1}{9}$ is the tens-digit group alone.',
+      solution: 'The events overlap — some mornings both buses are late — so use $P(A \\text{ or } B) = P(A) + P(B) - P(A \\text{ and } B) = \\frac{1}{4} + \\frac{1}{3} - \\frac{1}{10}$. Over sixtieths: $\\frac{15 + 20 - 6}{60} = \\frac{29}{60}$. The choice $\\frac{7}{12}$ adds and never subtracts, $\\frac{23}{60}$ subtracts the overlap twice, and $\\frac{1}{2}$ pretends the buses are independent and uses $\\frac{1}{4} \\times \\frac{1}{3}$ as the overlap instead of the given $\\frac{1}{10}$.',
     },
     {
       q: 'Three fair coins are flipped in order. What is the probability that exactly two of them show heads or the first coin shows heads?',
@@ -163,13 +163,13 @@ const s83 = {
         answer: 'The probability is $\\frac{5}{6}$.',
       },
       {
-        problem: 'Four fair coins are flipped. What is the probability that at least one of them shows tails?',
+        problem: 'A carnival wheel lands on a prize space with probability $\\frac{1}{5}$ on each spin, independently. Mel spins it $3$ times. What is the probability that she wins at least one prize?',
         steps: [
-          'The complement of "at least one tails" is "no tails", which means all four coins show heads.',
-          'There are $2^4 = 16$ equally likely sequences, and only HHHH has no tails, so $P(\\text{no tails}) = \\frac{1}{16}$.',
-          'Subtract: $1 - \\frac{1}{16} = \\frac{15}{16}$.',
+          'The complement of "at least one prize" is "no prizes at all": every spin misses.',
+          'Each spin misses with probability $\\frac{4}{5}$, and the spins are independent, so $P(\\text{all miss}) = \\left(\\frac{4}{5}\\right)^3 = \\frac{64}{125}$.',
+          'Subtract: $1 - \\frac{64}{125} = \\frac{61}{125}$.',
         ],
-        answer: 'The probability is $\\frac{15}{16}$.',
+        answer: 'The probability is $\\frac{61}{125}$.',
       },
       {
         problem: 'A standard die is rolled three times. What is the probability that at least one of the rolls is a $1$ or a $2$?',
@@ -190,16 +190,16 @@ const s83 = {
       solution: 'The perfect squares on a die are $1$ and $4$, so $P(\\text{square}) = \\frac{2}{6} = \\frac{1}{3}$ and $P(\\text{not a square}) = 1 - \\frac{1}{3} = \\frac{2}{3}$. The choice $\\frac{5}{6}$ forgets that $1$ is a perfect square.',
     },
     {
-      q: 'A spinner has $10$ equal sections numbered $1$ through $10$. What is the probability that one spin lands on a number that is not prime?',
-      choices: ['$\\frac{2}{5}$', '$\\frac{1}{2}$', '$\\frac{7}{10}$', '$\\frac{3}{5}$'],
+      q: 'A spinner has $9$ equal sections numbered $1$ through $9$. What is the probability that one spin lands on a number that is not a factor of $12$?',
+      choices: ['$\\frac{5}{9}$', '$\\frac{2}{3}$', '$\\frac{1}{3}$', '$\\frac{4}{9}$'],
       answer: 3,
-      solution: 'The primes from $1$ to $10$ are $2, 3, 5, 7$, so $P(\\text{prime}) = \\frac{4}{10}$ and $P(\\text{not prime}) = 1 - \\frac{4}{10} = \\frac{6}{10} = \\frac{3}{5}$. The choice $\\frac{1}{2}$ comes from calling $1$ a prime; it is not.',
+      solution: 'The factors of $12$ on the spinner are $1, 2, 3, 4, 6$ — five of the nine numbers — so $P(\\text{factor}) = \\frac{5}{9}$ and $P(\\text{not a factor}) = 1 - \\frac{5}{9} = \\frac{4}{9}$. The choice $\\frac{5}{9}$ is the complement itself, $\\frac{2}{3}$ forgets that $1$ and $6$ divide $12$, and $\\frac{1}{3}$ counts $12$ itself as a sixth factor even though it is not on the spinner.',
     },
     {
-      q: 'A standard die is rolled twice. What is the probability that at least one of the two rolls is even?',
-      choices: ['$\\frac{3}{4}$', '$\\frac{1}{2}$', '$\\frac{1}{4}$', '$\\frac{5}{8}$'],
+      q: 'A spinner has $6$ equal sections: $1$ gold and $5$ gray. It is spun twice. What is the probability that at least one of the two spins lands on gold?',
+      choices: ['$\\frac{11}{36}$', '$\\frac{25}{36}$', '$\\frac{1}{3}$', '$\\frac{1}{36}$'],
       answer: 0,
-      solution: 'The complement is that both rolls are odd. Each roll is odd in $3$ of $6$ ways, so both are odd in $3 \\times 3 = 9$ of the $36$ results: $P(\\text{both odd}) = \\frac{1}{4}$. Then $P(\\text{at least one even}) = 1 - \\frac{1}{4} = \\frac{3}{4}$. The choice $\\frac{1}{4}$ is the complement itself, and $\\frac{1}{2}$ is the probability that one particular roll is even.',
+      solution: 'The complement is that both spins land on gray: $\\frac{5}{6} \\times \\frac{5}{6} = \\frac{25}{36}$. Then $P(\\text{at least one gold}) = 1 - \\frac{25}{36} = \\frac{11}{36}$. The choice $\\frac{25}{36}$ is the complement itself, $\\frac{1}{3}$ adds $\\frac{1}{6} + \\frac{1}{6}$ as if the events could not overlap, and $\\frac{1}{36}$ is both spins landing on gold.',
     },
     {
       q: 'One of the $26$ letters of the alphabet is chosen at random. What is the probability that it is not a vowel? (The vowels are A, E, I, O, and U.)',
@@ -208,10 +208,10 @@ const s83 = {
       solution: 'Five letters are vowels, so $P(\\text{vowel}) = \\frac{5}{26}$ and $P(\\text{not a vowel}) = 1 - \\frac{5}{26} = \\frac{21}{26}$. The choice $\\frac{10}{13} = \\frac{20}{26}$ is an off-by-one slip that removes six letters instead of five.',
     },
     {
-      q: 'Two standard dice, one red and one blue, are rolled. What is the probability that the product of the two numbers is not a perfect square?',
-      choices: ['$\\frac{5}{6}$', '$\\frac{2}{9}$', '$\\frac{3}{4}$', '$\\frac{7}{9}$'],
+      q: 'Two standard dice, one red and one blue, are rolled. What is the probability that the product of the two numbers is not a multiple of $5$?',
+      choices: ['$\\frac{11}{36}$', '$\\frac{5}{6}$', '$\\frac{2}{3}$', '$\\frac{25}{36}$'],
       answer: 3,
-      solution: 'Count the complement: rolls whose product is a perfect square. The six doubles $(1,1)$ through $(6,6)$ all work, and so do $(1,4)$ and $(4,1)$, whose product is $4$. No other pair of numbers from $1$ to $6$ multiplies to a square, so there are $8$ square products, and $P(\\text{not a square}) = 1 - \\frac{8}{36} = \\frac{28}{36} = \\frac{7}{9}$. The choice $\\frac{5}{6}$ misses $(1,4)$ and $(4,1)$; $\\frac{2}{9}$ is the complement.',
+      solution: 'A product of numbers from $1$ to $6$ is a multiple of $5$ exactly when some die shows a $5$, so the complement is "at least one $5$". Easier still: the product avoids multiples of $5$ exactly when BOTH dice avoid $5$, which happens in $5 \\times 5 = 25$ of the $36$ rolls, so the probability is $\\frac{25}{36}$. The choice $\\frac{11}{36}$ is the complement, $\\frac{5}{6}$ makes only one die avoid the $5$, and $\\frac{2}{3}$ counts $12$ rolls containing a $5$ by adding $6 + 6$ without removing the double $(5,5)$.',
     },
     {
       q: 'Four friends each name their favorite season, and each of them is equally likely to name any of the four seasons, independently of the others. What is the probability that at least one of the four names winter?',
@@ -226,10 +226,10 @@ const s83 = {
       solution: 'The complement of "at least two heads" is "zero or one head". Zero heads: $1$ sequence. Exactly one head: $5$ sequences, one for each coin that could be the head. So $6$ of the $32$ sequences fail, and $P = 1 - \\frac{6}{32} = \\frac{26}{32} = \\frac{13}{16}$. The choice $\\frac{31}{32}$ only removes the all-tails sequence, forgetting the one-head case.',
     },
     {
-      q: 'A bag holds $3$ red, $3$ blue, and $3$ green marbles. A marble is drawn at random, its color noted, and it is put back; this is done three times in total. What is the probability that the three colors noted are not all the same?',
-      choices: ['$\\frac{26}{27}$', '$\\frac{2}{3}$', '$\\frac{8}{9}$', '$\\frac{1}{9}$'],
+      q: 'Kim’s bike ride to school passes $3$ traffic lights, and each light is green when she arrives at it with probability $\\frac{2}{3}$, independently of the others. What is the probability that she has to stop at least once on the ride?',
+      choices: ['$\\frac{8}{27}$', '$\\frac{26}{27}$', '$\\frac{19}{27}$', '$\\frac{1}{3}$'],
       answer: 2,
-      solution: 'Because the marble goes back each time, every draw is red, blue, or green with probability $\\frac{1}{3}$. All three the same color happens in $3$ ways (all red, all blue, all green) out of $27$ equally likely color sequences, so $P(\\text{all same}) = \\frac{3}{27} = \\frac{1}{9}$ and $P(\\text{not all same}) = 1 - \\frac{1}{9} = \\frac{8}{9}$. The choice $\\frac{26}{27}$ counts only one of the three all-same sequences.',
+      solution: 'Kim stops at least once unless every light is green. All three are green with probability $\\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27}$, so $P(\\text{at least one stop}) = 1 - \\frac{8}{27} = \\frac{19}{27}$. The choice $\\frac{8}{27}$ is the all-green ride, $\\frac{26}{27}$ subtracts $\\left(\\frac{1}{3}\\right)^3$ — the complement of the wrong event — and $\\frac{1}{3}$ is the chance that one particular light is red.',
     },
     {
       q: 'Three standard dice — red, blue, and green — are rolled. What is the probability that at least two of the dice show the same number?',
@@ -238,10 +238,10 @@ const s83 = {
       solution: 'The complement is that all three numbers are different: $6 \\times 5 \\times 4 = 120$ of the $216$ rolls. So $P(\\text{some match}) = 1 - \\frac{120}{216} = \\frac{96}{216} = \\frac{4}{9}$. The choice $\\frac{5}{9}$ is the complement, and $\\frac{5}{12}$ counts only rolls with exactly two matching, leaving out the six triples.',
     },
     {
-      q: 'A four-digit positive integer is chosen at random from $1000$ through $9999$. What is the probability that at least one digit appears more than once?',
-      choices: ['$\\frac{62}{125}$', '$\\frac{63}{125}$', '$\\frac{11}{25}$', '$\\frac{1}{2}$'],
+      q: 'A three-digit positive integer is chosen at random from $100$ through $999$. What is the probability that some two neighboring digits of the number are equal — the first two digits match, or the last two do?',
+      choices: ['$\\frac{19}{100}$', '$\\frac{81}{100}$', '$\\frac{7}{25}$', '$\\frac{1}{10}$'],
       answer: 0,
-      solution: 'There are $9000$ four-digit numbers. The complement is "all four digits different": $9$ choices for the first digit (not $0$), then $9$ for the second (anything but the first — $0$ is allowed now), then $8$, then $7$, for $9 \\times 9 \\times 8 \\times 7 = 4536$ numbers. So $P(\\text{a repeat}) = 1 - \\frac{4536}{9000} = \\frac{4464}{9000} = \\frac{62}{125}$. The choice $\\frac{63}{125}$ is the complement, and $\\frac{11}{25}$ comes from $10 \\times 9 \\times 8 \\times 7$, which lets the number start with $0$.',
+      solution: 'Count the complement: neighboring digits always differ. The hundreds digit has $9$ choices (not $0$), the tens digit must differ from the hundreds ($9$ choices, since $0$ is now allowed), and the units must differ from the tens ($9$ choices): $9 \\times 9 \\times 9 = 729$ of the $900$ numbers. So the probability is $1 - \\frac{729}{900} = \\frac{171}{900} = \\frac{19}{100}$. The choice $\\frac{81}{100}$ is the complement, $\\frac{7}{25}$ also counts numbers like $101$ whose equal digits are not neighbors, and $\\frac{1}{10}$ lets the complement count start with $0$.',
     },
   ],
 }
@@ -299,10 +299,10 @@ const s84 = {
   },
   problems: [
     {
-      q: 'A fair coin is flipped and a standard die is rolled. What is the probability that the coin shows heads and the die shows a multiple of $3$?',
-      choices: ['$\\frac{5}{6}$', '$\\frac{1}{12}$', '$\\frac{1}{6}$', '$\\frac{1}{3}$'],
+      q: 'A standard die is rolled and a spinner with $4$ equal sections labeled A, B, C, D is spun. What is the probability that the die shows a number less than $3$ and the spinner lands on A?',
+      choices: ['$\\frac{7}{12}$', '$\\frac{1}{24}$', '$\\frac{1}{12}$', '$\\frac{1}{3}$'],
       answer: 2,
-      solution: 'The coin and the die are independent. $P(\\text{heads}) = \\frac{1}{2}$ and $P(3 \\text{ or } 6) = \\frac{2}{6} = \\frac{1}{3}$, so the probability of both is $\\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6}$. The choice $\\frac{5}{6}$ adds instead of multiplying, and $\\frac{1}{12}$ counts only the $6$.',
+      solution: 'The die and the spinner are independent. $P(\\text{less than } 3) = \\frac{2}{6} = \\frac{1}{3}$ and $P(\\text{A}) = \\frac{1}{4}$, so the probability of both is $\\frac{1}{3} \\times \\frac{1}{4} = \\frac{1}{12}$. The choice $\\frac{7}{12}$ adds instead of multiplying, $\\frac{1}{24}$ counts only the roll of $1$, and $\\frac{1}{3}$ forgets the spinner entirely.',
     },
     {
       q: 'A bag holds $2$ red and $3$ blue marbles. A marble is drawn at random, put back, and a marble is drawn again. What is the probability that both draws are red?',
@@ -317,10 +317,10 @@ const s84 = {
       solution: 'This asks for one exact sequence, so multiply the four independent flips: $\\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{16}$. The choice $\\frac{3}{8}$ is the probability of two heads in ANY order, which is a different question.',
     },
     {
-      q: 'A fair coin is flipped $4$ times. What is the probability of getting exactly $3$ heads?',
-      choices: ['$\\frac{1}{16}$', '$\\frac{1}{4}$', '$\\frac{3}{8}$', '$\\frac{3}{4}$'],
+      q: 'A fair four-sided die with faces numbered $1$ through $4$ is rolled $3$ times. What is the probability that exactly two of the rolls show a $4$?',
+      choices: ['$\\frac{3}{64}$', '$\\frac{9}{64}$', '$\\frac{1}{16}$', '$\\frac{27}{64}$'],
       answer: 1,
-      solution: 'One order, such as HHHT, has probability $\\frac{1}{16}$. The single tail can be any of the $4$ flips, so there are $4$ orders: $4 \\times \\frac{1}{16} = \\frac{1}{4}$. The choice $\\frac{1}{16}$ forgets to count the orders; $\\frac{3}{8}$ is exactly $2$ heads.',
+      solution: 'One order, such as $4$, $4$, then not $4$, has probability $\\frac{1}{4} \\times \\frac{1}{4} \\times \\frac{3}{4} = \\frac{3}{64}$. The roll that misses can be the first, second, or third, so there are $3$ orders: $3 \\times \\frac{3}{64} = \\frac{9}{64}$. The choice $\\frac{3}{64}$ forgets to count the orders, $\\frac{1}{16}$ drops the $\\frac{3}{4}$ factor for the miss, and $\\frac{27}{64}$ answers "exactly two rolls that are not $4$".',
     },
     {
       q: 'A spinner has $8$ equal sections numbered $1$ through $8$. It is spun twice. What is the probability that exactly one of the two spins lands on $8$?',
@@ -353,10 +353,10 @@ const s84 = {
       solution: 'Every sequence with exactly two heads has probability $\\left(\\frac{2}{3}\\right)^2 \\left(\\frac{1}{3}\\right)^2 = \\frac{4}{81}$. Of the $\\binom{4}{2} = 6$ such sequences, only HHTT, THHT, and TTHH have the heads side by side. So the probability is $3 \\times \\frac{4}{81} = \\frac{12}{81} = \\frac{4}{27}$. The choice $\\frac{8}{27}$ uses all $6$ orders, ignoring the consecutive condition; $\\frac{4}{81}$ is a single order.',
     },
     {
-      q: 'Ben flips a fair coin $3$ times and Cara flips a fair coin $4$ times. What is the probability that Cara gets more heads than Ben?',
-      choices: ['$\\frac{35}{64}$', '$\\frac{9}{16}$', '$\\frac{1}{2}$', '$\\frac{5}{8}$'],
+      q: 'A standard die is rolled $3$ times. What is the probability that the three numbers, in the order they are rolled, are strictly increasing?',
+      choices: ['$\\frac{5}{9}$', '$\\frac{5}{27}$', '$\\frac{5}{54}$', '$\\frac{1}{216}$'],
       answer: 2,
-      solution: 'Compare after Cara’s first $3$ flips, when the two have flipped the same number of times. By symmetry, "Cara is ahead" and "Ben is ahead" have the same probability, say $p$, and "tied" has probability $t$, with $2p + t = 1$. If Cara is already ahead, she stays ahead no matter what her fourth flip does; if she is behind after three, one more flip can at best tie. If they are tied, she pulls ahead exactly when her fourth flip is heads, probability $\\frac{1}{2}$. So $P(\\text{Cara ahead}) = p + \\frac{t}{2} = \\frac{2p + t}{2} = \\frac{1}{2}$. Listing all $128$ pairs of results gives the same $\\frac{64}{128}$. The choice $\\frac{35}{64}$ comes from miscounting the tie cases.',
+      solution: 'First the three rolls must all be different, which happens with probability $\\frac{6 \\times 5 \\times 4}{216} = \\frac{120}{216} = \\frac{5}{9}$. Any three different numbers arrive in one of $3! = 6$ equally likely orders, and exactly one of those orders is increasing, so multiply by $\\frac{1}{6}$: $\\frac{5}{9} \\times \\frac{1}{6} = \\frac{5}{54}$. The choice $\\frac{5}{9}$ stops at "all different", $\\frac{5}{27}$ divides by $3$ instead of $6$, and $\\frac{1}{216}$ is the probability of one particular increasing run such as $1, 2, 3$.',
     },
   ],
 }
@@ -428,16 +428,16 @@ const s85 = {
       solution: 'The first card is the $7$ with probability $\\frac{1}{10}$, and then the $3$ is one of the $9$ remaining cards: $\\frac{1}{10} \\times \\frac{1}{9} = \\frac{1}{90}$. The choice $\\frac{1}{45}$ allows the two cards in either order, but the question fixes the order.',
     },
     {
-      q: 'A class has $7$ girls and $5$ boys. Two students are chosen at random, one after the other, to carry equipment. What is the probability that the first is a girl and the second is a boy?',
-      choices: ['$\\frac{35}{144}$', '$\\frac{35}{66}$', '$\\frac{35}{132}$', '$\\frac{7}{22}$'],
+      q: 'A shelf holds $8$ library books: $3$ novels and $5$ comics. Rio grabs two books at random, one after the other. What is the probability that the first book is a comic and the second is a novel?',
+      choices: ['$\\frac{15}{64}$', '$\\frac{15}{28}$', '$\\frac{15}{56}$', '$\\frac{5}{8}$'],
       answer: 2,
-      solution: 'The first pick is a girl with probability $\\frac{7}{12}$. Then $11$ students remain, all $5$ boys still among them, so the second is a boy with probability $\\frac{5}{11}$. Multiply: $\\frac{7}{12} \\times \\frac{5}{11} = \\frac{35}{132}$. The choice $\\frac{35}{144}$ uses $12$ for the second denominator, and $\\frac{35}{66}$ counts girl-boy in either order.',
+      solution: 'The first book is a comic with probability $\\frac{5}{8}$. Then $7$ books remain, all $3$ novels still among them, so the second is a novel with probability $\\frac{3}{7}$. Multiply: $\\frac{5}{8} \\times \\frac{3}{7} = \\frac{15}{56}$. The choice $\\frac{15}{64}$ uses $8$ for the second denominator as if the first book went back, $\\frac{15}{28}$ counts comic-novel in either order, and $\\frac{5}{8}$ stops after one book.',
     },
     {
-      q: 'A bag holds $4$ red and $2$ blue marbles. Two are drawn at random without replacement. What is the probability that the two marbles are different colors?',
-      choices: ['$\\frac{8}{15}$', '$\\frac{4}{15}$', '$\\frac{2}{3}$', '$\\frac{1}{3}$'],
+      q: 'A key ring holds $5$ brass keys and $3$ iron keys. Two keys are removed at random without replacement. What is the probability that one is brass and one is iron?',
+      choices: ['$\\frac{15}{28}$', '$\\frac{15}{56}$', '$\\frac{13}{28}$', '$\\frac{15}{64}$'],
       answer: 0,
-      solution: 'Red then blue: $\\frac{4}{6} \\times \\frac{2}{5} = \\frac{8}{30}$. Blue then red: $\\frac{2}{6} \\times \\frac{4}{5} = \\frac{8}{30}$. The two orders cannot both happen, so add: $\\frac{16}{30} = \\frac{8}{15}$. The choice $\\frac{4}{15}$ counts just one order.',
+      solution: 'Brass then iron: $\\frac{5}{8} \\times \\frac{3}{7} = \\frac{15}{56}$. Iron then brass: $\\frac{3}{8} \\times \\frac{5}{7} = \\frac{15}{56}$. The two orders cannot both happen, so add: $\\frac{30}{56} = \\frac{15}{28}$. The choice $\\frac{15}{56}$ counts just one order, $\\frac{13}{28}$ is the complement (two keys of the same metal), and $\\frac{15}{64}$ puts the first key back before the second is taken.',
     },
     {
       q: 'A bag holds $3$ gold and $5$ silver coins. Three coins are drawn at random without replacement. What is the probability that all three are silver?',
@@ -452,16 +452,16 @@ const s85 = {
       solution: 'Drawing two together is the same as drawing one and then another. The first is even with probability $\\frac{5}{10}$, and then $4$ of the $9$ remaining cards are even: $\\frac{5}{10} \\times \\frac{4}{9} = \\frac{20}{90} = \\frac{2}{9}$. Counting agrees: $\\frac{\\binom{5}{2}}{\\binom{10}{2}} = \\frac{10}{45}$. The choice $\\frac{1}{4}$ treats the draws as independent.',
     },
     {
-      q: 'A jar holds $4$ lemon candies and $4$ lime candies. Sam takes two candies at random without looking. What is the probability that they are different flavors?',
-      choices: ['$\\frac{1}{2}$', '$\\frac{3}{7}$', '$\\frac{4}{7}$', '$\\frac{2}{7}$'],
+      q: 'A tin holds $10$ buttons: $6$ large and $4$ small. Two buttons are drawn at random without replacement. What is the probability that the two buttons are the same size?',
+      choices: ['$\\frac{8}{15}$', '$\\frac{1}{3}$', '$\\frac{7}{15}$', '$\\frac{13}{25}$'],
       answer: 2,
-      solution: 'Lemon then lime is $\\frac{4}{8} \\times \\frac{4}{7} = \\frac{2}{7}$, and lime then lemon is the same. Add the two orders: $\\frac{4}{7}$. The choice $\\frac{3}{7}$ is the complement, both candies the same flavor ($2 \\times \\frac{4}{8} \\times \\frac{3}{7}$); $\\frac{1}{2}$ is the tempting guess that ignores how the jar changes after the first candy.',
+      solution: 'Split into two disjoint cases. Both large: $\\frac{6}{10} \\times \\frac{5}{9} = \\frac{30}{90}$. Both small: $\\frac{4}{10} \\times \\frac{3}{9} = \\frac{12}{90}$. Add: $\\frac{42}{90} = \\frac{7}{15}$. The choice $\\frac{8}{15}$ is the complement (one of each size), $\\frac{1}{3}$ is the both-large case alone, and $\\frac{13}{25}$ puts the first button back before the second draw.',
     },
     {
-      q: 'A bag holds $2$ red, $3$ blue, and $4$ green marbles. Three marbles are drawn at random without replacement. What is the probability that there is one of each color?',
-      choices: ['$\\frac{2}{7}$', '$\\frac{1}{21}$', '$\\frac{16}{81}$', '$\\frac{4}{21}$'],
+      q: 'Bag A holds $2$ red and $2$ blue marbles, and Bag B holds $3$ red and $1$ blue marble. One marble is moved at random from Bag A into Bag B, and then one marble is drawn at random from Bag B. What is the probability that the drawn marble is red?',
+      choices: ['$\\frac{7}{10}$', '$\\frac{3}{4}$', '$\\frac{4}{5}$', '$\\frac{3}{5}$'],
       answer: 0,
-      solution: 'One order, red-blue-green, has probability $\\frac{2}{9} \\times \\frac{3}{8} \\times \\frac{4}{7} = \\frac{24}{504} = \\frac{1}{21}$. The three colors can come out in $3! = 6$ orders, each with that same probability: $6 \\times \\frac{1}{21} = \\frac{6}{21} = \\frac{2}{7}$. The choice $\\frac{1}{21}$ forgets the orders, and $\\frac{16}{81}$ puts each marble back before the next draw.',
+      solution: 'Branch on the moved marble, which is red or blue with probability $\\frac{1}{2}$ each. If it is red, Bag B becomes $4$ red and $1$ blue, and the draw is red with probability $\\frac{4}{5}$; if it is blue, Bag B becomes $3$ red and $2$ blue, and the draw is red with probability $\\frac{3}{5}$. Add the two disjoint paths: $\\frac{1}{2} \\times \\frac{4}{5} + \\frac{1}{2} \\times \\frac{3}{5} = \\frac{7}{10}$. The choice $\\frac{3}{4}$ ignores the transfer and uses Bag B as it started, $\\frac{4}{5}$ assumes the moved marble was red, and $\\frac{3}{5}$ assumes it was blue.',
     },
     {
       q: 'A box holds $3$ red and $3$ white balls. Balls are drawn at random one at a time without replacement until a red ball appears, and then the drawing stops. What is the probability that exactly three balls are drawn?',
@@ -545,16 +545,16 @@ const s86 = {
       solution: 'Star on the second spin: the path is miss, star, with probability $\\frac{3}{4} \\times \\frac{1}{4} = \\frac{3}{16}$. Star on the third spin: miss, miss, star, with probability $\\frac{3}{4} \\times \\frac{3}{4} \\times \\frac{1}{4} = \\frac{9}{64}$. Add the two paths: $\\frac{12}{64} + \\frac{9}{64} = \\frac{21}{64}$. The choice $\\frac{27}{64}$ is the probability that the first three spins all miss.',
     },
     {
-      q: 'Two teams play a series that ends as soon as one team has won $2$ games. The Comets win each game with probability $\\frac{3}{5}$, independently of the other games. What is the probability that the Comets lose the first game but still win the series?',
-      choices: ['$\\frac{9}{25}$', '$\\frac{18}{125}$', '$\\frac{6}{25}$', '$\\frac{12}{125}$'],
+      q: 'Lena flips a fair coin to pick a spinner. If the coin shows heads she spins Spinner P, which has $3$ equal sections, one marked with a star; if it shows tails she spins Spinner Q, which has $4$ equal sections, one marked with a star. What is the probability that her spin lands on a star?',
+      choices: ['$\\frac{7}{12}$', '$\\frac{7}{24}$', '$\\frac{1}{12}$', '$\\frac{1}{6}$'],
       answer: 1,
-      solution: 'After losing game $1$, the Comets must win both remaining games, and the series then lasts exactly three games: the only path is lose, win, win. Multiply along it: $\\frac{2}{5} \\times \\frac{3}{5} \\times \\frac{3}{5} = \\frac{18}{125}$. The choice $\\frac{6}{25}$ stops after game $2$, forgetting that a $1$–$1$ split does not end the series; $\\frac{9}{25}$ is a two-game sweep, which cannot happen after a loss; and $\\frac{12}{125}$ uses the losing probability $\\frac{2}{5}$ for the deciding game.',
+      solution: 'Two disjoint paths lead to a star. Heads then a star on P: $\\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6}$. Tails then a star on Q: $\\frac{1}{2} \\times \\frac{1}{4} = \\frac{1}{8}$. Add: $\\frac{4}{24} + \\frac{3}{24} = \\frac{7}{24}$. The choice $\\frac{7}{12}$ adds $\\frac{1}{3} + \\frac{1}{4}$ and forgets the coin, $\\frac{1}{12}$ multiplies $\\frac{1}{3} \\times \\frac{1}{4}$, and $\\frac{1}{6}$ is the heads path alone.',
     },
     {
-      q: 'A box holds $5$ raffle tickets: $2$ are winners and $3$ are blanks. Tickets are drawn at random one at a time without replacement until a winning ticket appears, and then the drawing stops. What is the probability that at most one blank ticket is drawn?',
-      choices: ['$\\frac{2}{5}$', '$\\frac{3}{10}$', '$\\frac{16}{25}$', '$\\frac{7}{10}$'],
+      q: 'Vera plays a carnival game in stages. She rolls a standard die: a $5$ or $6$ wins a prize at once, a $1$ loses at once, and any other roll sends her to a bonus round, where she flips a fair coin and wins a prize exactly when it shows heads. What is the probability that Vera wins a prize?',
+      choices: ['$\\frac{1}{3}$', '$\\frac{5}{12}$', '$\\frac{2}{3}$', '$\\frac{7}{12}$'],
       answer: 3,
-      solution: 'At most one blank means the drawing ends on the first or second draw. Winner first: $\\frac{2}{5}$. Blank then winner: $\\frac{3}{5} \\times \\frac{2}{4} = \\frac{3}{10}$, since both winners are still among the four tickets that remain. Add the two disjoint paths: $\\frac{2}{5} + \\frac{3}{10} = \\frac{7}{10}$. The choice $\\frac{2}{5}$ counts only the first-draw path, $\\frac{3}{10}$ only the second, and $\\frac{16}{25}$ treats the second draw as if the blank ticket had been put back.',
+      solution: 'Two disjoint winning paths. Instant win: $5$ or $6$, probability $\\frac{2}{6} = \\frac{1}{3}$. Bonus-round win: a roll of $2$, $3$, or $4$ (probability $\\frac{3}{6} = \\frac{1}{2}$) followed by heads, giving $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$. Add: $\\frac{1}{3} + \\frac{1}{4} = \\frac{7}{12}$. The choice $\\frac{1}{3}$ counts only the instant win, $\\frac{5}{12}$ lets only the $6$ win at once, and $\\frac{2}{3}$ sends the losing roll of $1$ to the bonus round too.',
     },
     {
       q: 'Star makes each free throw with probability $\\frac{2}{3}$, independently. She shoots until she misses, then stops. What is the probability that she makes at least $1$ basket but no more than $3$ baskets?',
@@ -563,10 +563,10 @@ const s86 = {
       solution: 'Organize by the number of baskets. Exactly $1$: make, miss, probability $\\frac{2}{3} \\times \\frac{1}{3} = \\frac{2}{9}$. Exactly $2$: $\\left(\\frac{2}{3}\\right)^2 \\times \\frac{1}{3} = \\frac{4}{27}$. Exactly $3$: $\\left(\\frac{2}{3}\\right)^3 \\times \\frac{1}{3} = \\frac{8}{81}$. Add the three disjoint paths: $\\frac{18}{81} + \\frac{12}{81} + \\frac{8}{81} = \\frac{38}{81}$. The choice $\\frac{2}{3}$ is the probability of at least one basket, with no upper limit.',
     },
     {
-      q: 'Pia and Quinn take turns rolling a standard die, Pia first. The first person to roll a $6$ wins. If neither has rolled a $6$ after each has rolled twice, the game ends with no winner. What is the probability that Pia wins?',
-      choices: ['$\\frac{61}{216}$', '$\\frac{1}{6}$', '$\\frac{1}{3}$', '$\\frac{11}{36}$'],
+      q: 'Ana and Ben play a game in rounds. In each round, both of them flip a fair coin at the same time: Ana wins the game if her coin shows heads and Ben’s shows tails, Ben wins if his shows heads and Ana’s shows tails, and otherwise the game goes to another round. What is the probability that Ana wins during the first two rounds?',
+      choices: ['$\\frac{3}{8}$', '$\\frac{1}{4}$', '$\\frac{1}{2}$', '$\\frac{7}{16}$'],
       answer: 0,
-      solution: 'Pia can win on her first roll or her second, which is the third roll of the game. First roll: $\\frac{1}{6}$. Third roll: the first two rolls must both miss, then Pia rolls a $6$, giving $\\frac{5}{6} \\times \\frac{5}{6} \\times \\frac{1}{6} = \\frac{25}{216}$. Add: $\\frac{36}{216} + \\frac{25}{216} = \\frac{61}{216}$. The choice $\\frac{11}{36}$ is the chance that at least one of Pia’s two rolls is a $6$, which ignores that Quinn may have already won.',
+      solution: 'In any round, Ana wins with probability $\\frac{1}{4}$, Ben wins with probability $\\frac{1}{4}$, and the game continues with probability $\\frac{1}{2}$. Ana wins in round $1$ with probability $\\frac{1}{4}$, and wins in round $2$ by the path continue-then-win: $\\frac{1}{2} \\times \\frac{1}{4} = \\frac{1}{8}$. Add the disjoint paths: $\\frac{1}{4} + \\frac{1}{8} = \\frac{3}{8}$. The choice $\\frac{1}{4}$ counts only round $1$, $\\frac{7}{16}$ multiplies by the $\\frac{3}{4}$ chance that Ana did not win round $1$ — but the game must reach round $2$, which needs nobody to win — and $\\frac{1}{2}$ is Ana’s chance of winning eventually, with no two-round limit.',
     },
     {
       q: 'A bag holds $3$ red and $2$ blue marbles. Marbles are drawn at random one at a time without replacement until both blue marbles have been drawn. What is the probability that the drawing ends on the third draw?',
@@ -587,20 +587,20 @@ const s86 = {
       solution: 'Shots $4$ and $5$ must both be makes. Shot $3$ must be a miss — a make there would have made shots $3$ and $4$ two in a row, ending the game early. Shots $1$ and $2$ can be anything except make-make, which would have ended the game after two shots: miss-miss, miss-make, or make-miss. That gives $3$ paths, each a specific sequence of $5$ shots with probability $\\frac{1}{32}$, so the answer is $\\frac{3}{32}$. The choice $\\frac{1}{8}$ allows all four beginnings, including the make-make that ends the game too soon.',
     },
     {
-      q: 'A bag holds $3$ red and $4$ blue marbles. Two players take turns drawing one marble at random without replacement, and the first player to draw a red marble wins. What is the probability that the player who draws first wins?',
-      choices: ['$\\frac{3}{7}$', '$\\frac{4}{7}$', '$\\frac{22}{35}$', '$\\frac{3}{5}$'],
+      q: 'Ria and Sol play a table tennis game one point at a time, and Ria wins each point with probability $\\frac{3}{5}$, independently. Play continues until one player is ahead by two points, and that player wins the game. What is the probability that Ria wins?',
+      choices: ['$\\frac{9}{25}$', '$\\frac{3}{5}$', '$\\frac{9}{13}$', '$\\frac{21}{25}$'],
       answer: 2,
-      solution: 'The first player draws on turns $1$, $3$, and $5$, and can win on any of them; turn $7$ is impossible since only $4$ blue marbles exist. Turn $1$: $\\frac{3}{7}$. Turn $3$: blue, blue, red, with probability $\\frac{4}{7} \\times \\frac{3}{6} \\times \\frac{3}{5} = \\frac{6}{35}$. Turn $5$: four blues then red, $\\frac{4}{7} \\times \\frac{3}{6} \\times \\frac{2}{5} \\times \\frac{1}{4} \\times \\frac{3}{3} = \\frac{1}{35}$. Add: $\\frac{15}{35} + \\frac{6}{35} + \\frac{1}{35} = \\frac{22}{35}$. The choice $\\frac{3}{7}$ stops after the first turn, and $\\frac{3}{5}$ drops the turn-$5$ path.',
+      solution: 'Group the points into pairs. A pair goes Ria-Ria with probability $\\frac{9}{25}$, ending the game in Ria’s favor; Sol-Sol with probability $\\frac{4}{25}$, ending it in Sol’s; and splits with probability $\\frac{12}{25}$, returning the score to even, where the game looks exactly as it did at the start. So the game is decided by the first unsplit pair, and given that a pair decides it, Ria’s share is $\\frac{9/25}{9/25 + 4/25} = \\frac{9}{13}$. The choice $\\frac{9}{25}$ is winning the first two points, which ignores that the game can restart after a split; $\\frac{3}{5}$ is a single point; and $\\frac{21}{25}$ counts a split pair as a win for Ria.',
     },
   ],
 }
 
 const challenge = [
   {
-    q: 'An integer is chosen at random from $1$ through $50$. What is the probability that it is a multiple of $3$ or ends in the digit $0$?',
-    choices: ['$\\frac{21}{50}$', '$\\frac{2}{5}$', '$\\frac{8}{25}$', '$\\frac{3}{10}$'],
+    q: 'A three-digit positive integer is chosen at random from $100$ through $999$. What is the probability that its hundreds digit is odd or its units digit is $5$?',
+    choices: ['$\\frac{59}{90}$', '$\\frac{3}{5}$', '$\\frac{5}{9}$', '$\\frac{49}{90}$'],
     answer: 1,
-    solution: 'There are $16$ multiples of $3$ (up through $48$) and $5$ numbers ending in $0$. The number $30$ is in both groups, so the favorable count is $16 + 5 - 1 = 20$, and $\\frac{20}{50} = \\frac{2}{5}$. The choice $\\frac{21}{50}$ counts $30$ twice, and $\\frac{8}{25}$ is the multiples of $3$ alone.',
+    solution: 'Of the $900$ numbers, those with an odd hundreds digit ($1, 3, 5, 7, 9$) number $5 \\times 100 = 500$, and those with units digit $5$ number $90$. The overlap — odd hundreds digit and units digit $5$ — has $5 \\times 10 = 50$ numbers, so the favorable count is $500 + 90 - 50 = 540$, and $\\frac{540}{900} = \\frac{3}{5}$. The choice $\\frac{59}{90}$ never subtracts the overlap, $\\frac{5}{9}$ is the odd-hundreds group alone, and $\\frac{49}{90}$ subtracts the overlap twice.',
   },
   {
     q: 'A standard die is rolled three times. What is the probability that no roll is a $6$ but at least one roll is a $5$?',
@@ -615,16 +615,16 @@ const challenge = [
     solution: 'One order with two reds and two non-reds has probability $\\left(\\frac{1}{3}\\right)^2 \\left(\\frac{2}{3}\\right)^2 = \\frac{4}{81}$, and the two reds can occupy any $\\binom{4}{2} = 6$ of the four positions: $6 \\times \\frac{4}{81} = \\frac{24}{81} = \\frac{8}{27}$. The choice $\\frac{16}{81}$ uses only $4$ orders, and $\\frac{4}{27}$ uses $3$.',
   },
   {
-    q: 'A bag holds $5$ red and $4$ blue marbles. Three marbles are drawn at random without replacement. What is the probability that at least one of them is blue?',
-    choices: ['$\\frac{5}{42}$', '$\\frac{4}{9}$', '$\\frac{37}{42}$', '$\\frac{13}{18}$'],
+    q: 'A pencil case holds $9$ pens, and exactly $2$ of them are out of ink. Noa grabs $3$ pens at random for her group. What is the probability that at least one of the three is out of ink?',
+    choices: ['$\\frac{5}{12}$', '$\\frac{2}{3}$', '$\\frac{7}{12}$', '$\\frac{1}{2}$'],
     answer: 2,
-    solution: 'The complement is that all three are red: $\\frac{5}{9} \\times \\frac{4}{8} \\times \\frac{3}{7} = \\frac{60}{504} = \\frac{5}{42}$. So $P(\\text{at least one blue}) = 1 - \\frac{5}{42} = \\frac{37}{42}$. The choice $\\frac{5}{42}$ is the complement itself, and $\\frac{13}{18}$ stops the complement after two draws.',
+    solution: 'The complement is that all three pens work: $\\frac{7}{9} \\times \\frac{6}{8} \\times \\frac{5}{7} = \\frac{210}{504} = \\frac{5}{12}$. So $P(\\text{at least one dead pen}) = 1 - \\frac{5}{12} = \\frac{7}{12}$. The choice $\\frac{5}{12}$ is the complement itself, $\\frac{2}{3}$ adds the single-pen probability $\\frac{2}{9}$ three times, and $\\frac{1}{2}$ counts only the draws with exactly one dead pen, leaving out those with both.',
   },
   {
-    q: 'Two standard dice, one red and one blue, are rolled. What is the probability that the sum is even or at least one die shows a $2$?',
-    choices: ['$\\frac{29}{36}$', '$\\frac{2}{3}$', '$\\frac{1}{2}$', '$\\frac{5}{9}$'],
+    q: 'Two standard dice, one red and one blue, are rolled. What is the probability that the sum is a multiple of $3$ or both dice show odd numbers?',
+    choices: ['$\\frac{7}{12}$', '$\\frac{1}{2}$', '$\\frac{1}{3}$', '$\\frac{1}{4}$'],
     answer: 1,
-    solution: 'The sum is even in $18$ rolls (both odd or both even). At least one $2$ happens in $11$ rolls. The overlap is the rolls with a $2$ and an even sum, meaning the other die is also even: $(2,2), (2,4), (2,6), (4,2), (6,2)$, five rolls. Favorable: $18 + 11 - 5 = 24$, so $\\frac{24}{36} = \\frac{2}{3}$. The choice $\\frac{29}{36}$ never subtracts the overlap.',
+    solution: 'The sum is a multiple of $3$ in $12$ rolls (sums $3, 6, 9, 12$ give $2 + 5 + 4 + 1$ rolls), and both dice are odd in $3 \\times 3 = 9$ rolls. The overlap needs both odd AND a sum divisible by $3$; two odd numbers have an even sum, so the sum must be $6$: $(1,5), (3,3), (5,1)$, three rolls. Favorable: $12 + 9 - 3 = 18$, so $\\frac{18}{36} = \\frac{1}{2}$. The choice $\\frac{7}{12}$ never subtracts the overlap, $\\frac{1}{3}$ is the multiple-of-$3$ rolls alone, and $\\frac{1}{4}$ is the both-odd rolls alone.',
   },
   {
     q: 'A fair coin is flipped $5$ times. What is the probability that the first two flips match or the last two flips match?',
@@ -633,16 +633,16 @@ const challenge = [
     solution: 'The first two flips match with probability $\\frac{1}{2}$ (the second must copy the first), and so do the last two. The two events involve different coins, so they are independent and both happen with probability $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$. Then $P(\\text{either}) = \\frac{1}{2} + \\frac{1}{2} - \\frac{1}{4} = \\frac{3}{4}$. The middle flip never matters. The choice $\\frac{1}{4}$ is "both", and $\\frac{1}{2}$ is one of the events alone.',
   },
   {
-    q: 'A standard die is rolled $4$ times. What is the probability that at least one roll is a $1$ and at least one roll is a $6$?',
-    choices: ['$\\frac{151}{648}$', '$\\frac{23}{648}$', '$\\frac{671}{1296}$', '$\\frac{1}{4}$'],
+    q: 'A spinner has $4$ equal sections colored red, blue, green, and yellow, and it is spun $4$ times. What is the probability that at least one spin lands on red and at least one spin lands on blue?',
+    choices: ['$\\frac{55}{128}$', '$\\frac{47}{128}$', '$\\frac{175}{256}$', '$\\frac{81}{256}$'],
     answer: 0,
-    solution: 'Count the complement: no $1$ or no $6$. $P(\\text{no } 1) = \\left(\\frac{5}{6}\\right)^4 = \\frac{625}{1296}$, and the same for no $6$; both at once means every roll is from $\\{2,3,4,5\\}$, probability $\\left(\\frac{4}{6}\\right)^4 = \\frac{256}{1296}$. So $P(\\text{no } 1 \\text{ or no } 6) = \\frac{625 + 625 - 256}{1296} = \\frac{994}{1296}$, and the answer is $1 - \\frac{994}{1296} = \\frac{302}{1296} = \\frac{151}{648}$. The choice $\\frac{23}{648}$ subtracts both complements but forgets to add the overlap back; $\\frac{671}{1296}$ handles only one of the two conditions.',
+    solution: 'Count the complement: no red or no blue. $P(\\text{no red}) = \\left(\\frac{3}{4}\\right)^4 = \\frac{81}{256}$, and the same for no blue; both at once means every spin is green or yellow, probability $\\left(\\frac{1}{2}\\right)^4 = \\frac{16}{256}$. So $P(\\text{no red or no blue}) = \\frac{81 + 81 - 16}{256} = \\frac{146}{256}$, and the answer is $1 - \\frac{146}{256} = \\frac{110}{256} = \\frac{55}{128}$. The choice $\\frac{47}{128}$ subtracts both complements but forgets to add their overlap back, $\\frac{175}{256}$ handles only the red condition, and $\\frac{81}{256}$ is the probability of no red at all — the wrong event.',
   },
   {
-    q: 'Two evenly matched teams play a series that ends as soon as one team has won $3$ games; each game is won by either team with probability $\\frac{1}{2}$. What is the probability that the series lasts the full $5$ games?',
-    choices: ['$\\frac{1}{2}$', '$\\frac{5}{16}$', '$\\frac{3}{8}$', '$\\frac{1}{4}$'],
+    q: 'Riko and Sana play a badminton match that ends as soon as one of them has won $3$ games. Riko wins each game with probability $\\frac{2}{5}$, independently of the other games. What is the probability that the match lasts the full $5$ games?',
+    choices: ['$\\frac{36}{625}$', '$\\frac{3}{8}$', '$\\frac{216}{625}$', '$\\frac{108}{625}$'],
     answer: 2,
-    solution: 'The series reaches a fifth game exactly when the first four games are split $2$–$2$. Each sequence of four results has probability $\\frac{1}{16}$, and $\\binom{4}{2} = 6$ of them are $2$–$2$ splits, so the probability is $\\frac{6}{16} = \\frac{3}{8}$. The choice $\\frac{5}{16}$ comes from counting $5$ sequences, and $\\frac{1}{4}$ from treating the split as a single coin flip.',
+    solution: 'The match reaches a fifth game exactly when the first four games are split $2$–$2$. Each sequence with two Riko wins and two Sana wins has probability $\\left(\\frac{2}{5}\\right)^2 \\left(\\frac{3}{5}\\right)^2 = \\frac{36}{625}$, and there are $\\binom{4}{2} = 6$ such sequences, so the probability is $6 \\times \\frac{36}{625} = \\frac{216}{625}$. The choice $\\frac{36}{625}$ is a single sequence, $\\frac{108}{625}$ counts only $3$ of the $6$ splits, and $\\frac{3}{8}$ is the answer for evenly matched players, ignoring the given odds.',
   },
   {
     q: 'A bag holds $3$ red and $3$ blue marbles. All six are drawn at random one at a time without replacement. What is the probability that the colors alternate for the whole sequence?',
@@ -672,29 +672,29 @@ const challenge = [
 
 const worksheet = [
   {
-    q: 'A spinner has $8$ equal sections numbered $1$ through $8$. What is the probability that one spin lands on an odd number or a number greater than $6$?',
-    answer: '$\\frac{5}{8}$',
-    solution: 'Odd: $1, 3, 5, 7$, four numbers. Greater than $6$: $7, 8$, two numbers. The number $7$ is in both lists, so the favorable count is $4 + 2 - 1 = 5$, and the probability is $\\frac{5}{8}$.',
+    q: 'Sixteen cards numbered $1$ through $16$ are shuffled, and one is drawn at random. What is the probability that the number drawn is a multiple of $3$ or is at least $13$?',
+    answer: '$\\frac{1}{2}$',
+    solution: 'Multiples of $3$: $3, 6, 9, 12, 15$, five cards. At least $13$: $13, 14, 15, 16$, four cards. The card $15$ is in both lists, so the favorable count is $5 + 4 - 1 = 8$, and the probability is $\\frac{8}{16} = \\frac{1}{2}$.',
   },
   {
-    q: 'Two standard dice are rolled. What is the probability that the sum is $4$ or the sum is $11$?',
-    answer: '$\\frac{5}{36}$',
-    solution: 'The two sums cannot both happen, so add. Sum $4$: $(1,3), (2,2), (3,1)$, three rolls. Sum $11$: $(5,6), (6,5)$, two rolls. Together $\\frac{3 + 2}{36} = \\frac{5}{36}$.',
+    q: 'Two standard dice are rolled. What is the probability that the product of the two numbers is $20$ or $30$?',
+    answer: '$\\frac{1}{9}$',
+    solution: 'The two products cannot both happen, so add. Product $20$: $(4,5), (5,4)$, two rolls. Product $30$: $(5,6), (6,5)$, two rolls. Together $\\frac{2 + 2}{36} = \\frac{4}{36} = \\frac{1}{9}$.',
   },
   {
-    q: 'A standard die is rolled twice. What is the probability that at least one of the rolls is a multiple of $3$?',
-    answer: '$\\frac{5}{9}$',
-    solution: 'The complement is that neither roll is a $3$ or a $6$: each roll avoids them in $4$ of $6$ ways, so both do in $\\frac{16}{36} = \\frac{4}{9}$ of the rolls. Then $P(\\text{at least one}) = 1 - \\frac{4}{9} = \\frac{5}{9}$.',
+    q: 'A bag holds $9$ tokens numbered $1$ through $9$. A token is drawn at random, put back, and a token is drawn again. What is the probability that at least one of the two draws shows a multiple of $4$?',
+    answer: '$\\frac{32}{81}$',
+    solution: 'The multiples of $4$ in the bag are $4$ and $8$, so each draw misses them in $7$ of $9$ ways. Because the token goes back, the draws are independent, and both miss with probability $\\frac{7}{9} \\times \\frac{7}{9} = \\frac{49}{81}$. Then $P(\\text{at least one}) = 1 - \\frac{49}{81} = \\frac{32}{81}$.',
   },
   {
-    q: 'A fair coin is flipped $5$ times. What is the probability of getting exactly $4$ heads?',
-    answer: '$\\frac{5}{32}$',
-    solution: 'One order has probability $\\frac{1}{32}$, and the single tail can be any of the $5$ flips, so there are $5$ orders: $5 \\times \\frac{1}{32} = \\frac{5}{32}$.',
+    q: 'A fair coin is flipped $6$ times. What is the probability of getting exactly $2$ heads?',
+    answer: '$\\frac{15}{64}$',
+    solution: 'One order has probability $\\left(\\frac{1}{2}\\right)^6 = \\frac{1}{64}$, and the two heads can sit in any $\\binom{6}{2} = 15$ pairs of positions: $15 \\times \\frac{1}{64} = \\frac{15}{64}$.',
   },
   {
-    q: 'A bag holds $6$ red and $2$ blue marbles. Two marbles are drawn at random without replacement. What is the probability that both are blue?',
-    answer: '$\\frac{1}{28}$',
-    solution: 'The first marble is blue with probability $\\frac{2}{8}$, and then one blue marble remains among $7$: $\\frac{2}{8} \\times \\frac{1}{7} = \\frac{2}{56} = \\frac{1}{28}$.',
+    q: 'A pencil case holds $7$ blue pens and $2$ red pens. Two pens are taken out at random without replacement. What is the probability that both are red?',
+    answer: '$\\frac{1}{36}$',
+    solution: 'The first pen is red with probability $\\frac{2}{9}$, and then one red pen remains among $8$: $\\frac{2}{9} \\times \\frac{1}{8} = \\frac{2}{72} = \\frac{1}{36}$.',
   },
   {
     q: 'A spinner has $3$ equal sections labeled A, B, and C. It is spun $3$ times. What is the probability that the three spins show three different letters?',
@@ -702,9 +702,9 @@ const worksheet = [
     solution: 'The first spin can be anything. The second must avoid the first letter, probability $\\frac{2}{3}$, and the third must avoid both letters seen, probability $\\frac{1}{3}$. Multiply: $1 \\times \\frac{2}{3} \\times \\frac{1}{3} = \\frac{2}{9}$. Counting agrees: $3! = 6$ favorable sequences out of $27$.',
   },
   {
-    q: 'An integer is chosen at random from $1$ through $100$. What is the probability that it is divisible by $6$ or by $10$?',
-    answer: '$\\frac{23}{100}$',
-    solution: 'There are $16$ multiples of $6$ (up through $96$) and $10$ multiples of $10$. The overlap is the multiples of $30$: $30, 60, 90$, three numbers. Favorable: $16 + 10 - 3 = 23$, so the probability is $\\frac{23}{100}$.',
+    q: 'An integer is chosen at random from $1$ through $90$. What is the probability that it is divisible by $4$ or by $15$?',
+    answer: '$\\frac{3}{10}$',
+    solution: 'There are $22$ multiples of $4$ (up through $88$) and $6$ multiples of $15$. The overlap is the multiples of $\\text{lcm}(4, 15) = 60$: only $60$ itself. Favorable: $22 + 6 - 1 = 27$, so the probability is $\\frac{27}{90} = \\frac{3}{10}$.',
   },
   {
     q: 'A bag holds $4$ red and $2$ blue marbles. Two marbles are drawn at random one at a time without replacement. What is the probability that the second marble drawn is blue?',

@@ -520,10 +520,10 @@ const challenge = [
     solution: 'We need $\\binom{n}{3} = 4\\binom{n}{2}$. Since $\\binom{n}{3} = \\binom{n}{2}\\cdot\\frac{n-2}{3}$, this says $\\frac{n-2}{3} = 4$, so $n = 14$. Check: $\\binom{14}{3} = 364$ and $\\binom{14}{2} = 91$, and $364 = 4\\cdot 91$. The answer $12$ solves $n - 2 = 10$ from a wrong ratio; $8$ and $6$ come from guessing small rows.',
   },
   {
-    q: 'What is the coefficient of $x^5$ when $(1+x)^4(1+x^2)^3$ is expanded?',
-    choices: ['$12$', '$24$', '$36$', '$20$'],
+    q: 'What is the constant term in the expansion of $\\left(x + \\frac{1}{x}\\right)^6\\left(x - \\frac{1}{x}\\right)^4$?',
+    choices: ['$120$', '$12$', '$-12$', '$6$'],
     answer: 1,
-    solution: 'The second factor has only even powers: $(1+x^2)^3 = 1 + 3x^2 + 3x^4 + x^6$. To make $x^5$, pair $x^1$ from $(1+x)^4$ with $x^4$, or $x^3$ with $x^2$: $\\binom{4}{1}\\cdot 3 + \\binom{4}{3}\\cdot 3 = 12 + 12 = 24$. The answer $12$ counts only one of the two pairings; $36$ adds a third pairing $x^5\\cdot 1$ that does not exist since $(1+x)^4$ stops at $x^4$; $20$ uses $\\binom{4}{2}$.',
+    solution: 'Pair each factor of $x - \\frac{1}{x}$ with one factor of $x + \\frac{1}{x}$: each pair multiplies to $x^2 - \\frac{1}{x^2}$, so the whole expression equals $\\left(x^2 - \\frac{1}{x^2}\\right)^4\\left(x + \\frac{1}{x}\\right)^2$. The first factor expands to $x^8 - 4x^4 + 6 - \\frac{4}{x^4} + \\frac{1}{x^8}$ and the second to $x^2 + 2 + \\frac{1}{x^2}$; no exponent $\\pm 8, \\pm 4$ can cancel an exponent $\\pm 2$, so the only constant product is $6\\cdot 2 = 12$. The answer $120$ multiplies the constant terms of the two original factors, $\\binom{6}{3} = 20$ and $\\binom{4}{2} = 6$, as if no cross terms could combine; $6$ forgets the middle coefficient $2$ of $\\left(x + \\frac{1}{x}\\right)^2$; $-12$ misjudges the sign of the middle term of $\\left(x^2 - \\frac{1}{x^2}\\right)^4$, which carries $(-1)^2 = +1$.',
   },
   {
     q: 'What is the coefficient of $x^2$ when $(1+x)^2 + (1+x)^3 + (1+x)^4 + \\cdots + (1+x)^{10}$ is expanded and simplified?',
