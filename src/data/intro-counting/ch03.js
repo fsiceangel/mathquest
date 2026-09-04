@@ -172,7 +172,7 @@ const s33 = {
   },
   problems: [
     {
-      q: 'Fourteen delegates at a conference each shake hands with every other delegate exactly once. How many handshakes take place?',
+      q: 'Fourteen robotics teams at a showcase each swap a team badge with every other team exactly once. How many swaps take place?',
       choices: ['$182$', '$196$', '$91$', '$105$'],
       answer: 2,
       solution: 'Each of the $14$ people shakes $13$ hands, and $14 \\times 13 = 182$ counts every handshake twice. So there are $\\frac{182}{2} = 91$ handshakes. Answering $182$ forgets the division; $196 = 14^2$ lets people shake their own hands; $105$ is the count for $15$ people.',
