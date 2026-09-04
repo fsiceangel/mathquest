@@ -24,7 +24,7 @@ function ChapterCard({ book, chapter }) {
       <span className="ch-num">{chapter.number}</span>
       <span className="ch-info">
         <span className="ch-title">{chapter.title}</span>
-        {sectionCount && <span className="ch-sub">{sectionCount} sections</span>}
+        {sectionCount && <span className="ch-sub">{sectionCount} section{sectionCount === 1 ? '' : 's'}</span>}
       </span>
       {available ? (
         <span className="ch-side">
