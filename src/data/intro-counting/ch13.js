@@ -471,10 +471,10 @@ const s135 = {
 
 const challenge = [
   {
-    q: 'How many ordered quadruples $(x, y, z, w)$ of non-negative integers satisfy $x + y + z + w = 11$?',
-    choices: ['$286$', '$455$', '$364$', '$165$'],
+    q: 'How many ordered quadruples $(x, y, z, w)$ of non-negative integers satisfy $x + y + z + w = 11$ with $x + y$ even?',
+    choices: ['$364$', '$112$', '$182$', '$170$'],
     answer: 2,
-    solution: 'Eleven stars and $3$ bars: $\\binom{14}{3} = 364$. The answer $286 = \\binom{13}{3}$ uses one star too few; $455 = \\binom{15}{3}$ puts $n + k$ on top instead of $n + k - 1$; $165 = \\binom{11}{3}$ forgets to add the bars to the total.',
+    solution: 'If $x + y = s$ with $s$ even, there are $s + 1$ choices for $(x, y)$ and $12 - s$ choices for $(z, w)$: the cases $s = 0, 2, 4, 6, 8, 10$ give $1 \\cdot 12 + 3 \\cdot 10 + 5 \\cdot 8 + 7 \\cdot 6 + 9 \\cdot 4 + 11 \\cdot 2 = 182$. Slicker: because the total $11$ is odd, $x + y$ and $z + w$ have opposite parity, so swapping the pairs $(x, y) \\leftrightarrow (z, w)$ matches each solution with $x + y$ even to exactly one with $x + y$ odd — the two classes are equal, and each is half of $\\binom{14}{3} = 364$, which is $182$. The answer $364$ ignores the condition; $170$ drops the case $x = y = 0$; $112$ reads “$x + y$ even” as “$x$ and $y$ both even”.',
   },
   {
     q: 'Ten identical medals are placed in four display cases labeled $1$ through $4$. Every case must hold at least one medal, and cases $1$ and $2$ must hold the same number. How many placements are there?',
@@ -483,10 +483,10 @@ const challenge = [
     solution: 'Let cases $1$ and $2$ each hold $j \\geq 1$ medals; then cases $3$ and $4$ split the other $10 - 2j$ medals with each getting at least one, which is $10 - 2j - 1$ ways. That forces $j \\leq 4$, and the cases give $7 + 5 + 3 + 1 = 16$. The answer $84 = \\binom{9}{3}$ drops the equal-cases condition; $25$ lets cases $3$ and $4$ be empty; $15$ forgets the case $j = 4$.',
   },
   {
-    q: 'Compute $\\binom{2}{2} + \\binom{3}{2} + \\binom{4}{2} + \\cdots + \\binom{14}{2}$.',
-    choices: ['$364$', '$455$', '$560$', '$105$'],
+    q: 'Compute $\\binom{6}{3} + \\binom{7}{3} + \\binom{8}{3} + \\cdots + \\binom{13}{3}$.',
+    choices: ['$1001$', '$986$', '$981$', '$966$'],
     answer: 1,
-    solution: 'A complete hockey stick with $r = 2$ and $n = 14$: $\\binom{15}{3} = 455$. The answer $364 = \\binom{14}{3}$ forgets to raise the top; $560 = \\binom{16}{3}$ raises it twice; $105 = \\binom{15}{2}$ forgets to raise the bottom.',
+    solution: 'The sum starts at $\\binom{6}{3}$, not at $\\binom{3}{3}$, so use the full stick and subtract the missing head: $\\binom{3}{3} + \\binom{4}{3} + \\cdots + \\binom{13}{3} = \\binom{14}{4} = 1001$, and the head $\\binom{3}{3} + \\binom{4}{3} + \\binom{5}{3}$ is itself a stick, $\\binom{6}{4} = 15$. The sum is $1001 - 15 = 986$. The answer $1001$ forgets to remove the head; $981$ removes $\\binom{6}{3} = 20$, the first term that belongs, instead of the head that does not; $966$ removes $\\binom{7}{4} = 35$, cutting one term too deep.',
   },
   {
     q: 'How many $4$-letter strings using the letters $A, B, C, D, E, F$ are in alphabetical order, meaning each letter is the same as or later in the alphabet than the letter before it? Repeats are allowed.',
@@ -551,9 +551,9 @@ const worksheet = [
     solution: 'Eight stars and $3$ bars: choose the bar positions among $11$ symbols, $\\binom{11}{3} = 165$.',
   },
   {
-    q: 'Nine identical pears are shared among three children, and each child must receive at least $2$ pears. How many ways can the pears be shared?',
-    answer: '$10$',
-    solution: 'Give each child $2$ pears first, using $6$; the other $3$ pears go to $3$ children with no restriction, $\\binom{5}{2} = 10$ ways. By listing the first child’s extra pears as $0, 1, 2, 3$: $4 + 3 + 2 + 1 = 10$.',
+    q: 'Twenty-one identical trading cards are divided among four friends, and each friend must receive at least $2$ cards. How many ways are there to divide the cards?',
+    answer: '$560$',
+    solution: 'Give each friend $2$ cards first, using $8$; the remaining $13$ cards go to $4$ friends with no restriction: $13$ stars and $3$ bars, $\\binom{16}{3} = 560$. As a check, casework on the first friend’s extras gives $\\binom{15}{2} + \\binom{14}{2} + \\cdots + \\binom{2}{2}$, a complete hockey stick equal to the same $\\binom{16}{3} = 560$.',
   },
   {
     q: 'Compute $\\binom{3}{3} + \\binom{4}{3} + \\binom{5}{3} + \\cdots + \\binom{11}{3}$.',
