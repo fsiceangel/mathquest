@@ -38,7 +38,7 @@ const s13 = [
       choices: ['$59$', '$14$', '$22$', '$15$'],
       answer: 3,
       solution:
-        'Route one, subtract the known group. Strings and winds are disjoint and together cover the orchestra, so winds $= 37 - 22 = 15$ ✓. Route two, solve the addition equation. Let $w$ be the number of wind players; disjoint groups add, so $22 + w = 37$. Counting up from $22$: eight more reaches $30$, seven more reaches $37$, so $w = 8 + 7 = 15$ ✓. (The value $59$ ADDS INSTEAD OF SUBTRACTING, producing a number larger than the whole orchestra ✗. The value $22$ REPORTS THE STRING PLAYERS, the group that was given ✗. The value $14$ MISCOUNTS THE SUBTRACTION BY ONE, as if the $37$th member were excluded ✗.)',
+        'Route one, subtract the known group. Strings and winds are disjoint and together cover the orchestra, so winds $= 37 - 22 = 15$ ✓. Route two, solve the addition equation. Let $w$ be the number of wind players; disjoint groups add, so $22 + w = 37$. Counting up from $22$: eight more reaches $30$, seven more reaches $37$, so $w = 8 + 7 = 15$ ✓. (The value $59$ ADDS INSTEAD OF SUBTRACTING, producing a number larger than the whole orchestra ✗. The value $14$ MISCOUNTS THE SUBTRACTION BY ONE, as if the $37$th member were excluded ✗. The value $22$ REPORTS THE STRING PLAYERS, the group that was given ✗.)',
     },
   ],
   // s2 — "or" between two multiple-lists.

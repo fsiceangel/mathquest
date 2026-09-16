@@ -459,7 +459,7 @@ const challenge = [
       q: 'How many whole numbers from $1$ to $40$ have exactly $4$ divisors?',
       choices: ['$8$', '$14$', '$20$', '$6$'],
       answer: 1,
-      solution: 'Since $4 = 4 \\times 1 = 2 \\times 2$, a number with exactly $4$ divisors is either $p^3$ or $p \\cdot q$ for different primes $p$ and $q$. The cubes are $8$ and $27$. The products of two different primes up to $40$ are $6, 10, 14, 15, 21, 22, 26, 33, 34, 35, 38, 39$ — twelve of them. Altogether $2 + 12 = 14$. (Forgetting the $p \\cdot q$ shape and counting only cubes and squares gives $6$; counting every even number that is not a multiple of $4$ gives $20$.)',
+      solution: 'Since $4 = 4 \\times 1 = 2 \\times 2$, a number with exactly $4$ divisors is either $p^3$ or $p \\cdot q$ for different primes $p$ and $q$. The cubes are $8$ and $27$. The products of two different primes up to $40$ are $6, 10, 14, 15, 21, 22, 26, 33, 34, 35, 38, 39$ — twelve of them. Altogether $2 + 12 = 14$. (Counting every even number that is not a multiple of $4$ gives $20$; forgetting the $p \\cdot q$ shape and counting only cubes and squares gives $6$.)',
     },
     {
       q: 'How many whole numbers less than $100$ have exactly $5$ divisors?',

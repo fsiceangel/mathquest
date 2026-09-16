@@ -505,7 +505,7 @@ const s164 = [
       choices: ['$g(x) = 12 - x$', '$g(x) = x + 12$', '$g(x) = 3x$', '$g(x) = x - 12$'],
       answer: 0,
       solution:
-        'Apply $g(x) = 12 - x$ twice: $g(g(x)) = 12 - (12 - x) = x$, so it is its own inverse. Check a second way with numbers: $g(5) = 7$ and $g(7) = 5$ — the machine swaps numbers in pairs ✓. (Running $x + 12$ twice adds $24$, so $5$ lands on $29$ ✗; running $x - 12$ twice subtracts $24$ and sends $5$ to $-19$ ✗; running $3x$ twice multiplies by $9$ and sends $5$ to $45$ ✗.)',
+        'Apply $g(x) = 12 - x$ twice: $g(g(x)) = 12 - (12 - x) = x$, so it is its own inverse. Check a second way with numbers: $g(5) = 7$ and $g(7) = 5$ — the machine swaps numbers in pairs ✓. (Running $x + 12$ twice adds $24$, so $5$ lands on $29$ ✗; running $3x$ twice multiplies by $9$ and sends $5$ to $45$ ✗; running $x - 12$ twice subtracts $24$ and sends $5$ to $-19$ ✗.)',
     },
     {
       q: 'Which of these machines returns every nonzero number to exactly where it started when it is run twice in a row?',

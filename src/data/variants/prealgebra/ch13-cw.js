@@ -104,7 +104,7 @@ const challenge = [
       q: 'For the first four days of a week a bakery took in a mean of $\\$120$ per day. On Friday it took in $\\$220$. What is the mean daily take over those five days?',
       choices: ['$\\$120$', '$\\$170$', '$\\$175$', '$\\$140$'],
       answer: 3,
-      solution: 'The first four days brought in $4 \\times 120 = 480$ dollars, and Friday adds $220$, for a five-day total of $\\$700$. The mean is $\\frac{700}{5} = \\$140$ per day. ($\\$120$ assumes the big Friday changes nothing; $\\$175$ divides the new total by $4$, the old number of days; $\\$170$ averages $\\$120$ with $\\$220$, forgetting that $\\$120$ speaks for four days and $\\$220$ for only one.)',
+      solution: 'The first four days brought in $4 \\times 120 = 480$ dollars, and Friday adds $220$, for a five-day total of $\\$700$. The mean is $\\frac{700}{5} = \\$140$ per day. ($\\$120$ assumes the big Friday changes nothing; $\\$170$ averages $\\$120$ with $\\$220$, forgetting that $\\$120$ speaks for four days and $\\$220$ for only one; $\\$175$ divides the new total by $4$, the old number of days.)',
     },
   ],
   // 6. The median ignores what happens out at the ends; the mean does not.
@@ -239,7 +239,7 @@ const challenge = [
       q: 'A set of five whole numbers has mode $3$, median $8$, and mean $10$. What is the largest possible value in the set?',
       choices: ['$27$', '$18$', '$28$', '$36$'],
       answer: 0,
-      solution: 'Sorted, the set must look like $3, 3, 8, a, b$: two $3$s secure the mode and $8$ sits in the middle. The mean fixes the total at $5 \\times 10 = 50$, so $a + b = 50 - 14 = 36$. Now the mode does the real work: $a$ cannot be $8$, or the set would have two $8$s and two $3$s and no single mode, so $a \\ge 9$ and $b \\le 36 - 9 = 27$. The set $3, 3, 8, 9, 27$ checks out. ($28$ comes from allowing $a = 8$; $18$ splits the $36$ evenly, but $3, 3, 8, 18, 18$ has two modes; $36$ is the pair\'s total, not one value.)',
+      solution: 'Sorted, the set must look like $3, 3, 8, a, b$: two $3$s secure the mode and $8$ sits in the middle. The mean fixes the total at $5 \\times 10 = 50$, so $a + b = 50 - 14 = 36$. Now the mode does the real work: $a$ cannot be $8$, or the set would have two $8$s and two $3$s and no single mode, so $a \\ge 9$ and $b \\le 36 - 9 = 27$. The set $3, 3, 8, 9, 27$ checks out. ($18$ splits the $36$ evenly, but $3, 3, 8, 18, 18$ has two modes; $28$ comes from allowing $a = 8$; $36$ is the pair\'s total, not one value.)',
     },
     {
       q: 'A set of five whole numbers has mode $2$, median $5$, and mean $8$. What is the largest possible value in the set?',

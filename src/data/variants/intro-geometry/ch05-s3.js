@@ -228,7 +228,7 @@ const s53 = [
       choices: ['$10$', '$15.75$', '$\\frac{14}{3}$', '$10.5$'],
       answer: 3,
       solution:
-        'Both triangles use the hinge at $A$: $\\frac{AD}{AB} = \\frac{9}{6} = \\frac{3}{2}$ and $\\frac{AE}{AC} = \\frac{12}{8} = \\frac{3}{2}$ — two independent quotients agreeing, so SAS Similarity applies with factor $\\frac{3}{2}$, and $DE = \\frac{3}{2} \\times 7 = 10.5$ ✓. Check it a second way by cross-multiplying the proportion $\\frac{DE}{7} = \\frac{12}{8}$ without ever reducing to $\\frac{3}{2}$: $8 \\cdot DE = 84$, so $DE = 10.5$ ✓. Guard: the big triangle’s sides $9$, $12$, $10.5$ are exactly $\\frac{3}{2}$ times $6$, $8$, $7$, and both triples satisfy the triangle inequality. (The value $10$ is ADDING THE EXTENSION INSTEAD OF MULTIPLYING, $7 + 3$ ✗; $\\frac{14}{3}$ is DIVIDING BY THE SCALE FACTOR ✗; $15.75$ is APPLYING THE FACTOR TWICE, $7 \\times \\frac{9}{4}$ ✗.)',
+        'Both triangles use the hinge at $A$: $\\frac{AD}{AB} = \\frac{9}{6} = \\frac{3}{2}$ and $\\frac{AE}{AC} = \\frac{12}{8} = \\frac{3}{2}$ — two independent quotients agreeing, so SAS Similarity applies with factor $\\frac{3}{2}$, and $DE = \\frac{3}{2} \\times 7 = 10.5$ ✓. Check it a second way by cross-multiplying the proportion $\\frac{DE}{7} = \\frac{12}{8}$ without ever reducing to $\\frac{3}{2}$: $8 \\cdot DE = 84$, so $DE = 10.5$ ✓. Guard: the big triangle’s sides $9$, $12$, $10.5$ are exactly $\\frac{3}{2}$ times $6$, $8$, $7$, and both triples satisfy the triangle inequality. (The value $10$ is ADDING THE EXTENSION INSTEAD OF MULTIPLYING, $7 + 3$ ✗; $15.75$ is APPLYING THE FACTOR TWICE, $7 \\times \\frac{9}{4}$ ✗; $\\frac{14}{3}$ is DIVIDING BY THE SCALE FACTOR ✗.)',
     },
   ],
   // slot 4 — equal marked angles: are the triangles similar? check the proportion.
@@ -390,7 +390,7 @@ const s53 = [
       choices: ['$34.5$', '$17$', '$25.5$', '$\\frac{34}{3}$'],
       answer: 2,
       solution:
-        'The right angles are the included angles, and the legs are proportional: $\\frac{12}{8} = \\frac{3}{2}$ and $\\frac{22.5}{15} = \\frac{3}{2}$ — SAS Similarity with factor $\\frac{3}{2}$. The small triangle is the $8$–$15$–$17$ right triangle, so $DF = \\frac{3}{2} \\times 17 = 25.5$ ✓. Check it a second way with the Pythagorean Theorem on the big legs, factor-free: $12^2 + 22.5^2 = 144 + 506.25 = 650.25$, and $25.5^2 = 650.25$ ✓ — both routes meet at $25.5$. (The value $17$ is FORGETTING TO SCALE, the small hypotenuse ✗; $34.5$ is ADDING THE LEGS, $12 + 22.5$ ✗; $\\frac{34}{3}$ is DIVIDING BY THE SCALE FACTOR, $17 \\div \\frac{3}{2}$ ✗.)',
+        'The right angles are the included angles, and the legs are proportional: $\\frac{12}{8} = \\frac{3}{2}$ and $\\frac{22.5}{15} = \\frac{3}{2}$ — SAS Similarity with factor $\\frac{3}{2}$. The small triangle is the $8$–$15$–$17$ right triangle, so $DF = \\frac{3}{2} \\times 17 = 25.5$ ✓. Check it a second way with the Pythagorean Theorem on the big legs, factor-free: $12^2 + 22.5^2 = 144 + 506.25 = 650.25$, and $25.5^2 = 650.25$ ✓ — both routes meet at $25.5$. (The value $34.5$ is ADDING THE LEGS, $12 + 22.5$ ✗; $17$ is FORGETTING TO SCALE, the small hypotenuse ✗; $\\frac{34}{3}$ is DIVIDING BY THE SCALE FACTOR, $17 \\div \\frac{3}{2}$ ✗.)',
     },
   ],
   // slot 6 — D on segment AB, E on segment AC: the ratio DE : BC.
@@ -702,7 +702,7 @@ const s53 = [
       choices: ['$47.25$', '$21$', '$31.5$', '$28$'],
       answer: 2,
       solution:
-        'Shared $\\angle A$, and the arms give $\\frac{AD}{AB} = \\frac{12}{8} = \\frac{3}{2}$ with $\\frac{AE}{AC} = \\frac{9}{6} = \\frac{3}{2}$ — SAS Similarity with factor $\\frac{3}{2}$. The small perimeter is $8 + 6 + 7 = 21$, and the whole boundary stretches by the same factor: $21 \\times \\frac{3}{2} = 31.5$ ✓. Check it a second way by adding the large sides directly: $AD = 12$, $AE = 9$, and $DE = \\frac{3}{2} \\times 7 = 10.5$, giving $12 + 9 + 10.5 = 31.5$ ✓ — the scaled total and the piecewise sum coincide. Guard: $12$, $9$, $10.5$ passes the triangle inequality, as it must. (The value $21$ is ANSWERING THE SMALL PERIMETER ✗; $47.25$ is APPLYING THE FACTOR TWICE, $21 \\times \\frac{9}{4}$ — that is how area scales ✗; $28$ is ADDING ONLY THE VISIBLE GROWTH, $21 + 4 + 3$, while the third side quietly grows by $3.5$ ✗.)',
+        'Shared $\\angle A$, and the arms give $\\frac{AD}{AB} = \\frac{12}{8} = \\frac{3}{2}$ with $\\frac{AE}{AC} = \\frac{9}{6} = \\frac{3}{2}$ — SAS Similarity with factor $\\frac{3}{2}$. The small perimeter is $8 + 6 + 7 = 21$, and the whole boundary stretches by the same factor: $21 \\times \\frac{3}{2} = 31.5$ ✓. Check it a second way by adding the large sides directly: $AD = 12$, $AE = 9$, and $DE = \\frac{3}{2} \\times 7 = 10.5$, giving $12 + 9 + 10.5 = 31.5$ ✓ — the scaled total and the piecewise sum coincide. Guard: $12$, $9$, $10.5$ passes the triangle inequality, as it must. (The value $47.25$ is APPLYING THE FACTOR TWICE, $21 \\times \\frac{9}{4}$ — that is how area scales ✗; $21$ is ANSWERING THE SMALL PERIMETER ✗; $28$ is ADDING ONLY THE VISIBLE GROWTH, $21 + 4 + 3$, while the third side quietly grows by $3.5$ ✗.)',
     },
   ],
 ]

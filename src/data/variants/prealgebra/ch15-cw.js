@@ -69,7 +69,7 @@ const challenge = [
       q: 'Today is Thursday. What day of the week will it be $100$ days from today?',
       choices: ['Friday', 'Thursday', 'Sunday', 'Saturday'],
       answer: 3,
-      solution: 'Days of the week repeat every $7$, so divide: $100 = 7 \\times 14 + 2$. Fourteen whole weeks bring us right back to Thursday, and $2$ extra days give Friday, then Saturday. (Friday would need a remainder of $1$; Sunday a remainder of $3$; Thursday a remainder of $0$, which would happen at $98$ days, not $100$.)',
+      solution: 'Days of the week repeat every $7$, so divide: $100 = 7 \\times 14 + 2$. Fourteen whole weeks bring us right back to Thursday, and $2$ extra days give Friday, then Saturday. (Friday would need a remainder of $1$; Thursday a remainder of $0$, which would happen at $98$ days, not $100$; Sunday a remainder of $3$.)',
     },
   ],
   // 4. Coin counting — settled by a complete, ordered list.

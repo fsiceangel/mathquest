@@ -188,7 +188,7 @@ const s192 = [
       choices: ['$\\$80$', '$\\$400$', '$\\$880$', '$\\$0$'],
       answer: 0,
       solution:
-        'Simple interest pays $20\\%$ of $\\$2000$, which is $\\$400$, each year, so it reaches $2000 + 800 = \\$2800$. Compounding multiplies by $\\frac{6}{5}$ twice: $2000 \\to \\$2400 \\to \\$2880$, which the closed formula confirms as $2000 \\cdot \\frac{36}{25} = 80 \\cdot 36 = \\$2880$. The gap is $2880 - 2800 = \\$80$. Check a second, independent way through the source of the extra money: compounding differs only by paying interest on the first year’s $\\$400$, and $20\\%$ of $\\$400$ is $\\$80$ ✓. (The choice $\\$880$ is the compound account’s TOTAL interest, not its lead; the choice $\\$0$ is believing the accounts never differ; the choice $\\$400$ is one year’s interest.)',
+        'Simple interest pays $20\\%$ of $\\$2000$, which is $\\$400$, each year, so it reaches $2000 + 800 = \\$2800$. Compounding multiplies by $\\frac{6}{5}$ twice: $2000 \\to \\$2400 \\to \\$2880$, which the closed formula confirms as $2000 \\cdot \\frac{36}{25} = 80 \\cdot 36 = \\$2880$. The gap is $2880 - 2800 = \\$80$. Check a second, independent way through the source of the extra money: compounding differs only by paying interest on the first year’s $\\$400$, and $20\\%$ of $\\$400$ is $\\$80$ ✓. (The choice $\\$400$ is one year’s interest; the choice $\\$880$ is the compound account’s TOTAL interest, not its lead; the choice $\\$0$ is believing the accounts never differ.)',
     },
     {
       q: 'You deposit $\\$3000$ at $4\\%$ for $2$ years. How much MORE does compounding annually earn than simple interest?',

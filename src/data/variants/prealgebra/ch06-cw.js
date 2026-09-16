@@ -29,7 +29,7 @@ const challenge = [
       q: 'Compute $0.375 \\times 40$.',
       choices: ['$1.5$', '$12$', '$15$', '$150$'],
       answer: 2,
-      solution: 'Ignore the point: $375 \\times 40 = 15000$. The factors have $3$ decimal places in total, so count three spots in: $15.000 = 15$. Estimate check: $0.375$ is three eighths, and three eighths of $40$ is $15$. ✓ (Counting four decimal places gives $1.5$; counting two gives $150$; rounding $0.375$ down to $0.3$ gives $12$.)',
+      solution: 'Ignore the point: $375 \\times 40 = 15000$. The factors have $3$ decimal places in total, so count three spots in: $15.000 = 15$. Estimate check: $0.375$ is three eighths, and three eighths of $40$ is $15$. ✓ (Counting four decimal places gives $1.5$; rounding $0.375$ down to $0.3$ gives $12$; counting two gives $150$.)',
     },
     {
       q: 'Compute $0.625 \\times 48$.',
@@ -71,13 +71,13 @@ const challenge = [
       q: 'Round $0.7996$ to the nearest thousandth.',
       choices: ['$0.800$', '$0.799$', '$0.790$', '$0.810$'],
       answer: 0,
-      solution: 'The thousandths digit is $9$ and the deciding digit next door is $6$. Since $6 \\ge 5$, round up — but $9$ thousandths plus $1$ makes $10$ thousandths, which carries into the hundredths: $0.799 + 0.001 = 0.800$. (Refusing to round up gives $0.799$; carrying a second time gives $0.810$; dropping the deciding digit and the $9$ together gives $0.790$.)',
+      solution: 'The thousandths digit is $9$ and the deciding digit next door is $6$. Since $6 \\ge 5$, round up — but $9$ thousandths plus $1$ makes $10$ thousandths, which carries into the hundredths: $0.799 + 0.001 = 0.800$. (Refusing to round up gives $0.799$; dropping the deciding digit and the $9$ together gives $0.790$; carrying a second time gives $0.810$.)',
     },
     {
       q: 'Round $12.997$ to the nearest hundredth.',
       choices: ['$12.99$', '$13.00$', '$12.90$', '$13.10$'],
       answer: 1,
-      solution: 'The deciding digit is the thousandths digit, $7$, so the hundredths digit must go up. But $9$ hundredths plus $1$ is $10$ hundredths, which carries into the tenths — and that $9$ carries again into the ones: $12.99 + 0.01 = 13.00$. The trailing zeros stay, because they show which place we rounded to. (Rounding down gives $12.99$; carrying one extra time gives $13.10$; wiping out the hundredths digit gives $12.90$.)',
+      solution: 'The deciding digit is the thousandths digit, $7$, so the hundredths digit must go up. But $9$ hundredths plus $1$ is $10$ hundredths, which carries into the tenths — and that $9$ carries again into the ones: $12.99 + 0.01 = 13.00$. The trailing zeros stay, because they show which place we rounded to. (Rounding down gives $12.99$; wiping out the hundredths digit gives $12.90$; carrying one extra time gives $13.10$.)',
     },
     {
       q: 'Round $0.09951$ to the nearest thousandth.',
@@ -113,13 +113,13 @@ const challenge = [
       q: 'Write $\\frac{3}{32}$ as a decimal.',
       choices: ['$0.093$', '$0.09375$', '$0.332$', '$0.9375$'],
       answer: 1,
-      solution: 'Since $32 \\times 3125 = 100000$, multiply top and bottom by $3125$: $\\frac{3}{32} = \\frac{9375}{100000} = 0.09375$. It terminates because $32 = 2 \\times 2 \\times 2 \\times 2 \\times 2$ is built only from $2$s. (Chopping the tail off gives $0.093$; forgetting the leading zero — that is, using $10000$ instead of $100000$ — gives $0.9375$; writing the digits $3$ and $32$ side by side gives $0.332$, but a fraction bar means division, not decoration.)',
+      solution: 'Since $32 \\times 3125 = 100000$, multiply top and bottom by $3125$: $\\frac{3}{32} = \\frac{9375}{100000} = 0.09375$. It terminates because $32 = 2 \\times 2 \\times 2 \\times 2 \\times 2$ is built only from $2$s. (Chopping the tail off gives $0.093$; writing the digits $3$ and $32$ side by side gives $0.332$, but a fraction bar means division, not decoration; forgetting the leading zero — that is, using $10000$ instead of $100000$ — gives $0.9375$.)',
     },
     {
       q: 'Write $\\frac{11}{80}$ as a decimal.',
       choices: ['$0.13$', '$0.118$', '$1.375$', '$0.1375$'],
       answer: 3,
-      solution: 'Since $80 \\times 125 = 10000$, multiply top and bottom by $125$: $\\frac{11}{80} = \\frac{1375}{10000} = 0.1375$. Sense check: $\\frac{11}{80}$ is a bit more than $\\frac{10}{80} = 0.125$. ✓ (Stopping at hundredths gives $0.13$; counting only three decimal places gives $1.375$; gluing the digits $11$ and $80$ together gives $0.118$.)',
+      solution: 'Since $80 \\times 125 = 10000$, multiply top and bottom by $125$: $\\frac{11}{80} = \\frac{1375}{10000} = 0.1375$. Sense check: $\\frac{11}{80}$ is a bit more than $\\frac{10}{80} = 0.125$. ✓ (Stopping at hundredths gives $0.13$; gluing the digits $11$ and $80$ together gives $0.118$; counting only three decimal places gives $1.375$.)',
     },
     {
       q: 'Write $\\frac{9}{16}$ as a decimal.',

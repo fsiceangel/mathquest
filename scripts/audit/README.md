@@ -13,7 +13,7 @@ Run them from the repo root.
 | `node scripts/audit/slots.mjs <book> <NN>` | the four keys of each slot side by side (base, then rounds 2–4), flagging any two adjacent rounds that repeat. |
 | `AR=2 node scripts/audit/cross-file.mjs <book> <NN>` | same-round echoes across files, choice values that collide once LaTeX is stripped, and worksheet items that carry the multiple-choice shape by mistake. |
 | `node scripts/audit/figures.mjs <book> <NN> [--var]` | figures whose geometry contradicts their labels: a side marked 5 drawn at length 7, a right angle that is not one, a degenerate polygon. |
-| `node scripts/audit/trap-order.mjs [book]` | solutions that name the wrong choices out of the order the student reads them. Heuristic — a value can be mentioned for another reason — so treat hits as candidates to eyeball. |
+| `node scripts/audit/trap-order.mjs [book] [--list]` | solutions whose closing traps run in a different order from the choices. It splits the closing block into clauses and ties each to the distractor it opens with; items it cannot read that way (prose choices, "the second choice") are counted as unreadable rather than guessed at. `--list` names the out-of-order items. |
 | `node scripts/audit/degree-keys.mjs <book> <NN>` | the same key sweep restricted to angle answers, which collide far more often than they look like they should. |
 | `node scripts/audit/arena.mjs` | the authored arena papers: ascending numeric choices, answer-position spread, cross-paper echoes, house style, figure sanity. |
 

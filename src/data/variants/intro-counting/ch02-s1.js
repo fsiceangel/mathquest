@@ -79,7 +79,7 @@ const s22 = [
       choices: ['$30$', '$60$', '$50$', '$20$'],
       answer: 2,
       solution:
-        'Route one, count the (hundreds, units) pairs and multiply by the free tens digit. Hundreds digit larger: $(7,0), (8,1), (9,2)$ — $3$ pairs. Units digit larger: $(1,8), (2,9)$ — $2$ pairs. That is $5$ pairs, each with $10$ choices for the tens digit: $5 \\cdot 10 = 50$ ✓. Route two, start from unordered digit pairs $7$ apart: $\\{0,7\\}, \\{1,8\\}, \\{2,9\\}$. Each fills (hundreds, units) in $2$ orders, $6$ assignments, but the one with hundreds digit $0$ is not a three-digit number, leaving $5$. Multiply by the $10$ tens digits: $50$ ✓. (The value $60$ ALLOWS HUNDREDS DIGIT $0$, keeping all $6$ assignments ✗. The value $30$ COUNTS ONLY THE HUNDREDS-LARGER PAIRS ✗. The value $20$ COUNTS ONLY THE UNITS-LARGER PAIRS ✗.)',
+        'Route one, count the (hundreds, units) pairs and multiply by the free tens digit. Hundreds digit larger: $(7,0), (8,1), (9,2)$ — $3$ pairs. Units digit larger: $(1,8), (2,9)$ — $2$ pairs. That is $5$ pairs, each with $10$ choices for the tens digit: $5 \\cdot 10 = 50$ ✓. Route two, start from unordered digit pairs $7$ apart: $\\{0,7\\}, \\{1,8\\}, \\{2,9\\}$. Each fills (hundreds, units) in $2$ orders, $6$ assignments, but the one with hundreds digit $0$ is not a three-digit number, leaving $5$. Multiply by the $10$ tens digits: $50$ ✓. (The value $30$ COUNTS ONLY THE HUNDREDS-LARGER PAIRS ✗. The value $60$ ALLOWS HUNDREDS DIGIT $0$, keeping all $6$ assignments ✗. The value $20$ COUNTS ONLY THE UNITS-LARGER PAIRS ✗.)',
     },
     {
       q: 'How many two-digit positive integers have two digits that differ by $7$ or more?',
@@ -157,7 +157,7 @@ const s22 = [
       q: 'The number of ordered pairs of positive integers $(a, b)$ satisfying $a + 3b \\le N$ is exactly $12$. What is $N$?',
       choices: ['$10$', '$11$', '$9$', '$12$'], answer: 0,
       solution:
-        'Route one, test $N = 10$ by cases on $b$. $b = 1$: $a \\le 7$, seven pairs. $b = 2$: $a \\le 4$, four. $b = 3$: $a = 1$, one. Add: $7 + 4 + 1 = 12$ ✓. Route two, watch the count grow with $N$: each pair stays valid when $N$ rises, so the count never falls. $N = 9$ gives $6 + 3 = 9$, $N = 10$ gives $12$, and $N = 11$ gives $8 + 5 + 2 = 15$, so $N = 10$ is the only answer ✓. (The value $9$ ALLOWS $a = 0$, where $N = 9$ gives $7 + 4 + 1 = 12$ ✗. The value $11$ READS THE INEQUALITY AS STRICT, counting $a + 3b < 11$ ✗. The value $12$ ECHOES THE TARGET COUNT instead of solving for $N$ ✗.)',
+        'Route one, test $N = 10$ by cases on $b$. $b = 1$: $a \\le 7$, seven pairs. $b = 2$: $a \\le 4$, four. $b = 3$: $a = 1$, one. Add: $7 + 4 + 1 = 12$ ✓. Route two, watch the count grow with $N$: each pair stays valid when $N$ rises, so the count never falls. $N = 9$ gives $6 + 3 = 9$, $N = 10$ gives $12$, and $N = 11$ gives $8 + 5 + 2 = 15$, so $N = 10$ is the only answer ✓. (The value $11$ READS THE INEQUALITY AS STRICT, counting $a + 3b < 11$ ✗. The value $9$ ALLOWS $a = 0$, where $N = 9$ gives $7 + 4 + 1 = 12$ ✗. The value $12$ ECHOES THE TARGET COUNT instead of solving for $N$ ✗.)',
     },
   ],
   // s7 — integer triangles by longest side.
@@ -174,7 +174,7 @@ const s22 = [
       choices: ['$56$', '$12$', '$34$', '$22$'],
       answer: 2,
       solution:
-        'Route one, casework on the longest side $c$. With sides $a \\le b \\le c$ and $a + b > c$: $c = 1$ gives $1$ triangle, $c = 2$ gives $2$, $c = 3$ gives $4$, $c = 4$ gives $6$, $c = 5$ gives $9$, and $c = 6$ gives $12$. Add: $1 + 2 + 4 + 6 + 9 + 12 = 34$ ✓. Route two, complementary. The triples $a \\le b \\le c \\le 6$ number $\\binom{8}{3} = 56$ (choosing a multiset of three sides from six lengths). The failures have $a + b \\le c$: for $c = 2, 3, 4, 5, 6$ there are $1, 2, 4, 6, 9$ of them, $22$ in all, and $56 - 22 = 34$ ✓. (The value $56$ IGNORES THE TRIANGLE INEQUALITY, counting every multiset of sides ✗. The value $22$ IS THE COMPLEMENT, the triples that fail to close ✗. The value $12$ COUNTS ONLY THE $c = 6$ CASE ✗.)',
+        'Route one, casework on the longest side $c$. With sides $a \\le b \\le c$ and $a + b > c$: $c = 1$ gives $1$ triangle, $c = 2$ gives $2$, $c = 3$ gives $4$, $c = 4$ gives $6$, $c = 5$ gives $9$, and $c = 6$ gives $12$. Add: $1 + 2 + 4 + 6 + 9 + 12 = 34$ ✓. Route two, complementary. The triples $a \\le b \\le c \\le 6$ number $\\binom{8}{3} = 56$ (choosing a multiset of three sides from six lengths). The failures have $a + b \\le c$: for $c = 2, 3, 4, 5, 6$ there are $1, 2, 4, 6, 9$ of them, $22$ in all, and $56 - 22 = 34$ ✓. (The value $56$ IGNORES THE TRIANGLE INEQUALITY, counting every multiset of sides ✗. The value $12$ COUNTS ONLY THE $c = 6$ CASE ✗. The value $22$ IS THE COMPLEMENT, the triples that fail to close ✗.)',
     },
     {
       q: 'What is the smallest perimeter $P$ for which there are at least $10$ different triangles with integer side lengths and perimeter $P$? Two triangles with the same three side lengths count as the same triangle.',
@@ -204,7 +204,7 @@ const s22 = [
       q: 'How many three-digit positive integers have digits that add up to $22$?',
       choices: ['$18$', '$30$', '$21$', '$15$'], answer: 2,
       solution:
-        'Route one, casework on the set of digits. With two digits equal: $\\{9,9,4\\}$, $\\{8,8,6\\}$, $\\{8,7,7\\}$ — $3$ orders each, $9$ numbers. With all digits different: $\\{9,8,5\\}$, $\\{9,7,6\\}$ — $6$ orders each, $12$ numbers. No digit is $0$ (two digits add to at most $18 < 22$), so every order counts. Add: $9 + 12 = 21$ ✓. Route two, count deficits from all nines. Write each digit as $9 - e_i$; then $e_1 + e_2 + e_3 = 27 - 22 = 5$ with each $e_i \\ge 0$, every digit at least $4$ so no zero appears anywhere. Nonnegative solutions: $\\binom{5 + 2}{2} = \\binom{7}{2} = 21$ ✓. (The value $30$ GIVES ALL FIVE DIGIT SETS $6$ ORDERS ✗. The value $18$ DROPS THE SET $\\{8,7,7\\}$ ✗. The value $15$ DROPS TWO OF THE REPEATED-DIGIT SETS ✗.)',
+        'Route one, casework on the set of digits. With two digits equal: $\\{9,9,4\\}$, $\\{8,8,6\\}$, $\\{8,7,7\\}$ — $3$ orders each, $9$ numbers. With all digits different: $\\{9,8,5\\}$, $\\{9,7,6\\}$ — $6$ orders each, $12$ numbers. No digit is $0$ (two digits add to at most $18 < 22$), so every order counts. Add: $9 + 12 = 21$ ✓. Route two, count deficits from all nines. Write each digit as $9 - e_i$; then $e_1 + e_2 + e_3 = 27 - 22 = 5$ with each $e_i \\ge 0$, every digit at least $4$ so no zero appears anywhere. Nonnegative solutions: $\\binom{5 + 2}{2} = \\binom{7}{2} = 21$ ✓. (The value $18$ DROPS THE SET $\\{8,7,7\\}$ ✗. The value $30$ GIVES ALL FIVE DIGIT SETS $6$ ORDERS ✗. The value $15$ DROPS TWO OF THE REPEATED-DIGIT SETS ✗.)',
     },
   ],
   // s9 — exactly k copies of a digit or letter.

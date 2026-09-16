@@ -189,7 +189,7 @@ const s71 = [
       choices: ['$\\$17.50$', '$\\$13.00$', '$\\$2.80$', '$\\$70.00$'],
       answer: 0,
       solution:
-        'A fixed price per metre makes cost directly proportional to length, so the constant is the price per metre: $k = \\frac{y}{x} = \\frac{7}{4} = \\$1.75$ per metre. Then $10$ metres cost $10 \\times 1.75 = \\$17.50$. The constant checks out on both pairs: $\\frac{7}{4} = 1.75$ and $\\frac{17.50}{10} = 1.75$. ✓ (The choice $\\$2.80$ treats this as INVERSE, using $k = xy = 28$ and computing $\\frac{28}{10}$ — that would mean buying more rope costs less, which no shop does; the choice $\\$13.00$ adds $\\$6$ because we asked for $6$ more metres, which would only be right at $\\$1$ per metre; the choice $\\$70.00$ multiplies $7 \\times 10$ and forgets to divide by the $4$ metres.)',
+        'A fixed price per metre makes cost directly proportional to length, so the constant is the price per metre: $k = \\frac{y}{x} = \\frac{7}{4} = \\$1.75$ per metre. Then $10$ metres cost $10 \\times 1.75 = \\$17.50$. The constant checks out on both pairs: $\\frac{7}{4} = 1.75$ and $\\frac{17.50}{10} = 1.75$. ✓ (The choice $\\$13.00$ adds $\\$6$ because we asked for $6$ more metres, which would only be right at $\\$1$ per metre; the choice $\\$2.80$ treats this as INVERSE, using $k = xy = 28$ and computing $\\frac{28}{10}$ — that would mean buying more rope costs less, which no shop does; the choice $\\$70.00$ multiplies $7 \\times 10$ and forgets to divide by the $4$ metres.)',
     },
     {
       q: 'A press prints at a steady rate, turning out $240$ pages in $6$ minutes. How many pages does it print in $15$ minutes?',
@@ -203,7 +203,7 @@ const s71 = [
       choices: ['$17$ litres', '$3.2$ litres', '$11.25$ litres', '$20$ litres'],
       answer: 3,
       solution:
-        'A fixed price per litre makes the two amounts directly proportional. Take the constant as litres per dollar: $k = \\frac{8}{6} = \\frac{4}{3}$ litres per dollar, so $\\$15$ buys $15 \\times \\frac{4}{3} = 20$ litres. The constant holds on both pairs: $\\frac{8}{6} = \\frac{4}{3}$ and $\\frac{20}{15} = \\frac{4}{3}$. ✓ (Equivalently the milk costs $\\$0.75$ a litre and $15 \\div 0.75 = 20$.) (The choice $17$ adds $9$ litres because we spent $\\$9$ more; the choice $11.25$ multiplies $15$ by the price $0.75$ instead of dividing by it; the choice $3.2$ uses the INVERSE model, taking the product $8 \\times 6 = 48$ as the constant and computing $\\frac{48}{15}$ — that would mean more money buys less milk.)',
+        'A fixed price per litre makes the two amounts directly proportional. Take the constant as litres per dollar: $k = \\frac{8}{6} = \\frac{4}{3}$ litres per dollar, so $\\$15$ buys $15 \\times \\frac{4}{3} = 20$ litres. The constant holds on both pairs: $\\frac{8}{6} = \\frac{4}{3}$ and $\\frac{20}{15} = \\frac{4}{3}$. ✓ (Equivalently the milk costs $\\$0.75$ a litre and $15 \\div 0.75 = 20$.) (The choice $17$ adds $9$ litres because we spent $\\$9$ more; the choice $3.2$ uses the INVERSE model, taking the product $8 \\times 6 = 48$ as the constant and computing $\\frac{48}{15}$ — that would mean more money buys less milk; the choice $11.25$ multiplies $15$ by the price $0.75$ instead of dividing by it.)',
     },
   ],
   // p8 — direct proportion to the square

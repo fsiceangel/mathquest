@@ -212,7 +212,7 @@ const s103 = [
       choices: ['It is exactly $0.5$ km', 'It is less than $1.9$ km', 'It is more than $1.9$ km', 'It is exactly $1.9$ km'],
       answer: 1,
       solution:
-        'Dock, buoy, and island form a triangle, and the straight side loses to the detour: the direct distance is LESS than $1.2 + 0.7 = 1.9$ km, strictly, since the buoy is off the line ✓. The other side of the window agrees: the distance also exceeds $1.2 - 0.7 = 0.5$ km, so it sits strictly between $0.5$ and $1.9$ km ✓. (Exactly $1.9$ km would need the three points COLLINEAR, which is ruled out ✗; "more than $1.9$" REVERSES the inequality — a detour can never be the short way ✗; exactly $0.5$ km quotes the DIFFERENCE, the other flat case, as if it were forced ✗.)',
+        'Dock, buoy, and island form a triangle, and the straight side loses to the detour: the direct distance is LESS than $1.2 + 0.7 = 1.9$ km, strictly, since the buoy is off the line ✓. The other side of the window agrees: the distance also exceeds $1.2 - 0.7 = 0.5$ km, so it sits strictly between $0.5$ and $1.9$ km ✓. (Exactly $0.5$ km quotes the DIFFERENCE, the other flat case, as if it were forced ✗; "more than $1.9$" REVERSES the inequality — a detour can never be the short way ✗; exactly $1.9$ km would need the three points COLLINEAR, which is ruled out ✗.)',
     },
     {
       q: 'A cyclist rides $2.4$ km straight from her apartment to a bakery, then $1.8$ km straight from the bakery to the library. The bakery is not on the straight road between apartment and library. What must be true of the straight-line distance from her apartment to the library?',

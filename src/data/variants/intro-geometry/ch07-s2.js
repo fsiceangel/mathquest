@@ -422,7 +422,7 @@ const s72 = [
       choices: ['$(12, 0)$', '$(8, 6)$', '$(0, 0)$', '$(12, 9)$'],
       answer: 3,
       solution:
-        'The three side bisectors meet at the circumcenter, and with the right angle at $A$ the hypotenuse is $\\overline{BC}$, so the meeting point is its midpoint: $\\left(\\frac{24 + 0}{2}, \\frac{0 + 18}{2}\\right) = (12, 9)$ ✓. Check a second, independent way by measuring from $(12, 9)$: the distances to $A(0,0)$, $B(24, 0)$, and $C(0, 18)$ are each $\\sqrt{144 + 81} = \\sqrt{225} = 15$ ✓ — equidistant, exactly as the bisector chain demands. (The point $(8, 6)$ is ANSWERING THE CENTROID, the average of the three vertices ✗; $(0, 0)$ is PLANTING THE COMPASS ON THE RIGHT ANGLE ✗; $(12, 0)$ is STOPPING AT A LEG’S MIDPOINT — only the bisector of $\\overline{AB}$ passes through it ✗.)',
+        'The three side bisectors meet at the circumcenter, and with the right angle at $A$ the hypotenuse is $\\overline{BC}$, so the meeting point is its midpoint: $\\left(\\frac{24 + 0}{2}, \\frac{0 + 18}{2}\\right) = (12, 9)$ ✓. Check a second, independent way by measuring from $(12, 9)$: the distances to $A(0,0)$, $B(24, 0)$, and $C(0, 18)$ are each $\\sqrt{144 + 81} = \\sqrt{225} = 15$ ✓ — equidistant, exactly as the bisector chain demands. (The point $(12, 0)$ is STOPPING AT A LEG’S MIDPOINT — only the bisector of $\\overline{AB}$ passes through it ✗; $(8, 6)$ is ANSWERING THE CENTROID, the average of the three vertices ✗; $(0, 0)$ is PLANTING THE COMPASS ON THE RIGHT ANGLE ✗.)',
     },
   ],
   // s8 — one side a diameter: Thales plus Pythagoras for the third side.

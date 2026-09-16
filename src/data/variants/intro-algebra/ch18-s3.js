@@ -212,7 +212,7 @@ const challenge = [
       choices: ['$-4x^{11}$', '$-9x^3$', '$4x^3$', '$-4x^3$'],
       answer: 3,
       solution:
-        'Call the missing leading term $cx^n$. Multiplying leading terms must reproduce $12x^7$, so $(-3)(c) = 12$ and $4 + n = 7$. That gives $c = -4$ and $n = 3$: the leading term is $-4x^3$. Second check by running it forward: $(-3x^4)(-4x^3) = 12x^7$ ✓ — the two negatives make the coefficient positive, and $4 + 3 = 7$ lands on the right power. (Choice $4x^3$ gets the power right but ignores the sign, as though $3 \\times 4 = 12$ settled it ✗. Choice $-4x^{11}$ ADDS $4$ and $7$ instead of subtracting, so it undoes multiplication with more multiplication ✗. Choice $-9x^3$ SUBTRACTS the coefficients, $12 - 3 = 9$, treating them the way the exponents are treated ✗.)',
+        'Call the missing leading term $cx^n$. Multiplying leading terms must reproduce $12x^7$, so $(-3)(c) = 12$ and $4 + n = 7$. That gives $c = -4$ and $n = 3$: the leading term is $-4x^3$. Second check by running it forward: $(-3x^4)(-4x^3) = 12x^7$ ✓ — the two negatives make the coefficient positive, and $4 + 3 = 7$ lands on the right power. (Choice $-4x^{11}$ ADDS $4$ and $7$ instead of subtracting, so it undoes multiplication with more multiplication ✗. Choice $-9x^3$ SUBTRACTS the coefficients, $12 - 3 = 9$, treating them the way the exponents are treated ✗. Choice $4x^3$ gets the power right but ignores the sign, as though $3 \\times 4 = 12$ settled it ✗.)',
     },
     {
       q: 'What is the leading term of the product $(6x - 5x^4 + 2)(x^2 - 3x^5 - 1)$?',
@@ -289,7 +289,7 @@ const challenge = [
       choices: ['$-68$', '$20$', '$-60$', '$68$'],
       answer: 2,
       solution:
-        'Take the two pieces separately. The cube contributes $(-4)(-4)(-4) = -64$, negative because three negative factors stay negative. The square contributes $2 \\times 2 = 4$. Adding: $-64 + 4 = -60$. Second check by a completely different route — the constant term of any polynomial is its value at $x = 0$, so evaluate the whole expression there: $(0 - 4)^3 + (0 + 2)^2 = (-4)^3 + 2^2 = -64 + 4 = -60$ ✓. (For reference the full expansion is $x^3 - 12x^2 + 48x - 64 + x^2 + 4x + 4 = x^3 - 11x^2 + 52x - 60$, which shows the same $-60$.) (Choice $-68$ subtracts the square’s constant instead of adding it ✗. Choice $68$ reads $(-4)^3$ as $+64$, letting an odd power of a negative come out positive ✗. Choice $20$ squares the $-4$ instead of cubing it, giving $16 + 4$ ✗.)',
+        'Take the two pieces separately. The cube contributes $(-4)(-4)(-4) = -64$, negative because three negative factors stay negative. The square contributes $2 \\times 2 = 4$. Adding: $-64 + 4 = -60$. Second check by a completely different route — the constant term of any polynomial is its value at $x = 0$, so evaluate the whole expression there: $(0 - 4)^3 + (0 + 2)^2 = (-4)^3 + 2^2 = -64 + 4 = -60$ ✓. (For reference the full expansion is $x^3 - 12x^2 + 48x - 64 + x^2 + 4x + 4 = x^3 - 11x^2 + 52x - 60$, which shows the same $-60$.) (Choice $-68$ subtracts the square’s constant instead of adding it ✗. Choice $20$ squares the $-4$ instead of cubing it, giving $16 + 4$ ✗. Choice $68$ reads $(-4)^3$ as $+64$, letting an odd power of a negative come out positive ✗.)',
     },
   ],
 
@@ -345,7 +345,7 @@ const challenge = [
       choices: ['$7$', '$18$', '$63$', '$24$'],
       answer: 0,
       solution:
-        'Raising to the $k$th power multiplies the degree by $k$, so $3k = 21$ and $k = 7$. Second check by running it forward with a concrete polynomial of degree $3$: take $p(x) = x^3 + 1$; then $(p(x))^7$ has leading term $(x^3)^7 = x^{21}$, which is degree $21$ ✓, and nothing in that expansion can cancel a leading term. (Choice $18$ subtracts, computing $21 - 3$ ✗. Choice $24$ adds, computing $21 + 3$ ✗. Choice $63$ multiplies $21 \\times 3$, running the rule in the wrong direction ✗.)',
+        'Raising to the $k$th power multiplies the degree by $k$, so $3k = 21$ and $k = 7$. Second check by running it forward with a concrete polynomial of degree $3$: take $p(x) = x^3 + 1$; then $(p(x))^7$ has leading term $(x^3)^7 = x^{21}$, which is degree $21$ ✓, and nothing in that expansion can cancel a leading term. (Choice $18$ subtracts, computing $21 - 3$ ✗. Choice $63$ multiplies $21 \\times 3$, running the rule in the wrong direction ✗. Choice $24$ adds, computing $21 + 3$ ✗.)',
     },
   ],
 
@@ -359,7 +359,7 @@ const challenge = [
       choices: ['$24$', '$-11$', '$11$', '$-24$'],
       answer: 0,
       solution:
-        'Expand the left side in full: $(x + a)(x + b) = x^2 + bx + ax + ab = x^2 + (a + b)x + ab$. Matching against $x^2 - 11x + 24$ gives $a + b = -11$ and $ab = 24$. The question asks for the PRODUCT, and it is sitting in the constant term: $24$. Second check by finding the two numbers themselves: $a = -3$ and $b = -8$ satisfy both conditions, and $(x - 3)(x - 8) = x^2 - 8x - 3x + 24 = x^2 - 11x + 24$ ✓, with $ab = (-3)(-8) = 24$ ✓. (Choice $-11$ hands back the SUM, which the middle coefficient supplies, instead of the product ✗. Choice $-24$ assumes the product must inherit the minus sign from the middle term ✗. Choice $11$ strips the sign off the sum ✗.)',
+        'Expand the left side in full: $(x + a)(x + b) = x^2 + bx + ax + ab = x^2 + (a + b)x + ab$. Matching against $x^2 - 11x + 24$ gives $a + b = -11$ and $ab = 24$. The question asks for the PRODUCT, and it is sitting in the constant term: $24$. Second check by finding the two numbers themselves: $a = -3$ and $b = -8$ satisfy both conditions, and $(x - 3)(x - 8) = x^2 - 8x - 3x + 24 = x^2 - 11x + 24$ ✓, with $ab = (-3)(-8) = 24$ ✓. (Choice $-11$ hands back the SUM, which the middle coefficient supplies, instead of the product ✗. Choice $11$ strips the sign off the sum ✗. Choice $-24$ assumes the product must inherit the minus sign from the middle term ✗.)',
     },
     {
       q: 'Numbers $a$ and $b$ satisfy $(3x + a)(x + b) = 3x^2 - 5x - 12$ for all $x$. What is $a + b$?',
@@ -373,7 +373,7 @@ const challenge = [
       choices: ['$56$', '$-15$', '$15$', '$1$'],
       answer: 2,
       solution:
-        'The factors carry MINUS signs here, so expand before matching anything: $(x - a)(x - b) = x^2 - bx - ax + ab = x^2 - (a + b)x + ab$. The middle coefficient is $-(a + b)$, and matching it to $-15$ gives $a + b = 15$ — positive, even though the middle term is negative. Second check by naming the numbers: $ab = 56$ and $a + b = 15$ point to $a = 7$ and $b = 8$, and $(x - 7)(x - 8) = x^2 - 8x - 7x + 56 = x^2 - 15x + 56$ ✓, with $7 + 8 = 15$ ✓. (Choice $-15$ copies the middle coefficient without accounting for the minus signs already inside the factors ✗. Choice $56$ hands back $ab$ ✗. Choice $1$ reports the difference $8 - 7$ rather than the sum ✗.)',
+        'The factors carry MINUS signs here, so expand before matching anything: $(x - a)(x - b) = x^2 - bx - ax + ab = x^2 - (a + b)x + ab$. The middle coefficient is $-(a + b)$, and matching it to $-15$ gives $a + b = 15$ — positive, even though the middle term is negative. Second check by naming the numbers: $ab = 56$ and $a + b = 15$ point to $a = 7$ and $b = 8$, and $(x - 7)(x - 8) = x^2 - 8x - 7x + 56 = x^2 - 15x + 56$ ✓, with $7 + 8 = 15$ ✓. (Choice $56$ hands back $ab$ ✗. Choice $-15$ copies the middle coefficient without accounting for the minus signs already inside the factors ✗. Choice $1$ reports the difference $8 - 7$ rather than the sum ✗.)',
     },
   ],
 ]

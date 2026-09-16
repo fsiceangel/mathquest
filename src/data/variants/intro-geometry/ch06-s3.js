@@ -199,7 +199,7 @@ const s63 = [
       choices: ['$5$, $12$, $13$', '$6$, $8$, $10$', '$9$, $40$, $41$', '$5$, $6$, $8$'],
       answer: 3,
       solution:
-        'Test the suspect with the longest side as hypotenuse: $5^2 + 6^2 = 25 + 36 = 61$, but $8^2 = 64$ — no match, so $5$, $6$, $8$ is not a right triangle ✓. It misses by only $3$, which is exactly why eyeballing fails and the arithmetic decides. The other three all pass: $5^2 + 12^2 = 25 + 144 = 169 = 13^2$ ✓; $6$-$8$-$10$ is $2 \\times (3$-$4$-$5)$, and $36 + 64 = 100 = 10^2$ ✓; $9^2 + 40^2 = 81 + 1600 = 1681 = 41^2$ ✓. (Accusing $6$, $8$, $10$ is DISTRUSTING A SCALED TRIPLE ✗; accusing $9$, $40$, $41$ is DISTRUSTING AN UNFAMILIAR TRIPLE — the famous families are common, not exhaustive ✗; accusing $5$, $12$, $13$ means doubting one of the four classics ✗.)',
+        'Test the suspect with the longest side as hypotenuse: $5^2 + 6^2 = 25 + 36 = 61$, but $8^2 = 64$ — no match, so $5$, $6$, $8$ is not a right triangle ✓. It misses by only $3$, which is exactly why eyeballing fails and the arithmetic decides. The other three all pass: $5^2 + 12^2 = 25 + 144 = 169 = 13^2$ ✓; $6$-$8$-$10$ is $2 \\times (3$-$4$-$5)$, and $36 + 64 = 100 = 10^2$ ✓; $9^2 + 40^2 = 81 + 1600 = 1681 = 41^2$ ✓. (Accusing $5$, $12$, $13$ means doubting one of the four classics ✗; accusing $6$, $8$, $10$ is DISTRUSTING A SCALED TRIPLE ✗; accusing $9$, $40$, $41$ is DISTRUSTING AN UNFAMILIAR TRIPLE — the famous families are common, not exhaustive ✗.)',
     },
     {
       q: 'Which one of the following sets of three lengths cannot be the sides of a right triangle?',
