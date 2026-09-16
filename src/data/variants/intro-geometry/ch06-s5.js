@@ -47,7 +47,7 @@ const s65 = [
       choices: ['$60$', '$120$', '$3600$', '$30$'],
       answer: 0,
       solution:
-        'Heron start to finish: $s = \\frac{8+15+17}{2} = 20$, and the three factors are $20-8 = 12$, $20-15 = 5$, $20-17 = 3$ (check: $12+5+3 = 20 = s$ ✓). The product is $20 \\times 12 \\times 5 \\times 3 = 3600$, and the area is $\\sqrt{3600} = 60$ ✓. Cross-check by a second route: $8^2 + 15^2 = 64 + 225 = 289 = 17^2$, so this sail is a right triangle with legs $8$ and $15$, and $\\frac{1}{2}(8)(15) = 60$ ✓ — Heron and the leg formula agree, as they must. (The choice $3600$ is FORGETTING THE ROOT ✗; $120$ is DROPPING THE ONE-HALF from the leg formula, $8 \\times 15$ ✗; $30$ is HALVING AGAIN, taking half of the true area because "semi" appeared once already ✗.)',
+        'Heron start to finish: $s = \\frac{8+15+17}{2} = 20$, and the three factors are $20-8 = 12$, $20-15 = 5$, $20-17 = 3$ (check: $12+5+3 = 20 = s$ ✓). The product is $20 \\times 12 \\times 5 \\times 3 = 3600$, and the area is $\\sqrt{3600} = 60$ ✓. Cross-check by a second route: $8^2 + 15^2 = 64 + 225 = 289 = 17^2$, so this sail is a right triangle with legs $8$ and $15$, and $\\frac{1}{2}(8)(15) = 60$ ✓ — Heron and the leg formula agree, as they must. (The choice $120$ is DROPPING THE ONE-HALF from the leg formula, $8 \\times 15$ ✗; $3600$ is FORGETTING THE ROOT ✗; $30$ is HALVING AGAIN, taking half of the true area because "semi" appeared once already ✗.)',
     },
     {
       q: 'Run Heron\'s Formula on a triangle whose sides measure $9$, $12$, and $15$. What area does it report?',
@@ -64,7 +64,7 @@ const s65 = [
       choices: ['$108$', '$54$', '$2916$', '$27$'],
       answer: 1,
       solution:
-        'The semiperimeter is $s = \\frac{9+12+15}{2} = 18$, and the factors are $18-9 = 9$, $18-12 = 6$, $18-15 = 3$ (check: $9+6+3 = 18 = s$ ✓). The product is $18 \\times 9 \\times 6 \\times 3 = 2916$, so the area is $\\sqrt{2916} = 54$ ✓. Second route: $9$-$12$-$15$ is three times $3$-$4$-$5$, a right triangle, so the area is $\\frac{1}{2}(9)(12) = 54$ ✓ — the two computations meet exactly. (The choice $2916$ is FORGETTING THE ROOT ✗; $108$ is DROPPING THE ONE-HALF, the raw product $9 \\times 12$ ✗; $27$ is HALVING AGAIN after the area is already done ✗.)',
+        'The semiperimeter is $s = \\frac{9+12+15}{2} = 18$, and the factors are $18-9 = 9$, $18-12 = 6$, $18-15 = 3$ (check: $9+6+3 = 18 = s$ ✓). The product is $18 \\times 9 \\times 6 \\times 3 = 2916$, so the area is $\\sqrt{2916} = 54$ ✓. Second route: $9$-$12$-$15$ is three times $3$-$4$-$5$, a right triangle, so the area is $\\frac{1}{2}(9)(12) = 54$ ✓ — the two computations meet exactly. (The choice $108$ is DROPPING THE ONE-HALF, the raw product $9 \\times 12$ ✗; $2916$ is FORGETTING THE ROOT ✗; $27$ is HALVING AGAIN after the area is already done ✗.)',
     },
     {
       q: 'A wooden garden bed is a triangle with sides $7$ m, $24$ m, and $25$ m. Use Heron\'s Formula to find how many square meters of soil it holds.',
@@ -81,7 +81,7 @@ const s65 = [
       choices: ['$168$', '$42$', '$84$', '$7056$'],
       answer: 2,
       solution:
-        'Heron: $s = \\frac{7+24+25}{2} = 28$, with factors $28-7 = 21$, $28-24 = 4$, $28-25 = 3$ (check: $21+4+3 = 28 = s$ ✓). The product is $28 \\times 21 \\times 4 \\times 3 = 7056$, and the area is $\\sqrt{7056} = 84$ ✓. Second route: $7^2 + 24^2 = 49 + 576 = 625 = 25^2$, so the bed is right-angled with legs $7$ and $24$, giving $\\frac{1}{2}(7)(24) = 84$ ✓ — two roads, one answer. (The choice $7056$ is FORGETTING THE ROOT ✗; $168$ is DROPPING THE ONE-HALF, just $7 \\times 24$ ✗; $42$ is HALVING AGAIN, cutting the finished area in half ✗.)',
+        'Heron: $s = \\frac{7+24+25}{2} = 28$, with factors $28-7 = 21$, $28-24 = 4$, $28-25 = 3$ (check: $21+4+3 = 28 = s$ ✓). The product is $28 \\times 21 \\times 4 \\times 3 = 7056$, and the area is $\\sqrt{7056} = 84$ ✓. Second route: $7^2 + 24^2 = 49 + 576 = 625 = 25^2$, so the bed is right-angled with legs $7$ and $24$, giving $\\frac{1}{2}(7)(24) = 84$ ✓ — two roads, one answer. (The choice $168$ is DROPPING THE ONE-HALF, just $7 \\times 24$ ✗; $42$ is HALVING AGAIN, cutting the finished area in half ✗; $7056$ is FORGETTING THE ROOT ✗.)',
     },
   ],
   // s2 — the semiperimeter itself: half the perimeter, nothing more.
@@ -105,7 +105,7 @@ const s65 = [
       choices: ['$46$', '$21$', '$12.5$', '$23$'],
       answer: 3,
       solution:
-        'Half the perimeter: $s = \\frac{10 + 15 + 21}{2} = \\frac{46}{2} = 23$ ✓. Check by the other route: halving each side first gives $5 + 7.5 + 10.5 = 23$ ✓. Guard: $23 > 21$, so $s$ clears the longest side as it must ✓. (The choice $46$ is USING THE FULL PERIMETER ✗; $12.5$ is DROPPING A SIDE, halving only $10 + 15$ and forgetting the $21$ ✗; $21$ is STOPPING AT THE LONGEST SIDE ✗.)',
+        'Half the perimeter: $s = \\frac{10 + 15 + 21}{2} = \\frac{46}{2} = 23$ ✓. Check by the other route: halving each side first gives $5 + 7.5 + 10.5 = 23$ ✓. Guard: $23 > 21$, so $s$ clears the longest side as it must ✓. (The choice $46$ is USING THE FULL PERIMETER ✗; $21$ is STOPPING AT THE LONGEST SIDE ✗; $12.5$ is DROPPING A SIDE, halving only $10 + 15$ and forgetting the $21$ ✗.)',
     },
   ],
   // s3 — isosceles area: Heron against the Pythagorean altitude.
@@ -286,7 +286,7 @@ const s65 = [
       choices: ['$5184$', '$36$', '$75$', '$72$'],
       answer: 3,
       solution:
-        'Heron: $s = \\frac{5+29+30}{2} = 32$, with factors $32-5 = 27$, $32-29 = 3$, $32-30 = 2$ (check: $27+3+2 = 32 = s$ ✓). The product is $32 \\times 27 \\times 3 \\times 2 = 5184$, and the area is $\\sqrt{5184} = 72$ ✓ (group it: $32 \\times 27 = 864$ and $864 \\times 6 = 5184 = 72^2$). Second route: lay the $30$ side flat; the apex is $x = \\frac{30^2 + 5^2 - 29^2}{2 \\times 30} = \\frac{84}{60} = 1.4$ from the left end, at height $\\sqrt{5^2 - 1.4^2} = \\sqrt{23.04} = 4.8$, so the area is $\\frac{1}{2}(30)(4.8) = 72$ ✓ — no obvious height, yet both routes land on $72$. (The choice $5184$ is FORGETTING THE ROOT ✗; $75$ is TREATING TWO SIDES AS BASE AND HEIGHT, $\\frac{1}{2}(5)(30)$ ✗; $36$ is HALVING AGAIN ✗.)',
+        'Heron: $s = \\frac{5+29+30}{2} = 32$, with factors $32-5 = 27$, $32-29 = 3$, $32-30 = 2$ (check: $27+3+2 = 32 = s$ ✓). The product is $32 \\times 27 \\times 3 \\times 2 = 5184$, and the area is $\\sqrt{5184} = 72$ ✓ (group it: $32 \\times 27 = 864$ and $864 \\times 6 = 5184 = 72^2$). Second route: lay the $30$ side flat; the apex is $x = \\frac{30^2 + 5^2 - 29^2}{2 \\times 30} = \\frac{84}{60} = 1.4$ from the left end, at height $\\sqrt{5^2 - 1.4^2} = \\sqrt{23.04} = 4.8$, so the area is $\\frac{1}{2}(30)(4.8) = 72$ ✓ — no obvious height, yet both routes land on $72$. (The choice $5184$ is FORGETTING THE ROOT ✗; $36$ is HALVING AGAIN ✗; $75$ is TREATING TWO SIDES AS BASE AND HEIGHT, $\\frac{1}{2}(5)(30)$ ✗.)',
     },
     {
       q: 'Surveyors measure a triangular plot with sides $17$ m, $25$ m, and $28$ m — no angle in sight. Find its area in square meters.',
@@ -363,7 +363,7 @@ const s65 = [
       choices: ['$108$', '$12$', '$18$', '$9$'],
       answer: 3,
       solution:
-        'Heron: $s = \\frac{15+15+24}{2} = 27$, with factors $27-15 = 12$, $27-15 = 12$, $27-24 = 3$ (check: $12+12+3 = 27 = s$ ✓). The product is $27 \\times 12 \\times 12 \\times 3 = 11664$, so the area is $\\sqrt{11664} = 108$. Backward: $108 = \\frac{1}{2}(24)(h)$, so $h = \\frac{216}{24} = 9$ ✓. Second route: the altitude meets the midpoint of the $24$ side, and $\\sqrt{15^2 - 12^2} = \\sqrt{81} = 9$ ✓ — a $9$-$12$-$15$ right triangle hides inside. (The choice $108$ is ANSWERING THE AREA ✗; $18$ is DIVIDING BY THE WRONG SIDE, $\\frac{216}{12}$ ✗; $12$ is ANSWERING HALF THE BASE ✗.)',
+        'Heron: $s = \\frac{15+15+24}{2} = 27$, with factors $27-15 = 12$, $27-15 = 12$, $27-24 = 3$ (check: $12+12+3 = 27 = s$ ✓). The product is $27 \\times 12 \\times 12 \\times 3 = 11664$, so the area is $\\sqrt{11664} = 108$. Backward: $108 = \\frac{1}{2}(24)(h)$, so $h = \\frac{216}{24} = 9$ ✓. Second route: the altitude meets the midpoint of the $24$ side, and $\\sqrt{15^2 - 12^2} = \\sqrt{81} = 9$ ✓ — a $9$-$12$-$15$ right triangle hides inside. (The choice $108$ is ANSWERING THE AREA ✗; $12$ is ANSWERING HALF THE BASE ✗; $18$ is DIVIDING BY THE WRONG SIDE, $\\frac{216}{12}$ ✗.)',
     },
     {
       q: 'A shallow roof truss is an isosceles triangle with two rafters of $25$ and a span of $48$. What is the height of the truss above the middle of its span?',
@@ -384,7 +384,7 @@ const s65 = [
       choices: ['$168$', '$24$', '$7$', '$14$'],
       answer: 2,
       solution:
-        'Heron: $s = \\frac{25+25+48}{2} = 49$, with factors $49-25 = 24$, $49-25 = 24$, $49-48 = 1$ (check: $24+24+1 = 49 = s$ ✓). The product is $49 \\times 24 \\times 24 \\times 1 = 28224$, so the area is $\\sqrt{28224} = 168$. Backward: $168 = \\frac{1}{2}(48)(h)$ gives $h = \\frac{336}{48} = 7$ ✓. Second route: the height meets the span\'s midpoint, and $\\sqrt{25^2 - 24^2} = \\sqrt{49} = 7$ ✓ — the $7$-$24$-$25$ triple in disguise. (The choice $168$ is ANSWERING THE AREA ✗; $14$ is DIVIDING BY THE WRONG SIDE, $\\frac{336}{24}$ ✗; $24$ is ANSWERING HALF THE BASE, the horizontal leg rather than the height ✗.)',
+        'Heron: $s = \\frac{25+25+48}{2} = 49$, with factors $49-25 = 24$, $49-25 = 24$, $49-48 = 1$ (check: $24+24+1 = 49 = s$ ✓). The product is $49 \\times 24 \\times 24 \\times 1 = 28224$, so the area is $\\sqrt{28224} = 168$. Backward: $168 = \\frac{1}{2}(48)(h)$ gives $h = \\frac{336}{48} = 7$ ✓. Second route: the height meets the span\'s midpoint, and $\\sqrt{25^2 - 24^2} = \\sqrt{49} = 7$ ✓ — the $7$-$24$-$25$ triple in disguise. (The choice $168$ is ANSWERING THE AREA ✗; $24$ is ANSWERING HALF THE BASE, the horizontal leg rather than the height ✗; $14$ is DIVIDING BY THE WRONG SIDE, $\\frac{336}{24}$ ✗.)',
     },
   ],
   // s8 — exact radicals with no figure: simplify fully.
@@ -394,7 +394,7 @@ const s65 = [
       choices: ['$6\\sqrt{6}$', '$216$', '$3\\sqrt{6}$', '$6\\sqrt{3}$'],
       answer: 0,
       solution:
-        'Heron: $s = \\frac{5+6+7}{2} = 9$, with factors $9-5 = 4$, $9-6 = 3$, $9-7 = 2$ (check: $4+3+2 = 9 = s$ ✓). The product is $9 \\times 4 \\times 3 \\times 2 = 216$, and the area is $\\sqrt{216} = \\sqrt{36 \\times 6} = 6\\sqrt{6} \\approx 14.7$ ✓. Second route: put the side of $6$ on the ground; the apex is $x = \\frac{6^2 + 5^2 - 7^2}{2 \\times 6} = \\frac{12}{12} = 1$ from the left end, at height $\\sqrt{5^2 - 1^2} = \\sqrt{24} = 2\\sqrt{6}$, and $\\frac{1}{2}(6)(2\\sqrt{6}) = 6\\sqrt{6}$ ✓. (The choice $216$ is FORGETTING THE ROOT ✗; $6\\sqrt{3}$ is MISCOMPUTING A DIFFERENCE, taking $s-7$ as $1$ so the product halves to $108$ — the check $4+3+1 \\ne 9$ flags it ✗; $3\\sqrt{6}$ is HALVING AGAIN ✗.)',
+        'Heron: $s = \\frac{5+6+7}{2} = 9$, with factors $9-5 = 4$, $9-6 = 3$, $9-7 = 2$ (check: $4+3+2 = 9 = s$ ✓). The product is $9 \\times 4 \\times 3 \\times 2 = 216$, and the area is $\\sqrt{216} = \\sqrt{36 \\times 6} = 6\\sqrt{6} \\approx 14.7$ ✓. Second route: put the side of $6$ on the ground; the apex is $x = \\frac{6^2 + 5^2 - 7^2}{2 \\times 6} = \\frac{12}{12} = 1$ from the left end, at height $\\sqrt{5^2 - 1^2} = \\sqrt{24} = 2\\sqrt{6}$, and $\\frac{1}{2}(6)(2\\sqrt{6}) = 6\\sqrt{6}$ ✓. (The choice $216$ is FORGETTING THE ROOT ✗; $3\\sqrt{6}$ is HALVING AGAIN ✗; $6\\sqrt{3}$ is MISCOMPUTING A DIFFERENCE, taking $s-7$ as $1$ so the product halves to $108$ — the check $4+3+1 \\ne 9$ flags it ✗.)',
     },
     {
       q: 'What is the exact area of a triangle whose sides measure $4$, $6$, and $8$?',
@@ -408,7 +408,7 @@ const s65 = [
       choices: ['$980$', '$14\\sqrt{5}$', '$7\\sqrt{5}$', '$14\\sqrt{10}$'],
       answer: 1,
       solution:
-        'Heron: $s = \\frac{7+9+12}{2} = 14$, with factors $14-7 = 7$, $14-9 = 5$, $14-12 = 2$ (check: $7+5+2 = 14 = s$ ✓). The product is $14 \\times 7 \\times 5 \\times 2 = 980$, and the area is $\\sqrt{980} = \\sqrt{196 \\times 5} = 14\\sqrt{5} \\approx 31.3$ ✓ — spot the $196$: $14 \\times 7 \\times 2$ is $14^2$ already. Second route: with $12$ as the base, the apex is $x = \\frac{12^2 + 7^2 - 9^2}{2 \\times 12} = \\frac{112}{24} = \\frac{14}{3}$ from the left end, at height $\\sqrt{7^2 - \\left(\\frac{14}{3}\\right)^2} = \\frac{7\\sqrt{5}}{3}$, and $\\frac{1}{2}(12)\\cdot\\frac{7\\sqrt{5}}{3} = 14\\sqrt{5}$ ✓. (The choice $980$ is FORGETTING THE ROOT ✗; $14\\sqrt{10}$ is MISCOMPUTING A DIFFERENCE, taking $s-12$ as $4$ and doubling the product to $1960$ ✗; $7\\sqrt{5}$ is HALVING AGAIN ✗.)',
+        'Heron: $s = \\frac{7+9+12}{2} = 14$, with factors $14-7 = 7$, $14-9 = 5$, $14-12 = 2$ (check: $7+5+2 = 14 = s$ ✓). The product is $14 \\times 7 \\times 5 \\times 2 = 980$, and the area is $\\sqrt{980} = \\sqrt{196 \\times 5} = 14\\sqrt{5} \\approx 31.3$ ✓ — spot the $196$: $14 \\times 7 \\times 2$ is $14^2$ already. Second route: with $12$ as the base, the apex is $x = \\frac{12^2 + 7^2 - 9^2}{2 \\times 12} = \\frac{112}{24} = \\frac{14}{3}$ from the left end, at height $\\sqrt{7^2 - \\left(\\frac{14}{3}\\right)^2} = \\frac{7\\sqrt{5}}{3}$, and $\\frac{1}{2}(12)\\cdot\\frac{7\\sqrt{5}}{3} = 14\\sqrt{5}$ ✓. (The choice $980$ is FORGETTING THE ROOT ✗; $7\\sqrt{5}$ is HALVING AGAIN ✗; $14\\sqrt{10}$ is MISCOMPUTING A DIFFERENCE, taking $s-12$ as $4$ and doubling the product to $1960$ ✗.)',
     },
   ],
   // s9 — the zero factor: Heron encodes the triangle inequality.
@@ -512,7 +512,7 @@ const s65 = [
       choices: ['$432$', '$18$', '$12$', '$24$'],
       answer: 3,
       solution:
-        'Heron: $s = \\frac{30+30+36}{2} = 48$, with factors $48-30 = 18$, $48-30 = 18$, $48-36 = 12$ (check: $18+18+12 = 48 = s$ ✓). The product is $48 \\times 18 \\times 18 \\times 12 = 186624$, so the area is $\\sqrt{186624} = 432$. Backward: $432 = \\frac{1}{2}(36)(h)$ gives $h = \\frac{864}{36} = 24$ ✓. Second route: the height lands on the midpoint of the $36$ side, and $\\sqrt{30^2 - 18^2} = \\sqrt{576} = 24$ ✓ — an $18$-$24$-$30$ right triangle, six times $3$-$4$-$5$. (The choice $432$ is ANSWERING THE AREA ✗; $12$ is FORGETTING TO DOUBLE, $\\frac{432}{36}$ ✗; $18$ is ANSWERING HALF THE BASE ✗.)',
+        'Heron: $s = \\frac{30+30+36}{2} = 48$, with factors $48-30 = 18$, $48-30 = 18$, $48-36 = 12$ (check: $18+18+12 = 48 = s$ ✓). The product is $48 \\times 18 \\times 18 \\times 12 = 186624$, so the area is $\\sqrt{186624} = 432$. Backward: $432 = \\frac{1}{2}(36)(h)$ gives $h = \\frac{864}{36} = 24$ ✓. Second route: the height lands on the midpoint of the $36$ side, and $\\sqrt{30^2 - 18^2} = \\sqrt{576} = 24$ ✓ — an $18$-$24$-$30$ right triangle, six times $3$-$4$-$5$. (The choice $432$ is ANSWERING THE AREA ✗; $18$ is ANSWERING HALF THE BASE ✗; $12$ is FORGETTING TO DOUBLE, $\\frac{432}{36}$ ✗.)',
     },
   ],
 ]

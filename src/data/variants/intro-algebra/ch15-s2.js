@@ -38,7 +38,7 @@ const s153 = [
       choices: ['None', 'One', 'Two', 'Infinitely many'],
       answer: 0,
       solution:
-        'The Trivial Inequality says $n^2 \\ge 0$ for every real number $n$: a positive times a positive is positive, a negative times a negative is also positive, and $0^2 = 0$. A number that is never below $0$ can certainly never equal $-4$, so Maya will search forever and find nothing. Check a second way by scanning both directions from zero: $n = 2$ gives $4$, $n = -2$ gives $4$, $n = 0.1$ gives $0.01$ — every attempt lands at or above $0$, never below ✗. (The choice "Two" comes from remembering that $n^2 = 4$ has the two solutions $\\pm 2$ and copying the count across without noticing the minus sign ✗. "One" would need a lone special number that squares to a negative, and no real number does ✗.)',
+        'The Trivial Inequality says $n^2 \\ge 0$ for every real number $n$: a positive times a positive is positive, a negative times a negative is also positive, and $0^2 = 0$. A number that is never below $0$ can certainly never equal $-4$, so Maya will search forever and find nothing. Check a second way by scanning both directions from zero: $n = 2$ gives $4$, $n = -2$ gives $4$, $n = 0.1$ gives $0.01$ — every attempt lands at or above $0$, never below ✗. ("The choice One" would need a lone special number that squares to a negative, and no real number does ✗. "Two" comes from remembering that $n^2 = 4$ has the two solutions $\\pm 2$ and copying the count across without noticing the minus sign ✗.)',
     },
     {
       q: 'Which statement is true for EVERY real number $t$?',
@@ -52,7 +52,7 @@ const s153 = [
       choices: ['Infinitely many', 'Exactly one', 'None', 'Only the negative values of $w$'],
       answer: 2,
       solution:
-        'Since $w^2 \\ge 0$ always, putting a minus sign in front reverses it: $-w^2 \\le 0$ for every real $w$. So $-w^2$ is never positive; the best it ever does is hit $0$, which happens at $w = 0$. Check a second way by trying both signs of $w$: $w = 3$ gives $-9$, and $w = -3$ gives $-(-3)^2 = -9$ as well ✗. (The choice "Only the negative values of $w$" is the trap: squaring destroys the sign of $w$ BEFORE the minus sign is applied, so a negative $w$ behaves exactly like its positive twin ✗. "Exactly one" would be right if the question asked when $-w^2$ equals $0$, which it does not ✗.)',
+        'Since $w^2 \\ge 0$ always, putting a minus sign in front reverses it: $-w^2 \\le 0$ for every real $w$. So $-w^2$ is never positive; the best it ever does is hit $0$, which happens at $w = 0$. Check a second way by trying both signs of $w$: $w = 3$ gives $-9$, and $w = -3$ gives $-(-3)^2 = -9$ as well ✗. ("The choice Exactly one" would be right if the question asked when $-w^2$ equals $0$, which it does not ✗. "Only the negative values of $w$" is the trap: squaring destroys the sign of $w$ BEFORE the minus sign is applied, so a negative $w$ behaves exactly like its positive twin ✗.)',
     },
   ],
   // p2 — the least value of a bare square is 0, reached at the shift. v2 asks
@@ -102,7 +102,7 @@ const s153 = [
       choices: ['$0$', '$4$', '$15$', '$11$'],
       answer: 3,
       solution:
-        'Because $x^2 \\ge 0$ and $4$ is positive, $4x^2 \\ge 0$ too, so $4x^2 + 11 \\ge 11$. Equality needs $x = 0$, which is allowed, so $11$ is reached. Check a second way at a neighbour: $x = 1$ gives $4 + 11 = 15$, above $11$ ✓, and $x = -1$ gives $15$ as well. (The choice $15$ is exactly that neighbour value, and it also matches the slip of ADDING the coefficient to the constant, $4 + 11$ ✗. The choice $4$ mistakes the coefficient for the floor ✗. The choice $0$ is the minimum of $4x^2$ by itself, with the $+11$ left behind ✗.)',
+        'Because $x^2 \\ge 0$ and $4$ is positive, $4x^2 \\ge 0$ too, so $4x^2 + 11 \\ge 11$. Equality needs $x = 0$, which is allowed, so $11$ is reached. Check a second way at a neighbour: $x = 1$ gives $4 + 11 = 15$, above $11$ ✓, and $x = -1$ gives $15$ as well. (The choice $0$ is the minimum of $4x^2$ by itself, with the $+11$ left behind ✗. The choice $4$ mistakes the coefficient for the floor ✗. The choice $15$ is exactly that neighbour value, and it also matches the slip of ADDING the coefficient to the constant, $4 + 11$ ✗.)',
     },
   ],
   // p4 — vertex form with a subtracted constant: the classic "value vs.
@@ -231,7 +231,7 @@ const s153 = [
       choices: ['$-3$', '$3$', '$0$', '$1$'],
       answer: 1,
       solution:
-        'Group the first three terms: $x^2 - 2xy + y^2 = (x-y)^2$, so the expression is $(x-y)^2 + 3$. A square is at least $0$, so the expression is at least $3$, and equality needs $x = y$ — an easy condition to meet, so the floor is genuinely reached. Check a second way with $x = y = 4$ in the original expression: $16 + 16 - 32 + 3 = 3$ ✓, and with $x = 4$, $y = 5$: $16 + 25 - 40 + 3 = 4$, above the floor ✓. (The choice $0$ is the minimum of the square alone, with the $+3$ forgotten ✗. The choice $-3$ flips a sign that is not negative ✗. The choice $1$ is not attainable, since the expression never drops below $3$ ✗.)',
+        'Group the first three terms: $x^2 - 2xy + y^2 = (x-y)^2$, so the expression is $(x-y)^2 + 3$. A square is at least $0$, so the expression is at least $3$, and equality needs $x = y$ — an easy condition to meet, so the floor is genuinely reached. Check a second way with $x = y = 4$ in the original expression: $16 + 16 - 32 + 3 = 3$ ✓, and with $x = 4$, $y = 5$: $16 + 25 - 40 + 3 = 4$, above the floor ✓. (The choice $-3$ flips a sign that is not negative ✗. The choice $0$ is the minimum of the square alone, with the $+3$ forgotten ✗. The choice $1$ is not attainable, since the expression never drops below $3$ ✗.)',
     },
   ],
   // p9 — two independent squares plus a constant. v2 asks for the point, v3 puts
@@ -266,7 +266,7 @@ const s153 = [
       choices: ['$25$', '$9$', '$8$', '$24$'],
       answer: 2,
       solution:
-        'Complete the square in each variable separately: $x^2 + 8x = (x+4)^2 - 16$ and $y^2 - 2y = (y-1)^2 - 1$. So the expression equals $(x+4)^2 + (y-1)^2 + 25 - 16 - 1 = (x+4)^2 + (y-1)^2 + 8$. Both squares vanish at once at $x = -4$, $y = 1$, so the minimum $8$ is attained. Check a second way in the ORIGINAL expression at that point: $16 + 1 - 32 - 2 + 25 = 8$ ✓, and at $x = -3$, $y = 1$: $9 + 1 - 24 - 2 + 25 = 9$, higher ✓. (The choice $9$ applies only the $x$-correction, $25 - 16$ ✗. The choice $24$ applies only the $y$-correction, $25 - 1$ ✗. The choice $25$ drops both corrections ✗.)',
+        'Complete the square in each variable separately: $x^2 + 8x = (x+4)^2 - 16$ and $y^2 - 2y = (y-1)^2 - 1$. So the expression equals $(x+4)^2 + (y-1)^2 + 25 - 16 - 1 = (x+4)^2 + (y-1)^2 + 8$. Both squares vanish at once at $x = -4$, $y = 1$, so the minimum $8$ is attained. Check a second way in the ORIGINAL expression at that point: $16 + 1 - 32 - 2 + 25 = 8$ ✓, and at $x = -3$, $y = 1$: $9 + 1 - 24 - 2 + 25 = 9$, higher ✓. (The choice $25$ drops both corrections ✗. The choice $9$ applies only the $x$-correction, $25 - 16$ ✗. The choice $24$ applies only the $y$-correction, $25 - 1$ ✗.)',
     },
     {
       q: 'At which point $(x, y)$ is $x^2 + y^2 - 10x + 6y + 40$ smallest?',
@@ -280,7 +280,7 @@ const s153 = [
       choices: ['$21$', '$20$', '$5$', '$4$'],
       answer: 3,
       solution:
-        'Complete the square twice: $x^2 - 2x = (x-1)^2 - 1$ and $y^2 - 8y = (y-4)^2 - 16$, so the expression equals $(x-1)^2 + (y-4)^2 + 21 - 1 - 16 = (x-1)^2 + (y-4)^2 + 4$. Both squares can be $0$ together at $x = 1$, $y = 4$, so the least value $4$ is reached. Check a second way in the original expression: $1 + 16 - 2 - 32 + 21 = 4$ ✓, and at $x = 1$, $y = 5$: $1 + 25 - 2 - 40 + 21 = 5$, higher ✓. (The choice $20$ applies only the $x$-correction, $21 - 1$ ✗. The choice $5$ applies only the $y$-correction, $21 - 16$ ✗. The choice $21$ drops both ✗.)',
+        'Complete the square twice: $x^2 - 2x = (x-1)^2 - 1$ and $y^2 - 8y = (y-4)^2 - 16$, so the expression equals $(x-1)^2 + (y-4)^2 + 21 - 1 - 16 = (x-1)^2 + (y-4)^2 + 4$. Both squares can be $0$ together at $x = 1$, $y = 4$, so the least value $4$ is reached. Check a second way in the original expression: $1 + 16 - 2 - 32 + 21 = 4$ ✓, and at $x = 1$, $y = 5$: $1 + 25 - 2 - 40 + 21 = 5$, higher ✓. (The choice $21$ drops both ✗. The choice $20$ applies only the $x$-correction, $21 - 1$ ✗. The choice $5$ applies only the $y$-correction, $21 - 16$ ✗.)',
     },
   ],
 ]
@@ -326,7 +326,7 @@ const s154 = [
       choices: ['$2$', '$6$', '$-2$', '$4$'],
       answer: 0,
       solution:
-        'Here $a = 3$ and $b = -12$, so $x = -\\frac{b}{2a} = -\\frac{-12}{2 \\cdot 3} = \\frac{12}{6} = 2$. Since $a = 3 > 0$ the parabola opens upward and this is the minimum. Check a second way by completing the square: $3x^2 - 12x + 1 = 3(x^2 - 4x) + 1 = 3(x-2)^2 - 12 + 1 = 3(x-2)^2 - 11$, minimised at $x = 2$ ✓. Values confirm it: $x = 2$ gives $12 - 24 + 1 = -11$, and $x = 3$ gives $27 - 36 + 1 = -8$, higher ✓. (The choice $6$ uses $-\\frac{b}{2}$ and forgets $a$ ✗. The choice $4$ uses $-\\frac{b}{a}$ and forgets the $2$ ✗. The choice $-2$ is a sign slip ✗.)',
+        'Here $a = 3$ and $b = -12$, so $x = -\\frac{b}{2a} = -\\frac{-12}{2 \\cdot 3} = \\frac{12}{6} = 2$. Since $a = 3 > 0$ the parabola opens upward and this is the minimum. Check a second way by completing the square: $3x^2 - 12x + 1 = 3(x^2 - 4x) + 1 = 3(x-2)^2 - 12 + 1 = 3(x-2)^2 - 11$, minimised at $x = 2$ ✓. Values confirm it: $x = 2$ gives $12 - 24 + 1 = -11$, and $x = 3$ gives $27 - 36 + 1 = -8$, higher ✓. (The choice $6$ uses $-\\frac{b}{2}$ and forgets $a$ ✗. The choice $-2$ is a sign slip ✗. The choice $4$ uses $-\\frac{b}{a}$ and forgets the $2$ ✗.)',
     },
     {
       q: 'For which value of $x$ is $y = -x^2 + 10x + 4$ largest?',
@@ -407,7 +407,7 @@ const s154 = [
       choices: ['$196$', '$49$', '$48$', '$7$'],
       answer: 1,
       solution:
-        'If one piece is $x$ inches long, the other is $14 - x$, and the product is $P = x(14-x)$. That is a downward parabola with roots $0$ and $14$, so the peak is at $x = 7$, giving $P = 7 \\times 7 = 49$. The equality point is legal: two $7$-inch pieces are a real way to cut a $14$-inch straw ✓. Check a second way against nearby cuts: $6$ and $8$ give $48$, and $5$ and $9$ give $45$ — both below $49$ ✓. (The choice $48$ is exactly that nearby cut ✗. The choice $196$ is $14^2$, as if both pieces were the full straw ✗. The choice $7$ is a piece length, not the product ✗.)',
+        'If one piece is $x$ inches long, the other is $14 - x$, and the product is $P = x(14-x)$. That is a downward parabola with roots $0$ and $14$, so the peak is at $x = 7$, giving $P = 7 \\times 7 = 49$. The equality point is legal: two $7$-inch pieces are a real way to cut a $14$-inch straw ✓. Check a second way against nearby cuts: $6$ and $8$ give $48$, and $5$ and $9$ give $45$ — both below $49$ ✓. (The choice $196$ is $14^2$, as if both pieces were the full straw ✗. The choice $48$ is exactly that nearby cut ✗. The choice $7$ is a piece length, not the product ✗.)',
     },
   ],
   // p6 — completing the square on a downward parabola. v3 flips the question to
@@ -531,7 +531,7 @@ const s154 = [
       choices: ['$0$', '$-4$', '$4$', '$-2$'],
       answer: 1,
       solution:
-        'Let the number be $x$, so the product is $P = x(x+4) = x^2 + 4x = (x+2)^2 - 4$. The square is at least $0$, so $P \\ge -4$, with equality at $x = -2$ — a real number, so the floor is reached, and the pair is $-2$ and $2$. Check a second way with that pair: $(-2)(2) = -4$ ✓, while $x = -1$ gives $(-1)(3) = -3$ and $x = -3$ gives $(-3)(1) = -3$ — both above ✓. (The choice $-2$ is THE WRONG QUESTION, the number rather than the product ✗. The choice $0$ comes from the pair $0$ and $4$, a real product but not the smallest ✗, and $4$ drops the minus sign ✗.)',
+        'Let the number be $x$, so the product is $P = x(x+4) = x^2 + 4x = (x+2)^2 - 4$. The square is at least $0$, so $P \\ge -4$, with equality at $x = -2$ — a real number, so the floor is reached, and the pair is $-2$ and $2$. Check a second way with that pair: $(-2)(2) = -4$ ✓, while $x = -1$ gives $(-1)(3) = -3$ and $x = -3$ gives $(-3)(1) = -3$ — both above ✓. (The choice $0$ comes from the pair $0$ and $4$, a real product but not the smallest ✗, and $4$ drops the minus sign ✗. The choice $-2$ is THE WRONG QUESTION, the number rather than the product ✗.)',
     },
   ],
 ]

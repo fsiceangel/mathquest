@@ -482,7 +482,7 @@ const s63 = [
       choices: ['$18$', '$63$', '$65$', '$34$'],
       answer: 2,
       solution:
-        'Call the pole’s height $h$, so the wire is $h + 2$. Then $16^2 + h^2 = (h + 2)^2 = h^2 + 4h + 4$, so $256 = 4h + 4$ and $h = 63$: the wire is $65$ ft ✓. Check: $16^2 + 63^2 = 256 + 3969 = 4225 = 65^2$ ✓ — the triple $16$-$63$-$65$. (The choice $63$ is ANSWERING THE POLE instead of the wire ✗; $18$ is ADDING $2$ TO THE WRONG SIDE — the $2$-ft gap is between wire and pole, not wire and ground distance ✗; $34$ is FORCING A FAMOUS FAMILY: in $16$-$30$-$34$ the wire would be $4$ longer than the pole, not $2$ ✗.)',
+        'Call the pole’s height $h$, so the wire is $h + 2$. Then $16^2 + h^2 = (h + 2)^2 = h^2 + 4h + 4$, so $256 = 4h + 4$ and $h = 63$: the wire is $65$ ft ✓. Check: $16^2 + 63^2 = 256 + 3969 = 4225 = 65^2$ ✓ — the triple $16$-$63$-$65$. (The choice $18$ is ADDING $2$ TO THE WRONG SIDE — the $2$-ft gap is between wire and pole, not wire and ground distance ✗; $63$ is ANSWERING THE POLE instead of the wire ✗; $34$ is FORCING A FAMOUS FAMILY: in $16$-$30$-$34$ the wire would be $4$ longer than the pole, not $2$ ✗.)',
     },
     {
       q: 'A kite flies directly above a spot on the ground $8$ m from where Mia stands. The kite’s height and the taut string’s length are both whole numbers of meters, and the string is $2$ m longer than the height. How many meters of string are out?',

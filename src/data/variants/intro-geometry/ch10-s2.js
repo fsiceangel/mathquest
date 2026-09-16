@@ -196,7 +196,7 @@ const s102 = [
       choices: ['$11$', '$13$', '$15$', '$17$'],
       answer: 1,
       solution:
-        'If $n$ is the hypotenuse, then $n^2 = 5^2 + 12^2 = 25 + 144 = 169$, so $n = 13$ ✓. Check a second, independent way by clearing the other case and substituting back: if $12$ were the hypotenuse instead, $n^2 = 144 - 25 = 119$, which sits between $10^2 = 100$ and $11^2 = 121$ — no integer; and $5$-$12$-$13$ verifies directly, $25 + 144 = 169 = 13^2$ ✓. (The choice $17$ is ADDING THE LEGS, $5 + 12$, instead of adding their squares ✗; $11$ is ROUNDING THE LEG CASE — $\\sqrt{119} \\approx 10.9$ is not an integer, and $11^2 = 121 \\ne 119$ ✗; $15$ is BORROWING THE $9$-$12$-$15$ TRIPLE, whose legs are not ours ✗.)',
+        'If $n$ is the hypotenuse, then $n^2 = 5^2 + 12^2 = 25 + 144 = 169$, so $n = 13$ ✓. Check a second, independent way by clearing the other case and substituting back: if $12$ were the hypotenuse instead, $n^2 = 144 - 25 = 119$, which sits between $10^2 = 100$ and $11^2 = 121$ — no integer; and $5$-$12$-$13$ verifies directly, $25 + 144 = 169 = 13^2$ ✓. (The choice $11$ is ROUNDING THE LEG CASE — $\\sqrt{119} \\approx 10.9$ is not an integer, and $11^2 = 121 \\ne 119$ ✗; $15$ is BORROWING THE $9$-$12$-$15$ TRIPLE, whose legs are not ours ✗; $17$ is ADDING THE LEGS, $5 + 12$, instead of adding their squares ✗.)',
     },
     {
       q: 'Triangle $DEF$ in the figure has $DE = 12$ and $DF = 9$, and the dashed side $\\overline{EF}$ has integer length $n$. For which $n$ is the triangle right?',
@@ -217,7 +217,7 @@ const s102 = [
       choices: ['$15$', '$13$', '$17$', '$21$'],
       answer: 0,
       solution:
-        'If $n$ is the hypotenuse, then $n^2 = 9^2 + 12^2 = 81 + 144 = 225$, so $n = 15$ ✓. Check a second, independent way by clearing the other case and substituting back: if $12$ were the hypotenuse, $n^2 = 144 - 81 = 63$, which sits between $7^2 = 49$ and $8^2 = 64$ — no integer there; and $9$-$12$-$15$ is $3$-$4$-$5$ scaled by $3$, so $81 + 144 = 225 = 15^2$ checks ✓. (The choice $21$ is ADDING THE LEGS, $9 + 12$ ✗; $13$ is BORROWING THE $5$-$12$-$13$ TRIPLE — the $12$ matches but the other leg is $9$, not $5$ ✗; $17$ is BORROWING THE $8$-$15$-$17$ TRIPLE, which shares no leg with this triangle ✗.)',
+        'If $n$ is the hypotenuse, then $n^2 = 9^2 + 12^2 = 81 + 144 = 225$, so $n = 15$ ✓. Check a second, independent way by clearing the other case and substituting back: if $12$ were the hypotenuse, $n^2 = 144 - 81 = 63$, which sits between $7^2 = 49$ and $8^2 = 64$ — no integer there; and $9$-$12$-$15$ is $3$-$4$-$5$ scaled by $3$, so $81 + 144 = 225 = 15^2$ checks ✓. (The choice $13$ is BORROWING THE $5$-$12$-$13$ TRIPLE — the $12$ matches but the other leg is $9$, not $5$ ✗; $17$ is BORROWING THE $8$-$15$-$17$ TRIPLE, which shares no leg with this triangle ✗; $21$ is ADDING THE LEGS, $9 + 12$ ✗.)',
     },
     {
       q: 'In the figure, $XY = 15$ and $XZ = 8$, while the dashed side $\\overline{YZ}$ must take an integer length $n$. Find the $n$ that makes triangle $XYZ$ right.',
@@ -238,7 +238,7 @@ const s102 = [
       choices: ['$13$', '$15$', '$17$', '$23$'],
       answer: 2,
       solution:
-        'If $n$ is the hypotenuse, then $n^2 = 8^2 + 15^2 = 64 + 225 = 289$, so $n = 17$ ✓. Check a second, independent way by clearing the other case and substituting back: if $15$ were the hypotenuse, $n^2 = 225 - 64 = 161$, which sits between $12^2 = 144$ and $13^2 = 169$ — no integer; and $8$-$15$-$17$ verifies directly, $64 + 225 = 289 = 17^2$ ✓. (The choice $23$ is ADDING THE LEGS, $8 + 15$ ✗; $13$ is ROUNDING THE LEG CASE — $\\sqrt{161} \\approx 12.7$ rounds to $13$, but $169 \\ne 161$ ✗; $15$ is REUSING A GIVEN SIDE as the answer ✗.)',
+        'If $n$ is the hypotenuse, then $n^2 = 8^2 + 15^2 = 64 + 225 = 289$, so $n = 17$ ✓. Check a second, independent way by clearing the other case and substituting back: if $15$ were the hypotenuse, $n^2 = 225 - 64 = 161$, which sits between $12^2 = 144$ and $13^2 = 169$ — no integer; and $8$-$15$-$17$ verifies directly, $64 + 225 = 289 = 17^2$ ✓. (The choice $13$ is ROUNDING THE LEG CASE — $\\sqrt{161} \\approx 12.7$ rounds to $13$, but $169 \\ne 161$ ✗; $15$ is REUSING A GIVEN SIDE as the answer ✗; $23$ is ADDING THE LEGS, $8 + 15$ ✗.)',
     },
   ],
   // s8 — count the integers n, with n the longest side, that make the triangle obtuse.
@@ -248,21 +248,21 @@ const s102 = [
       choices: ['$3$', '$5$', '$6$', '$4$'],
       answer: 3,
       solution:
-        'For $n$ to be the longest side, $n \\ge 11$; the triangle inequality caps it at $n < 7 + 10 = 17$. Candidates: $n = 11, 12, 13, 14, 15, 16$. Obtuse needs $n^2 > 7^2 + 10^2 = 149$; square each candidate: $121$ ✗, $144$ ✗, $169$ ✓, $196$ ✓, $225$ ✓, $256$ ✓ — so $n \\in \\{13, 14, 15, 16\\}$, four values ✓. Check a second, independent way from the threshold: $\\sqrt{149} \\approx 12.2$, so the obtuse integers start at $13$ and run to $16$, and $16 - 13 + 1 = 4$ ✓. (The choice $6$ is COUNTING EVERY CANDIDATE, skipping the squares test entirely ✗; $5$ is INCLUDING THE FLAT CASE $n = 17$, where $7 + 10 = 17$ lies flat ✗; $3$ is THROWING OUT $n = 13$ as if it were the right-triangle value — the right-triangle length here is $\\sqrt{149}$, not $13$ ✗.)',
+        'For $n$ to be the longest side, $n \\ge 11$; the triangle inequality caps it at $n < 7 + 10 = 17$. Candidates: $n = 11, 12, 13, 14, 15, 16$. Obtuse needs $n^2 > 7^2 + 10^2 = 149$; square each candidate: $121$ ✗, $144$ ✗, $169$ ✓, $196$ ✓, $225$ ✓, $256$ ✓ — so $n \\in \\{13, 14, 15, 16\\}$, four values ✓. Check a second, independent way from the threshold: $\\sqrt{149} \\approx 12.2$, so the obtuse integers start at $13$ and run to $16$, and $16 - 13 + 1 = 4$ ✓. (The choice $3$ is THROWING OUT $n = 13$ as if it were the right-triangle value — the right-triangle length here is $\\sqrt{149}$, not $13$ ✗; $5$ is INCLUDING THE FLAT CASE $n = 17$, where $7 + 10 = 17$ lies flat ✗; $6$ is COUNTING EVERY CANDIDATE, skipping the squares test entirely ✗.)',
     },
     {
       q: 'A triangle must be built with sides $8$, $12$, and an integer $n$ that is strictly the longest of the three. How many choices of $n$ give an obtuse triangle?',
       choices: ['$4$', '$7$', '$5$', '$6$'],
       answer: 2,
       solution:
-        'Longest means $n \\ge 13$, and the triangle inequality demands $n < 8 + 12 = 20$. Candidates: $n = 13, 14, 15, 16, 17, 18, 19$. Obtuse needs $n^2 > 8^2 + 12^2 = 208$; square each: $169$ ✗, $196$ ✗, $225$ ✓, $256$ ✓, $289$ ✓, $324$ ✓, $361$ ✓ — so $n \\in \\{15, 16, 17, 18, 19\\}$, five values ✓. Check a second, independent way from the threshold: $\\sqrt{208} \\approx 14.4$, so the count runs from $15$ to $19$, and $19 - 15 + 1 = 5$ ✓. (The choice $7$ is COUNTING EVERY CANDIDATE without the squares test ✗; $6$ is INCLUDING $n = 14$ — an off-by-one at the boundary, since $196 < 208$ ✗; $4$ is DROPPING $n = 19$ by misreading $n < 20$ as $n \\le 18$ ✗.)',
+        'Longest means $n \\ge 13$, and the triangle inequality demands $n < 8 + 12 = 20$. Candidates: $n = 13, 14, 15, 16, 17, 18, 19$. Obtuse needs $n^2 > 8^2 + 12^2 = 208$; square each: $169$ ✗, $196$ ✗, $225$ ✓, $256$ ✓, $289$ ✓, $324$ ✓, $361$ ✓ — so $n \\in \\{15, 16, 17, 18, 19\\}$, five values ✓. Check a second, independent way from the threshold: $\\sqrt{208} \\approx 14.4$, so the count runs from $15$ to $19$, and $19 - 15 + 1 = 5$ ✓. (The choice $4$ is DROPPING $n = 19$ by misreading $n < 20$ as $n \\le 18$ ✗; $7$ is COUNTING EVERY CANDIDATE without the squares test ✗; $6$ is INCLUDING $n = 14$ — an off-by-one at the boundary, since $196 < 208$ ✗.)',
     },
     {
       q: 'Two legs of a folding easel measure $10$ and $13$; a crossbar of integer length $n$, longer than either leg, completes a triangle with them. Count the values of $n$ for which that triangle is obtuse.',
       choices: ['$6$', '$9$', '$5$', '$7$'],
       answer: 0,
       solution:
-        'Longest means $n \\ge 14$, and the triangle inequality gives $n < 10 + 13 = 23$. Candidates: $n = 14, 15, 16, 17, 18, 19, 20, 21, 22$. Obtuse needs $n^2 > 10^2 + 13^2 = 269$; square each: $196$ ✗, $225$ ✗, $256$ ✗, $289$ ✓, $324$ ✓, $361$ ✓, $400$ ✓, $441$ ✓, $484$ ✓ — so $n \\in \\{17, 18, 19, 20, 21, 22\\}$, six values ✓. Check a second, independent way from the threshold: $\\sqrt{269} \\approx 16.4$, so the run is $17$ through $22$, and $22 - 17 + 1 = 6$ ✓. (The choice $9$ is COUNTING EVERY CANDIDATE ✗; $7$ is INCLUDING $n = 16$ — off-by-one at the boundary, since $256 < 269$ ✗; $5$ is DROPPING $n = 22$ by misreading $n < 23$ as $n \\le 21$ ✗.)',
+        'Longest means $n \\ge 14$, and the triangle inequality gives $n < 10 + 13 = 23$. Candidates: $n = 14, 15, 16, 17, 18, 19, 20, 21, 22$. Obtuse needs $n^2 > 10^2 + 13^2 = 269$; square each: $196$ ✗, $225$ ✗, $256$ ✗, $289$ ✓, $324$ ✓, $361$ ✓, $400$ ✓, $441$ ✓, $484$ ✓ — so $n \\in \\{17, 18, 19, 20, 21, 22\\}$, six values ✓. Check a second, independent way from the threshold: $\\sqrt{269} \\approx 16.4$, so the run is $17$ through $22$, and $22 - 17 + 1 = 6$ ✓. (The choice $9$ is COUNTING EVERY CANDIDATE ✗; $5$ is DROPPING $n = 22$ by misreading $n < 23$ as $n \\le 21$ ✗; $7$ is INCLUDING $n = 16$ — off-by-one at the boundary, since $256 < 269$ ✗.)',
     },
   ],
   // s9 — count the integers n that make the triangle acute (both cases).
@@ -279,7 +279,7 @@ const s102 = [
       choices: ['$8$', '$10$', '$3$', '$9$'],
       answer: 3,
       solution:
-        'Triangle inequality first: $4 < n < 28$. Split by the longest side. If $n \\le 16$, the longest side is $16$: acute needs $256 < 144 + n^2$, so $n^2 > 112$ — $10^2 = 100$ ✗ but $11^2 = 121$ ✓, giving $n = 11, 12, 13, 14, 15, 16$, six values. If $n \\ge 17$, acute needs $n^2 < 144 + 256 = 400$, so $n < 20$: $n = 17, 18, 19$, three values — and $n = 20$ is exactly the right triangle $12$-$16$-$20$, not acute. Full list: $\\{11, 12, \\ldots, 19\\}$ — nine integers ✓. Check the count a second, independent way: one unbroken run from $11$ to $19$ gives $19 - 11 + 1 = 9$, and the only perfect-square boundary, $400 = 20^2$, was correctly left out ✓. (The choice $10$ is COUNTING THE RIGHT-TRIANGLE VALUE $n = 20$ ✗; $8$ is DROPPING $n = 11$ — an off-by-one at $\\sqrt{112} \\approx 10.6$ ✗; $3$ is FORGETTING THE CASE where $16$ stays the longest side ✗.)',
+        'Triangle inequality first: $4 < n < 28$. Split by the longest side. If $n \\le 16$, the longest side is $16$: acute needs $256 < 144 + n^2$, so $n^2 > 112$ — $10^2 = 100$ ✗ but $11^2 = 121$ ✓, giving $n = 11, 12, 13, 14, 15, 16$, six values. If $n \\ge 17$, acute needs $n^2 < 144 + 256 = 400$, so $n < 20$: $n = 17, 18, 19$, three values — and $n = 20$ is exactly the right triangle $12$-$16$-$20$, not acute. Full list: $\\{11, 12, \\ldots, 19\\}$ — nine integers ✓. Check the count a second, independent way: one unbroken run from $11$ to $19$ gives $19 - 11 + 1 = 9$, and the only perfect-square boundary, $400 = 20^2$, was correctly left out ✓. (The choice $8$ is DROPPING $n = 11$ — an off-by-one at $\\sqrt{112} \\approx 10.6$ ✗; $10$ is COUNTING THE RIGHT-TRIANGLE VALUE $n = 20$ ✗; $3$ is FORGETTING THE CASE where $16$ stays the longest side ✗.)',
     },
     {
       q: 'Count the integers $n$ for which a triangle with sides $7$, $11$, and $n$ is acute.',

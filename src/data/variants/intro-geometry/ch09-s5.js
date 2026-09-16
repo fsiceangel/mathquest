@@ -51,7 +51,7 @@ const challenge = [
       choices: ['$19$', '$22$', '$16$', '$38$'],
       answer: 0,
       solution:
-        'Each cable is a diagonal of the polygon of workstations, so $\\frac{n(n-3)}{2} = 152$ and $n(n-3) = 304$. Two numbers $3$ apart multiplying to $304$: $19 \\times 16 = 304$ ✓, so $n = 19$. Check a second, independent way by bracketing the neighbors: $18$ stations would need $\\frac{18 \\times 15}{2} = 135$ cables and $20$ would need $\\frac{20 \\times 17}{2} = 170$, so $152$ pins the count at exactly $19$ ✓. (The choice $16$ is TAKING THE OTHER FACTOR, which is $n - 3$; the choice $22$ is ADDING $3$ TO THE LARGER FACTOR even though that factor already is $n$; the choice $38$ is DOUBLING THE SIDE COUNT after the factoring is done.)',
+        'Each cable is a diagonal of the polygon of workstations, so $\\frac{n(n-3)}{2} = 152$ and $n(n-3) = 304$. Two numbers $3$ apart multiplying to $304$: $19 \\times 16 = 304$ ✓, so $n = 19$. Check a second, independent way by bracketing the neighbors: $18$ stations would need $\\frac{18 \\times 15}{2} = 135$ cables and $20$ would need $\\frac{20 \\times 17}{2} = 170$, so $152$ pins the count at exactly $19$ ✓. (The choice $22$ is ADDING $3$ TO THE LARGER FACTOR even though that factor already is $n$; the choice $16$ is TAKING THE OTHER FACTOR, which is $n - 3$; the choice $38$ is DOUBLING THE SIDE COUNT after the factoring is done.)',
     },
     {
       q: 'Rhea announces that her convex polygon has exactly $209$ diagonals, and her count is correct. What kind of polygon does she have — that is, how many sides?',
@@ -70,21 +70,21 @@ const challenge = [
       choices: ['$15^\\circ$', '$157.5^\\circ$', '$172.5^\\circ$', '$165^\\circ$'],
       answer: 3,
       solution:
-        'Fastest through the exterior angle: each is $\\frac{360^\\circ}{24} = 15^\\circ$, so each interior angle is $180^\\circ - 15^\\circ = 165^\\circ$ ✓. Check a second, independent way with the interior formula: $\\frac{(24-2) \\cdot 180^\\circ}{24} = \\frac{3960^\\circ}{24} = 165^\\circ$ ✓ — the two routes must agree, and they do. (The choice $15^\\circ$ is REPORTING THE EXTERIOR ANGLE instead of its partner; the choice $172.5^\\circ$ is USING $n - 1$ TRIANGLES, computing $\\frac{23 \\cdot 180}{24}$; the choice $157.5^\\circ$ is BORROWING THE DIAGONAL FORMULA’S $n - 3$, computing $\\frac{21 \\cdot 180}{24}$.)',
+        'Fastest through the exterior angle: each is $\\frac{360^\\circ}{24} = 15^\\circ$, so each interior angle is $180^\\circ - 15^\\circ = 165^\\circ$ ✓. Check a second, independent way with the interior formula: $\\frac{(24-2) \\cdot 180^\\circ}{24} = \\frac{3960^\\circ}{24} = 165^\\circ$ ✓ — the two routes must agree, and they do. (The choice $15^\\circ$ is REPORTING THE EXTERIOR ANGLE instead of its partner; the choice $157.5^\\circ$ is BORROWING THE DIAGONAL FORMULA’S $n - 3$, computing $\\frac{21 \\cdot 180}{24}$; the choice $172.5^\\circ$ is USING $n - 1$ TRIANGLES, computing $\\frac{23 \\cdot 180}{24}$.)',
     },
     {
       q: 'The floor of a garden gazebo is a regular $15$-gon. Each interior angle of the floor measures how many degrees?',
       choices: ['$168^\\circ$', '$156^\\circ$', '$24^\\circ$', '$144^\\circ$'],
       answer: 1,
       solution:
-        'Each exterior angle of a regular $15$-gon is $\\frac{360^\\circ}{15} = 24^\\circ$, so each interior angle is $180^\\circ - 24^\\circ = 156^\\circ$ ✓. Check a second, independent way from the angle sum: the interior angles total $(15-2) \\cdot 180^\\circ = 2340^\\circ$, and $\\frac{2340^\\circ}{15} = 156^\\circ$ ✓. (The choice $24^\\circ$ is REPORTING THE EXTERIOR ANGLE; the choice $168^\\circ$ is USING $n - 1$ TRIANGLES, computing $\\frac{14 \\cdot 180}{15}$; the choice $144^\\circ$ is BORROWING THE DIAGONAL FORMULA’S $n - 3$, computing $\\frac{12 \\cdot 180}{15}$.)',
+        'Each exterior angle of a regular $15$-gon is $\\frac{360^\\circ}{15} = 24^\\circ$, so each interior angle is $180^\\circ - 24^\\circ = 156^\\circ$ ✓. Check a second, independent way from the angle sum: the interior angles total $(15-2) \\cdot 180^\\circ = 2340^\\circ$, and $\\frac{2340^\\circ}{15} = 156^\\circ$ ✓. (The choice $168^\\circ$ is USING $n - 1$ TRIANGLES, computing $\\frac{14 \\cdot 180}{15}$; the choice $24^\\circ$ is REPORTING THE EXTERIOR ANGLE; the choice $144^\\circ$ is BORROWING THE DIAGONAL FORMULA’S $n - 3$, computing $\\frac{12 \\cdot 180}{15}$.)',
     },
     {
       q: 'A drafting template for near-circular curves is cut as a regular $40$-gon. Find the measure of one of its interior angles.',
       choices: ['$9^\\circ$', '$166.5^\\circ$', '$171^\\circ$', '$175.5^\\circ$'],
       answer: 2,
       solution:
-        'The forty equal exterior angles split $360^\\circ$, so each is $\\frac{360^\\circ}{40} = 9^\\circ$, and each interior angle is $180^\\circ - 9^\\circ = 171^\\circ$ ✓. Check a second, independent way with the formula: $\\frac{(40-2) \\cdot 180^\\circ}{40} = \\frac{6840^\\circ}{40} = 171^\\circ$ ✓ — with $40$ sides the corners are already within $9^\\circ$ of a straight line, which is why the template hugs a circle so well. (The choice $9^\\circ$ is REPORTING THE EXTERIOR ANGLE; the choice $175.5^\\circ$ is USING $n - 1$ TRIANGLES, $\\frac{39 \\cdot 180}{40}$; the choice $166.5^\\circ$ is BORROWING THE DIAGONAL FORMULA’S $n - 3$, $\\frac{37 \\cdot 180}{40}$.)',
+        'The forty equal exterior angles split $360^\\circ$, so each is $\\frac{360^\\circ}{40} = 9^\\circ$, and each interior angle is $180^\\circ - 9^\\circ = 171^\\circ$ ✓. Check a second, independent way with the formula: $\\frac{(40-2) \\cdot 180^\\circ}{40} = \\frac{6840^\\circ}{40} = 171^\\circ$ ✓ — with $40$ sides the corners are already within $9^\\circ$ of a straight line, which is why the template hugs a circle so well. (The choice $9^\\circ$ is REPORTING THE EXTERIOR ANGLE; the choice $166.5^\\circ$ is BORROWING THE DIAGONAL FORMULA’S $n - 3$, $\\frac{37 \\cdot 180}{40}$; the choice $175.5^\\circ$ is USING $n - 1$ TRIANGLES, $\\frac{39 \\cdot 180}{40}$.)',
     },
   ],
 
@@ -332,7 +332,7 @@ const challenge = [
       choices: ['$23$', '$24$', '$50$', '$25$'],
       answer: 3,
       solution:
-        'Go through the exterior angle: $180^\\circ - 165.6^\\circ = 14.4^\\circ$, and the exterior angles always total $360^\\circ$, so $n = \\frac{360^\\circ}{14.4^\\circ} = 25$ ✓. Check a second, independent way by solving $\\frac{(n-2) \\cdot 180}{n} = 165.6$: then $180n - 360 = 165.6n$, so $14.4n = 360$ and $n = 25$ ✓ — and indeed $\\frac{23 \\cdot 180^\\circ}{25} = 165.6^\\circ$ ✓. (The choice $24$ is ROUNDING THE EXTERIOR ANGLE $14.4^\\circ$ up to $15^\\circ$ before dividing; the choice $23$ is SUBTRACTING $2$, mixing in the triangle count; the choice $50$ is USING $720^\\circ$ FOR THE EXTERIOR TOTAL, two spins instead of one.)',
+        'Go through the exterior angle: $180^\\circ - 165.6^\\circ = 14.4^\\circ$, and the exterior angles always total $360^\\circ$, so $n = \\frac{360^\\circ}{14.4^\\circ} = 25$ ✓. Check a second, independent way by solving $\\frac{(n-2) \\cdot 180}{n} = 165.6$: then $180n - 360 = 165.6n$, so $14.4n = 360$ and $n = 25$ ✓ — and indeed $\\frac{23 \\cdot 180^\\circ}{25} = 165.6^\\circ$ ✓. (The choice $23$ is SUBTRACTING $2$, mixing in the triangle count; the choice $24$ is ROUNDING THE EXTERIOR ANGLE $14.4^\\circ$ up to $15^\\circ$ before dividing; the choice $50$ is USING $720^\\circ$ FOR THE EXTERIOR TOTAL, two spins instead of one.)',
     },
   ],
 
@@ -378,7 +378,7 @@ const challenge = [
       choices: ['$120^\\circ$', '$150^\\circ$', '$30^\\circ$', '$200^\\circ$'],
       answer: 1,
       solution:
-        'A pentagon’s interior angles total $(5-2) \\cdot 180^\\circ = 540^\\circ$: $2x + 3x + 4x + 5x + 4x = 18x = 540$, so $x = 30$ and the largest angle is $5x = 150^\\circ$ ✓. Check a second, independent way by re-adding the results: $60 + 90 + 120 + 150 + 120 = 540$ ✓, and the runner-up $4x = 120^\\circ$ trails by $30^\\circ$. (The choice $30^\\circ$ is STOPPING AT $x$; the choice $200^\\circ$ is USING THE HEXAGON SUM $720^\\circ$, which fakes $x = 40$ and $5x = 200$; the choice $120^\\circ$ is THE SECOND-LARGEST angle $4x$.)',
+        'A pentagon’s interior angles total $(5-2) \\cdot 180^\\circ = 540^\\circ$: $2x + 3x + 4x + 5x + 4x = 18x = 540$, so $x = 30$ and the largest angle is $5x = 150^\\circ$ ✓. Check a second, independent way by re-adding the results: $60 + 90 + 120 + 150 + 120 = 540$ ✓, and the runner-up $4x = 120^\\circ$ trails by $30^\\circ$. (The choice $120^\\circ$ is THE SECOND-LARGEST angle $4x$; the choice $30^\\circ$ is STOPPING AT $x$; the choice $200^\\circ$ is USING THE HEXAGON SUM $720^\\circ$, which fakes $x = 40$ and $5x = 200$.)',
     },
     {
       q: 'The cross-section of a cut gemstone is the hexagon shown, with interior angles of $11x^\\circ$, $10x^\\circ$, $9x^\\circ$, $8x^\\circ$, $6x^\\circ$, and $4x^\\circ$. What is the measure of the cross-section’s largest angle?',
@@ -542,7 +542,7 @@ const challenge = [
       choices: ['$175\\sqrt{3}$', '$150\\sqrt{3}$', '$125\\sqrt{3}$', '$200\\sqrt{3}$'],
       answer: 0,
       solution:
-        'Seeing the hexagon as six equilateral triangles of side $10$ makes the leaf a seventh: each has area $\\frac{\\sqrt{3}}{4} \\cdot 100 = 25\\sqrt{3}$, so the tabletop totals $7 \\cdot 25\\sqrt{3} = 175\\sqrt{3}$ ✓. Check a second, independent way by summing the formulas: $\\frac{3\\sqrt{3}}{2} \\cdot 100 + \\frac{\\sqrt{3}}{4} \\cdot 100 = 150\\sqrt{3} + 25\\sqrt{3} = 175\\sqrt{3}$ ✓ — turning the hexagon into triangle-counting reduces the whole problem to $7 \\times 25\\sqrt{3}$. (The choice $150\\sqrt{3}$ is FORGETTING THE LEAF and reporting the hexagonal board alone; the choice $200\\sqrt{3}$ is COUNTING THE LEAF TWICE; the choice $125\\sqrt{3}$ is SUBTRACTING THE LEAF instead of adding it.)',
+        'Seeing the hexagon as six equilateral triangles of side $10$ makes the leaf a seventh: each has area $\\frac{\\sqrt{3}}{4} \\cdot 100 = 25\\sqrt{3}$, so the tabletop totals $7 \\cdot 25\\sqrt{3} = 175\\sqrt{3}$ ✓. Check a second, independent way by summing the formulas: $\\frac{3\\sqrt{3}}{2} \\cdot 100 + \\frac{\\sqrt{3}}{4} \\cdot 100 = 150\\sqrt{3} + 25\\sqrt{3} = 175\\sqrt{3}$ ✓ — turning the hexagon into triangle-counting reduces the whole problem to $7 \\times 25\\sqrt{3}$. (The choice $150\\sqrt{3}$ is FORGETTING THE LEAF and reporting the hexagonal board alone; the choice $125\\sqrt{3}$ is SUBTRACTING THE LEAF instead of adding it; the choice $200\\sqrt{3}$ is COUNTING THE LEAF TWICE.)',
     },
   ],
 ]

@@ -105,7 +105,7 @@ const s64 = [
       choices: ['$37.5$', '$54$', '$9$', '$165$'],
       answer: 1,
       solution:
-        '$120\\% = 1.2$, so the answer is $1.2 \\times 45 = 54$. Another way: $100\\%$ of $45$ is $45$, and the extra $20\\%$ is $9$, so $45 + 9 = 54$. (The choice $9$ is only that extra $20\\%$, not the whole $120\\%$; the choice $165$ ADDS the number $120$ to $45$ instead of taking $120$ percent of it; the choice $37.5$ divides by $1.2$ instead of multiplying, which shrinks the number when it should grow.)',
+        '$120\\% = 1.2$, so the answer is $1.2 \\times 45 = 54$. Another way: $100\\%$ of $45$ is $45$, and the extra $20\\%$ is $9$, so $45 + 9 = 54$. (The choice $37.5$ divides by $1.2$ instead of multiplying, which shrinks the number when it should grow; the choice $9$ is only that extra $20\\%$, not the whole $120\\%$; the choice $165$ ADDS the number $120$ to $45$ instead of taking $120$ percent of it.)',
     },
     {
       q: 'What is $175\\%$ of $80$?',
@@ -136,7 +136,7 @@ const s64 = [
       choices: ['$18\\%$', '$40\\%$', '$1.4\\%$', '$140\\%$'],
       answer: 3,
       solution:
-        'Set up $63 = \\frac{p}{100} \\times 45$, so $p = \\frac{63 \\times 100}{45} = 140$, giving $140\\%$. The answer had to pass $100\\%$, because $63$ is bigger than the base $45$. (The choice $40\\%$ measures only the EXCESS, $\\frac{18}{45}$, and forgets the $100\\%$ that $63$ already covers; the choice $18\\%$ is the plain difference $63 - 45$; the choice $1.4\\%$ leaves the decimal $1.4$ unconverted.)',
+        'Set up $63 = \\frac{p}{100} \\times 45$, so $p = \\frac{63 \\times 100}{45} = 140$, giving $140\\%$. The answer had to pass $100\\%$, because $63$ is bigger than the base $45$. (The choice $18\\%$ is the plain difference $63 - 45$; the choice $40\\%$ measures only the EXCESS, $\\frac{18}{45}$, and forgets the $100\\%$ that $63$ already covers; the choice $1.4\\%$ leaves the decimal $1.4$ unconverted.)',
     },
   ],
   // p6 — the whole is the unknown: the given number is the PART
@@ -160,7 +160,7 @@ const s64 = [
       choices: ['$180$', '$4.05$', '$42$', '$1.8$'],
       answer: 0,
       solution:
-        'Translate: $27 = 0.15w$, so $w = \\frac{27}{0.15} = 180$. Check: $15\\%$ of $180$ is $27$. ✓ (The choice $4.05$ computes $15\\%$ of $27$, taking the percent of the part instead of the whole; the choice $1.8$ divides by $15$ rather than by $0.15$, a factor of $100$ off; the choice $42$ adds the number $15$ to $27$.)',
+        'Translate: $27 = 0.15w$, so $w = \\frac{27}{0.15} = 180$. Check: $15\\%$ of $180$ is $27$. ✓ (The choice $4.05$ computes $15\\%$ of $27$, taking the percent of the part instead of the whole; the choice $42$ adds the number $15$ to $27$; the choice $1.8$ divides by $15$ rather than by $0.15$, a factor of $100$ off.)',
     },
   ],
   // p7 — same unknown-whole idea, phrased as "P% of a number is A"
@@ -232,7 +232,7 @@ const s64 = [
       choices: ['$60\\%$', '$140\\%$', '$40\\%$', '$250\\%$'],
       answer: 3,
       solution:
-        'From $x = 0.4y$ we get $y = \\frac{x}{0.4} = 2.5x$, so $y$ is $250\\%$ of $x$. Try $x = 4$ and $y = 10$: $10$ is two and a half times $4$. (The choice $40\\%$ assumes symmetry; the choice $60\\%$ is the leftover $100\\% - 40\\%$; the choice $140\\%$ adds $40\\%$ on top of $100\\%$, which is far too small — $y$ is more than twice $x$.)',
+        'From $x = 0.4y$ we get $y = \\frac{x}{0.4} = 2.5x$, so $y$ is $250\\%$ of $x$. Try $x = 4$ and $y = 10$: $10$ is two and a half times $4$. (The choice $60\\%$ is the leftover $100\\% - 40\\%$; the choice $140\\%$ adds $40\\%$ on top of $100\\%$, which is far too small — $y$ is more than twice $x$; the choice $40\\%$ assumes symmetry.)',
     },
   ],
   // p10 — one percent statement equals another; solve for the unknown base

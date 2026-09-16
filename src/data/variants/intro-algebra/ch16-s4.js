@@ -41,7 +41,7 @@ const challenge = [
       choices: ['$-44$', '$-36$', '$36$', '$12$'],
       answer: 2,
       solution:
-        'Run the machine at both inputs, then compare. $g(-5) = 3(-5) - (-5)^2 = -15 - 25 = -40$, since $(-5)^2 = +25$ and the rule subtracts it. $g(-1) = 3(-1) - (-1)^2 = -3 - 1 = -4$. The amount by which $g(-1)$ beats $g(-5)$ is $g(-1) - g(-5) = -4 - (-40) = -4 + 40 = 36$. Check a second way: on a number line, climbing from $-40$ up to $-4$ is a climb of $36$ ✓. (The choice $-36$ subtracts the other way round, reporting $g(-5) - g(-1)$. The choice $-44$ reads $-4 - (-40)$ as $-4 - 40$, dropping the double negative. The choice $12$ writes $(-5)^2 = -25$ and $(-1)^2 = -1$, which turns the two outputs into $10$ and $-2$.)',
+        'Run the machine at both inputs, then compare. $g(-5) = 3(-5) - (-5)^2 = -15 - 25 = -40$, since $(-5)^2 = +25$ and the rule subtracts it. $g(-1) = 3(-1) - (-1)^2 = -3 - 1 = -4$. The amount by which $g(-1)$ beats $g(-5)$ is $g(-1) - g(-5) = -4 - (-40) = -4 + 40 = 36$. Check a second way: on a number line, climbing from $-40$ up to $-4$ is a climb of $36$ ✓. (The choice $-44$ reads $-4 - (-40)$ as $-4 - 40$, dropping the double negative. The choice $-36$ subtracts the other way round, reporting $g(-5) - g(-1)$. The choice $12$ writes $(-5)^2 = -25$ and $(-1)^2 = -1$, which turns the two outputs into $10$ and $-2$.)',
     },
     {
       q: 'A machine uses the rule $m(x) = x^2 - 4x + 1$. Which of the two inputs $-3$ and $5$ produces the larger output, and what is that output?',
@@ -86,21 +86,21 @@ const challenge = [
       choices: ['$15$', '$5$', '$-5$', '$31$'],
       answer: 1,
       solution:
-        'Running the machine backwards means solving $7 - 3x = -8$. Subtract $7$: $-3x = -15$. Divide by $-3$: $x = 5$. Check forwards: $f(5) = 7 - 15 = -8$ ✓. Check the general undo machine as well: $f^{-1}(x) = \\frac{7 - x}{3}$, so $f^{-1}(-8) = \\frac{15}{3} = 5$ ✓, and $f^{-1}(f(x)) = \\frac{7 - (7 - 3x)}{3} = x$ ✓ while $f(f^{-1}(x)) = 7 - 3 \\cdot \\frac{7-x}{3} = x$ ✓. (The choice $31$ runs the machine forward on $-8$: $7 + 24 = 31$. The choice $-5$ divides $-15$ by $3$ instead of by $-3$. The choice $15$ stops at $-3x = -15$ and never divides at all.)',
+        'Running the machine backwards means solving $7 - 3x = -8$. Subtract $7$: $-3x = -15$. Divide by $-3$: $x = 5$. Check forwards: $f(5) = 7 - 15 = -8$ ✓. Check the general undo machine as well: $f^{-1}(x) = \\frac{7 - x}{3}$, so $f^{-1}(-8) = \\frac{15}{3} = 5$ ✓, and $f^{-1}(f(x)) = \\frac{7 - (7 - 3x)}{3} = x$ ✓ while $f(f^{-1}(x)) = 7 - 3 \\cdot \\frac{7-x}{3} = x$ ✓. (The choice $15$ stops at $-3x = -15$ and never divides at all. The choice $-5$ divides $-15$ by $3$ instead of by $-3$. The choice $31$ runs the machine forward on $-8$: $7 + 24 = 31$.)',
     },
     {
       q: 'If $g(x) = \\frac{2x}{3} + 1$, what is $g^{-1}(5)$?',
       choices: ['$\\frac{13}{3}$', '$4$', '$6$', '$\\frac{13}{2}$'],
       answer: 2,
       solution:
-        'Ask which input gives the output $5$: solve $\\frac{2x}{3} + 1 = 5$. Subtract $1$ to get $\\frac{2x}{3} = 4$, multiply by $3$ to get $2x = 12$, then divide by $2$: $x = 6$. Check forwards: $g(6) = \\frac{12}{3} + 1 = 4 + 1 = 5$ ✓. Check the formula both ways: $g^{-1}(x) = \\frac{3(x-1)}{2}$, so $g\\left(g^{-1}(x)\\right) = \\frac{2}{3} \\cdot \\frac{3(x-1)}{2} + 1 = x$ ✓ and $g^{-1}(g(x)) = \\frac{3\\left(\\frac{2x}{3} + 1 - 1\\right)}{2} = x$ ✓. (The choice $\\frac{13}{3}$ runs the machine forward on $5$. The choice $\\frac{13}{2}$ undoes the steps in the order they were done — multiplying by $\\frac{3}{2}$ first and only then subtracting $1$ — instead of in reverse. The choice $4$ subtracts the $1$ and stops, never undoing the $\\frac{2}{3}$.)',
+        'Ask which input gives the output $5$: solve $\\frac{2x}{3} + 1 = 5$. Subtract $1$ to get $\\frac{2x}{3} = 4$, multiply by $3$ to get $2x = 12$, then divide by $2$: $x = 6$. Check forwards: $g(6) = \\frac{12}{3} + 1 = 4 + 1 = 5$ ✓. Check the formula both ways: $g^{-1}(x) = \\frac{3(x-1)}{2}$, so $g\\left(g^{-1}(x)\\right) = \\frac{2}{3} \\cdot \\frac{3(x-1)}{2} + 1 = x$ ✓ and $g^{-1}(g(x)) = \\frac{3\\left(\\frac{2x}{3} + 1 - 1\\right)}{2} = x$ ✓. (The choice $\\frac{13}{3}$ runs the machine forward on $5$. The choice $4$ subtracts the $1$ and stops, never undoing the $\\frac{2}{3}$. The choice $\\frac{13}{2}$ undoes the steps in the order they were done — multiplying by $\\frac{3}{2}$ first and only then subtracting $1$ — instead of in reverse.)',
     },
     {
       q: 'If $h(x) = \\frac{x - 1}{4}$, what is $h^{-1}\\left(h^{-1}(2)\\right)$?',
       choices: ['$9$', '$27$', '$33$', '$37$'],
       answer: 3,
       solution:
-        'First build the undo machine. From $x = \\frac{y-1}{4}$ we get $4x = y - 1$, so $h^{-1}(x) = 4x + 1$. Check both directions: $h\\left(h^{-1}(x)\\right) = \\frac{(4x+1) - 1}{4} = x$ ✓ and $h^{-1}(h(x)) = 4 \\cdot \\frac{x-1}{4} + 1 = x$ ✓; every real number is a legal input for both, since nothing is divided by a variable. Now apply the undo machine twice: $h^{-1}(2) = 8 + 1 = 9$, then $h^{-1}(9) = 36 + 1 = 37$. Check by running $h$ forward twice from $37$: $h(37) = \\frac{36}{4} = 9$ ✓ and $h(9) = \\frac{8}{4} = 2$ ✓, landing back on the starting number. (The choice $9$ stops after one application. The choice $33$ forgets the inner $+1$, computing $4(4 \\cdot 2) + 1$. The choice $27$ uses the wrong undo machine $4x - 1$, which gives $7$ and then $27$.)',
+        'First build the undo machine. From $x = \\frac{y-1}{4}$ we get $4x = y - 1$, so $h^{-1}(x) = 4x + 1$. Check both directions: $h\\left(h^{-1}(x)\\right) = \\frac{(4x+1) - 1}{4} = x$ ✓ and $h^{-1}(h(x)) = 4 \\cdot \\frac{x-1}{4} + 1 = x$ ✓; every real number is a legal input for both, since nothing is divided by a variable. Now apply the undo machine twice: $h^{-1}(2) = 8 + 1 = 9$, then $h^{-1}(9) = 36 + 1 = 37$. Check by running $h$ forward twice from $37$: $h(37) = \\frac{36}{4} = 9$ ✓ and $h(9) = \\frac{8}{4} = 2$ ✓, landing back on the starting number. (The choice $9$ stops after one application. The choice $27$ uses the wrong undo machine $4x - 1$, which gives $7$ and then $27$. The choice $33$ forgets the inner $+1$, computing $4(4 \\cdot 2) + 1$.)',
     },
   ],
   // c4 — a recursive rule climbed over several steps. The count of steps is the
@@ -119,7 +119,7 @@ const challenge = [
       choices: ['$12$', '$6$', '$1536$', '$3$'],
       answer: 1,
       solution:
-        'The rule doubles the output as the input goes UP, so walking back down the chain halves it each time. From $g(6) = 96$: $g(5) = 48$, $g(4) = 24$, $g(3) = 12$, $g(2) = 6$. Check by climbing forward from the answer: $6 \\to 12 \\to 24 \\to 48 \\to 96$ ✓, four doublings that land exactly on $g(6) = 96$. Check with one leap: $6 - 2 = 4$ steps, so $g(2) = \\frac{96}{2^4} = \\frac{96}{16} = 6$ ✓. (The choice $1536$ doubles four times instead of halving, going the wrong way along the chain. The choice $12$ halves only three times. The choice $3$ halves five times, walking one step too far to $g(1)$.)',
+        'The rule doubles the output as the input goes UP, so walking back down the chain halves it each time. From $g(6) = 96$: $g(5) = 48$, $g(4) = 24$, $g(3) = 12$, $g(2) = 6$. Check by climbing forward from the answer: $6 \\to 12 \\to 24 \\to 48 \\to 96$ ✓, four doublings that land exactly on $g(6) = 96$. Check with one leap: $6 - 2 = 4$ steps, so $g(2) = \\frac{96}{2^4} = \\frac{96}{16} = 6$ ✓. (The choice $12$ halves only three times. The choice $1536$ doubles four times instead of halving, going the wrong way along the chain. The choice $3$ halves five times, walking one step too far to $g(1)$.)',
     },
     {
       q: 'A function satisfies $f(x + 1) = 2f(x) + 1$ for every $x$, and $f(1) = 1$. What is $f(4)$?',
@@ -256,7 +256,7 @@ const challenge = [
       choices: ['$x = 2$', '$x = 3$', '$x = 4$', '$x = 1$'],
       answer: 3,
       solution:
-        'Run the composition on all four inputs, inner machine first. $x = 1$: $g(1) = 4$ and $f(4) = 1$ ✓. $x = 2$: $g(2) = 2$ and $f(2) = 3$. $x = 3$: $g(3) = 1$ and $f(1) = 2$. $x = 4$: $g(4) = 3$ and $f(3) = 4$. Only $x = 1$ works. Check backwards instead: $f$ outputs $1$ only at the input $4$, so we need $g(x) = 4$, and the $g$ table gives that at $x = 1$ ✓ — the same answer by the other route. (The choice $x = 2$ solves the reversed composition $g(f(x)) = 1$. The choice $x = 4$ solves $f(x) = 1$ and ignores $g$ altogether. The choice $x = 3$ solves only the inner equation $g(x) = 1$.)',
+        'Run the composition on all four inputs, inner machine first. $x = 1$: $g(1) = 4$ and $f(4) = 1$ ✓. $x = 2$: $g(2) = 2$ and $f(2) = 3$. $x = 3$: $g(3) = 1$ and $f(1) = 2$. $x = 4$: $g(4) = 3$ and $f(3) = 4$. Only $x = 1$ works. Check backwards instead: $f$ outputs $1$ only at the input $4$, so we need $g(x) = 4$, and the $g$ table gives that at $x = 1$ ✓ — the same answer by the other route. (The choice $x = 2$ solves the reversed composition $g(f(x)) = 1$. The choice $x = 3$ solves only the inner equation $g(x) = 1$. The choice $x = 4$ solves $f(x) = 1$ and ignores $g$ altogether.)',
     },
   ],
   // c10 — one half of a composition is missing. Version 1 hunts the inner

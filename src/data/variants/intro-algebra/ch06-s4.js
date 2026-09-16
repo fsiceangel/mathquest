@@ -141,7 +141,7 @@ const challenge = [
       choices: ['$65\\%$', '$15\\%$', '$175\\%$', '$75\\%$'],
       answer: 3,
       solution:
-        'Multiply the factors: $1.25 \\times 1.4 = 1.75$, so the final price is $175\\%$ of the original — an increase of $175\\% - 100\\% = 75\\%$. Carry a concrete price through to be sure: $\\$100$ rises to $\\$125$, and $40\\%$ of $\\$125$ is $\\$50$, giving $\\$175$, which is $\\$75$ more than the start. ✓ (The choice $65\\%$ ADDS the two percents, but the second rise acted on the already-raised price; the choice $175\\%$ reports the multiplier as if it were the increase, counting the original price twice; the choice $15\\%$ subtracts one percent from the other.)',
+        'Multiply the factors: $1.25 \\times 1.4 = 1.75$, so the final price is $175\\%$ of the original — an increase of $175\\% - 100\\% = 75\\%$. Carry a concrete price through to be sure: $\\$100$ rises to $\\$125$, and $40\\%$ of $\\$125$ is $\\$50$, giving $\\$175$, which is $\\$75$ more than the start. ✓ (The choice $65\\%$ ADDS the two percents, but the second rise acted on the already-raised price; the choice $15\\%$ subtracts one percent from the other; the choice $175\\%$ reports the multiplier as if it were the increase, counting the original price twice.)',
     },
   ],
   // p6 — weighted mixtures: count the pure stuff, then divide by the whole

@@ -43,7 +43,7 @@ const s165 = [
       choices: ['$6$', '$5$', '$-3$', '$1$'],
       answer: 3,
       solution:
-        'Look up the input $6$: the table pairs it with $1$, so $h(6) = 1$. Check a second way with the pattern: the inputs go up by $2$ while the outputs drop by $4$, so from $h(2) = 9$ two rows down gives $9 - 8 = 1$ ✓. (The choice $5$ is $h(4)$ and $-3$ is $h(8)$, both one row away ✗. The choice $6$ echoes the input back ✗.)',
+        'Look up the input $6$: the table pairs it with $1$, so $h(6) = 1$. Check a second way with the pattern: the inputs go up by $2$ while the outputs drop by $4$, so from $h(2) = 9$ two rows down gives $9 - 8 = 1$ ✓. (The choice $6$ echoes the input back ✗. The choice $5$ is $h(4)$ and $-3$ is $h(8)$, both one row away ✗.)',
     },
     {
       q: 'A shop’s price function is listed as $p(1) = 12$, $p(2) = 12$, $p(3) = 7$, $p(4) = 20$. What is $p(2)$?',
@@ -112,7 +112,7 @@ const s165 = [
       choices: ['$g(x) = 5x - 1$', '$g(x) = -x + 5$', '$g(x) = 4x$', '$g(x) = 5x + 1$'],
       answer: 0,
       solution:
-        'The outputs climb by $5$ for each step of $1$ in the input, so the rule looks like $g(x) = 5x + b$; at $x = 0$ the output is $-1$, which pins $b = -1$. Check a second way against a line the fitting did not use: $g(3) = 5(3) - 1 = 14$ ✓, and $g(2) = 9$ ✓. (The choice $5x + 1$ flips the sign of the constant and gives $1$ at $x = 0$ ✗. The choice $-x + 5$ swaps the two numbers and slides downward instead of up ✗. The choice $4x$ copies the output at $x = 1$ as a multiplier and gives $8$ at $x = 2$ ✗.)',
+        'The outputs climb by $5$ for each step of $1$ in the input, so the rule looks like $g(x) = 5x + b$; at $x = 0$ the output is $-1$, which pins $b = -1$. Check a second way against a line the fitting did not use: $g(3) = 5(3) - 1 = 14$ ✓, and $g(2) = 9$ ✓. (The choice $-x + 5$ swaps the two numbers and slides downward instead of up ✗. The choice $4x$ copies the output at $x = 1$ as a multiplier and gives $8$ at $x = 2$ ✗. The choice $5x + 1$ flips the sign of the constant and gives $1$ at $x = 0$ ✗.)',
     },
     {
       q: 'A table of a linear function reads $h(1) = 5$, $h(2) = 8$, $h(3) = 11$, $h(4) = 14$. Which formula fits it?',
@@ -251,7 +251,7 @@ const s165 = [
       choices: ['$-10$', '$-4$', '$32$', '$-6$'],
       answer: 1,
       solution:
-        'The recurrence SUBTRACTS the older term from the newer one, in that order. $f(3) = 4 - 10 = -6$, $f(4) = -6 - 4 = -10$, $f(5) = -10 - (-6) = -10 + 6 = -4$. Check a second way by running the rule forward one more step from the finished list $10, 4, -6, -10, -4$: $f(6) = -4 - (-10) = 6$, and the pattern of the list holds ✓. (The choice $-6$ stops at $f(3)$ and $-10$ at $f(4)$ ✗. The choice $32$ comes from adding the two previous terms instead of subtracting, which builds $14, 18, 32$ ✗.)',
+        'The recurrence SUBTRACTS the older term from the newer one, in that order. $f(3) = 4 - 10 = -6$, $f(4) = -6 - 4 = -10$, $f(5) = -10 - (-6) = -10 + 6 = -4$. Check a second way by running the rule forward one more step from the finished list $10, 4, -6, -10, -4$: $f(6) = -4 - (-10) = 6$, and the pattern of the list holds ✓. (The choice $32$ comes from adding the two previous terms instead of subtracting, which builds $14, 18, 32$ ✗. The choice $-6$ stops at $f(3)$ and $-10$ at $f(4)$ ✗.)',
     },
   ],
   // p10 — a doubling (or halving) rule whose hop is bigger than 1. v3 shrinks

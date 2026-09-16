@@ -46,7 +46,7 @@ const s61 = [
       choices: ['$49$', '$1225$', '$35$', '$7\\sqrt{7}$'],
       answer: 2,
       solution:
-        'The third edge is the hypotenuse, so add the squares of the legs: $21^2 + 28^2 = 441 + 784 = 1225$, and $\\sqrt{1225} = 35$ ✓. Check a second, independent way with no squaring at all: $21 = 7 \\times 3$ and $28 = 7 \\times 4$, so this is the $3$-$4$-$5$ shape scaled by $7$, and the hypotenuse is $7 \\times 5 = 35$ ✓. Guard: the hypotenuse must beat both legs, and $35 > 28 > 21$ ✓. (The choice $49$ is ADDING THE SIDES, $21 + 28$, instead of their squares ✗; $7\\sqrt{7}$ is PROMOTING A LEG TO HYPOTENUSE, computing $\\sqrt{784 - 441} = \\sqrt{343}$ as if $28$ were the longest side ✗; $1225$ is FORGETTING THE SQUARE ROOT and reporting $c^2$ ✗.)',
+        'The third edge is the hypotenuse, so add the squares of the legs: $21^2 + 28^2 = 441 + 784 = 1225$, and $\\sqrt{1225} = 35$ ✓. Check a second, independent way with no squaring at all: $21 = 7 \\times 3$ and $28 = 7 \\times 4$, so this is the $3$-$4$-$5$ shape scaled by $7$, and the hypotenuse is $7 \\times 5 = 35$ ✓. Guard: the hypotenuse must beat both legs, and $35 > 28 > 21$ ✓. (The choice $49$ is ADDING THE SIDES, $21 + 28$, instead of their squares ✗; $1225$ is FORGETTING THE SQUARE ROOT and reporting $c^2$ ✗; $7\\sqrt{7}$ is PROMOTING A LEG TO HYPOTENUSE, computing $\\sqrt{784 - 441} = \\sqrt{343}$ as if $28$ were the longest side ✗.)',
     },
     {
       q: 'A zip line runs from the top of a $24$ m tower straight down to an anchor at ground level, $45$ m from the base of the tower, as shown. How long is the zip-line cable?',
@@ -80,7 +80,7 @@ const s61 = [
       choices: ['$841$', '$29$', '$41$', '$\\sqrt{41}$'],
       answer: 1,
       solution:
-        'The longest side of a right triangle is the hypotenuse: $20^2 + 21^2 = 400 + 441 = 841$, and $\\sqrt{841} = 29$ m ✓. Check a second, independent way by closing the identity: $29^2 - 20^2 = (29 - 20)(29 + 20) = 9 \\times 49 = 441 = 21^2$ ✓. Guard: the two legs are nearly equal, so the hypotenuse should sit near $20\\sqrt{2} \\approx 28.3$, and $29$ lands right there, while $\\sqrt{41} \\approx 6.4$ could never span a triangle with $21$ m sides ✗. (The choice $41$ is ADDING THE SIDES, $20 + 21$ ✗; $\\sqrt{41}$ is PROMOTING A LEG TO HYPOTENUSE, from $441 - 400$ ✗; $841$ is FORGETTING THE SQUARE ROOT ✗.)',
+        'The longest side of a right triangle is the hypotenuse: $20^2 + 21^2 = 400 + 441 = 841$, and $\\sqrt{841} = 29$ m ✓. Check a second, independent way by closing the identity: $29^2 - 20^2 = (29 - 20)(29 + 20) = 9 \\times 49 = 441 = 21^2$ ✓. Guard: the two legs are nearly equal, so the hypotenuse should sit near $20\\sqrt{2} \\approx 28.3$, and $29$ lands right there, while $\\sqrt{41} \\approx 6.4$ could never span a triangle with $21$ m sides ✗. (The choice $841$ is FORGETTING THE SQUARE ROOT ✗; $41$ is ADDING THE SIDES, $20 + 21$ ✗; $\\sqrt{41}$ is PROMOTING A LEG TO HYPOTENUSE, from $441 - 400$ ✗.)',
     },
   ],
   // s2 — two legs given, whole-number hypotenuse, larger numbers.
@@ -436,7 +436,7 @@ const s61 = [
       choices: ['$9$ m', '$3\\sqrt{5}$ m', '$45$ m', '$3\\sqrt{3}$ m'],
       answer: 1,
       solution:
-        'East and north are perpendicular legs, so the dock-to-robot distance is the hypotenuse: $\\sqrt{6^2 + 3^2} = \\sqrt{36 + 9} = \\sqrt{45} = \\sqrt{9 \\times 5} = 3\\sqrt{5}$ m ✓. Check a second, independent way by factoring first: the trips are $3 \\times 2$ and $3 \\times 1$, so the distance is $3\\sqrt{2^2 + 1^2} = 3\\sqrt{5}$ ✓. Guard: $3\\sqrt{5} \\approx 6.7$ m — a little beyond the $6$ m leg, well short of the $9$ m of driving ✓. (The choice $9$ m is ADDING THE TWO WALKS ✗; $3\\sqrt{3}$ m is PROMOTING A LEG TO HYPOTENUSE, $\\sqrt{36 - 9} = \\sqrt{27}$ ✗; $45$ m is FORGETTING THE SQUARE ROOT ✗.)',
+        'East and north are perpendicular legs, so the dock-to-robot distance is the hypotenuse: $\\sqrt{6^2 + 3^2} = \\sqrt{36 + 9} = \\sqrt{45} = \\sqrt{9 \\times 5} = 3\\sqrt{5}$ m ✓. Check a second, independent way by factoring first: the trips are $3 \\times 2$ and $3 \\times 1$, so the distance is $3\\sqrt{2^2 + 1^2} = 3\\sqrt{5}$ ✓. Guard: $3\\sqrt{5} \\approx 6.7$ m — a little beyond the $6$ m leg, well short of the $9$ m of driving ✓. (The choice $9$ m is ADDING THE TWO WALKS ✗; $45$ m is FORGETTING THE SQUARE ROOT ✗; $3\\sqrt{3}$ m is PROMOTING A LEG TO HYPOTENUSE, $\\sqrt{36 - 9} = \\sqrt{27}$ ✗.)',
     },
     {
       q: 'Leaving the harbor, a sailboat sails $10$ km south and then $5$ km west. Exactly how far is the boat from the harbor?',
@@ -463,7 +463,7 @@ const s61 = [
       choices: ['$8$', '$15$', '$10$', '$5$'],
       answer: 0,
       solution:
-        'Set up the theorem: $x^2 + (x+7)^2 = 289$, so $2x^2 + 14x + 49 = 289$, which halves to $x^2 + 7x - 120 = 0$. Factor: $(x + 15)(x - 8) = 0$, and a length must be positive, so $x = 8$ ✓. Check a second, independent way by hunting the triple: a whole-number right triangle with hypotenuse $17$ is the $8$-$15$-$17$ family, whose legs differ by exactly $7$ — so the legs are $8$ and $15$, and the shorter is $8$ ✓. Confirm: $64 + 225 = 289 = 17^2$ ✓. (The choice $15$ is ANSWERING THE LONGER LEG, $x + 7$ ✗; $5$ is SOLVING IT LINEARLY, from $x + (x + 7) = 17$ as if the legs summed to the hypotenuse ✗; $10$ is SUBTRACTING THE OFFSET, $17 - 7$ ✗.)',
+        'Set up the theorem: $x^2 + (x+7)^2 = 289$, so $2x^2 + 14x + 49 = 289$, which halves to $x^2 + 7x - 120 = 0$. Factor: $(x + 15)(x - 8) = 0$, and a length must be positive, so $x = 8$ ✓. Check a second, independent way by hunting the triple: a whole-number right triangle with hypotenuse $17$ is the $8$-$15$-$17$ family, whose legs differ by exactly $7$ — so the legs are $8$ and $15$, and the shorter is $8$ ✓. Confirm: $64 + 225 = 289 = 17^2$ ✓. (The choice $15$ is ANSWERING THE LONGER LEG, $x + 7$ ✗; $10$ is SUBTRACTING THE OFFSET, $17 - 7$ ✗; $5$ is SOLVING IT LINEARLY, from $x + (x + 7) = 17$ as if the legs summed to the hypotenuse ✗.)',
     },
     {
       q: 'The legs of a right triangle are $x$ and $x + 4$, and the hypotenuse is $20$. Find the length of the shorter leg.',

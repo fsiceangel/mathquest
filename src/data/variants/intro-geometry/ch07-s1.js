@@ -633,7 +633,7 @@ const s71 = [
       choices: ['$12$', '$9$', '$15$', '$30$'],
       answer: 2,
       solution:
-        'Equidistance from $A$ and $B$ forces the helipad onto the vertical bisector $x = 9$, and equidistance from $B$ and $C$ onto the horizontal bisector $y = 12$; the two lines meet at $P(9, 12)$, so $PA = \\sqrt{9^2 + 12^2} = \\sqrt{225} = 15$ km ✓ — with $PB = \\sqrt{81 + 144} = 15$ and $PC = \\sqrt{81 + 144} = 15$ checking out. Check a second, independent way through the right angle at $B$: the hypotenuse $\\overline{AC}$ has length $\\sqrt{18^2 + 24^2} = \\sqrt{900} = 30$, and the point equidistant from a right triangle’s three vertices is its hypotenuse’s midpoint, $\\frac{30}{2} = 15$ km out ✓. (The choice $30$ is ANSWERING THE DIAMETER ✗; $12$ and $9$ are each ANSWERING A COORDINATE of $P$ instead of a distance ✗.)',
+        'Equidistance from $A$ and $B$ forces the helipad onto the vertical bisector $x = 9$, and equidistance from $B$ and $C$ onto the horizontal bisector $y = 12$; the two lines meet at $P(9, 12)$, so $PA = \\sqrt{9^2 + 12^2} = \\sqrt{225} = 15$ km ✓ — with $PB = \\sqrt{81 + 144} = 15$ and $PC = \\sqrt{81 + 144} = 15$ checking out. Check a second, independent way through the right angle at $B$: the hypotenuse $\\overline{AC}$ has length $\\sqrt{18^2 + 24^2} = \\sqrt{900} = 30$, and the point equidistant from a right triangle’s three vertices is its hypotenuse’s midpoint, $\\frac{30}{2} = 15$ km out ✓. (The choice $12$ and $9$ are each ANSWERING A COORDINATE of $P$ instead of a distance ✗; $30$ is ANSWERING THE DIAMETER ✗.)',
     },
   ],
 ]

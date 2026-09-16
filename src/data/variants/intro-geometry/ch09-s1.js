@@ -192,7 +192,7 @@ const s91 = [
       choices: ['$21$', '$28$', '$14$', '$4$'],
       answer: 2,
       solution:
-        'Each string is a diagonal of the heptagon. Count from the lanterns: each of the $7$ corners starts $7 - 3 = 4$ strings, giving $7 \\times 4 = 28$ string-ends, and halving for the two ends per string leaves $\\frac{28}{2} = 14$ ✓. Check a second, independent way with all pairs: $\\frac{7 \\times 6}{2} = 21$ lantern pairs in total, minus the $7$ neighboring pairs along the pavilion’s edges, leaves $21 - 7 = 14$ ✓. (The choice $28$ is FORGETTING TO HALVE ✗; $21$ is COUNTING EVERY PAIR, edges included ✗; $4$ is COUNTING FROM ONE LANTERN ONLY ✗.)',
+        'Each string is a diagonal of the heptagon. Count from the lanterns: each of the $7$ corners starts $7 - 3 = 4$ strings, giving $7 \\times 4 = 28$ string-ends, and halving for the two ends per string leaves $\\frac{28}{2} = 14$ ✓. Check a second, independent way with all pairs: $\\frac{7 \\times 6}{2} = 21$ lantern pairs in total, minus the $7$ neighboring pairs along the pavilion’s edges, leaves $21 - 7 = 14$ ✓. (The choice $21$ is COUNTING EVERY PAIR, edges included ✗; $28$ is FORGETTING TO HALVE ✗; $4$ is COUNTING FROM ONE LANTERN ONLY ✗.)',
     },
     {
       q: 'The figure shows a regular $14$-gon. Drawing every diagonal would bury the picture, so only the diagonals from vertices $A$ and $B$ are dashed. In total, how many diagonals does a $14$-gon have?',
@@ -230,7 +230,7 @@ const s91 = [
       choices: ['$91$', '$154$', '$11$', '$77$'],
       answer: 3,
       solution:
-        'Count from the vertices: each of the $14$ vertices sends $14 - 3 = 11$ diagonals — exactly the dashed bundle at $A$, and again at $B$ — so there are $14 \\times 11 = 154$ diagonal-ends, and halving gives $\\frac{154}{2} = 77$ ✓. Check a second, independent way with all pairs: $\\frac{14 \\times 13}{2} = 91$ vertex pairs in total, of which $14$ are sides, leaving $91 - 14 = 77$ diagonals ✓. (The choice $154$ is FORGETTING TO HALVE ✗; $91$ is COUNTING EVERY VERTEX PAIR, sides included ✗; $11$ is COUNTING FROM ONE VERTEX ONLY ✗.)',
+        'Count from the vertices: each of the $14$ vertices sends $14 - 3 = 11$ diagonals — exactly the dashed bundle at $A$, and again at $B$ — so there are $14 \\times 11 = 154$ diagonal-ends, and halving gives $\\frac{154}{2} = 77$ ✓. Check a second, independent way with all pairs: $\\frac{14 \\times 13}{2} = 91$ vertex pairs in total, of which $14$ are sides, leaving $91 - 14 = 77$ diagonals ✓. (The choice $91$ is COUNTING EVERY VERTEX PAIR, sides included ✗; $154$ is FORGETTING TO HALVE ✗; $11$ is COUNTING FROM ONE VERTEX ONLY ✗.)',
     },
   ],
   // s5 — diagonals from one vertex (n - 3), with figure.
@@ -284,7 +284,7 @@ const s91 = [
       choices: ['$78$', '$11$', '$12$', '$10$'],
       answer: 3,
       solution:
-        'From one corner you cannot run a cable to the corner itself or to its two neighbors — those connections are sides. That rules out $3$ of the $13$ corners, leaving $13 - 3 = 10$ cables ✓, and the dashed bundle in the figure counts to $10$. Check a second, independent way from the total: a $13$-gon has $\\frac{13 \\times 10}{2} = 65$ diagonals with two ends each, spread over $13$ corners, so each corner holds $\\frac{65 \\times 2}{13} = 10$ cable-ends ✓. (The choice $12$ is CONNECTING TO EVERY OTHER CORNER, sides included ✗; $11$ is FORGETTING THE CORNER ITSELF and subtracting only the two neighbors ✗; $78$ is COUNTING ALL PAIRS of corners ✗.)',
+        'From one corner you cannot run a cable to the corner itself or to its two neighbors — those connections are sides. That rules out $3$ of the $13$ corners, leaving $13 - 3 = 10$ cables ✓, and the dashed bundle in the figure counts to $10$. Check a second, independent way from the total: a $13$-gon has $\\frac{13 \\times 10}{2} = 65$ diagonals with two ends each, spread over $13$ corners, so each corner holds $\\frac{65 \\times 2}{13} = 10$ cable-ends ✓. (The choice $78$ is COUNTING ALL PAIRS of corners ✗; $11$ is FORGETTING THE CORNER ITSELF and subtracting only the two neighbors ✗; $12$ is CONNECTING TO EVERY OTHER CORNER, sides included ✗.)',
     },
     {
       q: 'In the regular $15$-gon shown, all the diagonals from vertex $A$ are dashed. How many diagonals leave a single vertex of a $15$-gon?',
@@ -376,7 +376,7 @@ const s91 = [
       choices: ['$45$', '$70$', '$40$', '$35$'],
       answer: 3,
       solution:
-        'Apply $\\frac{n(n-3)}{2}$ with $n = 10$: each delegate skips herself and her two neighbors, reaching $10 - 3 = 7$ others, and halving the $10 \\times 7 = 70$ line-ends gives $\\frac{70}{2} = 35$ ✓. Check a second, independent way with all pairs: $\\frac{10 \\times 9}{2} = 45$ pairs of delegates, minus the $10$ side-by-side pairs along the table’s edges, leaves $45 - 10 = 35$ ✓. (The choice $70$ is FORGETTING TO HALVE ✗; $45$ is COUNTING EVERY PAIR, neighbors included ✗; $40$ is USING $n - 2$ INSTEAD OF $n - 3$, forgetting the vertex itself ✗.)',
+        'Apply $\\frac{n(n-3)}{2}$ with $n = 10$: each delegate skips herself and her two neighbors, reaching $10 - 3 = 7$ others, and halving the $10 \\times 7 = 70$ line-ends gives $\\frac{70}{2} = 35$ ✓. Check a second, independent way with all pairs: $\\frac{10 \\times 9}{2} = 45$ pairs of delegates, minus the $10$ side-by-side pairs along the table’s edges, leaves $45 - 10 = 35$ ✓. (The choice $45$ is COUNTING EVERY PAIR, neighbors included ✗; $70$ is FORGETTING TO HALVE ✗; $40$ is USING $n - 2$ INSTEAD OF $n - 3$, forgetting the vertex itself ✗.)',
     },
     {
       q: 'An artist stretches string across an $11$-gon frame, one string for every diagonal. How many strings does the piece need?',
@@ -390,7 +390,7 @@ const s91 = [
       choices: ['$78$', '$130$', '$54$', '$65$'],
       answer: 3,
       solution:
-        'Use $\\frac{n(n-3)}{2}$ with $n = 13$: every corner sees $13 - 3 = 10$ non-neighbors, and halving the $13 \\times 10 = 130$ line-ends gives $\\frac{130}{2} = 65$ ✓. Check a second, independent way with all pairs: $\\frac{13 \\times 12}{2} = 78$ pairs of corners, minus the $13$ neighboring pairs along the maze walls, leaves $78 - 13 = 65$ ✓. (The choice $130$ is FORGETTING TO HALVE ✗; $78$ is COUNTING EVERY PAIR, walls included ✗; $54$ is DROPPING A SIDE and computing the $12$-gon’s count ✗.)',
+        'Use $\\frac{n(n-3)}{2}$ with $n = 13$: every corner sees $13 - 3 = 10$ non-neighbors, and halving the $13 \\times 10 = 130$ line-ends gives $\\frac{130}{2} = 65$ ✓. Check a second, independent way with all pairs: $\\frac{13 \\times 12}{2} = 78$ pairs of corners, minus the $13$ neighboring pairs along the maze walls, leaves $78 - 13 = 65$ ✓. (The choice $78$ is COUNTING EVERY PAIR, walls included ✗; $130$ is FORGETTING TO HALVE ✗; $54$ is DROPPING A SIDE and computing the $12$-gon’s count ✗.)',
     },
   ],
   // s8 — from the diagonal count back to the side count.
@@ -431,14 +431,14 @@ const s91 = [
       choices: ['$8$', '$9$', '$6$', '$10$'],
       answer: 1,
       solution:
-        'Set $\\frac{n(n-3)}{2} = 27$, so $n(n-3) = 54$: two numbers $3$ apart with product $54$ are $9 \\times 6 = 54$ ✓, so $n = 9$. The quadratic route agrees: $n^2 - 3n - 54 = 0$ factors as $(n-9)(n+6) = 0$, and only $n = 9$ is positive ✓. Check a second, independent way with a table: $n = 8$ gives $\\frac{8 \\times 5}{2} = 20$, $n = 9$ gives $\\frac{9 \\times 6}{2} = 27$ ✓, $n = 10$ gives $\\frac{10 \\times 7}{2} = 35$ — since the count only climbs, $9$ is the lone answer. (The choice $6$ is REPORTING $n - 3$ ✗; $8$ is STOPPING ONE SHORT, worth $20$ diagonals ✗; $10$ is OVERSHOOTING BY ONE, worth $35$ ✗.)',
+        'Set $\\frac{n(n-3)}{2} = 27$, so $n(n-3) = 54$: two numbers $3$ apart with product $54$ are $9 \\times 6 = 54$ ✓, so $n = 9$. The quadratic route agrees: $n^2 - 3n - 54 = 0$ factors as $(n-9)(n+6) = 0$, and only $n = 9$ is positive ✓. Check a second, independent way with a table: $n = 8$ gives $\\frac{8 \\times 5}{2} = 20$, $n = 9$ gives $\\frac{9 \\times 6}{2} = 27$ ✓, $n = 10$ gives $\\frac{10 \\times 7}{2} = 35$ — since the count only climbs, $9$ is the lone answer. (The choice $8$ is STOPPING ONE SHORT, worth $20$ diagonals ✗; $6$ is REPORTING $n - 3$ ✗; $10$ is OVERSHOOTING BY ONE, worth $35$ ✗.)',
     },
     {
       q: 'A puzzle magazine prints a convex polygon whose interior is crossed by exactly $119$ diagonals. How many sides must the polygon have?',
       choices: ['$14$', '$18$', '$16$', '$17$'],
       answer: 3,
       solution:
-        'Set $\\frac{n(n-3)}{2} = 119$, so $n(n-3) = 238$: two numbers $3$ apart with product $238$ are $17 \\times 14 = 238$ ✓, so $n = 17$. The quadratic route agrees: $n^2 - 3n - 238 = 0$ factors as $(n-17)(n+14) = 0$, and only $n = 17$ is positive ✓. Check a second, independent way with a table: $n = 16$ gives $\\frac{16 \\times 13}{2} = 104$, $n = 17$ gives $\\frac{17 \\times 14}{2} = 119$ ✓, $n = 18$ gives $\\frac{18 \\times 15}{2} = 135$ — the climbing count lands on $119$ only once. (The choice $14$ is REPORTING $n - 3$ ✗; $16$ is STOPPING ONE SHORT, worth $104$ diagonals ✗; $18$ is OVERSHOOTING BY ONE, worth $135$ ✗.)',
+        'Set $\\frac{n(n-3)}{2} = 119$, so $n(n-3) = 238$: two numbers $3$ apart with product $238$ are $17 \\times 14 = 238$ ✓, so $n = 17$. The quadratic route agrees: $n^2 - 3n - 238 = 0$ factors as $(n-17)(n+14) = 0$, and only $n = 17$ is positive ✓. Check a second, independent way with a table: $n = 16$ gives $\\frac{16 \\times 13}{2} = 104$, $n = 17$ gives $\\frac{17 \\times 14}{2} = 119$ ✓, $n = 18$ gives $\\frac{18 \\times 15}{2} = 135$ — the climbing count lands on $119$ only once. (The choice $14$ is REPORTING $n - 3$ ✗; $18$ is OVERSHOOTING BY ONE, worth $135$ ✗; $16$ is STOPPING ONE SHORT, worth $104$ diagonals ✗.)',
     },
   ],
   // s10 — diagonals equal to a multiple of the sides.

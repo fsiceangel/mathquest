@@ -255,7 +255,7 @@ const challenge = [
       q: 'What is the smallest five-digit number divisible by $9$?',
       choices: ['$10{,}000$', '$10{,}080$', '$10{,}009$', '$10{,}008$'],
       answer: 3,
-      solution: 'The smallest five-digit number is $10{,}000$, whose digit sum is $1$. We need the digit sum to reach the next multiple of $9$, so we need $8$ more — and adding $8$ to the ones digit costs the least: $10{,}008$ has digit sum $9$ ✓. Every number from $10{,}000$ to $10{,}007$ has digit sum between $1$ and $8$. ($10{,}009$ has digit sum $10$; $10{,}080$ is a multiple of $9$ but larger.)',
+      solution: 'The smallest five-digit number is $10{,}000$, whose digit sum is $1$. We need the digit sum to reach the next multiple of $9$, so we need $8$ more — and adding $8$ to the ones digit costs the least: $10{,}008$ has digit sum $9$ ✓. Every number from $10{,}000$ to $10{,}007$ has digit sum between $1$ and $8$. ($10{,}080$ is a multiple of $9$ but larger; $10{,}009$ has digit sum $10$.)',
     },
   ],
   // 3. Counting divisors from a prime factorization.
@@ -369,7 +369,7 @@ const challenge = [
       q: 'What is the smallest three-digit number divisible by both $6$ and $8$?',
       choices: ['$120$', '$144$', '$100$', '$102$'],
       answer: 0,
-      solution: 'Divisible by both means divisible by $\\text{lcm}(6, 8)$. Factor: $6 = 2 \\cdot 3$ and $8 = 2^3$, so the LCM is $2^3 \\cdot 3 = 24$ — not $48$. The multiples of $24$ are $24, 48, 72, 96, 120, \\ldots$, and $120$ is the first with three digits. ($102$ is divisible by $6$ but not $8$; $100$ is divisible by neither; $144$ is a valid multiple of $24$ but larger.)',
+      solution: 'Divisible by both means divisible by $\\text{lcm}(6, 8)$. Factor: $6 = 2 \\cdot 3$ and $8 = 2^3$, so the LCM is $2^3 \\cdot 3 = 24$ — not $48$. The multiples of $24$ are $24, 48, 72, 96, 120, \\ldots$, and $120$ is the first with three digits. ($144$ is a valid multiple of $24$ but larger; $100$ is divisible by neither; $102$ is divisible by $6$ but not $8$.)',
     },
     {
       q: 'What is the largest three-digit number divisible by both $9$ and $5$?',
@@ -381,7 +381,7 @@ const challenge = [
       q: 'What is the smallest four-digit number divisible by both $15$ and $4$?',
       choices: ['$1000$', '$1005$', '$1020$', '$1060$'],
       answer: 2,
-      solution: 'Since $15 = 3 \\cdot 5$ and $4 = 2^2$ share nothing, $\\text{lcm}(15, 4) = 60$. Divide: $1000 \\div 60 = 16$ remainder $40$, so the first four-digit multiple is $60 \\times 17 = 1020$. Check: $20$ is divisible by $4$ ✓, it ends in $0$ ✓, and $1 + 0 + 2 + 0 = 3$ ✓. ($1005$ is divisible by $15$ but not $4$; $1000$ and $1060$ are divisible by $4$ but not $15$.)',
+      solution: 'Since $15 = 3 \\cdot 5$ and $4 = 2^2$ share nothing, $\\text{lcm}(15, 4) = 60$. Divide: $1000 \\div 60 = 16$ remainder $40$, so the first four-digit multiple is $60 \\times 17 = 1020$. Check: $20$ is divisible by $4$ ✓, it ends in $0$ ✓, and $1 + 0 + 2 + 0 = 3$ ✓. ($1000$ and $1060$ are divisible by $4$ but not $15$; $1005$ is divisible by $15$ but not $4$.)',
     },
   ],
   // 9. LCM as a "when do they line up again" count of cycles.

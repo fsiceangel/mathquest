@@ -88,7 +88,7 @@ const s75 = [
       choices: ['$26$', '$16$', '$13$', '$6.5$'],
       answer: 2,
       solution:
-        'Unwind $\\text{Area} = \\frac{1}{2} b h$: $h = \\frac{2 \\cdot 104}{16} = \\frac{208}{16} = 13$ ✓. Check by rebuilding: $\\frac{1}{2} \\cdot 16 \\cdot 13 = 8 \\cdot 13 = 104$ ✓. (The choice $6.5$ is DROPPING THE 2 — $\\frac{104}{16}$ treats the patch as a rectangle ✗; $26$ is DOUBLING TWICE, $\\frac{4 \\cdot 104}{16}$ ✗; $16$ is HANDING BACK THE SIDE ✗.)',
+        'Unwind $\\text{Area} = \\frac{1}{2} b h$: $h = \\frac{2 \\cdot 104}{16} = \\frac{208}{16} = 13$ ✓. Check by rebuilding: $\\frac{1}{2} \\cdot 16 \\cdot 13 = 8 \\cdot 13 = 104$ ✓. (The choice $26$ is DOUBLING TWICE, $\\frac{4 \\cdot 104}{16}$ ✗; $16$ is HANDING BACK THE SIDE ✗; $6.5$ is DROPPING THE 2 — $\\frac{104}{16}$ treats the patch as a rectangle ✗.)',
     },
     {
       q: 'A kite panel is a triangle with area $168$, and one strut of the frame runs along a side of length $16$. Find the altitude drawn to that side.',
@@ -324,7 +324,7 @@ const s75 = [
       choices: ['$18$', '$15$', '$14.4$', '$21$'],
       answer: 2,
       solution:
-        'Hold the area steady while switching bases. Legs: $\\frac{1}{2} \\cdot 18 \\cdot 24 = 216$. The far edge is $\\sqrt{18^2 + 24^2} = 30$, so $216 = \\frac{1}{2} \\cdot 30 \\cdot h$ and $h = \\frac{432}{30} = 14.4$ m ✓. Check a second, independent way by proportion in the similar triangles the hose creates: the piece at the $18$-m corner shares that angle with the whole plot, so $\\frac{h}{24} = \\frac{18}{30}$ and $h = 24 \\cdot \\frac{18}{30} = 14.4$ ✓. Guard with the hypotenuse pieces: the hose’s end splits the far edge into $\\frac{18^2}{30} = 10.8$ and $\\frac{24^2}{30} = 19.2$, and $10.8 \\cdot 19.2 = 207.36 = 14.4^2$ ✓. (The choice $15$ is HALVING THE HYPOTENUSE, the median’s length rather than the altitude’s ✗; $18$ is ANSWERING THE SHORTER LEG ✗; $21$ is AVERAGING THE LEGS ✗.)',
+        'Hold the area steady while switching bases. Legs: $\\frac{1}{2} \\cdot 18 \\cdot 24 = 216$. The far edge is $\\sqrt{18^2 + 24^2} = 30$, so $216 = \\frac{1}{2} \\cdot 30 \\cdot h$ and $h = \\frac{432}{30} = 14.4$ m ✓. Check a second, independent way by proportion in the similar triangles the hose creates: the piece at the $18$-m corner shares that angle with the whole plot, so $\\frac{h}{24} = \\frac{18}{30}$ and $h = 24 \\cdot \\frac{18}{30} = 14.4$ ✓. Guard with the hypotenuse pieces: the hose’s end splits the far edge into $\\frac{18^2}{30} = 10.8$ and $\\frac{24^2}{30} = 19.2$, and $10.8 \\cdot 19.2 = 207.36 = 14.4^2$ ✓. (The choice $18$ is ANSWERING THE SHORTER LEG ✗; $15$ is HALVING THE HYPOTENUSE, the median’s length rather than the altitude’s ✗; $21$ is AVERAGING THE LEGS ✗.)',
     },
     {
       q: 'In right triangle $JKL$ the legs $JL = 21$ and $KL = 28$ meet at the right angle $L$. Find the length of the altitude from $L$ to the hypotenuse $\\overline{JK}$.',

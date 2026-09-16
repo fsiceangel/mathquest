@@ -97,7 +97,7 @@ const s61 = [
       choices: ['$21$', '$49$', '$196$', '$70$'],
       answer: 1,
       solution:
-        'Call the numbers $7x$ and $3x$. Their difference is $7x - 3x = 4x = 28$, so $x = 7$ and the larger number is $7 \\times 7 = 49$. Check forward: $49 - 21 = 28$, and $49:21 = 7:3$. ✓ (The choice $21$ is the smaller number; the choice $70$ is the sum of the two numbers, a different question; the choice $196$ treats the difference $28$ as the multiplier and computes $7 \\times 28$, but $28$ is $4x$, not $x$.)',
+        'Call the numbers $7x$ and $3x$. Their difference is $7x - 3x = 4x = 28$, so $x = 7$ and the larger number is $7 \\times 7 = 49$. Check forward: $49 - 21 = 28$, and $49:21 = 7:3$. ✓ (The choice $21$ is the smaller number; the choice $196$ treats the difference $28$ as the multiplier and computes $7 \\times 28$, but $28$ is $4x$, not $x$; the choice $70$ is the sum of the two numbers, a different question.)',
     },
     {
       q: 'Two numbers are in the ratio $9:5$ and differ by $32$. What is the smaller number?',
@@ -249,14 +249,14 @@ const s61 = [
       choices: ['$2880$', '$720$', '$54$', '$1440$'],
       answer: 1,
       solution:
-        'Let the length be $5x$ and the width $4x$. The perimeter is $2(5x + 4x) = 18x = 108$, so $x = 6$. The poster is $30$ by $24$, giving an area of $720$ square centimeters. Check forward: $2(30 + 24) = 108$ centimeters. ✓ (The choice $2880$ solves $9x = 108$, forgetting the perimeter counts each side twice, and gets a $60$-by-$48$ poster; the choice $1440$ doubles the correct area, carrying the perimeter’s factor of $2$ where it does not belong; the choice $54$ stops at half the perimeter.)',
+        'Let the length be $5x$ and the width $4x$. The perimeter is $2(5x + 4x) = 18x = 108$, so $x = 6$. The poster is $30$ by $24$, giving an area of $720$ square centimeters. Check forward: $2(30 + 24) = 108$ centimeters. ✓ (The choice $2880$ solves $9x = 108$, forgetting the perimeter counts each side twice, and gets a $60$-by-$48$ poster; the choice $54$ stops at half the perimeter; the choice $1440$ doubles the correct area, carrying the perimeter’s factor of $2$ where it does not belong.)',
     },
     {
       q: 'A rectangular garden plot has length and width in the ratio $8:3$, and the fence around the whole plot is $88$ meters long. What is the area of the plot, in square meters?',
       choices: ['$1536$', '$44$', '$768$', '$384$'],
       answer: 3,
       solution:
-        'Let the length be $8x$ and the width $3x$. The fence is the perimeter: $2(8x + 3x) = 22x = 88$, so $x = 4$. The plot is $32$ by $12$, giving an area of $384$ square meters. Check forward: $2(32 + 12) = 88$ meters of fence. ✓ (The choice $1536$ solves $11x = 88$, forgetting the perimeter counts each side twice, and gets a $64$-by-$24$ plot; the choice $768$ doubles the correct area; the choice $44$ stops at $8x + 3x$, half the perimeter.)',
+        'Let the length be $8x$ and the width $3x$. The fence is the perimeter: $2(8x + 3x) = 22x = 88$, so $x = 4$. The plot is $32$ by $12$, giving an area of $384$ square meters. Check forward: $2(32 + 12) = 88$ meters of fence. ✓ (The choice $1536$ solves $11x = 88$, forgetting the perimeter counts each side twice, and gets a $64$-by-$24$ plot; the choice $44$ stops at $8x + 3x$, half the perimeter; the choice $768$ doubles the correct area.)',
     },
   ],
 ]
@@ -300,7 +300,7 @@ const s62 = [
       choices: ['$45$', '$5$', '$35$', '$80$'],
       answer: 2,
       solution:
-        'Let the stacks be $7x$ and $9x$; only the smaller one grows. Equality means $7x + 10 = 9x$, so $2x = 10$ and $x = 5$. The smaller stack held $7 \\times 5 = 35$ cards. Check forward: $35 + 10 = 45$, which matches the $9 \\times 5 = 45$ in the larger stack. ✓ (The choice $45$ is the larger stack; the choice $80$ is the original total $35 + 45$; the choice $5$ is the multiplier $x$.)',
+        'Let the stacks be $7x$ and $9x$; only the smaller one grows. Equality means $7x + 10 = 9x$, so $2x = 10$ and $x = 5$. The smaller stack held $7 \\times 5 = 35$ cards. Check forward: $35 + 10 = 45$, which matches the $9 \\times 5 = 45$ in the larger stack. ✓ (The choice $45$ is the larger stack; the choice $5$ is the multiplier $x$; the choice $80$ is the original total $35 + 45$.)',
     },
     {
       q: 'A tank of tropical fish holds guppies and tetras in the ratio $3:8$. After $15$ more guppies are added, the two kinds are equal in number. How many tetras are in the tank?',
@@ -365,7 +365,7 @@ const s62 = [
       choices: ['$30$', '$40$', '$80$', '$110$'],
       answer: 0,
       solution:
-        'Let the orchards start with $3x$ and $8x$ trees; only the first one changes. The new ratio gives $\\frac{3x+10}{8x} = \\frac{1}{2}$, so $2(3x + 10) = 8x$, giving $6x + 20 = 8x$ and $x = 10$. The first orchard began with $3 \\times 10 = 30$ trees. Check forward: $30 + 10 = 40$ against $80$, and $40:80 = 1:2$. ✓ (The choice $80$ is the second orchard; the choice $40$ is the first orchard AFTER the planting, when the question asks for the original; the choice $110$ is the original total.)',
+        'Let the orchards start with $3x$ and $8x$ trees; only the first one changes. The new ratio gives $\\frac{3x+10}{8x} = \\frac{1}{2}$, so $2(3x + 10) = 8x$, giving $6x + 20 = 8x$ and $x = 10$. The first orchard began with $3 \\times 10 = 30$ trees. Check forward: $30 + 10 = 40$ against $80$, and $40:80 = 1:2$. ✓ (The choice $40$ is the first orchard AFTER the planting, when the question asks for the original; the choice $80$ is the second orchard; the choice $110$ is the original total.)',
     },
     {
       q: 'Two swim lanes hold swimmers in the ratio $4:9$. After $6$ swimmers climb into the first lane, the ratio becomes $2:3$. How many swimmers were in the first lane originally?',
@@ -389,7 +389,7 @@ const s62 = [
       choices: ['$18$', '$14$', '$10$', '$28$'],
       answer: 0,
       solution:
-        'Original counts: $9x$ and $5x$. Both jars shrink by $4$, so $\\frac{9x-4}{5x-4} = \\frac{7}{3}$. Cross-multiply: $3(9x - 4) = 7(5x - 4)$, giving $27x - 12 = 35x - 28$, so $16 = 8x$ and $x = 2$. The larger jar held $9 \\times 2 = 18$ marbles. Check forward: $18 - 4 = 14$ and $10 - 4 = 6$, and $14:6 = 7:3$. ✓ (The choice $10$ is the smaller jar; the choice $14$ is the larger jar AFTER the removal, not before; the choice $28$ is the original total.)',
+        'Original counts: $9x$ and $5x$. Both jars shrink by $4$, so $\\frac{9x-4}{5x-4} = \\frac{7}{3}$. Cross-multiply: $3(9x - 4) = 7(5x - 4)$, giving $27x - 12 = 35x - 28$, so $16 = 8x$ and $x = 2$. The larger jar held $9 \\times 2 = 18$ marbles. Check forward: $18 - 4 = 14$ and $10 - 4 = 6$, and $14:6 = 7:3$. ✓ (The choice $14$ is the larger jar AFTER the removal, not before; the choice $10$ is the smaller jar; the choice $28$ is the original total.)',
     },
     {
       q: 'Two boxes hold pencils in the ratio $7:3$. After $4$ pencils are added to EACH box, the ratio becomes $2:1$. How many pencils did the smaller box hold at first?',

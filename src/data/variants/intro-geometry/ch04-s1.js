@@ -197,7 +197,7 @@ const s41 = [
       choices: ['$17$', '$70$', '$32$', '$34$'],
       answer: 3,
       solution:
-        'Slide every short horizontal edge straight up and every short vertical edge out to the side: together they rebuild the top and right of a $10 \\times 7$ rectangle, so the perimeter is $2(10 + 7) = 34$ ✓. Check a second, independent way with the drawn terraces themselves, whose runs are $3$, $3$, $4$ and rises are $3$, $2$, $2$: adding every edge gives $10 + 3 + 3 + 2 + 3 + 2 + 4 + 7 = 34$ ✓ — and reshuffling the terraces would change nothing, because the slide argument never asked about them. (The choice $70$ is COMPUTING THE BOUNDING AREA, $10 \\times 7$ ✗; $17$ is WALKING ONLY HALF THE LOOP, one width plus one height ✗; $32$ is ASSUMING THE STEPS CUT THE WALK SHORT, when the boundary of the terraced shape is exactly as long as the rectangle’s ✗.)',
+        'Slide every short horizontal edge straight up and every short vertical edge out to the side: together they rebuild the top and right of a $10 \\times 7$ rectangle, so the perimeter is $2(10 + 7) = 34$ ✓. Check a second, independent way with the drawn terraces themselves, whose runs are $3$, $3$, $4$ and rises are $3$, $2$, $2$: adding every edge gives $10 + 3 + 3 + 2 + 3 + 2 + 4 + 7 = 34$ ✓ — and reshuffling the terraces would change nothing, because the slide argument never asked about them. (The choice $17$ is WALKING ONLY HALF THE LOOP, one width plus one height ✗; $70$ is COMPUTING THE BOUNDING AREA, $10 \\times 7$ ✗; $32$ is ASSUMING THE STEPS CUT THE WALK SHORT, when the boundary of the terraced shape is exactly as long as the rectangle’s ✗.)',
     },
     {
       q: 'The outline shown, drawn with only right angles, is the side view of a stepped garden wall. Only its total width and total height are labeled. What is the perimeter of the outline?',
@@ -212,7 +212,7 @@ const s41 = [
       choices: ['$26$', '$28$', '$45$', '$14$'],
       answer: 1,
       solution:
-        'Push each horizontal ledge up to the top and each vertical face out to the right: they reassemble the missing top and right of a $9 \\times 5$ rectangle, so the perimeter is $2(9 + 5) = 28$ ✓. Check a second, independent way by bookkeeping the walk itself: going once around, the total distance walked rightward must equal the total walked leftward (the walk comes home), and likewise up must equal down. The only rightward edge is the bottom, $9$, and the only downward edge is the left side, $5$, so the loop is $9 + 9 + 5 + 5 = 28$ ✓. (The choice $45$ is COMPUTING THE BOUNDING AREA, $9 \\times 5$ ✗; $14$ is WALKING ONLY HALF THE LOOP ✗; $26$ is ASSUMING THE STEPS CUT THE WALK SHORT by a couple of units, which no right-angle staircase ever does ✗.)',
+        'Push each horizontal ledge up to the top and each vertical face out to the right: they reassemble the missing top and right of a $9 \\times 5$ rectangle, so the perimeter is $2(9 + 5) = 28$ ✓. Check a second, independent way by bookkeeping the walk itself: going once around, the total distance walked rightward must equal the total walked leftward (the walk comes home), and likewise up must equal down. The only rightward edge is the bottom, $9$, and the only downward edge is the left side, $5$, so the loop is $9 + 9 + 5 + 5 = 28$ ✓. (The choice $26$ is ASSUMING THE STEPS CUT THE WALK SHORT by a couple of units, which no right-angle staircase ever does ✗; $45$ is COMPUTING THE BOUNDING AREA, $9 \\times 5$ ✗; $14$ is WALKING ONLY HALF THE LOOP ✗.)',
     },
     {
       q: 'Every angle in the floor plan shown is a right angle, and only the overall width and height are given. What is the perimeter of the floor plan?',
@@ -227,7 +227,7 @@ const s41 = [
       choices: ['$21$', '$40$', '$42$', '$108$'],
       answer: 2,
       solution:
-        'Slide the horizontal ledges up and the vertical faces to the right: nothing overlaps and nothing is missed, and the boundary rebuilds a $12 \\times 9$ rectangle, so the perimeter is $2(12 + 9) = 42$ ✓. Check a second, independent way with the drawn steps, whose runs are $3$, $2$, $4$, $3$ and rises are $2$, $2$, $2$, $3$: every edge in order gives $12 + 2 + 3 + 2 + 2 + 2 + 4 + 3 + 3 + 9 = 42$ ✓ — the tally lands on the slide answer edge for edge. (The choice $108$ is COMPUTING THE BOUNDING AREA, $12 \\times 9$, and the floor plan holds less area than that but exactly as much boundary ✗; $21$ is WALKING ONLY HALF THE LOOP ✗; $40$ is ASSUMING THE STEPS CUT THE WALK SHORT ✗.)',
+        'Slide the horizontal ledges up and the vertical faces to the right: nothing overlaps and nothing is missed, and the boundary rebuilds a $12 \\times 9$ rectangle, so the perimeter is $2(12 + 9) = 42$ ✓. Check a second, independent way with the drawn steps, whose runs are $3$, $2$, $4$, $3$ and rises are $2$, $2$, $2$, $3$: every edge in order gives $12 + 2 + 3 + 2 + 2 + 2 + 4 + 3 + 3 + 9 = 42$ ✓ — the tally lands on the slide answer edge for edge. (The choice $21$ is WALKING ONLY HALF THE LOOP ✗; $40$ is ASSUMING THE STEPS CUT THE WALK SHORT ✗; $108$ is COMPUTING THE BOUNDING AREA, $12 \\times 9$, and the floor plan holds less area than that but exactly as much boundary ✗.)',
     },
   ],
   // s6 — rectangle with algebraic sides and a given perimeter; find the length.
@@ -275,7 +275,7 @@ const s41 = [
       choices: ['$34$', '$26$', '$8$', '$24$'],
       answer: 1,
       solution:
-        'The perimeter is $2(x + 3x + 2) = 2(4x + 2) = 8x + 4$. Setting $8x + 4 = 68$ gives $8x = 64$, so $x = 8$, and the length is $3x + 2 = 26$ ✓; guard: $2(8 + 26) = 68$ ✓. Check a second, independent way through the half-perimeter: length plus width is $\\frac{68}{2} = 34$, so length $26$ pairs with width $8$, and $3 \\cdot 8 + 2 = 26$ ✓ — the pair fits the label. Testing $24$: width $10$, but $3 \\cdot 10 + 2 = 32 \\ne 24$ ✗; testing $34$: width $0$ ✗; testing $8$: width $26$, but $3 \\cdot 26 + 2 = 80 \\ne 8$ ✗. (The choice $8$ is ANSWERING x ITSELF ✗; $34$ is ANSWERING LENGTH PLUS WIDTH ✗; $24$ is DROPPING THE CONSTANT, reporting $3x$ and forgetting the $+ 2$ ✗.)',
+        'The perimeter is $2(x + 3x + 2) = 2(4x + 2) = 8x + 4$. Setting $8x + 4 = 68$ gives $8x = 64$, so $x = 8$, and the length is $3x + 2 = 26$ ✓; guard: $2(8 + 26) = 68$ ✓. Check a second, independent way through the half-perimeter: length plus width is $\\frac{68}{2} = 34$, so length $26$ pairs with width $8$, and $3 \\cdot 8 + 2 = 26$ ✓ — the pair fits the label. Testing $24$: width $10$, but $3 \\cdot 10 + 2 = 32 \\ne 24$ ✗; testing $34$: width $0$ ✗; testing $8$: width $26$, but $3 \\cdot 26 + 2 = 80 \\ne 8$ ✗. (The choice $34$ is ANSWERING LENGTH PLUS WIDTH ✗; $8$ is ANSWERING x ITSELF ✗; $24$ is DROPPING THE CONSTANT, reporting $3x$ and forgetting the $+ 2$ ✗.)',
     },
   ],
   // s7 — notch cut into one side of a rectangle; perimeter = rectangle + 2·depth.
@@ -406,7 +406,7 @@ const s41 = [
       choices: ['$24$', '$25$', '$100$', '$9$'],
       answer: 1,
       solution:
-        'The sides add to $\\frac{20}{2} = 10$. Try every whole-number pair: $1 \\times 9 = 9$, $2 \\times 8 = 16$, $3 \\times 7 = 21$, $4 \\times 6 = 24$, $5 \\times 5 = 25$ — the square wins with $25$ ✓. Check a second, independent way by writing the sides as $5 - k$ and $5 + k$: the area is $(5 - k)(5 + k) = 25 - k^2$, which can only lose ground as $k$ grows, so the maximum sits at $k = 0$, the $5 \\times 5$ square ✓. (The choice $24$ is STOPPING ONE STEP SHORT OF THE SQUARE at $4 \\times 6$ ✗; $9$ is ANSWERING THE SMALLEST AREA, the $1 \\times 9$ sliver ✗; $100$ is FORGETTING TO HALVE THE PERIMETER and squaring $10$ as if $20$ were the side sum ✗.)',
+        'The sides add to $\\frac{20}{2} = 10$. Try every whole-number pair: $1 \\times 9 = 9$, $2 \\times 8 = 16$, $3 \\times 7 = 21$, $4 \\times 6 = 24$, $5 \\times 5 = 25$ — the square wins with $25$ ✓. Check a second, independent way by writing the sides as $5 - k$ and $5 + k$: the area is $(5 - k)(5 + k) = 25 - k^2$, which can only lose ground as $k$ grows, so the maximum sits at $k = 0$, the $5 \\times 5$ square ✓. (The choice $24$ is STOPPING ONE STEP SHORT OF THE SQUARE at $4 \\times 6$ ✗; $100$ is FORGETTING TO HALVE THE PERIMETER and squaring $10$ as if $20$ were the side sum ✗; $9$ is ANSWERING THE SMALLEST AREA, the $1 \\times 9$ sliver ✗.)',
     },
     {
       q: 'Using exactly $28$ feet of border fencing, a gardener encloses a rectangular herb bed with whole-number side lengths. What is the largest area the bed can have?',
@@ -461,7 +461,7 @@ const s41 = [
       choices: ['$50$', '$54$', '$182$', '$27$'],
       answer: 1,
       solution:
-        'Slide all six treads up and all six risers out to the right: together they span exactly the top and the right side of a $14 \\times 13$ bounding rectangle, so the perimeter is $2(14 + 13) = 54$ ✓. Check a second, independent way by the come-home count: one lap around the boundary must balance rightward against leftward travel and upward against downward. Rightward happens only along the bottom, $14$; downward only along the left side, $13$; so the lap is $14 + 14 + 13 + 13 = 54$ ✓ — six steps of decoration, zero effect on the total. (The choice $182$ is COMPUTING THE BOUNDING AREA, $14 \\times 13$, which the staircase does not even fill ✗; $27$ is WALKING ONLY HALF THE LOOP ✗; $50$ is ASSUMING THE STEPS CUT THE WALK SHORT ✗.)',
+        'Slide all six treads up and all six risers out to the right: together they span exactly the top and the right side of a $14 \\times 13$ bounding rectangle, so the perimeter is $2(14 + 13) = 54$ ✓. Check a second, independent way by the come-home count: one lap around the boundary must balance rightward against leftward travel and upward against downward. Rightward happens only along the bottom, $14$; downward only along the left side, $13$; so the lap is $14 + 14 + 13 + 13 = 54$ ✓ — six steps of decoration, zero effect on the total. (The choice $50$ is ASSUMING THE STEPS CUT THE WALK SHORT ✗; $182$ is COMPUTING THE BOUNDING AREA, $14 \\times 13$, which the staircase does not even fill ✗; $27$ is WALKING ONLY HALF THE LOOP ✗.)',
     },
   ],
 ]

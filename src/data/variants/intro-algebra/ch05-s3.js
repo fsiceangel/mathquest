@@ -220,7 +220,7 @@ const s56 = [
       choices: ['$72$', '$24$', '$18$', '$36$'],
       answer: 2,
       solution:
-        'Add all three equations. Each letter appears once, once, and twice, for four copies in all: $4(a + b + c) = 21 + 23 + 28 = 72$, so $a + b + c = 18$. Check by subtracting $18$ from each equation: $a = 21 - 18 = 3$, $b = 23 - 18 = 5$, $c = 28 - 18 = 10$, and $3 + 5 + 10 = 18$ ✓, with $2(3) + 5 + 10 = 21$ ✓, $3 + 2(5) + 10 = 23$ ✓, $3 + 5 + 2(10) = 28$ ✓. (The choice $72$ never divides. The choice $36$ divides by $2$, the rule for a system where each letter appears twice — here each appears FOUR times. The choice $24$ divides by $3$, one per variable.)',
+        'Add all three equations. Each letter appears once, once, and twice, for four copies in all: $4(a + b + c) = 21 + 23 + 28 = 72$, so $a + b + c = 18$. Check by subtracting $18$ from each equation: $a = 21 - 18 = 3$, $b = 23 - 18 = 5$, $c = 28 - 18 = 10$, and $3 + 5 + 10 = 18$ ✓, with $2(3) + 5 + 10 = 21$ ✓, $3 + 2(5) + 10 = 23$ ✓, $3 + 5 + 2(10) = 28$ ✓. (The choice $72$ never divides. The choice $24$ divides by $3$, one per variable. The choice $36$ divides by $2$, the rule for a system where each letter appears twice — here each appears FOUR times.)',
     },
     {
       q: 'If $2p + q + r = 26$, $p + 2q + r = 27$, and $p + q + 2r = 31$, what is $p + q + r$?',
@@ -234,7 +234,7 @@ const s56 = [
       choices: ['$3$', '$11$', '$20$', '$80$'],
       answer: 1,
       solution:
-        'Add all three: $4(m + n + t) = 23 + 26 + 31 = 80$, so $m + n + t = 20$. Now subtract that total from the third equation: $(m + n + 2t) - (m + n + t) = 31 - 20$, which leaves $t = 11$. Check: $m = 23 - 20 = 3$ and $n = 26 - 20 = 6$, so $3 + 6 + 11 = 20$ ✓, with $2(3) + 6 + 11 = 23$ ✓, $3 + 2(6) + 11 = 26$ ✓, $3 + 6 + 2(11) = 31$ ✓. (The choice $20$ is the total $m + n + t$, one subtraction short. The choice $3$ is $m$, from subtracting the total from the FIRST equation. The choice $80$ is the raw sum before dividing by $4$.)',
+        'Add all three: $4(m + n + t) = 23 + 26 + 31 = 80$, so $m + n + t = 20$. Now subtract that total from the third equation: $(m + n + 2t) - (m + n + t) = 31 - 20$, which leaves $t = 11$. Check: $m = 23 - 20 = 3$ and $n = 26 - 20 = 6$, so $3 + 6 + 11 = 20$ ✓, with $2(3) + 6 + 11 = 23$ ✓, $3 + 2(6) + 11 = 26$ ✓, $3 + 6 + 2(11) = 31$ ✓. (The choice $3$ is $m$, from subtracting the total from the FIRST equation. The choice $20$ is the total $m + n + t$, one subtraction short. The choice $80$ is the raw sum before dividing by $4$.)',
     },
   ],
   // p10 — four variables in a chain: group them so the middle pair cancels.
@@ -251,7 +251,7 @@ const s56 = [
       choices: ['$23$', '$7$', '$10$', '$36$'],
       answer: 2,
       solution:
-        'Pair the first and third equations: $(p + q) + (r + s) = 8 + 15 = 23$, so all four letters sum to $23$. The grouping $(q + r) + (s + p)$ covers the same four letters, so it equals $23$ too. With $q + r = 13$, that gives $s + p = 23 - 13 = 10$. Check with $q = 5$: then $p = 3$, $r = 8$, $s = 7$, and $s + p = 10$ ✓; with $q = 6$: $p = 2$, $r = 7$, $s = 8$, and $s + p = 10$ ✓. (The choice $23$ is the four-letter total, not the pair asked for. The choice $36$ adds all three equations and double-counts $q$ and $r$. The choice $7$ comes from $15 - 8$, subtracting the outer equations.)',
+        'Pair the first and third equations: $(p + q) + (r + s) = 8 + 15 = 23$, so all four letters sum to $23$. The grouping $(q + r) + (s + p)$ covers the same four letters, so it equals $23$ too. With $q + r = 13$, that gives $s + p = 23 - 13 = 10$. Check with $q = 5$: then $p = 3$, $r = 8$, $s = 7$, and $s + p = 10$ ✓; with $q = 6$: $p = 2$, $r = 7$, $s = 8$, and $s + p = 10$ ✓. (The choice $23$ is the four-letter total, not the pair asked for. The choice $7$ comes from $15 - 8$, subtracting the outer equations. The choice $36$ adds all three equations and double-counts $q$ and $r$.)',
     },
     {
       q: 'If $a + b = 7$, $b + c = 12$, and $c + d = 15$, what is $a + b + c + d$?',
@@ -278,7 +278,7 @@ const challenge = [
       choices: ['$168$', '$20$', '$84$', '$160$'],
       answer: 2,
       solution:
-        'Add: $2x = 28$, so $x = 14$, and then $y = 20 - 14 = 6$. The product is $14 \\times 6 = 84$. Check: $14 + 6 = 20$ ✓ and $14 - 6 = 8$ ✓. (The choice $168$ comes from $2y = 12$ and then forgetting to halve, giving $14 \\times 12$. The choice $160$ multiplies the givens, $20 \\times 8$. The choice $20$ is the sum, not the product.)',
+        'Add: $2x = 28$, so $x = 14$, and then $y = 20 - 14 = 6$. The product is $14 \\times 6 = 84$. Check: $14 + 6 = 20$ ✓ and $14 - 6 = 8$ ✓. (The choice $168$ comes from $2y = 12$ and then forgetting to halve, giving $14 \\times 12$. The choice $20$ is the sum, not the product. The choice $160$ multiplies the givens, $20 \\times 8$.)',
     },
     {
       q: 'Two numbers have a sum of $24$ and a difference of $10$. What is their product?',
@@ -302,7 +302,7 @@ const challenge = [
       choices: ['$4$', '$-6$', '$6$', '$24$'],
       answer: 2,
       solution:
-        'Subtract the second equation from the first: $4x = 34 - 10 = 24$, so $x = 6$. Then $6 + y = 10$ gives $y = 4$. Check: $5(6) + 4 = 34$ ✓ and $6 + 4 = 10$ ✓. (The choice $4$ is $y$. The choice $24$ is the value of $4x$, one division short. The choice $-6$ subtracts the right-hand sides in the wrong order, $10 - 34 = -24$.)',
+        'Subtract the second equation from the first: $4x = 34 - 10 = 24$, so $x = 6$. Then $6 + y = 10$ gives $y = 4$. Check: $5(6) + 4 = 34$ ✓ and $6 + 4 = 10$ ✓. (The choice $4$ is $y$. The choice $-6$ subtracts the right-hand sides in the wrong order, $10 - 34 = -24$. The choice $24$ is the value of $4x$, one division short.)',
     },
     {
       q: 'Solve $2x + 3y = 31$ and $x + 3y = 20$. What is $x + y$?',
@@ -350,7 +350,7 @@ const challenge = [
       choices: ['$55$', '$140$', '$680$', '$85$'],
       answer: 3,
       solution:
-        'Count: $a + c = 140$. Value: $8a + 3c = 845$. Multiply the count by $3$: $3a + 3c = 420$. Subtract that from the value equation: $5a = 425$, so $a = 85$ and $c = 55$. Check: $85 + 55 = 140$ tickets ✓ and $8(85) + 3(55) = 680 + 165 = 845$ ✓. (The choice $55$ is the number of CHILD tickets. The choice $680$ is the dollars the adults paid. The choice $140$ is the total number of tickets.)',
+        'Count: $a + c = 140$. Value: $8a + 3c = 845$. Multiply the count by $3$: $3a + 3c = 420$. Subtract that from the value equation: $5a = 425$, so $a = 85$ and $c = 55$. Check: $85 + 55 = 140$ tickets ✓ and $8(85) + 3(55) = 680 + 165 = 845$ ✓. (The choice $55$ is the number of CHILD tickets. The choice $140$ is the total number of tickets. The choice $680$ is the dollars the adults paid.)',
     },
     {
       q: 'A theater sold $90$ tickets — lawn seats at $\\$6$ and stand seats at $\\$11$ — for a total of $\\$740$. How many MORE lawn tickets than stand tickets were sold?',
@@ -367,7 +367,7 @@ const challenge = [
       choices: ['$3$', '$13$', '$26$', '$7$'],
       answer: 1,
       solution:
-        'Multiply the first equation by $5$ and the second by $3$: $x + y = 20$ and $x - y = 6$. Add them: $2x = 26$, so $x = 13$, and then $y = 7$. Check the ORIGINALS: $\\frac{13+7}{5} = 4$ ✓ and $\\frac{13-7}{3} = 2$ ✓. (The choice $7$ is $y$. The choice $26$ is the value of $2x$, one halving short. The choice $3$ comes from never clearing the fractions at all and solving $x + y = 4$ with $x - y = 2$.)',
+        'Multiply the first equation by $5$ and the second by $3$: $x + y = 20$ and $x - y = 6$. Add them: $2x = 26$, so $x = 13$, and then $y = 7$. Check the ORIGINALS: $\\frac{13+7}{5} = 4$ ✓ and $\\frac{13-7}{3} = 2$ ✓. (The choice $3$ comes from never clearing the fractions at all and solving $x + y = 4$ with $x - y = 2$. The choice $26$ is the value of $2x$, one halving short. The choice $7$ is $y$.)',
     },
     {
       q: 'Solve $\\frac{x+y}{3} = 8$ and $\\frac{x-y}{4} = 2$. What is $y$?',
@@ -415,7 +415,7 @@ const challenge = [
       choices: ['$28$', '$24$', '$14$', '$16$'],
       answer: 1,
       solution:
-        'An average of $20$ means the SUM is $2 \\times 20 = 40$. So $x + y = 40$ and $x - y = 8$. Add: $2x = 48$, giving $x = 24$ and $y = 16$. Check: the average of $24$ and $16$ is $\\frac{40}{2} = 20$ ✓, and $24 - 16 = 8$ ✓. (The choice $16$ is the smaller number. The choice $14$ treats the average as the sum, solving $x + y = 20$ with $x - y = 8$. The choice $28$ just adds the average and the difference.)',
+        'An average of $20$ means the SUM is $2 \\times 20 = 40$. So $x + y = 40$ and $x - y = 8$. Add: $2x = 48$, giving $x = 24$ and $y = 16$. Check: the average of $24$ and $16$ is $\\frac{40}{2} = 20$ ✓, and $24 - 16 = 8$ ✓. (The choice $28$ just adds the average and the difference. The choice $14$ treats the average as the sum, solving $x + y = 20$ with $x - y = 8$. The choice $16$ is the smaller number.)',
     },
     {
       q: 'The average of two numbers is $16$, and their difference is $6$. What is the smaller number?',
@@ -463,7 +463,7 @@ const challenge = [
       choices: ['$3$', '$7$', '$-7$', '$28$'],
       answer: 1,
       solution:
-        'The $4y$ terms already match, so subtract the second equation from the first: $4x = 61 - 33 = 28$, giving $x = 7$. Then $3(7) + 4y = 33$ gives $4y = 12$ and $y = 3$. Check both: $7(7) + 4(3) = 49 + 12 = 61$ ✓ and $3(7) + 4(3) = 21 + 12 = 33$ ✓. (The choice $3$ is $y$. The choice $28$ is the value of $4x$, one division short. The choice $-7$ subtracts the right-hand sides in the wrong order, $33 - 61 = -28$.)',
+        'The $4y$ terms already match, so subtract the second equation from the first: $4x = 61 - 33 = 28$, giving $x = 7$. Then $3(7) + 4y = 33$ gives $4y = 12$ and $y = 3$. Check both: $7(7) + 4(3) = 49 + 12 = 61$ ✓ and $3(7) + 4(3) = 21 + 12 = 33$ ✓. (The choice $3$ is $y$. The choice $-7$ subtracts the right-hand sides in the wrong order, $33 - 61 = -28$. The choice $28$ is the value of $4x$, one division short.)',
     },
     {
       q: 'Solve $6x + 5y = 39$ and $2x + 5y = 23$. What is $y$?',
@@ -518,7 +518,7 @@ const challenge = [
       choices: ['$13$', '$20$', '$7$', '$6$'],
       answer: 2,
       solution:
-        'In cents: $n + d = 20$ and $5n + 10d = 165$. Multiply the count by $5$: $5n + 5d = 100$. Subtract: $5d = 65$, so $d = 13$ and $n = 20 - 13 = 7$. Check: $7 + 13 = 20$ coins ✓ and $5(7) + 10(13) = 35 + 130 = 165$ cents ✓. (The choice $13$ is the number of DIMES. The choice $6$ is the difference between the two counts. The choice $20$ is the total number of coins.)',
+        'In cents: $n + d = 20$ and $5n + 10d = 165$. Multiply the count by $5$: $5n + 5d = 100$. Subtract: $5d = 65$, so $d = 13$ and $n = 20 - 13 = 7$. Check: $7 + 13 = 20$ coins ✓ and $5(7) + 10(13) = 35 + 130 = 165$ cents ✓. (The choice $13$ is the number of DIMES. The choice $20$ is the total number of coins. The choice $6$ is the difference between the two counts.)',
     },
     {
       q: 'A box holds $24$ coins, all dimes and quarters, worth $\\$4.50$ altogether. What is the total value of the quarters?',

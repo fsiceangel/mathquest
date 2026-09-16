@@ -31,7 +31,7 @@ const s73 = [
       choices: ['$11$', '$9$', '$36$', '$18$'],
       answer: 2,
       solution:
-        'Joint proportion multiplies everything: $z = 6 \\times 3 \\times 2 = 36$. Check the constant, which is $k = \\frac{z}{xy} = \\frac{36}{3 \\times 2} = 6$. ✓ (The choice $9$ is the WRONG MODEL — it reads the rule as $z = \\frac{6x}{y} = \\frac{18}{2}$, making $y$ inverse when the rule has it upstairs; the choice $18$ is $6x$, dropping $y$ altogether; the choice $11$ ADDS $6 + 3 + 2$, and proportion never adds.)',
+        'Joint proportion multiplies everything: $z = 6 \\times 3 \\times 2 = 36$. Check the constant, which is $k = \\frac{z}{xy} = \\frac{36}{3 \\times 2} = 6$. ✓ (The choice $11$ ADDS $6 + 3 + 2$, and proportion never adds; the choice $9$ is the WRONG MODEL — it reads the rule as $z = \\frac{6x}{y} = \\frac{18}{2}$, making $y$ inverse when the rule has it upstairs; the choice $18$ is $6x$, dropping $y$ altogether.)',
     },
     {
       q: 'The rule is $z = \\frac{9x}{y}$. What is $z$ when $x = 8$ and $y = 6$?',
@@ -45,7 +45,7 @@ const s73 = [
       choices: ['$30$', '$6$', '$\\frac{1}{6}$', '$18$'],
       answer: 1,
       solution:
-        'Substitute what you know: $90 = 3 \\times 5 \\times y = 15y$, so $y = 6$. Check it forward through the rule: $3 \\times 5 \\times 6 = 90$. ✓ (The choice $\\frac{1}{6}$ is the WRONG MODEL — it reads $z = \\frac{3x}{y}$, giving $90 = \\frac{15}{y}$, which makes $y$ tiny when the joint rule needs it to be $6$; the choice $30$ divides by $3$ and forgets to divide by $x$; the choice $18$ divides by $x$ and forgets the constant.)',
+        'Substitute what you know: $90 = 3 \\times 5 \\times y = 15y$, so $y = 6$. Check it forward through the rule: $3 \\times 5 \\times 6 = 90$. ✓ (The choice $30$ divides by $3$ and forgets to divide by $x$; the choice $\\frac{1}{6}$ is the WRONG MODEL — it reads $z = \\frac{3x}{y}$, giving $90 = \\frac{15}{y}$, which makes $y$ tiny when the joint rule needs it to be $6$; the choice $18$ divides by $x$ and forgets the constant.)',
     },
   ],
   // p2 — one complete data set, solve for the constant
@@ -55,7 +55,7 @@ const s73 = [
       choices: ['$18$', '$972$', '$108$', '$3$'],
       answer: 3,
       solution:
-        'The constant of a joint proportion is $k = \\frac{z}{xy} = \\frac{54}{3 \\times 6} = \\frac{54}{18} = 3$, so the rule is $z = 3xy$. Check it forward: $3 \\times 3 \\times 6 = 54$. ✓ (The choice $108$ is the WRONG MODEL — it uses $k = \\frac{zy}{x} = \\frac{54 \\times 6}{3}$, the constant for $z = \\frac{kx}{y}$, where $y$ is inverse; the choice $18$ stops at the product $xy$; the choice $972$ multiplies all three numbers instead of solving the equation for $k$.)',
+        'The constant of a joint proportion is $k = \\frac{z}{xy} = \\frac{54}{3 \\times 6} = \\frac{54}{18} = 3$, so the rule is $z = 3xy$. Check it forward: $3 \\times 3 \\times 6 = 54$. ✓ (The choice $18$ stops at the product $xy$; the choice $972$ multiplies all three numbers instead of solving the equation for $k$; the choice $108$ is the WRONG MODEL — it uses $k = \\frac{zy}{x} = \\frac{54 \\times 6}{3}$, the constant for $z = \\frac{kx}{y}$, where $y$ is inverse.)',
     },
     {
       q: 'Suppose $z = kxy$, and $z = 3.5$ when $x = 2$ and $y = 7$. What is $k$?',
@@ -132,14 +132,14 @@ const s73 = [
       choices: ['$105$', '$52.5$', '$630$', '$210$'],
       answer: 3,
       solution:
-        'Two inputs changed, so there is no shortcut — find the constant first: $k = \\frac{z}{xy} = \\frac{84}{4 \\times 3} = 7$, so $z = 7xy$. Then $z = 7 \\times 5 \\times 6 = 210$. The constant holds on BOTH triples: $\\frac{84}{4 \\times 3} = 7$ and $\\frac{210}{5 \\times 6} = 7$. ✓ (The choice $52.5$ is the WRONG MODEL — it uses $z = \\frac{kx}{y}$ with $k = \\frac{zy}{x} = 63$, giving $\\frac{63 \\times 5}{6}$, which shrinks $z$ although both inputs grew; the choice $105$ scales for the change in $x$ only, $84 \\times \\frac{5}{4}$; the choice $630$ takes $k = \\frac{84}{4} = 21$, dividing by $x$ but forgetting $y$.)',
+        'Two inputs changed, so there is no shortcut — find the constant first: $k = \\frac{z}{xy} = \\frac{84}{4 \\times 3} = 7$, so $z = 7xy$. Then $z = 7 \\times 5 \\times 6 = 210$. The constant holds on BOTH triples: $\\frac{84}{4 \\times 3} = 7$ and $\\frac{210}{5 \\times 6} = 7$. ✓ (The choice $105$ scales for the change in $x$ only, $84 \\times \\frac{5}{4}$; the choice $52.5$ is the WRONG MODEL — it uses $z = \\frac{kx}{y}$ with $k = \\frac{zy}{x} = 63$, giving $\\frac{63 \\times 5}{6}$, which shrinks $z$ although both inputs grew; the choice $630$ takes $k = \\frac{84}{4} = 21$, dividing by $x$ but forgetting $y$.)',
     },
     {
       q: 'Suppose $z$ is jointly proportional to $x$ and $y$, and $z = 45$ when $x = 5$ and $y = 3$. What is $z$ when $x = 2$ and $y = 8$?',
       choices: ['$48$', '$120$', '$6.75$', '$144$'],
       answer: 0,
       solution:
-        'The constant is $k = \\frac{z}{xy} = \\frac{45}{5 \\times 3} = 3$, so $z = 3xy$ and $z = 3 \\times 2 \\times 8 = 48$. Check it on both triples: $\\frac{45}{15} = 3$ and $\\frac{48}{16} = 3$. ✓ ($x$ shrank while $y$ grew, and the two effects nearly cancelled.) (The choice $6.75$ is the WRONG MODEL, $z = \\frac{kx}{y}$ with $k = \\frac{zy}{x} = 27$, giving $\\frac{27 \\times 2}{8}$; the choice $120$ scales for the change in $y$ only, $45 \\times \\frac{8}{3}$; the choice $144$ takes $k = \\frac{45}{5} = 9$ and never divides by $y$.)',
+        'The constant is $k = \\frac{z}{xy} = \\frac{45}{5 \\times 3} = 3$, so $z = 3xy$ and $z = 3 \\times 2 \\times 8 = 48$. Check it on both triples: $\\frac{45}{15} = 3$ and $\\frac{48}{16} = 3$. ✓ ($x$ shrank while $y$ grew, and the two effects nearly cancelled.) (The choice $120$ scales for the change in $y$ only, $45 \\times \\frac{8}{3}$; the choice $6.75$ is the WRONG MODEL, $z = \\frac{kx}{y}$ with $k = \\frac{zy}{x} = 27$, giving $\\frac{27 \\times 2}{8}$; the choice $144$ takes $k = \\frac{45}{5} = 9$ and never divides by $y$.)',
     },
     {
       q: 'Suppose $z$ is jointly proportional to $x$ and $y$, and $z = 72$ when $x = 6$ and $y = 4$. What is $y$ when $z = 90$ and $x = 5$?',
@@ -156,21 +156,21 @@ const s73 = [
       choices: ['$60$', '$15$', '$18.75$', '$12$'],
       answer: 3,
       solution:
-        'Solve for the constant: $18 = \\frac{12k}{4} = 3k$, so $k = 6$ and $z = \\frac{6x}{y}$. Then $z = \\frac{6 \\times 10}{5} = 12$. The constant $k = \\frac{zy}{x}$ holds on both triples: $\\frac{18 \\times 4}{12} = 6$ and $\\frac{12 \\times 5}{10} = 6$. ✓ (The choice $18.75$ is the WRONG MODEL — the joint reading $z = kxy$ with $k = \\frac{18}{48} = 0.375$, giving $0.375 \\times 50$; the choice $60$ computes $6 \\times 10$ and forgets to divide by $y$ at the end; the choice $15$ scales for the change in $x$ only, $18 \\times \\frac{10}{12}$.)',
+        'Solve for the constant: $18 = \\frac{12k}{4} = 3k$, so $k = 6$ and $z = \\frac{6x}{y}$. Then $z = \\frac{6 \\times 10}{5} = 12$. The constant $k = \\frac{zy}{x}$ holds on both triples: $\\frac{18 \\times 4}{12} = 6$ and $\\frac{12 \\times 5}{10} = 6$. ✓ (The choice $60$ computes $6 \\times 10$ and forgets to divide by $y$ at the end; the choice $15$ scales for the change in $x$ only, $18 \\times \\frac{10}{12}$; the choice $18.75$ is the WRONG MODEL — the joint reading $z = kxy$ with $k = \\frac{18}{48} = 0.375$, giving $0.375 \\times 50$.)',
     },
     {
       q: 'Suppose $z$ varies directly with $x$ and inversely with $y$, and $z = 24$ when $x = 9$ and $y = 6$. What is $z$ when $x = 3$ and $y = 8$?',
       choices: ['$6$', '$48$', '$96$', '$18$'],
       answer: 0,
       solution:
-        'The rule is $z = \\frac{kx}{y}$, so $24 = \\frac{9k}{6} = 1.5k$ and $k = 16$. Then $z = \\frac{16 \\times 3}{8} = 6$. Both changes point the same way — $x$ fell and $y$ rose, so $z$ had to drop hard. The constant holds on both triples: $\\frac{24 \\times 6}{9} = 16$ and $\\frac{6 \\times 8}{3} = 16$. ✓ (The choice $96$ is the WRONG MODEL with the roles reversed, $z = \\frac{ky}{x}$ with $k = \\frac{zx}{y} = 36$, giving $\\frac{36 \\times 8}{3}$; the choice $48$ is $16 \\times 3$ with the division by $y$ forgotten; the choice $18$ scales for the change in $y$ only, $24 \\times \\frac{6}{8}$.)',
+        'The rule is $z = \\frac{kx}{y}$, so $24 = \\frac{9k}{6} = 1.5k$ and $k = 16$. Then $z = \\frac{16 \\times 3}{8} = 6$. Both changes point the same way — $x$ fell and $y$ rose, so $z$ had to drop hard. The constant holds on both triples: $\\frac{24 \\times 6}{9} = 16$ and $\\frac{6 \\times 8}{3} = 16$. ✓ (The choice $48$ is $16 \\times 3$ with the division by $y$ forgotten; the choice $96$ is the WRONG MODEL with the roles reversed, $z = \\frac{ky}{x}$ with $k = \\frac{zx}{y} = 36$, giving $\\frac{36 \\times 8}{3}$; the choice $18$ scales for the change in $y$ only, $24 \\times \\frac{6}{8}$.)',
     },
     {
       q: 'Suppose $z$ varies directly with $x$ and inversely with $y$, and $z = 10$ when $x = 8$ and $y = 12$. What is $y$ when $z = 6$ and $x = 9$?',
       choices: ['$135$', '$6.4$', '$22.5$', '$13.5$'],
       answer: 2,
       solution:
-        'From $z = \\frac{kx}{y}$: $10 = \\frac{8k}{12}$, so $k = 15$. Now the unknown is downstairs: $6 = \\frac{15 \\times 9}{y} = \\frac{135}{y}$, giving $y = \\frac{135}{6} = 22.5$. The constant $k = \\frac{zy}{x}$ holds on both triples: $\\frac{10 \\times 12}{8} = 15$ and $\\frac{6 \\times 22.5}{9} = 15$. ✓ (The choice $6.4$ is the WRONG MODEL, the joint reading $z = kxy$ with $k = \\frac{10}{96}$; the choice $135$ stops at the numerator and never divides by $z$; the choice $13.5$ divides that numerator by the OLD value $z = 10$ instead of the new one.)',
+        'From $z = \\frac{kx}{y}$: $10 = \\frac{8k}{12}$, so $k = 15$. Now the unknown is downstairs: $6 = \\frac{15 \\times 9}{y} = \\frac{135}{y}$, giving $y = \\frac{135}{6} = 22.5$. The constant $k = \\frac{zy}{x}$ holds on both triples: $\\frac{10 \\times 12}{8} = 15$ and $\\frac{6 \\times 22.5}{9} = 15$. ✓ (The choice $135$ stops at the numerator and never divides by $z$; the choice $6.4$ is the WRONG MODEL, the joint reading $z = kxy$ with $k = \\frac{10}{96}$; the choice $13.5$ divides that numerator by the OLD value $z = 10$ instead of the new one.)',
     },
   ],
   // p7 — a real-world constant product
@@ -204,21 +204,21 @@ const s73 = [
       choices: ['$72$', '$45$', '$48$', '$12.5$'],
       answer: 0,
       solution:
-        'Find the constant: $30 = \\frac{4k}{8} = \\frac{k}{2}$, so $k = 60$ and $L = \\frac{60w}{\\ell}$. Then $L = \\frac{60 \\times 6}{5} = 72$. The constant $k = \\frac{L\\ell}{w}$ holds on both sets: $\\frac{30 \\times 8}{4} = 60$ and $\\frac{72 \\times 5}{6} = 60$. ✓ A wider AND shorter beam is stronger both ways, so the load must rise on both counts. (The choice $12.5$ is the WRONG MODEL with the roles reversed, $L = \\frac{k\\ell}{w}$ with $k = 15$; the choice $45$ accounts for the wider beam only, $30 \\times \\frac{6}{4}$; the choice $48$ accounts for the shorter beam only, $30 \\times \\frac{8}{5}$.)',
+        'Find the constant: $30 = \\frac{4k}{8} = \\frac{k}{2}$, so $k = 60$ and $L = \\frac{60w}{\\ell}$. Then $L = \\frac{60 \\times 6}{5} = 72$. The constant $k = \\frac{L\\ell}{w}$ holds on both sets: $\\frac{30 \\times 8}{4} = 60$ and $\\frac{72 \\times 5}{6} = 60$. ✓ A wider AND shorter beam is stronger both ways, so the load must rise on both counts. (The choice $45$ accounts for the wider beam only, $30 \\times \\frac{6}{4}$; the choice $48$ accounts for the shorter beam only, $30 \\times \\frac{8}{5}$; the choice $12.5$ is the WRONG MODEL with the roles reversed, $L = \\frac{k\\ell}{w}$ with $k = 15$.)',
     },
     {
       q: 'The current in a circuit varies directly with the voltage and inversely with the resistance: $I = \\frac{kV}{R}$. If $I = 8$ when $V = 48$ and $R = 12$, what is $I$ when $V = 72$ and $R = 24$?',
       choices: ['$12$', '$4$', '$6$', '$24$'],
       answer: 2,
       solution:
-        'Find the constant: $8 = \\frac{48k}{12} = 4k$, so $k = 2$ and $I = \\frac{2V}{R}$. Then $I = \\frac{2 \\times 72}{24} = 6$. The constant $k = \\frac{IR}{V}$ holds on both sets: $\\frac{8 \\times 12}{48} = 2$ and $\\frac{6 \\times 24}{72} = 2$. ✓ The voltage grew by half but the resistance doubled, so the current came out lower. (The choice $24$ is the WRONG MODEL — the joint reading $I = kVR$ with $k = \\frac{8}{576} = \\frac{1}{72}$, which lets more resistance INCREASE the current; the choice $12$ accounts for the voltage change only, $8 \\times \\frac{72}{48}$; the choice $4$ accounts for the resistance change only, $8 \\times \\frac{12}{24}$.)',
+        'Find the constant: $8 = \\frac{48k}{12} = 4k$, so $k = 2$ and $I = \\frac{2V}{R}$. Then $I = \\frac{2 \\times 72}{24} = 6$. The constant $k = \\frac{IR}{V}$ holds on both sets: $\\frac{8 \\times 12}{48} = 2$ and $\\frac{6 \\times 24}{72} = 2$. ✓ The voltage grew by half but the resistance doubled, so the current came out lower. (The choice $12$ accounts for the voltage change only, $8 \\times \\frac{72}{48}$; the choice $4$ accounts for the resistance change only, $8 \\times \\frac{12}{24}$; the choice $24$ is the WRONG MODEL — the joint reading $I = kVR$ with $k = \\frac{8}{576} = \\frac{1}{72}$, which lets more resistance INCREASE the current.)',
     },
     {
       q: 'The number of days a camp’s food lasts varies directly with the amount of food and inversely with the number of campers: $D = \\frac{kF}{n}$. If $D = 9$ when $F = 60$ and $n = 20$, how many days does $F = 100$ last for $n = 25$ campers?',
       choices: ['$15$', '$12$', '$7.2$', '$18.75$'],
       answer: 1,
       solution:
-        'Find the constant: $9 = \\frac{60k}{20} = 3k$, so $k = 3$ and $D = \\frac{3F}{n}$. Then $D = \\frac{3 \\times 100}{25} = 12$ days. The constant $k = \\frac{Dn}{F}$ holds on both sets: $\\frac{9 \\times 20}{60} = 3$ and $\\frac{12 \\times 25}{100} = 3$. ✓ The food supply grew faster than the crowd did, so the days went up. (The choice $18.75$ is the WRONG MODEL — the joint reading $D = kFn$ with $k = \\frac{9}{1200}$, which has extra campers making the food last LONGER; the choice $15$ accounts for the extra food only, $9 \\times \\frac{100}{60}$; the choice $7.2$ accounts for the extra campers only, $9 \\times \\frac{20}{25}$.)',
+        'Find the constant: $9 = \\frac{60k}{20} = 3k$, so $k = 3$ and $D = \\frac{3F}{n}$. Then $D = \\frac{3 \\times 100}{25} = 12$ days. The constant $k = \\frac{Dn}{F}$ holds on both sets: $\\frac{9 \\times 20}{60} = 3$ and $\\frac{12 \\times 25}{100} = 3$. ✓ The food supply grew faster than the crowd did, so the days went up. (The choice $15$ accounts for the extra food only, $9 \\times \\frac{100}{60}$; the choice $7.2$ accounts for the extra campers only, $9 \\times \\frac{20}{25}$; the choice $18.75$ is the WRONG MODEL — the joint reading $D = kFn$ with $k = \\frac{9}{1200}$, which has extra campers making the food last LONGER.)',
     },
   ],
   // p9 — joint proportion where one input is squared
@@ -228,21 +228,21 @@ const s73 = [
       choices: ['$72$', '$144$', '$400$', '$43.2$'],
       answer: 1,
       solution:
-        'The rule is $z = kx^2y$, so square before dividing: $k = \\frac{z}{x^2y} = \\frac{60}{4 \\times 5} = 3$. Then $z = 3 \\times 4^2 \\times 3 = 3 \\times 16 \\times 3 = 144$. The constant holds on both sets: $\\frac{60}{2^2 \\times 5} = 3$ and $\\frac{144}{4^2 \\times 3} = 3$. ✓ ($x$ doubled, so $x^2$ quadrupled.) (The choice $400$ is the WRONG MODEL for $y$, $z = \\frac{kx^2}{y}$ with $k = \\frac{zy}{x^2} = 75$, giving $\\frac{75 \\times 16}{3}$; the choice $72$ forgets the square, using $z = kxy$ with $k = 6$; the choice $43.2$ squares the wrong input, using $z = kxy^2$ with $k = 1.2$.)',
+        'The rule is $z = kx^2y$, so square before dividing: $k = \\frac{z}{x^2y} = \\frac{60}{4 \\times 5} = 3$. Then $z = 3 \\times 4^2 \\times 3 = 3 \\times 16 \\times 3 = 144$. The constant holds on both sets: $\\frac{60}{2^2 \\times 5} = 3$ and $\\frac{144}{4^2 \\times 3} = 3$. ✓ ($x$ doubled, so $x^2$ quadrupled.) (The choice $72$ forgets the square, using $z = kxy$ with $k = 6$; the choice $400$ is the WRONG MODEL for $y$, $z = \\frac{kx^2}{y}$ with $k = \\frac{zy}{x^2} = 75$, giving $\\frac{75 \\times 16}{3}$; the choice $43.2$ squares the wrong input, using $z = kxy^2$ with $k = 1.2$.)',
     },
     {
       q: 'Suppose $z$ is jointly proportional to $x$ and $y^2$, and $z = 96$ when $x = 3$ and $y = 4$. What is $z$ when $x = 5$ and $y = 2$?',
       choices: ['$80$', '$640$', '$160$', '$40$'],
       answer: 3,
       solution:
-        'The rule is $z = kxy^2$, so $k = \\frac{z}{xy^2} = \\frac{96}{3 \\times 16} = 2$. Then $z = 2 \\times 5 \\times 2^2 = 40$. The constant holds on both sets: $\\frac{96}{3 \\times 4^2} = 2$ and $\\frac{40}{5 \\times 2^2} = 2$. ✓ ($y$ was halved, so $y^2$ fell to a quarter — enough to overwhelm the growth in $x$.) (The choice $640$ is the WRONG MODEL for $y$, $z = \\frac{kx}{y^2}$ with $k = \\frac{zy^2}{x} = 512$, giving $\\frac{512 \\times 5}{4}$; the choice $80$ forgets the square, using $z = kxy$ with $k = 8$; the choice $160$ scales for the change in $x$ only, $96 \\times \\frac{5}{3}$.)',
+        'The rule is $z = kxy^2$, so $k = \\frac{z}{xy^2} = \\frac{96}{3 \\times 16} = 2$. Then $z = 2 \\times 5 \\times 2^2 = 40$. The constant holds on both sets: $\\frac{96}{3 \\times 4^2} = 2$ and $\\frac{40}{5 \\times 2^2} = 2$. ✓ ($y$ was halved, so $y^2$ fell to a quarter — enough to overwhelm the growth in $x$.) (The choice $80$ forgets the square, using $z = kxy$ with $k = 8$; the choice $640$ is the WRONG MODEL for $y$, $z = \\frac{kx}{y^2}$ with $k = \\frac{zy^2}{x} = 512$, giving $\\frac{512 \\times 5}{4}$; the choice $160$ scales for the change in $x$ only, $96 \\times \\frac{5}{3}$.)',
     },
     {
       q: 'Suppose $z$ is jointly proportional to $x^2$ and $y$, and $z = 100$ when $x = 5$ and $y = 2$. What is $y$ when $z = 54$ and $x = 3$?',
       choices: ['$1.8$', '$3$', '$27$', '$\\frac{4}{3}$'],
       answer: 1,
       solution:
-        'From $z = kx^2y$: $k = \\frac{100}{5^2 \\times 2} = 2$, so $z = 2x^2y$. Now $54 = 2 \\times 9 \\times y = 18y$, giving $y = 3$. The constant holds on both sets: $\\frac{100}{25 \\times 2} = 2$ and $\\frac{54}{9 \\times 3} = 2$. ✓ (The choice $\\frac{4}{3}$ is the WRONG MODEL for $y$, $z = \\frac{kx^2}{y}$ with $k = \\frac{zy}{x^2} = 8$, giving $y = \\frac{72}{54}$; the choice $1.8$ forgets the square, using $z = kxy$ with $k = 10$; the choice $27$ divides $54$ by the constant and never divides by $x^2$.)',
+        'From $z = kx^2y$: $k = \\frac{100}{5^2 \\times 2} = 2$, so $z = 2x^2y$. Now $54 = 2 \\times 9 \\times y = 18y$, giving $y = 3$. The constant holds on both sets: $\\frac{100}{25 \\times 2} = 2$ and $\\frac{54}{9 \\times 3} = 2$. ✓ (The choice $1.8$ forgets the square, using $z = kxy$ with $k = 10$; the choice $27$ divides $54$ by the constant and never divides by $x^2$; the choice $\\frac{4}{3}$ is the WRONG MODEL for $y$, $z = \\frac{kx^2}{y}$ with $k = \\frac{zy}{x^2} = 8$, giving $y = \\frac{72}{54}$.)',
     },
   ],
   // p10 — both inputs change, report the scaling factor
@@ -308,7 +308,7 @@ const s74 = [
       choices: ['$81$ km', '$22.5$ km', '$4$ km', '$13.5$ km'],
       answer: 0,
       solution:
-        'Use $d = rt$: $d = 18 \\times 4.5 = 81$ km. Check by recovering the rate: $\\frac{81}{4.5} = 18$ km/h. ✓ Distance is DIRECTLY proportional to time here, because the speed is what stays fixed. (The choice $4$ divides instead of multiplying, $\\frac{18}{4.5}$ — that is the INVERSE move, right only when the DISTANCE is what is held fixed; the choice $22.5$ adds the two numbers and the choice $13.5$ subtracts them.)',
+        'Use $d = rt$: $d = 18 \\times 4.5 = 81$ km. Check by recovering the rate: $\\frac{81}{4.5} = 18$ km/h. ✓ Distance is DIRECTLY proportional to time here, because the speed is what stays fixed. (The choice $22.5$ adds the two numbers and the choice $13.5$ subtracts them; the choice $4$ divides instead of multiplying, $\\frac{18}{4.5}$ — that is the INVERSE move, right only when the DISTANCE is what is held fixed.)',
     },
     {
       q: 'A train covers $273$ kilometres at a steady $78$ kilometres per hour. How long does the trip take?',
@@ -322,7 +322,7 @@ const s74 = [
       choices: ['$82.5$ km/h', '$11.5$ km/h', '$\\frac{10}{33}$ km/h', '$3.3$ km/h'],
       answer: 3,
       solution:
-        'Rearrange $d = rt$ into $r = \\frac{d}{t} = \\frac{16.5}{5} = 3.3$ km/h. Check it forward: $3.3 \\times 5 = 16.5$ km. ✓ (The choice $82.5$ multiplies $16.5 \\times 5$, which would be the constant if distance and time were INVERSE; the choice $\\frac{10}{33}$ flips the division into $\\frac{5}{16.5}$, giving hours per kilometre; the choice $11.5$ subtracts.)',
+        'Rearrange $d = rt$ into $r = \\frac{d}{t} = \\frac{16.5}{5} = 3.3$ km/h. Check it forward: $3.3 \\times 5 = 16.5$ km. ✓ (The choice $82.5$ multiplies $16.5 \\times 5$, which would be the constant if distance and time were INVERSE; the choice $11.5$ subtracts; the choice $\\frac{10}{33}$ flips the division into $\\frac{5}{16.5}$, giving hours per kilometre.)',
     },
   ],
   // p3 — flip between time-per-job and job-per-time
@@ -411,14 +411,14 @@ const s74 = [
       choices: ['$15$ hours', '$4$ hours', '$6\\frac{2}{3}$ hours', '$25$ hours'],
       answer: 2,
       solution:
-        'Net rate $= \\frac{1}{5} - \\frac{1}{20} = \\frac{4}{20} - \\frac{1}{20} = \\frac{3}{20}$ tank per hour, so the time is $1 \\div \\frac{3}{20} = \\frac{20}{3} = 6\\frac{2}{3}$ hours. Check it forward: in $\\frac{20}{3}$ hours the pipe adds $\\frac{20}{15} = \\frac{4}{3}$ tanks and the drain removes $\\frac{20}{60} = \\frac{1}{3}$, leaving $1$. ✓ The drain costs time, so the answer is longer than the pipe’s solo $5$ hours. (The choice $4$ is the WRONG MODEL, ADDING the rates as though the drain filled too; the choice $15$ subtracts the times, $20 - 5$; the choice $25$ adds them.)',
+        'Net rate $= \\frac{1}{5} - \\frac{1}{20} = \\frac{4}{20} - \\frac{1}{20} = \\frac{3}{20}$ tank per hour, so the time is $1 \\div \\frac{3}{20} = \\frac{20}{3} = 6\\frac{2}{3}$ hours. Check it forward: in $\\frac{20}{3}$ hours the pipe adds $\\frac{20}{15} = \\frac{4}{3}$ tanks and the drain removes $\\frac{20}{60} = \\frac{1}{3}$, leaving $1$. ✓ The drain costs time, so the answer is longer than the pipe’s solo $5$ hours. (The choice $15$ subtracts the times, $20 - 5$; the choice $4$ is the WRONG MODEL, ADDING the rates as though the drain filled too; the choice $25$ adds them.)',
     },
     {
       q: 'A full tank has a drain that would empty it in $6$ hours, and someone leaves a tap running that would fill the empty tank in $18$ hours. How long until the tank is empty?',
       choices: ['$12$ hours', '$4.5$ hours', '$24$ hours', '$9$ hours'],
       answer: 3,
       solution:
-        'This time the job is emptying, so the drain is the positive rate: net $= \\frac{1}{6} - \\frac{1}{18} = \\frac{3}{18} - \\frac{1}{18} = \\frac{2}{18} = \\frac{1}{9}$ tank per hour, giving $9$ hours. Check it forward: in $9$ hours the drain removes $\\frac{9}{6} = 1.5$ tanks while the tap adds $\\frac{9}{18} = 0.5$, a net loss of exactly $1$ full tank. ✓ (The choice $4.5$ is the WRONG MODEL, ADDING the rates as if the tap helped empty the tank; the choice $12$ subtracts the times, $18 - 6$; the choice $24$ adds them.)',
+        'This time the job is emptying, so the drain is the positive rate: net $= \\frac{1}{6} - \\frac{1}{18} = \\frac{3}{18} - \\frac{1}{18} = \\frac{2}{18} = \\frac{1}{9}$ tank per hour, giving $9$ hours. Check it forward: in $9$ hours the drain removes $\\frac{9}{6} = 1.5$ tanks while the tap adds $\\frac{9}{18} = 0.5$, a net loss of exactly $1$ full tank. ✓ (The choice $12$ subtracts the times, $18 - 6$; the choice $4.5$ is the WRONG MODEL, ADDING the rates as if the tap helped empty the tank; the choice $24$ adds them.)',
     },
   ],
   // p7 — two travellers closing a gap
@@ -459,14 +459,14 @@ const s74 = [
       choices: ['$20$ miles', '$60$ miles', '$30$ miles', '$12$ miles'],
       answer: 1,
       solution:
-        'The bus’s head start is $40 \\times \\frac{1}{2} = 20$ miles. Same direction, so the gap closes at $60 - 40 = 20$ mph, taking $\\frac{20}{20} = 1$ hour. The question asks for the DISTANCE, so the van has gone $60 \\times 1 = 60$ miles. Check it forward: the bus has been driving $1.5$ hours at $40$ mph, also $60$ miles. ✓ (The choice $12$ is the WRONG MODEL — it adds the speeds, closing in $\\frac{20}{100} = 0.2$ hour and giving $60 \\times 0.2$; the choice $20$ stops at the head start; the choice $30$ is the van’s distance in the first half hour of the chase.)',
+        'The bus’s head start is $40 \\times \\frac{1}{2} = 20$ miles. Same direction, so the gap closes at $60 - 40 = 20$ mph, taking $\\frac{20}{20} = 1$ hour. The question asks for the DISTANCE, so the van has gone $60 \\times 1 = 60$ miles. Check it forward: the bus has been driving $1.5$ hours at $40$ mph, also $60$ miles. ✓ (The choice $20$ stops at the head start; the choice $30$ is the van’s distance in the first half hour of the chase; the choice $12$ is the WRONG MODEL — it adds the speeds, closing in $\\frac{20}{100} = 0.2$ hour and giving $60 \\times 0.2$.)',
     },
     {
       q: 'A walker leaves a gate at $3$ mph. Forty-five minutes later a jogger sets out along the same path and catches the walker in exactly $30$ minutes. How fast does the jogger run?',
       choices: ['$4.5$ mph', '$1.5$ mph', '$6$ mph', '$7.5$ mph'],
       answer: 3,
       solution:
-        'The head start is $3 \\times \\frac{3}{4} = 2.25$ miles, and the jogger erases it in $\\frac{1}{2}$ hour, so the gap must close at $\\frac{2.25}{1/2} = 4.5$ mph. Same direction means that closing speed is the DIFFERENCE, so the jogger runs $3 + 4.5 = 7.5$ mph. Check it forward: the jogger covers $7.5 \\times \\frac{1}{2} = 3.75$ miles, and the walker has been going $1.25$ hours at $3$ mph, also $3.75$ miles. ✓ (The choice $1.5$ is the WRONG MODEL — treating the closing speed as a SUM gives $4.5 - 3$, and a jogger slower than the walker could never catch up; the choice $4.5$ stops at the closing speed; the choice $6$ uses a $30$-minute head start instead of $45$ minutes.)',
+        'The head start is $3 \\times \\frac{3}{4} = 2.25$ miles, and the jogger erases it in $\\frac{1}{2}$ hour, so the gap must close at $\\frac{2.25}{1/2} = 4.5$ mph. Same direction means that closing speed is the DIFFERENCE, so the jogger runs $3 + 4.5 = 7.5$ mph. Check it forward: the jogger covers $7.5 \\times \\frac{1}{2} = 3.75$ miles, and the walker has been going $1.25$ hours at $3$ mph, also $3.75$ miles. ✓ (The choice $4.5$ stops at the closing speed; the choice $1.5$ is the WRONG MODEL — treating the closing speed as a SUM gives $4.5 - 3$, and a jogger slower than the walker could never catch up; the choice $6$ uses a $30$-minute head start instead of $45$ minutes.)',
     },
   ],
   // p9 — team time known, recover a partner's solo time by SUBTRACTING rates
@@ -483,7 +483,7 @@ const s74 = [
       choices: ['$6\\frac{2}{3}$ hours', '$6$ hours', '$14$ hours', '$\\frac{20}{7}$ hours'],
       answer: 0,
       solution:
-        'Pipe B’s rate is the team rate minus pipe A’s: $\\frac{1}{4} - \\frac{1}{10} = \\frac{5}{20} - \\frac{2}{20} = \\frac{3}{20}$ reservoir per hour, so pipe B alone needs $\\frac{20}{3} = 6\\frac{2}{3}$ hours. Check it forward: $\\frac{1}{10} + \\frac{3}{20} = \\frac{2}{20} + \\frac{3}{20} = \\frac{5}{20} = \\frac{1}{4}$. ✓ And $6\\frac{2}{3} > 4$, as it must be. (The choice $\\frac{20}{7}$ is the WRONG MODEL — it ADDS the rates instead of subtracting, and lands below the team time, which is impossible; the choice $6$ subtracts the times, $10 - 4$; the choice $14$ adds them.)',
+        'Pipe B’s rate is the team rate minus pipe A’s: $\\frac{1}{4} - \\frac{1}{10} = \\frac{5}{20} - \\frac{2}{20} = \\frac{3}{20}$ reservoir per hour, so pipe B alone needs $\\frac{20}{3} = 6\\frac{2}{3}$ hours. Check it forward: $\\frac{1}{10} + \\frac{3}{20} = \\frac{2}{20} + \\frac{3}{20} = \\frac{5}{20} = \\frac{1}{4}$. ✓ And $6\\frac{2}{3} > 4$, as it must be. (The choice $6$ subtracts the times, $10 - 4$; the choice $14$ adds them; the choice $\\frac{20}{7}$ is the WRONG MODEL — it ADDS the rates instead of subtracting, and lands below the team time, which is impossible.)',
     },
     {
       q: 'Alone, Maya sands a floor in $9$ hours. With Theo helping, the two finish in $6$ hours. How long would Theo need alone?',
@@ -514,7 +514,7 @@ const s74 = [
       choices: ['$10$ hours', '$2\\frac{2}{3}$ hours', '$26$ hours', '$8$ hours'],
       answer: 3,
       solution:
-        'Fills add and the drain subtracts: net rate $= \\frac{1}{6} + \\frac{1}{12} - \\frac{1}{8} = \\frac{4}{24} + \\frac{2}{24} - \\frac{3}{24} = \\frac{3}{24} = \\frac{1}{8}$ tank per hour, so the tank fills in $8$ hours. Check it forward: in $8$ hours the pipes add $\\frac{8}{6} + \\frac{8}{12} = 2$ tanks and the drain removes $1$, leaving exactly $1$. ✓ (The choice $2\\frac{2}{3}$ is the WRONG MODEL — it ADDS all three rates, letting the drain help fill; the choice $10$ combines the TIMES as $6 + 12 - 8$; the choice $26$ adds all three times.)',
+        'Fills add and the drain subtracts: net rate $= \\frac{1}{6} + \\frac{1}{12} - \\frac{1}{8} = \\frac{4}{24} + \\frac{2}{24} - \\frac{3}{24} = \\frac{3}{24} = \\frac{1}{8}$ tank per hour, so the tank fills in $8$ hours. Check it forward: in $8$ hours the pipes add $\\frac{8}{6} + \\frac{8}{12} = 2$ tanks and the drain removes $1$, leaving exactly $1$. ✓ (The choice $10$ combines the TIMES as $6 + 12 - 8$; the choice $2\\frac{2}{3}$ is the WRONG MODEL — it ADDS all three rates, letting the drain help fill; the choice $26$ adds all three times.)',
     },
   ],
 ]

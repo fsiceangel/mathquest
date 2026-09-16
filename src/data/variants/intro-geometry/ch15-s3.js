@@ -109,7 +109,7 @@ const s153 = [
       choices: ['$576\\pi$', '$2304\\pi$', '$6912\\pi$', '$1728\\pi$'],
       answer: 1,
       solution:
-        'Route one, the volume formula: $V = \\frac{4}{3}\\pi r^3$, and $12^3 = 1728$, so $V = \\frac{4}{3} \\cdot 1728\\pi = 4 \\cdot 576\\pi = 2304\\pi$ cubic meters ✓. Check a second, independent way, through the snug can: the shortest cylinder the balloon fits inside has radius $12$ and height $24$, so it holds $\\pi \\cdot 144 \\cdot 24 = 3456\\pi$, and a snug ball fills exactly two thirds of its can, giving $\\frac{2}{3} \\cdot 3456\\pi = 2304\\pi$ ✓. (The choice $6912\\pi$ is DROPPING THE DIVISION BY THREE and reporting $4\\pi r^3$ ✗; the choice $576\\pi$ is REPORTING THE SURFACE AREA $4\\pi r^2$, which squares the radius where volume cubes it ✗; the choice $1728\\pi$ is LEAVING OUT THE FACTOR $\\frac{4}{3}$ and reporting $\\pi r^3$ ✗.)',
+        'Route one, the volume formula: $V = \\frac{4}{3}\\pi r^3$, and $12^3 = 1728$, so $V = \\frac{4}{3} \\cdot 1728\\pi = 4 \\cdot 576\\pi = 2304\\pi$ cubic meters ✓. Check a second, independent way, through the snug can: the shortest cylinder the balloon fits inside has radius $12$ and height $24$, so it holds $\\pi \\cdot 144 \\cdot 24 = 3456\\pi$, and a snug ball fills exactly two thirds of its can, giving $\\frac{2}{3} \\cdot 3456\\pi = 2304\\pi$ ✓. (The choice $576\\pi$ is REPORTING THE SURFACE AREA $4\\pi r^2$, which squares the radius where volume cubes it ✗; the choice $6912\\pi$ is DROPPING THE DIVISION BY THREE and reporting $4\\pi r^3$ ✗; the choice $1728\\pi$ is LEAVING OUT THE FACTOR $\\frac{4}{3}$ and reporting $\\pi r^3$ ✗.)',
     },
     {
       q: 'A garden ornament is a solid stone ball of radius $9$ centimeters. What is the volume of the stone?',
@@ -117,7 +117,7 @@ const s153 = [
       choices: ['$324\\pi$', '$2916\\pi$', '$972\\pi$', '$729\\pi$'],
       answer: 2,
       solution:
-        'Route one, the volume formula: $9^3 = 729$, so $V = \\frac{4}{3}\\pi \\cdot 729 = 4 \\cdot 243\\pi = 972\\pi$ cubic centimeters ✓. Check a second, independent way, through the snug can: a cylinder of radius $9$ and height $18$ wraps the ball exactly and holds $\\pi \\cdot 81 \\cdot 18 = 1458\\pi$; the ball takes two thirds of it, $\\frac{2}{3} \\cdot 1458\\pi = 972\\pi$ ✓. (The choice $2916\\pi$ is DROPPING THE DIVISION BY THREE, $4\\pi r^3$ ✗; the choice $324\\pi$ is REPORTING THE SURFACE AREA $4\\pi r^2$ instead of the volume ✗; the choice $729\\pi$ is LEAVING OUT THE FACTOR $\\frac{4}{3}$ and reporting $\\pi r^3$ ✗.)',
+        'Route one, the volume formula: $9^3 = 729$, so $V = \\frac{4}{3}\\pi \\cdot 729 = 4 \\cdot 243\\pi = 972\\pi$ cubic centimeters ✓. Check a second, independent way, through the snug can: a cylinder of radius $9$ and height $18$ wraps the ball exactly and holds $\\pi \\cdot 81 \\cdot 18 = 1458\\pi$; the ball takes two thirds of it, $\\frac{2}{3} \\cdot 1458\\pi = 972\\pi$ ✓. (The choice $324\\pi$ is REPORTING THE SURFACE AREA $4\\pi r^2$ instead of the volume ✗; the choice $2916\\pi$ is DROPPING THE DIVISION BY THREE, $4\\pi r^3$ ✗; the choice $729\\pi$ is LEAVING OUT THE FACTOR $\\frac{4}{3}$ and reporting $\\pi r^3$ ✗.)',
     },
     {
       q: 'A glass bead is a sphere of radius $2$ millimeters. What is its volume?',
@@ -125,7 +125,7 @@ const s153 = [
       choices: ['$16\\pi$', '$32\\pi$', '$8\\pi$', '$\\frac{32\\pi}{3}$'],
       answer: 3,
       solution:
-        'Route one, the volume formula: $2^3 = 8$, so $V = \\frac{4}{3}\\pi \\cdot 8 = \\frac{32\\pi}{3}$ cubic millimeters ✓. Check a second, independent way, through the snug can: the bead just fits a cylinder of radius $2$ and height $4$, which holds $\\pi \\cdot 4 \\cdot 4 = 16\\pi$, and the bead fills two thirds of that, $\\frac{2}{3} \\cdot 16\\pi = \\frac{32\\pi}{3}$ ✓. (The choice $32\\pi$ is DROPPING THE DIVISION BY THREE, $4\\pi r^3$ ✗; the choice $16\\pi$ is REPORTING THE SURFACE AREA $4\\pi r^2$ ✗; the choice $8\\pi$ is LEAVING OUT THE FACTOR $\\frac{4}{3}$ and reporting $\\pi r^3$ ✗.)',
+        'Route one, the volume formula: $2^3 = 8$, so $V = \\frac{4}{3}\\pi \\cdot 8 = \\frac{32\\pi}{3}$ cubic millimeters ✓. Check a second, independent way, through the snug can: the bead just fits a cylinder of radius $2$ and height $4$, which holds $\\pi \\cdot 4 \\cdot 4 = 16\\pi$, and the bead fills two thirds of that, $\\frac{2}{3} \\cdot 16\\pi = \\frac{32\\pi}{3}$ ✓. (The choice $16\\pi$ is REPORTING THE SURFACE AREA $4\\pi r^2$ ✗; the choice $32\\pi$ is DROPPING THE DIVISION BY THREE, $4\\pi r^3$ ✗; the choice $8\\pi$ is LEAVING OUT THE FACTOR $\\frac{4}{3}$ and reporting $\\pi r^3$ ✗.)',
     },
   ],
   // s2 — surface area of a sphere straight from the radius.
@@ -160,7 +160,7 @@ const s153 = [
       choices: ['$4500\\pi$', '$36000\\pi$', '$900\\pi$', '$13500\\pi$'],
       answer: 0,
       solution:
-        'Route one, halve the diameter first: $r = \\frac{30}{2} = 15$, and $15^3 = 3375$, so $V = \\frac{4}{3}\\pi \\cdot 3375 = 4 \\cdot 1125\\pi = 4500\\pi$ cubic meters ✓. Check a second, independent way, by scaling a sphere whose size is already known: a sphere of radius $3$ has volume $36\\pi$, and radius $15$ is $5$ times radius $3$, so the volume is $5^3 = 125$ times as large: $36\\pi \\cdot 125 = 4500\\pi$ ✓. (The choice $36000\\pi$ is USING THE DIAMETER AS THE RADIUS — and since the radius is cubed, that inflates the answer eightfold ✗; the choice $13500\\pi$ is DROPPING THE DIVISION BY THREE, $4\\pi r^3$ ✗; the choice $900\\pi$ is REPORTING THE SURFACE AREA $4\\pi r^2$ ✗.)',
+        'Route one, halve the diameter first: $r = \\frac{30}{2} = 15$, and $15^3 = 3375$, so $V = \\frac{4}{3}\\pi \\cdot 3375 = 4 \\cdot 1125\\pi = 4500\\pi$ cubic meters ✓. Check a second, independent way, by scaling a sphere whose size is already known: a sphere of radius $3$ has volume $36\\pi$, and radius $15$ is $5$ times radius $3$, so the volume is $5^3 = 125$ times as large: $36\\pi \\cdot 125 = 4500\\pi$ ✓. (The choice $36000\\pi$ is USING THE DIAMETER AS THE RADIUS — and since the radius is cubed, that inflates the answer eightfold ✗; the choice $900\\pi$ is REPORTING THE SURFACE AREA $4\\pi r^2$ ✗; the choice $13500\\pi$ is DROPPING THE DIVISION BY THREE, $4\\pi r^3$ ✗.)',
     },
     {
       q: 'A beach ball measures $24$ inches across. How much air does it hold?',
@@ -168,7 +168,7 @@ const s153 = [
       choices: ['$18432\\pi$', '$576\\pi$', '$2304\\pi$', '$6912\\pi$'],
       answer: 2,
       solution:
-        'Route one, halve the diameter first: across means the diameter, so $r = \\frac{24}{2} = 12$ and $12^3 = 1728$, giving $V = \\frac{4}{3}\\pi \\cdot 1728 = 2304\\pi$ cubic inches ✓. Check a second, independent way, by scaling a sphere whose size is already known: a sphere of radius $3$ has volume $36\\pi$, and radius $12$ is $4$ times radius $3$, so the volume is $4^3 = 64$ times as large: $36\\pi \\cdot 64 = 2304\\pi$ ✓. (The choice $18432\\pi$ is USING THE DIAMETER AS THE RADIUS, which multiplies the true volume by $8$ ✗; the choice $6912\\pi$ is DROPPING THE DIVISION BY THREE, $4\\pi r^3$ ✗; the choice $576\\pi$ is REPORTING THE SURFACE AREA $4\\pi r^2$ ✗.)',
+        'Route one, halve the diameter first: across means the diameter, so $r = \\frac{24}{2} = 12$ and $12^3 = 1728$, giving $V = \\frac{4}{3}\\pi \\cdot 1728 = 2304\\pi$ cubic inches ✓. Check a second, independent way, by scaling a sphere whose size is already known: a sphere of radius $3$ has volume $36\\pi$, and radius $12$ is $4$ times radius $3$, so the volume is $4^3 = 64$ times as large: $36\\pi \\cdot 64 = 2304\\pi$ ✓. (The choice $18432\\pi$ is USING THE DIAMETER AS THE RADIUS, which multiplies the true volume by $8$ ✗; the choice $576\\pi$ is REPORTING THE SURFACE AREA $4\\pi r^2$ ✗; the choice $6912\\pi$ is DROPPING THE DIVISION BY THREE, $4\\pi r^3$ ✗.)',
     },
     {
       q: 'A scoop of sorbet is pressed into a sphere of diameter $8$ centimeters. What is its volume?',
@@ -176,7 +176,7 @@ const s153 = [
       choices: ['$\\frac{2048\\pi}{3}$', '$64\\pi$', '$\\frac{1024\\pi}{3}$', '$\\frac{256\\pi}{3}$'],
       answer: 3,
       solution:
-        'Route one, halve the diameter first: $r = \\frac{8}{2} = 4$, and $4^3 = 64$, so $V = \\frac{4}{3}\\pi \\cdot 64 = \\frac{256\\pi}{3}$ cubic centimeters ✓. Check a second, independent way, by scaling a sphere whose size is already known: a sphere of radius $1$ has volume $\\frac{4\\pi}{3}$, and radius $4$ is $4$ times that, so the volume is $4^3 = 64$ times as large: $\\frac{4\\pi}{3} \\cdot 64 = \\frac{256\\pi}{3}$ ✓. (The choice $\\frac{2048\\pi}{3}$ is USING THE DIAMETER AS THE RADIUS ✗; the choice $\\frac{1024\\pi}{3}$ is HALVING THE VOLUME AT THE END instead of halving the diameter at the start ✗; the choice $64\\pi$ is REPORTING THE SURFACE AREA $4\\pi r^2$ ✗.)',
+        'Route one, halve the diameter first: $r = \\frac{8}{2} = 4$, and $4^3 = 64$, so $V = \\frac{4}{3}\\pi \\cdot 64 = \\frac{256\\pi}{3}$ cubic centimeters ✓. Check a second, independent way, by scaling a sphere whose size is already known: a sphere of radius $1$ has volume $\\frac{4\\pi}{3}$, and radius $4$ is $4$ times that, so the volume is $4^3 = 64$ times as large: $\\frac{4\\pi}{3} \\cdot 64 = \\frac{256\\pi}{3}$ ✓. (The choice $\\frac{2048\\pi}{3}$ is USING THE DIAMETER AS THE RADIUS ✗; the choice $64\\pi$ is REPORTING THE SURFACE AREA $4\\pi r^2$ ✗; the choice $\\frac{1024\\pi}{3}$ is HALVING THE VOLUME AT THE END instead of halving the diameter at the start ✗.)',
     },
   ],
   // s4 — volume of a solid hemisphere.
@@ -240,7 +240,7 @@ const s153 = [
       choices: ['$27$', '$9$', '$3$', '$81$'],
       answer: 0,
       solution:
-        'Route one, straight from the formula: replacing $r$ by $3r$ gives $\\frac{4}{3}\\pi (3r)^3 = \\frac{4}{3}\\pi \\cdot 27r^3$, so the volume is multiplied by $3^3 = 27$ ✓. Check a second, independent way, with two real spheres: a sphere of radius $10$ has volume $\\frac{4}{3}\\pi \\cdot 1000 = \\frac{4000\\pi}{3}$, and a sphere of radius $30$ has volume $\\frac{4}{3}\\pi \\cdot 27000 = 36000\\pi$; dividing, $36000\\pi \\div \\frac{4000\\pi}{3} = 36000 \\cdot \\frac{3}{4000} = 27$ ✓. (The choice $3$ is REPORTING THE LENGTH FACTOR, which is what happens to the radius itself, not to the volume ✗; the choice $9$ is REPORTING THE AREA FACTOR $3^2$, which is what happens to the skin ✗; the choice $81$ is SCALING ONE TIME TOO MANY, $3^4$ ✗.)',
+        'Route one, straight from the formula: replacing $r$ by $3r$ gives $\\frac{4}{3}\\pi (3r)^3 = \\frac{4}{3}\\pi \\cdot 27r^3$, so the volume is multiplied by $3^3 = 27$ ✓. Check a second, independent way, with two real spheres: a sphere of radius $10$ has volume $\\frac{4}{3}\\pi \\cdot 1000 = \\frac{4000\\pi}{3}$, and a sphere of radius $30$ has volume $\\frac{4}{3}\\pi \\cdot 27000 = 36000\\pi$; dividing, $36000\\pi \\div \\frac{4000\\pi}{3} = 36000 \\cdot \\frac{3}{4000} = 27$ ✓. (The choice $9$ is REPORTING THE AREA FACTOR $3^2$, which is what happens to the skin ✗; the choice $3$ is REPORTING THE LENGTH FACTOR, which is what happens to the radius itself, not to the volume ✗; the choice $81$ is SCALING ONE TIME TOO MANY, $3^4$ ✗.)',
     },
     {
       q: 'A spherical balloon is blown up until its radius is four times what it was. Its volume is multiplied by what number?',
@@ -254,7 +254,7 @@ const s153 = [
       choices: ['$25$', '$125$', '$5$', '$625$'],
       answer: 1,
       solution:
-        'Route one, straight from the formula: replacing $r$ by $5r$ gives $\\frac{4}{3}\\pi (5r)^3 = \\frac{4}{3}\\pi \\cdot 125r^3$, so the volume is multiplied by $5^3 = 125$ ✓. Check a second, independent way, with two real spheres: radius $2$ gives $\\frac{4}{3}\\pi \\cdot 8 = \\frac{32\\pi}{3}$ and radius $10$ gives $\\frac{4}{3}\\pi \\cdot 1000 = \\frac{4000\\pi}{3}$; dividing, $\\frac{4000}{32} = 125$ ✓. (The choice $5$ is REPORTING THE LENGTH FACTOR ✗; the choice $25$ is REPORTING THE AREA FACTOR $5^2$ ✗; the choice $625$ is SCALING ONE TIME TOO MANY, $5^4$ ✗.)',
+        'Route one, straight from the formula: replacing $r$ by $5r$ gives $\\frac{4}{3}\\pi (5r)^3 = \\frac{4}{3}\\pi \\cdot 125r^3$, so the volume is multiplied by $5^3 = 125$ ✓. Check a second, independent way, with two real spheres: radius $2$ gives $\\frac{4}{3}\\pi \\cdot 8 = \\frac{32\\pi}{3}$ and radius $10$ gives $\\frac{4}{3}\\pi \\cdot 1000 = \\frac{4000\\pi}{3}$; dividing, $\\frac{4000}{32} = 125$ ✓. (The choice $25$ is REPORTING THE AREA FACTOR $5^2$ ✗; the choice $5$ is REPORTING THE LENGTH FACTOR ✗; the choice $625$ is SCALING ONE TIME TOO MANY, $5^4$ ✗.)',
     },
   ],
   // s7 — scale the radius, ask what happens to the surface area.
@@ -302,7 +302,7 @@ const s153 = [
       choices: ['$225$', '$30$', '$900$', '$15$'],
       answer: 3,
       solution:
-        'Route one, undo the formula in two steps: $4\\pi r^2 = 900\\pi$, so $r^2 = 225$ and $r = 15$ inches ✓. Check a second, independent way, by comparing with a sphere already known and using the square rule: a sphere of radius $5$ has surface area $4\\pi \\cdot 25 = 100\\pi$, and $900\\pi \\div 100\\pi = 9$. Areas scale by $k^2$, so $k = 3$ and $r = 3 \\cdot 5 = 15$ ✓. (The choice $30$ is REPORTING THE DIAMETER ✗; the choice $225$ is STOPPING AT $r^2$ ✗; the choice $900$ is READING OFF THE NUMBER IN FRONT OF $\\pi$ ✗.)',
+        'Route one, undo the formula in two steps: $4\\pi r^2 = 900\\pi$, so $r^2 = 225$ and $r = 15$ inches ✓. Check a second, independent way, by comparing with a sphere already known and using the square rule: a sphere of radius $5$ has surface area $4\\pi \\cdot 25 = 100\\pi$, and $900\\pi \\div 100\\pi = 9$. Areas scale by $k^2$, so $k = 3$ and $r = 3 \\cdot 5 = 15$ ✓. (The choice $225$ is STOPPING AT $r^2$ ✗; the choice $30$ is REPORTING THE DIAMETER ✗; the choice $900$ is READING OFF THE NUMBER IN FRONT OF $\\pi$ ✗.)',
     },
   ],
   // s9 — the room left over inside a snug cylinder once the sphere is in it.

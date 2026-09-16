@@ -281,7 +281,7 @@ const challenge = [
       choices: ['$(0, -2)$', '$(4, -1)$', '$(6, 0)$', '$(-3, -6)$'],
       answer: 2,
       solution:
-        'Substitute each point. $(6, 0)$: $6 - 5 = 1$, and $0 \\ge 1$ is false — this is the odd one out ✓. The other three all work: $(0, -2)$ gives $-2 \\ge -5$ ✓; $(4, -1)$ gives $4 - 5 = -1$ and $-1 \\ge -1$ ✓, which counts only because $\\ge$ includes the boundary; $(-3, -6)$ gives $-3 - 5 = -8$ and $-6 \\ge -8$ ✓. (The choice $(4, -1)$ is what a student picks who reads $\\ge$ as strict; the choice $(-3, -6)$ tempts anyone who ranks $-6$ above $-8$ by digit size; the choice $(0, -2)$ tempts anyone who computes $x - 5$ as $5 - x$.)',
+        'Substitute each point. $(6, 0)$: $6 - 5 = 1$, and $0 \\ge 1$ is false — this is the odd one out ✓. The other three all work: $(0, -2)$ gives $-2 \\ge -5$ ✓; $(4, -1)$ gives $4 - 5 = -1$ and $-1 \\ge -1$ ✓, which counts only because $\\ge$ includes the boundary; $(-3, -6)$ gives $-3 - 5 = -8$ and $-6 \\ge -8$ ✓. (The choice $(0, -2)$ tempts anyone who computes $x - 5$ as $5 - x$; the choice $(4, -1)$ is what a student picks who reads $\\ge$ as strict; the choice $(-3, -6)$ tempts anyone who ranks $-6$ above $-8$ by digit size.)',
     },
   ],
   // c11 — "at least" or "at most" applied to an average: convert the target

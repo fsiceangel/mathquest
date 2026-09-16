@@ -348,7 +348,7 @@ const s94 = [
       choices: ['$190$', '$170$', '$20$', '$340$'],
       answer: 1,
       solution:
-        'First recover $n$: the exterior angle is $180^\\circ - 162^\\circ = 18^\\circ$, so $n = \\frac{360^\\circ}{18^\\circ} = 20$. Then count diagonals: $\\frac{20 \\times 17}{2} = 170$ ✓. Check a second, independent way: algebra on the interior sum, $(n - 2) \\cdot 180^\\circ = 162^\\circ n$, gives $18n = 360$ and $n = 20$ again; and all pairs minus sides gives $\\frac{20 \\times 19}{2} - 20 = 190 - 20 = 170$ ✓. (The choice $190$ COUNTS ALL PAIRS of corners, sides included ✗; $340$ FORGETS TO HALVE $20 \\times 17$ ✗; $20$ STOPS AT THE SIDE COUNT ✗.)',
+        'First recover $n$: the exterior angle is $180^\\circ - 162^\\circ = 18^\\circ$, so $n = \\frac{360^\\circ}{18^\\circ} = 20$. Then count diagonals: $\\frac{20 \\times 17}{2} = 170$ ✓. Check a second, independent way: algebra on the interior sum, $(n - 2) \\cdot 180^\\circ = 162^\\circ n$, gives $18n = 360$ and $n = 20$ again; and all pairs minus sides gives $\\frac{20 \\times 19}{2} - 20 = 190 - 20 = 170$ ✓. (The choice $190$ COUNTS ALL PAIRS of corners, sides included ✗; $20$ STOPS AT THE SIDE COUNT ✗; $340$ FORGETS TO HALVE $20 \\times 17$ ✗.)',
     },
   ],
   // s8 — two regular tiles at a point: uncovered degrees.
@@ -440,7 +440,7 @@ const s94 = [
       choices: ['$3:2$', '$1:1$', '$2:3$', '$3:1$'],
       answer: 0,
       solution:
-        'Compute both areas. The hexagon: $\\frac{3\\sqrt{3}}{2} \\cdot 5^2 = \\frac{75\\sqrt{3}}{2}$. The triangle: $\\frac{\\sqrt{3}}{4} \\cdot 10^2 = 25\\sqrt{3}$. The ratio is $\\frac{75}{2} : 25 = 75 : 50 = 3 : 2$ ✓. Check a second, independent way by counting unit pieces: the hexagon is $6$ equilateral triangles of side $5$, and the side-$10$ triangle is $4$ of them since doubling a side quadruples the area; $6 : 4 = 3 : 2$ ✓. (The choice $2:3$ INVERTS THE RATIO, putting the triangle first ✗; $1:1$ ASSUMES EQUAL PERIMETERS FORCE EQUAL AREAS ✗; $3:1$ DOUBLES AREA WITH SIDE, counting the big triangle as only $2$ units ✗.)',
+        'Compute both areas. The hexagon: $\\frac{3\\sqrt{3}}{2} \\cdot 5^2 = \\frac{75\\sqrt{3}}{2}$. The triangle: $\\frac{\\sqrt{3}}{4} \\cdot 10^2 = 25\\sqrt{3}$. The ratio is $\\frac{75}{2} : 25 = 75 : 50 = 3 : 2$ ✓. Check a second, independent way by counting unit pieces: the hexagon is $6$ equilateral triangles of side $5$, and the side-$10$ triangle is $4$ of them since doubling a side quadruples the area; $6 : 4 = 3 : 2$ ✓. (The choice $1:1$ ASSUMES EQUAL PERIMETERS FORCE EQUAL AREAS ✗; $2:3$ INVERTS THE RATIO, putting the triangle first ✗; $3:1$ DOUBLES AREA WITH SIDE, counting the big triangle as only $2$ units ✗.)',
     },
     {
       q: 'Two woven rugs use identical binding tape around their edges: one is a regular hexagon with side $7$, the other an equilateral triangle with side $14$, as shown, each with a $42$-unit perimeter. What is the ratio of the hexagonal rug’s area to the triangular rug’s area?',
@@ -480,7 +480,7 @@ const s94 = [
       choices: ['$276$', '$24$', '$504$', '$252$'],
       answer: 3,
       solution:
-        'Recover the side count: $(n - 2) \\cdot 180 = 3960$ gives $n - 2 = 22$, so $n = 24$. Then the diagonals: $\\frac{24 \\times 21}{2} = 252$ ✓. Check a second, independent way: the boundary walk confirms $n$, since $24 \\cdot 180^\\circ - 360^\\circ = 4320^\\circ - 360^\\circ = 3960^\\circ$ ✓, and all pairs minus sides gives $\\frac{24 \\times 23}{2} - 24 = 276 - 24 = 252$ ✓. (The choice $276$ COUNTS ALL PAIRS of corners, sides included ✗; $504$ FORGETS TO HALVE $24 \\times 21$ ✗; $24$ STOPS AT THE SIDE COUNT ✗.)',
+        'Recover the side count: $(n - 2) \\cdot 180 = 3960$ gives $n - 2 = 22$, so $n = 24$. Then the diagonals: $\\frac{24 \\times 21}{2} = 252$ ✓. Check a second, independent way: the boundary walk confirms $n$, since $24 \\cdot 180^\\circ - 360^\\circ = 4320^\\circ - 360^\\circ = 3960^\\circ$ ✓, and all pairs minus sides gives $\\frac{24 \\times 23}{2} - 24 = 276 - 24 = 252$ ✓. (The choice $276$ COUNTS ALL PAIRS of corners, sides included ✗; $24$ STOPS AT THE SIDE COUNT ✗; $504$ FORGETS TO HALVE $24 \\times 21$ ✗.)',
     },
   ],
 ]

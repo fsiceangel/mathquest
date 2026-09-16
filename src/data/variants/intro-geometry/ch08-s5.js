@@ -61,7 +61,7 @@ const s85 = [
       choices: ['$98$', '$49$', '$35$', '$588$'],
       answer: 2,
       solution:
-        'The sprint is the hypotenuse of a right triangle with legs $28$ and $21$: $d = \\sqrt{28^2 + 21^2} = \\sqrt{784 + 441} = \\sqrt{1225} = 35$ m ✓. Check a second, independent way by scaling a known triple: $21$ and $28$ are $7 \\times 3$ and $7 \\times 4$, so the hypotenuse is $7 \\times 5 = 35$ ✓. Guard: $21^2 + 28^2 = 441 + 784 = 1225 = 35^2$ ✓. (The choice $49$ is ADDING THE SIDES $28 + 21$, the two-edge detour instead of the straight cut ✗; $98$ is ANSWERING THE PERIMETER ✗; $588$ is ANSWERING THE AREA ✗.)',
+        'The sprint is the hypotenuse of a right triangle with legs $28$ and $21$: $d = \\sqrt{28^2 + 21^2} = \\sqrt{784 + 441} = \\sqrt{1225} = 35$ m ✓. Check a second, independent way by scaling a known triple: $21$ and $28$ are $7 \\times 3$ and $7 \\times 4$, so the hypotenuse is $7 \\times 5 = 35$ ✓. Guard: $21^2 + 28^2 = 441 + 784 = 1225 = 35^2$ ✓. (The choice $98$ is ANSWERING THE PERIMETER ✗; $49$ is ADDING THE SIDES $28 + 21$, the two-edge detour instead of the straight cut ✗; $588$ is ANSWERING THE AREA ✗.)',
     },
     {
       q: 'A stage platform is $30$ ft long and $16$ ft deep. A technician tapes a cable straight across the platform from one corner to the opposite corner. Find the length of the taped cable.',
@@ -166,7 +166,7 @@ const s85 = [
       choices: ['$21$', '$10.5$', '$42$', '$5.25$'],
       answer: 0,
       solution:
-        'Because the diagonals of a rectangle bisect each other, $AC = 2 \\cdot AM = 21$; because they are also equal, the other ribbon matches it: $BD = AC = 21$ inches ✓. Check a second, independent way through the center: the pin $M$ sits the same distance from every corner, so $MB = MD = AM = 10.5$ and $BD = 10.5 + 10.5 = 21$ ✓. (The choice $10.5$ is STOPPING AT THE HALF-DIAGONAL ✗; $5.25$ is HALVING WHAT IS ALREADY A HALF ✗; $42$ is DOUBLING THE FULL DIAGONAL after it was already assembled ✗.)',
+        'Because the diagonals of a rectangle bisect each other, $AC = 2 \\cdot AM = 21$; because they are also equal, the other ribbon matches it: $BD = AC = 21$ inches ✓. Check a second, independent way through the center: the pin $M$ sits the same distance from every corner, so $MB = MD = AM = 10.5$ and $BD = 10.5 + 10.5 = 21$ ✓. (The choice $10.5$ is STOPPING AT THE HALF-DIAGONAL ✗; $42$ is DOUBLING THE FULL DIAGONAL after it was already assembled ✗; $5.25$ is HALVING WHAT IS ALREADY A HALF ✗.)',
     },
     {
       q: 'The rectangular ceiling $ABCD$ of a warehouse is braced by two steel cables running along its diagonals, which cross at a joint $M$. The cable stretch from corner $A$ to the joint is $13.5$ ft. How long is the full cable $\\overline{BD}$?',
@@ -186,7 +186,7 @@ const s85 = [
       choices: ['$13.5$', '$54$', '$27$', '$6.75$'],
       answer: 2,
       solution:
-        'The diagonals of a rectangle bisect each other, so $AC = 2 \\cdot AM = 27$; and equal diagonals hand the same length to the other cable: $BD = AC = 27$ ft ✓. Check a second, independent way through the center: the joint $M$ is equidistant from all four corners, so $MB = MD = 13.5$ and $BD = MB + MD = 27$ ✓. (The choice $13.5$ is STOPPING AT THE HALF-DIAGONAL — only the stretch to the joint ✗; $6.75$ is HALVING WHAT IS ALREADY A HALF ✗; $54$ is DOUBLING THE FULL DIAGONAL a second time ✗.)',
+        'The diagonals of a rectangle bisect each other, so $AC = 2 \\cdot AM = 27$; and equal diagonals hand the same length to the other cable: $BD = AC = 27$ ft ✓. Check a second, independent way through the center: the joint $M$ is equidistant from all four corners, so $MB = MD = 13.5$ and $BD = MB + MD = 27$ ✓. (The choice $13.5$ is STOPPING AT THE HALF-DIAGONAL — only the stretch to the joint ✗; $54$ is DOUBLING THE FULL DIAGONAL a second time ✗; $6.75$ is HALVING WHAT IS ALREADY A HALF ✗.)',
     },
   ],
   // s4 — diagonal and one side given: Pythagoras first, then area.
@@ -596,7 +596,7 @@ const s85 = [
       choices: ['$134^\\circ$', '$46^\\circ$', '$23^\\circ$', '$67^\\circ$'],
       answer: 1,
       solution:
-        'Let $M$ be the crossing of the diagonals. Since the diagonals are equal and bisect each other, $MA = MB$, so triangle $ABM$ is isosceles: $\\angle MBA = \\angle MAB = 23^\\circ$ and $\\angle AMB = 180^\\circ - 46^\\circ = 134^\\circ$; the supplement at the crossing is $180^\\circ - 134^\\circ = 46^\\circ$ ✓. Check a second, independent way with the exterior angle theorem: $\\angle BMC$, exterior to triangle $ABM$ at $M$, equals the two remote interior angles together, $23^\\circ + 23^\\circ = 46^\\circ$ ✓. Doubling stays acute because the tilt against the longer edge is always under $45^\\circ$. (The choice $23^\\circ$ is HANDING BACK THE GIVEN ✗; $134^\\circ$ is ANSWERING THE OBTUSE PARTNER ✗; $67^\\circ$ is ANSWERING THE COMPLEMENT $90^\\circ - 23^\\circ$, the angle against the short edge ✗.)',
+        'Let $M$ be the crossing of the diagonals. Since the diagonals are equal and bisect each other, $MA = MB$, so triangle $ABM$ is isosceles: $\\angle MBA = \\angle MAB = 23^\\circ$ and $\\angle AMB = 180^\\circ - 46^\\circ = 134^\\circ$; the supplement at the crossing is $180^\\circ - 134^\\circ = 46^\\circ$ ✓. Check a second, independent way with the exterior angle theorem: $\\angle BMC$, exterior to triangle $ABM$ at $M$, equals the two remote interior angles together, $23^\\circ + 23^\\circ = 46^\\circ$ ✓. Doubling stays acute because the tilt against the longer edge is always under $45^\\circ$. (The choice $134^\\circ$ is ANSWERING THE OBTUSE PARTNER ✗; $23^\\circ$ is HANDING BACK THE GIVEN ✗; $67^\\circ$ is ANSWERING THE COMPLEMENT $90^\\circ - 23^\\circ$, the angle against the short edge ✗.)',
     },
   ],
 ]

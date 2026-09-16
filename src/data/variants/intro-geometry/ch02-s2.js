@@ -153,7 +153,7 @@ const s22 = [
       choices: ['$276^\\circ$', '$42^\\circ$', '$69^\\circ$', '$138^\\circ$'],
       answer: 2,
       solution:
-        'Bisect means cut into two equal pieces, so $\\angle KLN = \\frac{138^\\circ}{2} = 69^\\circ$ ✓. Check a second, independent way by splitting the halving into friendly chunks and then rebuilding: half of $130^\\circ$ is $65^\\circ$ and half of $8^\\circ$ is $4^\\circ$, giving $65^\\circ + 4^\\circ = 69^\\circ$; putting the two pieces back gives $69^\\circ + 69^\\circ = 138^\\circ$ ✓, exactly the angle we started with. That rebuild also settles the size question at a glance: a piece has to be SMALLER than the whole. (The choice $138^\\circ$ is ANSWERING WITH THE WHOLE ANGLE, forgetting the cut ✗; $276^\\circ$ is DOUBLING INSTEAD OF HALVING ✗; $42^\\circ$ is TAKING THE SUPPLEMENT, $180^\\circ - 138^\\circ$, which has nothing to do with the bisector ✗.)',
+        'Bisect means cut into two equal pieces, so $\\angle KLN = \\frac{138^\\circ}{2} = 69^\\circ$ ✓. Check a second, independent way by splitting the halving into friendly chunks and then rebuilding: half of $130^\\circ$ is $65^\\circ$ and half of $8^\\circ$ is $4^\\circ$, giving $65^\\circ + 4^\\circ = 69^\\circ$; putting the two pieces back gives $69^\\circ + 69^\\circ = 138^\\circ$ ✓, exactly the angle we started with. That rebuild also settles the size question at a glance: a piece has to be SMALLER than the whole. (The choice $276^\\circ$ is DOUBLING INSTEAD OF HALVING ✗; $42^\\circ$ is TAKING THE SUPPLEMENT, $180^\\circ - 138^\\circ$, which has nothing to do with the bisector ✗; $138^\\circ$ is ANSWERING WITH THE WHOLE ANGLE, forgetting the cut ✗.)',
     },
     {
       q: 'Ray $\\overrightarrow{VS}$ bisects $\\angle UVW$, and $\\angle UVW = 96^\\circ$. What is $\\angle SVW$?',
@@ -174,7 +174,7 @@ const s22 = [
       choices: ['$48^\\circ$', '$96^\\circ$', '$84^\\circ$', '$192^\\circ$'],
       answer: 0,
       solution:
-        'The bisector makes the two pieces equal, and the question asks for the piece on the $W$ side, so $\\angle SVW = \\frac{96^\\circ}{2} = 48^\\circ$ ✓. Notice that $\\angle UVS$ is $48^\\circ$ too — with a bisector it does not matter which half you are asked for. Check a second, independent way by working forward instead of backward: call each half $y$, and since the two halves make the whole, $y + y = 96^\\circ$, so $2y = 96^\\circ$ and $y = 48^\\circ$ ✓, with $48^\\circ + 48^\\circ = 96^\\circ$ confirming the fit. (The choice $96^\\circ$ is ANSWERING WITH THE WHOLE ANGLE ✗; $192^\\circ$ is DOUBLING INSTEAD OF HALVING ✗; $84^\\circ$ is TAKING THE SUPPLEMENT, $180^\\circ - 96^\\circ$ ✗.)',
+        'The bisector makes the two pieces equal, and the question asks for the piece on the $W$ side, so $\\angle SVW = \\frac{96^\\circ}{2} = 48^\\circ$ ✓. Notice that $\\angle UVS$ is $48^\\circ$ too — with a bisector it does not matter which half you are asked for. Check a second, independent way by working forward instead of backward: call each half $y$, and since the two halves make the whole, $y + y = 96^\\circ$, so $2y = 96^\\circ$ and $y = 48^\\circ$ ✓, with $48^\\circ + 48^\\circ = 96^\\circ$ confirming the fit. (The choice $96^\\circ$ is ANSWERING WITH THE WHOLE ANGLE ✗; $84^\\circ$ is TAKING THE SUPPLEMENT, $180^\\circ - 96^\\circ$ ✗; $192^\\circ$ is DOUBLING INSTEAD OF HALVING ✗.)',
     },
     {
       q: 'Ray $\\overrightarrow{EG}$ bisects $\\angle DEF$, and $\\angle DEF = 154^\\circ$. What is $\\angle GEF$?',
@@ -195,7 +195,7 @@ const s22 = [
       choices: ['$154^\\circ$', '$26^\\circ$', '$308^\\circ$', '$77^\\circ$'],
       answer: 3,
       solution:
-        'A bisector splits $\\angle DEF$ into two equal halves, so $\\angle GEF = \\frac{154^\\circ}{2} = 77^\\circ$ ✓. Check a second, independent way by halving in chunks and rebuilding: half of $150^\\circ$ is $75^\\circ$, half of $4^\\circ$ is $2^\\circ$, and $75^\\circ + 2^\\circ = 77^\\circ$; stacking the halves back gives $77^\\circ + 77^\\circ = 154^\\circ$ ✓. The rebuild is also a size check — each half must come out well under $90^\\circ$ even though the whole angle is obtuse, and $77^\\circ$ does. (The choice $154^\\circ$ is ANSWERING WITH THE WHOLE ANGLE ✗; $308^\\circ$ is DOUBLING INSTEAD OF HALVING ✗; $26^\\circ$ is TAKING THE SUPPLEMENT, $180^\\circ - 154^\\circ$ ✗.)',
+        'A bisector splits $\\angle DEF$ into two equal halves, so $\\angle GEF = \\frac{154^\\circ}{2} = 77^\\circ$ ✓. Check a second, independent way by halving in chunks and rebuilding: half of $150^\\circ$ is $75^\\circ$, half of $4^\\circ$ is $2^\\circ$, and $75^\\circ + 2^\\circ = 77^\\circ$; stacking the halves back gives $77^\\circ + 77^\\circ = 154^\\circ$ ✓. The rebuild is also a size check — each half must come out well under $90^\\circ$ even though the whole angle is obtuse, and $77^\\circ$ does. (The choice $154^\\circ$ is ANSWERING WITH THE WHOLE ANGLE ✗; $26^\\circ$ is TAKING THE SUPPLEMENT, $180^\\circ - 154^\\circ$ ✗; $308^\\circ$ is DOUBLING INSTEAD OF HALVING ✗.)',
     },
   ],
   // s5 — the reflex angle on the other side of the same two rays.
@@ -234,7 +234,7 @@ const s22 = [
       choices: ['$254^\\circ$', '$106^\\circ$', '$74^\\circ$', '$286^\\circ$'],
       answer: 3,
       solution:
-        'Both journeys around the rays add up to one whole turn, so the reflex angle is $360^\\circ - 74^\\circ = 286^\\circ$ ✓. Check a second, independent way by adding half turns. Going the long way, the sweep passes the ray opposite the $74^\\circ$ side after $180^\\circ - 74^\\circ = 106^\\circ$, and then needs a further half turn of $180^\\circ$ to reach the second ray: $106^\\circ + 180^\\circ = 286^\\circ$ ✓. A quick sanity check also fits — a reflex angle must sit between $180^\\circ$ and $360^\\circ$, and $286^\\circ$ does. (The choice $106^\\circ$ is TAKING THE SUPPLEMENT and is not even reflex ✗; $254^\\circ$ is SUBTRACTING THE SUPPLEMENT FROM THE FULL TURN, $360^\\circ - 106^\\circ$ ✗; $74^\\circ$ is REPEATING THE GIVEN ANGLE ✗.)',
+        'Both journeys around the rays add up to one whole turn, so the reflex angle is $360^\\circ - 74^\\circ = 286^\\circ$ ✓. Check a second, independent way by adding half turns. Going the long way, the sweep passes the ray opposite the $74^\\circ$ side after $180^\\circ - 74^\\circ = 106^\\circ$, and then needs a further half turn of $180^\\circ$ to reach the second ray: $106^\\circ + 180^\\circ = 286^\\circ$ ✓. A quick sanity check also fits — a reflex angle must sit between $180^\\circ$ and $360^\\circ$, and $286^\\circ$ does. (The choice $254^\\circ$ is SUBTRACTING THE SUPPLEMENT FROM THE FULL TURN, $360^\\circ - 106^\\circ$ ✗; $106^\\circ$ is TAKING THE SUPPLEMENT and is not even reflex ✗; $74^\\circ$ is REPEATING THE GIVEN ANGLE ✗.)',
     },
     {
       q: 'Kian measures the marked angle in the figure as $155^\\circ$. What is the measure of the reflex angle marked with the question mark?',
@@ -252,7 +252,7 @@ const s22 = [
       choices: ['$205^\\circ$', '$335^\\circ$', '$25^\\circ$', '$155^\\circ$'],
       answer: 0,
       solution:
-        'The marked angle and the reflex angle together sweep the whole turn, so the reflex angle is $360^\\circ - 155^\\circ = 205^\\circ$ ✓. Check a second, independent way by breaking the long journey at the half-turn mark: from the first ray it takes $180^\\circ - 155^\\circ = 25^\\circ$ to reach the ray opposite the second one, and a further $180^\\circ$ to finish, giving $25^\\circ + 180^\\circ = 205^\\circ$ ✓. Both routes agree, and $205^\\circ$ is just past a straight angle, which matches a picture whose two rays are nearly in a line. (The choice $25^\\circ$ is TAKING THE SUPPLEMENT ✗; $335^\\circ$ is SUBTRACTING THE SUPPLEMENT FROM THE FULL TURN, $360^\\circ - 25^\\circ$ ✗; $155^\\circ$ is REPEATING THE GIVEN ANGLE ✗.)',
+        'The marked angle and the reflex angle together sweep the whole turn, so the reflex angle is $360^\\circ - 155^\\circ = 205^\\circ$ ✓. Check a second, independent way by breaking the long journey at the half-turn mark: from the first ray it takes $180^\\circ - 155^\\circ = 25^\\circ$ to reach the ray opposite the second one, and a further $180^\\circ$ to finish, giving $25^\\circ + 180^\\circ = 205^\\circ$ ✓. Both routes agree, and $205^\\circ$ is just past a straight angle, which matches a picture whose two rays are nearly in a line. (The choice $335^\\circ$ is SUBTRACTING THE SUPPLEMENT FROM THE FULL TURN, $360^\\circ - 25^\\circ$ ✗; $25^\\circ$ is TAKING THE SUPPLEMENT ✗; $155^\\circ$ is REPEATING THE GIVEN ANGLE ✗.)',
     },
   ],
   // s6 — degrees swept by the minute hand alone (may exceed 180).
@@ -295,7 +295,7 @@ const s22 = [
       choices: ['$120^\\circ$', '$40^\\circ$', '$240^\\circ$', '$480^\\circ$'],
       answer: 2,
       solution:
-        'At $6^\\circ$ per minute the hand turns $40 \\times 6^\\circ = 240^\\circ$ ✓ — more than a straight angle, which is fine here, because the question asks how far the hand TURNED, not the angle between two hands. Check a second, independent way with fractions of a turn: $40$ minutes is $\\frac{40}{60} = \\frac{2}{3}$ of an hour, and $\\frac{2}{3}$ of $360^\\circ$ is $\\frac{2 \\times 360}{3} = 240^\\circ$ ✓. Counting dial gaps agrees too: $40 \\div 5 = 8$ gaps at $30^\\circ$ each. (The choice $40^\\circ$ is READING MINUTES AS DEGREES ✗; $120^\\circ$ is COUNTING THE MINUTES LEFT IN THE HOUR, $20 \\times 6^\\circ$ ✗; $480^\\circ$ is DOUBLING THE RATE, and it is more than a whole turn, which no hand can manage in under an hour ✗.)',
+        'At $6^\\circ$ per minute the hand turns $40 \\times 6^\\circ = 240^\\circ$ ✓ — more than a straight angle, which is fine here, because the question asks how far the hand TURNED, not the angle between two hands. Check a second, independent way with fractions of a turn: $40$ minutes is $\\frac{40}{60} = \\frac{2}{3}$ of an hour, and $\\frac{2}{3}$ of $360^\\circ$ is $\\frac{2 \\times 360}{3} = 240^\\circ$ ✓. Counting dial gaps agrees too: $40 \\div 5 = 8$ gaps at $30^\\circ$ each. (The choice $120^\\circ$ is COUNTING THE MINUTES LEFT IN THE HOUR, $20 \\times 6^\\circ$ ✗; $40^\\circ$ is READING MINUTES AS DEGREES ✗; $480^\\circ$ is DOUBLING THE RATE, and it is more than a whole turn, which no hand can manage in under an hour ✗.)',
     },
     {
       q: 'A song lasts $12$ minutes. Through how many degrees does the minute hand of a wall clock turn while the song plays?',
@@ -315,7 +315,7 @@ const s22 = [
       choices: ['$288^\\circ$', '$72^\\circ$', '$12^\\circ$', '$144^\\circ$'],
       answer: 1,
       solution:
-        'The minute hand moves $6^\\circ$ each minute, so $12$ minutes buys $12 \\times 6^\\circ = 72^\\circ$ ✓. Check a second, independent way using fractions of the dial: $12$ minutes is $\\frac{12}{60} = \\frac{1}{5}$ of an hour, and $\\frac{1}{5}$ of $360^\\circ$ is $360 \\div 5 = 72^\\circ$ ✓. That $\\frac{1}{5}$ is worth remembering — five songs of this length would carry the hand once around. (The choice $12^\\circ$ is READING MINUTES AS DEGREES ✗; $288^\\circ$ is COUNTING THE MINUTES LEFT IN THE HOUR, $48 \\times 6^\\circ$ ✗; $144^\\circ$ is DOUBLING THE RATE to $12^\\circ$ per minute ✗.)',
+        'The minute hand moves $6^\\circ$ each minute, so $12$ minutes buys $12 \\times 6^\\circ = 72^\\circ$ ✓. Check a second, independent way using fractions of the dial: $12$ minutes is $\\frac{12}{60} = \\frac{1}{5}$ of an hour, and $\\frac{1}{5}$ of $360^\\circ$ is $360 \\div 5 = 72^\\circ$ ✓. That $\\frac{1}{5}$ is worth remembering — five songs of this length would carry the hand once around. (The choice $288^\\circ$ is COUNTING THE MINUTES LEFT IN THE HOUR, $48 \\times 6^\\circ$ ✗; $12^\\circ$ is READING MINUTES AS DEGREES ✗; $144^\\circ$ is DOUBLING THE RATE to $12^\\circ$ per minute ✗.)',
     },
   ],
   // s7 — bisector algebra: set the halves equal, then report the WHOLE angle.
@@ -332,14 +332,14 @@ const s22 = [
       choices: ['$142^\\circ$', '$71^\\circ$', '$16^\\circ$', '$284^\\circ$'],
       answer: 0,
       solution:
-        'The bisector forces the halves to match: $4x + 7 = 3x + 23$, so $x = 16$. One half is $4(16) + 7 = 71^\\circ$, and the whole is $2 \\times 71^\\circ = 142^\\circ$ ✓. Check a second, independent way by adding the parts before substituting: the whole angle is $(4x + 7) + (3x + 23) = 7x + 30$, and $7(16) + 30 = 112 + 30 = 142^\\circ$ ✓. Both routes agree, and the second expression checks the halving: $3(16) + 23 = 71^\\circ$ ✓, matching the first half exactly as a bisector demands. (The choice $16^\\circ$ is STOPPING AT x ✗; $71^\\circ$ is ANSWERING WITH ONE HALF when the question asks for the whole angle ✗; $284^\\circ$ is DOUBLING TWICE ✗.)',
+        'The bisector forces the halves to match: $4x + 7 = 3x + 23$, so $x = 16$. One half is $4(16) + 7 = 71^\\circ$, and the whole is $2 \\times 71^\\circ = 142^\\circ$ ✓. Check a second, independent way by adding the parts before substituting: the whole angle is $(4x + 7) + (3x + 23) = 7x + 30$, and $7(16) + 30 = 112 + 30 = 142^\\circ$ ✓. Both routes agree, and the second expression checks the halving: $3(16) + 23 = 71^\\circ$ ✓, matching the first half exactly as a bisector demands. (The choice $71^\\circ$ is ANSWERING WITH ONE HALF when the question asks for the whole angle ✗; $16^\\circ$ is STOPPING AT x ✗; $284^\\circ$ is DOUBLING TWICE ✗.)',
     },
     {
       q: 'Ray $\\overrightarrow{NR}$ bisects $\\angle MNP$. If $\\angle MNR = 3x + 11$ and $\\angle RNP = 2x + 25$ (in degrees), what is $\\angle MNP$?',
       choices: ['$53^\\circ$', '$14^\\circ$', '$212^\\circ$', '$106^\\circ$'],
       answer: 3,
       solution:
-        'Equal halves means $3x + 11 = 2x + 25$, so $x = 14$; each half is $3(14) + 11 = 53^\\circ$ and the whole angle is $2 \\times 53^\\circ = 106^\\circ$ ✓. Check a second, independent way by summing the two expressions first: the whole is $(3x + 11) + (2x + 25) = 5x + 36$, and $5(14) + 36 = 70 + 36 = 106^\\circ$ ✓. The other half confirms the equality: $2(14) + 25 = 53^\\circ$ ✓. Notice the whole angle is obtuse while each half is acute — a bisector always cuts an obtuse angle into two acute ones. (The choice $14^\\circ$ is STOPPING AT x ✗; $53^\\circ$ is ANSWERING WITH ONE HALF ✗; $212^\\circ$ is DOUBLING TWICE ✗.)',
+        'Equal halves means $3x + 11 = 2x + 25$, so $x = 14$; each half is $3(14) + 11 = 53^\\circ$ and the whole angle is $2 \\times 53^\\circ = 106^\\circ$ ✓. Check a second, independent way by summing the two expressions first: the whole is $(3x + 11) + (2x + 25) = 5x + 36$, and $5(14) + 36 = 70 + 36 = 106^\\circ$ ✓. The other half confirms the equality: $2(14) + 25 = 53^\\circ$ ✓. Notice the whole angle is obtuse while each half is acute — a bisector always cuts an obtuse angle into two acute ones. (The choice $53^\\circ$ is ANSWERING WITH ONE HALF ✗; $14^\\circ$ is STOPPING AT x ✗; $212^\\circ$ is DOUBLING TWICE ✗.)',
     },
   ],
   // s8 — angle between the hands exactly on the hour.
@@ -459,7 +459,7 @@ const s22 = [
       choices: ['$168^\\circ$', '$144^\\circ$', '$216^\\circ$', '$138^\\circ$'],
       answer: 1,
       solution:
-        'Minute hand: $48 \\times 6^\\circ = 288^\\circ$ from the $12$. Hour hand: $4 \\times 30^\\circ = 120^\\circ$ at 4:00, plus $48 \\times 0.5^\\circ = 24^\\circ$ of creep, giving $144^\\circ$. The gap is $288^\\circ - 144^\\circ = 144^\\circ$ ✓, and since that is below $180^\\circ$ it is already the short way. Check a second, independent way with relative speed: at 4:00 the minute hand trails by $120^\\circ$ and gains $5.5^\\circ$ every minute, so in $48$ minutes it gains $48 \\times 5.5^\\circ = 264^\\circ$ and finishes $264^\\circ - 120^\\circ = 144^\\circ$ ahead ✓. A pleasing coincidence to notice: the hour hand happens to stand at $144^\\circ$ too, but that is its position, not the answer. (The choice $168^\\circ$ is FORGETTING THE HOUR HAND’S CREEP ✗; $138^\\circ$ is ADVANCING THE HOUR HAND A WHOLE HOUR to the $5$ ✗; $216^\\circ$ is GOING THE LONG WAY AROUND ✗.)',
+        'Minute hand: $48 \\times 6^\\circ = 288^\\circ$ from the $12$. Hour hand: $4 \\times 30^\\circ = 120^\\circ$ at 4:00, plus $48 \\times 0.5^\\circ = 24^\\circ$ of creep, giving $144^\\circ$. The gap is $288^\\circ - 144^\\circ = 144^\\circ$ ✓, and since that is below $180^\\circ$ it is already the short way. Check a second, independent way with relative speed: at 4:00 the minute hand trails by $120^\\circ$ and gains $5.5^\\circ$ every minute, so in $48$ minutes it gains $48 \\times 5.5^\\circ = 264^\\circ$ and finishes $264^\\circ - 120^\\circ = 144^\\circ$ ahead ✓. A pleasing coincidence to notice: the hour hand happens to stand at $144^\\circ$ too, but that is its position, not the answer. (The choice $168^\\circ$ is FORGETTING THE HOUR HAND’S CREEP ✗; $216^\\circ$ is GOING THE LONG WAY AROUND ✗; $138^\\circ$ is ADVANCING THE HOUR HAND A WHOLE HOUR to the $5$ ✗.)',
     },
   ],
   // s10 — quarter-hour times, where the creep lands on a half degree.
@@ -500,7 +500,7 @@ const s22 = [
       choices: ['$157.5^\\circ$', '$202.5^\\circ$', '$150^\\circ$', '$142.5^\\circ$'],
       answer: 0,
       solution:
-        'Minute hand: $15 \\times 6^\\circ = 90^\\circ$ from the $12$. Hour hand: $8 \\times 30^\\circ = 240^\\circ$ at 8:00, plus $15 \\times 0.5^\\circ = 7.5^\\circ$ of creep, so $247.5^\\circ$. The hands are $247.5^\\circ - 90^\\circ = 157.5^\\circ$ apart, and that is under $180^\\circ$, so it is the short way ✓. Check a second, independent way with relative speed: at 8:00 the hour hand leads the minute hand by $240^\\circ$ the forward way, and the minute hand claws back $5.5^\\circ$ each minute, so after $15$ minutes the lead is $240^\\circ - 15 \\times 5.5^\\circ = 240^\\circ - 82.5^\\circ = 157.5^\\circ$ ✓. (The choice $150^\\circ$ is FORGETTING THE HOUR HAND’S CREEP ✗; $142.5^\\circ$ is SUBTRACTING THE CREEP INSTEAD OF ADDING, dragging the hour hand backwards toward the $8$ ✗; $202.5^\\circ$ is GOING THE LONG WAY AROUND ✗.)',
+        'Minute hand: $15 \\times 6^\\circ = 90^\\circ$ from the $12$. Hour hand: $8 \\times 30^\\circ = 240^\\circ$ at 8:00, plus $15 \\times 0.5^\\circ = 7.5^\\circ$ of creep, so $247.5^\\circ$. The hands are $247.5^\\circ - 90^\\circ = 157.5^\\circ$ apart, and that is under $180^\\circ$, so it is the short way ✓. Check a second, independent way with relative speed: at 8:00 the hour hand leads the minute hand by $240^\\circ$ the forward way, and the minute hand claws back $5.5^\\circ$ each minute, so after $15$ minutes the lead is $240^\\circ - 15 \\times 5.5^\\circ = 240^\\circ - 82.5^\\circ = 157.5^\\circ$ ✓. (The choice $202.5^\\circ$ is GOING THE LONG WAY AROUND ✗; $150^\\circ$ is FORGETTING THE HOUR HAND’S CREEP ✗; $142.5^\\circ$ is SUBTRACTING THE CREEP INSTEAD OF ADDING, dragging the hour hand backwards toward the $8$ ✗.)',
     },
     {
       q: 'A clock reads 5:45. What is the angle between its two hands?',
@@ -519,7 +519,7 @@ const s22 = [
       choices: ['$120^\\circ$', '$97.5^\\circ$', '$262.5^\\circ$', '$142.5^\\circ$'],
       answer: 1,
       solution:
-        'Minute hand: $45 \\times 6^\\circ = 270^\\circ$ from the $12$, pointing straight at the $9$. Hour hand: $5 \\times 30^\\circ = 150^\\circ$ at 5:00, plus $45 \\times 0.5^\\circ = 22.5^\\circ$ of creep, giving $172.5^\\circ$. The gap is $270^\\circ - 172.5^\\circ = 97.5^\\circ$ ✓. Check a second, independent way with relative speed: at 5:00 the minute hand trails by $150^\\circ$, and in $45$ minutes it gains $45 \\times 5.5^\\circ = 247.5^\\circ$, so it finishes $247.5^\\circ - 150^\\circ = 97.5^\\circ$ ahead ✓. The figure agrees — three quarters of the hour has gone by, so the hour hand is three quarters of the way from the $5$ to the $6$, just shy of the bottom of the dial. (The choice $120^\\circ$ is FORGETTING THE HOUR HAND’S CREEP ✗; $142.5^\\circ$ is SUBTRACTING THE CREEP INSTEAD OF ADDING ✗; $262.5^\\circ$ is GOING THE LONG WAY AROUND ✗.)',
+        'Minute hand: $45 \\times 6^\\circ = 270^\\circ$ from the $12$, pointing straight at the $9$. Hour hand: $5 \\times 30^\\circ = 150^\\circ$ at 5:00, plus $45 \\times 0.5^\\circ = 22.5^\\circ$ of creep, giving $172.5^\\circ$. The gap is $270^\\circ - 172.5^\\circ = 97.5^\\circ$ ✓. Check a second, independent way with relative speed: at 5:00 the minute hand trails by $150^\\circ$, and in $45$ minutes it gains $45 \\times 5.5^\\circ = 247.5^\\circ$, so it finishes $247.5^\\circ - 150^\\circ = 97.5^\\circ$ ahead ✓. The figure agrees — three quarters of the hour has gone by, so the hour hand is three quarters of the way from the $5$ to the $6$, just shy of the bottom of the dial. (The choice $120^\\circ$ is FORGETTING THE HOUR HAND’S CREEP ✗; $262.5^\\circ$ is GOING THE LONG WAY AROUND ✗; $142.5^\\circ$ is SUBTRACTING THE CREEP INSTEAD OF ADDING ✗.)',
     },
   ],
 ]

@@ -102,13 +102,13 @@ const challenge = [
       q: 'An isosceles triangle has a perimeter of $48$ and a base of length $18$. What is the height drawn to the base?',
       choices: ['$3\\sqrt{34}$', '$9$', '$12$', '$15$'],
       answer: 2,
-      solution: 'The equal sides share $48 - 18 = 30$, so each is $15$. The height cuts the base into halves of $9$, giving a right triangle with hypotenuse $15$ and leg $9$: the height is $\\sqrt{225 - 81} = \\sqrt{144} = 12$ — that is $3$-$4$-$5$ tripled. ($15$ is the equal side itself; $9$ is half the base; $3\\sqrt{34} = \\sqrt{225 + 81}$ adds the squares when a missing LEG calls for subtraction.)',
+      solution: 'The equal sides share $48 - 18 = 30$, so each is $15$. The height cuts the base into halves of $9$, giving a right triangle with hypotenuse $15$ and leg $9$: the height is $\\sqrt{225 - 81} = \\sqrt{144} = 12$ — that is $3$-$4$-$5$ tripled. ($3\\sqrt{34} = \\sqrt{225 + 81}$ adds the squares when a missing LEG calls for subtraction; $9$ is half the base; $15$ is the equal side itself.)',
     },
     {
       q: 'An isosceles triangle has a perimeter of $98$ and a base of length $40$. What is the height drawn to the base?',
       choices: ['$20$', '$29$', '$\\sqrt{1241}$', '$21$'],
       answer: 3,
-      solution: 'The two equal sides share $98 - 40 = 58$, so each is $29$. The height splits the base into halves of $20$, so it is a leg of a right triangle with hypotenuse $29$ and other leg $20$: height $= \\sqrt{841 - 400} = \\sqrt{441} = 21$. ($29$ is the equal side, which must be longer than the height; $20$ is half the base; $\\sqrt{1241}$ comes from adding the squares instead of subtracting.)',
+      solution: 'The two equal sides share $98 - 40 = 58$, so each is $29$. The height splits the base into halves of $20$, so it is a leg of a right triangle with hypotenuse $29$ and other leg $20$: height $= \\sqrt{841 - 400} = \\sqrt{441} = 21$. ($20$ is half the base; $29$ is the equal side, which must be longer than the height; $\\sqrt{1241}$ comes from adding the squares instead of subtracting.)',
     },
   ],
   // 6. A parallelogram given the total of one pair of opposite angles.
@@ -129,7 +129,7 @@ const challenge = [
       q: 'In parallelogram $PQRS$, angles $P$ and $R$ (a pair of opposite angles) sum to $130^\\circ$. What is the measure of angle $Q$?',
       choices: ['$130^\\circ$', '$65^\\circ$', '$115^\\circ$', '$50^\\circ$'],
       answer: 2,
-      solution: 'Equal opposite angles means angles $P$ and $R$ are each $130^\\circ \\div 2 = 65^\\circ$. Angle $Q$ is consecutive to angle $P$, so $180^\\circ - 65^\\circ = 115^\\circ$. Check: $65 + 115 + 65 + 115 = 360$. ✓ ($65^\\circ$ is angle $P$; $130^\\circ$ treats the given sum as one angle; $50^\\circ$ subtracts the sum from $180^\\circ$ rather than subtracting a single angle.)',
+      solution: 'Equal opposite angles means angles $P$ and $R$ are each $130^\\circ \\div 2 = 65^\\circ$. Angle $Q$ is consecutive to angle $P$, so $180^\\circ - 65^\\circ = 115^\\circ$. Check: $65 + 115 + 65 + 115 = 360$. ✓ ($130^\\circ$ treats the given sum as one angle; $65^\\circ$ is angle $P$; $50^\\circ$ subtracts the sum from $180^\\circ$ rather than subtracting a single angle.)',
     },
   ],
   // 7. A square's diagonal in radical form, run backwards to another measurement.
@@ -192,7 +192,7 @@ const challenge = [
       q: 'An equilateral triangle has a height of $6\\sqrt{3}$. What is its perimeter?',
       choices: ['$36$', '$18$', '$12$', '$108$'],
       answer: 0,
-      solution: 'The height is the longer leg of a $30$-$60$-$90$ triangle, so divide by $\\sqrt{3}$ to get the shortest side: $6\\sqrt{3} \\div \\sqrt{3} = 6$. That $6$ is HALF the base, so each side is $12$ and the perimeter is $3 \\times 12 = 36$. ($12$ stops at the side length; $18$ treats the $6$ as a whole side and adds three of them; $108$ multiplies by $\\sqrt{3}$ instead of dividing, getting $18$ for the half-side and a side of $36$.)',
+      solution: 'The height is the longer leg of a $30$-$60$-$90$ triangle, so divide by $\\sqrt{3}$ to get the shortest side: $6\\sqrt{3} \\div \\sqrt{3} = 6$. That $6$ is HALF the base, so each side is $12$ and the perimeter is $3 \\times 12 = 36$. ($18$ treats the $6$ as a whole side and adds three of them; $12$ stops at the side length; $108$ multiplies by $\\sqrt{3}$ instead of dividing, getting $18$ for the half-side and a side of $36$.)',
     },
   ],
   // 10. Rhombus diagonals: halve them first, they meet at a right angle.
@@ -207,13 +207,13 @@ const challenge = [
       q: 'The diagonals of a rhombus have lengths $16$ and $30$. How long is each side of the rhombus?',
       choices: ['$23$', '$8$', '$34$', '$17$'],
       answer: 3,
-      solution: 'Halve each diagonal: the four right triangles inside have legs $8$ and $15$. A side of the rhombus is the hypotenuse of one of them: $\\sqrt{64 + 225} = \\sqrt{289} = 17$. ($23$ averages the diagonals; $34$ forgets to halve and uses $16$ and $30$ as the legs — that answer is longer than the longer diagonal, which no side of a rhombus can be; $8$ is half the shorter diagonal.)',
+      solution: 'Halve each diagonal: the four right triangles inside have legs $8$ and $15$. A side of the rhombus is the hypotenuse of one of them: $\\sqrt{64 + 225} = \\sqrt{289} = 17$. ($23$ averages the diagonals; $8$ is half the shorter diagonal; $34$ forgets to halve and uses $16$ and $30$ as the legs — that answer is longer than the longer diagonal, which no side of a rhombus can be.)',
     },
     {
       q: 'The diagonals of a rhombus have lengths $14$ and $48$. What is the perimeter of the rhombus?',
       choices: ['$200$', '$25$', '$100$', '$124$'],
       answer: 2,
-      solution: 'The half-diagonals $7$ and $24$ are the legs of a right triangle whose hypotenuse is a side of the rhombus: $\\sqrt{49 + 576} = \\sqrt{625} = 25$. All four sides are equal, so the perimeter is $4 \\times 25 = 100$. ($25$ stops at one side; $200$ skips the halving, getting $50$ for each side; $124$ uses the average of the diagonals, $31$, as the side length.)',
+      solution: 'The half-diagonals $7$ and $24$ are the legs of a right triangle whose hypotenuse is a side of the rhombus: $\\sqrt{49 + 576} = \\sqrt{625} = 25$. All four sides are equal, so the perimeter is $4 \\times 25 = 100$. ($200$ skips the halving, getting $50$ for each side; $25$ stops at one side; $124$ uses the average of the diagonals, $31$, as the side length.)',
     },
   ],
   // 11. Testing candidate side lengths against a^2 + b^2 = c^2.
@@ -249,7 +249,7 @@ const challenge = [
       q: 'In trapezoid $WXYZ$, side $WX$ is parallel to side $ZY$, and angle $Y = 124^\\circ$. Angles $X$ and $Y$ share the side $XY$. What is the measure of angle $X$?',
       choices: ['$236^\\circ$', '$124^\\circ$', '$90^\\circ$', '$56^\\circ$'],
       answer: 3,
-      solution: 'Side $XY$ is a transversal between the parallel sides $WX$ and $ZY$, so angles $X$ and $Y$ are supplementary: angle $X = 180^\\circ - 124^\\circ = 56^\\circ$. ($124^\\circ$ assumes they are equal; $236^\\circ$ subtracts from $360^\\circ$, the total for all four angles, and no angle of a convex quadrilateral can exceed $180^\\circ$; $90^\\circ$ assumes a right angle nobody promised.)',
+      solution: 'Side $XY$ is a transversal between the parallel sides $WX$ and $ZY$, so angles $X$ and $Y$ are supplementary: angle $X = 180^\\circ - 124^\\circ = 56^\\circ$. ($236^\\circ$ subtracts from $360^\\circ$, the total for all four angles, and no angle of a convex quadrilateral can exceed $180^\\circ$; $124^\\circ$ assumes they are equal; $90^\\circ$ assumes a right angle nobody promised.)',
     },
     {
       q: 'In trapezoid $ABCD$, side $AB$ is parallel to side $DC$. Angle $A = 68^\\circ$ and angle $B = 95^\\circ$. Angles $B$ and $C$ share the side $BC$. What is the measure of angle $C$?',

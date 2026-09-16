@@ -68,7 +68,7 @@ const challenge = [
       q: 'The sum of four consecutive odd integers is $80$. What is the smallest of them?',
       choices: ['$19$', '$20$', '$17$', '$23$'],
       answer: 2,
-      solution: 'With an even number of terms there is no middle one, so name them from the bottom: $n$, $n+2$, $n+4$, $n+6$. Their sum is $4n + 12 = 80$, so $4n = 68$ and $n = 17$. Check: $17 + 19 + 21 + 23 = 80$. ✓ ($20$ is $80 \\div 4$, the AVERAGE of the four — it sits in the middle of the list and is not even odd; $19$ is the second integer; $23$ is the largest.)',
+      solution: 'With an even number of terms there is no middle one, so name them from the bottom: $n$, $n+2$, $n+4$, $n+6$. Their sum is $4n + 12 = 80$, so $4n = 68$ and $n = 17$. Check: $17 + 19 + 21 + 23 = 80$. ✓ ($19$ is the second integer; $20$ is $80 \\div 4$, the AVERAGE of the four — it sits in the middle of the list and is not even odd; $23$ is the largest.)',
     },
   ],
   // 4. A negative multiplier in front of a parenthesis.
@@ -83,7 +83,7 @@ const challenge = [
       q: 'Solve $12 - 4(x - 3) = 2x + 12$.',
       choices: ['$x = -2$', '$x = 6$', '$x = 2$', '$x = -\\frac{1}{2}$'],
       answer: 2,
-      solution: 'Distribute: $12 - 4x + 12 = 24 - 4x$, since $-4 \\cdot (-3) = +12$. Now $24 - 4x = 2x + 12$. Add $4x$ and subtract $12$: $12 = 6x$, so $x = 2$. Check: $12 - 4(2-3) = 12 + 4 = 16$ and $2(2) + 12 = 16$. ✓ ($-2$ comes from $-4 \\cdot (-3) = -12$, leaving $-4x = 2x + 12$; $-\\frac{1}{2}$ comes from distributing to the $x$ only, $12 - 4x - 3$; $6$ comes from forgetting to negate the $x$ term as well, writing $12 + 4x - 12 = 4x$.)',
+      solution: 'Distribute: $12 - 4x + 12 = 24 - 4x$, since $-4 \\cdot (-3) = +12$. Now $24 - 4x = 2x + 12$. Add $4x$ and subtract $12$: $12 = 6x$, so $x = 2$. Check: $12 - 4(2-3) = 12 + 4 = 16$ and $2(2) + 12 = 16$. ✓ ($-2$ comes from $-4 \\cdot (-3) = -12$, leaving $-4x = 2x + 12$; $6$ comes from forgetting to negate the $x$ term as well, writing $12 + 4x - 12 = 4x$; $-\\frac{1}{2}$ comes from distributing to the $x$ only, $12 - 4x - 3$.)',
     },
     {
       q: 'Solve $5 - 2(4x - 3) = 6x - 3$.',
@@ -140,7 +140,7 @@ const challenge = [
       q: 'A mother is $24$ years older than her son. In $3$ years she will be exactly four times as old as he is. How old is the son now?',
       choices: ['$8$', '$9$', '$5$', '$29$'],
       answer: 2,
-      solution: 'Let $s$ be the son’s age now, so the mother is $s + 24$. In $3$ years BOTH are older: the son is $s + 3$ and the mother is $s + 27$. The condition gives $s + 27 = 4(s + 3) = 4s + 12$, so $15 = 3s$ and $s = 5$. Check: today they are $5$ and $29$; in three years they are $8$ and $32$, and $32 = 4 \\times 8$. ✓ ($8$ is the son’s age in three years, not now; $29$ is the mother’s age; $9$ comes from ageing only the mother, $s + 27 = 4s$, which forgets that the son has a birthday too.)',
+      solution: 'Let $s$ be the son’s age now, so the mother is $s + 24$. In $3$ years BOTH are older: the son is $s + 3$ and the mother is $s + 27$. The condition gives $s + 27 = 4(s + 3) = 4s + 12$, so $15 = 3s$ and $s = 5$. Check: today they are $5$ and $29$; in three years they are $8$ and $32$, and $32 = 4 \\times 8$. ✓ ($8$ is the son’s age in three years, not now; $9$ comes from ageing only the mother, $s + 27 = 4s$, which forgets that the son has a birthday too; $29$ is the mother’s age.)',
     },
     {
       q: 'Ravi is $30$ years older than his niece. In $6$ years he will be exactly three times as old as she is. How old is Ravi now?',
@@ -161,13 +161,13 @@ const challenge = [
       q: 'Solve $\\frac{x}{3} - \\frac{x - 6}{4} = 1$.',
       choices: ['$x = -6$', '$x = 18$', '$x = 30$', '$x = -17$'],
       answer: 0,
-      solution: 'Multiply EVERY term by the common denominator $12$: $4x - 3(x - 6) = 12$. Distribute carefully — a minus times a minus gives plus: $4x - 3x + 18 = 12$, so $x + 18 = 12$ and $x = -6$. Check: $\\frac{-6}{3} - \\frac{-6-6}{4} = -2 - (-3) = 1$. ✓ ($30$ comes from writing $-3(x-6) = -3x - 18$; $18$ comes from multiplying only the $x$ inside, $4x - 3x - 6 = 12$; $-17$ forgets to multiply the RIGHT side by $12$, solving $x + 18 = 1$.)',
+      solution: 'Multiply EVERY term by the common denominator $12$: $4x - 3(x - 6) = 12$. Distribute carefully — a minus times a minus gives plus: $4x - 3x + 18 = 12$, so $x + 18 = 12$ and $x = -6$. Check: $\\frac{-6}{3} - \\frac{-6-6}{4} = -2 - (-3) = 1$. ✓ ($18$ comes from multiplying only the $x$ inside, $4x - 3x - 6 = 12$; $30$ comes from writing $-3(x-6) = -3x - 18$; $-17$ forgets to multiply the RIGHT side by $12$, solving $x + 18 = 1$.)',
     },
     {
       q: 'Solve $\\frac{2x}{5} - \\frac{x - 3}{2} = 1$.',
       choices: ['$x = 14$', '$x = 5$', '$x = -25$', '$x = -7$'],
       answer: 1,
-      solution: 'The common denominator is $10$, so multiply every term by $10$: $4x - 5(x - 3) = 10$. Distribute: $4x - 5x + 15 = 10$, so $-x + 15 = 10$ and $-x = -5$, giving $x = 5$. Check: $\\frac{2 \\cdot 5}{5} - \\frac{5-3}{2} = 2 - 1 = 1$. ✓ ($-25$ comes from $-5(x-3) = -5x - 15$; $-7$ comes from multiplying only the $x$, $4x - 5x + 3 = 10$; $14$ forgets the right side, solving $-x + 15 = 1$.)',
+      solution: 'The common denominator is $10$, so multiply every term by $10$: $4x - 5(x - 3) = 10$. Distribute: $4x - 5x + 15 = 10$, so $-x + 15 = 10$ and $-x = -5$, giving $x = 5$. Check: $\\frac{2 \\cdot 5}{5} - \\frac{5-3}{2} = 2 - 1 = 1$. ✓ ($14$ forgets the right side, solving $-x + 15 = 1$; $-25$ comes from $-5(x-3) = -5x - 15$; $-7$ comes from multiplying only the $x$, $4x - 5x + 3 = 10$.)',
     },
     {
       q: 'Solve $\\frac{x + 5}{4} - \\frac{x}{6} = 2$.',
@@ -236,7 +236,7 @@ const challenge = [
       q: 'Solve $\\frac{5}{2x} = \\frac{3}{x + 4}$.',
       choices: ['$x = -10$', '$x = 20$', '$x = \\frac{12}{7}$', '$x = 4$'],
       answer: 1,
-      solution: 'Excluded values: $x \\neq 0$ and $x \\neq -4$. Cross-multiply: $5(x + 4) = 3 \\cdot 2x = 6x$, so $5x + 20 = 6x$ and $x = 20$. Check: $\\frac{5}{40} = \\frac{1}{8}$ and $\\frac{3}{24} = \\frac{1}{8}$. ✓ ($-10$ drops the $2$ in the denominator $2x$, solving $5(x+4) = 3x$; $4$ skips the distribution, $5x + 4 = 6x$; $\\frac{12}{7}$ pairs each numerator with its own denominator, $10x = 3(x+4)$.)',
+      solution: 'Excluded values: $x \\neq 0$ and $x \\neq -4$. Cross-multiply: $5(x + 4) = 3 \\cdot 2x = 6x$, so $5x + 20 = 6x$ and $x = 20$. Check: $\\frac{5}{40} = \\frac{1}{8}$ and $\\frac{3}{24} = \\frac{1}{8}$. ✓ ($-10$ drops the $2$ in the denominator $2x$, solving $5(x+4) = 3x$; $\\frac{12}{7}$ pairs each numerator with its own denominator, $10x = 3(x+4)$; $4$ skips the distribution, $5x + 4 = 6x$.)',
     },
   ],
   // 12. Perimeter with expressions for the sides — then answer the side asked for.
@@ -257,7 +257,7 @@ const challenge = [
       q: 'A rectangle’s length is $3$ cm less than twice its width, and its perimeter is $54$ cm. How long is the length?',
       choices: ['$10$ cm', '$17$ cm', '$35$ cm', '$27$ cm'],
       answer: 1,
-      solution: 'Let $w$ be the width, so the length is $2w - 3$. The perimeter counts each side twice: $2(w + 2w - 3) = 54$, so $2(3w - 3) = 54$, giving $3w - 3 = 27$, then $3w = 30$ and $w = 10$. The length is $2(10) - 3 = 17$ cm. Check: $2(10 + 17) = 2(27) = 54$ cm. ✓ ($10$ cm is the WIDTH; $27$ cm is half the perimeter, which is length plus width, not the length; $35$ cm comes from writing $w + (2w - 3) = 54$, which uses each side only once and gives $w = 19$.)',
+      solution: 'Let $w$ be the width, so the length is $2w - 3$. The perimeter counts each side twice: $2(w + 2w - 3) = 54$, so $2(3w - 3) = 54$, giving $3w - 3 = 27$, then $3w = 30$ and $w = 10$. The length is $2(10) - 3 = 17$ cm. Check: $2(10 + 17) = 2(27) = 54$ cm. ✓ ($10$ cm is the WIDTH; $35$ cm comes from writing $w + (2w - 3) = 54$, which uses each side only once and gives $w = 19$; $27$ cm is half the perimeter, which is length plus width, not the length.)',
     },
   ],
 ]

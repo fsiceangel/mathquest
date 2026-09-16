@@ -200,7 +200,7 @@ const s141 = [
       choices: ['$-5$', '$-11$', '$11$', '$5$'],
       answer: 3,
       solution:
-        'If the roots are $-8$ and $3$, the quadratic factors as $(x + 8)(x - 3)$. Expanding: $x^2 - 3x + 8x - 24 = x^2 + 5x - 24$, so $b = 5$. Check a second, independent way with the sum rule: the roots add to $-\\frac{b}{a}$, and $-8 + 3 = -5$, so $-b = -5$ and $b = 5$ ✓. (The product rule agrees too: $(-8)(3) = -24 = \\frac{c}{a}$ ✓, which confirms the roots really do belong to this parabola.) (The choice $-5$ reports THE SUM OF THE ROOTS WITHOUT NEGATING it — the sum is $-\\frac{b}{a}$, not $b$; the choice $11$ flips the sign of the root $-8$ before adding, giving $8 + 3$; the choice $-11$ flips the sign of the root $3$ instead, giving $-8 - 3$.)',
+        'If the roots are $-8$ and $3$, the quadratic factors as $(x + 8)(x - 3)$. Expanding: $x^2 - 3x + 8x - 24 = x^2 + 5x - 24$, so $b = 5$. Check a second, independent way with the sum rule: the roots add to $-\\frac{b}{a}$, and $-8 + 3 = -5$, so $-b = -5$ and $b = 5$ ✓. (The product rule agrees too: $(-8)(3) = -24 = \\frac{c}{a}$ ✓, which confirms the roots really do belong to this parabola.) (The choice $-5$ reports THE SUM OF THE ROOTS WITHOUT NEGATING it — the sum is $-\\frac{b}{a}$, not $b$; the choice $-11$ flips the sign of the root $3$ instead, giving $-8 - 3$; the choice $11$ flips the sign of the root $-8$ before adding, giving $8 + 3$.)',
     },
   ],
   // p7 — vertex of a quadratic with a leading coefficient, via x = -b/(2a).

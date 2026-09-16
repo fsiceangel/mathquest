@@ -192,7 +192,7 @@ const s151 = [
       choices: ['$5$', '$6$', '$7$', '$8$'],
       answer: 2,
       solution:
-        'Zero or negative means $(n-4)(n-10) \\le 0$, which holds from one root to the other: $4 \\le n \\le 10$. The integers are $4, 5, 6, 7, 8, 9, 10$ — seven of them. Check a second, independent way with the arithmetic count $10 - 4 + 1 = 7$ ✓, and note the neighbour $n = 11$ fails, since $(7)(1) = 7 > 0$ ✗. (The choice $6$ SUBTRACTS THE ENDPOINTS WITHOUT ADDING ONE; the choice $5$ leaves out both roots, but at $n = 4$ and $n = 10$ the product is exactly zero, which the question allows; the choice $8$ takes the subtraction $10 - 4 = 6$ and then adds both endpoints on top, counting them twice.)',
+        'Zero or negative means $(n-4)(n-10) \\le 0$, which holds from one root to the other: $4 \\le n \\le 10$. The integers are $4, 5, 6, 7, 8, 9, 10$ — seven of them. Check a second, independent way with the arithmetic count $10 - 4 + 1 = 7$ ✓, and note the neighbour $n = 11$ fails, since $(7)(1) = 7 > 0$ ✗. (The choice $5$ leaves out both roots, but at $n = 4$ and $n = 10$ the product is exactly zero, which the question allows; the choice $6$ SUBTRACTS THE ENDPOINTS WITHOUT ADDING ONE; the choice $8$ takes the subtraction $10 - 4 = 6$ and then adds both endpoints on top, counting them twice.)',
     },
   ],
   // p8 — a variable on both sides: never divide by x.
@@ -240,7 +240,7 @@ const s151 = [
       choices: ['$3$', '$2$', '$4$', '$6$'],
       answer: 2,
       solution:
-        'Factor: $(x-2)(x-5) > 0$ holds outside the roots, so the failures are the numbers with $2 \\le x \\le 5$, roots included — at a root the value is $0$, which is not greater than $0$. The failing integers are $2, 3, 4, 5$ — four of them. Check a second, independent way by substituting the two ends: $x = 2$ gives $4 - 14 + 10 = 0$ ✗ and $x = 5$ gives $25 - 35 + 10 = 0$ ✗, both failures, while the neighbour $x = 6$ gives $36 - 42 + 10 = 4 > 0$, a success. (The choice $2$ counts only where the expression is strictly negative, forgetting that the roots also fail; the choice $3$ SUBTRACTS THE ENDPOINTS, $5 - 2 = 3$; the choice $6$ takes that subtraction and adds both endpoints again.)',
+        'Factor: $(x-2)(x-5) > 0$ holds outside the roots, so the failures are the numbers with $2 \\le x \\le 5$, roots included — at a root the value is $0$, which is not greater than $0$. The failing integers are $2, 3, 4, 5$ — four of them. Check a second, independent way by substituting the two ends: $x = 2$ gives $4 - 14 + 10 = 0$ ✗ and $x = 5$ gives $25 - 35 + 10 = 0$ ✗, both failures, while the neighbour $x = 6$ gives $36 - 42 + 10 = 4 > 0$, a success. (The choice $3$ SUBTRACTS THE ENDPOINTS, $5 - 2 = 3$; the choice $2$ counts only where the expression is strictly negative, forgetting that the roots also fail; the choice $6$ takes that subtraction and adds both endpoints again.)',
     },
   ],
   // p10 — leading coefficient other than 1, so one root is a fraction.
@@ -383,7 +383,7 @@ const s152 = [
       choices: ['$1$', '$2$', '$3$', '$4$'],
       answer: 1,
       solution:
-        'Substitute each number in turn. At $x = 0$: $(-1)(-4)(-7) = -28$, negative. At $x = 2$: $(1)(-2)(-5) = 10$, positive ✓. At $x = 5$: $(4)(1)(-2) = -8$, negative. At $x = 8$: $(7)(4)(1) = 28$, positive ✓. That is two of the four. Check a second, independent way with the sign chart: the roots are $1$, $4$, $7$, the product is positive for $x > 7$ and for $1 < x < 4$, and exactly $2$ and $8$ fall in those pieces ✓. (The choice $3$ comes from reading THREE NEGATIVE FACTORS as giving a positive product at $x = 0$, but three negatives multiply to a negative; the choice $1$ keeps only the far-right piece; the choice $4$ assumes the product is positive everywhere.)',
+        'Substitute each number in turn. At $x = 0$: $(-1)(-4)(-7) = -28$, negative. At $x = 2$: $(1)(-2)(-5) = 10$, positive ✓. At $x = 5$: $(4)(1)(-2) = -8$, negative. At $x = 8$: $(7)(4)(1) = 28$, positive ✓. That is two of the four. Check a second, independent way with the sign chart: the roots are $1$, $4$, $7$, the product is positive for $x > 7$ and for $1 < x < 4$, and exactly $2$ and $8$ fall in those pieces ✓. (The choice $1$ keeps only the far-right piece; the choice $3$ comes from reading THREE NEGATIVE FACTORS as giving a positive product at $x = 0$, but three negatives multiply to a negative; the choice $4$ assumes the product is positive everywhere.)',
     },
   ],
   // p5 — a fraction with a mismatched pair of brackets.
@@ -504,7 +504,7 @@ const s152 = [
       choices: ['$2$', '$6$', '$3$', '$5$'],
       answer: 3,
       solution:
-        'Failing to be positive means the product is negative or zero. The roots are $2$, $5$, $7$: the product is positive for $x > 7$ and for $2 < x < 5$, so among $1$ through $8$ the successes are $3$, $4$ and $8$, and everything else fails. The failures are $1, 2, 5, 6, 7$ — five integers. Check a second, independent way by substituting each of them: $x = 1$ gives $(-1)(-4)(-6) = -24$; $x = 2$ gives $0$; $x = 5$ gives $0$; $x = 6$ gives $(4)(1)(-1) = -4$; $x = 7$ gives $0$ — none of these is positive ✓. (The choice $2$ counts only the strictly negative values $1$ and $6$, FORGETTING THAT A ROOT ALSO FAILS to be positive; the choice $3$ counts where the product IS positive; the choice $6$ comes from a FLIPPED CHART that calls $3, 4, 8$ the failures and then adds the three roots.)',
+        'Failing to be positive means the product is negative or zero. The roots are $2$, $5$, $7$: the product is positive for $x > 7$ and for $2 < x < 5$, so among $1$ through $8$ the successes are $3$, $4$ and $8$, and everything else fails. The failures are $1, 2, 5, 6, 7$ — five integers. Check a second, independent way by substituting each of them: $x = 1$ gives $(-1)(-4)(-6) = -24$; $x = 2$ gives $0$; $x = 5$ gives $0$; $x = 6$ gives $(4)(1)(-1) = -4$; $x = 7$ gives $0$ — none of these is positive ✓. (The choice $2$ counts only the strictly negative values $1$ and $6$, FORGETTING THAT A ROOT ALSO FAILS to be positive; the choice $6$ comes from a FLIPPED CHART that calls $3, 4, 8$ the failures and then adds the three roots; the choice $3$ counts where the product IS positive.)',
     },
   ],
   // p9 — a fraction compared with a nonzero number: subtract, then combine.

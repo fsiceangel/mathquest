@@ -41,7 +41,7 @@ const s202 = [
       choices: ['$\\frac{1}{20}$', '$0$', '$-20$', '$20$'],
       answer: 3,
       solution:
-        'Distance from zero: $-20$ is $20$ steps out, so $|-20| = 20$. Check a second, independent way by mirroring across zero: $-20$ and $20$ are reflections of each other, so they sit the same distance from zero and must have the same absolute value. Since $|20| = 20$ is plain, $|-20| = 20$ ✓. (The choice $-20$ is KEEPING THE SIGN; the choice $\\frac{1}{20}$ is READING THE BARS AS A RECIPROCAL; the choice $0$ is ERASING THE NUMBER.)',
+        'Distance from zero: $-20$ is $20$ steps out, so $|-20| = 20$. Check a second, independent way by mirroring across zero: $-20$ and $20$ are reflections of each other, so they sit the same distance from zero and must have the same absolute value. Since $|20| = 20$ is plain, $|-20| = 20$ ✓. (The choice $\\frac{1}{20}$ is READING THE BARS AS A RECIPROCAL; the choice $0$ is ERASING THE NUMBER; the choice $-20$ is KEEPING THE SIGN.)',
     },
     {
       q: 'How far from $0$ is the number $-44$ on the number line?',
@@ -130,7 +130,7 @@ const s202 = [
       choices: ['$x = 12$ only', '$x = 12$ or $x = -20$', '$x = 12$ or $x = -12$', '$x = 12$ or $x = 20$'],
       answer: 1,
       solution:
-        'Split into two cases. Case 1: $2x + 8 = 32$, so $2x = 24$ and $x = 12$. Check: $|2(12) + 8| = |32| = 32$ ✓. Case 2: $2x + 8 = -32$, so $2x = -40$ and $x = -20$. Check: $|2(-20) + 8| = |-32| = 32$ ✓. Both survive. Check a second, independent way by pulling the $2$ out of the bars: $|2x + 8| = 2|x + 4|$, so the equation becomes $2|x + 4| = 32$, that is $|x + 4| = 16$ — meaning $x$ is $16$ from $-4$, which gives $12$ and $-20$ ✓. (The choice $x = 12$ only is FORGETTING THE NEGATIVE CASE; the choice $x = 12$ or $x = 20$ is NEGATING THE ANSWER INSTEAD OF THE RIGHT SIDE and then losing the sign; the choice $x = 12$ or $x = -12$ comes from MOVING THE $8$ THE WRONG WAY in case 2, writing $2x = -32 + 8 = -24$.)',
+        'Split into two cases. Case 1: $2x + 8 = 32$, so $2x = 24$ and $x = 12$. Check: $|2(12) + 8| = |32| = 32$ ✓. Case 2: $2x + 8 = -32$, so $2x = -40$ and $x = -20$. Check: $|2(-20) + 8| = |-32| = 32$ ✓. Both survive. Check a second, independent way by pulling the $2$ out of the bars: $|2x + 8| = 2|x + 4|$, so the equation becomes $2|x + 4| = 32$, that is $|x + 4| = 16$ — meaning $x$ is $16$ from $-4$, which gives $12$ and $-20$ ✓. (The choice $x = 12$ only is FORGETTING THE NEGATIVE CASE; the choice $x = 12$ or $x = -12$ comes from MOVING THE $8$ THE WRONG WAY in case 2, writing $2x = -32 + 8 = -24$; the choice $x = 12$ or $x = 20$ is NEGATING THE ANSWER INSTEAD OF THE RIGHT SIDE and then losing the sign.)',
     },
     {
       q: 'Solve $|4x - 4| = 40$.',
@@ -264,7 +264,7 @@ const s202 = [
       choices: ['$9$', '$13$', '$12$', '$11$'],
       answer: 3,
       solution:
-        'Unwrap the bars into a double inequality: $-12 < 2x - 8 < 12$. Add $8$ throughout to get $-4 < 2x < 20$, then halve: $-2 < x < 10$. The endpoints are strict, so the integers run from $-1$ to $9$, and there are $9 - (-1) + 1 = 11$ of them. Check a second, independent way by pulling the $2$ out of the bars first: $|2x - 8| = 2|x - 4|$, so the inequality is $2|x - 4| < 12$, that is $|x - 4| < 6$ — every integer strictly within $6$ of $4$, which is $4$ itself plus $5$ on each side, $1 + 5 + 5 = 11$ ✓. (The choice $13$ is INCLUDING BOTH STRICT ENDPOINTS, counting $-2$ through $10$; the choice $12$ is COUNTING THE GAP INSTEAD OF THE INTEGERS, $10 - (-2)$; the choice $9$ counts only the POSITIVE integers $1$ through $9$, forgetting that $0$ and $-1$ satisfy the inequality too.)',
+        'Unwrap the bars into a double inequality: $-12 < 2x - 8 < 12$. Add $8$ throughout to get $-4 < 2x < 20$, then halve: $-2 < x < 10$. The endpoints are strict, so the integers run from $-1$ to $9$, and there are $9 - (-1) + 1 = 11$ of them. Check a second, independent way by pulling the $2$ out of the bars first: $|2x - 8| = 2|x - 4|$, so the inequality is $2|x - 4| < 12$, that is $|x - 4| < 6$ — every integer strictly within $6$ of $4$, which is $4$ itself plus $5$ on each side, $1 + 5 + 5 = 11$ ✓. (The choice $9$ counts only the POSITIVE integers $1$ through $9$, forgetting that $0$ and $-1$ satisfy the inequality too; the choice $13$ is INCLUDING BOTH STRICT ENDPOINTS, counting $-2$ through $10$; the choice $12$ is COUNTING THE GAP INSTEAD OF THE INTEGERS, $10 - (-2)$.)',
     },
   ],
 ]

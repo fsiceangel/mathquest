@@ -39,7 +39,7 @@ const s214 = [
       choices: ['$279$', '$135$', '$270$', '$288$'],
       answer: 0,
       solution:
-        'Add in order: $9 + 18 = 27$, then $27 + 36 = 63$, then $63 + 72 = 135$, then $135 + 144 = 279$ ✓. Check a second, independent way with shift-and-subtract. The ratio is $2$, so $2S = 18 + 36 + 72 + 144 + 288$; subtracting $S$ wipes out every shared term and leaves $S = 288 - 9 = 279$ ✓ — with ratio $2$ there is no dividing left to do. (The choice $135$ is THE DROPPED LAST TERM; the choice $288$ is ANSWERING WITH THE NEXT TERM; the choice $270$ is SUBTRACTING THE WRONG END, $288 - 18$, when the leftover on the low end is the FIRST term.)',
+        'Add in order: $9 + 18 = 27$, then $27 + 36 = 63$, then $63 + 72 = 135$, then $135 + 144 = 279$ ✓. Check a second, independent way with shift-and-subtract. The ratio is $2$, so $2S = 18 + 36 + 72 + 144 + 288$; subtracting $S$ wipes out every shared term and leaves $S = 288 - 9 = 279$ ✓ — with ratio $2$ there is no dividing left to do. (The choice $135$ is THE DROPPED LAST TERM; the choice $270$ is SUBTRACTING THE WRONG END, $288 - 18$, when the leftover on the low end is the FIRST term; the choice $288$ is ANSWERING WITH THE NEXT TERM.)',
     },
     {
       q: 'Compute $5 + 20 + 80 + 320 + 1280$.',
@@ -89,7 +89,7 @@ const s214 = [
       choices: ['$675$', '$1350$', '$1395$', '$1440$'],
       answer: 2,
       solution:
-        'Shift and subtract. The ratio is $2$, so $2S = 90 + 180 + 360 + 720 + 1440$; subtracting $S$ leaves $S = 1440 - 45 = 1395$ ✓ — the top of the doubled list minus the bottom of the original. Check a second, independent way by adding in order: $45 + 90 = 135$, $135 + 180 = 315$, $315 + 360 = 675$, $675 + 720 = 1395$ ✓. (The choice $675$ is THE DROPPED LAST TERM; the choice $1440$ is ANSWERING WITH THE NEXT TERM; the choice $1350$ is SUBTRACTING THE WRONG END, $1440 - 90$, when the term left over below is the first one, $45$.)',
+        'Shift and subtract. The ratio is $2$, so $2S = 90 + 180 + 360 + 720 + 1440$; subtracting $S$ leaves $S = 1440 - 45 = 1395$ ✓ — the top of the doubled list minus the bottom of the original. Check a second, independent way by adding in order: $45 + 90 = 135$, $135 + 180 = 315$, $315 + 360 = 675$, $675 + 720 = 1395$ ✓. (The choice $675$ is THE DROPPED LAST TERM; the choice $1350$ is SUBTRACTING THE WRONG END, $1440 - 90$, when the term left over below is the first one, $45$; the choice $1440$ is ANSWERING WITH THE NEXT TERM.)',
     },
     {
       q: 'Compute $9 + 36 + 144 + 576 + 2304$.',

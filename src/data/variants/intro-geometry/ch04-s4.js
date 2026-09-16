@@ -74,7 +74,7 @@ const challenge = [
       choices: ['$7$', '$21$', '$22$', '$15$'],
       answer: 3,
       solution:
-        'The sides add to $\\frac{44}{2} = 22$ and multiply to $105$. Factor pairs of $105$: $1 \\cdot 105$, $3 \\cdot 35$, $5 \\cdot 21$, $7 \\cdot 15$ — only $7 + 15 = 22$ works, so the sides are $7$ and $15$ and the longer is $15$ ✓. Check a second, independent way with no factoring at all: $(l - w)^2 = 22^2 - 4 \\cdot 105 = 484 - 420 = 64$, so $l - w = 8$ and the longer side is $\\frac{22 + 8}{2} = 15$ ✓. Confirm: $15 \\cdot 7 = 105$ and $2(15 + 7) = 44$ ✓. (The choice $7$ is ANSWERING WITH THE SHORTER SIDE; the choice $22$ is ANSWERING WITH THE HALF-PERIMETER SUM; the choice $21$ is GRABBING A FACTOR PAIR WITH THE WRONG SUM, from $5 \\cdot 21 = 105$ with sum $26$.)',
+        'The sides add to $\\frac{44}{2} = 22$ and multiply to $105$. Factor pairs of $105$: $1 \\cdot 105$, $3 \\cdot 35$, $5 \\cdot 21$, $7 \\cdot 15$ — only $7 + 15 = 22$ works, so the sides are $7$ and $15$ and the longer is $15$ ✓. Check a second, independent way with no factoring at all: $(l - w)^2 = 22^2 - 4 \\cdot 105 = 484 - 420 = 64$, so $l - w = 8$ and the longer side is $\\frac{22 + 8}{2} = 15$ ✓. Confirm: $15 \\cdot 7 = 105$ and $2(15 + 7) = 44$ ✓. (The choice $7$ is ANSWERING WITH THE SHORTER SIDE; the choice $21$ is GRABBING A FACTOR PAIR WITH THE WRONG SUM, from $5 \\cdot 21 = 105$ with sum $26$; the choice $22$ is ANSWERING WITH THE HALF-PERIMETER SUM.)',
     },
   ],
 
@@ -422,7 +422,7 @@ const challenge = [
       choices: ['$34$', '$8.5$', '$51$', '$17$'],
       answer: 3,
       solution:
-        'Two halvings do it. The median $FP$ cuts the triangle in half, $[DPF] = \\frac{1}{2} \\cdot 68 = 34$; then $PQ$ is a median of triangle $DPF$, since $Q$ is the midpoint of side $DF$, so $[DPQ] = \\frac{1}{2} \\cdot 34 = 17$ ✓. Check a second, independent way through scaling: $DP = \\frac{1}{2}DE$ and $DQ = \\frac{1}{2}DF$ flank the common angle at $D$, so triangle $DPQ$ is a half-scale copy of triangle $DEF$ and carries $\\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4}$ of its area: $\\frac{68}{4} = 17$ ✓. (The choice $34$ is HALVING ONLY ONCE; the choice $51$ is ANSWERING THE OTHER PIECE, $68 - 17$; the choice $8.5$ is HALVING ONE TIME TOO MANY.)',
+        'Two halvings do it. The median $FP$ cuts the triangle in half, $[DPF] = \\frac{1}{2} \\cdot 68 = 34$; then $PQ$ is a median of triangle $DPF$, since $Q$ is the midpoint of side $DF$, so $[DPQ] = \\frac{1}{2} \\cdot 34 = 17$ ✓. Check a second, independent way through scaling: $DP = \\frac{1}{2}DE$ and $DQ = \\frac{1}{2}DF$ flank the common angle at $D$, so triangle $DPQ$ is a half-scale copy of triangle $DEF$ and carries $\\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4}$ of its area: $\\frac{68}{4} = 17$ ✓. (The choice $34$ is HALVING ONLY ONCE; the choice $8.5$ is HALVING ONE TIME TOO MANY; the choice $51$ is ANSWERING THE OTHER PIECE, $68 - 17$.)',
     },
   ],
 

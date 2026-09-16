@@ -63,7 +63,7 @@ const s91 = [
       choices: ['$a < 12$', '$a > 12$', '$a \\ge 12$', '$a \\le 12$'],
       answer: 2,
       solution:
-        'The phrase "at least $12$" means $12$ counts and anything older counts too, which is exactly $a \\ge 12$. ✓ Check it forward: a $12$-year-old satisfies $12 \\ge 12$ and may ride alone, while an $11$-year-old fails $11 \\ge 12$ and may not. (The choice $a > 12$ locks out the $12$-year-old, but "at least" always includes the number itself; $a < 12$ and $a \\le 12$ both point the wrong way and would let toddlers ride while turning teenagers away.)',
+        'The phrase "at least $12$" means $12$ counts and anything older counts too, which is exactly $a \\ge 12$. ✓ Check it forward: a $12$-year-old satisfies $12 \\ge 12$ and may ride alone, while an $11$-year-old fails $11 \\ge 12$ and may not. (The choice $a < 12$ and $a \\le 12$ both point the wrong way and would let toddlers ride while turning teenagers away; $a > 12$ locks out the $12$-year-old, but "at least" always includes the number itself.)',
     },
     {
       q: 'Which number is NOT a solution of $n \\ge -3$?',
@@ -179,7 +179,7 @@ const s91 = [
       choices: ['$x > 4$', '$x > -4$', '$x < 4$', '$x < -4$'],
       answer: 2,
       solution:
-        'Divide both sides by $-3$ and flip the symbol: $\\frac{-12}{-3} = 4$, so the solution is $x < 4$. ✓ Check it forward with $x = 0$: it satisfies $x < 4$, and $-3(0) = 0 > -12$. Check outside with $x = 5$: it fails $x < 4$, and $-3(5) = -15$, which is not greater than $-12$. (The choice $x > 4$ forgets the flip; $x < -4$ divides two negatives yet keeps a minus on the answer; $x > -4$ makes both mistakes together.)',
+        'Divide both sides by $-3$ and flip the symbol: $\\frac{-12}{-3} = 4$, so the solution is $x < 4$. ✓ Check it forward with $x = 0$: it satisfies $x < 4$, and $-3(0) = 0 > -12$. Check outside with $x = 5$: it fails $x < 4$, and $-3(5) = -15$, which is not greater than $-12$. (The choice $x > 4$ forgets the flip; $x > -4$ makes both mistakes together; $x < -4$ divides two negatives yet keeps a minus on the answer.)',
     },
   ],
   // p7 — divide by a positive coefficient; no flip, and the endpoint survives
@@ -232,7 +232,7 @@ const s91 = [
       choices: ['$x > z$', '$x \\le z$', '$x < z$', '$x \\ge z$'],
       answer: 1,
       solution:
-        'Chaining works for $\\le$ too, and the "or equal" travels with it: $x \\le y \\le z$ gives $x \\le z$. ✓ Check it forward two ways. With $x = 1$, $y = 4$, $z = 9$ we get $1 \\le 9$. With $x = y = z = 5$ we get $5 \\le 5$, still true. (The choice $x < z$ is the ENDPOINT trap — that second test, where all three are equal, satisfies the hypothesis but makes $x < z$ false, so strictness is not guaranteed; $x > z$ and $x \\ge z$ both point the wrong way, as the first test shows.)',
+        'Chaining works for $\\le$ too, and the "or equal" travels with it: $x \\le y \\le z$ gives $x \\le z$. ✓ Check it forward two ways. With $x = 1$, $y = 4$, $z = 9$ we get $1 \\le 9$. With $x = y = z = 5$ we get $5 \\le 5$, still true. (The choice $x > z$ and $x \\ge z$ both point the wrong way, as the first test shows; $x < z$ is the ENDPOINT trap — that second test, where all three are equal, satisfies the hypothesis but makes $x < z$ false, so strictness is not guaranteed.)',
     },
   ],
   // p9 — carry a whole chain through a negative multiplier
@@ -418,7 +418,7 @@ const s92 = [
       choices: ['$7$ and $8$', '$34$ and $35$', '$8$ and $9$', '$9$ and $10$'],
       answer: 2,
       solution:
-        'Hunt for the two perfect squares that trap $68$: $8^2 = 64$ and $9^2 = 81$, and $64 < 68 < 81$. Taking square roots of positive numbers preserves the order, so $8 < \\sqrt{68} < 9$. ✓ Check it forward: $8.2^2 = 67.24$ and $8.3^2 = 68.89$, so $\\sqrt{68}$ sits between $8.2$ and $8.3$ — squarely inside the interval from $8$ to $9$. (The choice $7$ and $8$ uses $49$ and $64$, one square too low; $9$ and $10$ uses $81$ and $100$, one square too high; $34$ and $35$ HALVES $68$ instead of taking its square root.)',
+        'Hunt for the two perfect squares that trap $68$: $8^2 = 64$ and $9^2 = 81$, and $64 < 68 < 81$. Taking square roots of positive numbers preserves the order, so $8 < \\sqrt{68} < 9$. ✓ Check it forward: $8.2^2 = 67.24$ and $8.3^2 = 68.89$, so $\\sqrt{68}$ sits between $8.2$ and $8.3$ — squarely inside the interval from $8$ to $9$. (The choice $7$ and $8$ uses $49$ and $64$, one square too low; $34$ and $35$ HALVES $68$ instead of taking its square root; $9$ and $10$ uses $81$ and $100$, one square too high.)',
     },
   ],
   // p5 — read a conclusion off a completed cross-multiplication

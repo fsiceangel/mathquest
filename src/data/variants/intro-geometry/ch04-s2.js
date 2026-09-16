@@ -75,7 +75,7 @@ const s42 = [
       choices: ['$38$', '$42$', '$19$', '$84$'],
       answer: 3,
       solution:
-        'Length times width: $12 \\times 7 = 84$ unit squares ✓ — $7$ rows with $12$ squares in each row. Check a second, independent way by splitting the length at $10$: a $10 \\times 7$ block holds $70$ squares and the remaining $2 \\times 7$ strip holds $14$, and $70 + 14 = 84$ ✓. (The choice $38$ is FINDING THE PERIMETER, $2(12 + 7)$ ✗; $19$ is ADDING THE SIDES ✗; $42$ is HALVING LIKE A TRIANGLE — a rug covers its whole rectangle, not half of it ✗.)',
+        'Length times width: $12 \\times 7 = 84$ unit squares ✓ — $7$ rows with $12$ squares in each row. Check a second, independent way by splitting the length at $10$: a $10 \\times 7$ block holds $70$ squares and the remaining $2 \\times 7$ strip holds $14$, and $70 + 14 = 84$ ✓. (The choice $38$ is FINDING THE PERIMETER, $2(12 + 7)$ ✗; $42$ is HALVING LIKE A TRIANGLE — a rug covers its whole rectangle, not half of it ✗; $19$ is ADDING THE SIDES ✗.)',
     },
   ],
   // s2 — triangle area from base and height.
@@ -412,7 +412,7 @@ const s42 = [
       choices: ['$3$', '$4$', '$2$', '$6$'],
       answer: 1,
       solution:
-        'Set up the formula and solve: $24 = \\frac{1}{2}(8 + 4)h = 6h$, so $h = 4$ ✓ — the average of the parallel sides is $6$, and $6 \\times 4 = 24$ closes the loop. Check a second, independent way by testing the printed candidates in $\\frac{1}{2}(8 + 4)h$. Try $3$: area $18$ ✗. Try $2$: area $12$ ✗. Try $6$: area $36$ ✗. Try $4$: area $24$ ✓ — one candidate fits. (The choice $2$ is SKIPPING THE HALF, dividing $24$ by the full sum $12$ ✗; $3$ is USING ONLY THE LONG SIDE, $24 \\div 8$ ✗; $6$ is USING ONLY THE SHORT SIDE, $24 \\div 4$ ✗.)',
+        'Set up the formula and solve: $24 = \\frac{1}{2}(8 + 4)h = 6h$, so $h = 4$ ✓ — the average of the parallel sides is $6$, and $6 \\times 4 = 24$ closes the loop. Check a second, independent way by testing the printed candidates in $\\frac{1}{2}(8 + 4)h$. Try $3$: area $18$ ✗. Try $2$: area $12$ ✗. Try $6$: area $36$ ✗. Try $4$: area $24$ ✓ — one candidate fits. (The choice $3$ is USING ONLY THE LONG SIDE, $24 \\div 8$ ✗; $2$ is SKIPPING THE HALF, dividing $24$ by the full sum $12$ ✗; $6$ is USING ONLY THE SHORT SIDE, $24 \\div 4$ ✗.)',
     },
     {
       q: 'A trapezoid has parallel sides $10$ and $4$ and area $35$. What is its height $h$?',

@@ -48,7 +48,7 @@ const s113 = [
       choices: ['$(y-1)^3$', '$(y-1)(y^2-y+1)$', '$(y-1)(y^2+y+1)$', '$(y-1)(y^2+1)$'],
       answer: 2,
       solution:
-        'Both terms are cubes: $y^3$ and $1 = 1^3$. Use $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ with $a = y$ and $b = 1$: the binomial keeps the minus, and the middle term of the trinomial takes the OPPOSITE sign, so it is $+y$. That gives $(y-1)(y^2 + y + 1)$. Check forward at $y = 2$: the original is $8 - 1 = 7$, and $(1)(4 + 2 + 1) = 7$ ✓. (The choice $(y-1)(y^2-y+1)$ forgets to flip the middle sign and gives $(1)(3) = 3$ at $y = 2$; the choice $(y-1)^3$ expands to $y^3 - 3y^2 + 3y - 1$; the choice $(y-1)(y^2+1)$ drops the middle term entirely and gives $(1)(5) = 5$.)',
+        'Both terms are cubes: $y^3$ and $1 = 1^3$. Use $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ with $a = y$ and $b = 1$: the binomial keeps the minus, and the middle term of the trinomial takes the OPPOSITE sign, so it is $+y$. That gives $(y-1)(y^2 + y + 1)$. Check forward at $y = 2$: the original is $8 - 1 = 7$, and $(1)(4 + 2 + 1) = 7$ ✓. (The choice $(y-1)^3$ expands to $y^3 - 3y^2 + 3y - 1$; the choice $(y-1)(y^2-y+1)$ forgets to flip the middle sign and gives $(1)(3) = 3$ at $y = 2$; the choice $(y-1)(y^2+1)$ drops the middle term entirely and gives $(1)(5) = 5$.)',
     },
     {
       q: 'Factor $x^3 - 512$.',
@@ -254,7 +254,7 @@ const s113 = [
       choices: ['$137$', '$93$', '$181$', '$105$'],
       answer: 2,
       solution:
-        'For a difference of cubes, $\\frac{a^3 - b^3}{a - b} = a^2 + ab + b^2$. With $a = 11$ and $b = 4$: $121 + 44 + 16 = 181$. Check the long way: $\\frac{1331 - 64}{7} = \\frac{1267}{7} = 181$ ✓. (The choice $93$ is $121 - 44 + 16$, the sum-of-cubes trinomial with the wrong middle sign; the choice $137$ is $121 + 16$, dropping the $ab$ term; the choice $105$ is $121 - 16$.)',
+        'For a difference of cubes, $\\frac{a^3 - b^3}{a - b} = a^2 + ab + b^2$. With $a = 11$ and $b = 4$: $121 + 44 + 16 = 181$. Check the long way: $\\frac{1331 - 64}{7} = \\frac{1267}{7} = 181$ ✓. (The choice $137$ is $121 + 16$, dropping the $ab$ term; the choice $93$ is $121 - 44 + 16$, the sum-of-cubes trinomial with the wrong middle sign; the choice $105$ is $121 - 16$.)',
     },
     {
       q: 'Compute $\\frac{20^3 + 10^3}{30}$ without a calculator.',
@@ -424,7 +424,7 @@ const s114 = [
       choices: ['$26$', '$10 - 4\\sqrt{10}$', '$6$', '$-6$'],
       answer: 3,
       solution:
-        'The conjugate is $\\sqrt{10} - 4$, and the product is a difference of squares: $(\\sqrt{10})^2 - 4^2 = 10 - 16 = -6$. A negative denominator is perfectly allowed — it just means the minus sign moves up to the numerator at the end. (The choice $26$ adds $10 + 16$ instead of subtracting; the choice $6$ computes $16 - 10$, subtracting in the wrong order; the choice $10 - 4\\sqrt{10}$ comes from multiplying by $\\sqrt{10}$ alone, which leaves a root behind and does not finish the job.)',
+        'The conjugate is $\\sqrt{10} - 4$, and the product is a difference of squares: $(\\sqrt{10})^2 - 4^2 = 10 - 16 = -6$. A negative denominator is perfectly allowed — it just means the minus sign moves up to the numerator at the end. (The choice $26$ adds $10 + 16$ instead of subtracting; the choice $10 - 4\\sqrt{10}$ comes from multiplying by $\\sqrt{10}$ alone, which leaves a root behind and does not finish the job; the choice $6$ computes $16 - 10$, subtracting in the wrong order.)',
     },
   ],
   // p4 — multiply a conjugate pair
@@ -526,7 +526,7 @@ const s114 = [
       ],
       answer: 3,
       solution:
-        'Multiply by $\\frac{5-\\sqrt{13}}{5-\\sqrt{13}}$: the bottom becomes $25 - 13 = 12$, the top becomes $12(5 - \\sqrt{13})$, and the $12$s cancel to leave $5 - \\sqrt{13}$. Sanity check: $\\frac{12}{5+3.606} = \\frac{12}{8.606} \\approx 1.39$, and $5 - 3.606 \\approx 1.39$ ✓. (The choice $\\frac{5-\\sqrt{13}}{12} \\approx 0.12$ divides one time too many; the choice $60 - 12\\sqrt{13}$ never divides; the choice $5 + \\sqrt{13} \\approx 8.61$ uses the original binomial rather than its conjugate.)',
+        'Multiply by $\\frac{5-\\sqrt{13}}{5-\\sqrt{13}}$: the bottom becomes $25 - 13 = 12$, the top becomes $12(5 - \\sqrt{13})$, and the $12$s cancel to leave $5 - \\sqrt{13}$. Sanity check: $\\frac{12}{5+3.606} = \\frac{12}{8.606} \\approx 1.39$, and $5 - 3.606 \\approx 1.39$ ✓. (The choice $\\frac{5-\\sqrt{13}}{12} \\approx 0.12$ divides one time too many; the choice $5 + \\sqrt{13} \\approx 8.61$ uses the original binomial rather than its conjugate; the choice $60 - 12\\sqrt{13}$ never divides.)',
     },
   ],
   // p7 — conjugate with two roots, numerator does not cancel completely

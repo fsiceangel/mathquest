@@ -123,7 +123,7 @@ const s112 = [
       choices: ['$200\\pi$', '$100\\pi$', '$400\\pi$', '$20\\pi$'],
       answer: 1,
       solution:
-        'Convert to the radius first: the diameter is $20$, so $r = 10$, and the area is $\\pi \\cdot 10^2 = 100\\pi$ ✓. Check a second, independent way with the diameter form: $\\frac{\\pi d^2}{4} = \\frac{\\pi \\cdot 400}{4} = 100\\pi$ ✓. (The choice $400\\pi$ is SQUARING THE DIAMETER ✗; $20\\pi$ is COMPUTING THE CIRCUMFERENCE, $\\pi d$ ✗; $200\\pi$ is HALVING AFTER SQUARING — $\\frac{400}{2}$, one division short ✗.)',
+        'Convert to the radius first: the diameter is $20$, so $r = 10$, and the area is $\\pi \\cdot 10^2 = 100\\pi$ ✓. Check a second, independent way with the diameter form: $\\frac{\\pi d^2}{4} = \\frac{\\pi \\cdot 400}{4} = 100\\pi$ ✓. (The choice $200\\pi$ is HALVING AFTER SQUARING — $\\frac{400}{2}$, one division short ✗; $400\\pi$ is SQUARING THE DIAMETER ✗; $20\\pi$ is COMPUTING THE CIRCUMFERENCE, $\\pi d$ ✗.)',
     },
   ],
   // s3 — area of a sector (figure).
@@ -186,7 +186,7 @@ const s112 = [
       choices: ['$3\\pi$', '$144\\pi$', '$18\\pi$', '$36\\pi$'],
       answer: 2,
       solution:
-        'The fraction formula gives $\\frac{45}{360} \\cdot \\pi \\cdot 12^2 = \\frac{1}{8} \\cdot 144\\pi = 18\\pi$ ✓. Check a second, independent way by counting congruent slices: eight $45^\\circ$ sectors tile the whole circle, so each holds $\\frac{144\\pi}{8} = 18\\pi$ ✓. (The choice $144\\pi$ is FORGETTING THE FRACTION — the full circle ✗; $3\\pi$ is COMPUTING ARC LENGTH, $\\frac{1}{8} \\cdot 24\\pi$ ✗; $36\\pi$ is DIVIDING BY $180$ — $\\frac{45}{180} \\cdot 144\\pi$ ✗.)',
+        'The fraction formula gives $\\frac{45}{360} \\cdot \\pi \\cdot 12^2 = \\frac{1}{8} \\cdot 144\\pi = 18\\pi$ ✓. Check a second, independent way by counting congruent slices: eight $45^\\circ$ sectors tile the whole circle, so each holds $\\frac{144\\pi}{8} = 18\\pi$ ✓. (The choice $3\\pi$ is COMPUTING ARC LENGTH, $\\frac{1}{8} \\cdot 24\\pi$ ✗; $144\\pi$ is FORGETTING THE FRACTION — the full circle ✗; $36\\pi$ is DIVIDING BY $180$ — $\\frac{45}{180} \\cdot 144\\pi$ ✗.)',
     },
   ],
   // s4 — radius of a circle from its area.
@@ -273,7 +273,7 @@ const s112 = [
       choices: ['$9$', '$320$', '$81$', '$256$'],
       answer: 2,
       solution:
-        'Compute both areas: the coin has $\\pi \\cdot 2^2 = 4\\pi$ and the lid has $\\pi \\cdot 18^2 = 324\\pi$, and $\\frac{324\\pi}{4\\pi} = 81$ ✓. Check a second, independent way by scaling: the radius is multiplied by $\\frac{18}{2} = 9$, so the area is multiplied by $9^2 = 81$ ✓. (The choice $9$ is SCALING THE AREA LIKE A LENGTH — the radius ratio, unsquared ✗; $256$ is SQUARING THE DIFFERENCE OF THE RADII, $(18 - 2)^2$ ✗; $320$ is SUBTRACTING THE AREAS, $324 - 4$, when a “how many times” question wants a quotient ✗.)',
+        'Compute both areas: the coin has $\\pi \\cdot 2^2 = 4\\pi$ and the lid has $\\pi \\cdot 18^2 = 324\\pi$, and $\\frac{324\\pi}{4\\pi} = 81$ ✓. Check a second, independent way by scaling: the radius is multiplied by $\\frac{18}{2} = 9$, so the area is multiplied by $9^2 = 81$ ✓. (The choice $9$ is SCALING THE AREA LIKE A LENGTH — the radius ratio, unsquared ✗; $320$ is SUBTRACTING THE AREAS, $324 - 4$, when a “how many times” question wants a quotient ✗; $256$ is SQUARING THE DIFFERENCE OF THE RADII, $(18 - 2)^2$ ✗.)',
     },
   ],
   // s6 — area of a circle from its circumference.
@@ -297,7 +297,7 @@ const s112 = [
       choices: ['$784\\pi$', '$14\\pi$', '$196\\pi$', '$28\\pi$'],
       answer: 2,
       solution:
-        'Cross the bridge to the radius: $2\\pi r = 28\\pi$ gives $r = 14$, so the area is $\\pi \\cdot 14^2 = 196\\pi$ ✓. Check a second, independent way straight from the circumference: $A = \\frac{C^2}{4\\pi} = \\frac{784\\pi^2}{4\\pi} = 196\\pi$ ✓. (The choice $784\\pi$ is SQUARING THE $28$ WITHOUT CROSSING TO THE RADIUS ✗; $28\\pi$ is ANSWERING WITH THE CIRCUMFERENCE ✗; $14\\pi$ is FORGETTING TO SQUARE THE RADIUS ✗.)',
+        'Cross the bridge to the radius: $2\\pi r = 28\\pi$ gives $r = 14$, so the area is $\\pi \\cdot 14^2 = 196\\pi$ ✓. Check a second, independent way straight from the circumference: $A = \\frac{C^2}{4\\pi} = \\frac{784\\pi^2}{4\\pi} = 196\\pi$ ✓. (The choice $784\\pi$ is SQUARING THE $28$ WITHOUT CROSSING TO THE RADIUS ✗; $14\\pi$ is FORGETTING TO SQUARE THE RADIUS ✗; $28\\pi$ is ANSWERING WITH THE CIRCUMFERENCE ✗.)',
     },
   ],
   // s7 — area of a reflex (major) sector (figure).
@@ -363,7 +363,7 @@ const s112 = [
       choices: ['$36\\pi$', '$21\\pi$', '$15\\pi$', '$7\\pi$'],
       answer: 1,
       solution:
-        'The fraction formula gives $\\frac{210}{360} \\cdot \\pi \\cdot 6^2 = \\frac{7}{12} \\cdot 36\\pi = 21\\pi$ ✓. Check a second, independent way as whole minus minor: the other side of the two radii is a $150^\\circ$ sector of area $\\frac{150}{360} \\cdot 36\\pi = 15\\pi$, and $36\\pi - 15\\pi = 21\\pi$ ✓. (The choice $15\\pi$ is TAKING THE MINOR SECTOR — the $150^\\circ$ region on the wrong side of the radii ✗; $36\\pi$ is FORGETTING THE FRACTION ✗; $7\\pi$ is COMPUTING ARC LENGTH, $\\frac{7}{12} \\cdot 12\\pi$ ✗.)',
+        'The fraction formula gives $\\frac{210}{360} \\cdot \\pi \\cdot 6^2 = \\frac{7}{12} \\cdot 36\\pi = 21\\pi$ ✓. Check a second, independent way as whole minus minor: the other side of the two radii is a $150^\\circ$ sector of area $\\frac{150}{360} \\cdot 36\\pi = 15\\pi$, and $36\\pi - 15\\pi = 21\\pi$ ✓. (The choice $36\\pi$ is FORGETTING THE FRACTION ✗; $15\\pi$ is TAKING THE MINOR SECTOR — the $150^\\circ$ region on the wrong side of the radii ✗; $7\\pi$ is COMPUTING ARC LENGTH, $\\frac{7}{12} \\cdot 12\\pi$ ✗.)',
     },
   ],
   // s8 — radius of the circle from a sector's area (figure).
@@ -433,14 +433,14 @@ const s112 = [
       choices: ['$2$', '$8$', '$1$', '$4$'],
       answer: 3,
       solution:
-        'Set up the equation: $\\pi r^2 = 2 \\cdot 2\\pi r = 4\\pi r$. Dividing both sides by $\\pi r$ (fine, since $r \\neq 0$) leaves $r = 4$ ✓. Check a second, independent way by substituting back: radius $4$ gives area $16\\pi$ and circumference $8\\pi$, and $16\\pi$ is exactly twice $8\\pi$ ✓. (The choice $2$ is DROPPING THE “TWICE” — solving the plain equality $\\pi r^2 = 2\\pi r$ ✗; $1$ is PUTTING THE TWICE ON THE WRONG SIDE — $2\\pi r^2 = 2\\pi r$ gives $r = 1$ ✗; $8$ is REPORTING THE DIAMETER ✗.)',
+        'Set up the equation: $\\pi r^2 = 2 \\cdot 2\\pi r = 4\\pi r$. Dividing both sides by $\\pi r$ (fine, since $r \\neq 0$) leaves $r = 4$ ✓. Check a second, independent way by substituting back: radius $4$ gives area $16\\pi$ and circumference $8\\pi$, and $16\\pi$ is exactly twice $8\\pi$ ✓. (The choice $2$ is DROPPING THE “TWICE” — solving the plain equality $\\pi r^2 = 2\\pi r$ ✗; $8$ is REPORTING THE DIAMETER ✗; $1$ is PUTTING THE TWICE ON THE WRONG SIDE — $2\\pi r^2 = 2\\pi r$ gives $r = 1$ ✗.)',
     },
     {
       q: 'A circle’s area (in square units) comes out to FOUR TIMES its circumference (in units). What is its radius?',
       choices: ['$2$', '$16$', '$8$', '$\\frac{1}{2}$'],
       answer: 2,
       solution:
-        'Set up the equation: $\\pi r^2 = 4 \\cdot 2\\pi r = 8\\pi r$. Dividing both sides by $\\pi r$ leaves $r = 8$ ✓. Check a second, independent way by substituting back: radius $8$ gives area $64\\pi$ and circumference $16\\pi$, and $64\\pi = 4 \\cdot 16\\pi$ ✓. (The choice $2$ is DROPPING THE FACTOR OF FOUR — the plain equality $\\pi r^2 = 2\\pi r$ ✗; $\\frac{1}{2}$ is PUTTING THE FOUR ON THE WRONG SIDE — $4\\pi r^2 = 2\\pi r$ gives $r = \\frac{1}{2}$ ✗; $16$ is REPORTING THE DIAMETER ✗.)',
+        'Set up the equation: $\\pi r^2 = 4 \\cdot 2\\pi r = 8\\pi r$. Dividing both sides by $\\pi r$ leaves $r = 8$ ✓. Check a second, independent way by substituting back: radius $8$ gives area $64\\pi$ and circumference $16\\pi$, and $64\\pi = 4 \\cdot 16\\pi$ ✓. (The choice $2$ is DROPPING THE FACTOR OF FOUR — the plain equality $\\pi r^2 = 2\\pi r$ ✗; $16$ is REPORTING THE DIAMETER ✗; $\\frac{1}{2}$ is PUTTING THE FOUR ON THE WRONG SIDE — $4\\pi r^2 = 2\\pi r$ gives $r = \\frac{1}{2}$ ✗.)',
     },
     {
       q: 'For what radius is a circle’s area (in square units) only HALF its circumference (in units)?',

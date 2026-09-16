@@ -322,7 +322,7 @@ const s164 = [
       choices: ['$\\frac{x}{12}$', '$x - 12$', '$12 - x$', '$x + 12$'],
       answer: 1,
       solution:
-        'Adding $12$ is undone by taking $12$ back off, so the undo rule is $x - 12$. Verify both round trips with $s(x) = x + 12$ and $s^{-1}(x) = x - 12$: $s(s^{-1}(x)) = (x - 12) + 12 = x$ ✓ and $s^{-1}(s(x)) = (x + 12) - 12 = x$ ✓. (The choice $x + 12$ stamps a second time instead of undoing ✗. The choice $12 - x$ flips the subtraction: starting at $5$, the machine gives $17$, and $12 - 17 = -5$, not $5$ ✗. The choice $\\frac{x}{12}$ undoes a multiplication, but this machine never multiplied ✗.)',
+        'Adding $12$ is undone by taking $12$ back off, so the undo rule is $x - 12$. Verify both round trips with $s(x) = x + 12$ and $s^{-1}(x) = x - 12$: $s(s^{-1}(x)) = (x - 12) + 12 = x$ ✓ and $s^{-1}(s(x)) = (x + 12) - 12 = x$ ✓. (The choice $\\frac{x}{12}$ undoes a multiplication, but this machine never multiplied ✗. The choice $12 - x$ flips the subtraction: starting at $5$, the machine gives $17$, and $12 - 17 = -5$, not $5$ ✗. The choice $x + 12$ stamps a second time instead of undoing ✗.)',
     },
     {
       q: 'Suppose $h(x) = 6 + x$. Which formula is $h^{-1}(x)$?',
@@ -553,7 +553,7 @@ const s164 = [
       choices: ['$24$', '$18$', '$21$', '$12$'],
       answer: 1,
       solution:
-        'Translate the second clue: $f^{-1}(15) = 4$ means $f(4) = 15$. Between the inputs $2$ and $4$ the output climbs $15 - 9 = 6$ over $2$ steps, so the slope is $3$, and $f(x) = 3x + b$ with $3(2) + b = 9$, giving $b = 3$. So $f(x) = 3x + 3$ and $f(5) = 18$. Verify both clues: $f(2) = 9$ ✓ and $f(4) = 15$ ✓, and $f^{-1}(x) = \\frac{x - 3}{3}$ sends $15$ back to $4$ ✓. (The choice $21$ uses $6$ per step instead of dividing the climb by the $2$-step gap ✗. The choice $24$ treats the $9$ as the constant term, giving $3(5) + 9$ ✗. The choice $12$ answers $f(3)$ rather than $f(5)$ ✗.)',
+        'Translate the second clue: $f^{-1}(15) = 4$ means $f(4) = 15$. Between the inputs $2$ and $4$ the output climbs $15 - 9 = 6$ over $2$ steps, so the slope is $3$, and $f(x) = 3x + b$ with $3(2) + b = 9$, giving $b = 3$. So $f(x) = 3x + 3$ and $f(5) = 18$. Verify both clues: $f(2) = 9$ ✓ and $f(4) = 15$ ✓, and $f^{-1}(x) = \\frac{x - 3}{3}$ sends $15$ back to $4$ ✓. (The choice $24$ treats the $9$ as the constant term, giving $3(5) + 9$ ✗. The choice $21$ uses $6$ per step instead of dividing the climb by the $2$-step gap ✗. The choice $12$ answers $f(3)$ rather than $f(5)$ ✗.)',
     },
     {
       q: 'A linear machine $f$ has $f^{-1}(3) = 1$ and $f^{-1}(11) = 5$. What is $f^{-1}(21)$?',

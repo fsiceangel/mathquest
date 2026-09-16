@@ -64,7 +64,7 @@ const s72 = [
       choices: ['$6$ cm', '$8$ cm', '$10$ cm', '$20$ cm'],
       answer: 2,
       solution:
-        'The rim is the bracket’s circumcircle. Its hypotenuse is $\\sqrt{12^2 + 16^2} = \\sqrt{144 + 256} = \\sqrt{400} = 20$ cm, and a right triangle’s circumradius is half its hypotenuse, so $R = \\frac{20}{2} = 10$ cm ✓. Check a second, independent way through the triple family: legs $12$ and $16$ are the $3$-$4$-$5$ triangle scaled by $4$, and the $3$-$4$-$5$ triangle’s circumradius is half of $5$, so scaling gives $R = 4 \\times \\frac{5}{2} = 10$ ✓. (The choice $20$ cm is ANSWERING THE DIAMETER — the hypotenuse is a diameter of the rim, not a radius ✗; $6$ cm and $8$ cm are each HALVING A LEG, but it is the hypotenuse, never a leg, that serves as the circle’s diameter ✗.)',
+        'The rim is the bracket’s circumcircle. Its hypotenuse is $\\sqrt{12^2 + 16^2} = \\sqrt{144 + 256} = \\sqrt{400} = 20$ cm, and a right triangle’s circumradius is half its hypotenuse, so $R = \\frac{20}{2} = 10$ cm ✓. Check a second, independent way through the triple family: legs $12$ and $16$ are the $3$-$4$-$5$ triangle scaled by $4$, and the $3$-$4$-$5$ triangle’s circumradius is half of $5$, so scaling gives $R = 4 \\times \\frac{5}{2} = 10$ ✓. (The choice $6$ cm and $8$ cm are each HALVING A LEG, but it is the hypotenuse, never a leg, that serves as the circle’s diameter ✗; $20$ cm is ANSWERING THE DIAMETER — the hypotenuse is a diameter of the rim, not a radius ✗.)',
     },
     {
       q: 'The two legs of a right-triangular garden bed measure $30$ m and $40$ m, meeting at the right angle. A sprinkler is planted exactly at the bed’s circumcenter. How far is the sprinkler from each corner of the bed?',
@@ -78,7 +78,7 @@ const s72 = [
       choices: ['$5$', '$26$', '$12$', '$13$'],
       answer: 3,
       solution:
-        'The circle through all three vertices is the circumcircle, and for a right triangle the hypotenuse is one of its diameters. The hypotenuse is $\\sqrt{10^2 + 24^2} = \\sqrt{100 + 576} = \\sqrt{676} = 26$, so the radius is $\\frac{26}{2} = 13$ ✓. Check a second, independent way through the triple family: $10$ and $24$ are the $5$-$12$-$13$ triangle scaled by $2$, whose circumradius is $\\frac{13}{2}$, so $R = 2 \\times \\frac{13}{2} = 13$ ✓. (The choice $26$ is ANSWERING THE DIAMETER ✗; $5$ and $12$ are each HALVING A LEG, treating a leg as if it stretched across the whole circle ✗.)',
+        'The circle through all three vertices is the circumcircle, and for a right triangle the hypotenuse is one of its diameters. The hypotenuse is $\\sqrt{10^2 + 24^2} = \\sqrt{100 + 576} = \\sqrt{676} = 26$, so the radius is $\\frac{26}{2} = 13$ ✓. Check a second, independent way through the triple family: $10$ and $24$ are the $5$-$12$-$13$ triangle scaled by $2$, whose circumradius is $\\frac{13}{2}$, so $R = 2 \\times \\frac{13}{2} = 13$ ✓. (The choice $5$ and $12$ are each HALVING A LEG, treating a leg as if it stretched across the whole circle ✗; $26$ is ANSWERING THE DIAMETER ✗.)',
     },
   ],
   // s3 — legs to circumradius, with the circumcircle drawn (figure).
@@ -147,7 +147,7 @@ const s72 = [
       choices: ['$14$', '$17.5$', '$35$', '$10.5$'],
       answer: 1,
       solution:
-        '$\\overline{OA}$ is a radius of the circumcircle. The hypotenuse is $\\sqrt{21^2 + 28^2} = \\sqrt{441 + 784} = \\sqrt{1225} = 35$ — the $3$-$4$-$5$ family scaled by $7$ — and the circumradius of a right triangle is half the hypotenuse: $OA = \\frac{35}{2} = 17.5$ ✓. Check a second, independent way from the figure’s coordinates: the center is the hypotenuse midpoint $O(14, 10.5)$, so $OA = \\sqrt{14^2 + 10.5^2} = \\sqrt{196 + 110.25} = \\sqrt{306.25} = 17.5$ ✓, and by the midpoint symmetry $OB$ and $OC$ repeat the same value. (The choice $35$ is ANSWERING THE DIAMETER ✗; $14$ and $10.5$ are each HALVING A LEG ✗.)',
+        '$\\overline{OA}$ is a radius of the circumcircle. The hypotenuse is $\\sqrt{21^2 + 28^2} = \\sqrt{441 + 784} = \\sqrt{1225} = 35$ — the $3$-$4$-$5$ family scaled by $7$ — and the circumradius of a right triangle is half the hypotenuse: $OA = \\frac{35}{2} = 17.5$ ✓. Check a second, independent way from the figure’s coordinates: the center is the hypotenuse midpoint $O(14, 10.5)$, so $OA = \\sqrt{14^2 + 10.5^2} = \\sqrt{196 + 110.25} = \\sqrt{306.25} = 17.5$ ✓, and by the midpoint symmetry $OB$ and $OC$ repeat the same value. (The choice $14$ and $10.5$ are each HALVING A LEG ✗; $35$ is ANSWERING THE DIAMETER ✗.)',
     },
   ],
   // s4 — the circumcenter of an obtuse triangle sits outside (figure).
@@ -439,14 +439,14 @@ const s72 = [
       choices: ['$18$', '$24$', '$25$', '$\\sqrt{674}$'],
       answer: 1,
       solution:
-        'Since $\\overline{AB}$ is a diameter, the inscribed angle at $C$ is a right angle, making $\\triangle ABC$ a right triangle with hypotenuse $AB = 2 \\times 12.5 = 25$. Then $CA = \\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24$ ✓. Check a second, independent way through the triple family: $7$-$24$-$25$ is a Pythagorean triple, and $49 + 576 = 625$ closes the equation on the nose ✓. (The choice $18$ is SUBTRACTING THE LENGTHS $25 - 7$ ✗; $\\sqrt{674}$ is ADDING THE SQUARES, $\\sqrt{625 + 49}$, treating the diameter as a leg ✗; $25$ is ANSWERING THE DIAMETER instead of the missing side ✗.)',
+        'Since $\\overline{AB}$ is a diameter, the inscribed angle at $C$ is a right angle, making $\\triangle ABC$ a right triangle with hypotenuse $AB = 2 \\times 12.5 = 25$. Then $CA = \\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24$ ✓. Check a second, independent way through the triple family: $7$-$24$-$25$ is a Pythagorean triple, and $49 + 576 = 625$ closes the equation on the nose ✓. (The choice $18$ is SUBTRACTING THE LENGTHS $25 - 7$ ✗; $25$ is ANSWERING THE DIAMETER instead of the missing side ✗; $\\sqrt{674}$ is ADDING THE SQUARES, $\\sqrt{625 + 49}$, treating the diameter as a leg ✗.)',
     },
     {
       q: 'A triangle’s three vertices lie on a circle of radius $14.5$, and one of its sides passes through the circle’s center. Another side has length $21$. Find the length of the remaining side.',
       choices: ['$8$', '$29$', '$20$', '$\\sqrt{1282}$'],
       answer: 2,
       solution:
-        'The side through the center is a diameter of length $2 \\times 14.5 = 29$, and the angle opposite a diameter is a right angle — so the triangle is right with hypotenuse $29$. The remaining side is $\\sqrt{29^2 - 21^2} = \\sqrt{841 - 441} = \\sqrt{400} = 20$ ✓. Check a second, independent way through the triple family: $20$-$21$-$29$ is a Pythagorean triple, since $400 + 441 = 841 = 29^2$ ✓. (The choice $8$ is SUBTRACTING THE LENGTHS $29 - 21$ ✗; $\\sqrt{1282}$ is ADDING THE SQUARES, $\\sqrt{841 + 441}$ ✗; $29$ is ANSWERING THE DIAMETER, the side the problem already handed over ✗.)',
+        'The side through the center is a diameter of length $2 \\times 14.5 = 29$, and the angle opposite a diameter is a right angle — so the triangle is right with hypotenuse $29$. The remaining side is $\\sqrt{29^2 - 21^2} = \\sqrt{841 - 441} = \\sqrt{400} = 20$ ✓. Check a second, independent way through the triple family: $20$-$21$-$29$ is a Pythagorean triple, since $400 + 441 = 841 = 29^2$ ✓. (The choice $8$ is SUBTRACTING THE LENGTHS $29 - 21$ ✗; $29$ is ANSWERING THE DIAMETER, the side the problem already handed over ✗; $\\sqrt{1282}$ is ADDING THE SQUARES, $\\sqrt{841 + 441}$ ✗.)',
     },
   ],
   // s9 — isosceles coordinate triangle: equidistance equation for R (figure).
@@ -495,7 +495,7 @@ const s72 = [
       choices: ['$\\frac{7}{4}$', '$10$', '$\\frac{25}{4}$', '$6$'],
       answer: 2,
       solution:
-        'The center sits on the vertical mid-line $x = 6$ (the perpendicular bisector of $\\overline{AB}$), which already forces $OA = OB$. Write $O(6, y)$ and set $OA = OC$: $36 + y^2 = (8 - y)^2 = 64 - 16y + y^2$, so $16y = 28$ and $y = \\frac{7}{4}$. Here $y$ is positive — the triangle is acute, and the center stays inside, a little above the base. Then $R = OA = \\sqrt{36 + \\frac{49}{16}} = \\sqrt{\\frac{625}{16}} = \\frac{25}{4}$ ✓. Check a second, independent way straight down from the apex: $C(6, 8)$ and $O\\left(6, \\frac{7}{4}\\right)$ share $x = 6$, so $OC = 8 - \\frac{7}{4} = \\frac{25}{4}$ ✓ — equidistance confirmed without any squaring. (The choice $10$ is ANSWERING A SLANTED SIDE ✗; $6$ is ANSWERING HALF THE BASE ✗; $\\frac{7}{4}$ is ANSWERING THE CENTER’S HEIGHT above the base, not a radius ✗.)',
+        'The center sits on the vertical mid-line $x = 6$ (the perpendicular bisector of $\\overline{AB}$), which already forces $OA = OB$. Write $O(6, y)$ and set $OA = OC$: $36 + y^2 = (8 - y)^2 = 64 - 16y + y^2$, so $16y = 28$ and $y = \\frac{7}{4}$. Here $y$ is positive — the triangle is acute, and the center stays inside, a little above the base. Then $R = OA = \\sqrt{36 + \\frac{49}{16}} = \\sqrt{\\frac{625}{16}} = \\frac{25}{4}$ ✓. Check a second, independent way straight down from the apex: $C(6, 8)$ and $O\\left(6, \\frac{7}{4}\\right)$ share $x = 6$, so $OC = 8 - \\frac{7}{4} = \\frac{25}{4}$ ✓ — equidistance confirmed without any squaring. (The choice $\\frac{7}{4}$ is ANSWERING THE CENTER’S HEIGHT above the base, not a radius ✗; $10$ is ANSWERING A SLANTED SIDE ✗; $6$ is ANSWERING HALF THE BASE ✗.)',
     },
     {
       q: 'In the figure, triangle $ABC$ has $A(0, 0)$, $B(16, 0)$, and $C(8, 6)$, so $CA = CB = 10$ and $AB = 16$. The circle through $A$, $B$, and $C$ has center $O$. What is its radius?',
@@ -518,7 +518,7 @@ const s72 = [
       choices: ['$8$', '$\\frac{25}{3}$', '$10$', '$\\frac{7}{3}$'],
       answer: 1,
       solution:
-        'The center lies on the vertical mid-line $x = 8$, the perpendicular bisector of $\\overline{AB}$, so $OA = OB$ for free. Write $O(8, y)$ and set $OA = OC$: $64 + y^2 = (6 - y)^2 = 36 - 12y + y^2$, so $64 = 36 - 12y$ and $y = -\\frac{7}{3}$. The negative $y$ drops $O$ BELOW the base, outside the triangle — forced by the obtuse angle at $C$ ($\\overrightarrow{CA} \\cdot \\overrightarrow{CB} = -64 + 36 < 0$), and the drawing shows exactly that. Then $R = OA = \\sqrt{64 + \\frac{49}{9}} = \\sqrt{\\frac{625}{9}} = \\frac{25}{3}$ ✓. Check a second, independent way along the mid-line: $C(8, 6)$ and $O\\left(8, -\\frac{7}{3}\\right)$ share $x = 8$, so $OC = 6 + \\frac{7}{3} = \\frac{25}{3}$ ✓ — no square root needed. (The choice $10$ is ANSWERING A SLANTED SIDE ✗; $8$ is ANSWERING HALF THE BASE ✗; $\\frac{7}{3}$ is ANSWERING THE CENTER’S DROP, the depth of $O$ below the base ✗.)',
+        'The center lies on the vertical mid-line $x = 8$, the perpendicular bisector of $\\overline{AB}$, so $OA = OB$ for free. Write $O(8, y)$ and set $OA = OC$: $64 + y^2 = (6 - y)^2 = 36 - 12y + y^2$, so $64 = 36 - 12y$ and $y = -\\frac{7}{3}$. The negative $y$ drops $O$ BELOW the base, outside the triangle — forced by the obtuse angle at $C$ ($\\overrightarrow{CA} \\cdot \\overrightarrow{CB} = -64 + 36 < 0$), and the drawing shows exactly that. Then $R = OA = \\sqrt{64 + \\frac{49}{9}} = \\sqrt{\\frac{625}{9}} = \\frac{25}{3}$ ✓. Check a second, independent way along the mid-line: $C(8, 6)$ and $O\\left(8, -\\frac{7}{3}\\right)$ share $x = 8$, so $OC = 6 + \\frac{7}{3} = \\frac{25}{3}$ ✓ — no square root needed. (The choice $8$ is ANSWERING HALF THE BASE ✗; $10$ is ANSWERING A SLANTED SIDE ✗; $\\frac{7}{3}$ is ANSWERING THE CENTER’S DROP, the depth of $O$ below the base ✗.)',
     },
   ],
   // s10 — the median to the hypotenuse is half the hypotenuse (figure).

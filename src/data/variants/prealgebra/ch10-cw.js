@@ -42,7 +42,7 @@ const challenge = [
       q: 'Three angles fit together along one side of a straight line, measuring $2x^\\circ$, $3x^\\circ$, and $4x^\\circ$. What is the largest of the three angles?',
       choices: ['$20^\\circ$', '$160^\\circ$', '$80^\\circ$', '$60^\\circ$'],
       answer: 2,
-      solution: 'Angles along one side of a straight line add to $180^\\circ$, not $360^\\circ$: $2x + 3x + 4x = 9x = 180$, so $x = 20$. The angles are $40^\\circ$, $60^\\circ$, and $80^\\circ$, which add to $180^\\circ$ ✓, and the largest is $4x = 80^\\circ$. ($160^\\circ$ comes from using $360^\\circ$ — the rule for a full turn around a point — which gives $x = 40$; $20^\\circ$ is just $x$; $60^\\circ$ is the middle angle.)',
+      solution: 'Angles along one side of a straight line add to $180^\\circ$, not $360^\\circ$: $2x + 3x + 4x = 9x = 180$, so $x = 20$. The angles are $40^\\circ$, $60^\\circ$, and $80^\\circ$, which add to $180^\\circ$ ✓, and the largest is $4x = 80^\\circ$. ($20^\\circ$ is just $x$; $160^\\circ$ comes from using $360^\\circ$ — the rule for a full turn around a point — which gives $x = 40$; $60^\\circ$ is the middle angle.)',
     },
     {
       q: 'Four angles fit together all the way around a point, and their measures are in the ratio $3 : 4 : 5 : 6$. What is the difference between the largest angle and the smallest angle?',

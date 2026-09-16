@@ -180,7 +180,7 @@ const s101 = [
       choices: ['$c = 6$', '$c = 36$', '$c = -36$', '$c = 0$'],
       answer: 3,
       solution:
-        'A square equals a positive number in two ways ($+\\sqrt{c}$ and $-\\sqrt{c}$), equals a negative number in no way, and equals $0$ in exactly one way. So $c = 0$, which forces $x + 6 = 0$ and the single solution $x = -6$. Check forward: $(-6 + 6)^2 = 0$ ✓, and no other $x$ works. (The choice $c = 36$ gives TWO solutions, since $x + 6 = \\pm 6$ produces $x = 0$ and $x = -12$; the choice $c = 6$ also gives two solutions, just irrational ones; the choice $c = -36$ gives NO solutions, since a real square is never negative.)',
+        'A square equals a positive number in two ways ($+\\sqrt{c}$ and $-\\sqrt{c}$), equals a negative number in no way, and equals $0$ in exactly one way. So $c = 0$, which forces $x + 6 = 0$ and the single solution $x = -6$. Check forward: $(-6 + 6)^2 = 0$ ✓, and no other $x$ works. (The choice $c = 6$ also gives two solutions, just irrational ones; the choice $c = 36$ gives TWO solutions, since $x + 6 = \\pm 6$ produces $x = 0$ and $x = -12$; the choice $c = -36$ gives NO solutions, since a real square is never negative.)',
     },
   ],
   // p8 — do not lose the bare factor of x
@@ -267,7 +267,7 @@ const s101 = [
       choices: ['$k = 0$', '$k = 25$', '$k = 24$', '$k = 26$'],
       answer: 2,
       solution:
-        'Substitute a claimed solution into the left side and read off $k$: $x = 5$ gives $(4)(6) = 24$. Check the other one: $x = -5$ gives $(-6)(-4) = 24$ ✓, the same value. (Expanding says the same thing: $x^2 - 1 = k$, so $k = 25 - 1 = 24$.) (The choice $k = 25$ forgets the $-1$ in $x^2 - 1$; the choice $k = 26$ ADDS $1$ instead of subtracting it; the choice $k = 0$ assumes the zero-product property applies, but then the solutions would be $x = 1$ and $x = -1$, not $\\pm 5$.)',
+        'Substitute a claimed solution into the left side and read off $k$: $x = 5$ gives $(4)(6) = 24$. Check the other one: $x = -5$ gives $(-6)(-4) = 24$ ✓, the same value. (Expanding says the same thing: $x^2 - 1 = k$, so $k = 25 - 1 = 24$.) (The choice $k = 0$ assumes the zero-product property applies, but then the solutions would be $x = 1$ and $x = -1$, not $\\pm 5$; the choice $k = 25$ forgets the $-1$ in $x^2 - 1$; the choice $k = 26$ ADDS $1$ instead of subtracting it.)',
     },
   ],
 ]
@@ -335,7 +335,7 @@ const s102 = [
       choices: ['$(x - 4)(x - 6)$', '$(x + 3)(x + 8)$', '$(x - 2)(x - 12)$', '$(x - 3)(x - 8)$'],
       answer: 3,
       solution:
-        'We need sum $-11$ and product $24$, so both numbers are negative: $-3$ and $-8$, since $-3 + (-8) = -11$ and $(-3)(-8) = 24$. Multiply back out: $(x - 3)(x - 8) = x^2 - 8x - 3x + 24 = x^2 - 11x + 24$ ✓. (The choice $(x - 4)(x - 6)$ is right product, wrong sum — it expands to $x^2 - 10x + 24$; the choice $(x - 2)(x - 12)$ is also right product, wrong sum, giving $x^2 - 14x + 24$; the choice $(x + 3)(x + 8)$ has the right pair with both signs flipped, giving $x^2 + 11x + 24$.)',
+        'We need sum $-11$ and product $24$, so both numbers are negative: $-3$ and $-8$, since $-3 + (-8) = -11$ and $(-3)(-8) = 24$. Multiply back out: $(x - 3)(x - 8) = x^2 - 8x - 3x + 24 = x^2 - 11x + 24$ ✓. (The choice $(x - 4)(x - 6)$ is right product, wrong sum — it expands to $x^2 - 10x + 24$; the choice $(x + 3)(x + 8)$ has the right pair with both signs flipped, giving $x^2 + 11x + 24$; the choice $(x - 2)(x - 12)$ is also right product, wrong sum, giving $x^2 - 14x + 24$.)',
     },
     {
       q: 'Which product expands to $x^2 - 12x + 35$?',

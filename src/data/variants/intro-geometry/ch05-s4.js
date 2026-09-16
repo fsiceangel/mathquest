@@ -242,7 +242,7 @@ const s54 = [
       choices: ['$\\frac{2}{7}$', '$\\frac{49}{4}$', '$\\frac{7}{2}$', '$\\frac{5}{3}$'],
       answer: 2,
       solution:
-        'Divide matching sorted sides: $\\frac{21}{6} = \\frac{28}{8} = \\frac{35}{10} = \\frac{7}{2}$ ✓. Check a second, independent way through the simplest form: $(6, 8, 10) = 2 \\times (3, 4, 5)$ and $(21, 28, 35) = 7 \\times (3, 4, 5)$ — both are blowups of the same $(3, 4, 5)$ core, one by $2$ and one by $7$, so the step from small to large is $\\frac{7}{2}$ ✓. ($\\frac{2}{7}$ is INVERTING THE FACTOR ✗; $\\frac{5}{3}$ is DIVIDING TWO SIDES OF THE SAME TRIANGLE, $\\frac{10}{6}$ inside the small gusset ✗; $\\frac{49}{4}$ is SQUARING THE FACTOR — the area grows by that much, the sides do not ✗.)',
+        'Divide matching sorted sides: $\\frac{21}{6} = \\frac{28}{8} = \\frac{35}{10} = \\frac{7}{2}$ ✓. Check a second, independent way through the simplest form: $(6, 8, 10) = 2 \\times (3, 4, 5)$ and $(21, 28, 35) = 7 \\times (3, 4, 5)$ — both are blowups of the same $(3, 4, 5)$ core, one by $2$ and one by $7$, so the step from small to large is $\\frac{7}{2}$ ✓. ($\\frac{2}{7}$ is INVERTING THE FACTOR ✗; $\\frac{49}{4}$ is SQUARING THE FACTOR — the area grows by that much, the sides do not ✗; $\\frac{5}{3}$ is DIVIDING TWO SIDES OF THE SAME TRIANGLE, $\\frac{10}{6}$ inside the small gusset ✗.)',
     },
     {
       q: 'The two right triangles shown have sides $12, 16, 20$ and $15, 20, 25$. By what factor do the sides of the first stretch to give the second?',
@@ -263,7 +263,7 @@ const s54 = [
       choices: ['$\\frac{4}{5}$', '$\\frac{25}{16}$', '$1$', '$\\frac{5}{4}$'],
       answer: 3,
       solution:
-        'Pair sorted sides and divide: $\\frac{15}{12} = \\frac{20}{16} = \\frac{25}{20} = \\frac{5}{4}$ ✓. Check a second, independent way by reducing both triples: $(12, 16, 20) = 4 \\times (3, 4, 5)$ and $(15, 20, 25) = 5 \\times (3, 4, 5)$, so passing from the $4$-fold copy to the $5$-fold copy multiplies every side by $\\frac{5}{4}$ ✓. Beware the $20$ that appears in both lists: it is the first triangle’s LONGEST side but only the second triangle’s middle side, so it pairs with $25$, not with itself. (The choice $1$ is MATCHING THE SHARED SIDE TO ITSELF ✗; $\\frac{4}{5}$ is INVERTING THE FACTOR ✗; $\\frac{25}{16}$ is SQUARING THE FACTOR ✗.)',
+        'Pair sorted sides and divide: $\\frac{15}{12} = \\frac{20}{16} = \\frac{25}{20} = \\frac{5}{4}$ ✓. Check a second, independent way by reducing both triples: $(12, 16, 20) = 4 \\times (3, 4, 5)$ and $(15, 20, 25) = 5 \\times (3, 4, 5)$, so passing from the $4$-fold copy to the $5$-fold copy multiplies every side by $\\frac{5}{4}$ ✓. Beware the $20$ that appears in both lists: it is the first triangle’s LONGEST side but only the second triangle’s middle side, so it pairs with $25$, not with itself. (The choice $\\frac{4}{5}$ is INVERTING THE FACTOR ✗; $\\frac{25}{16}$ is SQUARING THE FACTOR ✗; $1$ is MATCHING THE SHARED SIDE TO ITSELF ✗.)',
     },
   ],
   // s5 — scrambled side lists; factor from the SECOND triangle to the FIRST.

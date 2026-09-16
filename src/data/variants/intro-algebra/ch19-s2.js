@@ -85,14 +85,14 @@ const s192 = [
       choices: ['$\\$12.50$', '$\\$250$', '$\\$300$', '$\\$312.50$'],
       answer: 3,
       solution:
-        'Growing by $25\\%$ means multiplying by $1 + \\frac{1}{4} = \\frac{5}{4}$ once per year. Year by year: $200 \\cdot \\frac{5}{4} = \\$250$, then $250 \\cdot \\frac{5}{4} = \\$312.50$. The first year paid $\\$50$ and the second paid $\\$62.50$ — bigger, because the first year’s $\\$50$ earned interest too. Check a second, independent way with the closed formula: $A = 200\\left(\\frac{5}{4}\\right)^2 = 200 \\cdot \\frac{25}{16} = \\frac{5000}{16} = \\$312.50$ ✓ — exact to the cent, no rounding anywhere. (The choice $\\$250$ is STOPPING A YEAR SHORT; the choice $\\$300$ is USING SIMPLE INTEREST, $200 + 2 \\cdot 50$; the choice $\\$12.50$ comes from the formula $P \\cdot r^t$, which FORGETS TO KEEP THE ORIGINAL MONEY: $200 \\cdot \\left(\\frac{1}{4}\\right)^2 = \\$12.50$.)',
+        'Growing by $25\\%$ means multiplying by $1 + \\frac{1}{4} = \\frac{5}{4}$ once per year. Year by year: $200 \\cdot \\frac{5}{4} = \\$250$, then $250 \\cdot \\frac{5}{4} = \\$312.50$. The first year paid $\\$50$ and the second paid $\\$62.50$ — bigger, because the first year’s $\\$50$ earned interest too. Check a second, independent way with the closed formula: $A = 200\\left(\\frac{5}{4}\\right)^2 = 200 \\cdot \\frac{25}{16} = \\frac{5000}{16} = \\$312.50$ ✓ — exact to the cent, no rounding anywhere. (The choice $\\$12.50$ comes from the formula $P \\cdot r^t$, which FORGETS TO KEEP THE ORIGINAL MONEY: $200 \\cdot \\left(\\frac{1}{4}\\right)^2 = \\$12.50$; the choice $\\$250$ is STOPPING A YEAR SHORT; the choice $\\$300$ is USING SIMPLE INTEREST, $200 + 2 \\cdot 50$.)',
     },
     {
       q: 'You deposit $\\$1200$ at $5\\%$ interest compounded annually. What is the balance after $2$ years?',
       choices: ['$\\$1323$', '$\\$1203$', '$\\$1260$', '$\\$1320$'],
       answer: 0,
       solution:
-        'Growing by $5\\%$ means multiplying by $1 + \\frac{1}{20} = \\frac{21}{20}$ each year. Year by year: $1200 \\cdot \\frac{21}{20} = \\$1260$, then $1260 \\cdot \\frac{21}{20} = \\$1323$. Check a second, independent way with the closed formula: $A = 1200\\left(\\frac{21}{20}\\right)^2 = 1200 \\cdot \\frac{441}{400} = 3 \\cdot 441 = \\$1323$ ✓. (The choice $\\$1260$ is STOPPING A YEAR SHORT; the choice $\\$1320$ is USING SIMPLE INTEREST, $1200 + 2 \\cdot 60$, which misses the $\\$3$ of interest that the first year’s $\\$60$ earned; the choice $\\$1203$ is RAISING THE RATE TO THE POWER INSTEAD OF THE WHOLE GROWTH FACTOR, computing $1200\\left(1 + 0.05^2\\right) = 1200 \\cdot 1.0025$.)',
+        'Growing by $5\\%$ means multiplying by $1 + \\frac{1}{20} = \\frac{21}{20}$ each year. Year by year: $1200 \\cdot \\frac{21}{20} = \\$1260$, then $1260 \\cdot \\frac{21}{20} = \\$1323$. Check a second, independent way with the closed formula: $A = 1200\\left(\\frac{21}{20}\\right)^2 = 1200 \\cdot \\frac{441}{400} = 3 \\cdot 441 = \\$1323$ ✓. (The choice $\\$1203$ is RAISING THE RATE TO THE POWER INSTEAD OF THE WHOLE GROWTH FACTOR, computing $1200\\left(1 + 0.05^2\\right) = 1200 \\cdot 1.0025$; the choice $\\$1260$ is STOPPING A YEAR SHORT; the choice $\\$1320$ is USING SIMPLE INTEREST, $1200 + 2 \\cdot 60$, which misses the $\\$3$ of interest that the first year’s $\\$60$ earned.)',
     },
     {
       q: 'Bank A pays $4\\%$ interest compounded annually. You deposit $\\$500$ there. What is the balance after $2$ years?',
@@ -140,14 +140,14 @@ const s192 = [
       choices: ['$\\$936$', '$\\$1296$', '$\\$1080$', '$\\$1260$'],
       answer: 1,
       solution:
-        'Growing by $20\\%$ means multiplying by $1 + \\frac{1}{5} = \\frac{6}{5}$ each year. Year by year: $900 \\cdot \\frac{6}{5} = \\$1080$, then $1080 \\cdot \\frac{6}{5} = \\$1296$. Check a second, independent way with the closed formula: $A = 900\\left(\\frac{6}{5}\\right)^2 = 900 \\cdot \\frac{36}{25} = 36 \\cdot 36 = \\$1296$ ✓. (The choice $\\$1080$ is STOPPING A YEAR SHORT; the choice $\\$1260$ is USING SIMPLE INTEREST, $900 + 2 \\cdot 180$, which misses the $\\$36$ earned by the first year’s $\\$180$; the choice $\\$936$ is RAISING THE RATE TO THE POWER INSTEAD OF THE WHOLE GROWTH FACTOR, computing $900\\left(1 + 0.2^2\\right) = 900 \\cdot 1.04$.)',
+        'Growing by $20\\%$ means multiplying by $1 + \\frac{1}{5} = \\frac{6}{5}$ each year. Year by year: $900 \\cdot \\frac{6}{5} = \\$1080$, then $1080 \\cdot \\frac{6}{5} = \\$1296$. Check a second, independent way with the closed formula: $A = 900\\left(\\frac{6}{5}\\right)^2 = 900 \\cdot \\frac{36}{25} = 36 \\cdot 36 = \\$1296$ ✓. (The choice $\\$936$ is RAISING THE RATE TO THE POWER INSTEAD OF THE WHOLE GROWTH FACTOR, computing $900\\left(1 + 0.2^2\\right) = 900 \\cdot 1.04$; the choice $\\$1080$ is STOPPING A YEAR SHORT; the choice $\\$1260$ is USING SIMPLE INTEREST, $900 + 2 \\cdot 180$, which misses the $\\$36$ earned by the first year’s $\\$180$.)',
     },
     {
       q: 'You deposit $\\$1600$ at $25\\%$ compounded annually. What is the balance after $2$ years?',
       choices: ['$\\$1700$', '$\\$2000$', '$\\$2500$', '$\\$2400$'],
       answer: 2,
       solution:
-        'Growing by $25\\%$ means multiplying by $\\frac{5}{4}$ each year. Year by year: $1600 \\cdot \\frac{5}{4} = \\$2000$, then $2000 \\cdot \\frac{5}{4} = \\$2500$. Check a second, independent way with the closed formula: $A = 1600\\left(\\frac{5}{4}\\right)^2 = 1600 \\cdot \\frac{25}{16} = 100 \\cdot 25 = \\$2500$ ✓. (The choice $\\$2000$ is STOPPING A YEAR SHORT; the choice $\\$2400$ is USING SIMPLE INTEREST, $1600 + 2 \\cdot 400$, missing the $\\$100$ the first year’s $\\$400$ earned; the choice $\\$1700$ is RAISING THE RATE TO THE POWER INSTEAD OF THE WHOLE GROWTH FACTOR, computing $1600\\left(1 + \\left(\\frac{1}{4}\\right)^2\\right) = 1600 \\cdot \\frac{17}{16}$.)',
+        'Growing by $25\\%$ means multiplying by $\\frac{5}{4}$ each year. Year by year: $1600 \\cdot \\frac{5}{4} = \\$2000$, then $2000 \\cdot \\frac{5}{4} = \\$2500$. Check a second, independent way with the closed formula: $A = 1600\\left(\\frac{5}{4}\\right)^2 = 1600 \\cdot \\frac{25}{16} = 100 \\cdot 25 = \\$2500$ ✓. (The choice $\\$1700$ is RAISING THE RATE TO THE POWER INSTEAD OF THE WHOLE GROWTH FACTOR, computing $1600\\left(1 + \\left(\\frac{1}{4}\\right)^2\\right) = 1600 \\cdot \\frac{17}{16}$; the choice $\\$2000$ is STOPPING A YEAR SHORT; the choice $\\$2400$ is USING SIMPLE INTEREST, $1600 + 2 \\cdot 400$, missing the $\\$100$ the first year’s $\\$400$ earned.)',
     },
   ],
   // p6 — three years of annual compounding: three multiplications, not three additions.
@@ -157,7 +157,7 @@ const s192 = [
       choices: ['$\\$1260$', '$\\$1800$', '$\\$2000$', '$\\$2160$'],
       answer: 3,
       solution:
-        'Multiply by $\\frac{6}{5}$ once per year and watch the balance climb: $1250 \\to \\$1500 \\to \\$1800 \\to \\$2160$. The yearly gains are $\\$250$, then $\\$300$, then $\\$360$ — growing, because each year’s interest joins the pile and earns interest of its own. Check a second, independent way with the closed formula: $A = 1250\\left(\\frac{6}{5}\\right)^3 = 1250 \\cdot \\frac{216}{125} = 10 \\cdot 216 = \\$2160$ ✓. (The choice $\\$1800$ is STOPPING A YEAR SHORT; the choice $\\$2000$ is USING SIMPLE INTEREST, $1250 + 3 \\cdot 250$; the choice $\\$1260$ is RAISING THE RATE TO THE POWER INSTEAD OF THE WHOLE GROWTH FACTOR, computing $1250\\left(1 + 0.2^3\\right) = 1250 \\cdot 1.008$.)',
+        'Multiply by $\\frac{6}{5}$ once per year and watch the balance climb: $1250 \\to \\$1500 \\to \\$1800 \\to \\$2160$. The yearly gains are $\\$250$, then $\\$300$, then $\\$360$ — growing, because each year’s interest joins the pile and earns interest of its own. Check a second, independent way with the closed formula: $A = 1250\\left(\\frac{6}{5}\\right)^3 = 1250 \\cdot \\frac{216}{125} = 10 \\cdot 216 = \\$2160$ ✓. (The choice $\\$1260$ is RAISING THE RATE TO THE POWER INSTEAD OF THE WHOLE GROWTH FACTOR, computing $1250\\left(1 + 0.2^3\\right) = 1250 \\cdot 1.008$; the choice $\\$1800$ is STOPPING A YEAR SHORT; the choice $\\$2000$ is USING SIMPLE INTEREST, $1250 + 3 \\cdot 250$.)',
     },
     {
       q: 'A savings account starts at $\\$2400$ and earns $5\\%$ compounded annually. What is the balance after $3$ years?',
@@ -188,7 +188,7 @@ const s192 = [
       choices: ['$\\$80$', '$\\$400$', '$\\$880$', '$\\$0$'],
       answer: 0,
       solution:
-        'Simple interest pays $20\\%$ of $\\$2000$, which is $\\$400$, each year, so it reaches $2000 + 800 = \\$2800$. Compounding multiplies by $\\frac{6}{5}$ twice: $2000 \\to \\$2400 \\to \\$2880$, which the closed formula confirms as $2000 \\cdot \\frac{36}{25} = 80 \\cdot 36 = \\$2880$. The gap is $2880 - 2800 = \\$80$. Check a second, independent way through the source of the extra money: compounding differs only by paying interest on the first year’s $\\$400$, and $20\\%$ of $\\$400$ is $\\$80$ ✓. (The choice $\\$0$ is believing the accounts never differ; the choice $\\$400$ is one year’s interest; the choice $\\$880$ is the compound account’s TOTAL interest, not its lead.)',
+        'Simple interest pays $20\\%$ of $\\$2000$, which is $\\$400$, each year, so it reaches $2000 + 800 = \\$2800$. Compounding multiplies by $\\frac{6}{5}$ twice: $2000 \\to \\$2400 \\to \\$2880$, which the closed formula confirms as $2000 \\cdot \\frac{36}{25} = 80 \\cdot 36 = \\$2880$. The gap is $2880 - 2800 = \\$80$. Check a second, independent way through the source of the extra money: compounding differs only by paying interest on the first year’s $\\$400$, and $20\\%$ of $\\$400$ is $\\$80$ ✓. (The choice $\\$880$ is the compound account’s TOTAL interest, not its lead; the choice $\\$0$ is believing the accounts never differ; the choice $\\$400$ is one year’s interest.)',
     },
     {
       q: 'You deposit $\\$3000$ at $4\\%$ for $2$ years. How much MORE does compounding annually earn than simple interest?',
@@ -253,7 +253,7 @@ const s192 = [
       choices: ['$20\\%$', '$22\\%$', '$44\\%$', '$120\\%$'],
       answer: 0,
       solution:
-        'Two years of growth multiplied the money by $\\frac{720}{500} = \\frac{36}{25}$. That total factor is $(1+r)^2$, and $\\frac{36}{25} = \\left(\\frac{6}{5}\\right)^2$, so $1 + r = \\frac{6}{5}$ and $r = \\frac{1}{5} = 20\\%$. Check a second, independent way by running the account forward at $20\\%$: $500 \\to \\$600 \\to \\$720$ ✓ — it lands exactly on the given balance. (The choice $44\\%$ REPORTS TOTAL GROWTH AS THE ANNUAL RATE, since the money did grow $44\\%$ over the two years together; the choice $22\\%$ is HALVING THE TOTAL GROWTH, which is what simple interest would do, not compounding; the choice $120\\%$ is FORGETTING TO SUBTRACT THE $1$ from the growth factor $1.2$.)',
+        'Two years of growth multiplied the money by $\\frac{720}{500} = \\frac{36}{25}$. That total factor is $(1+r)^2$, and $\\frac{36}{25} = \\left(\\frac{6}{5}\\right)^2$, so $1 + r = \\frac{6}{5}$ and $r = \\frac{1}{5} = 20\\%$. Check a second, independent way by running the account forward at $20\\%$: $500 \\to \\$600 \\to \\$720$ ✓ — it lands exactly on the given balance. (The choice $22\\%$ is HALVING THE TOTAL GROWTH, which is what simple interest would do, not compounding; the choice $44\\%$ REPORTS TOTAL GROWTH AS THE ANNUAL RATE, since the money did grow $44\\%$ over the two years together; the choice $120\\%$ is FORGETTING TO SUBTRACT THE $1$ from the growth factor $1.2$.)',
     },
     {
       q: 'A deposit of $\\$2500$, compounded annually at a fixed rate, grows to $\\$4900$ in $2$ years. What is the annual rate?',

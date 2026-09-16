@@ -29,13 +29,13 @@ const challenge = [
       q: 'Simplify $\\sqrt{675}$ completely.',
       choices: ['$225\\sqrt{3}$', '$3\\sqrt{15}$', '$15\\sqrt{3}$', '$15$'],
       answer: 2,
-      solution: 'The largest perfect square factor of $675$ is $225$, since $675 = 225 \\cdot 3$. So $\\sqrt{675} = \\sqrt{225} \\cdot \\sqrt{3} = 15\\sqrt{3}$. Check: $(15\\sqrt{3})^2 = 225 \\cdot 3 = 675$. ($225\\sqrt{3}$ pulls the $225$ out without rooting it; $15$ roots the $225$ but throws the leftover $\\sqrt{3}$ away; $3\\sqrt{15}$ puts the two numbers on the wrong sides of the radical sign.)',
+      solution: 'The largest perfect square factor of $675$ is $225$, since $675 = 225 \\cdot 3$. So $\\sqrt{675} = \\sqrt{225} \\cdot \\sqrt{3} = 15\\sqrt{3}$. Check: $(15\\sqrt{3})^2 = 225 \\cdot 3 = 675$. ($225\\sqrt{3}$ pulls the $225$ out without rooting it; $3\\sqrt{15}$ puts the two numbers on the wrong sides of the radical sign; $15$ roots the $225$ but throws the leftover $\\sqrt{3}$ away.)',
     },
     {
       q: 'Simplify $\\sqrt{432}$ completely.',
       choices: ['$144\\sqrt{3}$', '$4\\sqrt{3}$', '$12$', '$12\\sqrt{3}$'],
       answer: 3,
-      solution: 'Since $432 = 144 \\cdot 3$, split the root: $\\sqrt{432} = \\sqrt{144} \\cdot \\sqrt{3} = 12\\sqrt{3}$. Check: $(12\\sqrt{3})^2 = 144 \\cdot 3 = 432$. ($144\\sqrt{3}$ forgets to root the $144$; $12$ throws away the leftover $\\sqrt{3}$; $4\\sqrt{3}$ comes from stopping at the small factor $16$, which gives $4\\sqrt{27}$, and then trimming $\\sqrt{27}$ down to $\\sqrt{3}$.)',
+      solution: 'Since $432 = 144 \\cdot 3$, split the root: $\\sqrt{432} = \\sqrt{144} \\cdot \\sqrt{3} = 12\\sqrt{3}$. Check: $(12\\sqrt{3})^2 = 144 \\cdot 3 = 432$. ($144\\sqrt{3}$ forgets to root the $144$; $4\\sqrt{3}$ comes from stopping at the small factor $16$, which gives $4\\sqrt{27}$, and then trimming $\\sqrt{27}$ down to $\\sqrt{3}$; $12$ throws away the leftover $\\sqrt{3}$.)',
     },
     {
       q: 'Simplify $\\sqrt{162}$ completely.',
@@ -170,19 +170,19 @@ const challenge = [
       q: '$\\sqrt{170}$ is between which two consecutive integers?',
       choices: ['$12$ and $13$', '$85$ and $86$', '$13$ and $14$', '$14$ and $15$'],
       answer: 2,
-      solution: 'The perfect squares on either side of $170$ are $169 = 13^2$ and $196 = 14^2$. Since $169 < 170 < 196$, taking roots gives $13 < \\sqrt{170} < 14$ — and $170$ sits just one past $169$, so the root barely clears $13$. ($12$ and $13$ would need $170 < 169$, which is false; $14$ and $15$ would need $170 > 196$; $85$ and $86$ comes from halving, not rooting.)',
+      solution: 'The perfect squares on either side of $170$ are $169 = 13^2$ and $196 = 14^2$. Since $169 < 170 < 196$, taking roots gives $13 < \\sqrt{170} < 14$ — and $170$ sits just one past $169$, so the root barely clears $13$. ($12$ and $13$ would need $170 < 169$, which is false; $85$ and $86$ comes from halving, not rooting; $14$ and $15$ would need $170 > 196$.)',
     },
     {
       q: '$\\sqrt{250}$ is between which two consecutive integers?',
       choices: ['$16$ and $17$', '$15$ and $16$', '$125$ and $126$', '$14$ and $15$'],
       answer: 1,
-      solution: 'The neighbouring perfect squares are $225 = 15^2$ and $256 = 16^2$, and $225 < 250 < 256$, so $15 < \\sqrt{250} < 16$. Notice how close $250$ sits to $256$ — the root is only a little under $16$. ($14$ and $15$ would need $250 < 225$; $16$ and $17$ would need $250 > 256$; $125$ and $126$ halves instead of rooting.)',
+      solution: 'The neighbouring perfect squares are $225 = 15^2$ and $256 = 16^2$, and $225 < 250 < 256$, so $15 < \\sqrt{250} < 16$. Notice how close $250$ sits to $256$ — the root is only a little under $16$. ($16$ and $17$ would need $250 > 256$; $125$ and $126$ halves instead of rooting; $14$ and $15$ would need $250 < 225$.)',
     },
     {
       q: '$\\sqrt{115}$ is between which two consecutive integers?',
       choices: ['$57$ and $58$', '$9$ and $10$', '$11$ and $12$', '$10$ and $11$'],
       answer: 3,
-      solution: 'The perfect squares on either side of $115$ are $100 = 10^2$ and $121 = 11^2$: since $100 < 115 < 121$, we get $10 < \\sqrt{115} < 11$. ($9$ and $10$ would need $115 < 100$; $11$ and $12$ would need $115 > 121$; $57$ and $58$ comes from halving.)',
+      solution: 'The perfect squares on either side of $115$ are $100 = 10^2$ and $121 = 11^2$: since $100 < 115 < 121$, we get $10 < \\sqrt{115} < 11$. ($57$ and $58$ comes from halving; $9$ and $10$ would need $115 < 100$; $11$ and $12$ would need $115 > 121$.)',
     },
   ],
   // 9. Multiplying two matching radical terms — the roots cash in.
@@ -260,7 +260,7 @@ const challenge = [
       q: 'Compute $\\frac{\\sqrt{588}}{\\sqrt{3}}$.',
       choices: ['$\\sqrt{585}$', '$14$', '$196$', '$42$'],
       answer: 1,
-      solution: 'Merge into one root: $\\frac{\\sqrt{588}}{\\sqrt{3}} = \\sqrt{\\frac{588}{3}} = \\sqrt{196} = 14$. ($196$ forgets the last root; $\\sqrt{585}$ subtracts inside instead of dividing; $42$ is $\\sqrt{1764}$, from multiplying the two roots.)',
+      solution: 'Merge into one root: $\\frac{\\sqrt{588}}{\\sqrt{3}} = \\sqrt{\\frac{588}{3}} = \\sqrt{196} = 14$. ($\\sqrt{585}$ subtracts inside instead of dividing; $196$ forgets the last root; $42$ is $\\sqrt{1764}$, from multiplying the two roots.)',
     },
   ],
   // 12. Undoing a square root to recover the number underneath.

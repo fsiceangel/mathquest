@@ -35,7 +35,7 @@ const s172 = [
       choices: ['It is shifted left $6$', 'It is shifted down $6$', 'It is shifted up $6$', 'It is shifted right $6$'],
       answer: 1,
       solution:
-        'The $-6$ sits OUTSIDE the function, so it changes outputs, not inputs: every point $(a, b)$ drops to $(a, b - 6)$ and the whole graph slides down $6$. Check a second, independent way with a point: if $f(2) = 5$, then at $x = 2$ the new graph has height $5 - 6 = -1$, which is $6$ lower and still in the same column ✓. (The choice "up $6$" is REVERSING AN OUTSIDE SIGN — only inside changes run backwards; "left $6$" and "right $6$" are TREATING AN OUTSIDE CHANGE AS HORIZONTAL, but nothing here touches the input.)',
+        'The $-6$ sits OUTSIDE the function, so it changes outputs, not inputs: every point $(a, b)$ drops to $(a, b - 6)$ and the whole graph slides down $6$. Check a second, independent way with a point: if $f(2) = 5$, then at $x = 2$ the new graph has height $5 - 6 = -1$, which is $6$ lower and still in the same column ✓. ("The choice left $6$" and "right $6$" are TREATING AN OUTSIDE CHANGE AS HORIZONTAL, but nothing here touches the input; "up $6$" is REVERSING AN OUTSIDE SIGN — only inside changes run backwards.)',
     },
     {
       q: 'The graph of $y = f(x)$ is slid up $9$ units. Which equation describes the new graph?',
@@ -49,7 +49,7 @@ const s172 = [
       choices: ['$(11, -1)$', '$(4, -8)$', '$(-3, -1)$', '$(4, 6)$'],
       answer: 3,
       solution:
-        'The $+7$ is outside, so it adds $7$ to the OUTPUT and leaves the input alone: $(4, -1) \\to (4, -1 + 7) = (4, 6)$. Check a second, independent way by evaluating the new rule at $x = 4$: its height is $f(4) + 7 = -1 + 7 = 6$ ✓. (The choice $(4, -8)$ subtracts $7$ instead of adding, REVERSING AN OUTSIDE SIGN; $(11, -1)$ and $(-3, -1)$ move the $x$-coordinate, TREATING AN OUTSIDE CHANGE AS HORIZONTAL, but a vertical slide never moves a point sideways.)',
+        'The $+7$ is outside, so it adds $7$ to the OUTPUT and leaves the input alone: $(4, -1) \\to (4, -1 + 7) = (4, 6)$. Check a second, independent way by evaluating the new rule at $x = 4$: its height is $f(4) + 7 = -1 + 7 = 6$ ✓. (The choice $(11, -1)$ and $(-3, -1)$ move the $x$-coordinate, TREATING AN OUTSIDE CHANGE AS HORIZONTAL, but a vertical slide never moves a point sideways; $(4, -8)$ subtracts $7$ instead of adding, REVERSING AN OUTSIDE SIGN.)',
     },
   ],
   // p2 — an inside constant slides the graph sideways, backwards from its sign.
@@ -102,7 +102,7 @@ const s172 = [
       choices: ['$-2$', '$-5$', '$2$', '$5$'],
       answer: 2,
       solution:
-        'The point says $-f(5) = -2$. Multiply both sides by $-1$: $f(5) = 2$. Check a second, independent way by going forward: if $f(5) = 2$, then $y = -f(x)$ has height $-2$ above $x = 5$, which is the given point ✓. (The choice $-2$ reads the height straight off the point, forgetting the minus sign; $5$ answers with the input instead of the output; $-5$ negates the input, but a minus OUTSIDE never touches $x$.)',
+        'The point says $-f(5) = -2$. Multiply both sides by $-1$: $f(5) = 2$. Check a second, independent way by going forward: if $f(5) = 2$, then $y = -f(x)$ has height $-2$ above $x = 5$, which is the given point ✓. (The choice $-2$ reads the height straight off the point, forgetting the minus sign; $-5$ negates the input, but a minus OUTSIDE never touches $x$; $5$ answers with the input instead of the output.)',
     },
   ],
   // p4 — naming the two reflections.
@@ -228,7 +228,7 @@ const s172 = [
       choices: ['$(10, 5)$', '$(5, 5)$', '$(5, 2)$', '$(5, 8)$'],
       answer: 1,
       solution:
-        'Both changes are outside the function, so the input never moves: the point stays in the column $x = 5$. The height is doubled FIRST and lowered by $3$ afterwards: $2(4) - 3 = 8 - 3 = 5$, giving $(5, 5)$. Check a second, independent way by evaluating: $g(5) = 2f(5) - 3 = 2(4) - 3 = 5$ ✓. (The choice $(5, 2)$ is SUBTRACTING BEFORE DOUBLING, computing $2(4 - 3)$; $(5, 8)$ doubles and forgets to subtract; $(10, 5)$ doubles the $x$-coordinate, but a vertical stretch never moves a point sideways.)',
+        'Both changes are outside the function, so the input never moves: the point stays in the column $x = 5$. The height is doubled FIRST and lowered by $3$ afterwards: $2(4) - 3 = 8 - 3 = 5$, giving $(5, 5)$. Check a second, independent way by evaluating: $g(5) = 2f(5) - 3 = 2(4) - 3 = 5$ ✓. (The choice $(10, 5)$ doubles the $x$-coordinate, but a vertical stretch never moves a point sideways; $(5, 2)$ is SUBTRACTING BEFORE DOUBLING, computing $2(4 - 3)$; $(5, 8)$ doubles and forgets to subtract.)',
     },
   ],
   // p8 — what a vertical stretch leaves alone.
@@ -295,7 +295,7 @@ const s172 = [
       choices: ['$7$', '$5$', '$-1$', '$2$'],
       answer: 1,
       solution:
-        'Substitute: $h(3) = f(3 - 2) + 3 = f(1) + 3$. The graph passes through $(1, 2)$, so $f(1) = 2$ and $h(3) = 2 + 3 = 5$. Check a second, independent way with the point rule: the graph of $h$ is the graph of $f$ slid right $2$ and up $3$, so $(1, 2)$ lands at $(3, 5)$ — height $5$ above $x = 3$ ✓. (The choice $7$ is READING THE GRAPH AT THE UNSHIFTED INPUT, using $f(3) = 4$; the choice $2$ stops at $f(1)$ and forgets the $+3$; the choice $-1$ subtracts $3$ instead of adding.)',
+        'Substitute: $h(3) = f(3 - 2) + 3 = f(1) + 3$. The graph passes through $(1, 2)$, so $f(1) = 2$ and $h(3) = 2 + 3 = 5$. Check a second, independent way with the point rule: the graph of $h$ is the graph of $f$ slid right $2$ and up $3$, so $(1, 2)$ lands at $(3, 5)$ — height $5$ above $x = 3$ ✓. (The choice $7$ is READING THE GRAPH AT THE UNSHIFTED INPUT, using $f(3) = 4$; the choice $-1$ subtracts $3$ instead of adding; the choice $2$ stops at $f(1)$ and forgets the $+3$.)',
     },
     {
       q: 'The graph of $y = f(x)$ is shown. Let $g(x) = -f(x) + 1$. What is $g(2)$?',

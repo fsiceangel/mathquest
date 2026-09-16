@@ -153,7 +153,7 @@ const challenge = [
       choices: ['$100\\%$', '$400\\%$', '$300\\%$', '$200\\%$'],
       answer: 2,
       solution:
-        'The new radius is $2$ times the old, so the new area is $2^2 = 4$ times the old — that is $400\\%$ OF the old area, an increase of $300\\%$ ✓. Check a second, independent way with a concrete radius: from $r = 10$ to $r = 20$ the area goes from $100\\pi$ to $400\\pi$, a gain of $300\\pi$ on $100\\pi$, which is $300\\%$ ✓. (The choice $100\\%$ is SCALING THE AREA LINEARLY with the radius ✗; the choice $200\\%$ is DOUBLING THE PERCENT instead of squaring the scale factor ✗; the choice $400\\%$ is REPORTING THE NEW TOTAL instead of the increase ✗.)',
+        'The new radius is $2$ times the old, so the new area is $2^2 = 4$ times the old — that is $400\\%$ OF the old area, an increase of $300\\%$ ✓. Check a second, independent way with a concrete radius: from $r = 10$ to $r = 20$ the area goes from $100\\pi$ to $400\\pi$, a gain of $300\\pi$ on $100\\pi$, which is $300\\%$ ✓. (The choice $100\\%$ is SCALING THE AREA LINEARLY with the radius ✗; the choice $400\\%$ is REPORTING THE NEW TOTAL instead of the increase ✗; the choice $200\\%$ is DOUBLING THE PERCENT instead of squaring the scale factor ✗.)',
     },
   ],
 

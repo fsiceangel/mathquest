@@ -49,7 +49,7 @@ const s103 = [
       choices: ['$x = 0$ or $x = -7$', '$x = 7$ only', '$x = 0$ or $x = 7$', '$x = 0$ only'],
       answer: 2,
       solution:
-        'Move everything to one side first: $3x^2 - 21x = 0$. Now factor out $3x$: $3x(x - 7) = 0$. The zero-product property gives $3x = 0$ or $x - 7 = 0$, so $x = 0$ or $x = 7$. Check forward in the original: $x = 0$ gives $0 = 0$ ✓, and $x = 7$ gives $3 \\cdot 49 = 147$ and $21 \\cdot 7 = 147$ ✓. (The choice $x = 7$ only comes from dividing both sides by $x$ at the start, which quietly throws away the solution $x = 0$ — never divide by the variable; the choice $x = 0$ only stops after the easy factor; the choice $x = 0$ or $x = -7$ copies the sign out of the factor $x - 7$ instead of flipping it, and $3 \\cdot 49 = 147 \\ne 21 \\cdot (-7) = -147$.)',
+        'Move everything to one side first: $3x^2 - 21x = 0$. Now factor out $3x$: $3x(x - 7) = 0$. The zero-product property gives $3x = 0$ or $x - 7 = 0$, so $x = 0$ or $x = 7$. Check forward in the original: $x = 0$ gives $0 = 0$ ✓, and $x = 7$ gives $3 \\cdot 49 = 147$ and $21 \\cdot 7 = 147$ ✓. (The choice $x = 0$ or $x = -7$ copies the sign out of the factor $x - 7$ instead of flipping it, and $3 \\cdot 49 = 147 \\ne 21 \\cdot (-7) = -147$; the choice $x = 7$ only comes from dividing both sides by $x$ at the start, which quietly throws away the solution $x = 0$ — never divide by the variable; the choice $x = 0$ only stops after the easy factor.)',
     },
     {
       q: 'Solve $5x^2 + 15x = 0$.',
@@ -73,7 +73,7 @@ const s103 = [
       choices: ['$(x - 8)(x + 8)$', '$(x - 8)^2$', '$(x - 64)(x + 1)$', '$(x + 8)^2$'],
       answer: 0,
       solution:
-        'Both terms are perfect squares and they are subtracted: $x^2 - 64 = x^2 - 8^2$. The difference-of-squares pattern $a^2 - b^2 = (a - b)(a + b)$ gives $(x - 8)(x + 8)$. Multiply back out: $x^2 + 8x - 8x - 64 = x^2 - 64$ ✓ — the two middle terms cancel, which is exactly why there is no middle term. (The choice $(x - 8)^2$ expands to $x^2 - 16x + 64$, which has a middle term AND the wrong sign on the constant; the choice $(x + 8)^2$ expands to $x^2 + 16x + 64$; the choice $(x - 64)(x + 1)$ uses the number $64$ itself instead of its square root and expands to $x^2 - 63x - 64$.)',
+        'Both terms are perfect squares and they are subtracted: $x^2 - 64 = x^2 - 8^2$. The difference-of-squares pattern $a^2 - b^2 = (a - b)(a + b)$ gives $(x - 8)(x + 8)$. Multiply back out: $x^2 + 8x - 8x - 64 = x^2 - 64$ ✓ — the two middle terms cancel, which is exactly why there is no middle term. (The choice $(x - 8)^2$ expands to $x^2 - 16x + 64$, which has a middle term AND the wrong sign on the constant; the choice $(x - 64)(x + 1)$ uses the number $64$ itself instead of its square root and expands to $x^2 - 63x - 64$; the choice $(x + 8)^2$ expands to $x^2 + 16x + 64$.)',
     },
     {
       q: 'Factor $y^2 - 121$.',
@@ -128,7 +128,7 @@ const s103 = [
       choices: ['$(2x + 6)(x + 1)$', '$(2x - 3)(x - 2)$', '$(2x + 3)(x + 2)$', '$(2x + 1)(x + 6)$'],
       answer: 2,
       solution:
-        'We need product $ac = 2 \\cdot 6 = 12$ and sum $7$: the numbers $3$ and $4$. Split and group: $2x^2 + 3x + 4x + 6 = x(2x + 3) + 2(2x + 3) = (2x + 3)(x + 2)$. Multiply back out: $2x^2 + 4x + 3x + 6 = 2x^2 + 7x + 6$ ✓. (The choice $(2x + 6)(x + 1)$ expands to $2x^2 + 8x + 6$ — right constant, wrong middle term; the choice $(2x + 1)(x + 6)$ expands to $2x^2 + 13x + 6$; the choice $(2x - 3)(x - 2)$ uses the right numbers with both signs flipped and expands to $2x^2 - 7x + 6$.)',
+        'We need product $ac = 2 \\cdot 6 = 12$ and sum $7$: the numbers $3$ and $4$. Split and group: $2x^2 + 3x + 4x + 6 = x(2x + 3) + 2(2x + 3) = (2x + 3)(x + 2)$. Multiply back out: $2x^2 + 4x + 3x + 6 = 2x^2 + 7x + 6$ ✓. (The choice $(2x + 6)(x + 1)$ expands to $2x^2 + 8x + 6$ — right constant, wrong middle term; the choice $(2x - 3)(x - 2)$ uses the right numbers with both signs flipped and expands to $2x^2 - 7x + 6$; the choice $(2x + 1)(x + 6)$ expands to $2x^2 + 13x + 6$.)',
     },
     {
       q: 'Which product expands to $5x^2 + 11x + 2$?',
@@ -152,14 +152,14 @@ const s103 = [
       choices: ['$(3x - 8)(x - 1)$', '$(3x - 4)(x - 2)$', '$(3x - 1)(x - 8)$', '$(3x - 2)(x - 4)$'],
       answer: 3,
       solution:
-        'We need product $ac = 3 \\cdot 8 = 24$ and sum $-14$: both numbers negative, namely $-12$ and $-2$. Split and group: $3x^2 - 12x - 2x + 8 = 3x(x - 4) - 2(x - 4) = (3x - 2)(x - 4)$. Multiply back out: $3x^2 - 12x - 2x + 8 = 3x^2 - 14x + 8$ ✓. (The choice $(3x - 4)(x - 2)$ expands to $3x^2 - 10x + 8$; the choice $(3x - 8)(x - 1)$ expands to $3x^2 - 11x + 8$; the choice $(3x - 1)(x - 8)$ expands to $3x^2 - 25x + 8$. All three have the right constant $8$ — only expanding tells them apart.)',
+        'We need product $ac = 3 \\cdot 8 = 24$ and sum $-14$: both numbers negative, namely $-12$ and $-2$. Split and group: $3x^2 - 12x - 2x + 8 = 3x(x - 4) - 2(x - 4) = (3x - 2)(x - 4)$. Multiply back out: $3x^2 - 12x - 2x + 8 = 3x^2 - 14x + 8$ ✓. (The choice $(3x - 8)(x - 1)$ expands to $3x^2 - 11x + 8$; the choice $(3x - 4)(x - 2)$ expands to $3x^2 - 10x + 8$; the choice $(3x - 1)(x - 8)$ expands to $3x^2 - 25x + 8$. All three have the right constant $8$ — only expanding tells them apart.)',
     },
     {
       q: 'When $5x^2 - 17x + 6$ is factored as $(5x + p)(x + q)$ with integers $p$ and $q$, what is $p + q$?',
       choices: ['$-5$', '$-17$', '$5$', '$6$'],
       answer: 0,
       solution:
-        'We need product $ac = 5 \\cdot 6 = 30$ and sum $-17$: the numbers $-15$ and $-2$. Split and group: $5x^2 - 15x - 2x + 6 = 5x(x - 3) - 2(x - 3) = (5x - 2)(x - 3)$. Multiply back out to be sure: $5x^2 - 15x - 2x + 6 = 5x^2 - 17x + 6$ ✓. So $p = -2$ and $q = -3$, and $p + q = -5$. (The choice $-17$ copies the middle coefficient, but that coefficient is $5q + p$, not $p + q$; the choice $6$ names the PRODUCT $pq = (-2)(-3) = 6$ rather than the sum; the choice $5$ has the right size with both signs flipped, which would mean the factors were $(5x + 2)(x + 3)$ — and that expands to $5x^2 + 17x + 6$.)',
+        'We need product $ac = 5 \\cdot 6 = 30$ and sum $-17$: the numbers $-15$ and $-2$. Split and group: $5x^2 - 15x - 2x + 6 = 5x(x - 3) - 2(x - 3) = (5x - 2)(x - 3)$. Multiply back out to be sure: $5x^2 - 15x - 2x + 6 = 5x^2 - 17x + 6$ ✓. So $p = -2$ and $q = -3$, and $p + q = -5$. (The choice $-17$ copies the middle coefficient, but that coefficient is $5q + p$, not $p + q$; the choice $5$ has the right size with both signs flipped, which would mean the factors were $(5x + 2)(x + 3)$ — and that expands to $5x^2 + 17x + 6$; the choice $6$ names the PRODUCT $pq = (-2)(-3) = 6$ rather than the sum.)',
     },
   ],
   // p7 — solve ax^2 = c by dividing first, then both square roots
@@ -169,7 +169,7 @@ const s103 = [
       choices: ['$x = 27$ or $x = -27$', '$x = 3$ only', '$x = 3$ or $x = -3$', '$x = 9$ or $x = -9$'],
       answer: 2,
       solution:
-        'Add $27$ to both sides: $3x^2 = 27$. Divide by $3$: $x^2 = 9$. Take BOTH square roots: $x = 3$ or $x = -3$. Check forward in the original: $3 \\cdot 3^2 - 27 = 27 - 27 = 0$ ✓ and $3 \\cdot (-3)^2 - 27 = 0$ ✓. (The choice $x = 9$ or $x = -9$ stops at $x^2 = 9$ and reports that value as $x$, and $3 \\cdot 81 - 27 = 216 \\ne 0$; the choice $x = 27$ or $x = -27$ never divides by $3$ at all; the choice $x = 3$ only forgets the negative twin.)',
+        'Add $27$ to both sides: $3x^2 = 27$. Divide by $3$: $x^2 = 9$. Take BOTH square roots: $x = 3$ or $x = -3$. Check forward in the original: $3 \\cdot 3^2 - 27 = 27 - 27 = 0$ ✓ and $3 \\cdot (-3)^2 - 27 = 0$ ✓. (The choice $x = 27$ or $x = -27$ never divides by $3$ at all; the choice $x = 3$ only forgets the negative twin; the choice $x = 9$ or $x = -9$ stops at $x^2 = 9$ and reports that value as $x$, and $3 \\cdot 81 - 27 = 216 \\ne 0$.)',
     },
     {
       q: 'Solve $2x^2 - 50 = 0$.',
@@ -288,7 +288,7 @@ const s104 = [
       choices: ['$15$', '$-8$', '$8$', '$-15$'],
       answer: 2,
       solution:
-        'For $x^2 + bx + c = 0$ the two roots add up to $-b$. Here $b = -8$, so the sum is $-(-8) = 8$. Check forward by actually finding the roots: $x^2 - 8x + 15 = (x - 3)(x - 5)$, so the roots are $3$ and $5$, and $3 + 5 = 8$ ✓. (The choice $-8$ copies the coefficient $b$ without applying the built-in minus sign; the choice $15$ names the PRODUCT of the roots, which is $c$; the choice $-15$ flips the sign of that product.)',
+        'For $x^2 + bx + c = 0$ the two roots add up to $-b$. Here $b = -8$, so the sum is $-(-8) = 8$. Check forward by actually finding the roots: $x^2 - 8x + 15 = (x - 3)(x - 5)$, so the roots are $3$ and $5$, and $3 + 5 = 8$ ✓. (The choice $15$ names the PRODUCT of the roots, which is $c$; the choice $-8$ copies the coefficient $b$ without applying the built-in minus sign; the choice $-15$ flips the sign of that product.)',
     },
     {
       q: 'What is the sum of the roots of $x^2 + 6x + 8 = 0$?',
@@ -312,7 +312,7 @@ const s104 = [
       choices: ['$-24$', '$5$', '$24$', '$-5$'],
       answer: 0,
       solution:
-        'For $x^2 + bx + c = 0$, the roots multiply to $c$ — no minus sign this time. Here $c = -24$, so the product is $-24$. Check forward: $x^2 - 5x - 24 = (x - 8)(x + 3)$, so the roots are $8$ and $-3$, and $8 \\cdot (-3) = -24$ ✓. (The choice $24$ drops the minus sign that is already part of $c$; the choice $5$ names the SUM of the roots, $-b = 5$; the choice $-5$ is that sum with the minus sign left in by mistake.)',
+        'For $x^2 + bx + c = 0$, the roots multiply to $c$ — no minus sign this time. Here $c = -24$, so the product is $-24$. Check forward: $x^2 - 5x - 24 = (x - 8)(x + 3)$, so the roots are $8$ and $-3$, and $8 \\cdot (-3) = -24$ ✓. (The choice $5$ names the SUM of the roots, $-b = 5$; the choice $24$ drops the minus sign that is already part of $c$; the choice $-5$ is that sum with the minus sign left in by mistake.)',
     },
     {
       q: 'What is the product of the roots of $x^2 + 7x + 10 = 0$?',
@@ -326,7 +326,7 @@ const s104 = [
       choices: ['$c = 3$', '$c = 10$', '$c = -10$', '$c = -3$'],
       answer: 2,
       solution:
-        'The constant term IS the product of the roots: $c = (-2)(5) = -10$. Check forward: $x^2 - 3x - 10 = (x + 2)(x - 5)$, and substituting $x = -2$ gives $4 + 6 - 10 = 0$ ✓. As a bonus check, the roots also sum correctly: $-2 + 5 = 3 = -b$ ✓. (The choice $c = 10$ multiplies the two roots as if both were positive; the choice $c = 3$ reports the SUM of the roots instead of the product; the choice $c = -3$ is that sum negated.)',
+        'The constant term IS the product of the roots: $c = (-2)(5) = -10$. Check forward: $x^2 - 3x - 10 = (x + 2)(x - 5)$, and substituting $x = -2$ gives $4 + 6 - 10 = 0$ ✓. As a bonus check, the roots also sum correctly: $-2 + 5 = 3 = -b$ ✓. (The choice $c = 3$ reports the SUM of the roots instead of the product; the choice $c = 10$ multiplies the two roots as if both were positive; the choice $c = -3$ is that sum negated.)',
     },
   ],
   // p3 — sum of the roots when the leading coefficient is not 1
@@ -468,7 +468,7 @@ const s104 = [
       choices: ['$2$', '$3$', '$8$', '$15$'],
       answer: 1,
       solution:
-        'Expand: $(r - 1)(s - 1) = rs - r - s + 1 = rs - (r + s) + 1$. From the coefficients, $r + s = 6$ and $rs = 8$, so the value is $8 - 6 + 1 = 3$. Check forward: $x^2 - 6x + 8 = (x - 2)(x - 4)$, so the roots are $2$ and $4$, and $(2 - 1)(4 - 1) = 1 \\cdot 3 = 3$ ✓. (The choice $2$ forgets the final $+1$; the choice $15$ ADDS the sum instead of subtracting it, giving $8 + 6 + 1$; the choice $8$ reports $rs$ by itself, as if the $-1$s did nothing.)',
+        'Expand: $(r - 1)(s - 1) = rs - r - s + 1 = rs - (r + s) + 1$. From the coefficients, $r + s = 6$ and $rs = 8$, so the value is $8 - 6 + 1 = 3$. Check forward: $x^2 - 6x + 8 = (x - 2)(x - 4)$, so the roots are $2$ and $4$, and $(2 - 1)(4 - 1) = 1 \\cdot 3 = 3$ ✓. (The choice $2$ forgets the final $+1$; the choice $8$ reports $rs$ by itself, as if the $-1$s did nothing; the choice $15$ ADDS the sum instead of subtracting it, giving $8 + 6 + 1$.)',
     },
     {
       q: 'If $r$ and $s$ are the roots of $x^2 + 3x - 10 = 0$, what is $(r + 1)(s + 1)$?',

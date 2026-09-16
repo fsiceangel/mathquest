@@ -85,7 +85,7 @@ const challenge = [
       choices: ['$1.6$ m/s', '$25$ m/s', '$10$ m/s', '$100$ m/s'],
       answer: 2,
       solution:
-        'Write the rule as $E = kv^2$, so $k = \\frac{E}{v^2} = \\frac{48}{16} = 3$ joules per (m/s)$^2$. Solve $300 = 3v^2$: $v^2 = 100$, so $v = 10$ m/s. The constant holds on both pairs: $\\frac{48}{4^2} = 3$ and $\\frac{300}{10^2} = 3$. ✓ (The choice $25$ scales the speed by the full energy factor $\\frac{300}{48} = 6.25$, ignoring the square; the choice $100$ stops at $v^2$; the choice $1.6$ uses the INVERSE-square model $E = \\frac{k}{v^2}$ with $k = 48 \\times 16 = 768$, which has a faster cart carrying less energy.)',
+        'Write the rule as $E = kv^2$, so $k = \\frac{E}{v^2} = \\frac{48}{16} = 3$ joules per (m/s)$^2$. Solve $300 = 3v^2$: $v^2 = 100$, so $v = 10$ m/s. The constant holds on both pairs: $\\frac{48}{4^2} = 3$ and $\\frac{300}{10^2} = 3$. ✓ (The choice $1.6$ uses the INVERSE-square model $E = \\frac{k}{v^2}$ with $k = 48 \\times 16 = 768$, which has a faster cart carrying less energy; the choice $25$ scales the speed by the full energy factor $\\frac{300}{48} = 6.25$, ignoring the square; the choice $100$ stops at $v^2$.)',
     },
     {
       q: 'Suppose $y$ is directly proportional to $x^2$, and $y = 63$ when $x = 3$. For what positive value of $x$ is $y = 28$?',
@@ -116,7 +116,7 @@ const challenge = [
       choices: ['$9$', '$18$', '$72$', '$36$'],
       answer: 3,
       solution:
-        'This time the square sits upstairs: $z = \\frac{kx^2}{y}$, so $k = \\frac{zy}{x^2} = \\frac{18 \\times 4}{9} = 8$. Then $z = \\frac{8 \\times 36}{8} = 36$. Check both data sets against the constant: $\\frac{18 \\times 4}{3^2} = 8$ and $\\frac{36 \\times 8}{6^2} = 8$. ✓ (Doubling $x$ multiplies $x^2$ by $4$, and doubling $y$ halves the result, for a net factor of $2$.) (The choice $18$ forgets the square, using $\\frac{kx}{y}$ with $k = 24$ and landing back on the starting value; the choice $72$ scales only for $x$, ignoring the bigger $y$; the choice $9$ swaps the roles, using $\\frac{ky}{x^2}$ with $k = 40.5$.)',
+        'This time the square sits upstairs: $z = \\frac{kx^2}{y}$, so $k = \\frac{zy}{x^2} = \\frac{18 \\times 4}{9} = 8$. Then $z = \\frac{8 \\times 36}{8} = 36$. Check both data sets against the constant: $\\frac{18 \\times 4}{3^2} = 8$ and $\\frac{36 \\times 8}{6^2} = 8$. ✓ (Doubling $x$ multiplies $x^2$ by $4$, and doubling $y$ halves the result, for a net factor of $2$.) (The choice $9$ swaps the roles, using $\\frac{ky}{x^2}$ with $k = 40.5$; the choice $18$ forgets the square, using $\\frac{kx}{y}$ with $k = 24$ and landing back on the starting value; the choice $72$ scales only for $x$, ignoring the bigger $y$.)',
     },
   ],
   // c5 — combined work: subtract RATES to recover a partner's solo time
@@ -126,21 +126,21 @@ const challenge = [
       choices: ['$9$ hours', '$10$ hours', '$12$ hours', '$21$ hours'],
       answer: 1,
       solution:
-        'Rates add, times do not. Together the pair works at $\\frac{1}{6}$ of the wall per hour and Rosa supplies $\\frac{1}{15}$, so the neighbour supplies $\\frac{1}{6} - \\frac{1}{15} = \\frac{5}{30} - \\frac{2}{30} = \\frac{3}{30} = \\frac{1}{10}$ of the wall per hour — that is $10$ hours alone. Check forward: $\\frac{1}{15} + \\frac{1}{10} = \\frac{2}{30} + \\frac{3}{30} = \\frac{5}{30} = \\frac{1}{6}$. ✓ And $10$ hours is longer than the $6$-hour team time, as any solo time must be. (The choice $9$ subtracts the times, $15 - 6$; the choice $21$ adds them; the choice $12$ assumes the two work equally and doubles the team time.)',
+        'Rates add, times do not. Together the pair works at $\\frac{1}{6}$ of the wall per hour and Rosa supplies $\\frac{1}{15}$, so the neighbour supplies $\\frac{1}{6} - \\frac{1}{15} = \\frac{5}{30} - \\frac{2}{30} = \\frac{3}{30} = \\frac{1}{10}$ of the wall per hour — that is $10$ hours alone. Check forward: $\\frac{1}{15} + \\frac{1}{10} = \\frac{2}{30} + \\frac{3}{30} = \\frac{5}{30} = \\frac{1}{6}$. ✓ And $10$ hours is longer than the $6$-hour team time, as any solo time must be. (The choice $9$ subtracts the times, $15 - 6$; the choice $12$ assumes the two work equally and doubles the team time; the choice $21$ adds them.)',
     },
     {
       q: 'Two hoses together fill a paddling pool in $9$ minutes. The wide hose alone would fill it in $12$ minutes. How long would the narrow hose alone take?',
       choices: ['$3$ minutes', '$18$ minutes', '$36$ minutes', '$21$ minutes'],
       answer: 2,
       solution:
-        'Work in pools per minute. The pair fills $\\frac{1}{9}$ and the wide hose fills $\\frac{1}{12}$, so the narrow hose fills $\\frac{1}{9} - \\frac{1}{12} = \\frac{4}{36} - \\frac{3}{36} = \\frac{1}{36}$ of the pool per minute — $36$ minutes alone. Check forward: $\\frac{1}{12} + \\frac{1}{36} = \\frac{3}{36} + \\frac{1}{36} = \\frac{4}{36} = \\frac{1}{9}$. ✓ The narrow hose is the slow one, so its solo time is the longest number in sight. (The choice $3$ subtracts times, $12 - 9$, and would make the narrow hose faster than the two together — impossible; the choice $21$ adds the times; the choice $18$ doubles the team time, which assumes the hoses match.)',
+        'Work in pools per minute. The pair fills $\\frac{1}{9}$ and the wide hose fills $\\frac{1}{12}$, so the narrow hose fills $\\frac{1}{9} - \\frac{1}{12} = \\frac{4}{36} - \\frac{3}{36} = \\frac{1}{36}$ of the pool per minute — $36$ minutes alone. Check forward: $\\frac{1}{12} + \\frac{1}{36} = \\frac{3}{36} + \\frac{1}{36} = \\frac{4}{36} = \\frac{1}{9}$. ✓ The narrow hose is the slow one, so its solo time is the longest number in sight. (The choice $3$ subtracts times, $12 - 9$, and would make the narrow hose faster than the two together — impossible; the choice $18$ doubles the team time, which assumes the hoses match; the choice $21$ adds the times.)',
     },
     {
       q: 'Two friends together clear a driveway in $10$ minutes. The first works exactly three times as fast as the second. How long would the SLOWER friend need alone?',
       choices: ['$13\\frac{1}{3}$ minutes', '$20$ minutes', '$30$ minutes', '$40$ minutes'],
       answer: 3,
       solution:
-        'Let the slower friend clear $r$ of the driveway per minute; the faster one clears $3r$. Rates add, so $r + 3r = 4r = \\frac{1}{10}$, giving $r = \\frac{1}{40}$ — the slower friend needs $40$ minutes alone. Check forward: $\\frac{1}{40} + \\frac{3}{40} = \\frac{4}{40} = \\frac{1}{10}$. ✓ (The choice $13\\frac{1}{3}$ is the FASTER friend’s solo time, from $3r = \\frac{3}{40}$ — the question asked for the other one; the choice $30$ multiplies the team time by $3$, but the $3$ compares the two RATES, not a time to the team time; the choice $20$ doubles the team time, which is the answer for two equally fast helpers.)',
+        'Let the slower friend clear $r$ of the driveway per minute; the faster one clears $3r$. Rates add, so $r + 3r = 4r = \\frac{1}{10}$, giving $r = \\frac{1}{40}$ — the slower friend needs $40$ minutes alone. Check forward: $\\frac{1}{40} + \\frac{3}{40} = \\frac{4}{40} = \\frac{1}{10}$. ✓ (The choice $13\\frac{1}{3}$ is the FASTER friend’s solo time, from $3r = \\frac{3}{40}$ — the question asked for the other one; the choice $20$ doubles the team time, which is the answer for two equally fast helpers; the choice $30$ multiplies the team time by $3$, but the $3$ compares the two RATES, not a time to the team time.)',
     },
   ],
   // c6 — fills and drains together: net rate, then flip it
@@ -164,7 +164,7 @@ const challenge = [
       choices: ['$4.8$ hours', '$5$ hours', '$4$ hours', '$6$ hours'],
       answer: 2,
       solution:
-        'The net rate is $\\frac{1}{3}$ of the cistern per hour, and it is built from A, B and the drain: $\\frac{1}{8} + B - \\frac{1}{24} = \\frac{1}{3}$. So $B = \\frac{1}{3} - \\frac{1}{8} + \\frac{1}{24} = \\frac{8}{24} - \\frac{3}{24} + \\frac{1}{24} = \\frac{6}{24} = \\frac{1}{4}$ — pipe B alone takes $4$ hours. Check forward: $\\frac{1}{8} + \\frac{1}{4} - \\frac{1}{24} = \\frac{3}{24} + \\frac{6}{24} - \\frac{1}{24} = \\frac{8}{24} = \\frac{1}{3}$. ✓ (The choice $4.8$ leaves the drain out of the accounting, computing $\\frac{1}{3} - \\frac{1}{8}$; the choice $6$ subtracts the drain’s rate when moving it to the other side instead of adding it back; the choice $5$ subtracts times, $8 - 3$.)',
+        'The net rate is $\\frac{1}{3}$ of the cistern per hour, and it is built from A, B and the drain: $\\frac{1}{8} + B - \\frac{1}{24} = \\frac{1}{3}$. So $B = \\frac{1}{3} - \\frac{1}{8} + \\frac{1}{24} = \\frac{8}{24} - \\frac{3}{24} + \\frac{1}{24} = \\frac{6}{24} = \\frac{1}{4}$ — pipe B alone takes $4$ hours. Check forward: $\\frac{1}{8} + \\frac{1}{4} - \\frac{1}{24} = \\frac{3}{24} + \\frac{6}{24} - \\frac{1}{24} = \\frac{8}{24} = \\frac{1}{3}$. ✓ (The choice $4.8$ leaves the drain out of the accounting, computing $\\frac{1}{3} - \\frac{1}{8}$; the choice $5$ subtracts times, $8 - 3$; the choice $6$ subtracts the drain’s rate when moving it to the other side instead of adding it back.)',
     },
   ],
   // c7 — two travellers closing a gap: who covers what
@@ -181,7 +181,7 @@ const challenge = [
       choices: ['$9$ km', '$18$ km', '$22.5$ km', '$27$ km'],
       answer: 0,
       solution:
-        'The gap closes at $6 + 4 = 10$ km/h, so they meet after $\\frac{45}{10} = 4.5$ hours. The faster hiker covers $6 \\times 4.5 = 27$ km and the slower one $4 \\times 4.5 = 18$ km, so the faster hiker is ahead by $27 - 18 = 9$ km. Check forward: $27 + 18 = 45$ km, the whole path. ✓ (Equivalently, the lead grows at the speed DIFFERENCE, $2$ km/h for $4.5$ hours.) (The choice $27$ is the faster hiker’s total distance rather than the gap between the two totals; the choice $18$ is the slower hiker’s total; the choice $22.5$ splits the path evenly, which would need equal speeds.)',
+        'The gap closes at $6 + 4 = 10$ km/h, so they meet after $\\frac{45}{10} = 4.5$ hours. The faster hiker covers $6 \\times 4.5 = 27$ km and the slower one $4 \\times 4.5 = 18$ km, so the faster hiker is ahead by $27 - 18 = 9$ km. Check forward: $27 + 18 = 45$ km, the whole path. ✓ (Equivalently, the lead grows at the speed DIFFERENCE, $2$ km/h for $4.5$ hours.) (The choice $18$ is the slower hiker’s total; the choice $22.5$ splits the path evenly, which would need equal speeds; the choice $27$ is the faster hiker’s total distance rather than the gap between the two totals.)',
     },
     {
       q: 'Two trains leave stations $312$ miles apart at the same moment and travel toward each other. They meet $3$ hours later. If one train travels at $46$ mph, how fast is the other?',
@@ -198,21 +198,21 @@ const challenge = [
       choices: ['$8$ minutes', '$20$ minutes', '$40$ minutes', '$60$ minutes'],
       answer: 2,
       solution:
-        'In $20$ minutes ($\\frac{1}{3}$ hour) the walker builds a lead of $6 \\times \\frac{1}{3} = 2$ km. Same direction, so the gap closes at the DIFFERENCE $9 - 6 = 3$ km/h, and the catch-up time is $\\frac{2}{3}$ hour $= 40$ minutes. Check forward: in $40$ minutes the runner covers $9 \\times \\frac{2}{3} = 6$ km, while the walker has been going for a full hour at $6$ km/h — also $6$ km. ✓ (The choice $8$ ADDS the speeds, which is the head-on rule, not the chase rule; the choice $60$ is the walker’s total time on the path, not the time after the runner starts; the choice $20$ assumes the runner needs exactly as long to erase the lead as the walker took to build it, which would require equal speeds.)',
+        'In $20$ minutes ($\\frac{1}{3}$ hour) the walker builds a lead of $6 \\times \\frac{1}{3} = 2$ km. Same direction, so the gap closes at the DIFFERENCE $9 - 6 = 3$ km/h, and the catch-up time is $\\frac{2}{3}$ hour $= 40$ minutes. Check forward: in $40$ minutes the runner covers $9 \\times \\frac{2}{3} = 6$ km, while the walker has been going for a full hour at $6$ km/h — also $6$ km. ✓ (The choice $8$ ADDS the speeds, which is the head-on rule, not the chase rule; the choice $20$ assumes the runner needs exactly as long to erase the lead as the walker took to build it, which would require equal speeds; the choice $60$ is the walker’s total time on the path, not the time after the runner starts.)',
     },
     {
       q: 'A tractor leaves a barn along a straight road at $12$ km/h. Half an hour later a truck leaves the same barn along the same road at $20$ km/h. How far from the barn does the truck catch the tractor?',
       choices: ['$3.75$ km', '$6$ km', '$9$ km', '$15$ km'],
       answer: 3,
       solution:
-        'The tractor’s head start is $12 \\times 0.5 = 6$ km. Going the same way, the truck closes the gap at $20 - 12 = 8$ km/h, so the chase lasts $\\frac{6}{8} = 0.75$ hour, and the truck has then travelled $20 \\times 0.75 = 15$ km from the barn. Check forward: the tractor has been driving $1.25$ hours at $12$ km/h $= 15$ km. ✓ (The choice $9$ is how far the TRACTOR moves during the chase and forgets its $6$ km head start; the choice $6$ is the head start itself; the choice $3.75$ adds the speeds instead of subtracting them, which is the head-on rule.)',
+        'The tractor’s head start is $12 \\times 0.5 = 6$ km. Going the same way, the truck closes the gap at $20 - 12 = 8$ km/h, so the chase lasts $\\frac{6}{8} = 0.75$ hour, and the truck has then travelled $20 \\times 0.75 = 15$ km from the barn. Check forward: the tractor has been driving $1.25$ hours at $12$ km/h $= 15$ km. ✓ (The choice $3.75$ adds the speeds instead of subtracting them, which is the head-on rule; the choice $6$ is the head start itself; the choice $9$ is how far the TRACTOR moves during the chase and forgets its $6$ km head start.)',
     },
     {
       q: 'A bus leaves a depot at $36$ mph. A car leaves the same depot $30$ minutes later and catches the bus after driving for $2$ hours. How fast is the car?',
       choices: ['$45$ mph', '$9$ mph', '$36$ mph', '$54$ mph'],
       answer: 0,
       solution:
-        'The bus’s head start is $36 \\times 0.5 = 18$ miles, and the car erases it in $2$ hours, so the gap closes at $\\frac{18}{2} = 9$ mph. Same direction means that gap speed is the DIFFERENCE, so the car runs at $36 + 9 = 45$ mph. Check forward: the car covers $45 \\times 2 = 90$ miles, and the bus has driven $2.5$ hours at $36$ mph — also $90$ miles. ✓ (The choice $9$ stops at the closing speed and forgets to add the bus’s speed back; the choice $54$ adds the $18$-mile head start to $36$ as if a distance were a speed; the choice $36$ divides $90$ miles by the BUS’s $2.5$ hours instead of the car’s $2$.)',
+        'The bus’s head start is $36 \\times 0.5 = 18$ miles, and the car erases it in $2$ hours, so the gap closes at $\\frac{18}{2} = 9$ mph. Same direction means that gap speed is the DIFFERENCE, so the car runs at $36 + 9 = 45$ mph. Check forward: the car covers $45 \\times 2 = 90$ miles, and the bus has driven $2.5$ hours at $36$ mph — also $90$ miles. ✓ (The choice $9$ stops at the closing speed and forgets to add the bus’s speed back; the choice $36$ divides $90$ miles by the BUS’s $2.5$ hours instead of the car’s $2$; the choice $54$ adds the $18$-mile head start to $36$ as if a distance were a speed.)',
     },
   ],
   // c9 — inverse-square scaling, described in words
@@ -282,7 +282,7 @@ const challenge = [
       choices: ['$8$ ft', '$27$ ft', '$6$ ft', '$24$ ft'],
       answer: 2,
       solution:
-        'From Cost $= k\\ell w$: $k = \\frac{27}{2 \\times 3} = \\$4.50$ per square foot. The second pane must cover $\\frac{108}{4.50} = 24$ square feet, and with a width of $4$ ft its length is $\\frac{24}{4} = 6$ ft. Check forward: $4.50 \\times 6 \\times 4 = \\$108$. ✓ (The choice $24$ reports the AREA as if it were the length; the choice $27$ divides the cost by the width alone and never uses the price per square foot; the choice $8$ multiplies the original $2$ ft by the cost factor $\\frac{108}{27} = 4$, but that factor is shared between the two dimensions, and the width already used part of it.)',
+        'From Cost $= k\\ell w$: $k = \\frac{27}{2 \\times 3} = \\$4.50$ per square foot. The second pane must cover $\\frac{108}{4.50} = 24$ square feet, and with a width of $4$ ft its length is $\\frac{24}{4} = 6$ ft. Check forward: $4.50 \\times 6 \\times 4 = \\$108$. ✓ (The choice $8$ multiplies the original $2$ ft by the cost factor $\\frac{108}{27} = 4$, but that factor is shared between the two dimensions, and the width already used part of it; the choice $27$ divides the cost by the width alone and never uses the price per square foot; the choice $24$ reports the AREA as if it were the length.)',
     },
     {
       q: 'The bill for heating a hall is jointly proportional to the floor area and the number of days it is heated. Heating a $200$ square metre hall for $6$ days costs $\\$90$. What does it cost to heat a $150$ square metre hall for $10$ days?',
@@ -299,7 +299,7 @@ const challenge = [
       choices: ['$6$ hours', '$9$ hours', '$22.5$ hours', '$15$ hours'],
       answer: 3,
       solution:
-        'Price the work first: $4 \\times 9 = 36$ machine-hours produced $6$ jackets, so one jacket costs $\\frac{36}{6} = 6$ machine-hours. Then $15$ jackets need $15 \\times 6 = 90$ machine-hours, and $6$ machines supply them in $\\frac{90}{6} = 15$ hours. Check forward: $6$ machines for $15$ hours is $90$ machine-hours, which at $6$ machine-hours per jacket is exactly $15$ jackets. ✓ (The choice $9$ assumes the two changes cancel, but $1.5$ times the machines against $2.5$ times the jackets does not balance; the choice $22.5$ scales only for the extra jackets; the choice $6$ scales only for the extra machines.)',
+        'Price the work first: $4 \\times 9 = 36$ machine-hours produced $6$ jackets, so one jacket costs $\\frac{36}{6} = 6$ machine-hours. Then $15$ jackets need $15 \\times 6 = 90$ machine-hours, and $6$ machines supply them in $\\frac{90}{6} = 15$ hours. Check forward: $6$ machines for $15$ hours is $90$ machine-hours, which at $6$ machine-hours per jacket is exactly $15$ jackets. ✓ (The choice $6$ scales only for the extra machines; the choice $9$ assumes the two changes cancel, but $1.5$ times the machines against $2.5$ times the jackets does not balance; the choice $22.5$ scales only for the extra jackets.)',
     },
     {
       q: 'If $10$ workers can harvest $8$ fields in $6$ days, how many workers are needed to harvest $20$ fields in $10$ days?',
@@ -313,7 +313,7 @@ const challenge = [
       choices: ['$375$ loaves', '$1000$ loaves', '$750$ loaves', '$500$ loaves'],
       answer: 2,
       solution:
-        'The first shift was $8 \\times 5 = 40$ baker-hours for $500$ loaves, so each baker-hour makes $\\frac{500}{40} = 12.5$ loaves. The new shift supplies $6 \\times 10 = 60$ baker-hours, which yields $60 \\times 12.5 = 750$ loaves. Check forward: $\\frac{750}{60} = 12.5$ loaves per baker-hour, matching the first shift. ✓ (The choice $1000$ doubles for the doubled hours and ignores that two bakers left; the choice $375$ scales only for the smaller crew and ignores the longer shift; the choice $500$ assumes the two changes cancel, but $60$ baker-hours is not $40$.)',
+        'The first shift was $8 \\times 5 = 40$ baker-hours for $500$ loaves, so each baker-hour makes $\\frac{500}{40} = 12.5$ loaves. The new shift supplies $6 \\times 10 = 60$ baker-hours, which yields $60 \\times 12.5 = 750$ loaves. Check forward: $\\frac{750}{60} = 12.5$ loaves per baker-hour, matching the first shift. ✓ (The choice $375$ scales only for the smaller crew and ignores the longer shift; the choice $1000$ doubles for the doubled hours and ignores that two bakers left; the choice $500$ assumes the two changes cancel, but $60$ baker-hours is not $40$.)',
     },
   ],
 ]

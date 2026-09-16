@@ -30,14 +30,14 @@ const s83 = [
       choices: ['$\\frac{1}{4}$', '$3$', '$4$', '$12$'],
       answer: 2,
       solution:
-        'Rise over run: $\\frac{12 - 0}{3 - 0} = \\frac{12}{3} = 4$. Check it forward: starting at $(0, 0)$ and climbing $4$ for every step right, three steps land on $(3, 12)$. ✓ (The choice $\\frac{1}{4}$ turns the fraction upside down, run over rise; the choice $12$ stops at the rise and never divides; the choice $3$ reports the run instead.)',
+        'Rise over run: $\\frac{12 - 0}{3 - 0} = \\frac{12}{3} = 4$. Check it forward: starting at $(0, 0)$ and climbing $4$ for every step right, three steps land on $(3, 12)$. ✓ (The choice $\\frac{1}{4}$ turns the fraction upside down, run over rise; the choice $3$ reports the run instead; the choice $12$ stops at the rise and never divides.)',
     },
     {
       q: 'The line through $(0, 0)$ and $(5, k)$ has slope $3$. What is $k$?',
       choices: ['$15$', '$8$', '$\\frac{5}{3}$', '$3$'],
       answer: 0,
       solution:
-        'The slope is $\\frac{k - 0}{5 - 0} = \\frac{k}{5}$, so $\\frac{k}{5} = 3$ and $k = 15$. Check it forward: from $(0, 0)$ to $(5, 15)$ the rise is $15$ and the run is $5$, and $\\frac{15}{5} = 3$. ✓ (The choice $\\frac{5}{3}$ writes the slope upside down as $\\frac{5}{k} = 3$; the choice $8$ ADDS $5 + 3$, but a slope is a ratio, never a sum; the choice $3$ just repeats the slope.)',
+        'The slope is $\\frac{k - 0}{5 - 0} = \\frac{k}{5}$, so $\\frac{k}{5} = 3$ and $k = 15$. Check it forward: from $(0, 0)$ to $(5, 15)$ the rise is $15$ and the run is $5$, and $\\frac{15}{5} = 3$. ✓ (The choice $8$ ADDS $5 + 3$, but a slope is a ratio, never a sum; the choice $\\frac{5}{3}$ writes the slope upside down as $\\frac{5}{k} = 3$; the choice $3$ just repeats the slope.)',
     },
     {
       q: 'What is the slope of the line through $(0, 0)$ and $(6, -9)$?',
@@ -61,7 +61,7 @@ const s83 = [
       choices: ['$\\frac{2}{3}$', '$\\frac{3}{2}$', '$-\\frac{3}{2}$', '$\\frac{9}{2}$'],
       answer: 1,
       solution:
-        'Rise: $10 - 1 = 9$. Run: $4 - (-2) = 6$. Slope $= \\frac{9}{6} = \\frac{3}{2}$. Check it forward: from $(-2, 1)$, a run of $6$ lifts the line $6 \\times \\frac{3}{2} = 9$, landing on $(4, 10)$. ✓ (The choice $\\frac{9}{2}$ takes the run to be $4 - 2 = 2$, forgetting that subtracting $-2$ ADDS; the choice $\\frac{2}{3}$ is run over rise; the choice $-\\frac{3}{2}$ flips the subtraction order in the denominator only.)',
+        'Rise: $10 - 1 = 9$. Run: $4 - (-2) = 6$. Slope $= \\frac{9}{6} = \\frac{3}{2}$. Check it forward: from $(-2, 1)$, a run of $6$ lifts the line $6 \\times \\frac{3}{2} = 9$, landing on $(4, 10)$. ✓ (The choice $\\frac{2}{3}$ is run over rise; the choice $-\\frac{3}{2}$ flips the subtraction order in the denominator only; the choice $\\frac{9}{2}$ takes the run to be $4 - 2 = 2$, forgetting that subtracting $-2$ ADDS.)',
     },
     {
       q: 'A line passes through $(1, -3)$ and $(5, 5)$. What is its slope?',
@@ -78,7 +78,7 @@ const s83 = [
       choices: ['$0$', '$7$', '$13$', 'Undefined'],
       answer: 0,
       solution:
-        'The two heights are equal, so the rise is $7 - 7 = 0$ while the run is $9 - (-4) = 13$. Slope $= \\frac{0}{13} = 0$. Check it forward: a slope of $0$ means the line never climbs, and sure enough both points sit at height $7$. ✓ (The choice "Undefined" divides the other way, $\\frac{13}{0}$, which belongs to a VERTICAL line; the choice $13$ reports the run; the choice $7$ reports the shared height.)',
+        'The two heights are equal, so the rise is $7 - 7 = 0$ while the run is $9 - (-4) = 13$. Slope $= \\frac{0}{13} = 0$. Check it forward: a slope of $0$ means the line never climbs, and sure enough both points sit at height $7$. ✓ (The choice $7$ reports the shared height; the choice $13$ reports the run; the choice "Undefined" divides the other way, $\\frac{13}{0}$, which belongs to a VERTICAL line.)',
     },
     {
       q: 'Which of these lines has slope $0$?',
@@ -109,7 +109,7 @@ const s83 = [
       choices: ['$1$', '$-1$', '$\\frac{3}{2}$', '$-\\frac{5}{3}$'],
       answer: 1,
       solution:
-        'Rise: $-8 - (-2) = -6$. Run: $1 - (-5) = 6$. Slope $= \\frac{-6}{6} = -1$. Check it forward: from $(-5, -2)$, six steps right drop the line $6$, landing on $(1, -8)$. ✓ (The choice $\\frac{3}{2}$ takes the run to be $1 - 5 = -4$, forgetting that subtracting $-5$ adds; the choice $-\\frac{5}{3}$ makes the same slip on top, using $-8 - 2 = -10$ for the rise; the choice $1$ loses the sign entirely.)',
+        'Rise: $-8 - (-2) = -6$. Run: $1 - (-5) = 6$. Slope $= \\frac{-6}{6} = -1$. Check it forward: from $(-5, -2)$, six steps right drop the line $6$, landing on $(1, -8)$. ✓ (The choice $1$ loses the sign entirely; the choice $\\frac{3}{2}$ takes the run to be $1 - 5 = -4$, forgetting that subtracting $-5$ adds; the choice $-\\frac{5}{3}$ makes the same slip on top, using $-8 - 2 = -10$ for the rise.)',
     },
     {
       q: 'What is the slope of the line through $(-6, 3)$ and $(2, -1)$?',
@@ -201,14 +201,14 @@ const s83 = [
       choices: ['$4$ cm per day', '$7$ cm per day', '$28$ cm per day', '$\\frac{1}{4}$ cm per day'],
       answer: 0,
       solution:
-        'A steady growth rate is a slope: $\\frac{46 - 18}{9 - 2} = \\frac{28}{7} = 4$ cm per day. Check it forward: seven days at $4$ cm per day adds $28$ cm, and $18 + 28 = 46$. ✓ (The choice $28$ is the TOTAL growth, not the rate; the choice $7$ is the number of days; the choice $\\frac{1}{4}$ divides days by centimetres, answering "days per centimetre".)',
+        'A steady growth rate is a slope: $\\frac{46 - 18}{9 - 2} = \\frac{28}{7} = 4$ cm per day. Check it forward: seven days at $4$ cm per day adds $28$ cm, and $18 + 28 = 46$. ✓ (The choice $7$ is the number of days; the choice $28$ is the TOTAL growth, not the rate; the choice $\\frac{1}{4}$ divides days by centimetres, answering "days per centimetre".)',
     },
     {
       q: 'A snow bank was $60$ cm deep at 8 am and had melted steadily to $45$ cm deep by 11 am. At the same rate, how deep will it be at 1 pm?',
       choices: ['$40$ cm', '$55$ cm', '$35$ cm', '$30$ cm'],
       answer: 2,
       solution:
-        'The rate is a slope: $\\frac{45 - 60}{3} = -5$ cm per hour. From 11 am to 1 pm is $2$ more hours, so the bank loses another $10$ cm: $45 - 10 = 35$ cm. Check it forward from the start: 8 am to 1 pm is $5$ hours, and $60 - 5 \\times 5 = 35$. ✓ (The choice $40$ counts only one extra hour; the choice $30$ repeats the whole $15$ cm drop again, ignoring that the second stretch is shorter; the choice $55$ ADDS the melt instead of subtracting it, which would have the snow growing.)',
+        'The rate is a slope: $\\frac{45 - 60}{3} = -5$ cm per hour. From 11 am to 1 pm is $2$ more hours, so the bank loses another $10$ cm: $45 - 10 = 35$ cm. Check it forward from the start: 8 am to 1 pm is $5$ hours, and $60 - 5 \\times 5 = 35$. ✓ (The choice $40$ counts only one extra hour; the choice $55$ ADDS the melt instead of subtracting it, which would have the snow growing; the choice $30$ repeats the whole $15$ cm drop again, ignoring that the second stretch is shorter.)',
     },
     {
       q: 'A tank held $340$ litres at 1 pm and $190$ litres at 6 pm, draining steadily. What is the slope of its volume-versus-time graph?',
@@ -254,7 +254,7 @@ const s83 = [
       choices: ['4 am', '2 pm', '4 pm', '8 pm'],
       answer: 2,
       solution:
-        'The pool still needs $1250 - 500 = 750$ litres, and at $125$ litres per hour that takes $\\frac{750}{125} = 6$ hours. Six hours after 10 am is 4 pm. Check it forward: $500 + 6 \\times 125 = 500 + 750 = 1250$. ✓ (The choice 8 pm divides the whole $1250$ by $125$, forgetting the $500$ litres already in the pool; the choice 2 pm divides the STARTING amount $500$ by $125$; the choice 4 am counts the six hours backwards from 10 am.)',
+        'The pool still needs $1250 - 500 = 750$ litres, and at $125$ litres per hour that takes $\\frac{750}{125} = 6$ hours. Six hours after 10 am is 4 pm. Check it forward: $500 + 6 \\times 125 = 500 + 750 = 1250$. ✓ (The choice 4 am counts the six hours backwards from 10 am; the choice 2 pm divides the STARTING amount $500$ by $125$; the choice 8 pm divides the whole $1250$ by $125$, forgetting the $500$ litres already in the pool.)',
     },
     {
       q: 'At 7 am a reservoir holds $900$ kilolitres and is drawn down steadily at $65$ kilolitres per hour. How much does it hold at 11 am?',
@@ -278,7 +278,7 @@ const s83 = [
       choices: ['$9$', '$14$', '$10$', '$13$'],
       answer: 3,
       solution:
-        'From $(2, 1)$ to $(5, 7)$ the slope is $\\frac{7 - 1}{5 - 2} = \\frac{6}{3} = 2$. Points on one line share that slope, so another run of $3$ lifts the line $6$: $k = 7 + 6 = 13$. Check it forward with the outer pair: $\\frac{13 - 1}{8 - 2} = \\frac{12}{6} = 2$. ✓ (The choice $9$ adds the SLOPE $2$ instead of the rise $6$; the choice $10$ adds the run $3$; the choice $14$ doubles $7$, treating the pattern as multiplication.)',
+        'From $(2, 1)$ to $(5, 7)$ the slope is $\\frac{7 - 1}{5 - 2} = \\frac{6}{3} = 2$. Points on one line share that slope, so another run of $3$ lifts the line $6$: $k = 7 + 6 = 13$. Check it forward with the outer pair: $\\frac{13 - 1}{8 - 2} = \\frac{12}{6} = 2$. ✓ (The choice $9$ adds the SLOPE $2$ instead of the rise $6$; the choice $14$ doubles $7$, treating the pattern as multiplication; the choice $10$ adds the run $3$.)',
     },
     {
       q: 'The points $(-1, 3)$, $(2, 9)$, and $(6, k)$ all lie on one line. What is $k$?',
@@ -292,7 +292,7 @@ const s83 = [
       choices: ['$6$', '$10$', '$7$', '$16$'],
       answer: 2,
       solution:
-        'Slope from the first two points: $\\frac{4 - (-2)}{4 - 1} = \\frac{6}{3} = 2$. Climbing from $y = 4$ to $y = 10$ is a rise of $6$, which needs a run of $\\frac{6}{2} = 3$, so $h = 4 + 3 = 7$. Check it forward: $\\frac{10 - (-2)}{7 - 1} = \\frac{12}{6} = 2$. ✓ (The choice $10$ adds the rise $6$ to the $x$-coordinate instead of the run; the choice $16$ MULTIPLIES the rise by the slope, $4 + 6 \\times 2$, when a run comes from DIVIDING by the slope; the choice $6$ adds the slope $2$.)',
+        'Slope from the first two points: $\\frac{4 - (-2)}{4 - 1} = \\frac{6}{3} = 2$. Climbing from $y = 4$ to $y = 10$ is a rise of $6$, which needs a run of $\\frac{6}{2} = 3$, so $h = 4 + 3 = 7$. Check it forward: $\\frac{10 - (-2)}{7 - 1} = \\frac{12}{6} = 2$. ✓ (The choice $6$ adds the slope $2$; the choice $10$ adds the rise $6$ to the $x$-coordinate instead of the run; the choice $16$ MULTIPLIES the rise by the slope, $4 + 6 \\times 2$, when a run comes from DIVIDING by the slope.)',
     },
   ],
 ]
@@ -346,7 +346,7 @@ const s84 = [
       choices: ['$y = 2x + 9$', '$y = 9x - 2$', '$y = -2x - 9$', '$y = -2x + 9$'],
       answer: 3,
       solution:
-        'Falling $2$ for each step right is a rise of $-2$ over a run of $1$, so $m = -2$; the crossing point gives $b = 9$. The equation is $y = -2x + 9$. Check it forward: at $x = 0$, $y = 9$ ✓, and at $x = 1$, $y = 7$ — two units lower, exactly as described. ✓ (The choice $y = 2x + 9$ ignores the word "falls" and climbs instead; the choice $y = -2x - 9$ flips the sign of the intercept; the choice $y = 9x - 2$ swaps the two roles.)',
+        'Falling $2$ for each step right is a rise of $-2$ over a run of $1$, so $m = -2$; the crossing point gives $b = 9$. The equation is $y = -2x + 9$. Check it forward: at $x = 0$, $y = 9$ ✓, and at $x = 1$, $y = 7$ — two units lower, exactly as described. ✓ (The choice $y = 2x + 9$ ignores the word "falls" and climbs instead; the choice $y = 9x - 2$ swaps the two roles; the choice $y = -2x - 9$ flips the sign of the intercept.)',
     },
     {
       q: 'A line passes through the origin with slope $\\frac{3}{4}$. What is its equation?',
@@ -449,7 +449,7 @@ const s84 = [
       choices: ['$y = 2x + 8$', '$y = -\\frac{1}{2}x + 8$', '$y = -2x - 8$', '$y = -2x + 8$'],
       answer: 3,
       solution:
-        'Slope: $m = \\frac{0 - 6}{4 - 1} = \\frac{-6}{3} = -2$. Point-slope with $(4, 0)$: $y - 0 = -2(x - 4)$, so $y = -2x + 8$. Check the OTHER point: at $x = 1$, $y = -2 + 8 = 6$. ✓ (The choice $y = 2x + 8$ drops the minus on the slope, though the line clearly falls; the choice $y = -2x - 8$ distributes $-2(x + 4)$, flipping the sign inside the parentheses; the choice $y = -\\frac{1}{2}x + 8$ builds the slope as run over rise.)',
+        'Slope: $m = \\frac{0 - 6}{4 - 1} = \\frac{-6}{3} = -2$. Point-slope with $(4, 0)$: $y - 0 = -2(x - 4)$, so $y = -2x + 8$. Check the OTHER point: at $x = 1$, $y = -2 + 8 = 6$. ✓ (The choice $y = 2x + 8$ drops the minus on the slope, though the line clearly falls; the choice $y = -\\frac{1}{2}x + 8$ builds the slope as run over rise; the choice $y = -2x - 8$ distributes $-2(x + 4)$, flipping the sign inside the parentheses.)',
     },
   ],
   // p7 — moving between standard form and slope-intercept form

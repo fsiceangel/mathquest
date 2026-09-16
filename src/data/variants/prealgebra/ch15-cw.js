@@ -21,7 +21,7 @@ const challenge = [
       q: 'What is the units digit of $7^{35}$?',
       choices: ['$1$', '$7$', '$9$', '$3$'],
       answer: 3,
-      solution: 'Small cases first: $7^1 = 7$, $7^2 = 49$, $7^3 = 343$, $7^4 = 2401$, and $7^5$ ends in $7$ again. The cycle is $7, 9, 3, 1$, repeating every $4$. Divide to find the address: $35 = 4 \\times 8 + 3$, so the remainder is $3$ and $7^{35}$ matches the $3$rd entry, which is $3$. ($7$ is the $1$st entry; $9$ is the $2$nd; $1$ is the $4$th, which is where a remainder of $0$ would land.)',
+      solution: 'Small cases first: $7^1 = 7$, $7^2 = 49$, $7^3 = 343$, $7^4 = 2401$, and $7^5$ ends in $7$ again. The cycle is $7, 9, 3, 1$, repeating every $4$. Divide to find the address: $35 = 4 \\times 8 + 3$, so the remainder is $3$ and $7^{35}$ matches the $3$rd entry, which is $3$. ($1$ is the $4$th, which is where a remainder of $0$ would land; $7$ is the $1$st entry; $9$ is the $2$nd.)',
     },
     {
       q: 'What is the units digit of $8^{45}$?',
@@ -90,7 +90,7 @@ const challenge = [
       q: 'How many ways can you make $40$ cents using nickels, dimes, and quarters?',
       choices: ['$5$', '$10$', '$7$', '$6$'],
       answer: 2,
-      solution: 'Organize by quarters. One quarter leaves $15$ cents in nickels and dimes: $1$ dime and $1$ nickel, or $3$ nickels — $2$ ways. No quarters leaves $40$ cents: $4$ dimes; $3$ dimes and $2$ nickels; $2$ dimes and $4$ nickels; $1$ dime and $6$ nickels; $8$ nickels — $5$ ways. Total: $2 + 5 = 7$ ways. ($5$ counts only the no-quarter case; $6$ leaves out the all-nickels way at the very bottom of the list; $10 = 2 \\times 5$ assumes the quarter case offers the same five choices as the no-quarter case, but only $15$ cents is left over there.)',
+      solution: 'Organize by quarters. One quarter leaves $15$ cents in nickels and dimes: $1$ dime and $1$ nickel, or $3$ nickels — $2$ ways. No quarters leaves $40$ cents: $4$ dimes; $3$ dimes and $2$ nickels; $2$ dimes and $4$ nickels; $1$ dime and $6$ nickels; $8$ nickels — $5$ ways. Total: $2 + 5 = 7$ ways. ($5$ counts only the no-quarter case; $10 = 2 \\times 5$ assumes the quarter case offers the same five choices as the no-quarter case, but only $15$ cents is left over there; $6$ leaves out the all-nickels way at the very bottom of the list.)',
     },
   ],
   // 5. Every pair counted once — the handshake count.
@@ -147,7 +147,7 @@ const challenge = [
       q: 'At a camp of $60$ children, $31$ swim, $26$ run, and $12$ do both. How many do neither?',
       choices: ['$45$', '$3$', '$12$', '$15$'],
       answer: 3,
-      solution: 'Put $12$ in the overlap of two circles. Children doing at least one activity: $31 + 26 - 12 = 45$, subtracting the $12$ who were counted in both totals. So $60 - 45 = 15$ children do neither. ($3 = 60 - 31 - 26$ subtracts the $12$ twice by forgetting to add them back; $45$ is the at-least-one count; $12$ just repeats the overlap.)',
+      solution: 'Put $12$ in the overlap of two circles. Children doing at least one activity: $31 + 26 - 12 = 45$, subtracting the $12$ who were counted in both totals. So $60 - 45 = 15$ children do neither. ($45$ is the at-least-one count; $3 = 60 - 31 - 26$ subtracts the $12$ twice by forgetting to add them back; $12$ just repeats the overlap.)',
     },
     {
       q: 'Of $50$ hikers, $30$ carry a map, $26$ carry a compass, and $4$ carry neither. How many carry both?',
@@ -168,7 +168,7 @@ const challenge = [
       q: 'Sam doubles his marble collection, gives away $14$ marbles, doubles what is left, then gives away $8$. He ends with $40$ marbles. How many did he start with?',
       choices: ['$24$', '$38$', '$19$', '$15$'],
       answer: 2,
-      solution: 'Undo the steps in reverse order. Undo "gives away $8$": $40 + 8 = 48$. Undo the second doubling: $48 \\div 2 = 24$. Undo "gives away $14$": $24 + 14 = 38$. Undo the first doubling: $38 \\div 2 = 19$. Check forwards: $19 \\to 38 \\to 24 \\to 48 \\to 40$. ✓ ($15$ comes from subtracting the giveaways instead of adding them back while rewinding; $24$ and $38$ are real counts from the middle of the story, not the starting count.)',
+      solution: 'Undo the steps in reverse order. Undo "gives away $8$": $40 + 8 = 48$. Undo the second doubling: $48 \\div 2 = 24$. Undo "gives away $14$": $24 + 14 = 38$. Undo the first doubling: $38 \\div 2 = 19$. Check forwards: $19 \\to 38 \\to 24 \\to 48 \\to 40$. ✓ ($24$ and $38$ are real counts from the middle of the story, not the starting count; $15$ comes from subtracting the giveaways instead of adding them back while rewinding.)',
     },
     {
       q: 'Priya thinks of a number, multiplies it by $4$, subtracts $8$, then takes half of the result. She gets $14$. What was her number?',
@@ -204,13 +204,13 @@ const challenge = [
       q: 'How many two-digit numbers have digits whose product is $16$?',
       choices: ['$2$', '$6$', '$4$', '$3$'],
       answer: 3,
-      solution: 'List the ways to write $16$ as a product of two single digits: $2 \\times 8$, $4 \\times 4$, and $8 \\times 2$. Those give the numbers $28$, $44$, and $82$ — a complete list of $3$ numbers, and checking every two-digit number from $10$ to $99$ turns up no others. ($2$ leaves out $44$, forgetting that the two digits may be equal; $4$ also counts $1 \\times 16$, but $16$ is not a digit; $6$ counts every factor pair of $16$ in both orders, which double-counts $4 \\times 4$ and again admits the non-digit $16$.)',
+      solution: 'List the ways to write $16$ as a product of two single digits: $2 \\times 8$, $4 \\times 4$, and $8 \\times 2$. Those give the numbers $28$, $44$, and $82$ — a complete list of $3$ numbers, and checking every two-digit number from $10$ to $99$ turns up no others. ($2$ leaves out $44$, forgetting that the two digits may be equal; $6$ counts every factor pair of $16$ in both orders, which double-counts $4 \\times 4$ and again admits the non-digit $16$; $4$ also counts $1 \\times 16$, but $16$ is not a digit.)',
     },
     {
       q: 'How many two-digit numbers have digits whose product is $18$?',
       choices: ['$3$', '$4$', '$6$', '$2$'],
       answer: 1,
-      solution: 'Write $18$ as a product of two single digits: $2 \\times 9$, $3 \\times 6$, $6 \\times 3$, $9 \\times 2$. The numbers are $29$, $36$, $63$, $92$ — that is $4$ numbers. ($3$ writes one of the two pairs in only one order; $2$ lists the pairs $\\{2, 9\\}$ and $\\{3, 6\\}$ but never reverses either; $6$ also counts $1 \\times 18$ and $18 \\times 1$, and $18$ is not a digit.)',
+      solution: 'Write $18$ as a product of two single digits: $2 \\times 9$, $3 \\times 6$, $6 \\times 3$, $9 \\times 2$. The numbers are $29$, $36$, $63$, $92$ — that is $4$ numbers. ($3$ writes one of the two pairs in only one order; $6$ also counts $1 \\times 18$ and $18 \\times 1$, and $18$ is not a digit; $2$ lists the pairs $\\{2, 9\\}$ and $\\{3, 6\\}$ but never reverses either.)',
     },
     {
       q: 'How many two-digit numbers have digits whose product is $0$?',

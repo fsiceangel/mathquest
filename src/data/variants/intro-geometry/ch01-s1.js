@@ -61,7 +61,7 @@ const s12 = [
       choices: ['exactly one', 'exactly two', 'none', 'infinitely many'],
       answer: 0,
       solution:
-        'Through two distinct points there is exactly one line — this is one of the starting rules of geometry, and it is why a ruler laid across two dots can only land one way ✓. Check a second, independent way with a hands-on test: rest a ruler on $M$ alone and you can spin it to any angle you like, so one point leaves infinitely many choices. Now press the ruler onto $N$ as well; every spin except one lifts off $N$, so the second point locks the ruler in place ✓. Locked in exactly one position means exactly one line. (The choice "none" forgets that a line can always be drawn through two marks ✗; "exactly two" is COUNTING THE TWO DIRECTIONS SEPARATELY, as if going $M$-to-$N$ and $N$-to-$M$ gave different lines ✗; "infinitely many" is the answer for a SINGLE point, not for two ✗.)',
+        'Through two distinct points there is exactly one line — this is one of the starting rules of geometry, and it is why a ruler laid across two dots can only land one way ✓. Check a second, independent way with a hands-on test: rest a ruler on $M$ alone and you can spin it to any angle you like, so one point leaves infinitely many choices. Now press the ruler onto $N$ as well; every spin except one lifts off $N$, so the second point locks the ruler in place ✓. Locked in exactly one position means exactly one line. ("The choice exactly two" is COUNTING THE TWO DIRECTIONS SEPARATELY, as if going $M$-to-$N$ and $N$-to-$M$ gave different lines ✗; "none" forgets that a line can always be drawn through two marks ✗; "infinitely many" is the answer for a SINGLE point, not for two ✗.)',
     },
     {
       q: 'How many different lines pass through one single point $T$?',
@@ -197,7 +197,7 @@ const s12 = [
       choices: ['$1$', '$2$', '$6$', '$3$'],
       answer: 3,
       solution:
-        'List the pairs: $RS$, $RT$, and $ST$. Each pair determines one line, and because the three points are not collinear no two pairs can land on the same line, so the three lines are genuinely different: $3$ ✓. Check a second, independent way by building the picture one point at a time. Start with $R$ and $S$ — that is $1$ line. Now bring in $T$, which is off that line; $T$ joins to $R$ and to $S$, adding $2$ new lines. Total $1 + 2 = 3$ ✓, and the drawing shows exactly three edges. (The choice $1$ is ANSWERING THE COLLINEAR QUESTION, which the problem rules out ✗; the choice $6$ is COUNTING NAMES INSTEAD OF LINES, treating $RS$ and $SR$ as two ✗; the choice $2$ is FORGETTING A PAIR, drawing two sides of the triangle and stopping ✗.)',
+        'List the pairs: $RS$, $RT$, and $ST$. Each pair determines one line, and because the three points are not collinear no two pairs can land on the same line, so the three lines are genuinely different: $3$ ✓. Check a second, independent way by building the picture one point at a time. Start with $R$ and $S$ — that is $1$ line. Now bring in $T$, which is off that line; $T$ joins to $R$ and to $S$, adding $2$ new lines. Total $1 + 2 = 3$ ✓, and the drawing shows exactly three edges. (The choice $1$ is ANSWERING THE COLLINEAR QUESTION, which the problem rules out ✗; the choice $2$ is FORGETTING A PAIR, drawing two sides of the triangle and stopping ✗; the choice $6$ is COUNTING NAMES INSTEAD OF LINES, treating $RS$ and $SR$ as two ✗.)',
     },
     {
       q: 'Points $M$, $N$, and $P$ are not collinear. Ana counts the lines through pairs of them like this: "$MN$, $NM$, $MP$, $PM$, $NP$, $PN$ — that is $6$ lines." How many different lines are there really?',
@@ -416,7 +416,7 @@ const s12 = [
       choices: ['$56$', '$16$', '$28$', '$8$'],
       answer: 2,
       solution:
-        'Because no three points are collinear, every pair of points gives its own line and no two pairs ever share one. So the count of lines is the count of pairs: $8 \\times 7 = 56$ ordered picks, halved to undo the double counting, gives $\\frac{8 \\times 7}{2} = 28$ ✓. Check a second, independent way by adding the points one at a time and asking how many NEW lines each one brings. The first point brings none, the second brings $1$, the third brings $2$ (one to each earlier point), the fourth brings $3$, and so on up to the eighth, which brings $7$. Total: $1 + 2 + 3 + 4 + 5 + 6 + 7 = 28$ ✓. (The choice $56$ is COUNTING EACH LINE TWICE, once from each end ✗; the choice $8$ is COUNTING THE POINTS ✗; the choice $16$ is DOUBLING THE POINTS, from $8 \\times 2$ ✗.)',
+        'Because no three points are collinear, every pair of points gives its own line and no two pairs ever share one. So the count of lines is the count of pairs: $8 \\times 7 = 56$ ordered picks, halved to undo the double counting, gives $\\frac{8 \\times 7}{2} = 28$ ✓. Check a second, independent way by adding the points one at a time and asking how many NEW lines each one brings. The first point brings none, the second brings $1$, the third brings $2$ (one to each earlier point), the fourth brings $3$, and so on up to the eighth, which brings $7$. Total: $1 + 2 + 3 + 4 + 5 + 6 + 7 = 28$ ✓. (The choice $56$ is COUNTING EACH LINE TWICE, once from each end ✗; the choice $16$ is DOUBLING THE POINTS, from $8 \\times 2$ ✗; the choice $8$ is COUNTING THE POINTS ✗.)',
     },
     {
       q: 'Five points $J$, $K$, $L$, $M$, and $N$ are drawn with no three of them on the same line. How many different lines pass through at least two of the five points?',
@@ -452,7 +452,7 @@ const s12 = [
       choices: ['$14$', '$7$', '$42$', '$21$'],
       answer: 3,
       solution:
-        'Each pair of points determines one line, and since no three points are collinear, no line ever picks up a third point — so "exactly two" and "at least two" mean the same thing here, and the answer is the number of pairs: $\\frac{7 \\times 6}{2} = 21$ ✓. Check a second, independent way by counting from each point in turn without repeating: the first point joins to $6$ others, the second contributes $5$ lines not already counted, then $4$, $3$, $2$, $1$, and the last point contributes none. That is $6 + 5 + 4 + 3 + 2 + 1 = 21$ ✓. (The choice $42$ is COUNTING EACH LINE TWICE, stopping at $7 \\times 6$ ✗; the choice $7$ is COUNTING THE POINTS ✗; the choice $14$ is DOUBLING THE POINTS, from $7 \\times 2$ ✗.)',
+        'Each pair of points determines one line, and since no three points are collinear, no line ever picks up a third point — so "exactly two" and "at least two" mean the same thing here, and the answer is the number of pairs: $\\frac{7 \\times 6}{2} = 21$ ✓. Check a second, independent way by counting from each point in turn without repeating: the first point joins to $6$ others, the second contributes $5$ lines not already counted, then $4$, $3$, $2$, $1$, and the last point contributes none. That is $6 + 5 + 4 + 3 + 2 + 1 = 21$ ✓. (The choice $14$ is DOUBLING THE POINTS, from $7 \\times 2$ ✗; the choice $7$ is COUNTING THE POINTS ✗; the choice $42$ is COUNTING EACH LINE TWICE, stopping at $7 \\times 6$ ✗.)',
     },
   ],
 ]

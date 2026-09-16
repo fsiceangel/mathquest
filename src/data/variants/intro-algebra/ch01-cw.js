@@ -155,7 +155,7 @@ const challenge = [
       q: 'How many integers $n$ satisfy $\\sqrt{10} < n < \\sqrt{90}$?',
       choices: ['$7$', '$5$', '$8$', '$6$'],
       answer: 3,
-      solution: 'Pin down each end with perfect squares. Since $9 < 10 < 16$, we have $3 < \\sqrt{10} < 4$. Since $81 < 90 < 100$, we have $9 < \\sqrt{90} < 10$. So $n$ must be strictly bigger than a number just above $3$ and strictly smaller than a number just below $10$: the integers $4, 5, 6, 7, 8, 9$, which is $6$ of them. ($7$ also counts $3$, but $3 < \\sqrt{10}$; $8$ counts both $3$ and $10$, and $10 > \\sqrt{90}$; $5$ drops the $9$, forgetting that $9 < \\sqrt{90}$.)',
+      solution: 'Pin down each end with perfect squares. Since $9 < 10 < 16$, we have $3 < \\sqrt{10} < 4$. Since $81 < 90 < 100$, we have $9 < \\sqrt{90} < 10$. So $n$ must be strictly bigger than a number just above $3$ and strictly smaller than a number just below $10$: the integers $4, 5, 6, 7, 8, 9$, which is $6$ of them. ($7$ also counts $3$, but $3 < \\sqrt{10}$; $5$ drops the $9$, forgetting that $9 < \\sqrt{90}$; $8$ counts both $3$ and $10$, and $10 > \\sqrt{90}$.)',
     },
   ],
   // 8. Rationalize, simplify, then combine like radicals.

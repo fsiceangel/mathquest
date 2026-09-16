@@ -171,7 +171,7 @@ const s213 = [
       choices: ['The $9$th', 'The $8$th', 'The $7$th', 'The $128$th'],
       answer: 1,
       solution:
-        'We need $7 \\cdot 2^{n-1} = 896$, so $2^{n-1} = 128 = 2^7$, which gives $n - 1 = 7$ and $n = 8$ ✓. Check a second, independent way by doubling from the start: $7$, $14$, $28$, $56$, $112$, $224$, $448$, $896$ — count them and you land on eight ✓. (The choice The $7$th is stopping at the exponent instead of the term number, and the $7$th term is $448$ ✗; the choice The $9$th doubles once too often, to $1792$; the choice The $128$th is READING THE POWER AS THE POSITION ✗.)',
+        'We need $7 \\cdot 2^{n-1} = 896$, so $2^{n-1} = 128 = 2^7$, which gives $n - 1 = 7$ and $n = 8$ ✓. Check a second, independent way by doubling from the start: $7$, $14$, $28$, $56$, $112$, $224$, $448$, $896$ — count them and you land on eight ✓. (The choice The $9$th doubles once too often, to $1792$; the choice The $7$th is stopping at the exponent instead of the term number, and the $7$th term is $448$ ✗; the choice The $128$th is READING THE POWER AS THE POSITION ✗.)',
     },
   ],
   // s3 — geometric mean of two numbers: multiply then square-root, never average.
@@ -229,14 +229,14 @@ const s213 = [
       choices: ['$6$', '$5$', '$4000$', '$7$'],
       answer: 0,
       solution:
-        'We need $6 \\cdot 4^d > 24000$, which means $4^d > 4000$. Powers of $4$: $4^5 = 1024$ is not enough ✗, but $4^6 = 4096$ clears it ✓, so $d = 6$. Check a second, independent way by tabulating the two days on either side: after $5$ days there are $6 \\times 1024 = 6144$ shares, still under $24000$ ✗, and after $6$ days there are $6 \\times 4096 = 24576$ shares ✓. (The choice $5$ stops one day short, at $6144$ ✗; the choice $7$ goes one day past the FIRST day that works; the choice $4000$ reports the number the power had to beat, not a count of days ✗.)',
+        'We need $6 \\cdot 4^d > 24000$, which means $4^d > 4000$. Powers of $4$: $4^5 = 1024$ is not enough ✗, but $4^6 = 4096$ clears it ✓, so $d = 6$. Check a second, independent way by tabulating the two days on either side: after $5$ days there are $6 \\times 1024 = 6144$ shares, still under $24000$ ✗, and after $6$ days there are $6 \\times 4096 = 24576$ shares ✓. (The choice $5$ stops one day short, at $6144$ ✗; the choice $4000$ reports the number the power had to beat, not a count of days ✗; the choice $7$ goes one day past the FIRST day that works.)',
     },
     {
       q: 'Algae covers $4$ square meters of Mei’s pond, and the covered area doubles every week, so after $w$ weeks it covers $4 \\cdot 2^w$ square meters. After how many whole weeks does the covered area first exceed $300$ square meters?',
       choices: ['$6$', '$75$', '$7$', '$8$'],
       answer: 2,
       solution:
-        'We need $4 \\cdot 2^w > 300$, so $2^w > 75$. Powers of $2$: $2^6 = 64$ falls short ✗, while $2^7 = 128$ clears it ✓, so $w = 7$. Check a second, independent way by doubling week by week: $4, 8, 16, 32, 64, 128, 256, 512$ — after $6$ weeks the pond has $256$ square meters covered ✗, and after $7$ weeks it has $512$ ✓. (The choice $6$ stops at $256$, which has not passed $300$ ✗; the choice $8$ waits a week longer than needed; the choice $75$ is the number the power had to beat, not a count of weeks ✗.)',
+        'We need $4 \\cdot 2^w > 300$, so $2^w > 75$. Powers of $2$: $2^6 = 64$ falls short ✗, while $2^7 = 128$ clears it ✓, so $w = 7$. Check a second, independent way by doubling week by week: $4, 8, 16, 32, 64, 128, 256, 512$ — after $6$ weeks the pond has $256$ square meters covered ✗, and after $7$ weeks it has $512$ ✓. (The choice $6$ stops at $256$, which has not passed $300$ ✗; the choice $75$ is the number the power had to beat, not a count of weeks ✗; the choice $8$ waits a week longer than needed.)',
     },
     {
       q: 'At camp, $7$ people know the nickname Nadia invented, and the number of people who know it is multiplied by $5$ every hour, so after $h$ hours it is known by $7 \\cdot 5^h$ people. After how many whole hours is it first known by more than $21000$ people?',

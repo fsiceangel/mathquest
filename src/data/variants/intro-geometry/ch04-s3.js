@@ -91,7 +91,7 @@ const s43 = [
       choices: ['$62$', 'It cannot be determined', '$15.5$', '$31$'],
       answer: 3,
       solution:
-        'Both beds grow from the same edge $EF$, and their far stakes $D$ and $G$ stand on one path parallel to $EF$ — so each stake is the same distance from the edge. Equal base, equal height: $[GEF] = [DEF] = 31$ ✓. Check a second, independent way by computing. The figure marks $EF = 8$, so $31 = \\frac{1}{2} \\cdot 8 \\cdot h$ gives $h = 7.75$, and bed $GEF$ then measures $\\frac{1}{2} \\cdot 8 \\cdot 7.75 = 31$ ✓ — the two beds trade shape for slant at no cost in area. (The choice $62$ is DOUBLING ✗; $15.5$ is HALVING ✗; "It cannot be determined" is DEMANDING MORE INFORMATION that the parallel path already supplies ✗.)',
+        'Both beds grow from the same edge $EF$, and their far stakes $D$ and $G$ stand on one path parallel to $EF$ — so each stake is the same distance from the edge. Equal base, equal height: $[GEF] = [DEF] = 31$ ✓. Check a second, independent way by computing. The figure marks $EF = 8$, so $31 = \\frac{1}{2} \\cdot 8 \\cdot h$ gives $h = 7.75$, and bed $GEF$ then measures $\\frac{1}{2} \\cdot 8 \\cdot 7.75 = 31$ ✓ — the two beds trade shape for slant at no cost in area. (The choice $62$ is DOUBLING ✗; "It cannot be determined" is DEMANDING MORE INFORMATION that the parallel path already supplies ✗; $15.5$ is HALVING ✗.)',
     },
   ],
   // s2 — a midpoint of a side halves the area.
@@ -187,7 +187,7 @@ const s43 = [
       choices: ['$35$', '$14$', '$28$', '$1.75$'],
       answer: 2,
       solution:
-        'Triangles $TUW$ and $TWV$ share the apex $T$, and their bases lie on one line, so they share one height — areas therefore compare exactly as bases do: $[TUW] : [TWV] = UW : WV = 2 : 8 = 1 : 4$. The far piece is $4$ times the near one: $[TWV] = 4 \\cdot 7 = 28$ ✓. Check a second, independent way through the whole triangle: $[TUW]$ owns the fraction $\\frac{2}{10}$ of $[TUV]$, so $[TUV] = 7 \\cdot 5 = 35$, and the far piece is what remains: $35 - 7 = 28$ ✓. (The choice $1.75$ is INVERTING THE RATIO, dividing by $4$ instead of multiplying ✗; $35$ is ANSWERING THE WHOLE AREA ✗; $14$ is DOUBLING THE GIVEN AREA, a guess that never consults the ratio ✗.)',
+        'Triangles $TUW$ and $TWV$ share the apex $T$, and their bases lie on one line, so they share one height — areas therefore compare exactly as bases do: $[TUW] : [TWV] = UW : WV = 2 : 8 = 1 : 4$. The far piece is $4$ times the near one: $[TWV] = 4 \\cdot 7 = 28$ ✓. Check a second, independent way through the whole triangle: $[TUW]$ owns the fraction $\\frac{2}{10}$ of $[TUV]$, so $[TUV] = 7 \\cdot 5 = 35$, and the far piece is what remains: $35 - 7 = 28$ ✓. (The choice $35$ is ANSWERING THE WHOLE AREA ✗; $14$ is DOUBLING THE GIVEN AREA, a guess that never consults the ratio ✗; $1.75$ is INVERTING THE RATIO, dividing by $4$ instead of multiplying ✗.)',
     },
     {
       q: 'Point $N$ lies on side $KL$ of triangle $JKL$ with $KN = 3$ and $NL = 6$. If $[JKN] = 8$, what is $[JNL]$?',
@@ -227,7 +227,7 @@ const s43 = [
       choices: ['$27$', '$18$', '$4.5$', '$90$'],
       answer: 1,
       solution:
-        'The seam runs from the shared corner $X$, so the two pieces of sail have one height and their areas follow their bases: $[XYD] : [XDZ] = YD : DZ = 5 : 10 = 1 : 2$. The far piece is twice the near one: $[XDZ] = 2 \\cdot 9 = 18$ ✓. Check a second, independent way through the full sail: $[XYD]$ is $\\frac{5}{15} = \\frac{1}{3}$ of the whole, so the whole is $3 \\cdot 9 = 27$, and $27 - 9 = 18$ ✓. (The choice $4.5$ is INVERTING THE RATIO ✗; $27$ is ANSWERING THE WHOLE AREA instead of the far piece ✗; $90$ is MULTIPLYING BY A LENGTH, $9 \\cdot 10$, which mixes an area with a base length ✗.)',
+        'The seam runs from the shared corner $X$, so the two pieces of sail have one height and their areas follow their bases: $[XYD] : [XDZ] = YD : DZ = 5 : 10 = 1 : 2$. The far piece is twice the near one: $[XDZ] = 2 \\cdot 9 = 18$ ✓. Check a second, independent way through the full sail: $[XYD]$ is $\\frac{5}{15} = \\frac{1}{3}$ of the whole, so the whole is $3 \\cdot 9 = 27$, and $27 - 9 = 18$ ✓. (The choice $27$ is ANSWERING THE WHOLE AREA instead of the far piece ✗; $4.5$ is INVERTING THE RATIO ✗; $90$ is MULTIPLYING BY A LENGTH, $9 \\cdot 10$, which mixes an area with a base length ✗.)',
     },
   ],
   // s4 — conceptual: apex slides along a parallel line, area unchanged.
@@ -276,7 +276,7 @@ const s43 = [
       choices: ['$74$', '$37$', '$148$', '$18.5$'],
       answer: 1,
       solution:
-        'A diagonal of a parallelogram cuts it into two congruent triangles: opposite sides of a parallelogram are equal, and the diagonal is shared, so the two triangles match side for side for side and must have equal areas. Each leaf is $\\frac{1}{2} \\cdot 74 = 37$ ✓. Check a second, independent way through the formulas: the parallelogram measures $bh$, while each triangle stands on the same base with the same height and measures $\\frac{1}{2}bh$ — half by construction. And the guard: the two leaves rebuild the top, $37 + 37 = 74$ ✓. (The choice $148$ is DOUBLING INSTEAD OF HALVING ✗; $18.5$ is HALVING TWICE, as if each triangle were then halved again ✗; $74$ is ANSWERING THE WHOLE AREA ✗.)',
+        'A diagonal of a parallelogram cuts it into two congruent triangles: opposite sides of a parallelogram are equal, and the diagonal is shared, so the two triangles match side for side for side and must have equal areas. Each leaf is $\\frac{1}{2} \\cdot 74 = 37$ ✓. Check a second, independent way through the formulas: the parallelogram measures $bh$, while each triangle stands on the same base with the same height and measures $\\frac{1}{2}bh$ — half by construction. And the guard: the two leaves rebuild the top, $37 + 37 = 74$ ✓. (The choice $74$ is ANSWERING THE WHOLE AREA ✗; $148$ is DOUBLING INSTEAD OF HALVING ✗; $18.5$ is HALVING TWICE, as if each triangle were then halved again ✗.)',
     },
     {
       q: 'Parallelogram $JKLM$ has area $48$, and diagonal $JL$ is drawn. What is $[JKL]$?',
@@ -290,7 +290,7 @@ const s43 = [
       choices: ['$86$', '$21.5$', '$172$', '$43$'],
       answer: 3,
       solution:
-        'Fold the sticker along the cut: opposite sides of a parallelogram are equal and the diagonal is shared, so the two triangles are congruent copies of each other, and congruent shapes have equal areas. Each triangle takes half: $\\frac{1}{2} \\cdot 86 = 43$ ✓. Check a second, independent way with the formulas: each triangle uses the parallelogram’s own base and its own height, so it measures $\\frac{1}{2}bh$ against the parallelogram’s $bh = 86$ — exactly half, and the tiling guard $43 + 43 = 86$ closes the check ✓. (The choice $172$ is DOUBLING INSTEAD OF HALVING ✗; $21.5$ is HALVING TWICE ✗; $86$ is ANSWERING THE WHOLE AREA, the sticker before the cut ✗.)',
+        'Fold the sticker along the cut: opposite sides of a parallelogram are equal and the diagonal is shared, so the two triangles are congruent copies of each other, and congruent shapes have equal areas. Each triangle takes half: $\\frac{1}{2} \\cdot 86 = 43$ ✓. Check a second, independent way with the formulas: each triangle uses the parallelogram’s own base and its own height, so it measures $\\frac{1}{2}bh$ against the parallelogram’s $bh = 86$ — exactly half, and the tiling guard $43 + 43 = 86$ closes the check ✓. (The choice $86$ is ANSWERING THE WHOLE AREA, the sticker before the cut ✗; $21.5$ is HALVING TWICE ✗; $172$ is DOUBLING INSTEAD OF HALVING ✗.)',
     },
   ],
   // s6 — a diagonal splits a quadrilateral; add the two triangle areas.
@@ -394,7 +394,7 @@ const s43 = [
       choices: ['$27$', '$30$', '$22.5$', '$18$'],
       answer: 3,
       solution:
-        'The little triangle $DEG$ and the whole triangle $DEF$ use the same height from $D$, so the little one takes the fraction of the area that its base takes of $EF$: $\\frac{EG}{EF} = \\frac{2}{5}$, and $[DEG] = \\frac{2}{5} \\cdot 45 = 18$ ✓. Check a second, independent way via the complementary piece: $[DGF] = \\frac{3}{5} \\cdot 45 = 27$, so the piece on $EG$ must be $45 - 27 = 18$ ✓. (The choice $27$ is ANSWERING THE OTHER PIECE ✗; $22.5$ is HALVING THE WHOLE, treating $G$ as a midpoint when the bases are plainly $2$ and $3$ ✗; $30$ is RATIO AGAINST THE WRONG BASE, computing $\\frac{2}{3}$ of $45$ with $GF$ in the denominator instead of all of $EF$ ✗.)',
+        'The little triangle $DEG$ and the whole triangle $DEF$ use the same height from $D$, so the little one takes the fraction of the area that its base takes of $EF$: $\\frac{EG}{EF} = \\frac{2}{5}$, and $[DEG] = \\frac{2}{5} \\cdot 45 = 18$ ✓. Check a second, independent way via the complementary piece: $[DGF] = \\frac{3}{5} \\cdot 45 = 27$, so the piece on $EG$ must be $45 - 27 = 18$ ✓. (The choice $27$ is ANSWERING THE OTHER PIECE ✗; $30$ is RATIO AGAINST THE WRONG BASE, computing $\\frac{2}{3}$ of $45$ with $GF$ in the denominator instead of all of $EF$ ✗; $22.5$ is HALVING THE WHOLE, treating $G$ as a midpoint when the bases are plainly $2$ and $3$ ✗.)',
     },
     {
       q: 'A triangular banner $PQR$ has a seam from corner $P$ to a point $K$ on edge $QR$, with $QK = 5$ and $KR = 7$, as shown. The whole banner has area $60$. What is the area of piece $PQK$?',
@@ -479,7 +479,7 @@ const s43 = [
       choices: ['$29$', '$58$', 'It cannot be determined', '$14.5$'],
       answer: 0,
       solution:
-        'Triangles $JKM$ and $JKL$ share base $JK$, and their apexes $M$ and $L$ lie on side $ML$, which runs parallel to $JK$ — so each apex stands the same height above the base, and $[JKL] = [JKM] = 29$ ✓. Check a second, independent way using the top side instead: $[JML]$ and $[KML]$ stand on base $ML$ with apexes $J$ and $K$ on the parallel line $JK$, so they are equal; since $[JKM] + [KML]$ and $[JKL] + [JML]$ each fill the trapezoid, canceling the equal pair forces $[JKL] = [JKM] = 29$ ✓. (The choice $58$ is DOUBLING ✗; $14.5$ is HALVING ✗; "It cannot be determined" is DEMANDING MORE INFORMATION that the parallel sides already gave ✗.)',
+        'Triangles $JKM$ and $JKL$ share base $JK$, and their apexes $M$ and $L$ lie on side $ML$, which runs parallel to $JK$ — so each apex stands the same height above the base, and $[JKL] = [JKM] = 29$ ✓. Check a second, independent way using the top side instead: $[JML]$ and $[KML]$ stand on base $ML$ with apexes $J$ and $K$ on the parallel line $JK$, so they are equal; since $[JKM] + [KML]$ and $[JKL] + [JML]$ each fill the trapezoid, canceling the equal pair forces $[JKL] = [JKM] = 29$ ✓. (The choice $58$ is DOUBLING ✗; "It cannot be determined" is DEMANDING MORE INFORMATION that the parallel sides already gave ✗; $14.5$ is HALVING ✗.)',
     },
   ],
   // s9 — centroid: the triangle on one side is a third of the whole.

@@ -69,7 +69,7 @@ const s13 = [
       choices: ['$3.5$', '$49$', '$14$', '$7$'],
       answer: 2,
       solution:
-        'A diameter crosses the circle through the center, so it is two radii laid end to end: $2 \\times 7 = 14$ ✓. Check a second, independent way by walking the picture instead of multiplying: start at the point of the circle opposite $D$, travel $7$ units to arrive at $Z$, then travel another $7$ units to arrive at $D$; the whole trip is $7 + 7 = 14$ ✓. (The choice $7$ is COPYING THE RADIUS, handing back the number that was given; $3.5$ is HALVING INSTEAD OF DOUBLING; $49$ is SQUARING THE RADIUS, which is an area move, not a length move.)',
+        'A diameter crosses the circle through the center, so it is two radii laid end to end: $2 \\times 7 = 14$ ✓. Check a second, independent way by walking the picture instead of multiplying: start at the point of the circle opposite $D$, travel $7$ units to arrive at $Z$, then travel another $7$ units to arrive at $D$; the whole trip is $7 + 7 = 14$ ✓. (The choice $3.5$ is HALVING INSTEAD OF DOUBLING; $49$ is SQUARING THE RADIUS, which is an area move, not a length move; $7$ is COPYING THE RADIUS, handing back the number that was given.)',
     },
     {
       q: 'In the circle shown, $O$ is the center, $H$ is on the circle, and $OH = 11$. What is the length of a diameter of this circle?',
@@ -359,7 +359,7 @@ const s13 = [
       choices: ['$40^\\circ$', '$50^\\circ$', '$140^\\circ$', '$320^\\circ$'],
       answer: 2,
       solution:
-        'A diameter cuts the circle into two semicircles of $180^\\circ$ each. Arc $DW$ and arc $WE$ together fill the semicircle on $W$’s side, so arc $WE = 180^\\circ - 40^\\circ = 140^\\circ$ ✓. Check a second, independent way by going the long way around the whole circle: the three pieces $DW$, $WE$, and the semicircle from $E$ back to $D$ on the far side of the diameter make up all $360^\\circ$, so arc $WE = 360^\\circ - 40^\\circ - 180^\\circ = 140^\\circ$ ✓ — a different subtraction from a different total, landing in the same place. (The choice $40^\\circ$ is COPYING THE GIVEN ARC; $320^\\circ$ is SUBTRACTING FROM $360^\\circ$ INSTEAD OF $180^\\circ$, which measures the arc from $W$ the long way round back to $D$; $50^\\circ$ is SUBTRACTING FROM $90^\\circ$, treating half of the semicircle as the whole of it.)',
+        'A diameter cuts the circle into two semicircles of $180^\\circ$ each. Arc $DW$ and arc $WE$ together fill the semicircle on $W$’s side, so arc $WE = 180^\\circ - 40^\\circ = 140^\\circ$ ✓. Check a second, independent way by going the long way around the whole circle: the three pieces $DW$, $WE$, and the semicircle from $E$ back to $D$ on the far side of the diameter make up all $360^\\circ$, so arc $WE = 360^\\circ - 40^\\circ - 180^\\circ = 140^\\circ$ ✓ — a different subtraction from a different total, landing in the same place. (The choice $40^\\circ$ is COPYING THE GIVEN ARC; $50^\\circ$ is SUBTRACTING FROM $90^\\circ$, treating half of the semicircle as the whole of it; $320^\\circ$ is SUBTRACTING FROM $360^\\circ$ INSTEAD OF $180^\\circ$, which measures the arc from $W$ the long way round back to $D$.)',
     },
     {
       q: 'In the circle with center $O$, $\\overline{HK}$ is a diameter and $S$ lies on the circle with arc $HS = 65^\\circ$. Find the measure of arc $SK$.',
@@ -379,7 +379,7 @@ const s13 = [
       choices: ['$65^\\circ$', '$25^\\circ$', '$295^\\circ$', '$115^\\circ$'],
       answer: 3,
       solution:
-        'Because $\\overline{HK}$ is a diameter, the trip from $H$ to $K$ through $S$ is a semicircle: $180^\\circ$. Arc $HS$ eats $65^\\circ$ of it, leaving arc $SK = 180^\\circ - 65^\\circ = 115^\\circ$ ✓. Check a second, independent way through the central angles at $O$: $\\angle HOS = 65^\\circ$ matches its arc, and $\\angle HOK$ is a straight angle of $180^\\circ$ since $H$, $O$, $K$ line up along the diameter. The ray $\\overrightarrow{OS}$ splits that straight angle into two pieces, so $\\angle SOK = 180^\\circ - 65^\\circ = 115^\\circ$, and arc $SK$ copies its central angle: $115^\\circ$ ✓. (The choice $65^\\circ$ is COPYING THE GIVEN ARC; $295^\\circ$ is SUBTRACTING FROM $360^\\circ$ INSTEAD OF $180^\\circ$; $25^\\circ$ is SUBTRACTING FROM $90^\\circ$, as though the diameter made a right angle rather than a straight one.)',
+        'Because $\\overline{HK}$ is a diameter, the trip from $H$ to $K$ through $S$ is a semicircle: $180^\\circ$. Arc $HS$ eats $65^\\circ$ of it, leaving arc $SK = 180^\\circ - 65^\\circ = 115^\\circ$ ✓. Check a second, independent way through the central angles at $O$: $\\angle HOS = 65^\\circ$ matches its arc, and $\\angle HOK$ is a straight angle of $180^\\circ$ since $H$, $O$, $K$ line up along the diameter. The ray $\\overrightarrow{OS}$ splits that straight angle into two pieces, so $\\angle SOK = 180^\\circ - 65^\\circ = 115^\\circ$, and arc $SK$ copies its central angle: $115^\\circ$ ✓. (The choice $65^\\circ$ is COPYING THE GIVEN ARC; $25^\\circ$ is SUBTRACTING FROM $90^\\circ$, as though the diameter made a right angle rather than a straight one; $295^\\circ$ is SUBTRACTING FROM $360^\\circ$ INSTEAD OF $180^\\circ$.)',
     },
     {
       q: '$\\overline{MN}$ is a diameter of circle $Q$, and $T$ is on the circle. Arc $MT$ measures $100^\\circ$. How many degrees are in arc $TN$?',
@@ -399,7 +399,7 @@ const s13 = [
       choices: ['$100^\\circ$', '$80^\\circ$', '$40^\\circ$', '$260^\\circ$'],
       answer: 1,
       solution:
-        'The diameter $\\overline{MN}$ splits the circle into two semicircles of $180^\\circ$. Arcs $MT$ and $TN$ together make the semicircle that contains $T$, so arc $TN = 180^\\circ - 100^\\circ = 80^\\circ$ ✓. Check a second, independent way by adding up the whole circle: the far semicircle from $N$ back to $M$ is another $180^\\circ$, so $100^\\circ + \\text{arc } TN + 180^\\circ = 360^\\circ$, giving arc $TN = 80^\\circ$ ✓. The picture agrees — $T$ sits closer to $N$ than to $M$, so the arc on the $N$ side should be the smaller of the two ✓. (The choice $100^\\circ$ is COPYING THE GIVEN ARC; $260^\\circ$ is SUBTRACTING FROM $360^\\circ$ INSTEAD OF $180^\\circ$; $40^\\circ$ is HALVING THE ANSWER, the move that belongs to an inscribed angle rather than to an arc.)',
+        'The diameter $\\overline{MN}$ splits the circle into two semicircles of $180^\\circ$. Arcs $MT$ and $TN$ together make the semicircle that contains $T$, so arc $TN = 180^\\circ - 100^\\circ = 80^\\circ$ ✓. Check a second, independent way by adding up the whole circle: the far semicircle from $N$ back to $M$ is another $180^\\circ$, so $100^\\circ + \\text{arc } TN + 180^\\circ = 360^\\circ$, giving arc $TN = 80^\\circ$ ✓. The picture agrees — $T$ sits closer to $N$ than to $M$, so the arc on the $N$ side should be the smaller of the two ✓. (The choice $100^\\circ$ is COPYING THE GIVEN ARC; $40^\\circ$ is HALVING THE ANSWER, the move that belongs to an inscribed angle rather than to an arc; $260^\\circ$ is SUBTRACTING FROM $360^\\circ$ INSTEAD OF $180^\\circ$.)',
     },
   ],
   // s10 — a chord is a pair of points. Lanes 6 -> 15, 11 -> 55, 9 -> 36.

@@ -266,7 +266,7 @@ const s122 = [
       choices: ['$60^\\circ$', '$90^\\circ$', '$45^\\circ$', '$120^\\circ$'],
       answer: 0,
       solution:
-        'Three equal sides make the triangle equilateral, so all three angles are equal too. The angles of any triangle sum to $180^\\circ$, so each one is $180^\\circ \\div 3 = 60^\\circ$. ($120^\\circ$ comes from dividing $360^\\circ$ by $3$ — but $360^\\circ$ is the angle sum of a quadrilateral, not a triangle; $90^\\circ$ guesses a right angle, and three right angles would already make $270^\\circ$; $45^\\circ$ comes from $180^\\circ \\div 4$, dividing by the wrong count.)',
+        'Three equal sides make the triangle equilateral, so all three angles are equal too. The angles of any triangle sum to $180^\\circ$, so each one is $180^\\circ \\div 3 = 60^\\circ$. ($90^\\circ$ guesses a right angle, and three right angles would already make $270^\\circ$; $45^\\circ$ comes from $180^\\circ \\div 4$, dividing by the wrong count; $120^\\circ$ comes from dividing $360^\\circ$ by $3$ — but $360^\\circ$ is the angle sum of a quadrilateral, not a triangle.)',
     },
     {
       q: 'All three angles of a certain triangle are equal to one another. How large is each angle?',
@@ -564,14 +564,14 @@ const s123 = [
       choices: ['$88$', '$22$', '$11$', '$176$'],
       answer: 2,
       solution:
-        'A square has four equal sides, so divide: $44 \\div 4 = 11$. Check: $4 \\times 11 = 44$ ✓. ($22$ divides by $2$ instead of $4$, as though the square had only two sides; $88$ multiplies by $2$; $176$ multiplies by $4$ instead of dividing — that goes the wrong way, since one side must be shorter than the whole way around.)',
+        'A square has four equal sides, so divide: $44 \\div 4 = 11$. Check: $4 \\times 11 = 44$ ✓. ($88$ multiplies by $2$; $22$ divides by $2$ instead of $4$, as though the square had only two sides; $176$ multiplies by $4$ instead of dividing — that goes the wrong way, since one side must be shorter than the whole way around.)',
     },
     {
       q: 'A rhombus has a perimeter of $60$. How long is each side?',
       choices: ['$30$', '$240$', '$20$', '$15$'],
       answer: 3,
       solution:
-        'The four sides of a rhombus are equal, so each is $60 \\div 4 = 15$. Check: $4 \\times 15 = 60$ ✓. ($30$ divides by $2$ instead of $4$; $20$ divides by $3$, counting three sides like a triangle; $240$ multiplies by $4$ instead of dividing, which makes each side longer than the whole perimeter.)',
+        'The four sides of a rhombus are equal, so each is $60 \\div 4 = 15$. Check: $4 \\times 15 = 60$ ✓. ($30$ divides by $2$ instead of $4$; $240$ multiplies by $4$ instead of dividing, which makes each side longer than the whole perimeter; $20$ divides by $3$, counting three sides like a triangle.)',
     },
   ],
   // p4 — opposite angles of a parallelogram
@@ -721,7 +721,7 @@ const s123 = [
       choices: ['$36^\\circ$', '$30^\\circ$', '$150^\\circ$', '$60^\\circ$'],
       answer: 1,
       solution:
-        'Call the smaller angle $x$, so its neighbour is $5x$. Consecutive angles of a parallelogram are supplementary: $x + 5x = 180^\\circ$, so $6x = 180^\\circ$ and $x = 30^\\circ$. The two angles are $30^\\circ$ and $150^\\circ$ ✓. ($150^\\circ$ is the LARGER angle, answering the wrong half of the question; $36^\\circ$ is $180^\\circ \\div 5$, dividing by the multiplier instead of by $6$; $60^\\circ$ is $360^\\circ \\div 6$, using the four-angle total for a pair of neighbours.)',
+        'Call the smaller angle $x$, so its neighbour is $5x$. Consecutive angles of a parallelogram are supplementary: $x + 5x = 180^\\circ$, so $6x = 180^\\circ$ and $x = 30^\\circ$. The two angles are $30^\\circ$ and $150^\\circ$ ✓. ($36^\\circ$ is $180^\\circ \\div 5$, dividing by the multiplier instead of by $6$; $150^\\circ$ is the LARGER angle, answering the wrong half of the question; $60^\\circ$ is $360^\\circ \\div 6$, using the four-angle total for a pair of neighbours.)',
     },
     {
       q: 'In a parallelogram, one angle is $3$ times as large as the angle next to it. What is the measure of the LARGER angle?',

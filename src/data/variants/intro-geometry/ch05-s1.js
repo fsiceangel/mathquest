@@ -222,7 +222,7 @@ const s51 = [
       choices: ['$\\frac{7}{3}$', '$15$', '$21$', '$28$'],
       answer: 2,
       solution:
-        'By letter order $\\overline{AB} \\leftrightarrow \\overline{XY}$, so the scale factor is $\\frac{XY}{AB} = \\frac{12}{4} = 3$, and $YZ = 3 \\times BC = 3 \\times 7 = 21$ ✓. Check with a comparison that never computes the scale factor: similarity preserves the ratio of two sides WITHIN a triangle, so $\\frac{YZ}{XY} = \\frac{BC}{AB} = \\frac{7}{4}$, giving $YZ = 12 \\times \\frac{7}{4} = 21$ ✓ — the same length from an inside proportion instead of an across one. ($15$ is ADDING THE DIFFERENCE: $12 = 4 + 8$, so $7 + 8$, but similarity multiplies and never adds ✗; $\\frac{7}{3}$ is INVERTING THE RATIO ✗; $28$ is MULTIPLYING THE GIVEN SIDES, $4 \\times 7$ ✗.)',
+        'By letter order $\\overline{AB} \\leftrightarrow \\overline{XY}$, so the scale factor is $\\frac{XY}{AB} = \\frac{12}{4} = 3$, and $YZ = 3 \\times BC = 3 \\times 7 = 21$ ✓. Check with a comparison that never computes the scale factor: similarity preserves the ratio of two sides WITHIN a triangle, so $\\frac{YZ}{XY} = \\frac{BC}{AB} = \\frac{7}{4}$, giving $YZ = 12 \\times \\frac{7}{4} = 21$ ✓ — the same length from an inside proportion instead of an across one. ($\\frac{7}{3}$ is INVERTING THE RATIO ✗; $15$ is ADDING THE DIFFERENCE: $12 = 4 + 8$, so $7 + 8$, but similarity multiplies and never adds ✗; $28$ is MULTIPLYING THE GIVEN SIDES, $4 \\times 7$ ✗.)',
     },
     {
       q: '$\\triangle ABC \\sim \\triangle XYZ$ with $AB = 5$, $BC = 6$, and $XY = 15$, as shown. Find $YZ$.',

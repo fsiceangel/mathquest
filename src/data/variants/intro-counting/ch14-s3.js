@@ -166,21 +166,21 @@ const s144 = [
       choices: ['$2400$', '$1201$', '$16120$', '$2402$'],
       answer: 3,
       solution:
-        'Route one, expand both. $(20+1)^3 = 20^3 + 3\\cdot 20^2 + 3\\cdot 20 + 1$ and $(20-1)^3 = 20^3 - 3\\cdot 20^2 + 3\\cdot 20 - 1$. Subtracting, the even-power terms cancel and the odd-power terms double: $2(3\\cdot 400 + 1) = 2\\cdot 1201 = 2402$ ✓. Route two, factor the difference of cubes. $21^3 - 19^3 = (21 - 19)(21^2 + 21\\cdot 19 + 19^2) = 2(441 + 399 + 361) = 2\\cdot 1201 = 2402$ ✓. (The choice $1201$ FORGETS THAT THE SUBTRACTION DOUBLES the surviving terms ✗; $2400$ DROPS THE FINAL $1^3$ TERM ✗; $16120$ keeps the even-power terms instead, WHICH IS $21^3 + 19^3$ ✗.)',
+        'Route one, expand both. $(20+1)^3 = 20^3 + 3\\cdot 20^2 + 3\\cdot 20 + 1$ and $(20-1)^3 = 20^3 - 3\\cdot 20^2 + 3\\cdot 20 - 1$. Subtracting, the even-power terms cancel and the odd-power terms double: $2(3\\cdot 400 + 1) = 2\\cdot 1201 = 2402$ ✓. Route two, factor the difference of cubes. $21^3 - 19^3 = (21 - 19)(21^2 + 21\\cdot 19 + 19^2) = 2(441 + 399 + 361) = 2\\cdot 1201 = 2402$ ✓. (The choice $2400$ DROPS THE FINAL $1^3$ TERM ✗; $1201$ FORGETS THAT THE SUBTRACTION DOUBLES the surviving terms ✗; $16120$ keeps the even-power terms instead, WHICH IS $21^3 + 19^3$ ✗.)',
     },
     {
       q: 'Using the expansions of $(10+2)^3$ and $(10-2)^3$, what is $12^3 + 8^3$?',
       choices: ['$2000$', '$2240$', '$1120$', '$1216$'],
       answer: 1,
       solution:
-        'Route one, expand both. $(10+2)^3 = 10^3 + 3\\cdot 10^2\\cdot 2 + 3\\cdot 10\\cdot 4 + 8$ and $(10-2)^3 = 10^3 - 3\\cdot 10^2\\cdot 2 + 3\\cdot 10\\cdot 4 - 8$. Adding, the terms with an odd power of $2$ cancel and the others double: $2(1000 + 120) = 2240$ ✓. Route two, factor the sum of cubes. $12^3 + 8^3 = (12 + 8)(12^2 - 12\\cdot 8 + 8^2) = 20(144 - 96 + 64) = 20\\cdot 112 = 2240$ ✓. (The choice $1120$ FORGETS THAT THE ADDITION DOUBLES the surviving terms ✗; $2000$ DROPS THE $3\\cdot 10\\cdot 2^2$ TERM ✗; $1216$ keeps the other terms instead, WHICH IS $12^3 - 8^3$ ✗.)',
+        'Route one, expand both. $(10+2)^3 = 10^3 + 3\\cdot 10^2\\cdot 2 + 3\\cdot 10\\cdot 4 + 8$ and $(10-2)^3 = 10^3 - 3\\cdot 10^2\\cdot 2 + 3\\cdot 10\\cdot 4 - 8$. Adding, the terms with an odd power of $2$ cancel and the others double: $2(1000 + 120) = 2240$ ✓. Route two, factor the sum of cubes. $12^3 + 8^3 = (12 + 8)(12^2 - 12\\cdot 8 + 8^2) = 20(144 - 96 + 64) = 20\\cdot 112 = 2240$ ✓. (The choice $2000$ DROPS THE $3\\cdot 10\\cdot 2^2$ TERM ✗; $1120$ FORGETS THAT THE ADDITION DOUBLES the surviving terms ✗; $1216$ keeps the other terms instead, WHICH IS $12^3 - 8^3$ ✗.)',
     },
     {
       q: 'Using the expansions of $(30+1)^3$ and $(30-1)^3$, what is $31^3 - 29^3$?',
       choices: ['$5402$', '$5400$', '$2701$', '$54180$'],
       answer: 0,
       solution:
-        'Route one, expand both. $(30+1)^3 = 30^3 + 3\\cdot 30^2 + 3\\cdot 30 + 1$ and $(30-1)^3 = 30^3 - 3\\cdot 30^2 + 3\\cdot 30 - 1$. Subtracting, the even-power terms cancel and the odd-power terms double: $2(3\\cdot 900 + 1) = 2\\cdot 2701 = 5402$ ✓. Route two, compute the cubes directly. $31^3 = 31\\cdot 961 = 29791$ and $29^3 = 29\\cdot 841 = 24389$, so $31^3 - 29^3 = 29791 - 24389 = 5402$ ✓. (The choice $2701$ FORGETS THAT THE SUBTRACTION DOUBLES the surviving terms ✗; $5400$ DROPS THE FINAL $1^3$ TERM ✗; $54180$ keeps the even-power terms instead, WHICH IS $31^3 + 29^3$ ✗.)',
+        'Route one, expand both. $(30+1)^3 = 30^3 + 3\\cdot 30^2 + 3\\cdot 30 + 1$ and $(30-1)^3 = 30^3 - 3\\cdot 30^2 + 3\\cdot 30 - 1$. Subtracting, the even-power terms cancel and the odd-power terms double: $2(3\\cdot 900 + 1) = 2\\cdot 2701 = 5402$ ✓. Route two, compute the cubes directly. $31^3 = 31\\cdot 961 = 29791$ and $29^3 = 29\\cdot 841 = 24389$, so $31^3 - 29^3 = 29791 - 24389 = 5402$ ✓. (The choice $5400$ DROPS THE FINAL $1^3$ TERM ✗; $2701$ FORGETS THAT THE SUBTRACTION DOUBLES the surviving terms ✗; $54180$ keeps the even-power terms instead, WHICH IS $31^3 + 29^3$ ✗.)',
     },
   ],
   // slot 8 — coefficients in products of expansions
@@ -197,7 +197,7 @@ const s144 = [
       choices: ['$792$', '$495$', '$225$', '$480$'],
       answer: 1,
       solution:
-        'Route one, combine the factors. The product is $(1+x)^{12}$, whose $x^4$ coefficient is $\\binom{12}{4} = 495$ ✓. Route two, multiply term by term. Pick $x^i$ from one factor and $x^{4-i}$ from the other: $\\binom{6}{0}\\binom{6}{4} + \\binom{6}{1}\\binom{6}{3} + \\binom{6}{2}\\binom{6}{2} + \\binom{6}{3}\\binom{6}{1} + \\binom{6}{4}\\binom{6}{0} = 15 + 120 + 225 + 120 + 15 = 495$ ✓. (The choice $225$ keeps only the middle product $\\binom{6}{2}\\binom{6}{2}$, TAKING $x^2$ FROM EACH FACTOR AS THE ONLY OPTION ✗; $792$ is $\\binom{12}{5}$, the coefficient of $x^5$, READING THE WRONG TERM ✗; $480$ DROPS THE FIRST PRODUCT $\\binom{6}{0}\\binom{6}{4} = 15$ in the sum ✗.)',
+        'Route one, combine the factors. The product is $(1+x)^{12}$, whose $x^4$ coefficient is $\\binom{12}{4} = 495$ ✓. Route two, multiply term by term. Pick $x^i$ from one factor and $x^{4-i}$ from the other: $\\binom{6}{0}\\binom{6}{4} + \\binom{6}{1}\\binom{6}{3} + \\binom{6}{2}\\binom{6}{2} + \\binom{6}{3}\\binom{6}{1} + \\binom{6}{4}\\binom{6}{0} = 15 + 120 + 225 + 120 + 15 = 495$ ✓. (The choice $792$ is $\\binom{12}{5}$, the coefficient of $x^5$, READING THE WRONG TERM ✗; $225$ keeps only the middle product $\\binom{6}{2}\\binom{6}{2}$, TAKING $x^2$ FROM EACH FACTOR AS THE ONLY OPTION ✗; $480$ DROPS THE FIRST PRODUCT $\\binom{6}{0}\\binom{6}{4} = 15$ in the sum ✗.)',
     },
     {
       q: 'For a positive integer $n$, the coefficient of $x^2$ when $(1+x)^3(1+x)^n$ is expanded is $190$. What is $n$?',
@@ -221,7 +221,7 @@ const s144 = [
       choices: ['$-11$', '$37$', '$11$', '$-20$'],
       answer: 0,
       solution:
-        'Route one, multiply term by term. $(1+3x)^2 = 1 + 6x + 9x^2$ and $(1-2x)^2 = 1 - 4x + 4x^2$, so the $x^2$ coefficient of the product is $1\\cdot 4 + 6\\cdot(-4) + 9\\cdot 1 = 4 - 24 + 9 = -11$ ✓. Route two, pair the factors first. $(1+3x)^2(1-2x)^2 = \\left((1+3x)(1-2x)\\right)^2 = (1 + x - 6x^2)^2$, whose $x^2$ term collects $2\\cdot 1\\cdot(-6x^2)$ and $(x)^2$: the coefficient is $-12 + 1 = -11$ ✓. (The choice $11$ LOSES THE SIGN ✗; $37$ is $4 + 24 + 9$, IGNORING THE MINUS SIGNS in the second factor ✗; $-20$ is $4 - 24$, DROPPING THE $9x^2\\cdot 1$ PRODUCT ✗.)',
+        'Route one, multiply term by term. $(1+3x)^2 = 1 + 6x + 9x^2$ and $(1-2x)^2 = 1 - 4x + 4x^2$, so the $x^2$ coefficient of the product is $1\\cdot 4 + 6\\cdot(-4) + 9\\cdot 1 = 4 - 24 + 9 = -11$ ✓. Route two, pair the factors first. $(1+3x)^2(1-2x)^2 = \\left((1+3x)(1-2x)\\right)^2 = (1 + x - 6x^2)^2$, whose $x^2$ term collects $2\\cdot 1\\cdot(-6x^2)$ and $(x)^2$: the coefficient is $-12 + 1 = -11$ ✓. (The choice $37$ is $4 + 24 + 9$, IGNORING THE MINUS SIGNS in the second factor ✗; $11$ LOSES THE SIGN ✗; $-20$ is $4 - 24$, DROPPING THE $9x^2\\cdot 1$ PRODUCT ✗.)',
     },
     {
       q: 'What is the coefficient of $x^6$ when $(1+x)^3(1-x)^4$ is expanded?',
@@ -245,14 +245,14 @@ const s144 = [
       choices: ['$10$', '$80$', '$40$', '$20$'],
       answer: 2,
       solution:
-        'Route one, the general term. It is $\\binom{5}{k}(x^2)^{5-k}\\left(\\frac{2}{x^3}\\right)^k = \\binom{5}{k}2^k x^{10-5k}$, and the exponent is $0$ when $k = 2$: $\\binom{5}{2}\\cdot 2^2 = 10\\cdot 4 = 40$ ✓. Route two, factor out the fraction. $\\left(x^2 + \\frac{2}{x^3}\\right)^5 = \\frac{(x^5 + 2)^5}{x^{15}}$, so the constant term here is the $x^{15}$ coefficient of $(x^5 + 2)^5$: three of the five factors supply an $x^5$ and two supply a $2$, giving $\\binom{5}{3}\\cdot 2^2 = 10\\cdot 4 = 40$ ✓. (The choice $80$ is the $k = 3$ term $\\binom{5}{3}\\cdot 2^3$, which multiplies $x^{-5}$, READING THE WRONG TERM ✗; $10$ is $\\binom{5}{2}$ alone, FORGETTING THE $2^2$ ✗; $20$ is $\\binom{5}{2}\\cdot 2$, USING THE $2$ ONLY ONCE ✗.)',
+        'Route one, the general term. It is $\\binom{5}{k}(x^2)^{5-k}\\left(\\frac{2}{x^3}\\right)^k = \\binom{5}{k}2^k x^{10-5k}$, and the exponent is $0$ when $k = 2$: $\\binom{5}{2}\\cdot 2^2 = 10\\cdot 4 = 40$ ✓. Route two, factor out the fraction. $\\left(x^2 + \\frac{2}{x^3}\\right)^5 = \\frac{(x^5 + 2)^5}{x^{15}}$, so the constant term here is the $x^{15}$ coefficient of $(x^5 + 2)^5$: three of the five factors supply an $x^5$ and two supply a $2$, giving $\\binom{5}{3}\\cdot 2^2 = 10\\cdot 4 = 40$ ✓. (The choice $10$ is $\\binom{5}{2}$ alone, FORGETTING THE $2^2$ ✗; $80$ is the $k = 3$ term $\\binom{5}{3}\\cdot 2^3$, which multiplies $x^{-5}$, READING THE WRONG TERM ✗; $20$ is $\\binom{5}{2}\\cdot 2$, USING THE $2$ ONLY ONCE ✗.)',
     },
     {
       q: 'What is the coefficient of $x^3$ in the expansion of $\\left(2x - \\frac{1}{x^2}\\right)^9$?',
       choices: ['$2304$', '$4608$', '$-4608$', '$36$'],
       answer: 1,
       solution:
-        'Route one, the general term. It is $\\binom{9}{k}(2x)^{9-k}\\left(-\\frac{1}{x^2}\\right)^k = \\binom{9}{k}2^{9-k}(-1)^k x^{9-3k}$, and the exponent is $3$ when $k = 2$: $\\binom{9}{2}\\cdot 2^7\\cdot(-1)^2 = 36\\cdot 128 = 4608$ ✓. Route two, factor out the fraction. $\\left(2x - \\frac{1}{x^2}\\right)^9 = \\frac{(2x^3 - 1)^9}{x^{18}}$, so the $x^3$ coefficient here is the $x^{21}$ coefficient of $(2x^3 - 1)^9$: seven of the nine factors supply a $2x^3$ and two supply a $-1$, giving $\\binom{9}{7}\\cdot 2^7\\cdot(-1)^2 = 36\\cdot 128 = 4608$ ✓. (The choice $-4608$ ASSIGNS A NEGATIVE SIGN even though $k = 2$ is even ✗; $2304$ is $36\\cdot 2^6$, PUTTING THE WRONG EXPONENT ON THE $2$ ✗; $36$ is $\\binom{9}{2}$ alone, FORGETTING THE $2^7$ ✗.)',
+        'Route one, the general term. It is $\\binom{9}{k}(2x)^{9-k}\\left(-\\frac{1}{x^2}\\right)^k = \\binom{9}{k}2^{9-k}(-1)^k x^{9-3k}$, and the exponent is $3$ when $k = 2$: $\\binom{9}{2}\\cdot 2^7\\cdot(-1)^2 = 36\\cdot 128 = 4608$ ✓. Route two, factor out the fraction. $\\left(2x - \\frac{1}{x^2}\\right)^9 = \\frac{(2x^3 - 1)^9}{x^{18}}$, so the $x^3$ coefficient here is the $x^{21}$ coefficient of $(2x^3 - 1)^9$: seven of the nine factors supply a $2x^3$ and two supply a $-1$, giving $\\binom{9}{7}\\cdot 2^7\\cdot(-1)^2 = 36\\cdot 128 = 4608$ ✓. (The choice $2304$ is $36\\cdot 2^6$, PUTTING THE WRONG EXPONENT ON THE $2$ ✗; $-4608$ ASSIGNS A NEGATIVE SIGN even though $k = 2$ is even ✗; $36$ is $\\binom{9}{2}$ alone, FORGETTING THE $2^7$ ✗.)',
     },
   ],
 ]

@@ -29,7 +29,7 @@ const challenge = [
       choices: ['$1$', '$i$', '$-1$', '$-i$'],
       answer: 3,
       solution:
-        'Powers of $i$ march around a circle of four: $i, -1, -i, 1$, then start over. So divide the exponent by $4$ and keep the remainder. Since $2027 = 4 \\times 506 + 3$, the remainder is $3$, and $i^{2027} = i^3 = -i$. Check a different way, without any division: $i^{2028} = (i^4)^{507} = 1$, so $i^{2027}$ is whatever you multiply by $i$ to get $1$ — and $(-i)(i) = -i^2 = 1$ ✓. (The choice $i$ treats the cycle as though it had period $2$, so that every odd exponent gives $i$; the choice $-1$ reduces correctly to $i^3$ but then evaluates it as $i^2$, stopping one factor early; the choice $1$ rounds the exponent UP to the nearest multiple of $4$, which is $2028$, a different power altogether.)',
+        'Powers of $i$ march around a circle of four: $i, -1, -i, 1$, then start over. So divide the exponent by $4$ and keep the remainder. Since $2027 = 4 \\times 506 + 3$, the remainder is $3$, and $i^{2027} = i^3 = -i$. Check a different way, without any division: $i^{2028} = (i^4)^{507} = 1$, so $i^{2027}$ is whatever you multiply by $i$ to get $1$ — and $(-i)(i) = -i^2 = 1$ ✓. (The choice $1$ rounds the exponent UP to the nearest multiple of $4$, which is $2028$, a different power altogether; the choice $i$ treats the cycle as though it had period $2$, so that every odd exponent gives $i$; the choice $-1$ reduces correctly to $i^3$ but then evaluates it as $i^2$, stopping one factor early.)',
     },
     {
       q: 'Which one of these powers of $i$ is equal to $-i$?',
@@ -62,7 +62,7 @@ const challenge = [
       choices: ['$196$', '$-49$', '$7$', '$49$'],
       answer: 3,
       solution:
-        'Write both roots the safe way: $\\sqrt{-k} = i\\sqrt{k}$ and $\\sqrt{-4} = 2i$. Their product is $2i^2\\sqrt{k} = -2\\sqrt{k}$, so $-2\\sqrt{k} = -14$, giving $\\sqrt{k} = 7$ and $k = 49$. Check forward with the actual numbers: $\\sqrt{-49} \\cdot \\sqrt{-4} = (7i)(2i) = 14i^2 = -14$ ✓. (The choice $7$ stops at $\\sqrt{k}$ and forgets the last squaring step; the choice $196$ drops the $2$ that comes from $\\sqrt{-4} = 2i$ and solves $\\sqrt{k} = 14$; the choice $-49$ assumes the minus sign in $-14$ means $k$ itself must be negative — but the minus comes from $i^2$, and the problem already said $k$ is positive.)',
+        'Write both roots the safe way: $\\sqrt{-k} = i\\sqrt{k}$ and $\\sqrt{-4} = 2i$. Their product is $2i^2\\sqrt{k} = -2\\sqrt{k}$, so $-2\\sqrt{k} = -14$, giving $\\sqrt{k} = 7$ and $k = 49$. Check forward with the actual numbers: $\\sqrt{-49} \\cdot \\sqrt{-4} = (7i)(2i) = 14i^2 = -14$ ✓. (The choice $196$ drops the $2$ that comes from $\\sqrt{-4} = 2i$ and solves $\\sqrt{k} = 14$; the choice $-49$ assumes the minus sign in $-14$ means $k$ itself must be negative — but the minus comes from $i^2$, and the problem already said $k$ is positive; the choice $7$ stops at $\\sqrt{k}$ and forgets the last squaring step.)',
     },
     {
       q: 'Compute $\\sqrt{-3} \\cdot \\sqrt{-27}$.',
@@ -89,7 +89,7 @@ const challenge = [
       choices: ['$4$', '$0$', '$2$', '$\\sqrt{2}$'],
       answer: 2,
       solution:
-        'Expand in general: $(2 + bi)^2 = 4 + 4bi + b^2i^2 = (4 - b^2) + 4bi$. The real part is $4 - b^2$, and we want it to vanish, so $b^2 = 4$ and the positive answer is $b = 2$. Check forward: $(2 + 2i)^2 = 4 + 8i + 4i^2 = 8i$, which is pure imaginary ✓. Check that a rival really fails: $b = \\sqrt{2}$ gives $(2 + \\sqrt{2}i)^2 = 4 + 4\\sqrt{2}i - 2 = 2 + 4\\sqrt{2}i$, whose real part is $2$, not $0$ ✗. (The choice $4$ treats the real part as $4 - b$ and forgets that $b$ gets squared; the choice $\\sqrt{2}$ forgets that the $2$ gets squared too, solving $2 - b^2 = 0$; the choice $0$ kills the imaginary part instead of the real part — $(2 + 0i)^2 = 4$ is as real as a number can be.)',
+        'Expand in general: $(2 + bi)^2 = 4 + 4bi + b^2i^2 = (4 - b^2) + 4bi$. The real part is $4 - b^2$, and we want it to vanish, so $b^2 = 4$ and the positive answer is $b = 2$. Check forward: $(2 + 2i)^2 = 4 + 8i + 4i^2 = 8i$, which is pure imaginary ✓. Check that a rival really fails: $b = \\sqrt{2}$ gives $(2 + \\sqrt{2}i)^2 = 4 + 4\\sqrt{2}i - 2 = 2 + 4\\sqrt{2}i$, whose real part is $2$, not $0$ ✗. (The choice $4$ treats the real part as $4 - b$ and forgets that $b$ gets squared; the choice $0$ kills the imaginary part instead of the real part — $(2 + 0i)^2 = 4$ is as real as a number can be; the choice $\\sqrt{2}$ forgets that the $2$ gets squared too, solving $2 - b^2 = 0$.)',
     },
     {
       q: 'Compute $(2 + 3i)^2 - (2 - 3i)^2$.',
@@ -108,7 +108,7 @@ const challenge = [
       choices: ['$-5 - 10i$', '$5 - 4i$', '$-5 + 4i$', '$-5 - 4i$'],
       answer: 3,
       solution:
-        'Take the parts one at a time. Real: $4 - 9 = -5$. Imaginary: $-7 - (-3) = -7 + 3 = -4$. So the answer is $-5 - 4i$. Check by undoing the subtraction — if the answer is right, adding $9 - 3i$ back must return the number we started with: $(-5 - 4i) + (9 - 3i) = 4 - 7i$ ✓. (The choice $-5 - 10i$ adds the imaginary parts, $-7 + (-3)$, because the minus never reached the $-3i$; the choice $-5 + 4i$ subtracts the imaginary parts in the wrong order, computing $-3 - (-7)$; the choice $5 - 4i$ does the same reversal on the real part, computing $9 - 4$.)',
+        'Take the parts one at a time. Real: $4 - 9 = -5$. Imaginary: $-7 - (-3) = -7 + 3 = -4$. So the answer is $-5 - 4i$. Check by undoing the subtraction — if the answer is right, adding $9 - 3i$ back must return the number we started with: $(-5 - 4i) + (9 - 3i) = 4 - 7i$ ✓. (The choice $-5 - 10i$ adds the imaginary parts, $-7 + (-3)$, because the minus never reached the $-3i$; the choice $5 - 4i$ does the same reversal on the real part, computing $9 - 4$; the choice $-5 + 4i$ subtracts the imaginary parts in the wrong order, computing $-3 - (-7)$.)',
     },
     {
       q: 'What complex number must be subtracted from $3 + 2i$ to give $8 - 5i$?',
@@ -122,7 +122,7 @@ const challenge = [
       choices: ['$1 - 10i$', '$7 + 8i$', '$7 - 10i$', '$7$'],
       answer: 3,
       solution:
-        'Every minus in front of a bracket flips BOTH parts inside it. Real parts: $6 - 2 - (-3) = 6 - 2 + 3 = 7$. Imaginary parts: $-1 - 4 - (-5) = -1 - 4 + 5 = 0$. The imaginary part vanishes, so the answer is the real number $7$. Check by regrouping, which is a different route: $A - B - C = A - (B + C)$, and $B + C = (2 + 4i) + (-3 - 5i) = -1 - i$, so the whole thing is $(6 - i) - (-1 - i) = 7 + 0i = 7$ ✓. (The choice $1 - 10i$ treats the last bracket as though it were being ADDED, so nothing in it flips; the choice $7 - 10i$ flips the $-3$ but not the $-5i$, losing the minus on the second part only; the choice $7 + 8i$ lets the minus in front of $(2 + 4i)$ reach only the $2$, so the $4i$ comes in as $+4i$.)',
+        'Every minus in front of a bracket flips BOTH parts inside it. Real parts: $6 - 2 - (-3) = 6 - 2 + 3 = 7$. Imaginary parts: $-1 - 4 - (-5) = -1 - 4 + 5 = 0$. The imaginary part vanishes, so the answer is the real number $7$. Check by regrouping, which is a different route: $A - B - C = A - (B + C)$, and $B + C = (2 + 4i) + (-3 - 5i) = -1 - i$, so the whole thing is $(6 - i) - (-1 - i) = 7 + 0i = 7$ ✓. (The choice $1 - 10i$ treats the last bracket as though it were being ADDED, so nothing in it flips; the choice $7 + 8i$ lets the minus in front of $(2 + 4i)$ reach only the $2$, so the $4i$ comes in as $+4i$; the choice $7 - 10i$ flips the $-3$ but not the $-5i$, losing the minus on the second part only.)',
     },
   ],
   // c5 — a number times its conjugate. The cross terms cancel and $-b^2i^2$
@@ -281,7 +281,7 @@ const challenge = [
       choices: ['$6 + 2i$', '$2 + 3i$', '$3 + 4i$', '$3 + 2i$'],
       answer: 3,
       solution:
-        'Adding a number to its conjugate doubles the real part: $z + \\overline{z} = 2a$, so $2a = 6$ and $a = 3$. Multiplying gives $z \\cdot \\overline{z} = a^2 + b^2$, so $9 + b^2 = 13$, giving $b^2 = 4$ and $b = 2$ (positive, as promised). So $z = 3 + 2i$. Check both facts forward: $(3 + 2i) + (3 - 2i) = 6$ ✓ and $(3 + 2i)(3 - 2i) = 9 + 4 = 13$ ✓. (The choice $6 + 2i$ takes the real part straight from the $6$, forgetting that the sum is $2a$; the choice $3 + 4i$ stops at $b^2 = 4$ and reports $4$ as $b$; the choice $2 + 3i$ has $a$ and $b$ swapped, and its sum with its conjugate would be $4$, not $6$.)',
+        'Adding a number to its conjugate doubles the real part: $z + \\overline{z} = 2a$, so $2a = 6$ and $a = 3$. Multiplying gives $z \\cdot \\overline{z} = a^2 + b^2$, so $9 + b^2 = 13$, giving $b^2 = 4$ and $b = 2$ (positive, as promised). So $z = 3 + 2i$. Check both facts forward: $(3 + 2i) + (3 - 2i) = 6$ ✓ and $(3 + 2i)(3 - 2i) = 9 + 4 = 13$ ✓. (The choice $6 + 2i$ takes the real part straight from the $6$, forgetting that the sum is $2a$; the choice $2 + 3i$ has $a$ and $b$ swapped, and its sum with its conjugate would be $4$, not $6$; the choice $3 + 4i$ stops at $b^2 = 4$ and reports $4$ as $b$.)',
     },
     {
       q: 'Let $z = 3 + i$ and let $\\overline{z} = 3 - i$. Compute $z^2 + \\overline{z}^2$.',
@@ -300,7 +300,7 @@ const challenge = [
       choices: ['$1$', '$-1$', '$-i$', '$i$'],
       answer: 2,
       solution:
-        'Multiplying powers of the same thing means adding the exponents, so the product is $i^{1+2+\\cdots+10}$. Add by pairing the ends: $1 + 10 = 11$, $2 + 9 = 11$, and so on for five pairs, giving $5 \\times 11 = 55$. Since $55 = 4 \\times 13 + 3$, the product is $i^3 = -i$. Check the last step without dividing: $i^{56} = (i^4)^{14} = 1$, so $i^{55}$ must be the number that gives $1$ when multiplied by $i$ — and $(-i)(i) = 1$ ✓. (The choice $-1$ adds $1$ through $10$ as $10 \\times 5 = 50$ instead of $\\frac{10 \\times 11}{2} = 55$, and $50$ leaves remainder $2$; the choice $i$ reduces only the last DIGIT of $55$, treating $5$ as the exponent instead of $55$; the choice $1$ MULTIPLIES the exponents instead of adding them, and $1 \\times 2 \\times \\cdots \\times 10 = 3{,}628{,}800$ is a multiple of $4$.)',
+        'Multiplying powers of the same thing means adding the exponents, so the product is $i^{1+2+\\cdots+10}$. Add by pairing the ends: $1 + 10 = 11$, $2 + 9 = 11$, and so on for five pairs, giving $5 \\times 11 = 55$. Since $55 = 4 \\times 13 + 3$, the product is $i^3 = -i$. Check the last step without dividing: $i^{56} = (i^4)^{14} = 1$, so $i^{55}$ must be the number that gives $1$ when multiplied by $i$ — and $(-i)(i) = 1$ ✓. (The choice $1$ MULTIPLIES the exponents instead of adding them, and $1 \\times 2 \\times \\cdots \\times 10 = 3{,}628{,}800$ is a multiple of $4$; the choice $-1$ adds $1$ through $10$ as $10 \\times 5 = 50$ instead of $\\frac{10 \\times 11}{2} = 55$, and $50$ leaves remainder $2$; the choice $i$ reduces only the last DIGIT of $55$, treating $5$ as the exponent instead of $55$.)',
     },
     {
       q: 'For every positive integer $n$, the product $i^n \\cdot i^{n+1} \\cdot i^{n+2} \\cdot i^{n+3}$ has the same value. What is that value?',

@@ -51,7 +51,7 @@ const s203 = [
       choices: ['$9$', '$8.2$', '$7$', '$8$'],
       answer: 3,
       solution:
-        '$8.2$ lands just past $8$, and the greatest integer at or below it is $8$, so $\\lfloor 8.2 \\rfloor = 8$ ✓. Check a second, independent way by testing the candidates against the definition: is $9 \\le 8.2$? No ✗. Is $8 \\le 8.2$? Yes ✓ — and nothing between $8$ and $9$ is an integer, so $8$ is the greatest one that fits. (The choice $9$ is TAKING THE CEILING WHEN THE FLOOR WAS ASKED; the choice $7$ is STEPPING ONE INTEGER TOO FAR down ✗; the choice $8.2$ is LEAVING THE DECIMAL ALONE ✗.)',
+        '$8.2$ lands just past $8$, and the greatest integer at or below it is $8$, so $\\lfloor 8.2 \\rfloor = 8$ ✓. Check a second, independent way by testing the candidates against the definition: is $9 \\le 8.2$? No ✗. Is $8 \\le 8.2$? Yes ✓ — and nothing between $8$ and $9$ is an integer, so $8$ is the greatest one that fits. (The choice $9$ is TAKING THE CEILING WHEN THE FLOOR WAS ASKED; the choice $8.2$ is LEAVING THE DECIMAL ALONE ✗; the choice $7$ is STEPPING ONE INTEGER TOO FAR down ✗.)',
     },
   ],
   // p2 — ceiling of a positive decimal: any leftover at all pushes it up.
@@ -85,14 +85,14 @@ const s203 = [
       choices: ['$-5$', '$-6$', '$5$', '$6$'],
       answer: 1,
       solution:
-        'Floor always moves down the number line, and down from a negative number means further LEFT. The integers hugging $-5.4$ are $-6$ on the left and $-5$ on the right, so the greatest integer at or below $-5.4$ is $-6$ ✓. Check a second, independent way with the leftover split: $-5.4 = -6 + 0.6$, an integer plus a leftover between $0$ and $1$, so the integer part sitting underneath is $-6$ ✓. (The choice $-5$ is ROUNDING TOWARD ZERO, chopping the decimal off — but $-5$ is greater than $-5.4$, so it cannot possibly be a floor ✗; the choice $6$ is IGNORING THE MINUS SIGN and rounding $5.4$ up; the choice $5$ is IGNORING THE MINUS SIGN and flooring $5.4$.)',
+        'Floor always moves down the number line, and down from a negative number means further LEFT. The integers hugging $-5.4$ are $-6$ on the left and $-5$ on the right, so the greatest integer at or below $-5.4$ is $-6$ ✓. Check a second, independent way with the leftover split: $-5.4 = -6 + 0.6$, an integer plus a leftover between $0$ and $1$, so the integer part sitting underneath is $-6$ ✓. (The choice $-5$ is ROUNDING TOWARD ZERO, chopping the decimal off — but $-5$ is greater than $-5.4$, so it cannot possibly be a floor ✗; the choice $5$ is IGNORING THE MINUS SIGN and flooring $5.4$; the choice $6$ is IGNORING THE MINUS SIGN and rounding $5.4$ up.)',
     },
     {
       q: 'What is $\\lfloor -8.6 \\rfloor$?',
       choices: ['$-8$', '$8$', '$-9$', '$9$'],
       answer: 2,
       solution:
-        'Walk left from $-8.6$ until you hit an integer: the first one is $-9$, so $\\lfloor -8.6 \\rfloor = -9$ ✓. Check a second, independent way by testing candidates against the definition: is $-8 \\le -8.6$? No — $-8$ is to the RIGHT of $-8.6$ ✗. Is $-9 \\le -8.6$? Yes ✓, and it is the greatest integer that passes. (The choice $-8$ is ROUNDING TOWARD ZERO, keeping the digits and dropping the decimal ✗; the choice $9$ is IGNORING THE MINUS SIGN and rounding $8.6$ up; the choice $8$ is IGNORING THE MINUS SIGN and flooring $8.6$.)',
+        'Walk left from $-8.6$ until you hit an integer: the first one is $-9$, so $\\lfloor -8.6 \\rfloor = -9$ ✓. Check a second, independent way by testing candidates against the definition: is $-8 \\le -8.6$? No — $-8$ is to the RIGHT of $-8.6$ ✗. Is $-9 \\le -8.6$? Yes ✓, and it is the greatest integer that passes. (The choice $-8$ is ROUNDING TOWARD ZERO, keeping the digits and dropping the decimal ✗; the choice $8$ is IGNORING THE MINUS SIGN and flooring $8.6$; the choice $9$ is IGNORING THE MINUS SIGN and rounding $8.6$ up.)',
     },
     {
       q: 'What is $\\lfloor -1.2 \\rfloor$?',
@@ -133,14 +133,14 @@ const s203 = [
       choices: ['$-7$', '$-8$', '$7$', '$8$'],
       answer: 0,
       solution:
-        'Ceiling always moves up the number line, and up from a negative number means RIGHT, toward zero. The integers hugging $-7.6$ are $-8$ and $-7$, so the smallest integer at or above $-7.6$ is $-7$ ✓. Check a second, independent way using the floor: $\\lfloor -7.6 \\rfloor = -8$, and for a non-integer the ceiling is exactly one more, $-8 + 1 = -7$ ✓. (The choice $-8$ is TAKING THE FLOOR WHEN THE CEILING WAS ASKED, and $-8$ is below $-7.6$ so it fails the definition ✗; the choice $8$ is IGNORING THE MINUS SIGN and taking the ceiling of $7.6$; the choice $7$ is IGNORING THE MINUS SIGN and taking the floor of $7.6$.)',
+        'Ceiling always moves up the number line, and up from a negative number means RIGHT, toward zero. The integers hugging $-7.6$ are $-8$ and $-7$, so the smallest integer at or above $-7.6$ is $-7$ ✓. Check a second, independent way using the floor: $\\lfloor -7.6 \\rfloor = -8$, and for a non-integer the ceiling is exactly one more, $-8 + 1 = -7$ ✓. (The choice $-8$ is TAKING THE FLOOR WHEN THE CEILING WAS ASKED, and $-8$ is below $-7.6$ so it fails the definition ✗; the choice $7$ is IGNORING THE MINUS SIGN and taking the floor of $7.6$; the choice $8$ is IGNORING THE MINUS SIGN and taking the ceiling of $7.6$.)',
     },
     {
       q: 'What is $\\lceil -9.8 \\rceil$?',
       choices: ['$-10$', '$-9$', '$9$', '$10$'],
       answer: 1,
       solution:
-        'Walk right from $-9.8$ until you hit an integer: the first one is $-9$, so $\\lceil -9.8 \\rceil = -9$ ✓. Check a second, independent way by testing candidates against the definition: is $-10 \\ge -9.8$? No, $-10$ is further left ✗. Is $-9 \\ge -9.8$? Yes ✓, and no integer between them exists, so $-9$ is the smallest that passes. (The choice $-10$ is TAKING THE FLOOR WHEN THE CEILING WAS ASKED — it also looks like "rounding up the $9.8$", which is exactly the trap ✗; the choice $10$ is IGNORING THE MINUS SIGN and taking the ceiling of $9.8$; the choice $9$ is IGNORING THE MINUS SIGN and taking the floor of $9.8$.)',
+        'Walk right from $-9.8$ until you hit an integer: the first one is $-9$, so $\\lceil -9.8 \\rceil = -9$ ✓. Check a second, independent way by testing candidates against the definition: is $-10 \\ge -9.8$? No, $-10$ is further left ✗. Is $-9 \\ge -9.8$? Yes ✓, and no integer between them exists, so $-9$ is the smallest that passes. (The choice $-10$ is TAKING THE FLOOR WHEN THE CEILING WAS ASKED — it also looks like "rounding up the $9.8$", which is exactly the trap ✗; the choice $9$ is IGNORING THE MINUS SIGN and taking the floor of $9.8$; the choice $10$ is IGNORING THE MINUS SIGN and taking the ceiling of $9.8$.)',
     },
     {
       q: 'What is $\\lceil -1.6 \\rceil$?',
@@ -188,7 +188,7 @@ const s203 = [
       choices: ['$7 \\le x < 8$', '$7 < x \\le 8$', '$6 \\le x < 7$', '$6 < x \\le 7$'],
       answer: 3,
       solution:
-        'Saying the smallest integer at or above $x$ is $7$ means $x$ has climbed past $6$ but has not gone beyond $7$: that is $6 < x \\le 7$ ✓. The right endpoint is included because an integer is its own ceiling, and the left endpoint is excluded because $\\lceil 6 \\rceil = 6$ ✗. Check a second, independent way by testing values: $\\lceil 6.2 \\rceil = 7$ ✓, $\\lceil 6.8 \\rceil = 7$ ✓, $\\lceil 7 \\rceil = 7$ ✓, but $\\lceil 6 \\rceil = 6$ ✗ and $\\lceil 7.2 \\rceil = 8$ ✗. (The choice $6 \\le x < 7$ has both endpoints backwards — it drops $7$ and keeps $6$; the choice $7 \\le x < 8$ is the set where the FLOOR equals $7$; the choice $7 < x \\le 8$ is the set where the ceiling equals $8$, one full step too high.)',
+        'Saying the smallest integer at or above $x$ is $7$ means $x$ has climbed past $6$ but has not gone beyond $7$: that is $6 < x \\le 7$ ✓. The right endpoint is included because an integer is its own ceiling, and the left endpoint is excluded because $\\lceil 6 \\rceil = 6$ ✗. Check a second, independent way by testing values: $\\lceil 6.2 \\rceil = 7$ ✓, $\\lceil 6.8 \\rceil = 7$ ✓, $\\lceil 7 \\rceil = 7$ ✓, but $\\lceil 6 \\rceil = 6$ ✗ and $\\lceil 7.2 \\rceil = 8$ ✗. (The choice $7 \\le x < 8$ is the set where the FLOOR equals $7$; the choice $7 < x \\le 8$ is the set where the ceiling equals $8$, one full step too high; the choice $6 \\le x < 7$ has both endpoints backwards — it drops $7$ and keeps $6$.)',
     },
     {
       q: 'If $\\lfloor x \\rfloor = -4$, which describes ALL possible values of $x$?',

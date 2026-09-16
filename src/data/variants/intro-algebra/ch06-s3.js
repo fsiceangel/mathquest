@@ -286,7 +286,7 @@ const s65 = [
       choices: ['$139$', '$112$', '$48$', '$16$'],
       answer: 1,
       solution:
-        'Multiply by $1.75$: $64 \\times 1.75 = 112$. Check by parts: $75\\%$ of $64$ is $48$, and $64 + 48 = 112$. ✓ (The choice $48$ is the increase alone; the choice $139$ adds the number $75$; the choice $16$ is $64 \\times 0.25$, which is what is LEFT after a $75\\%$ cut — the opposite change.)',
+        'Multiply by $1.75$: $64 \\times 1.75 = 112$. Check by parts: $75\\%$ of $64$ is $48$, and $64 + 48 = 112$. ✓ (The choice $139$ adds the number $75$; the choice $48$ is the increase alone; the choice $16$ is $64 \\times 0.25$, which is what is LEFT after a $75\\%$ cut — the opposite change.)',
     },
   ],
   // p2 — decrease a number by a percent OF ITSELF
@@ -406,7 +406,7 @@ const s65 = [
       choices: ['$336$', '$252$', '$276$', '$180$'],
       answer: 1,
       solution:
-        'Multiply: $240 \\times 0.75 \\times 1.4 = 240 \\times 1.05 = 252$ members. Step by step: $240$ falls to $180$, and $40\\%$ of $180$ is $72$, so $180 + 72 = 252$ — whole people at every stage. ✓ (The choice $276$ adds the percents, $-25\\% + 40\\% = +15\\%$, giving $240 \\times 1.15$; the choice $180$ stops after the fall; the choice $336$ is $240 \\times 1.4$, applying only the rise.)',
+        'Multiply: $240 \\times 0.75 \\times 1.4 = 240 \\times 1.05 = 252$ members. Step by step: $240$ falls to $180$, and $40\\%$ of $180$ is $72$, so $180 + 72 = 252$ — whole people at every stage. ✓ (The choice $336$ is $240 \\times 1.4$, applying only the rise; the choice $276$ adds the percents, $-25\\% + 40\\% = +15\\%$, giving $240 \\times 1.15$; the choice $180$ stops after the fall.)',
     },
   ],
   // p7 — dilution: the pure stuff stays put while the total grows
@@ -430,7 +430,7 @@ const s65 = [
       choices: ['$60\\%$', '$30\\%$', '$45\\%$', '$55\\%$'],
       answer: 2,
       solution:
-        'The antifreeze stays at $60\\%$ of $15 = 9$ L. The total becomes $15 + 5 = 20$ L, so the new mixture is $\\frac{9}{20} = 0.45 = 45\\%$ antifreeze. (The choice $60\\%$ ignores the growth of the total; the choice $55\\%$ is the water’s share of the new mixture, $\\frac{6 + 5}{20}$; the choice $30\\%$ halves the concentration, but the total grew only from $15$ to $20$ liters, not to $30$.)',
+        'The antifreeze stays at $60\\%$ of $15 = 9$ L. The total becomes $15 + 5 = 20$ L, so the new mixture is $\\frac{9}{20} = 0.45 = 45\\%$ antifreeze. (The choice $60\\%$ ignores the growth of the total; the choice $30\\%$ halves the concentration, but the total grew only from $15$ to $20$ liters, not to $30$; the choice $55\\%$ is the water’s share of the new mixture, $\\frac{6 + 5}{20}$.)',
     },
   ],
   // p8 — the added substance joins the WHOLE as well as the part
@@ -454,7 +454,7 @@ const s65 = [
       choices: ['$12$', '$4.8$', '$9$', '$7.2$'],
       answer: 2,
       solution:
-        'There are already $8\\%$ of $60 = 4.8$ grams of iodine. Let $x$ be the grams added; the iodine becomes $4.8 + x$ and the whole solution becomes $60 + x$, since the added iodine joins BOTH. So $\\frac{4.8 + x}{60 + x} = \\frac{1}{5}$, giving $5(4.8 + x) = 60 + x$, then $24 + 5x = 60 + x$, so $4x = 36$ and $x = 9$. Check forward: $13.8$ grams of iodine in $69$ grams of solution is $\\frac{13.8}{69} = 20\\%$. ✓ (The choice $12$ is $20\\%$ of the original $60$ g, ignoring both the iodine already present and the growth of the total; the choice $7.2$ is $12 - 4.8$, the apparent shortfall, and forgets that the added iodine raises the total as well; the choice $4.8$ is the iodine that was there all along.)',
+        'There are already $8\\%$ of $60 = 4.8$ grams of iodine. Let $x$ be the grams added; the iodine becomes $4.8 + x$ and the whole solution becomes $60 + x$, since the added iodine joins BOTH. So $\\frac{4.8 + x}{60 + x} = \\frac{1}{5}$, giving $5(4.8 + x) = 60 + x$, then $24 + 5x = 60 + x$, so $4x = 36$ and $x = 9$. Check forward: $13.8$ grams of iodine in $69$ grams of solution is $\\frac{13.8}{69} = 20\\%$. ✓ (The choice $12$ is $20\\%$ of the original $60$ g, ignoring both the iodine already present and the growth of the total; the choice $4.8$ is the iodine that was there all along; the choice $7.2$ is $12 - 4.8$, the apparent shortfall, and forgets that the added iodine raises the total as well.)',
     },
   ],
   // p9 — two discounts in a row are a product of what REMAINS, not a sum
@@ -478,7 +478,7 @@ const s65 = [
       choices: ['$15\\%$', '$60\\%$', '$80\\%$', '$20\\%$'],
       answer: 3,
       solution:
-        'Overall, $60\\%$ of the original must remain. The first cut leaves $0.75$, so the second must satisfy $0.75 \\times r = 0.6$, giving $r = 0.8$ — that is, $80\\%$ remains and the second discount is $20\\%$ off the reduced price. Check with $\\$100$: the first cut leaves $\\$75$, and $20\\%$ of $\\$75$ is $\\$15$, leaving $\\$60$, exactly $40\\%$ off the original. ✓ (The choice $15\\%$ subtracts $25$ from $40$, adding percents in reverse; the choice $80\\%$ is the fraction that REMAINS after the second cut, not the cut itself; the choice $60\\%$ is the fraction remaining overall.)',
+        'Overall, $60\\%$ of the original must remain. The first cut leaves $0.75$, so the second must satisfy $0.75 \\times r = 0.6$, giving $r = 0.8$ — that is, $80\\%$ remains and the second discount is $20\\%$ off the reduced price. Check with $\\$100$: the first cut leaves $\\$75$, and $20\\%$ of $\\$75$ is $\\$15$, leaving $\\$60$, exactly $40\\%$ off the original. ✓ (The choice $15\\%$ subtracts $25$ from $40$, adding percents in reverse; the choice $60\\%$ is the fraction remaining overall; the choice $80\\%$ is the fraction that REMAINS after the second cut, not the cut itself.)',
     },
   ],
   // p10 — weighted mixtures; the bigger batch pulls the average toward itself
@@ -502,7 +502,7 @@ const s65 = [
       choices: ['$34\\%$', '$30\\%$', '$12\\%$', '$18\\%$'],
       answer: 1,
       solution:
-        'The finished mixture holds $0.22 \\times 100 = 22$ grams of acid. The first solution contributed $0.1 \\times 40 = 4$ grams, so the second contributed $22 - 4 = 18$ grams — and those $18$ grams sit in $60$ grams of solution, which is $\\frac{18}{60} = 0.3 = 30\\%$. Check forward: $4 + 18 = 22$ grams of acid in $100$ grams is $22\\%$. ✓ (The choice $18\\%$ reads off the $18$ GRAMS of acid and calls it a percent, skipping the division by $60$; the choice $34\\%$ comes from averaging evenly, solving $\\frac{10 + x}{2} = 22$, which ignores the unequal masses; the choice $12\\%$ subtracts $10$ from $22$, treating percents as if they simply added.)',
+        'The finished mixture holds $0.22 \\times 100 = 22$ grams of acid. The first solution contributed $0.1 \\times 40 = 4$ grams, so the second contributed $22 - 4 = 18$ grams — and those $18$ grams sit in $60$ grams of solution, which is $\\frac{18}{60} = 0.3 = 30\\%$. Check forward: $4 + 18 = 22$ grams of acid in $100$ grams is $22\\%$. ✓ (The choice $34\\%$ comes from averaging evenly, solving $\\frac{10 + x}{2} = 22$, which ignores the unequal masses; the choice $12\\%$ subtracts $10$ from $22$, treating percents as if they simply added; the choice $18\\%$ reads off the $18$ GRAMS of acid and calls it a percent, skipping the division by $60$.)',
     },
   ],
 ]

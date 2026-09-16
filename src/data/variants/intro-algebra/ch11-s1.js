@@ -95,7 +95,7 @@ const s111 = [
       choices: ['$7x$', '$10x$', '$20x$', '$4x$'],
       answer: 2,
       solution:
-        'The middle term is $2ab$ with $a = 5x$ and $b = 2$: that is $2 \\cdot 5x \\cdot 2 = 20x$. The full expansion is $25x^2 + 20x + 4$, and checking forward at $x = 1$ gives $(5+2)^2 = 49 = 25 + 20 + 4$ ✓. (The choice $10x$ uses $ab = 10x$ and forgets to double; the choice $4x$ FORGETS THE COEFFICIENT, treating $a$ as $x$ instead of $5x$; the choice $7x$ adds $5$ and $2$ instead of multiplying.)',
+        'The middle term is $2ab$ with $a = 5x$ and $b = 2$: that is $2 \\cdot 5x \\cdot 2 = 20x$. The full expansion is $25x^2 + 20x + 4$, and checking forward at $x = 1$ gives $(5+2)^2 = 49 = 25 + 20 + 4$ ✓. (The choice $7x$ adds $5$ and $2$ instead of multiplying; the choice $10x$ uses $ab = 10x$ and forgets to double; the choice $4x$ FORGETS THE COEFFICIENT, treating $a$ as $x$ instead of $5x$.)',
     },
     {
       q: 'What is the middle term when $(4x-3)^2$ is expanded?',
@@ -126,14 +126,14 @@ const s111 = [
       choices: ['$9996$', '$9600$', '$9604$', '$9804$'],
       answer: 2,
       solution:
-        '$(100-2)^2 = 10000 - 2 \\cdot 100 \\cdot 2 + 4 = 10000 - 400 + 4 = 9604$. Check forward: $98 \\cdot 98 = 98 \\cdot 100 - 98 \\cdot 2 = 9800 - 196 = 9604$ ✓. (The choice $9996$ DROPS THE MIDDLE TERM and computes only $10000 - 4$; the choice $9804$ uses $ab = 200$ instead of $2ab = 400$; the choice $9600$ forgets the final $2^2 = 4$.)',
+        '$(100-2)^2 = 10000 - 2 \\cdot 100 \\cdot 2 + 4 = 10000 - 400 + 4 = 9604$. Check forward: $98 \\cdot 98 = 98 \\cdot 100 - 98 \\cdot 2 = 9800 - 196 = 9604$ ✓. (The choice $9996$ DROPS THE MIDDLE TERM and computes only $10000 - 4$; the choice $9600$ forgets the final $2^2 = 4$; the choice $9804$ uses $ab = 200$ instead of $2ab = 400$.)',
     },
     {
       q: 'Compute $199^2$ by writing $199 = 200 - 1$.',
       choices: ['$40001$', '$39600$', '$39801$', '$39601$'],
       answer: 3,
       solution:
-        '$(200-1)^2 = 40000 - 2 \\cdot 200 \\cdot 1 + 1 = 40000 - 400 + 1 = 39601$. Check forward: $199 \\cdot 199 = 199 \\cdot 200 - 199 = 39800 - 199 = 39601$ ✓. (The choice $40001$ DROPS THE MIDDLE TERM; the choice $39801$ uses $ab = 200$ instead of $2ab = 400$; the choice $39600$ forgets the final $+1$, and a square ending in $9 \\cdot 9$ must end in $1$.)',
+        '$(200-1)^2 = 40000 - 2 \\cdot 200 \\cdot 1 + 1 = 40000 - 400 + 1 = 39601$. Check forward: $199 \\cdot 199 = 199 \\cdot 200 - 199 = 39800 - 199 = 39601$ ✓. (The choice $40001$ DROPS THE MIDDLE TERM; the choice $39600$ forgets the final $+1$, and a square ending in $9 \\cdot 9$ must end in $1$; the choice $39801$ uses $ab = 200$ instead of $2ab = 400$.)',
     },
   ],
   // p6 — recognize a perfect-square trinomial
@@ -174,7 +174,7 @@ const s111 = [
       choices: ['$144$', '$576$', '$12$', '$48$'],
       answer: 0,
       solution:
-        'A negative middle term means the square is $(x-b)^2$. We need $2 \\cdot x \\cdot b = 24x$, so $b = 12$ and $c = 12^2 = 144$. Check forward: $x^2 - 24x + 144 = (x-12)^2$, and at $x = 1$ that is $1 - 24 + 144 = 121 = 11^2$ ✓. (The choice $12$ stops at $b$ without squaring; the choice $576$ squares the whole middle coefficient, $24^2$; the choice $48$ doubles the middle coefficient. Note that $c$ is positive even though the middle term is negative, since $c = b^2$.)',
+        'A negative middle term means the square is $(x-b)^2$. We need $2 \\cdot x \\cdot b = 24x$, so $b = 12$ and $c = 12^2 = 144$. Check forward: $x^2 - 24x + 144 = (x-12)^2$, and at $x = 1$ that is $1 - 24 + 144 = 121 = 11^2$ ✓. (The choice $576$ squares the whole middle coefficient, $24^2$; the choice $12$ stops at $b$ without squaring; the choice $48$ doubles the middle coefficient. Note that $c$ is positive even though the middle term is negative, since $c = b^2$.)',
     },
     {
       q: 'What number must be added to $x^2 + 20x$ to make it a perfect square?',
@@ -246,7 +246,7 @@ const s111 = [
       choices: ['$10x$', '$50$', '$20x$', '$0$'],
       answer: 2,
       solution:
-        'Expand both: $(x^2 + 10x + 25) - (x^2 - 10x + 25)$. The $x^2$ and $25$ terms cancel, and $10x - (-10x) = 20x$. Check forward at $x = 1$: $36 - 16 = 20$, and $20 \\cdot 1 = 20$ ✓. (The choice $10x$ subtracts the two middle terms as if the second one were positive, forgetting that subtracting a negative adds; the choice $0$ assumes everything cancels, but only the matching terms do; the choice $50$ keeps the constants and cancels the $x$ terms, which is backwards.)',
+        'Expand both: $(x^2 + 10x + 25) - (x^2 - 10x + 25)$. The $x^2$ and $25$ terms cancel, and $10x - (-10x) = 20x$. Check forward at $x = 1$: $36 - 16 = 20$, and $20 \\cdot 1 = 20$ ✓. (The choice $10x$ subtracts the two middle terms as if the second one were positive, forgetting that subtracting a negative adds; the choice $50$ keeps the constants and cancels the $x$ terms, which is backwards; the choice $0$ assumes everything cancels, but only the matching terms do.)',
     },
     {
       q: 'Simplify $(2x+y)^2 - (2x-y)^2$.',
@@ -362,14 +362,14 @@ const s112 = [
       choices: ['$30$', '$60$', '$900$', '$1800$'],
       answer: 1,
       solution:
-        'Never square first when you can factor first: $45^2 - 15^2 = (45+15)(45-15) = 60 \\times 30 = 1800$, and $1800 \\div 30 = 60$. Even quicker, the $45 - 15 = 30$ cancels the denominator outright, leaving $45 + 15 = 60$. Check forward the long way: $2025 - 225 = 1800$, and $1800 \\div 30 = 60$ ✓. (The choice $1800$ factors correctly but forgets to DIVIDE; the choice $900$ is $(45-15)^2$ — a difference of squares is not the square of the difference; the choice $30$ is that same $900$ divided by $30$, and it is also the factor that was supposed to cancel.)',
+        'Never square first when you can factor first: $45^2 - 15^2 = (45+15)(45-15) = 60 \\times 30 = 1800$, and $1800 \\div 30 = 60$. Even quicker, the $45 - 15 = 30$ cancels the denominator outright, leaving $45 + 15 = 60$. Check forward the long way: $2025 - 225 = 1800$, and $1800 \\div 30 = 60$ ✓. (The choice $30$ is that same $900$ divided by $30$, and it is also the factor that was supposed to cancel; the choice $900$ is $(45-15)^2$ — a difference of squares is not the square of the difference; the choice $1800$ factors correctly but forgets to DIVIDE.)',
     },
     {
       q: 'Compute $\\frac{58^2 - 42^2}{8}$.',
       choices: ['$100$', '$200$', '$1600$', '$32$'],
       answer: 1,
       solution:
-        'Factor the top: $58^2 - 42^2 = (58+42)(58-42) = 100 \\times 16 = 1600$. Then $1600 \\div 8 = 200$. Check forward the long way: $3364 - 1764 = 1600$ ✓, and $1600 \\div 8 = 200$ ✓. (The choice $1600$ stops before dividing; the choice $100$ reports only the factor $58 + 42$ and drops the rest; the choice $32$ uses $(58-42)^2 = 256$ for the numerator, then divides by $8$ — but the difference of squares is not the square of the difference.)',
+        'Factor the top: $58^2 - 42^2 = (58+42)(58-42) = 100 \\times 16 = 1600$. Then $1600 \\div 8 = 200$. Check forward the long way: $3364 - 1764 = 1600$ ✓, and $1600 \\div 8 = 200$ ✓. (The choice $100$ reports only the factor $58 + 42$ and drops the rest; the choice $1600$ stops before dividing; the choice $32$ uses $(58-42)^2 = 256$ for the numerator, then divides by $8$ — but the difference of squares is not the square of the difference.)',
     },
     {
       q: 'The number $n$ satisfies $\\frac{88^2 - 12^2}{n} = 100$. What is $n$?',
@@ -496,7 +496,7 @@ const s112 = [
       choices: ['$14$', '$49$', '$98$', '$50$'],
       answer: 3,
       solution:
-        'Treat it as a difference of squares with $a = n$ and $b = n - 2$: $n^2 - (n-2)^2 = \\big(n + (n-2)\\big)\\big(n - (n-2)\\big) = (2n-2)(2) = 4n - 4$. Setting $4n - 4 = 196$ gives $4n = 200$ and $n = 50$. Check forward: $50^2 - 48^2 = 2500 - 2304 = 196$ ✓. (The choice $49$ solves $4n = 196$ and forgets the $-4$; the choice $98$ is $196 \\div 2$, using only one of the two factors; the choice $14$ is $\\sqrt{196}$, as if the whole expression were a single square.)',
+        'Treat it as a difference of squares with $a = n$ and $b = n - 2$: $n^2 - (n-2)^2 = \\big(n + (n-2)\\big)\\big(n - (n-2)\\big) = (2n-2)(2) = 4n - 4$. Setting $4n - 4 = 196$ gives $4n = 200$ and $n = 50$. Check forward: $50^2 - 48^2 = 2500 - 2304 = 196$ ✓. (The choice $14$ is $\\sqrt{196}$, as if the whole expression were a single square; the choice $49$ solves $4n = 196$ and forgets the $-4$; the choice $98$ is $196 \\div 2$, using only one of the two factors.)',
     },
   ],
 ]

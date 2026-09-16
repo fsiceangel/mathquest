@@ -84,14 +84,14 @@ const s191 = [
       choices: ['$16$', '$24$', '$48$', '$1296$'],
       answer: 2,
       solution:
-        'Power first, then multiply: $2^4 = 16$, so $f(4) = 3 \\cdot 16 = 48$. Check a second, independent way by stepping: the starting value is $f(0) = 3$, and each step up in $x$ doubles it, so $3 \\to 6 \\to 12 \\to 24 \\to 48$ — four doublings, ending at $48$ ✓. (The choice $24$ treats the exponent as a factor, $3 \\cdot 2 \\cdot 4$; the choice $1296$ RAISES THE COEFFICIENT TOO, computing $(3 \\cdot 2)^4 = 6^4$; the choice $16$ DROPS THE COEFFICIENT and reports $2^4$ alone.)',
+        'Power first, then multiply: $2^4 = 16$, so $f(4) = 3 \\cdot 16 = 48$. Check a second, independent way by stepping: the starting value is $f(0) = 3$, and each step up in $x$ doubles it, so $3 \\to 6 \\to 12 \\to 24 \\to 48$ — four doublings, ending at $48$ ✓. (The choice $16$ DROPS THE COEFFICIENT and reports $2^4$ alone; the choice $24$ treats the exponent as a factor, $3 \\cdot 2 \\cdot 4$; the choice $1296$ RAISES THE COEFFICIENT TOO, computing $(3 \\cdot 2)^4 = 6^4$.)',
     },
     {
       q: 'If $g(x) = 7 \\cdot 3^x$, what is $g(2)$?',
       choices: ['$63$', '$42$', '$9$', '$441$'],
       answer: 0,
       solution:
-        'Power first: $3^2 = 9$, so $g(2) = 7 \\cdot 9 = 63$. The exponent belongs to the $3$ only — the $7$ just sits out front. Check a second, independent way by stepping from the starting value $g(0) = 7$ and tripling twice: $7 \\to 21 \\to 63$ ✓. (The choice $42$ treats the exponent as a factor, $7 \\cdot 3 \\cdot 2$; the choice $441$ RAISES THE COEFFICIENT TOO, computing $(7 \\cdot 3)^2 = 21^2$; the choice $9$ DROPS THE COEFFICIENT and reports $3^2$ alone.)',
+        'Power first: $3^2 = 9$, so $g(2) = 7 \\cdot 9 = 63$. The exponent belongs to the $3$ only — the $7$ just sits out front. Check a second, independent way by stepping from the starting value $g(0) = 7$ and tripling twice: $7 \\to 21 \\to 63$ ✓. (The choice $42$ treats the exponent as a factor, $7 \\cdot 3 \\cdot 2$; the choice $9$ DROPS THE COEFFICIENT and reports $3^2$ alone; the choice $441$ RAISES THE COEFFICIENT TOO, computing $(7 \\cdot 3)^2 = 21^2$.)',
     },
     {
       q: 'If $h(x) = 5 \\cdot 4^x$, what is $h(2)$?',

@@ -75,7 +75,7 @@ const s93 = [
       choices: ['$8\\sqrt{3}$', '$32\\sqrt{3}$', '$64\\sqrt{3}$', '$16\\sqrt{3}$'],
       answer: 3,
       solution:
-        'Apply $\\frac{\\sqrt{3}}{4}s^2 = \\frac{\\sqrt{3}}{4} \\cdot 64 = 16\\sqrt{3}$ square centimeters ✓. Check a second, independent way from the altitude: it measures $\\frac{8\\sqrt{3}}{2} = 4\\sqrt{3}$, so $\\frac{1}{2} \\cdot 8 \\cdot 4\\sqrt{3} = 16\\sqrt{3}$ ✓. (The choice $32\\sqrt{3}$ is USING $\\frac{\\sqrt{3}}{2}$ INSTEAD OF $\\frac{\\sqrt{3}}{4}$ ✗; $64\\sqrt{3}$ is DROPPING THE $4$ and computing $\\sqrt{3}\\,s^2$ ✗; $8\\sqrt{3}$ is HALVING TWICE — sneaking an extra $\\frac{1}{2}$ into $\\frac{1}{2} \\cdot \\text{base} \\cdot \\text{height}$, which already contains it ✗.)',
+        'Apply $\\frac{\\sqrt{3}}{4}s^2 = \\frac{\\sqrt{3}}{4} \\cdot 64 = 16\\sqrt{3}$ square centimeters ✓. Check a second, independent way from the altitude: it measures $\\frac{8\\sqrt{3}}{2} = 4\\sqrt{3}$, so $\\frac{1}{2} \\cdot 8 \\cdot 4\\sqrt{3} = 16\\sqrt{3}$ ✓. (The choice $8\\sqrt{3}$ is HALVING TWICE — sneaking an extra $\\frac{1}{2}$ into $\\frac{1}{2} \\cdot \\text{base} \\cdot \\text{height}$, which already contains it ✗; $32\\sqrt{3}$ is USING $\\frac{\\sqrt{3}}{2}$ INSTEAD OF $\\frac{\\sqrt{3}}{4}$ ✗; $64\\sqrt{3}$ is DROPPING THE $4$ and computing $\\sqrt{3}\\,s^2$ ✗.)',
     },
     {
       q: 'A promotional sticker is the small equilateral triangle shown, $4$ centimeters to a side. What is the sticker’s area?',
@@ -127,7 +127,7 @@ const s93 = [
       choices: ['$64\\sqrt{3}$', '$768\\sqrt{3}$', '$384\\sqrt{3}$', '$192\\sqrt{3}$'],
       answer: 2,
       solution:
-        'Six equilateral triangles of side $16$ tile the hexagon, each with area $\\frac{\\sqrt{3}}{4} \\cdot 256 = 64\\sqrt{3}$, giving $6 \\cdot 64\\sqrt{3} = 384\\sqrt{3}$ ✓. Check a second, independent way with $\\frac{1}{2}aP$: the apothem is $\\frac{16\\sqrt{3}}{2} = 8\\sqrt{3}$ and the perimeter is $96$, so $\\frac{1}{2} \\cdot 8\\sqrt{3} \\cdot 96 = 384\\sqrt{3}$ ✓. (The choice $768\\sqrt{3}$ is DROPPING THE $2$ from $\\frac{3\\sqrt{3}}{2}s^2$ ✗; $64\\sqrt{3}$ is STOPPING AT ONE TRIANGLE ✗; $192\\sqrt{3}$ is USING THREE TRIANGLES ✗.)',
+        'Six equilateral triangles of side $16$ tile the hexagon, each with area $\\frac{\\sqrt{3}}{4} \\cdot 256 = 64\\sqrt{3}$, giving $6 \\cdot 64\\sqrt{3} = 384\\sqrt{3}$ ✓. Check a second, independent way with $\\frac{1}{2}aP$: the apothem is $\\frac{16\\sqrt{3}}{2} = 8\\sqrt{3}$ and the perimeter is $96$, so $\\frac{1}{2} \\cdot 8\\sqrt{3} \\cdot 96 = 384\\sqrt{3}$ ✓. (The choice $64\\sqrt{3}$ is STOPPING AT ONE TRIANGLE ✗; $768\\sqrt{3}$ is DROPPING THE $2$ from $\\frac{3\\sqrt{3}}{2}s^2$ ✗; $192\\sqrt{3}$ is USING THREE TRIANGLES ✗.)',
     },
     {
       q: 'A regular hexagonal patio is being poured with concrete; the plan shown gives each edge as $20$ feet. What area must the concrete cover?',
@@ -182,7 +182,7 @@ const s93 = [
       choices: ['$54$', '$72$', '$90$', '$108$'],
       answer: 1,
       solution:
-        'Cut along the dashed line: the rectangle gives $9 \\times 6 = 54$ and the roof triangle, base $9$ and height $4$, gives $\\frac{1}{2} \\cdot 9 \\cdot 4 = 18$, so the panel has area $54 + 18 = 72$ ✓. Check a second, independent way with a bounding box: the $9 \\times 10$ box to the peak holds $90$, and the two empty triangles beside the roof, legs $4.5$ and $4$, remove $2 \\cdot \\frac{1}{2} \\cdot 4.5 \\cdot 4 = 18$, leaving $90 - 18 = 72$ ✓. (The choice $90$ is TREATING THE ROOF AS A FULL RECTANGLE ✗; $54$ is DROPPING THE ROOF ✗; $108$ is USING THE PEAK HEIGHT $10$ FOR THE WALLS and still adding the roof ✗.)',
+        'Cut along the dashed line: the rectangle gives $9 \\times 6 = 54$ and the roof triangle, base $9$ and height $4$, gives $\\frac{1}{2} \\cdot 9 \\cdot 4 = 18$, so the panel has area $54 + 18 = 72$ ✓. Check a second, independent way with a bounding box: the $9 \\times 10$ box to the peak holds $90$, and the two empty triangles beside the roof, legs $4.5$ and $4$, remove $2 \\cdot \\frac{1}{2} \\cdot 4.5 \\cdot 4 = 18$, leaving $90 - 18 = 72$ ✓. (The choice $54$ is DROPPING THE ROOF ✗; $90$ is TREATING THE ROOF AS A FULL RECTANGLE ✗; $108$ is USING THE PEAK HEIGHT $10$ FOR THE WALLS and still adding the roof ✗.)',
     },
     {
       q: 'A storage shed’s gable wall is the pentagon shown: a rectangle $14$ feet wide and $5$ feet tall, capped by a triangle whose peak sits $6$ feet above the rectangle. What is the wall’s area?',
@@ -239,7 +239,7 @@ const s93 = [
       choices: ['$155.2$', '$38.8$', '$310.4$', '$620.8$'],
       answer: 2,
       solution:
-        'The shortcut $\\frac{1}{2}aP$ with perimeter $8 \\times 8 = 64$ gives about $\\frac{1}{2} \\cdot 9.7 \\cdot 64 = 310.4$ square feet ✓. Check a second, independent way from the $8$ center triangles, each with base $8$ and height $9.7$: $8 \\cdot \\frac{1}{2} \\cdot 8 \\cdot 9.7 = 310.4$ ✓. (The choice $620.8$ is FORGETTING THE $\\frac{1}{2}$ ✗; $155.2$ is USING A SQUARE’S FOUR SIDES in the perimeter ✗; $38.8$ is STOPPING AT ONE TRIANGLE ✗.)',
+        'The shortcut $\\frac{1}{2}aP$ with perimeter $8 \\times 8 = 64$ gives about $\\frac{1}{2} \\cdot 9.7 \\cdot 64 = 310.4$ square feet ✓. Check a second, independent way from the $8$ center triangles, each with base $8$ and height $9.7$: $8 \\cdot \\frac{1}{2} \\cdot 8 \\cdot 9.7 = 310.4$ ✓. (The choice $155.2$ is USING A SQUARE’S FOUR SIDES in the perimeter ✗; $38.8$ is STOPPING AT ONE TRIANGLE ✗; $620.8$ is FORGETTING THE $\\frac{1}{2}$ ✗.)',
     },
     {
       q: 'A park pavilion has a regular octagonal roof deck, shown from above, with side length $10$ meters and apothem approximately $12$ meters. Estimate the deck’s area.',
@@ -284,7 +284,7 @@ const s93 = [
       choices: ['$65$', '$81$', '$73$', '$79$'],
       answer: 2,
       solution:
-        'Subtract the snipped corners: the square holds $9^2 = 81$, and each corner triangle has area $\\frac{1}{2} \\cdot 2 \\cdot 2 = 2$, so the four cuts remove $4 \\cdot 2 = 8$, leaving $81 - 8 = 73$ ✓. Check a second, independent way by slicing the octagon into horizontal bands: the middle band is a $9 \\times 5$ rectangle ($45$), and the top and bottom bands are trapezoids with parallel sides $9$ and $5$ and height $2$, each $\\frac{1}{2}(9 + 5) \\cdot 2 = 14$, so $45 + 14 + 14 = 73$ ✓. (The choice $65$ is REMOVING FULL $2 \\times 2$ CORNER SQUARES instead of half-squares ✗; $79$ is CUTTING ONLY ONE CORNER ✗; $81$ is FORGETTING TO CUT THE CORNERS AT ALL ✗.)',
+        'Subtract the snipped corners: the square holds $9^2 = 81$, and each corner triangle has area $\\frac{1}{2} \\cdot 2 \\cdot 2 = 2$, so the four cuts remove $4 \\cdot 2 = 8$, leaving $81 - 8 = 73$ ✓. Check a second, independent way by slicing the octagon into horizontal bands: the middle band is a $9 \\times 5$ rectangle ($45$), and the top and bottom bands are trapezoids with parallel sides $9$ and $5$ and height $2$, each $\\frac{1}{2}(9 + 5) \\cdot 2 = 14$, so $45 + 14 + 14 = 73$ ✓. (The choice $65$ is REMOVING FULL $2 \\times 2$ CORNER SQUARES instead of half-squares ✗; $81$ is FORGETTING TO CUT THE CORNERS AT ALL ✗; $79$ is CUTTING ONLY ONE CORNER ✗.)',
     },
     {
       q: 'A woodworker turns a square tabletop, $14$ inches on a side, into the octagon shown by sawing off each corner along a right triangle with legs of length $4$. What is the area of the octagonal top?',
@@ -308,7 +308,7 @@ const s93 = [
       choices: ['$132$', '$180$', '$188$', '$164$'],
       answer: 3,
       solution:
-        'Start from the whole square, $14^2 = 196$, and subtract the four sawed corners: each is a right triangle of area $\\frac{1}{2} \\cdot 4 \\cdot 4 = 8$, so $196 - 4 \\cdot 8 = 196 - 32 = 164$ ✓. Check a second, independent way with horizontal bands: the middle band is a $14 \\times 6$ rectangle ($84$), and the top and bottom trapezoids have parallel sides $14$ and $6$ with height $4$, each $\\frac{1}{2}(14 + 6) \\cdot 4 = 40$, so $84 + 40 + 40 = 164$ ✓. (The choice $132$ is REMOVING FULL $4 \\times 4$ CORNER SQUARES ✗; $188$ is CUTTING ONLY ONE CORNER ✗; $180$ is CUTTING ONLY TWO CORNERS ✗.)',
+        'Start from the whole square, $14^2 = 196$, and subtract the four sawed corners: each is a right triangle of area $\\frac{1}{2} \\cdot 4 \\cdot 4 = 8$, so $196 - 4 \\cdot 8 = 196 - 32 = 164$ ✓. Check a second, independent way with horizontal bands: the middle band is a $14 \\times 6$ rectangle ($84$), and the top and bottom trapezoids have parallel sides $14$ and $6$ with height $4$, each $\\frac{1}{2}(14 + 6) \\cdot 4 = 40$, so $84 + 40 + 40 = 164$ ✓. (The choice $132$ is REMOVING FULL $4 \\times 4$ CORNER SQUARES ✗; $180$ is CUTTING ONLY TWO CORNERS ✗; $188$ is CUTTING ONLY ONE CORNER ✗.)',
     },
     {
       q: 'Each corner of a square ceramic tile with side $11$ is trimmed along a right triangle with legs of length $3$, producing the octagon shown. Find the octagon’s area.',
@@ -425,7 +425,7 @@ const s93 = [
       choices: ['$4056\\sqrt{3}$', '$1014\\sqrt{3}$', '$507\\sqrt{3}$', '$1352\\sqrt{3}$'],
       answer: 1,
       solution:
-        'The long diagonal is two center-to-vertex segments, each equal to the side, so $s = \\frac{52}{2} = 26$ and the area is $\\frac{3\\sqrt{3}}{2} \\cdot 676 = 1014\\sqrt{3}$ ✓. Check a second, independent way: the diagonal cuts the cover into two trapezoids with parallel sides $26$ and $52$ and height $13\\sqrt{3}$ (the apothem), each $\\frac{1}{2}(26 + 52) \\cdot 13\\sqrt{3} = 507\\sqrt{3}$, so together $1014\\sqrt{3}$ ✓. (The choice $4056\\sqrt{3}$ is USING THE DIAGONAL AS THE SIDE ✗; $1352\\sqrt{3}$ is TREATING $52$ AS THE SHORT DIAGONAL, $s\\sqrt{3}$ ✗; $507\\sqrt{3}$ is STOPPING AT ONE TRAPEZOID ✗.)',
+        'The long diagonal is two center-to-vertex segments, each equal to the side, so $s = \\frac{52}{2} = 26$ and the area is $\\frac{3\\sqrt{3}}{2} \\cdot 676 = 1014\\sqrt{3}$ ✓. Check a second, independent way: the diagonal cuts the cover into two trapezoids with parallel sides $26$ and $52$ and height $13\\sqrt{3}$ (the apothem), each $\\frac{1}{2}(26 + 52) \\cdot 13\\sqrt{3} = 507\\sqrt{3}$, so together $1014\\sqrt{3}$ ✓. (The choice $4056\\sqrt{3}$ is USING THE DIAGONAL AS THE SIDE ✗; $507\\sqrt{3}$ is STOPPING AT ONE TRAPEZOID ✗; $1352\\sqrt{3}$ is TREATING $52$ AS THE SHORT DIAGONAL, $s\\sqrt{3}$ ✗.)',
     },
     {
       q: 'A regular hexagonal deck is planned so that the dashed distance between opposite corners, shown in the figure, is $44$ feet. How many square feet of decking does the plan call for?',
@@ -479,7 +479,7 @@ const s93 = [
       choices: ['$45$', '$66$', '$40$', '$33$'],
       answer: 3,
       solution:
-        'Split along the dashed diagonal $\\overline{EG}$. Triangle $EFG$ has base $EF = 9$ on the $x$-axis and height $5$ (the $y$-coordinate of $G$): area $\\frac{1}{2} \\cdot 9 \\cdot 5 = 22.5$. Triangle $EGH$ has base $EH = 3$ on the $y$-axis and height $7$ (the $x$-coordinate of $G$): area $\\frac{1}{2} \\cdot 3 \\cdot 7 = 10.5$. Total: $22.5 + 10.5 = 33$ ✓. Check a second, independent way by boxing: the $9 \\times 5$ bounding rectangle holds $45$; removing the triangle past $\\overline{FG}$ (legs $2$ and $5$, area $5$) and the triangle above $\\overline{GH}$ (legs $7$ and $2$, area $7$) leaves $45 - 5 - 7 = 33$ ✓. (The choice $66$ is FORGETTING THE $\\frac{1}{2}$ IN THE SHOELACE FORMULA ✗; $45$ is TAKING THE WHOLE BOUNDING RECTANGLE ✗; $40$ is SUBTRACTING ONLY ONE CORNER TRIANGLE ✗.)',
+        'Split along the dashed diagonal $\\overline{EG}$. Triangle $EFG$ has base $EF = 9$ on the $x$-axis and height $5$ (the $y$-coordinate of $G$): area $\\frac{1}{2} \\cdot 9 \\cdot 5 = 22.5$. Triangle $EGH$ has base $EH = 3$ on the $y$-axis and height $7$ (the $x$-coordinate of $G$): area $\\frac{1}{2} \\cdot 3 \\cdot 7 = 10.5$. Total: $22.5 + 10.5 = 33$ ✓. Check a second, independent way by boxing: the $9 \\times 5$ bounding rectangle holds $45$; removing the triangle past $\\overline{FG}$ (legs $2$ and $5$, area $5$) and the triangle above $\\overline{GH}$ (legs $7$ and $2$, area $7$) leaves $45 - 5 - 7 = 33$ ✓. (The choice $45$ is TAKING THE WHOLE BOUNDING RECTANGLE ✗; $66$ is FORGETTING THE $\\frac{1}{2}$ IN THE SHOELACE FORMULA ✗; $40$ is SUBTRACTING ONLY ONE CORNER TRIANGLE ✗.)',
     },
     {
       q: 'A kite-shaped park occupies the quadrilateral with corners $(0, 0)$, $(6, 0)$, $(8, 6)$, and $(0, 8)$ on the city grid, as shown. Find the park’s area.',
@@ -497,7 +497,7 @@ const s93 = [
       choices: ['$64$', '$50$', '$100$', '$58$'],
       answer: 1,
       solution:
-        'Cut along the dashed diagonal $\\overline{JL}$. Triangle $JKL$ has base $JK = 6$ on the $x$-axis and height $6$ (the $y$-coordinate of $L$): area $\\frac{1}{2} \\cdot 6 \\cdot 6 = 18$. Triangle $JLM$ has base $JM = 8$ on the $y$-axis and height $8$ (the $x$-coordinate of $L$): area $\\frac{1}{2} \\cdot 8 \\cdot 8 = 32$. Total: $18 + 32 = 50$ ✓. Check a second, independent way by boxing: the $8 \\times 8$ bounding square holds $64$; removing the triangle right of $\\overline{KL}$ (legs $2$ and $6$, area $6$) and the triangle above $\\overline{LM}$ (legs $8$ and $2$, area $8$) leaves $64 - 6 - 8 = 50$ ✓. (The choice $100$ is FORGETTING THE $\\frac{1}{2}$ IN THE SHOELACE FORMULA ✗; $64$ is TAKING THE WHOLE BOUNDING SQUARE ✗; $58$ is SUBTRACTING ONLY ONE CORNER TRIANGLE ✗.)',
+        'Cut along the dashed diagonal $\\overline{JL}$. Triangle $JKL$ has base $JK = 6$ on the $x$-axis and height $6$ (the $y$-coordinate of $L$): area $\\frac{1}{2} \\cdot 6 \\cdot 6 = 18$. Triangle $JLM$ has base $JM = 8$ on the $y$-axis and height $8$ (the $x$-coordinate of $L$): area $\\frac{1}{2} \\cdot 8 \\cdot 8 = 32$. Total: $18 + 32 = 50$ ✓. Check a second, independent way by boxing: the $8 \\times 8$ bounding square holds $64$; removing the triangle right of $\\overline{KL}$ (legs $2$ and $6$, area $6$) and the triangle above $\\overline{LM}$ (legs $8$ and $2$, area $8$) leaves $64 - 6 - 8 = 50$ ✓. (The choice $64$ is TAKING THE WHOLE BOUNDING SQUARE ✗; $100$ is FORGETTING THE $\\frac{1}{2}$ IN THE SHOELACE FORMULA ✗; $58$ is SUBTRACTING ONLY ONE CORNER TRIANGLE ✗.)',
     },
   ],
   // s10 — hexagon area from its apothem.
@@ -521,7 +521,7 @@ const s93 = [
       choices: ['$144\\sqrt{3}$', '$432\\sqrt{3}$', '$1728\\sqrt{3}$', '$864\\sqrt{3}$'],
       answer: 3,
       solution:
-        'Since the apothem of a regular hexagon is the height of one of its equilateral triangles, $\\frac{s\\sqrt{3}}{2} = 12\\sqrt{3}$ gives $s = 24$, so the area is $\\frac{3\\sqrt{3}}{2} \\cdot 576 = 864\\sqrt{3}$ ✓. Check a second, independent way with $\\frac{1}{2}aP$: the perimeter is $6 \\cdot 24 = 144$, and $\\frac{1}{2} \\cdot 12\\sqrt{3} \\cdot 144 = 864\\sqrt{3}$ ✓. (The choice $1728\\sqrt{3}$ is FORGETTING THE $\\frac{1}{2}$ ✗; $144\\sqrt{3}$ is STOPPING AT ONE TRIANGLE, $\\frac{1}{2} \\cdot 12\\sqrt{3} \\cdot 24$ ✗; $432\\sqrt{3}$ is USING HALF THE PERIMETER ✗.)',
+        'Since the apothem of a regular hexagon is the height of one of its equilateral triangles, $\\frac{s\\sqrt{3}}{2} = 12\\sqrt{3}$ gives $s = 24$, so the area is $\\frac{3\\sqrt{3}}{2} \\cdot 576 = 864\\sqrt{3}$ ✓. Check a second, independent way with $\\frac{1}{2}aP$: the perimeter is $6 \\cdot 24 = 144$, and $\\frac{1}{2} \\cdot 12\\sqrt{3} \\cdot 144 = 864\\sqrt{3}$ ✓. (The choice $144\\sqrt{3}$ is STOPPING AT ONE TRIANGLE, $\\frac{1}{2} \\cdot 12\\sqrt{3} \\cdot 24$ ✗; $432\\sqrt{3}$ is USING HALF THE PERIMETER ✗; $1728\\sqrt{3}$ is FORGETTING THE $\\frac{1}{2}$ ✗.)',
     },
   ],
 ]

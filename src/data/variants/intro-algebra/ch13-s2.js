@@ -25,7 +25,7 @@ const s133 = [
       choices: ['$4$', '$7$', '$9$', '$-9$'],
       answer: 3,
       solution:
-        'Line the equation up with the pattern $ax^2 + bx + c = 0$. The constant term — the one with no $x$ attached — is $-9$, so $c = -9$ ✓. Check by rebuilding the equation from the three coefficients you claim it has: $a = 7$, $b = 4$, $c = -9$ gives $7x^2 + 4x - 9 = 0$ ✓, exactly what we started with. The sign always travels with the number; $c$ is $-9$, not $9$ with a minus floating nearby. (The choice $9$ drops that minus sign — put $c = 9$ into the discriminant and you get $16 - 252 = -236$, which claims there are no real solutions, when really $16 + 252 = 268$ gives two ✗. The choice $4$ reports $b$, the coefficient of $x$. The choice $7$ reports $a$, the coefficient of $x^2$.)',
+        'Line the equation up with the pattern $ax^2 + bx + c = 0$. The constant term — the one with no $x$ attached — is $-9$, so $c = -9$ ✓. Check by rebuilding the equation from the three coefficients you claim it has: $a = 7$, $b = 4$, $c = -9$ gives $7x^2 + 4x - 9 = 0$ ✓, exactly what we started with. The sign always travels with the number; $c$ is $-9$, not $9$ with a minus floating nearby. (The choice $4$ reports $b$, the coefficient of $x$. The choice $7$ reports $a$, the coefficient of $x^2$. The choice $9$ drops that minus sign — put $c = 9$ into the discriminant and you get $16 - 252 = -236$, which claims there are no real solutions, when really $16 + 252 = 268$ gives two ✗.)',
     },
     {
       q: 'Written in the form $ax^2 + bx + c = 0$, what is $a$ for the equation $8 - 3x - x^2 = 0$?',
@@ -56,7 +56,7 @@ const s133 = [
       choices: ['$80$', '$-20$', '$-52$', '$20$'],
       answer: 3,
       solution:
-        'Write the discriminant with $c$ still unknown: $(-12)^2 - 4(1)(c) = 144 - 4c$. Set that equal to $64$: $144 - 4c = 64$, so $4c = 80$ and $c = 20$ ✓. Check forward with the actual number: the equation is $x^2 - 12x + 20 = 0$, whose discriminant is $144 - 80 = 64$ ✓. A second, independent confirmation: $\\sqrt{64} = 8$, so the roots are $\\frac{12 \\pm 8}{2} = 10$ and $2$, and $10 \\times 2 = 20 = c$ ✓ — the product of the roots matches. (The choice $-20$ adds $4ac$ instead of subtracting, solving $144 + 4c = 64$. The choice $80$ drops the $4$ and solves $144 - c = 64$. The choice $-52$ mis-squares $-12$ as $-144$, then solves $-144 - 4c = 64$.)',
+        'Write the discriminant with $c$ still unknown: $(-12)^2 - 4(1)(c) = 144 - 4c$. Set that equal to $64$: $144 - 4c = 64$, so $4c = 80$ and $c = 20$ ✓. Check forward with the actual number: the equation is $x^2 - 12x + 20 = 0$, whose discriminant is $144 - 80 = 64$ ✓. A second, independent confirmation: $\\sqrt{64} = 8$, so the roots are $\\frac{12 \\pm 8}{2} = 10$ and $2$, and $10 \\times 2 = 20 = c$ ✓ — the product of the roots matches. (The choice $80$ drops the $4$ and solves $144 - c = 64$. The choice $-20$ adds $4ac$ instead of subtracting, solving $144 + 4c = 64$. The choice $-52$ mis-squares $-12$ as $-144$, then solves $-144 - 4c = 64$.)',
     },
     {
       q: 'What is the discriminant of $5x^2 - 6x - 2 = 0$?',
@@ -307,7 +307,7 @@ const s134 = [
       choices: ['$110$', '$20$', '$22$', '$21$'],
       answer: 3,
       solution:
-        'Let the smaller be $n$: then $n(n+1) = 110$, so $n^2 + n - 110 = 0$, which factors as $(n+11)(n-10) = 0$. The root $n = -11$ is rejected because the integers must be positive, leaving $n = 10$. The integers are $10$ and $11$, and their sum is $21$ ✓. Check both conditions: $10 \\times 11 = 110$ ✓ and they are consecutive ✓. (The choice $20$ doubles the smaller integer, computing $n + n$ instead of $n + (n+1)$. The choice $22$ doubles the larger one the same way. The choice $110$ repeats the product instead of answering the question asked.)',
+        'Let the smaller be $n$: then $n(n+1) = 110$, so $n^2 + n - 110 = 0$, which factors as $(n+11)(n-10) = 0$. The root $n = -11$ is rejected because the integers must be positive, leaving $n = 10$. The integers are $10$ and $11$, and their sum is $21$ ✓. Check both conditions: $10 \\times 11 = 110$ ✓ and they are consecutive ✓. (The choice $110$ repeats the product instead of answering the question asked. The choice $20$ doubles the smaller integer, computing $n + n$ instead of $n + (n+1)$. The choice $22$ doubles the larger one the same way.)',
     },
   ],
   // p2 — rectangle dimensions from an area
@@ -396,7 +396,7 @@ const s134 = [
       choices: ['$-2$', '$4$', '$-8$', '$-4$'],
       answer: 2,
       solution:
-        'The product of the roots is $\\frac{c}{a} = \\frac{c}{2}$, and we are told it is $-4$. So $\\frac{c}{2} = -4$ and $c = -8$ ✓. Check a second, independent way: with $c = -8$ the equation is $2x^2 + 5x - 8 = 0$, whose discriminant is $25 + 64 = 89$; the roots are $\\frac{-5 \\pm \\sqrt{89}}{4}$ and their product is $\\frac{25 - 89}{16} = \\frac{-64}{16} = -4$ ✓. (The choice $-2$ divides where it should multiply, computing $\\frac{-4}{2}$. The choice $-4$ reads $c$ straight off the product and forgets that $a = 2$ divides it. The choice $4$ loses the minus sign entirely, and $\\frac{4}{2} = 2$, not $-4$ ✗.)',
+        'The product of the roots is $\\frac{c}{a} = \\frac{c}{2}$, and we are told it is $-4$. So $\\frac{c}{2} = -4$ and $c = -8$ ✓. Check a second, independent way: with $c = -8$ the equation is $2x^2 + 5x - 8 = 0$, whose discriminant is $25 + 64 = 89$; the roots are $\\frac{-5 \\pm \\sqrt{89}}{4}$ and their product is $\\frac{25 - 89}{16} = \\frac{-64}{16} = -4$ ✓. (The choice $-2$ divides where it should multiply, computing $\\frac{-4}{2}$. The choice $4$ loses the minus sign entirely, and $\\frac{4}{2} = 2$, not $-4$ ✗. The choice $-4$ reads $c$ straight off the product and forgets that $a = 2$ divides it.)',
     },
     {
       q: 'The two solutions of $x^2 - 7x + 10 = 0$ are $r$ and $s$. What is $\\frac{1}{r} + \\frac{1}{s}$?',

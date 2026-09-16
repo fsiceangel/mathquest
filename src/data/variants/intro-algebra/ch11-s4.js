@@ -29,7 +29,7 @@ const challenge = [
       choices: ['$4892$', '$4884$', '$4900$', '$4916$'],
       answer: 1,
       solution:
-        'The two factors sit one step on each side of $70$: they are $70 - 4$ and $70 + 4$. So $66 \\times 74 = (70-4)(70+4) = 70^2 - 4^2 = 4900 - 16 = 4884$. Check forward the slow way: $66 \\times 74 = 66 \\times 70 + 66 \\times 4 = 4620 + 264 = 4884$ ✓. (The choice $4916$ ADDS the $16$ — but a number just below $70$ times a number just above it always lands a little UNDER $70^2$; the choice $4900$ is $70^2$ with the correction forgotten entirely; the choice $4892$ subtracts $2 \\cdot 4 = 8$ instead of $4^2 = 16$, doubling the half-gap where it should have squared it.)',
+        'The two factors sit one step on each side of $70$: they are $70 - 4$ and $70 + 4$. So $66 \\times 74 = (70-4)(70+4) = 70^2 - 4^2 = 4900 - 16 = 4884$. Check forward the slow way: $66 \\times 74 = 66 \\times 70 + 66 \\times 4 = 4620 + 264 = 4884$ ✓. (The choice $4892$ subtracts $2 \\cdot 4 = 8$ instead of $4^2 = 16$, doubling the half-gap where it should have squared it; the choice $4900$ is $70^2$ with the correction forgotten entirely; the choice $4916$ ADDS the $16$ — but a number just below $70$ times a number just above it always lands a little UNDER $70^2$.)',
     },
     {
       q: 'A rectangular banner is $125$ centimeters long and $115$ centimeters wide. What is its area in square centimeters?',
@@ -43,7 +43,7 @@ const challenge = [
       choices: ['$62{,}400$', '$62{,}500$', '$62{,}525$', '$62{,}475$'],
       answer: 3,
       solution:
-        'Both factors are $5$ away from $250$, so $245 \\times 255 = (250-5)(250+5) = 250^2 - 5^2 = 62500 - 25 = 62475$. Check forward: $245 \\times 255 = 245 \\times 250 + 245 \\times 5 = 61250 + 1225 = 62475$ ✓. (The choice $62{,}525$ adds the $25$; the choice $62{,}500$ forgets the correction; the choice $62{,}400$ uses the gap $10$ between the two numbers rather than the half-gap $5$, computing $250^2 - 10^2$.)',
+        'Both factors are $5$ away from $250$, so $245 \\times 255 = (250-5)(250+5) = 250^2 - 5^2 = 62500 - 25 = 62475$. Check forward: $245 \\times 255 = 245 \\times 250 + 245 \\times 5 = 61250 + 1225 = 62475$ ✓. (The choice $62{,}400$ uses the gap $10$ between the two numbers rather than the half-gap $5$, computing $250^2 - 10^2$; the choice $62{,}500$ forgets the correction; the choice $62{,}525$ adds the $25$.)',
     },
   ],
   // c2 — squaring a binomial whose first term carries a coefficient. The whole
@@ -63,7 +63,7 @@ const challenge = [
       choices: ['$-36$', '$72$', '$-18$', '$-72$'],
       answer: 3,
       solution:
-        'The middle term of $(a-b)^2$ is $-2ab$, and here $a = 4x$, $b = 9$: that is $-2 \\cdot 4x \\cdot 9 = -72x$, so $b = -72$. Check the whole expansion at $x = 1$: $(4-9)^2 = 25$, and $16 - 72 + 81 = 25$ ✓. (The choice $-36$ writes just one copy of $4 \\cdot 9$ and forgets to double; the choice $-18$ uses $a = x$ instead of $a = 4x$, giving $-2 \\cdot 9$; the choice $72$ has the right size but the wrong sign — a minus inside the parentheses lands on the middle term.)',
+        'The middle term of $(a-b)^2$ is $-2ab$, and here $a = 4x$, $b = 9$: that is $-2 \\cdot 4x \\cdot 9 = -72x$, so $b = -72$. Check the whole expansion at $x = 1$: $(4-9)^2 = 25$, and $16 - 72 + 81 = 25$ ✓. (The choice $-36$ writes just one copy of $4 \\cdot 9$ and forgets to double; the choice $72$ has the right size but the wrong sign — a minus inside the parentheses lands on the middle term; the choice $-18$ uses $a = x$ instead of $a = 4x$, giving $-2 \\cdot 9$.)',
     },
     {
       q: 'Expand $(2x + 5y)^2$.',
@@ -75,7 +75,7 @@ const challenge = [
       ],
       answer: 2,
       solution:
-        'Nothing changes when the second term carries a variable too. With $a = 2x$ and $b = 5y$: $a^2 = 4x^2$, then $2ab = 2 \\cdot 2x \\cdot 5y = 20xy$, then $b^2 = 25y^2$. So $(2x+5y)^2 = 4x^2 + 20xy + 25y^2$. Check at $x = y = 1$: $(2+5)^2 = 49$, and $4 + 20 + 25 = 49$ ✓. (The choice $4x^2 + 10xy + 25y^2$ forgets the factor of $2$ in the middle; the choice $4x^2 + 25y^2$ drops the middle term altogether — the classic trap of the whole chapter; the choice $4x^2 + 20xy + 10y^2$ DOUBLES the $5$ instead of squaring it.)',
+        'Nothing changes when the second term carries a variable too. With $a = 2x$ and $b = 5y$: $a^2 = 4x^2$, then $2ab = 2 \\cdot 2x \\cdot 5y = 20xy$, then $b^2 = 25y^2$. So $(2x+5y)^2 = 4x^2 + 20xy + 25y^2$. Check at $x = y = 1$: $(2+5)^2 = 49$, and $4 + 20 + 25 = 49$ ✓. (The choice $4x^2 + 25y^2$ drops the middle term altogether — the classic trap of the whole chapter; the choice $4x^2 + 10xy + 25y^2$ forgets the factor of $2$ in the middle; the choice $4x^2 + 20xy + 10y^2$ DOUBLES the $5$ instead of squaring it.)',
     },
   ],
   // c3 — a difference of squares that splits twice. Stopping after one round is
@@ -130,14 +130,14 @@ const challenge = [
       choices: ['$72$', '$100$', '$200$', '$3600$'],
       answer: 2,
       solution:
-        'Factor the top: $68^2 - 32^2 = (68+32)(68-32) = 100 \\times 36 = 3600$. Now divide: $3600 \\div 18 = 200$. Check forward: $68^2 = 4624$ and $32^2 = 1024$, and $4624 - 1024 = 3600$ ✓. (The choice $3600$ forgets to divide; the choice $100$ divides by the difference factor $36$ instead of by the $18$ the problem actually wrote; the choice $72$ comes from subtracting first and then squaring, $\\frac{(68-32)^2}{18} = \\frac{1296}{18}$ — squaring after subtracting is a completely different operation from subtracting after squaring.)',
+        'Factor the top: $68^2 - 32^2 = (68+32)(68-32) = 100 \\times 36 = 3600$. Now divide: $3600 \\div 18 = 200$. Check forward: $68^2 = 4624$ and $32^2 = 1024$, and $4624 - 1024 = 3600$ ✓. (The choice $72$ comes from subtracting first and then squaring, $\\frac{(68-32)^2}{18} = \\frac{1296}{18}$ — squaring after subtracting is a completely different operation from subtracting after squaring; the choice $100$ divides by the difference factor $36$ instead of by the $18$ the problem actually wrote; the choice $3600$ forgets to divide.)',
     },
     {
       q: 'A positive integer $n$ satisfies $\\frac{n^2 - 15^2}{n - 15} = 47$. What is $n$?',
       choices: ['$47$', '$17$', '$62$', '$32$'],
       answer: 3,
       solution:
-        'The top is a difference of squares: $n^2 - 15^2 = (n+15)(n-15)$. Since $n \\neq 15$, the factor $n - 15$ cancels with the bottom and the whole fraction is just $n + 15$. So $n + 15 = 47$ and $n = 32$. Check forward: $32^2 - 225 = 1024 - 225 = 799$, and $\\frac{799}{32 - 15} = \\frac{799}{17} = 47$ ✓. (The choice $62$ cancels the wrong factor and sets $n - 15 = 47$; the choice $17$ reports the value of the denominator $n - 15$ instead of $n$; the choice $47$ just copies the number the problem handed you.)',
+        'The top is a difference of squares: $n^2 - 15^2 = (n+15)(n-15)$. Since $n \\neq 15$, the factor $n - 15$ cancels with the bottom and the whole fraction is just $n + 15$. So $n + 15 = 47$ and $n = 32$. Check forward: $32^2 - 225 = 1024 - 225 = 799$, and $\\frac{799}{32 - 15} = \\frac{799}{17} = 47$ ✓. (The choice $47$ just copies the number the problem handed you; the choice $17$ reports the value of the denominator $n - 15$ instead of $n$; the choice $62$ cancels the wrong factor and sets $n - 15 = 47$.)',
     },
   ],
   // c5 — cube formulas, where the sign bookkeeping is everything: the binomial
@@ -215,7 +215,7 @@ const challenge = [
       choices: ['$4\\sqrt{7}$', '$0$', '$4\\sqrt{5}$', '$-4\\sqrt{5}$'],
       answer: 3,
       solution:
-        'Rationalize each piece on its own. Both denominators turn into $(\\sqrt{7})^2 - (\\sqrt{5})^2 = 7 - 5 = 2$, so $\\frac{4}{\\sqrt{7}+\\sqrt{5}} = \\frac{4(\\sqrt{7}-\\sqrt{5})}{2} = 2\\sqrt{7} - 2\\sqrt{5}$ and $\\frac{4}{\\sqrt{7}-\\sqrt{5}} = 2\\sqrt{7} + 2\\sqrt{5}$. Subtract: the $2\\sqrt{7}$ terms cancel and the $\\sqrt{5}$ terms pile up, giving $-2\\sqrt{5} - 2\\sqrt{5} = -4\\sqrt{5}$. Numeric check: $0.82 - 9.76 \\approx -8.94$, and $-4\\sqrt{5} \\approx -8.94$ ✓. (The choice $4\\sqrt{7}$ ADDS the two fractions instead of subtracting; the choice $4\\sqrt{5}$ subtracts in the wrong order — the second fraction is the bigger one, so the answer must be negative; the choice $0$ assumes two fractions with the same numerator must cancel, but their denominators are nowhere near equal.)',
+        'Rationalize each piece on its own. Both denominators turn into $(\\sqrt{7})^2 - (\\sqrt{5})^2 = 7 - 5 = 2$, so $\\frac{4}{\\sqrt{7}+\\sqrt{5}} = \\frac{4(\\sqrt{7}-\\sqrt{5})}{2} = 2\\sqrt{7} - 2\\sqrt{5}$ and $\\frac{4}{\\sqrt{7}-\\sqrt{5}} = 2\\sqrt{7} + 2\\sqrt{5}$. Subtract: the $2\\sqrt{7}$ terms cancel and the $\\sqrt{5}$ terms pile up, giving $-2\\sqrt{5} - 2\\sqrt{5} = -4\\sqrt{5}$. Numeric check: $0.82 - 9.76 \\approx -8.94$, and $-4\\sqrt{5} \\approx -8.94$ ✓. (The choice $4\\sqrt{7}$ ADDS the two fractions instead of subtracting; the choice $0$ assumes two fractions with the same numerator must cancel, but their denominators are nowhere near equal; the choice $4\\sqrt{5}$ subtracts in the wrong order — the second fraction is the bigger one, so the answer must be negative.)',
     },
   ],
   // c7 — the factored difference of squares used as a bridge between the sum and
@@ -253,7 +253,7 @@ const challenge = [
       choices: ['$2$', '$17$', '$12$', '$14$'],
       answer: 2,
       solution:
-        'The magic constant is the product of the coefficients, $2 \\cdot 5 = 10$. Add it to both sides: $xy + 2x + 5y + 10 = 68$, and the left side factors criss-crossed as $(x+5)(y+2) = 68$. Since $x \\geq 1$ and $y \\geq 1$, we need $x + 5 \\geq 6$ and $y + 2 \\geq 3$. The factor pairs of $68$ are $1 \\times 68$, $2 \\times 34$, $4 \\times 17$, $17 \\times 4$, $34 \\times 2$, $68 \\times 1$, and only $17 \\times 4$ fits both bounds. So $x + 5 = 17$ and $y + 2 = 4$, giving $x = 12$ and $y = 2$. Check: $24 + 24 + 10 = 58$ ✓. (The choice $17$ reports the factor $x + 5$ without un-shifting it; the choice $2$ reports $y$ instead of $x$; the choice $14$ reports $x + y$.)',
+        'The magic constant is the product of the coefficients, $2 \\cdot 5 = 10$. Add it to both sides: $xy + 2x + 5y + 10 = 68$, and the left side factors criss-crossed as $(x+5)(y+2) = 68$. Since $x \\geq 1$ and $y \\geq 1$, we need $x + 5 \\geq 6$ and $y + 2 \\geq 3$. The factor pairs of $68$ are $1 \\times 68$, $2 \\times 34$, $4 \\times 17$, $17 \\times 4$, $34 \\times 2$, $68 \\times 1$, and only $17 \\times 4$ fits both bounds. So $x + 5 = 17$ and $y + 2 = 4$, giving $x = 12$ and $y = 2$. Check: $24 + 24 + 10 = 58$ ✓. (The choice $2$ reports $y$ instead of $x$; the choice $17$ reports the factor $x + 5$ without un-shifting it; the choice $14$ reports $x + y$.)',
     },
     {
       q: 'Positive integers $x$ and $y$ satisfy $xy - 4x + 3y = 25$. What is $xy$?',
@@ -293,7 +293,7 @@ const challenge = [
       choices: ['$12$', '$4$', '$24$', '$8$'],
       answer: 3,
       solution:
-        'Run the formula backwards. From $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$ we get $72 = 6(a^2 - ab + b^2)$, so $a^2 - ab + b^2 = 12$. Now $a^2 + b^2 = (a+b)^2 - 2ab = 36 - 2ab$, so the trinomial is $36 - 2ab - ab = 36 - 3ab$. Setting $36 - 3ab = 12$ gives $3ab = 24$ and $ab = 8$. Check: with sum $6$ and product $8$ the numbers are $2$ and $4$, and $8 + 64 = 72$ ✓. (The choice $12$ stops at the value of the trinomial; the choice $24$ collects only ONE $ab$, solving $36 - ab = 12$; the choice $4$ divides the $24$ by $6$ instead of by $3$.)',
+        'Run the formula backwards. From $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$ we get $72 = 6(a^2 - ab + b^2)$, so $a^2 - ab + b^2 = 12$. Now $a^2 + b^2 = (a+b)^2 - 2ab = 36 - 2ab$, so the trinomial is $36 - 2ab - ab = 36 - 3ab$. Setting $36 - 3ab = 12$ gives $3ab = 24$ and $ab = 8$. Check: with sum $6$ and product $8$ the numbers are $2$ and $4$, and $8 + 64 = 72$ ✓. (The choice $12$ stops at the value of the trinomial; the choice $4$ divides the $24$ by $6$ instead of by $3$; the choice $24$ collects only ONE $ab$, solving $36 - ab = 12$.)',
     },
   ],
   // c10 — a fraction with two-term radicals top AND bottom. Multiplying by the
@@ -348,7 +348,7 @@ const challenge = [
       choices: ['$88$', '$70$', '$52$', '$-52$'],
       answer: 0,
       solution:
-        'Since $324 = 18^2$, the left side is the perfect square $(N - 18)^2$. So $(N-18)^2 = 4900$, and a square equals $4900$ when the thing being squared is $70$ OR $-70$: $N - 18 = 70$ gives $N = 88$, and $N - 18 = -70$ gives $N = -52$. The larger is $88$. Check forward: $88^2 - 2(88)(18) + 324 = 7744 - 3168 + 324 = 4900$ ✓. (The choice $70$ stops at $N - 18$ and never adds the $18$ back; the choice $-52$ is the OTHER solution, the smaller one; the choice $52$ subtracts the $18$ instead of adding it.)',
+        'Since $324 = 18^2$, the left side is the perfect square $(N - 18)^2$. So $(N-18)^2 = 4900$, and a square equals $4900$ when the thing being squared is $70$ OR $-70$: $N - 18 = 70$ gives $N = 88$, and $N - 18 = -70$ gives $N = -52$. The larger is $88$. Check forward: $88^2 - 2(88)(18) + 324 = 7744 - 3168 + 324 = 4900$ ✓. (The choice $70$ stops at $N - 18$ and never adds the $18$ back; the choice $52$ subtracts the $18$ instead of adding it; the choice $-52$ is the OTHER solution, the smaller one.)',
     },
     {
       q: 'Compute $\\frac{550^2 - 2 \\cdot 550 \\cdot 50 + 50^2}{100}$.',
@@ -375,14 +375,14 @@ const challenge = [
       choices: ['$6$', '$9$', '$3$', '$7$'],
       answer: 0,
       solution:
-        'The magic constant is $1 \\cdot 2 = 2$: adding it gives $xy + x + 2y + 2 = 36$, that is $(x+2)(y+1) = 36$. Since $x \\geq 1$ and $y \\geq 1$, we need $x + 2 \\geq 3$ AND $y + 1 \\geq 2$. Walk the nine factor pairs of $36$ in order: $1 \\times 36$ and $2 \\times 18$ fail the first bound, $36 \\times 1$ fails the second, and the surviving six are $3 \\times 12$, $4 \\times 9$, $6 \\times 6$, $9 \\times 4$, $12 \\times 3$, $18 \\times 2$, giving $(1,11)$, $(2,8)$, $(4,5)$, $(7,3)$, $(10,2)$, $(16,1)$. Check $(4,5)$: $20 + 4 + 10 = 34$ ✓. (The choice $9$ counts every factor pair of $36$ and forgets that $x$ and $y$ must be at least $1$; the choice $7$ checks the bound on $x$ and drops $1 \\times 36$ and $2 \\times 18$, but never checks $y$, so it keeps $36 \\times 1$ — that pair gives $y = 0$, and zero is not a positive integer; the choice $3$ lists each factor pair only once and stops at $6 \\times 6$, but this equation is not symmetric — $x$ carries a $1$ and $y$ carries a $2$ — so $3 \\times 12$ and $12 \\times 3$ describe two genuinely different pairs and both count.)',
+        'The magic constant is $1 \\cdot 2 = 2$: adding it gives $xy + x + 2y + 2 = 36$, that is $(x+2)(y+1) = 36$. Since $x \\geq 1$ and $y \\geq 1$, we need $x + 2 \\geq 3$ AND $y + 1 \\geq 2$. Walk the nine factor pairs of $36$ in order: $1 \\times 36$ and $2 \\times 18$ fail the first bound, $36 \\times 1$ fails the second, and the surviving six are $3 \\times 12$, $4 \\times 9$, $6 \\times 6$, $9 \\times 4$, $12 \\times 3$, $18 \\times 2$, giving $(1,11)$, $(2,8)$, $(4,5)$, $(7,3)$, $(10,2)$, $(16,1)$. Check $(4,5)$: $20 + 4 + 10 = 34$ ✓. (The choice $9$ counts every factor pair of $36$ and forgets that $x$ and $y$ must be at least $1$; the choice $3$ lists each factor pair only once and stops at $6 \\times 6$, but this equation is not symmetric — $x$ carries a $1$ and $y$ carries a $2$ — so $3 \\times 12$ and $12 \\times 3$ describe two genuinely different pairs and both count; the choice $7$ checks the bound on $x$ and drops $1 \\times 36$ and $2 \\times 18$, but never checks $y$, so it keeps $36 \\times 1$ — that pair gives $y = 0$, and zero is not a positive integer.)',
     },
     {
       q: 'Positive integers $x$ and $y$ satisfy $xy - 5x - 5y = 3$. What is the largest possible value of $x + y$?',
       choices: ['$29$', '$21$', '$33$', '$39$'],
       answer: 3,
       solution:
-        'The magic constant is $(-5)(-5) = 25$: adding it gives $(x-5)(y-5) = 28$. Both factors must be positive here, since two numbers no smaller than $-4$ cannot multiply to $28$. The factor pairs of $28$ are $1 \\times 28$, $2 \\times 14$, $4 \\times 7$ and their reverses, giving $(x,y) = (6,33)$, $(7,19)$, $(9,12)$ and reverses. To make $x + y$ big, make the factor pair as LOPSIDED as possible: $1 \\times 28$ gives $6 + 33 = 39$, while $2 \\times 14$ gives $26$ and $4 \\times 7$ gives only $21$. So the largest is $39$. Check $(6,33)$: $198 - 30 - 165 = 3$ ✓. (The choice $29$ adds the two factors $1 + 28$ without adding $5$ back to each; the choice $33$ reports the larger of the two numbers instead of their sum; the choice $21$ picks the most balanced factor pair, which makes the sum as SMALL as possible.)',
+        'The magic constant is $(-5)(-5) = 25$: adding it gives $(x-5)(y-5) = 28$. Both factors must be positive here, since two numbers no smaller than $-4$ cannot multiply to $28$. The factor pairs of $28$ are $1 \\times 28$, $2 \\times 14$, $4 \\times 7$ and their reverses, giving $(x,y) = (6,33)$, $(7,19)$, $(9,12)$ and reverses. To make $x + y$ big, make the factor pair as LOPSIDED as possible: $1 \\times 28$ gives $6 + 33 = 39$, while $2 \\times 14$ gives $26$ and $4 \\times 7$ gives only $21$. So the largest is $39$. Check $(6,33)$: $198 - 30 - 165 = 3$ ✓. (The choice $29$ adds the two factors $1 + 28$ without adding $5$ back to each; the choice $21$ picks the most balanced factor pair, which makes the sum as SMALL as possible; the choice $33$ reports the larger of the two numbers instead of their sum.)',
     },
   ],
 ]

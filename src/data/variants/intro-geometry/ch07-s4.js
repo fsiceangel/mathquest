@@ -81,7 +81,7 @@ const s74 = [
       choices: ['$12$', '$18$', '$54$', '$24$'],
       answer: 3,
       solution:
-        'The point where the medians meet is the centroid, and it sits two thirds of the way from each vertex: $XT = \\frac{2}{3} \\cdot 36 = 24$ ✓. Check a second, independent way with the tail end: $TM = 36 - 24 = 12$, and $24 : 12 = 2 : 1$, longer piece at $X$ ✓. (The choice $18$ is HALVING THE MEDIAN ✗; $12$ is ANSWERING THE SHORT PIECE, $TM$ ✗; $54$ is INVERTING THE FRACTION, $36 \\div \\frac{2}{3}$, which is longer than the median itself ✗.)',
+        'The point where the medians meet is the centroid, and it sits two thirds of the way from each vertex: $XT = \\frac{2}{3} \\cdot 36 = 24$ ✓. Check a second, independent way with the tail end: $TM = 36 - 24 = 12$, and $24 : 12 = 2 : 1$, longer piece at $X$ ✓. (The choice $12$ is ANSWERING THE SHORT PIECE, $TM$ ✗; $18$ is HALVING THE MEDIAN ✗; $54$ is INVERTING THE FRACTION, $36 \\div \\frac{2}{3}$, which is longer than the median itself ✗.)',
     },
   ],
   // s3 — centroid-to-midpoint distance given, whole median wanted.
@@ -268,7 +268,7 @@ const s74 = [
       choices: ['$21$', '$14$', '$28$', '$42$'],
       answer: 1,
       solution:
-        'Even in a lopsided triangle the six median slices are perfectly fair shares, so each piece measures $\\frac{84}{6} = 14$ ✓. Check a second, independent way straight from the drawing: the slice with corners $A(0, 0)$, the midpoint $(7, 0)$ of $\\overline{AB}$, and the centroid $G(6, 4)$ has area $\\frac{1}{2}\\left|7 \\cdot 4 - 6 \\cdot 0\\right| = 14$ ✓, and $6 \\cdot 14 = 84$ restores the tile ✓. (The choice $28$ is ANSWERING A CENTROID TRIANGLE, the one-third piece made of two slices ✗; $42$ is STOPPING AT ONE MEDIAN ✗; $21$ is MISCOUNTING THE SLICES as four ✗.)',
+        'Even in a lopsided triangle the six median slices are perfectly fair shares, so each piece measures $\\frac{84}{6} = 14$ ✓. Check a second, independent way straight from the drawing: the slice with corners $A(0, 0)$, the midpoint $(7, 0)$ of $\\overline{AB}$, and the centroid $G(6, 4)$ has area $\\frac{1}{2}\\left|7 \\cdot 4 - 6 \\cdot 0\\right| = 14$ ✓, and $6 \\cdot 14 = 84$ restores the tile ✓. (The choice $21$ is MISCOUNTING THE SLICES as four ✗; $28$ is ANSWERING A CENTROID TRIANGLE, the one-third piece made of two slices ✗; $42$ is STOPPING AT ONE MEDIAN ✗.)',
     },
     {
       q: 'The three medians of triangle $DEF$ in the figure cut it into six small triangles. If $DEF$ has area $108$, how much area does each small triangle carry?',
@@ -288,7 +288,7 @@ const s74 = [
       choices: ['$27$', '$36$', '$18$', '$54$'],
       answer: 2,
       solution:
-        'Six slices, all equal: each carries $\\frac{108}{6} = 18$ ✓. Check a second, independent way on a single slice: the triangle with corners $D(0, 0)$, the midpoint $(9, 0)$ of $\\overline{DE}$, and the centroid $G(8, 4)$ encloses $\\frac{1}{2}\\left|9 \\cdot 4 - 8 \\cdot 0\\right| = 18$ ✓, and six of those give back $108$ ✓. (The choice $36$ is ANSWERING A CENTROID TRIANGLE — joining $G$ to two vertices sweeps up two slices, a third of the whole ✗; $54$ is STOPPING AT ONE MEDIAN ✗; $27$ is MISCOUNTING THE SLICES as four ✗.)',
+        'Six slices, all equal: each carries $\\frac{108}{6} = 18$ ✓. Check a second, independent way on a single slice: the triangle with corners $D(0, 0)$, the midpoint $(9, 0)$ of $\\overline{DE}$, and the centroid $G(8, 4)$ encloses $\\frac{1}{2}\\left|9 \\cdot 4 - 8 \\cdot 0\\right| = 18$ ✓, and six of those give back $108$ ✓. (The choice $27$ is MISCOUNTING THE SLICES as four ✗; $36$ is ANSWERING A CENTROID TRIANGLE — joining $G$ to two vertices sweeps up two slices, a third of the whole ✗; $54$ is STOPPING AT ONE MEDIAN ✗.)',
     },
   ],
   // s7 — a centroid triangle holds one third of the area.
@@ -312,7 +312,7 @@ const s74 = [
       choices: ['$14.5$', '$43.5$', '$29$', '$58$'],
       answer: 2,
       solution:
-        'The three pieces $GXY$, $GYZ$, $GXZ$ each contain two of the six equal median slices, so each is one third of the triangle: $\\frac{87}{3} = 29$ ✓. Check a second, independent way from the slices: one slice is $\\frac{87}{6} = 14.5$, and the two slices leaning on $\\overline{XZ}$ total $2 \\cdot 14.5 = 29$ ✓. (The choice $43.5$ is PAYING OUT A MEDIAN’S HALF, though no side of piece $GXZ$ is a median of $XYZ$ ✗; $14.5$ is STOPPING AT ONE SLICE ✗; $58$ is ANSWERING THE COMPLEMENT, the other two pieces combined ✗.)',
+        'The three pieces $GXY$, $GYZ$, $GXZ$ each contain two of the six equal median slices, so each is one third of the triangle: $\\frac{87}{3} = 29$ ✓. Check a second, independent way from the slices: one slice is $\\frac{87}{6} = 14.5$, and the two slices leaning on $\\overline{XZ}$ total $2 \\cdot 14.5 = 29$ ✓. (The choice $14.5$ is STOPPING AT ONE SLICE ✗; $43.5$ is PAYING OUT A MEDIAN’S HALF, though no side of piece $GXZ$ is a median of $XYZ$ ✗; $58$ is ANSWERING THE COMPLEMENT, the other two pieces combined ✗.)',
     },
   ],
   // s8 — median length from coordinates (figure).
@@ -336,7 +336,7 @@ const s74 = [
       choices: ['$15$', '$17$', '$23$', '$34$'],
       answer: 1,
       solution:
-        'The median from $A$ ends at the midpoint of $\\overline{BC}$: $M = \\left(\\frac{30 + 0}{2}, \\frac{0 + 16}{2}\\right) = (15, 8)$, and its length is $\\sqrt{15^2 + 8^2} = \\sqrt{225 + 64} = \\sqrt{289} = 17$ ✓. Check a second, independent way with the right angle: the hypotenuse is $BC = \\sqrt{30^2 + 16^2} = \\sqrt{1156} = 34$, and the median to the hypotenuse of a right triangle is always half the hypotenuse — $\\frac{34}{2} = 17$ ✓. (The choice $34$ is ANSWERING THE WHOLE HYPOTENUSE instead of the median ✗; $15$ is GRABBING HALF A LEG, the $x$-coordinate of $M$ alone ✗; $23$ is ADDING THE HALVES $15 + 8$ instead of squaring them ✗.)',
+        'The median from $A$ ends at the midpoint of $\\overline{BC}$: $M = \\left(\\frac{30 + 0}{2}, \\frac{0 + 16}{2}\\right) = (15, 8)$, and its length is $\\sqrt{15^2 + 8^2} = \\sqrt{225 + 64} = \\sqrt{289} = 17$ ✓. Check a second, independent way with the right angle: the hypotenuse is $BC = \\sqrt{30^2 + 16^2} = \\sqrt{1156} = 34$, and the median to the hypotenuse of a right triangle is always half the hypotenuse — $\\frac{34}{2} = 17$ ✓. (The choice $15$ is GRABBING HALF A LEG, the $x$-coordinate of $M$ alone ✗; $23$ is ADDING THE HALVES $15 + 8$ instead of squaring them ✗; $34$ is ANSWERING THE WHOLE HYPOTENUSE instead of the median ✗.)',
     },
     {
       q: 'The right triangle in the figure has vertices $A(0, 0)$, $B(20, 0)$, and $C(0, 48)$. Find the length of the median drawn from $A$ to $\\overline{BC}$.',
@@ -358,7 +358,7 @@ const s74 = [
       choices: ['$24$', '$34$', '$26$', '$52$'],
       answer: 2,
       solution:
-        'The midpoint of $\\overline{BC}$ is $M = \\left(\\frac{20 + 0}{2}, \\frac{0 + 48}{2}\\right) = (10, 24)$, so the median from $A$ measures $\\sqrt{10^2 + 24^2} = \\sqrt{100 + 576} = \\sqrt{676} = 26$ ✓. Check a second, independent way through the hypotenuse: the legs lie along the axes, so the right angle is at $A$, $BC = \\sqrt{400 + 2304} = \\sqrt{2704} = 52$, and the median to the hypotenuse is half of it: $\\frac{52}{2} = 26$ ✓. (The choice $52$ is ANSWERING THE WHOLE HYPOTENUSE ✗; $24$ is GRABBING HALF A LEG, only the $y$-coordinate of $M$ ✗; $34$ is ADDING THE HALVES $10 + 24$ without squaring ✗.)',
+        'The midpoint of $\\overline{BC}$ is $M = \\left(\\frac{20 + 0}{2}, \\frac{0 + 48}{2}\\right) = (10, 24)$, so the median from $A$ measures $\\sqrt{10^2 + 24^2} = \\sqrt{100 + 576} = \\sqrt{676} = 26$ ✓. Check a second, independent way through the hypotenuse: the legs lie along the axes, so the right angle is at $A$, $BC = \\sqrt{400 + 2304} = \\sqrt{2704} = 52$, and the median to the hypotenuse is half of it: $\\frac{52}{2} = 26$ ✓. (The choice $24$ is GRABBING HALF A LEG, only the $y$-coordinate of $M$ ✗; $34$ is ADDING THE HALVES $10 + 24$ without squaring ✗; $52$ is ANSWERING THE WHOLE HYPOTENUSE ✗.)',
     },
     {
       q: 'Triangle $ABC$ has $A(0, 0)$, $B(32, 0)$, and $C(0, 60)$, as shown. What is the length of its median from vertex $A$?',
@@ -380,7 +380,7 @@ const s74 = [
       choices: ['$30$', '$46$', '$68$', '$34$'],
       answer: 3,
       solution:
-        'The far side’s midpoint is $M = \\left(\\frac{32 + 0}{2}, \\frac{0 + 60}{2}\\right) = (16, 30)$, so the median from $A$ is $\\sqrt{16^2 + 30^2} = \\sqrt{256 + 900} = \\sqrt{1156} = 34$ ✓. Check a second, independent way using the right angle at $A$: the hypotenuse is $BC = \\sqrt{32^2 + 60^2} = \\sqrt{1024 + 3600} = \\sqrt{4624} = 68$, and the median to the hypotenuse is half of it, $\\frac{68}{2} = 34$ ✓. (The choice $68$ is ANSWERING THE WHOLE HYPOTENUSE ✗; $30$ is GRABBING HALF A LEG ✗; $46$ is ADDING THE HALVES $16 + 30$ instead of using the distance formula ✗.)',
+        'The far side’s midpoint is $M = \\left(\\frac{32 + 0}{2}, \\frac{0 + 60}{2}\\right) = (16, 30)$, so the median from $A$ is $\\sqrt{16^2 + 30^2} = \\sqrt{256 + 900} = \\sqrt{1156} = 34$ ✓. Check a second, independent way using the right angle at $A$: the hypotenuse is $BC = \\sqrt{32^2 + 60^2} = \\sqrt{1024 + 3600} = \\sqrt{4624} = 68$, and the median to the hypotenuse is half of it, $\\frac{68}{2} = 34$ ✓. (The choice $30$ is GRABBING HALF A LEG ✗; $46$ is ADDING THE HALVES $16 + 30$ instead of using the distance formula ✗; $68$ is ANSWERING THE WHOLE HYPOTENUSE ✗.)',
     },
   ],
   // s9 — centroid from three general coordinates (figure).

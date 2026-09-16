@@ -10,7 +10,7 @@ const challenge = [
       q: 'A hallway has lockers numbered $46$ through $133$, with no numbers skipped. How many lockers are there?',
       choices: ['$86$', '$87$', '$88$', '$89$'],
       answer: 2,
-      solution: 'Count the lockers, not the gaps between them: $133 - 46 + 1 = 88$. Test the idea on a tiny hallway — lockers $46$ and $47$ have a gap of $1$ but there are $2$ lockers. ($87$ is the bare subtraction $133 - 46$, which counts the steps from one locker to the next; $86$ subtracts one more, as though both end lockers were left out; $89$ applies the $+1$ twice.)',
+      solution: 'Count the lockers, not the gaps between them: $133 - 46 + 1 = 88$. Test the idea on a tiny hallway — lockers $46$ and $47$ have a gap of $1$ but there are $2$ lockers. ($86$ subtracts one more, as though both end lockers were left out; $87$ is the bare subtraction $133 - 46$, which counts the steps from one locker to the next; $89$ applies the $+1$ twice.)',
     },
     {
       q: 'A magazine article runs from page $68$ to page $145$, using every page in between. How many pages long is it?',
@@ -232,7 +232,7 @@ const challenge = [
       q: 'Two standard dice are rolled. What is the probability that the two numbers differ by exactly $1$?',
       choices: ['$\\frac{5}{36}$', '$\\frac{5}{18}$', '$\\frac{1}{3}$', '$\\frac{1}{6}$'],
       answer: 1,
-      solution: 'List the favourable rolls: $(1,2), (2,1), (2,3), (3,2), (3,4), (4,3), (4,5), (5,4), (5,6), (6,5)$ — that is $10$ of the $36$ equally likely rolls, so the probability is $\\frac{10}{36} = \\frac{5}{18}$. ($\\frac{5}{36}$ counts each pair once instead of in both orders; $\\frac{1}{6} = \\frac{6}{36}$ assumes one roll for each starting value $1$ through $6$, but a first die of $6$ has no partner $7$; $\\frac{1}{3} = \\frac{12}{36}$ makes that same slip and then doubles it.)',
+      solution: 'List the favourable rolls: $(1,2), (2,1), (2,3), (3,2), (3,4), (4,3), (4,5), (5,4), (5,6), (6,5)$ — that is $10$ of the $36$ equally likely rolls, so the probability is $\\frac{10}{36} = \\frac{5}{18}$. ($\\frac{5}{36}$ counts each pair once instead of in both orders; $\\frac{1}{3} = \\frac{12}{36}$ makes that same slip and then doubles it; $\\frac{1}{6} = \\frac{6}{36}$ assumes one roll for each starting value $1$ through $6$, but a first die of $6$ has no partner $7$.)',
     },
   ],
   // 12. "At least one" — count the opposite.

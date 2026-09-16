@@ -30,21 +30,21 @@ const s212 = [
       choices: ['$378$', '$392$', '$812$', '$406$'],
       answer: 3,
       solution:
-        'Use the famous formula $\\frac{n(n+1)}{2}$ with $n = 28$: the sum is $\\frac{28 \\times 29}{2} = 14 \\times 29 = 406$ ✓. Check a second, independent way by pairing the ends and never touching the formula: $1 + 28 = 29$, $2 + 27 = 29$, $3 + 26 = 29$, and so on. The $28$ numbers fall into $14$ pairs, each worth $29$, so the total is $14 \\times 29 = 406$ ✓. (The choice $812$ is THE FORGOTTEN HALF, $28 \\times 29$, which counts the whole list twice; the choice $378$ is STOPPING ONE TERM SHORT at $1 + \\cdots + 27$; the choice $392$ is PAIRING WITH THE WRONG PARTNER, using $28 \\times 28 \\div 2$ as though each pair summed to $28$ instead of $29$.)',
+        'Use the famous formula $\\frac{n(n+1)}{2}$ with $n = 28$: the sum is $\\frac{28 \\times 29}{2} = 14 \\times 29 = 406$ ✓. Check a second, independent way by pairing the ends and never touching the formula: $1 + 28 = 29$, $2 + 27 = 29$, $3 + 26 = 29$, and so on. The $28$ numbers fall into $14$ pairs, each worth $29$, so the total is $14 \\times 29 = 406$ ✓. (The choice $378$ is STOPPING ONE TERM SHORT at $1 + \\cdots + 27$; the choice $392$ is PAIRING WITH THE WRONG PARTNER, using $28 \\times 28 \\div 2$ as though each pair summed to $28$ instead of $29$; the choice $812$ is THE FORGOTTEN HALF, $28 \\times 29$, which counts the whole list twice.)',
     },
     {
       q: 'Compute $1 + 2 + 3 + \\cdots + 22$.',
       choices: ['$253$', '$231$', '$242$', '$506$'],
       answer: 0,
       solution:
-        'By the formula $\\frac{n(n+1)}{2}$ with $n = 22$: $\\frac{22 \\times 23}{2} = 11 \\times 23 = 253$ ✓. Check a second, independent way by pairing: $1 + 22 = 23$, $2 + 21 = 23$, $3 + 20 = 23$, all the way in to $11 + 12 = 23$. That last pair is the innermost one, so there are exactly $11$ pairs, and $11 \\times 23 = 253$ ✓ — the pairing even shows you where the list runs out. (The choice $506$ is THE FORGOTTEN HALF, $22 \\times 23$; the choice $231$ is STOPPING ONE TERM SHORT at $1 + \\cdots + 21$; the choice $242$ is PAIRING WITH THE WRONG PARTNER, $22 \\times 22 \\div 2$.)',
+        'By the formula $\\frac{n(n+1)}{2}$ with $n = 22$: $\\frac{22 \\times 23}{2} = 11 \\times 23 = 253$ ✓. Check a second, independent way by pairing: $1 + 22 = 23$, $2 + 21 = 23$, $3 + 20 = 23$, all the way in to $11 + 12 = 23$. That last pair is the innermost one, so there are exactly $11$ pairs, and $11 \\times 23 = 253$ ✓ — the pairing even shows you where the list runs out. (The choice $231$ is STOPPING ONE TERM SHORT at $1 + \\cdots + 21$; the choice $242$ is PAIRING WITH THE WRONG PARTNER, $22 \\times 22 \\div 2$; the choice $506$ is THE FORGOTTEN HALF, $22 \\times 23$.)',
     },
     {
       q: 'Compute $1 + 2 + 3 + \\cdots + 30$.',
       choices: ['$435$', '$465$', '$450$', '$930$'],
       answer: 1,
       solution:
-        'The formula $\\frac{n(n+1)}{2}$ with $n = 30$ gives $\\frac{30 \\times 31}{2} = 15 \\times 31 = 465$ ✓. Check a second, independent way by pairing the ends: $1 + 30 = 31$, $2 + 29 = 31$, down to $15 + 16 = 31$ — that is $15$ pairs worth $31$ each, so $15 \\times 31 = 465$ ✓. (The choice $930$ is THE FORGOTTEN HALF, $30 \\times 31$; the choice $435$ is STOPPING ONE TERM SHORT at $1 + \\cdots + 29$, exactly $30$ less; the choice $450$ is PAIRING WITH THE WRONG PARTNER, $30 \\times 30 \\div 2$.)',
+        'The formula $\\frac{n(n+1)}{2}$ with $n = 30$ gives $\\frac{30 \\times 31}{2} = 15 \\times 31 = 465$ ✓. Check a second, independent way by pairing the ends: $1 + 30 = 31$, $2 + 29 = 31$, down to $15 + 16 = 31$ — that is $15$ pairs worth $31$ each, so $15 \\times 31 = 465$ ✓. (The choice $435$ is STOPPING ONE TERM SHORT at $1 + \\cdots + 29$, exactly $30$ less; the choice $450$ is PAIRING WITH THE WRONG PARTNER, $30 \\times 30 \\div 2$; the choice $930$ is THE FORGOTTEN HALF, $30 \\times 31$.)',
     },
   ],
   // s2 — p2: summing the even numbers, either as twice a triangular sum or by average times count.
@@ -54,21 +54,21 @@ const s212 = [
       choices: ['$196$', '$105$', '$210$', '$240$'],
       answer: 2,
       solution:
-        'Every term is double one of the numbers $1$ through $14$, so the sum is $2 \\times (1 + 2 + \\cdots + 14) = 2 \\times 105 = 210$ ✓. Check a second, independent way with count times average: there are $\\frac{28 - 2}{2} + 1 = 14$ terms, and their average is $\\frac{2 + 28}{2} = 15$, so the sum is $14 \\times 15 = 210$ ✓. (The choice $105$ is THE FORGOTTEN DOUBLE — that is the sum of $1$ through $14$, only half of what was asked; the choice $196$ is PAIRING WITH THE WRONG PARTNER, $14 \\times 14$, using $14$ as the average instead of $15$; the choice $240$ is THE FENCEPOST, counting $15$ terms and computing $15 \\times 16$.)',
+        'Every term is double one of the numbers $1$ through $14$, so the sum is $2 \\times (1 + 2 + \\cdots + 14) = 2 \\times 105 = 210$ ✓. Check a second, independent way with count times average: there are $\\frac{28 - 2}{2} + 1 = 14$ terms, and their average is $\\frac{2 + 28}{2} = 15$, so the sum is $14 \\times 15 = 210$ ✓. (The choice $196$ is PAIRING WITH THE WRONG PARTNER, $14 \\times 14$, using $14$ as the average instead of $15$; the choice $105$ is THE FORGOTTEN DOUBLE — that is the sum of $1$ through $14$, only half of what was asked; the choice $240$ is THE FENCEPOST, counting $15$ terms and computing $15 \\times 16$.)',
     },
     {
       q: 'Compute $2 + 4 + 6 + \\cdots + 36$.',
       choices: ['$342$', '$324$', '$171$', '$380$'],
       answer: 0,
       solution:
-        'These are twice the numbers $1$ through $18$, so the sum is $2 \\times (1 + 2 + \\cdots + 18) = 2 \\times 171 = 342$ ✓. Check a second, independent way with count times average: the count is $\\frac{36 - 2}{2} + 1 = 18$ and the average is $\\frac{2 + 36}{2} = 19$, giving $18 \\times 19 = 342$ ✓. (The choice $171$ is THE FORGOTTEN DOUBLE, the sum of $1$ through $18$; the choice $324$ is PAIRING WITH THE WRONG PARTNER, $18 \\times 18$; the choice $380$ is THE FENCEPOST, using $19$ terms and computing $19 \\times 20$.)',
+        'These are twice the numbers $1$ through $18$, so the sum is $2 \\times (1 + 2 + \\cdots + 18) = 2 \\times 171 = 342$ ✓. Check a second, independent way with count times average: the count is $\\frac{36 - 2}{2} + 1 = 18$ and the average is $\\frac{2 + 36}{2} = 19$, giving $18 \\times 19 = 342$ ✓. (The choice $324$ is PAIRING WITH THE WRONG PARTNER, $18 \\times 18$; the choice $171$ is THE FORGOTTEN DOUBLE, the sum of $1$ through $18$; the choice $380$ is THE FENCEPOST, using $19$ terms and computing $19 \\times 20$.)',
     },
     {
       q: 'Compute $2 + 4 + 6 + \\cdots + 48$.',
       choices: ['$576$', '$600$', '$300$', '$650$'],
       answer: 1,
       solution:
-        'Factor a $2$ out of every term: the sum is $2 \\times (1 + 2 + \\cdots + 24) = 2 \\times 300 = 600$ ✓. Check a second, independent way with count times average: there are $\\frac{48 - 2}{2} + 1 = 24$ terms averaging $\\frac{2 + 48}{2} = 25$, so the total is $24 \\times 25 = 600$ ✓. (The choice $300$ is THE FORGOTTEN DOUBLE, the sum of $1$ through $24$; the choice $576$ is PAIRING WITH THE WRONG PARTNER, $24 \\times 24$; the choice $650$ is THE FENCEPOST, $25 \\times 26$ from miscounting $25$ terms.)',
+        'Factor a $2$ out of every term: the sum is $2 \\times (1 + 2 + \\cdots + 24) = 2 \\times 300 = 600$ ✓. Check a second, independent way with count times average: there are $\\frac{48 - 2}{2} + 1 = 24$ terms averaging $\\frac{2 + 48}{2} = 25$, so the total is $24 \\times 25 = 600$ ✓. (The choice $576$ is PAIRING WITH THE WRONG PARTNER, $24 \\times 24$; the choice $300$ is THE FORGOTTEN DOUBLE, the sum of $1$ through $24$; the choice $650$ is THE FENCEPOST, $25 \\times 26$ from miscounting $25$ terms.)',
     },
   ],
   // s2 — p3: counting the terms of a finite arithmetic list — gaps first, then the +1.
@@ -150,21 +150,21 @@ const s212 = [
       choices: ['$315$', '$700$', '$385$', '$350$'],
       answer: 3,
       solution:
-        'Count the terms before summing anything: the step is $6$, so the count is $\\frac{62 - 8}{6} + 1 = 9 + 1 = 10$. Now the sum formula gives $\\frac{10}{2}(8 + 62) = 5 \\times 70 = 350$ ✓. Check a second, independent way by pairing the ends: $8 + 62 = 70$, $14 + 56 = 70$, $20 + 50 = 70$, $26 + 44 = 70$, $32 + 38 = 70$ — five pairs, every one of them worth $70$, and the list is used up. So the sum is $5 \\times 70 = 350$ ✓. (The choice $315$ is THE FENCEPOST, using $9$ terms; the choice $385$ is ADDING ONE TERM TOO MANY, using $11$; the choice $700$ is THE FORGOTTEN HALF, $10 \\times 70$.)',
+        'Count the terms before summing anything: the step is $6$, so the count is $\\frac{62 - 8}{6} + 1 = 9 + 1 = 10$. Now the sum formula gives $\\frac{10}{2}(8 + 62) = 5 \\times 70 = 350$ ✓. Check a second, independent way by pairing the ends: $8 + 62 = 70$, $14 + 56 = 70$, $20 + 50 = 70$, $26 + 44 = 70$, $32 + 38 = 70$ — five pairs, every one of them worth $70$, and the list is used up. So the sum is $5 \\times 70 = 350$ ✓. (The choice $315$ is THE FENCEPOST, using $9$ terms; the choice $700$ is THE FORGOTTEN HALF, $10 \\times 70$; the choice $385$ is ADDING ONE TERM TOO MANY, using $11$.)',
     },
     {
       q: 'Compute $9 + 17 + 25 + \\cdots + 97$.',
       choices: ['$583$', '$636$', '$1272$', '$689$'],
       answer: 1,
       solution:
-        'The step is $8$, so the count is $\\frac{97 - 9}{8} + 1 = 11 + 1 = 12$ terms. Then $\\frac{12}{2}(9 + 97) = 6 \\times 106 = 636$ ✓. Check a second, independent way by splitting every term into a common part and a step part: the terms are $9 + 8k$ for $k = 0, 1, \\ldots, 11$, so the sum is $12 \\times 9 + 8(0 + 1 + \\cdots + 11) = 108 + 8 \\times 66 = 108 + 528 = 636$ ✓ — no pairing and no sum formula, and it lands on the same number. (The choice $583$ is THE FENCEPOST, using $11$ terms; the choice $689$ is ADDING ONE TERM TOO MANY, using $13$; the choice $1272$ is THE FORGOTTEN HALF, $12 \\times 106$.)',
+        'The step is $8$, so the count is $\\frac{97 - 9}{8} + 1 = 11 + 1 = 12$ terms. Then $\\frac{12}{2}(9 + 97) = 6 \\times 106 = 636$ ✓. Check a second, independent way by splitting every term into a common part and a step part: the terms are $9 + 8k$ for $k = 0, 1, \\ldots, 11$, so the sum is $12 \\times 9 + 8(0 + 1 + \\cdots + 11) = 108 + 8 \\times 66 = 108 + 528 = 636$ ✓ — no pairing and no sum formula, and it lands on the same number. (The choice $583$ is THE FENCEPOST, using $11$ terms; the choice $1272$ is THE FORGOTTEN HALF, $12 \\times 106$; the choice $689$ is ADDING ONE TERM TOO MANY, using $13$.)',
     },
     {
       q: 'Compute $12 + 21 + 30 + \\cdots + 84$.',
       choices: ['$384$', '$864$', '$432$', '$480$'],
       answer: 2,
       solution:
-        'The step is $9$, so the count is $\\frac{84 - 12}{9} + 1 = 8 + 1 = 9$ terms. The sum formula gives $\\frac{9}{2}(12 + 84) = \\frac{9 \\times 96}{2} = 9 \\times 48 = 432$ ✓. Check a second, independent way by peeling off the common part: each term is $9k + 3$ for $k = 1, 2, \\ldots, 9$, so the sum is $9(1 + 2 + \\cdots + 9) + 9 \\times 3 = 9 \\times 45 + 27 = 405 + 27 = 432$ ✓. (The choice $384$ is THE FENCEPOST, using $8$ terms; the choice $480$ is ADDING ONE TERM TOO MANY, using $10$; the choice $864$ is THE FORGOTTEN HALF, $9 \\times 96$.)',
+        'The step is $9$, so the count is $\\frac{84 - 12}{9} + 1 = 8 + 1 = 9$ terms. The sum formula gives $\\frac{9}{2}(12 + 84) = \\frac{9 \\times 96}{2} = 9 \\times 48 = 432$ ✓. Check a second, independent way by peeling off the common part: each term is $9k + 3$ for $k = 1, 2, \\ldots, 9$, so the sum is $9(1 + 2 + \\cdots + 9) + 9 \\times 3 = 9 \\times 45 + 27 = 405 + 27 = 432$ ✓. (The choice $384$ is THE FENCEPOST, using $8$ terms; the choice $864$ is THE FORGOTTEN HALF, $9 \\times 96$; the choice $480$ is ADDING ONE TERM TOO MANY, using $10$.)',
     },
   ],
   // s2 — p7: stacked rows falling by one — a block of consecutive integers in disguise.
@@ -181,7 +181,7 @@ const s212 = [
       choices: ['$588$', '$275$', '$360$', '$294$'],
       answer: 3,
       solution:
-        'The risers hold $30, 29, 28, \\ldots, 19$ singers, which is $30 - 19 + 1 = 12$ risers. Sum: $\\frac{12}{2}(30 + 19) = 6 \\times 49 = 294$ singers ✓. Check a second, independent way by subtracting two triangular numbers: $1 + 2 + \\cdots + 30 = \\frac{30 \\times 31}{2} = 465$, and $1 + 2 + \\cdots + 18 = \\frac{18 \\times 19}{2} = 171$, so the block from $19$ to $30$ is $465 - 171 = 294$ ✓. (The choice $275$ is THE FENCEPOST, counting $11$ risers and leaving the top one out; the choice $588$ is THE FORGOTTEN HALF, $12 \\times 49$; the choice $360$ is USING THE BOTTOM ROW AS THE AVERAGE, $12 \\times 30$.)',
+        'The risers hold $30, 29, 28, \\ldots, 19$ singers, which is $30 - 19 + 1 = 12$ risers. Sum: $\\frac{12}{2}(30 + 19) = 6 \\times 49 = 294$ singers ✓. Check a second, independent way by subtracting two triangular numbers: $1 + 2 + \\cdots + 30 = \\frac{30 \\times 31}{2} = 465$, and $1 + 2 + \\cdots + 18 = \\frac{18 \\times 19}{2} = 171$, so the block from $19$ to $30$ is $465 - 171 = 294$ ✓. (The choice $588$ is THE FORGOTTEN HALF, $12 \\times 49$; the choice $275$ is THE FENCEPOST, counting $11$ risers and leaving the top one out; the choice $360$ is USING THE BOTTOM ROW AS THE AVERAGE, $12 \\times 30$.)',
     },
     {
       q: 'Imani stacks seedling trays in a pyramid. The bottom row has $33$ trays, each row above has one tray fewer than the row below, and the top row has $18$ trays. How many trays are in the pyramid?',
@@ -222,21 +222,21 @@ const s212 = [
       choices: ['$82$', '$41$', '$87$', '$77$'],
       answer: 3,
       solution:
-        'Put what you know into the sum formula and solve for the missing end: $\\frac{12}{2}(5 + \\text{last}) = 492$, so $6(5 + \\text{last}) = 492$ and $5 + \\text{last} = 82$. Subtracting the first term gives $\\text{last} = 77$ ✓. Check a second, independent way through the average: $12$ terms summing to $492$ have average $\\frac{492}{12} = 41$, and in an arithmetic series the average sits exactly halfway between the first and last terms. So the last term is as far above $41$ as $5$ is below it: $41 + 36 = 77$ ✓. (The choice $82$ is STOPPING AT FIRST PLUS LAST, which is the pair sum, not the last term; the choice $87$ is ADDING THE FIRST TERM INSTEAD OF SUBTRACTING IT; the choice $41$ is the average term, and mistaking the average for the last term ignores that half the terms lie above it.)',
+        'Put what you know into the sum formula and solve for the missing end: $\\frac{12}{2}(5 + \\text{last}) = 492$, so $6(5 + \\text{last}) = 492$ and $5 + \\text{last} = 82$. Subtracting the first term gives $\\text{last} = 77$ ✓. Check a second, independent way through the average: $12$ terms summing to $492$ have average $\\frac{492}{12} = 41$, and in an arithmetic series the average sits exactly halfway between the first and last terms. So the last term is as far above $41$ as $5$ is below it: $41 + 36 = 77$ ✓. (The choice $82$ is STOPPING AT FIRST PLUS LAST, which is the pair sum, not the last term; the choice $41$ is the average term, and mistaking the average for the last term ignores that half the terms lie above it; the choice $87$ is ADDING THE FIRST TERM INSTEAD OF SUBTRACTING IT.)',
     },
     {
       q: 'An arithmetic series has $18$ terms, its first term is $9$, and its sum is $972$. What is the last term?',
       choices: ['$108$', '$99$', '$54$', '$117$'],
       answer: 1,
       solution:
-        'From $\\frac{18}{2}(9 + \\text{last}) = 972$ we get $9(9 + \\text{last}) = 972$, so $9 + \\text{last} = 108$ and $\\text{last} = 99$ ✓. Check a second, independent way through the average: the average term is $\\frac{972}{18} = 54$, which must be the midpoint of the first and last terms. The first term is $45$ below $54$, so the last term is $45$ above it: $54 + 45 = 99$ ✓. (The choice $108$ is STOPPING AT FIRST PLUS LAST; the choice $117$ is ADDING THE FIRST TERM INSTEAD OF SUBTRACTING IT, $108 + 9$; the choice $54$ mistakes the average term for the last term.)',
+        'From $\\frac{18}{2}(9 + \\text{last}) = 972$ we get $9(9 + \\text{last}) = 972$, so $9 + \\text{last} = 108$ and $\\text{last} = 99$ ✓. Check a second, independent way through the average: the average term is $\\frac{972}{18} = 54$, which must be the midpoint of the first and last terms. The first term is $45$ below $54$, so the last term is $45$ above it: $54 + 45 = 99$ ✓. (The choice $108$ is STOPPING AT FIRST PLUS LAST; the choice $54$ mistakes the average term for the last term; the choice $117$ is ADDING THE FIRST TERM INSTEAD OF SUBTRACTING IT, $108 + 9$.)',
     },
     {
       q: 'An arithmetic series has $24$ terms, its first term is $6$, and its sum is $1440$. What is the last term?',
       choices: ['$120$', '$60$', '$114$', '$126$'],
       answer: 2,
       solution:
-        'The sum formula run backwards: $\\frac{24}{2}(6 + \\text{last}) = 1440$, so $12(6 + \\text{last}) = 1440$ and $6 + \\text{last} = 120$, giving $\\text{last} = 114$ ✓. Check a second, independent way through the average: $\\frac{1440}{24} = 60$ is the average term and therefore the midpoint of the two ends. The first term is $54$ below $60$, so the last term is $60 + 54 = 114$ ✓. (The choice $120$ is STOPPING AT FIRST PLUS LAST; the choice $126$ is ADDING THE FIRST TERM INSTEAD OF SUBTRACTING IT; the choice $60$ mistakes the average term for the last term.)',
+        'The sum formula run backwards: $\\frac{24}{2}(6 + \\text{last}) = 1440$, so $12(6 + \\text{last}) = 1440$ and $6 + \\text{last} = 120$, giving $\\text{last} = 114$ ✓. Check a second, independent way through the average: $\\frac{1440}{24} = 60$ is the average term and therefore the midpoint of the two ends. The first term is $54$ below $60$, so the last term is $60 + 54 = 114$ ✓. (The choice $120$ is STOPPING AT FIRST PLUS LAST; the choice $60$ mistakes the average term for the last term; the choice $126$ is ADDING THE FIRST TERM INSTEAD OF SUBTRACTING IT.)',
     },
   ],
   // s2 — p10: rows growing by a fixed step — find the back row, then sum the rows.
@@ -246,21 +246,21 @@ const s212 = [
       choices: ['$960$', '$120$', '$480$', '$520$'],
       answer: 2,
       solution:
-        'The tier sizes are $12, 20, 28, \\ldots$ with step $8$. The back tier is the $10$th, and reaching it takes $9$ steps, not $10$: $12 + 9 \\times 8 = 84$ seats. Total: $\\frac{10}{2}(12 + 84) = 5 \\times 96 = 480$ seats ✓. Check a second, independent way by splitting each tier into a base and a growth: every tier has the front tier’s $12$ seats plus some multiple of $8$, so the total is $10 \\times 12 + 8(0 + 1 + \\cdots + 9) = 120 + 8 \\times 45 = 120 + 360 = 480$ ✓. (The choice $520$ is THE FENCEPOST, taking $10$ steps to the back tier and calling it $92$ seats; the choice $960$ is THE FORGOTTEN HALF, $10 \\times 96$; the choice $120$ is USING THE FIRST ROW AS THE AVERAGE, as though all ten tiers held $12$ seats.)',
+        'The tier sizes are $12, 20, 28, \\ldots$ with step $8$. The back tier is the $10$th, and reaching it takes $9$ steps, not $10$: $12 + 9 \\times 8 = 84$ seats. Total: $\\frac{10}{2}(12 + 84) = 5 \\times 96 = 480$ seats ✓. Check a second, independent way by splitting each tier into a base and a growth: every tier has the front tier’s $12$ seats plus some multiple of $8$, so the total is $10 \\times 12 + 8(0 + 1 + \\cdots + 9) = 120 + 8 \\times 45 = 120 + 360 = 480$ ✓. (The choice $960$ is THE FORGOTTEN HALF, $10 \\times 96$; the choice $120$ is USING THE FIRST ROW AS THE AVERAGE, as though all ten tiers held $12$ seats; the choice $520$ is THE FENCEPOST, taking $10$ steps to the back tier and calling it $92$ seats.)',
     },
     {
       q: 'Elena counts the seats in a stadium section with $16$ tiers. The bottom tier has $18$ seats, and each tier above it has $9$ more seats than the tier below it. How many seats are in the section?',
       choices: ['$1368$', '$2736$', '$288$', '$1440$'],
       answer: 0,
       solution:
-        'The tiers hold $18, 27, 36, \\ldots$ seats, a step of $9$. The top tier is the $16$th, which is $15$ steps up: $18 + 15 \\times 9 = 153$ seats. Total: $\\frac{16}{2}(18 + 153) = 8 \\times 171 = 1368$ seats ✓. Check a second, independent way by separating the base from the growth: each tier holds $18$ seats plus a multiple of $9$, so the total is $16 \\times 18 + 9(0 + 1 + \\cdots + 15) = 288 + 9 \\times 120 = 288 + 1080 = 1368$ ✓. (The choice $1440$ is THE FENCEPOST, using $16$ steps to reach a top tier of $162$; the choice $2736$ is THE FORGOTTEN HALF, $16 \\times 171$; the choice $288$ is USING THE FIRST ROW AS THE AVERAGE, $16 \\times 18$.)',
+        'The tiers hold $18, 27, 36, \\ldots$ seats, a step of $9$. The top tier is the $16$th, which is $15$ steps up: $18 + 15 \\times 9 = 153$ seats. Total: $\\frac{16}{2}(18 + 153) = 8 \\times 171 = 1368$ seats ✓. Check a second, independent way by separating the base from the growth: each tier holds $18$ seats plus a multiple of $9$, so the total is $16 \\times 18 + 9(0 + 1 + \\cdots + 15) = 288 + 9 \\times 120 = 288 + 1080 = 1368$ ✓. (The choice $2736$ is THE FORGOTTEN HALF, $16 \\times 171$; the choice $288$ is USING THE FIRST ROW AS THE AVERAGE, $16 \\times 18$; the choice $1440$ is THE FENCEPOST, using $16$ steps to reach a top tier of $162$.)',
     },
     {
       q: 'Jonas sets out $14$ rows of chairs in a community hall. The front row has $9$ chairs, and each row behind it has $12$ more chairs than the row in front of it. How many chairs does he set out?',
       choices: ['$2436$', '$126$', '$1302$', '$1218$'],
       answer: 3,
       solution:
-        'The rows hold $9, 21, 33, \\ldots$ chairs, a step of $12$. The back row is the $14$th, reached in $13$ steps: $9 + 13 \\times 12 = 9 + 156 = 165$ chairs. Total: $\\frac{14}{2}(9 + 165) = 7 \\times 174 = 1218$ chairs ✓. Check a second, independent way by splitting off the growth: every row has the front row’s $9$ chairs plus a multiple of $12$, so the total is $14 \\times 9 + 12(0 + 1 + \\cdots + 13) = 126 + 12 \\times 91 = 126 + 1092 = 1218$ ✓. (The choice $1302$ is THE FENCEPOST, taking $14$ steps and calling the back row $177$ chairs; the choice $2436$ is THE FORGOTTEN HALF, $14 \\times 174$; the choice $126$ is USING THE FIRST ROW AS THE AVERAGE, $14 \\times 9$.)',
+        'The rows hold $9, 21, 33, \\ldots$ chairs, a step of $12$. The back row is the $14$th, reached in $13$ steps: $9 + 13 \\times 12 = 9 + 156 = 165$ chairs. Total: $\\frac{14}{2}(9 + 165) = 7 \\times 174 = 1218$ chairs ✓. Check a second, independent way by splitting off the growth: every row has the front row’s $9$ chairs plus a multiple of $12$, so the total is $14 \\times 9 + 12(0 + 1 + \\cdots + 13) = 126 + 12 \\times 91 = 126 + 1092 = 1218$ ✓. (The choice $2436$ is THE FORGOTTEN HALF, $14 \\times 174$; the choice $126$ is USING THE FIRST ROW AS THE AVERAGE, $14 \\times 9$; the choice $1302$ is THE FENCEPOST, taking $14$ steps and calling the back row $177$ chairs.)',
     },
   ],
 ]

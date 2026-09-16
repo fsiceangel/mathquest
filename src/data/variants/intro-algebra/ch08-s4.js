@@ -324,7 +324,7 @@ const challenge = [
       choices: ['$12.5$', '$12$', '$13$', '$25$'],
       answer: 1,
       solution:
-        'The right angle sits at the origin, so the legs are $5$ and $w$ and the hypotenuse is $\\sqrt{25 + w^2}$. The perimeter gives $5 + w + \\sqrt{25 + w^2} = 30$, so $\\sqrt{25 + w^2} = 25 - w$. Square both sides: $25 + w^2 = 625 - 50w + w^2$, the $w^2$ terms cancel, and $50w = 600$, so $w = 12$. Check it forward: the legs $5$ and $12$ give a hypotenuse of $\\sqrt{25 + 144} = \\sqrt{169} = 13$, and $5 + 12 + 13 = 30$. ✓ (The choice $25$ is $30 - 5$, forgetting that the hypotenuse also eats part of the perimeter; the choice $12.5$ splits the leftover $25$ evenly between the leg and the hypotenuse, but the hypotenuse is always the longer of the two; the choice $13$ is the hypotenuse rather than the leg the question asked for.)',
+        'The right angle sits at the origin, so the legs are $5$ and $w$ and the hypotenuse is $\\sqrt{25 + w^2}$. The perimeter gives $5 + w + \\sqrt{25 + w^2} = 30$, so $\\sqrt{25 + w^2} = 25 - w$. Square both sides: $25 + w^2 = 625 - 50w + w^2$, the $w^2$ terms cancel, and $50w = 600$, so $w = 12$. Check it forward: the legs $5$ and $12$ give a hypotenuse of $\\sqrt{25 + 144} = \\sqrt{169} = 13$, and $5 + 12 + 13 = 30$. ✓ (The choice $12.5$ splits the leftover $25$ evenly between the leg and the hypotenuse, but the hypotenuse is always the longer of the two; the choice $13$ is the hypotenuse rather than the leg the question asked for; the choice $25$ is $30 - 5$, forgetting that the hypotenuse also eats part of the perimeter.)',
     },
     {
       q: 'A rectangle has vertices $(-2, -4)$, $(6, -4)$, $(6, 11)$, and $(-2, 11)$. How long is each of its diagonals?',

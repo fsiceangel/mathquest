@@ -177,7 +177,7 @@ const s113 = [
       choices: ['$200\\pi$', '$100\\pi$', '$400\\pi$', '$10\\pi$'],
       answer: 1,
       solution:
-        'The $90^\\circ$ sector is one fourth of the circle: $\\frac{1}{4} \\cdot \\pi \\cdot 20^2 = \\frac{400\\pi}{4} = 100\\pi$ ✓. Halve twice to confirm: full circle $400\\pi$, half circle $200\\pi$, quarter $100\\pi$ ✓. (The choice $400\\pi$ is the WHOLE CIRCLE ✗; $200\\pi$ STOPS AT THE HALF ✗; $10\\pi$ is a quarter of the CIRCUMFERENCE $40\\pi$, which measures the curved edge, not the floor ✗.)',
+        'The $90^\\circ$ sector is one fourth of the circle: $\\frac{1}{4} \\cdot \\pi \\cdot 20^2 = \\frac{400\\pi}{4} = 100\\pi$ ✓. Halve twice to confirm: full circle $400\\pi$, half circle $200\\pi$, quarter $100\\pi$ ✓. (The choice $200\\pi$ STOPS AT THE HALF ✗; $400\\pi$ is the WHOLE CIRCLE ✗; $10\\pi$ is a quarter of the CIRCUMFERENCE $40\\pi$, which measures the curved edge, not the floor ✗.)',
     },
     {
       q: 'A quarter-circle flower bed of radius $16$ fills a corner at $O$, bounded by $\\overline{OM}$, $\\overline{ON}$, and the arc, as shown. What is its area?',
@@ -214,14 +214,14 @@ const s113 = [
       choices: ['$64\\pi$', '$128\\pi$', '$32\\pi$', '$8\\pi$'],
       answer: 2,
       solution:
-        'The diameter is $16$, so the radius is $8$; the full circle would be $\\pi \\cdot 8^2 = 64\\pi$, and the semicircle is half of it, $32\\pi$ ✓. The diameter formula agrees: $\\frac{\\pi d^2}{8} = \\frac{256\\pi}{8} = 32\\pi$ ✓. (The choice $128\\pi$ SQUARES THE DIAMETER before halving ✗; $64\\pi$ is the FULL CIRCLE ✗; $8\\pi$ is half the CIRCUMFERENCE $16\\pi$, a length ✗.)',
+        'The diameter is $16$, so the radius is $8$; the full circle would be $\\pi \\cdot 8^2 = 64\\pi$, and the semicircle is half of it, $32\\pi$ ✓. The diameter formula agrees: $\\frac{\\pi d^2}{8} = \\frac{256\\pi}{8} = 32\\pi$ ✓. (The choice $64\\pi$ is the FULL CIRCLE ✗; $128\\pi$ SQUARES THE DIAMETER before halving ✗; $8\\pi$ is half the CIRCUMFERENCE $16\\pi$, a length ✗.)',
     },
     {
       q: 'A semicircular patio extends from the straight side of a house; that straight side, the patio’s diameter, is $20$ long. What is the area of the patio?',
       choices: ['$100\\pi$', '$50\\pi$', '$200\\pi$', '$10\\pi$'],
       answer: 1,
       solution:
-        'Radius first: half of the $20$ diameter is $10$, so the full circle would be $\\pi \\cdot 10^2 = 100\\pi$ and the patio is half, $50\\pi$ ✓. Straight from the diameter: $\\frac{\\pi d^2}{8} = \\frac{400\\pi}{8} = 50\\pi$ ✓. (The choice $200\\pi$ SQUARES THE DIAMETER as a radius and halves ✗; $100\\pi$ is the FULL CIRCLE with no halving ✗; $10\\pi$ is half the CIRCUMFERENCE $20\\pi$ — the curved edge’s length, not the floor area ✗.)',
+        'Radius first: half of the $20$ diameter is $10$, so the full circle would be $\\pi \\cdot 10^2 = 100\\pi$ and the patio is half, $50\\pi$ ✓. Straight from the diameter: $\\frac{\\pi d^2}{8} = \\frac{400\\pi}{8} = 50\\pi$ ✓. (The choice $100\\pi$ is the FULL CIRCLE with no halving ✗; $200\\pi$ SQUARES THE DIAMETER as a radius and halves ✗; $10\\pi$ is half the CIRCUMFERENCE $20\\pi$ — the curved edge’s length, not the floor area ✗.)',
     },
   ],
   // s5 — circular segment between chord AB and arc AB, OA ⊥ OB (figure).

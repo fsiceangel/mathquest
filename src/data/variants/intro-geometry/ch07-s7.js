@@ -253,7 +253,7 @@ const challenge = [
       choices: ['$432$', '$90$', '$216$', '$126$'],
       answer: 2,
       solution:
-        'The two distances are exactly $r = 6$ and $R = 15$. The hypotenuse is a diameter of the circumcircle, so $c = 30$, and the right-triangle identity $r = s - c$ gives $s = 6 + 30 = 36$. Then Area $= rs = 6 \\cdot 36 = 216$ ✓. Check a second, independent way via the legs: $a + b = 2s - c = 42$ and $a^2 + b^2 = 900$, so $2ab = 42^2 - 900 = 864$ and Area $= \\frac{ab}{2} = 216$ ✓ — the legs are $18$ and $24$, the $18$-$24$-$30$ triple, whose inradius $\\frac{18 + 24 - 30}{2} = 6$ agrees. (The choice $126$ is TREATING R AS THE HYPOTENUSE, faking $s = 21$; the choice $432$ is USING THE FULL PERIMETER in place of $s$; the choice $90$ is MULTIPLYING THE TWO RADII.)',
+        'The two distances are exactly $r = 6$ and $R = 15$. The hypotenuse is a diameter of the circumcircle, so $c = 30$, and the right-triangle identity $r = s - c$ gives $s = 6 + 30 = 36$. Then Area $= rs = 6 \\cdot 36 = 216$ ✓. Check a second, independent way via the legs: $a + b = 2s - c = 42$ and $a^2 + b^2 = 900$, so $2ab = 42^2 - 900 = 864$ and Area $= \\frac{ab}{2} = 216$ ✓ — the legs are $18$ and $24$, the $18$-$24$-$30$ triple, whose inradius $\\frac{18 + 24 - 30}{2} = 6$ agrees. (The choice $432$ is USING THE FULL PERIMETER in place of $s$; the choice $90$ is MULTIPLYING THE TWO RADII; the choice $126$ is TREATING R AS THE HYPOTENUSE, faking $s = 21$.)',
     },
   ],
 
@@ -480,7 +480,7 @@ const challenge = [
       choices: ['$21$ feet', '$\\frac{30}{7}$ feet', '$10.5$ feet', '$\\frac{60}{7}$ feet'],
       answer: 3,
       solution:
-        'The largest circle tangent to all three lines is the inscribed circle. Half the floor is $20$, so the ridge height is $\\sqrt{29^2 - 20^2} = \\sqrt{441} = 21$ — a $20$-$21$-$29$ right triangle on each side. Area $= \\frac{1}{2} \\cdot 40 \\cdot 21 = 420$ and $s = \\frac{29 + 29 + 40}{2} = 49$, so $r = \\frac{420}{49} = \\frac{60}{7}$ feet ✓. Check a second, independent way from the exact center $\\left(20, \\frac{60}{7}\\right)$: the roof line through $(0, 0)$ and $(20, 21)$ is $21x - 20y = 0$, and the distance to it is $\\frac{|21 \\cdot 20 - 20 \\cdot \\frac{60}{7}|}{29} = \\frac{1740/7}{29} = \\frac{60}{7}$ ✓. (The choice $\\frac{30}{7}$ feet is DIVIDING THE AREA BY THE FULL PERIMETER; the choice $21$ feet is THE RIDGE HEIGHT; the choice $10.5$ feet is DIVIDING THE AREA BY THE FLOOR span.)',
+        'The largest circle tangent to all three lines is the inscribed circle. Half the floor is $20$, so the ridge height is $\\sqrt{29^2 - 20^2} = \\sqrt{441} = 21$ — a $20$-$21$-$29$ right triangle on each side. Area $= \\frac{1}{2} \\cdot 40 \\cdot 21 = 420$ and $s = \\frac{29 + 29 + 40}{2} = 49$, so $r = \\frac{420}{49} = \\frac{60}{7}$ feet ✓. Check a second, independent way from the exact center $\\left(20, \\frac{60}{7}\\right)$: the roof line through $(0, 0)$ and $(20, 21)$ is $21x - 20y = 0$, and the distance to it is $\\frac{|21 \\cdot 20 - 20 \\cdot \\frac{60}{7}|}{29} = \\frac{1740/7}{29} = \\frac{60}{7}$ ✓. (The choice $21$ feet is THE RIDGE HEIGHT; the choice $\\frac{30}{7}$ feet is DIVIDING THE AREA BY THE FULL PERIMETER; the choice $10.5$ feet is DIVIDING THE AREA BY THE FLOOR span.)',
     },
     {
       q: 'A felt pennant is an isosceles triangle with base $14$ inches and equal edges $25$ inches. A circular patch is ironed on so that it touches all three edges of the pennant. What is the radius of the patch?',
@@ -498,7 +498,7 @@ const challenge = [
       choices: ['$24$ inches', '$12$ inches', '$5.25$ inches', '$2.625$ inches'],
       answer: 2,
       solution:
-        'A circle touching all three edges is the inscribed circle. Half the base is $7$, so the height is $\\sqrt{25^2 - 7^2} = \\sqrt{576} = 24$ — a $7$-$24$-$25$ right triangle on each side. Area $= \\frac{1}{2} \\cdot 14 \\cdot 24 = 168$ and $s = \\frac{25 + 25 + 14}{2} = 32$, so $r = \\frac{168}{32} = 5.25$ inches ✓. Check a second, independent way from the exact center $(7, 5.25)$: the slanted edge through $(0, 0)$ and $(7, 24)$ is $24x - 7y = 0$, and the distance to it is $\\frac{|24 \\cdot 7 - 7 \\cdot 5.25|}{25} = \\frac{131.25}{25} = 5.25$ ✓, the same as its height above the base. (The choice $2.625$ inches is DIVIDING THE AREA BY THE FULL PERIMETER; the choice $24$ inches is THE PENNANT HEIGHT; the choice $12$ inches is DIVIDING THE AREA BY THE BASE.)',
+        'A circle touching all three edges is the inscribed circle. Half the base is $7$, so the height is $\\sqrt{25^2 - 7^2} = \\sqrt{576} = 24$ — a $7$-$24$-$25$ right triangle on each side. Area $= \\frac{1}{2} \\cdot 14 \\cdot 24 = 168$ and $s = \\frac{25 + 25 + 14}{2} = 32$, so $r = \\frac{168}{32} = 5.25$ inches ✓. Check a second, independent way from the exact center $(7, 5.25)$: the slanted edge through $(0, 0)$ and $(7, 24)$ is $24x - 7y = 0$, and the distance to it is $\\frac{|24 \\cdot 7 - 7 \\cdot 5.25|}{25} = \\frac{131.25}{25} = 5.25$ ✓, the same as its height above the base. (The choice $24$ inches is THE PENNANT HEIGHT; the choice $12$ inches is DIVIDING THE AREA BY THE BASE; the choice $2.625$ inches is DIVIDING THE AREA BY THE FULL PERIMETER.)',
     },
   ],
 

@@ -56,7 +56,7 @@ const challenge = [
       choices: ['$100^\\circ$', '$45^\\circ$', '$115^\\circ$', '$90^\\circ$'],
       answer: 2,
       solution:
-        'The four interior angles of any quadrilateral total $360^\\circ$: $(x + 10) + 2x + (3x - 20) + (2x + 10) = 8x = 360$, so $x = 45$. The angles are $55^\\circ$, $90^\\circ$, $115^\\circ$, and $100^\\circ$, and the largest is $3x - 20 = 115^\\circ$ ✓. Check a second, independent way by re-adding the finished angles: $55 + 90 + 115 + 100 = 360$ ✓, and the runner-up $2x + 10 = 100^\\circ$ falls $15^\\circ$ short of $115^\\circ$, so $3x - 20$ wins the comparison. (The choice $45^\\circ$ is STOPPING AT $x$ ITSELF; the choice $90^\\circ$ is PICKING $2x$, the right angle in the figure, instead of comparing all four; the choice $100^\\circ$ is MISTAKING $2x + 10$ FOR THE LARGEST because of its $+10$.)',
+        'The four interior angles of any quadrilateral total $360^\\circ$: $(x + 10) + 2x + (3x - 20) + (2x + 10) = 8x = 360$, so $x = 45$. The angles are $55^\\circ$, $90^\\circ$, $115^\\circ$, and $100^\\circ$, and the largest is $3x - 20 = 115^\\circ$ ✓. Check a second, independent way by re-adding the finished angles: $55 + 90 + 115 + 100 = 360$ ✓, and the runner-up $2x + 10 = 100^\\circ$ falls $15^\\circ$ short of $115^\\circ$, so $3x - 20$ wins the comparison. (The choice $100^\\circ$ is MISTAKING $2x + 10$ FOR THE LARGEST because of its $+10$; the choice $45^\\circ$ is STOPPING AT $x$ ITSELF; the choice $90^\\circ$ is PICKING $2x$, the right angle in the figure, instead of comparing all four.)',
     },
     {
       q: 'Four solar panels tile a quadrilateral roof patch. A surveyor records its interior angles, going around the patch, as $x + 35^\\circ$, $2x$, $4x - 30^\\circ$, and $x + 35^\\circ$. Find the largest of the four angles.',
@@ -268,7 +268,7 @@ const challenge = [
       choices: ['$820$', '$1640$', '$360$', '$180$'],
       answer: 2,
       solution:
-        'With all four corners on the bank, the dock’s diagonal is a diameter of the pond: $d = 2 \\times 20.5 = 41$. The short side is $\\sqrt{41^2 - 40^2} = \\sqrt{1681 - 1600} = \\sqrt{81} = 9$ — the $9$-$40$-$41$ triple — so the dock covers $40 \\times 9 = 360$ ✓. Check a second, independent way from the pond’s center: corners $(\\pm 20, \\pm 4.5)$ are $\\sqrt{400 + 20.25} = \\sqrt{420.25} = 20.5$ from the center ✓, and they bound a $40$ by $9$ rectangle of area $360$ ✓. (The choice $1640$ is USING THE DIAGONAL AS A SIDE, $40 \\times 41$; the choice $820$ is MULTIPLYING BY THE RADIUS, $40 \\times 20.5$; the choice $180$ is HALVING THE AREA as if the dock were a triangle.)',
+        'With all four corners on the bank, the dock’s diagonal is a diameter of the pond: $d = 2 \\times 20.5 = 41$. The short side is $\\sqrt{41^2 - 40^2} = \\sqrt{1681 - 1600} = \\sqrt{81} = 9$ — the $9$-$40$-$41$ triple — so the dock covers $40 \\times 9 = 360$ ✓. Check a second, independent way from the pond’s center: corners $(\\pm 20, \\pm 4.5)$ are $\\sqrt{400 + 20.25} = \\sqrt{420.25} = 20.5$ from the center ✓, and they bound a $40$ by $9$ rectangle of area $360$ ✓. (The choice $820$ is MULTIPLYING BY THE RADIUS, $40 \\times 20.5$; the choice $1640$ is USING THE DIAGONAL AS A SIDE, $40 \\times 41$; the choice $180$ is HALVING THE AREA as if the dock were a triangle.)',
     },
   ],
 
@@ -416,7 +416,7 @@ const challenge = [
       choices: ['$234$', '$156$', '$216$', '$432$'],
       answer: 2,
       solution:
-        'The overhang on each side is $\\frac{23 - 13}{2} = 5$ feet, so the height is $\\sqrt{13^2 - 5^2} = \\sqrt{144} = 12$ feet. Area $= \\frac{23 + 13}{2} \\times 12 = 18 \\times 12 = 216$ ✓. Check a second, independent way by slicing: the middle $13 \\times 12$ rectangle holds $156$, and the two side triangles hold $2 \\times \\frac{1}{2} \\cdot 5 \\cdot 12 = 60$, so $156 + 60 = 216$ ✓. (The choice $234$ is USING THE SLANT EDGE AS THE HEIGHT, $18 \\times 13$; the choice $432$ is FORGETTING TO HALVE the base sum, $36 \\times 12$; the choice $156$ is MULTIPLYING ONLY THE SHORT EDGE by the height, $13 \\times 12$.)',
+        'The overhang on each side is $\\frac{23 - 13}{2} = 5$ feet, so the height is $\\sqrt{13^2 - 5^2} = \\sqrt{144} = 12$ feet. Area $= \\frac{23 + 13}{2} \\times 12 = 18 \\times 12 = 216$ ✓. Check a second, independent way by slicing: the middle $13 \\times 12$ rectangle holds $156$, and the two side triangles hold $2 \\times \\frac{1}{2} \\cdot 5 \\cdot 12 = 60$, so $156 + 60 = 216$ ✓. (The choice $234$ is USING THE SLANT EDGE AS THE HEIGHT, $18 \\times 13$; the choice $156$ is MULTIPLYING ONLY THE SHORT EDGE by the height, $13 \\times 12$; the choice $432$ is FORGETTING TO HALVE the base sum, $36 \\times 12$.)',
     },
     {
       q: 'The cross-section of a drainage channel is an isosceles trapezoid with parallel sides $30$ and $14$ and equal legs of $17$. What is the cross-sectional area?',
@@ -467,7 +467,7 @@ const challenge = [
       choices: ['$46$', '$136$', '$68$', '$17$'],
       answer: 2,
       solution:
-        'With diagonals $8k$ and $15k$: $\\frac{(8k)(15k)}{2} = 60k^2 = 240$, so $k^2 = 4$ and $k = 2$ — diagonals $16$ and $30$. Half-diagonals $8$ and $15$ make each edge $\\sqrt{8^2 + 15^2} = 17$, so the stripping totals $4 \\times 17 = 68$ ✓. Check a second, independent way by rebuilding the area from the four congruent right triangles: $4 \\times \\frac{1}{2} \\cdot 8 \\cdot 15 = 240$ ✓, and each hypotenuse is the $8$-$15$-$17$ triple’s $17$ ✓. (The choice $136$ is USING THE FULL DIAGONALS AS LEGS, faking an edge of $34$; the choice $46$ is ADDING THE DIAGONALS $16 + 30$; the choice $17$ is STOPPING AT ONE EDGE.)',
+        'With diagonals $8k$ and $15k$: $\\frac{(8k)(15k)}{2} = 60k^2 = 240$, so $k^2 = 4$ and $k = 2$ — diagonals $16$ and $30$. Half-diagonals $8$ and $15$ make each edge $\\sqrt{8^2 + 15^2} = 17$, so the stripping totals $4 \\times 17 = 68$ ✓. Check a second, independent way by rebuilding the area from the four congruent right triangles: $4 \\times \\frac{1}{2} \\cdot 8 \\cdot 15 = 240$ ✓, and each hypotenuse is the $8$-$15$-$17$ triple’s $17$ ✓. (The choice $46$ is ADDING THE DIAGONALS $16 + 30$; the choice $136$ is USING THE FULL DIAGONALS AS LEGS, faking an edge of $34$; the choice $17$ is STOPPING AT ONE EDGE.)',
     },
   ],
 
@@ -595,7 +595,7 @@ const challenge = [
       choices: ['$273$', '$504$', '$315$', '$252$'],
       answer: 3,
       solution:
-        'Drop both heights; the bases differ by $28 - 14 = 14$, split as $x$ under the $13$-edge and $y$ under the $15$-edge with $x + y = 14$. Equal heights force $13^2 - x^2 = 15^2 - y^2$, so $y^2 - x^2 = 56$ and $y - x = \\frac{56}{14} = 4$: $y = 9$, $x = 5$, and $h = \\sqrt{169 - 25} = 12$. Area $= \\frac{28 + 14}{2} \\times 12 = 21 \\times 12 = 252$ ✓. Check a second, independent way: the other edge confirms the height, $\\sqrt{15^2 - 9^2} = \\sqrt{144} = 12$ ✓, and the decomposition $14 \\times 12 + \\frac{1}{2} \\cdot 5 \\cdot 12 + \\frac{1}{2} \\cdot 9 \\cdot 12 = 168 + 30 + 54 = 252$ ✓. (The choice $273$ is USING THE $13$-EDGE AS THE HEIGHT, $21 \\times 13$; the choice $315$ is USING THE $15$-EDGE AS THE HEIGHT, $21 \\times 15$; the choice $504$ is FORGETTING TO HALVE the base sum, $42 \\times 12$.)',
+        'Drop both heights; the bases differ by $28 - 14 = 14$, split as $x$ under the $13$-edge and $y$ under the $15$-edge with $x + y = 14$. Equal heights force $13^2 - x^2 = 15^2 - y^2$, so $y^2 - x^2 = 56$ and $y - x = \\frac{56}{14} = 4$: $y = 9$, $x = 5$, and $h = \\sqrt{169 - 25} = 12$. Area $= \\frac{28 + 14}{2} \\times 12 = 21 \\times 12 = 252$ ✓. Check a second, independent way: the other edge confirms the height, $\\sqrt{15^2 - 9^2} = \\sqrt{144} = 12$ ✓, and the decomposition $14 \\times 12 + \\frac{1}{2} \\cdot 5 \\cdot 12 + \\frac{1}{2} \\cdot 9 \\cdot 12 = 168 + 30 + 54 = 252$ ✓. (The choice $273$ is USING THE $13$-EDGE AS THE HEIGHT, $21 \\times 13$; the choice $504$ is FORGETTING TO HALVE the base sum, $42 \\times 12$; the choice $315$ is USING THE $15$-EDGE AS THE HEIGHT, $21 \\times 15$.)',
     },
     {
       q: 'A garden plot shaped like a trapezoid has parallel edges $33$ and $12$ meters long and slanted edges of $10$ and $17$ meters. How many square meters of sod does the plot need?',
@@ -621,7 +621,7 @@ const challenge = [
       choices: ['$225$', '$360$', '$180$', '$382.5$'],
       answer: 2,
       solution:
-        'The bases differ by $33 - 12 = 21$; write the overhangs as $x$ under the $10$-edge and $y$ under the $17$-edge, so $x + y = 21$. Matching heights give $10^2 - x^2 = 17^2 - y^2$, so $y^2 - x^2 = 189$ and $y - x = \\frac{189}{21} = 9$: $y = 15$, $x = 6$, and $h = \\sqrt{100 - 36} = 8$. Area $= \\frac{33 + 12}{2} \\times 8 = 22.5 \\times 8 = 180$ ✓. Check a second, independent way: the $17$-edge gives the same height, $\\sqrt{289 - 225} = 8$ ✓, and slicing yields $12 \\times 8 + \\frac{1}{2} \\cdot 6 \\cdot 8 + \\frac{1}{2} \\cdot 15 \\cdot 8 = 96 + 24 + 60 = 180$ ✓. (The choice $225$ is USING THE $10$-EDGE AS THE HEIGHT, $22.5 \\times 10$; the choice $382.5$ is USING THE $17$-EDGE AS THE HEIGHT, $22.5 \\times 17$; the choice $360$ is FORGETTING TO HALVE the base sum, $45 \\times 8$.)',
+        'The bases differ by $33 - 12 = 21$; write the overhangs as $x$ under the $10$-edge and $y$ under the $17$-edge, so $x + y = 21$. Matching heights give $10^2 - x^2 = 17^2 - y^2$, so $y^2 - x^2 = 189$ and $y - x = \\frac{189}{21} = 9$: $y = 15$, $x = 6$, and $h = \\sqrt{100 - 36} = 8$. Area $= \\frac{33 + 12}{2} \\times 8 = 22.5 \\times 8 = 180$ ✓. Check a second, independent way: the $17$-edge gives the same height, $\\sqrt{289 - 225} = 8$ ✓, and slicing yields $12 \\times 8 + \\frac{1}{2} \\cdot 6 \\cdot 8 + \\frac{1}{2} \\cdot 15 \\cdot 8 = 96 + 24 + 60 = 180$ ✓. (The choice $225$ is USING THE $10$-EDGE AS THE HEIGHT, $22.5 \\times 10$; the choice $360$ is FORGETTING TO HALVE the base sum, $45 \\times 8$; the choice $382.5$ is USING THE $17$-EDGE AS THE HEIGHT, $22.5 \\times 17$.)',
     },
     {
       q: 'In trapezoid $ABCD$, $\\overline{AB} \\parallel \\overline{CD}$, with $AB = 26$, $CD = 12$, $AD = 13$, and $BC = 15$. Find the area of $ABCD$.',
@@ -647,7 +647,7 @@ const challenge = [
       choices: ['$247$', '$228$', '$456$', '$285$'],
       answer: 1,
       solution:
-        'Drop heights from $D$ and $C$; the bases differ by $26 - 12 = 14$, split as $x$ under $\\overline{AD}$ and $y$ under $\\overline{BC}$ with $x + y = 14$. Equal heights force $13^2 - x^2 = 15^2 - y^2$, so $y^2 - x^2 = 56$ and $y - x = 4$: $x = 5$, $y = 9$, and $h = \\sqrt{169 - 25} = 12$. Area $= \\frac{26 + 12}{2} \\times 12 = 19 \\times 12 = 228$ ✓. Check a second, independent way: leg $\\overline{BC}$ confirms $h = \\sqrt{225 - 81} = 12$ ✓, and the rectangle-plus-triangles split gives $12 \\times 12 + \\frac{1}{2} \\cdot 5 \\cdot 12 + \\frac{1}{2} \\cdot 9 \\cdot 12 = 144 + 30 + 54 = 228$ ✓. (The choice $247$ is USING LEG $AD$ AS THE HEIGHT, $19 \\times 13$; the choice $285$ is USING LEG $BC$ AS THE HEIGHT, $19 \\times 15$; the choice $456$ is FORGETTING TO HALVE the base sum, $38 \\times 12$.)',
+        'Drop heights from $D$ and $C$; the bases differ by $26 - 12 = 14$, split as $x$ under $\\overline{AD}$ and $y$ under $\\overline{BC}$ with $x + y = 14$. Equal heights force $13^2 - x^2 = 15^2 - y^2$, so $y^2 - x^2 = 56$ and $y - x = 4$: $x = 5$, $y = 9$, and $h = \\sqrt{169 - 25} = 12$. Area $= \\frac{26 + 12}{2} \\times 12 = 19 \\times 12 = 228$ ✓. Check a second, independent way: leg $\\overline{BC}$ confirms $h = \\sqrt{225 - 81} = 12$ ✓, and the rectangle-plus-triangles split gives $12 \\times 12 + \\frac{1}{2} \\cdot 5 \\cdot 12 + \\frac{1}{2} \\cdot 9 \\cdot 12 = 144 + 30 + 54 = 228$ ✓. (The choice $247$ is USING LEG $AD$ AS THE HEIGHT, $19 \\times 13$; the choice $456$ is FORGETTING TO HALVE the base sum, $38 \\times 12$; the choice $285$ is USING LEG $BC$ AS THE HEIGHT, $19 \\times 15$.)',
     },
   ],
 ]

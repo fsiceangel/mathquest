@@ -26,7 +26,7 @@ const s123 = [
       choices: ['$-4$', '$9i$', '$9$', '$5$'],
       answer: 2,
       solution:
-        'Line the number up with the pattern $a + bi$: here $a = -4$ and $b = 9$, so the imaginary part is $9$ ✓. Check it a second way by rebuilding the number from the two parts you claim it has: real part $-4$, plus $9$ copies of $i$, gives $-4 + 9i$ ✓ — exactly the number we started with. Notice that the imaginary part is a plain real number; the $i$ is a label, not part of the value. (The choice $9i$ keeps the $i$ attached, which is the most common slip of all; the choice $-4$ reports the real part instead of the imaginary part; the choice $5$ comes from adding the two parts, $-4 + 9 = 5$, as if a real part and an imaginary part could merge into one number — they never can.)',
+        'Line the number up with the pattern $a + bi$: here $a = -4$ and $b = 9$, so the imaginary part is $9$ ✓. Check it a second way by rebuilding the number from the two parts you claim it has: real part $-4$, plus $9$ copies of $i$, gives $-4 + 9i$ ✓ — exactly the number we started with. Notice that the imaginary part is a plain real number; the $i$ is a label, not part of the value. (The choice $-4$ reports the real part instead of the imaginary part; the choice $9i$ keeps the $i$ attached, which is the most common slip of all; the choice $5$ comes from adding the two parts, $-4 + 9 = 5$, as if a real part and an imaginary part could merge into one number — they never can.)',
     },
     {
       q: 'What is the real part of $6i - 11$?',
@@ -74,7 +74,7 @@ const s123 = [
       choices: ['$11 + 4i$', '$-5 - 14i$', '$-5 - 4i$', '$-5 + 4i$'],
       answer: 3,
       solution:
-        'The minus sign in front of the bracket belongs to BOTH parts inside it, so $-(8 - 9i)$ becomes $-8 + 9i$. Real: $3 - 8 = -5$. Imaginary: $-5 + 9 = 4$. The answer is $-5 + 4i$ ✓. Check by adding it back: $(-5 + 4i) + (8 - 9i)$ has real part $3$ ✓ and imaginary part $4 - 9 = -5$ ✓, which is the $3 - 5i$ we started from. (The choice $-5 - 14i$ hands the minus sign only to the $8$ and computes $-5 + (-9) = -14$; the choice $11 + 4i$ adds the real parts, $3 + 8$, instead of subtracting; the choice $-5 - 4i$ does the imaginary subtraction upside down, $-9 - (-5) = -4$.)',
+        'The minus sign in front of the bracket belongs to BOTH parts inside it, so $-(8 - 9i)$ becomes $-8 + 9i$. Real: $3 - 8 = -5$. Imaginary: $-5 + 9 = 4$. The answer is $-5 + 4i$ ✓. Check by adding it back: $(-5 + 4i) + (8 - 9i)$ has real part $3$ ✓ and imaginary part $4 - 9 = -5$ ✓, which is the $3 - 5i$ we started from. (The choice $11 + 4i$ adds the real parts, $3 + 8$, instead of subtracting; the choice $-5 - 14i$ hands the minus sign only to the $8$ and computes $-5 + (-9) = -14$; the choice $-5 - 4i$ does the imaginary subtraction upside down, $-9 - (-5) = -4$.)',
     },
     {
       q: 'Compute $(4 + 9i) - (10 + 9i)$.',
@@ -105,7 +105,7 @@ const s123 = [
       choices: ['$-8 - 5i$', '$8 + 5i$', '$-8 + 5i$', '$8 - 5i$'],
       answer: 3,
       solution:
-        'Running the conjugate backwards is the same move as running it forwards, because taking the conjugate twice brings you home. Flip the sign of the imaginary part of $8 + 5i$ to get $z = 8 - 5i$ ✓. Check forward: the conjugate of $8 - 5i$ keeps the $8$ and flips $-5i$ to $+5i$, giving $8 + 5i$ ✓ — the number we were told. (The choice $8 + 5i$ assumes a number is its own conjugate, which is only true for real numbers; the choice $-8 - 5i$ negates the whole number; the choice $-8 + 5i$ flips the real part instead of the imaginary part.)',
+        'Running the conjugate backwards is the same move as running it forwards, because taking the conjugate twice brings you home. Flip the sign of the imaginary part of $8 + 5i$ to get $z = 8 - 5i$ ✓. Check forward: the conjugate of $8 - 5i$ keeps the $8$ and flips $-5i$ to $+5i$, giving $8 + 5i$ ✓ — the number we were told. (The choice $-8 - 5i$ negates the whole number; the choice $8 + 5i$ assumes a number is its own conjugate, which is only true for real numbers; the choice $-8 + 5i$ flips the real part instead of the imaginary part.)',
     },
     {
       q: 'Which of these numbers is equal to its own conjugate?',
@@ -136,7 +136,7 @@ const s123 = [
       choices: ['$-3$', '$5$', '$10$', '$20$'],
       answer: 1,
       solution:
-        'Multiply out with $k$ still unknown: $2i(k + 3i) = 2ki + 6i^2 = -6 + 2ki$. Two complex numbers are equal only when the real parts match AND the imaginary parts match. The real parts already agree, since both are $-6$, so we need $2k = 10$, giving $k = 5$ ✓. Check forward with the actual number: $2i(5 + 3i) = 10i + 6i^2 = -6 + 10i$ ✓. (The choice $10$ reads the imaginary part off as $k$ itself and forgets that $k$ was multiplied by $2$; the choice $20$ multiplies by $2$ where it should have divided; the choice $-3$ matches $k$ against the REAL part instead, computing $-6 \\div 2$ — but the real part came from $6i^2$ and has nothing to do with $k$.)',
+        'Multiply out with $k$ still unknown: $2i(k + 3i) = 2ki + 6i^2 = -6 + 2ki$. Two complex numbers are equal only when the real parts match AND the imaginary parts match. The real parts already agree, since both are $-6$, so we need $2k = 10$, giving $k = 5$ ✓. Check forward with the actual number: $2i(5 + 3i) = 10i + 6i^2 = -6 + 10i$ ✓. (The choice $-3$ matches $k$ against the REAL part instead, computing $-6 \\div 2$ — but the real part came from $6i^2$ and has nothing to do with $k$; the choice $10$ reads the imaginary part off as $k$ itself and forgets that $k$ was multiplied by $2$; the choice $20$ multiplies by $2$ where it should have divided.)',
     },
   ],
   // p6 — full binomial multiplication
@@ -218,7 +218,7 @@ const s123 = [
       choices: ['$36$', '$6$', '$-6$', '$-36$'],
       answer: 0,
       solution:
-        'Work backwards from a root. Putting $x = 6i$ into the equation gives $(6i)^2 + k = 0$, and $(6i)^2 = 36i^2 = -36$, so $-36 + k = 0$ and $k = 36$ ✓. Check a second, independent way by multiplying the roots back into a quadratic: $(x - 6i)(x + 6i) = x^2 - 36i^2 = x^2 + 36$, so $k = 36$ ✓ — the same answer from a different direction. (The choice $-36$ reads $k$ as equal to $x^2$ instead of its opposite, and substituting it gives $-36 - 36 = -72 \\ne 0$ ✗; the choice $6$ takes the coefficient of $i$ without squaring it; the choice $-6$ makes both mistakes at once.)',
+        'Work backwards from a root. Putting $x = 6i$ into the equation gives $(6i)^2 + k = 0$, and $(6i)^2 = 36i^2 = -36$, so $-36 + k = 0$ and $k = 36$ ✓. Check a second, independent way by multiplying the roots back into a quadratic: $(x - 6i)(x + 6i) = x^2 - 36i^2 = x^2 + 36$, so $k = 36$ ✓ — the same answer from a different direction. (The choice $6$ takes the coefficient of $i$ without squaring it; the choice $-6$ makes both mistakes at once; the choice $-36$ reads $k$ as equal to $x^2$ instead of its opposite, and substituting it gives $-36 - 36 = -72 \\ne 0$ ✗.)',
     },
   ],
   // p9 — divide by a complex number using the conjugate
@@ -242,7 +242,7 @@ const s123 = [
       choices: ['$8 + 8i$', '$5 + 10i$', '$8 + 4i$', '$4 + 8i$'],
       answer: 3,
       solution:
-        'The conjugate of the bottom is $3 + i$, so multiply top and bottom by it. Bottom: $(3 - i)(3 + i) = 9 + 1 = 10$. Top: $(20 + 20i)(3 + i) = 60 + 20i + 60i + 20i^2 = 40 + 80i$, using $20i^2 = -20$. Divide both parts by $10$: $\\dfrac{40 + 80i}{10} = 4 + 8i$ ✓. Check by multiplying back: $(4 + 8i)(3 - i) = 12 - 4i + 24i - 8i^2 = 12 + 8 + 20i = 20 + 20i$ ✓. (The choice $5 + 10i$ makes the denominator sign slip, $9 - 1 = 8$, and $\\frac{40 + 80i}{8} = 5 + 10i$; the choice $8 + 4i$ multiplies the bottom by the conjugate but the top by the original $3 - i$, giving $\\frac{80 + 40i}{10}$; the choice $8 + 8i$ replaces $i^2$ with $+1$ in the top, turning $40 + 80i$ into $80 + 80i$.)',
+        'The conjugate of the bottom is $3 + i$, so multiply top and bottom by it. Bottom: $(3 - i)(3 + i) = 9 + 1 = 10$. Top: $(20 + 20i)(3 + i) = 60 + 20i + 60i + 20i^2 = 40 + 80i$, using $20i^2 = -20$. Divide both parts by $10$: $\\dfrac{40 + 80i}{10} = 4 + 8i$ ✓. Check by multiplying back: $(4 + 8i)(3 - i) = 12 - 4i + 24i - 8i^2 = 12 + 8 + 20i = 20 + 20i$ ✓. (The choice $8 + 8i$ replaces $i^2$ with $+1$ in the top, turning $40 + 80i$ into $80 + 80i$; the choice $5 + 10i$ makes the denominator sign slip, $9 - 1 = 8$, and $\\frac{40 + 80i}{8} = 5 + 10i$; the choice $8 + 4i$ multiplies the bottom by the conjugate but the top by the original $3 - i$, giving $\\frac{80 + 40i}{10}$.)',
     },
   ],
   // p10 — quadratics with complex roots

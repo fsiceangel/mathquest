@@ -801,7 +801,7 @@ const challenge = [
       choices: ['$5$', '$10$', '$30$', '$6$'],
       answer: 2,
       solution:
-        'Crossing chords give $AP \\times PB = PC \\times PD = 6 \\times 25 = 150$, and the two pieces of $AB$ add to $35$. The pair with product $150$ and sum $35$ is $5$ and $30$, so the longer piece is $30$ in ✓. Check a second, independent way from the midpoint $M$ of $AB$: the pieces are $17.5 - MP$ and $17.5 + MP$, so their product is $306.25 - MP^2 = 150$, giving $MP^2 = 156.25$ and $MP = 12.5$. The longer piece is $17.5 + 12.5 = 30$ in ✓. (The choice $5$ is REPORTING THE SHORTER PIECE ✗; the choice $6$ is COPYING $PC$ ✗; the choice $10$ is SUBTRACTING $PD$ FROM THE WHOLE LINE ✗.)',
+        'Crossing chords give $AP \\times PB = PC \\times PD = 6 \\times 25 = 150$, and the two pieces of $AB$ add to $35$. The pair with product $150$ and sum $35$ is $5$ and $30$, so the longer piece is $30$ in ✓. Check a second, independent way from the midpoint $M$ of $AB$: the pieces are $17.5 - MP$ and $17.5 + MP$, so their product is $306.25 - MP^2 = 150$, giving $MP^2 = 156.25$ and $MP = 12.5$. The longer piece is $17.5 + 12.5 = 30$ in ✓. (The choice $5$ is REPORTING THE SHORTER PIECE ✗; the choice $10$ is SUBTRACTING $PD$ FROM THE WHOLE LINE ✗; the choice $6$ is COPYING $PC$ ✗.)',
     },
   ],
   // slot 11 — tangent plus a secant through the center; find the radius.
@@ -883,7 +883,7 @@ const challenge = [
       choices: ['$50$', '$65$', '$25$', '$90$'],
       answer: 2,
       solution:
-        'The tangent rule says $PT^2 = PA \\times PB$, so $60^2 = 40 \\times PB$, that is $3600 = 40\\,PB$ and $PB = 90$ ft. The corridor runs through the center, so $AB$ is a diameter, and $AB = PB - PA = 90 - 40 = 50$ ft, making the radius $25$ ft ✓. Check a second, independent way with the right triangle $PTO$: $PT^2 + r^2 = PO^2$ with $PO = 40 + r$, so $3600 + r^2 = 1600 + 80r + r^2$, giving $80r = 2000$ and $r = 25$ ft ✓. (The choice $50$ is REPORTING THE DIAMETER INSTEAD OF THE RADIUS ✗; the choice $90$ is REPORTING $PB$ rather than the dome ✗; the choice $65$ is REPORTING THE DISTANCE FROM $P$ TO THE CENTER ✗.)',
+        'The tangent rule says $PT^2 = PA \\times PB$, so $60^2 = 40 \\times PB$, that is $3600 = 40\\,PB$ and $PB = 90$ ft. The corridor runs through the center, so $AB$ is a diameter, and $AB = PB - PA = 90 - 40 = 50$ ft, making the radius $25$ ft ✓. Check a second, independent way with the right triangle $PTO$: $PT^2 + r^2 = PO^2$ with $PO = 40 + r$, so $3600 + r^2 = 1600 + 80r + r^2$, giving $80r = 2000$ and $r = 25$ ft ✓. (The choice $50$ is REPORTING THE DIAMETER INSTEAD OF THE RADIUS ✗; the choice $65$ is REPORTING THE DISTANCE FROM $P$ TO THE CENTER ✗; the choice $90$ is REPORTING $PB$ rather than the dome ✗.)',
     },
   ],
   // slot 12 — crossing chords with one chord cut in the ratio 2 to 1.
@@ -935,7 +935,7 @@ const challenge = [
       choices: ['$4\\sqrt{7}$', '$6\\sqrt{7}$', '$2\\sqrt{7}$', '$6\\sqrt{14}$'],
       answer: 1,
       solution:
-        'Let $PB = x$, so $AP = 2x$. Crossing chords give $2x \\times x = 4 \\times 14 = 56$, so $2x^2 = 56$, $x^2 = 28$ and $x = 2\\sqrt{7}$. Then $AB = 3x = 6\\sqrt{7}$ in ✓. Check a second, independent way straight in $AB$: the meeting point splits $AB$ into thirds, so $AP \\times PB = \\frac{2}{3}AB \\times \\frac{1}{3}AB = \\frac{2}{9}AB^2$. Setting that equal to $56$ gives $AB^2 = 252 = 36 \\times 7$, so $AB = 6\\sqrt{7}$ in ✓. (The choice $2\\sqrt{7}$ is REPORTING THE SHORT PIECE $PB$ ✗; the choice $4\\sqrt{7}$ is REPORTING THE LONG PIECE $AP$ ✗; the choice $6\\sqrt{14}$ is FORGETTING THE FACTOR OF TWO and solving $x^2 = 56$ ✗.)',
+        'Let $PB = x$, so $AP = 2x$. Crossing chords give $2x \\times x = 4 \\times 14 = 56$, so $2x^2 = 56$, $x^2 = 28$ and $x = 2\\sqrt{7}$. Then $AB = 3x = 6\\sqrt{7}$ in ✓. Check a second, independent way straight in $AB$: the meeting point splits $AB$ into thirds, so $AP \\times PB = \\frac{2}{3}AB \\times \\frac{1}{3}AB = \\frac{2}{9}AB^2$. Setting that equal to $56$ gives $AB^2 = 252 = 36 \\times 7$, so $AB = 6\\sqrt{7}$ in ✓. (The choice $4\\sqrt{7}$ is REPORTING THE LONG PIECE $AP$ ✗; the choice $2\\sqrt{7}$ is REPORTING THE SHORT PIECE $PB$ ✗; the choice $6\\sqrt{14}$ is FORGETTING THE FACTOR OF TWO and solving $x^2 = 56$ ✗.)',
     },
     {
       q: 'A large circular clock face has two straight guide lines scored across it. One runs from $A$ to $B$, the other from $C$ to $D$, and they cross at $P$. There $PC = 3$ cm, $PD = 20$ cm, and $AP$ is exactly twice $PB$. How long is the guide line $AB$?',

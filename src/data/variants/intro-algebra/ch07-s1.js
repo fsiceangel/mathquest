@@ -37,7 +37,7 @@ const s71 = [
       choices: ['$x$', '$\\frac{5}{2}$', '$\\frac{2}{5}$', '$\\frac{2}{5}x$'],
       answer: 2,
       solution:
-        'The rule is already in the form $y = kx$, so $k = \\frac{2}{5}$. Check the ratio on a pair: at $x = 10$ the rule gives $y = 4$, and $k = \\frac{y}{x} = \\frac{4}{10} = \\frac{2}{5}$. ✓ A constant of proportionality is allowed to be less than $1$ — that just means $y$ grows more slowly than $x$. (The choice $\\frac{5}{2}$ flips the ratio, computing $\\frac{x}{y}$ instead of $\\frac{y}{x}$; the choice $\\frac{2}{5}x$ leaves the variable attached; the choice $x$ names the wrong factor.)',
+        'The rule is already in the form $y = kx$, so $k = \\frac{2}{5}$. Check the ratio on a pair: at $x = 10$ the rule gives $y = 4$, and $k = \\frac{y}{x} = \\frac{4}{10} = \\frac{2}{5}$. ✓ A constant of proportionality is allowed to be less than $1$ — that just means $y$ grows more slowly than $x$. (The choice $x$ names the wrong factor; the choice $\\frac{5}{2}$ flips the ratio, computing $\\frac{x}{y}$ instead of $\\frac{y}{x}$; the choice $\\frac{2}{5}x$ leaves the variable attached.)',
     },
     {
       q: 'A direct proportion is written $x = 4y$. What is the constant of proportionality $k$ in the form $y = kx$?',
@@ -141,21 +141,21 @@ const s71 = [
       choices: ['$25$', '$35$', '$12.6$', '$126$'],
       answer: 1,
       solution:
-        'Find the constant ratio first: $k = \\frac{y}{x} = \\frac{21}{6} = 3.5$, so $y = 3.5x$. At $x = 10$: $y = 3.5 \\times 10 = 35$. Check the constant on BOTH pairs: $\\frac{21}{6} = 3.5$ and $\\frac{35}{10} = 3.5$. ✓ (The choice $12.6$ treats the pair as INVERSE, using $k = xy = 126$ and computing $\\frac{126}{10}$ — but in direct proportion a bigger $x$ must give a bigger $y$, not a smaller one; the choice $126$ stops at that wrong constant; the choice $25$ ADDS $4$ to $y$ because $x$ rose by $4$, and direct proportion scales by multiplying, not by adding.)',
+        'Find the constant ratio first: $k = \\frac{y}{x} = \\frac{21}{6} = 3.5$, so $y = 3.5x$. At $x = 10$: $y = 3.5 \\times 10 = 35$. Check the constant on BOTH pairs: $\\frac{21}{6} = 3.5$ and $\\frac{35}{10} = 3.5$. ✓ (The choice $25$ ADDS $4$ to $y$ because $x$ rose by $4$, and direct proportion scales by multiplying, not by adding; the choice $12.6$ treats the pair as INVERSE, using $k = xy = 126$ and computing $\\frac{126}{10}$ — but in direct proportion a bigger $x$ must give a bigger $y$, not a smaller one; the choice $126$ stops at that wrong constant.)',
     },
     {
       q: 'Suppose $y$ is directly proportional to $x$, and $y = 18$ when $x = 8$. What is $y$ when $x = 20$?',
       choices: ['$30$', '$7.2$', '$45$', '$144$'],
       answer: 2,
       solution:
-        'The constant ratio is $k = \\frac{18}{8} = 2.25$, so $y = 2.25x$ and at $x = 20$, $y = 2.25 \\times 20 = 45$. The constant holds on both pairs: $\\frac{18}{8} = 2.25$ and $\\frac{45}{20} = 2.25$. ✓ (The choice $7.2$ uses the INVERSE model, taking $k = xy = 144$ and computing $\\frac{144}{20}$; the choice $144$ reports that product itself; the choice $30$ adds $12$ to $y$ because $x$ went up by $12$.)',
+        'The constant ratio is $k = \\frac{18}{8} = 2.25$, so $y = 2.25x$ and at $x = 20$, $y = 2.25 \\times 20 = 45$. The constant holds on both pairs: $\\frac{18}{8} = 2.25$ and $\\frac{45}{20} = 2.25$. ✓ (The choice $30$ adds $12$ to $y$ because $x$ went up by $12$; the choice $7.2$ uses the INVERSE model, taking $k = xy = 144$ and computing $\\frac{144}{20}$; the choice $144$ reports that product itself.)',
     },
     {
       q: 'Suppose $y$ is directly proportional to $x$, and $y = 27$ when $x = 12$. What is $x$ when $y = 45$?',
       choices: ['$30$', '$101.25$', '$7.2$', '$20$'],
       answer: 3,
       solution:
-        'The constant ratio is $k = \\frac{27}{12} = 2.25$, so $y = 2.25x$. Now $y$ is the known one: $x = \\frac{45}{2.25} = 20$. Check the constant on both pairs: $\\frac{27}{12} = 2.25$ and $\\frac{45}{20} = 2.25$. ✓ (The choice $7.2$ treats the pair as INVERSE, using $k = xy = 324$ and computing $\\frac{324}{45}$ — that would make $x$ shrink while $y$ grew; the choice $101.25$ multiplies $45$ by the constant instead of dividing; the choice $30$ adds $18$ to $x$ because $y$ climbed by $18$.)',
+        'The constant ratio is $k = \\frac{27}{12} = 2.25$, so $y = 2.25x$. Now $y$ is the known one: $x = \\frac{45}{2.25} = 20$. Check the constant on both pairs: $\\frac{27}{12} = 2.25$ and $\\frac{45}{20} = 2.25$. ✓ (The choice $30$ adds $18$ to $x$ because $y$ climbed by $18$; the choice $101.25$ multiplies $45$ by the constant instead of dividing; the choice $7.2$ treats the pair as INVERSE, using $k = xy = 324$ and computing $\\frac{324}{45}$ — that would make $x$ shrink while $y$ grew.)',
     },
   ],
   // p6 — scale one variable, describe what the other does
@@ -196,14 +196,14 @@ const s71 = [
       choices: ['$249$', '$600$', '$96$', '$1440$'],
       answer: 1,
       solution:
-        'The press runs at one steady rate and nothing caps the job, so pages are directly proportional to time: $k = \\frac{y}{x} = \\frac{240}{6} = 40$ pages per minute. In $15$ minutes it prints $40 \\times 15 = 600$ pages. Check the rate on both pairs: $\\frac{240}{6} = 40$ and $\\frac{600}{15} = 40$. ✓ (The choice $96$ uses the INVERSE model, treating $xy = 1440$ as the constant and computing $\\frac{1440}{15}$ — that says running longer prints fewer pages; the choice $1440$ reports that product itself; the choice $249$ adds $9$ pages because we added $9$ minutes.)',
+        'The press runs at one steady rate and nothing caps the job, so pages are directly proportional to time: $k = \\frac{y}{x} = \\frac{240}{6} = 40$ pages per minute. In $15$ minutes it prints $40 \\times 15 = 600$ pages. Check the rate on both pairs: $\\frac{240}{6} = 40$ and $\\frac{600}{15} = 40$. ✓ (The choice $249$ adds $9$ pages because we added $9$ minutes; the choice $96$ uses the INVERSE model, treating $xy = 1440$ as the constant and computing $\\frac{1440}{15}$ — that says running longer prints fewer pages; the choice $1440$ reports that product itself.)',
     },
     {
       q: 'A café buys milk at one fixed price per litre. If $8$ litres cost $\\$6$, how many litres can be bought for $\\$15$?',
       choices: ['$17$ litres', '$3.2$ litres', '$11.25$ litres', '$20$ litres'],
       answer: 3,
       solution:
-        'A fixed price per litre makes the two amounts directly proportional. Take the constant as litres per dollar: $k = \\frac{8}{6} = \\frac{4}{3}$ litres per dollar, so $\\$15$ buys $15 \\times \\frac{4}{3} = 20$ litres. The constant holds on both pairs: $\\frac{8}{6} = \\frac{4}{3}$ and $\\frac{20}{15} = \\frac{4}{3}$. ✓ (Equivalently the milk costs $\\$0.75$ a litre and $15 \\div 0.75 = 20$.) (The choice $3.2$ uses the INVERSE model, taking the product $8 \\times 6 = 48$ as the constant and computing $\\frac{48}{15}$ — that would mean more money buys less milk; the choice $17$ adds $9$ litres because we spent $\\$9$ more; the choice $11.25$ multiplies $15$ by the price $0.75$ instead of dividing by it.)',
+        'A fixed price per litre makes the two amounts directly proportional. Take the constant as litres per dollar: $k = \\frac{8}{6} = \\frac{4}{3}$ litres per dollar, so $\\$15$ buys $15 \\times \\frac{4}{3} = 20$ litres. The constant holds on both pairs: $\\frac{8}{6} = \\frac{4}{3}$ and $\\frac{20}{15} = \\frac{4}{3}$. ✓ (Equivalently the milk costs $\\$0.75$ a litre and $15 \\div 0.75 = 20$.) (The choice $17$ adds $9$ litres because we spent $\\$9$ more; the choice $11.25$ multiplies $15$ by the price $0.75$ instead of dividing by it; the choice $3.2$ uses the INVERSE model, taking the product $8 \\times 6 = 48$ as the constant and computing $\\frac{48}{15}$ — that would mean more money buys less milk.)',
     },
   ],
   // p8 — direct proportion to the square
@@ -227,7 +227,7 @@ const s71 = [
       choices: ['$3.2$', '$16$', '$4$', '$64$'],
       answer: 2,
       solution:
-        'From $y = kx^2$: $50 = k \\times 25$, so $k = 2$ and $y = 2x^2$. Now solve $32 = 2x^2$: $x^2 = 16$, so $x = 4$. Check both pairs against the constant: $\\frac{50}{5^2} = 2$ and $\\frac{32}{4^2} = 2$. ✓ (The choice $16$ stops at $x^2$ and forgets the square root; the choice $3.2$ treats the pair as plain direct proportion with $k = \\frac{50}{5} = 10$, computing $\\frac{32}{10}$; the choice $64$ multiplies by the constant instead of dividing by it.)',
+        'From $y = kx^2$: $50 = k \\times 25$, so $k = 2$ and $y = 2x^2$. Now solve $32 = 2x^2$: $x^2 = 16$, so $x = 4$. Check both pairs against the constant: $\\frac{50}{5^2} = 2$ and $\\frac{32}{4^2} = 2$. ✓ (The choice $3.2$ treats the pair as plain direct proportion with $k = \\frac{50}{5} = 10$, computing $\\frac{32}{10}$; the choice $16$ stops at $x^2$ and forgets the square root; the choice $64$ multiplies by the constant instead of dividing by it.)',
     },
   ],
   // p9 — direct proportion to the square root
@@ -251,7 +251,7 @@ const s71 = [
       choices: ['$15$', '$3$', '$48$', '$9$'],
       answer: 3,
       solution:
-        'From $y = k\\sqrt{x}$: $20 = k\\sqrt{25} = 5k$, so $k = 4$ and $y = 4\\sqrt{x}$. Solve $12 = 4\\sqrt{x}$: $\\sqrt{x} = 3$, so $x = 9$. Check both pairs: $\\frac{20}{\\sqrt{25}} = 4$ and $\\frac{12}{\\sqrt{9}} = \\frac{12}{3} = 4$. ✓ (The choice $3$ stops at $\\sqrt{x}$ and never squares; the choice $15$ treats the pair as plain direct proportion with $k = \\frac{20}{25} = 0.8$, computing $\\frac{12}{0.8}$; the choice $48$ multiplies $12$ by $4$ instead of dividing.)',
+        'From $y = k\\sqrt{x}$: $20 = k\\sqrt{25} = 5k$, so $k = 4$ and $y = 4\\sqrt{x}$. Solve $12 = 4\\sqrt{x}$: $\\sqrt{x} = 3$, so $x = 9$. Check both pairs: $\\frac{20}{\\sqrt{25}} = 4$ and $\\frac{12}{\\sqrt{9}} = \\frac{12}{3} = 4$. ✓ (The choice $15$ treats the pair as plain direct proportion with $k = \\frac{20}{25} = 0.8$, computing $\\frac{12}{0.8}$; the choice $3$ stops at $\\sqrt{x}$ and never squares; the choice $48$ multiplies $12$ by $4$ instead of dividing.)',
     },
   ],
   // p10 — how a power changes the scaling factor
@@ -295,14 +295,14 @@ const s72 = [
       choices: ['$68$', '$7.5$', '$480$', '$52$'],
       answer: 1,
       solution:
-        'Divide: $y = \\frac{60}{8} = 7.5$. Check the constant product: $k = xy = 8 \\times 7.5 = 60$. ✓ An inverse rule does not have to produce whole numbers. (The choice $480$ multiplies, which is the DIRECT reading $y = 60x$; the choice $68$ adds $8$; the choice $52$ subtracts $8$.)',
+        'Divide: $y = \\frac{60}{8} = 7.5$. Check the constant product: $k = xy = 8 \\times 7.5 = 60$. ✓ An inverse rule does not have to produce whole numbers. (The choice $68$ adds $8$; the choice $480$ multiplies, which is the DIRECT reading $y = 60x$; the choice $52$ subtracts $8$.)',
     },
     {
       q: 'The rule is $y = \\frac{48}{x}$. What is $x$ when $y = 6$?',
       choices: ['$288$', '$42$', '$54$', '$8$'],
       answer: 3,
       solution:
-        'Multiply both sides by $x$ to get $xy = 48$, so $x = \\frac{48}{6} = 8$. The constant product holds: $8 \\times 6 = 48$. ✓ Notice the two variables play symmetric roles — the constant is their product, so either one is found by dividing $48$ by the other. (The choice $288$ multiplies $48 \\times 6$, the DIRECT move; the choice $54$ adds $6$; the choice $42$ subtracts $6$.)',
+        'Multiply both sides by $x$ to get $xy = 48$, so $x = \\frac{48}{6} = 8$. The constant product holds: $8 \\times 6 = 48$. ✓ Notice the two variables play symmetric roles — the constant is their product, so either one is found by dividing $48$ by the other. (The choice $288$ multiplies $48 \\times 6$, the DIRECT move; the choice $42$ subtracts $6$; the choice $54$ adds $6$.)',
     },
   ],
   // p2 — a constant product given outright
@@ -367,7 +367,7 @@ const s72 = [
       choices: ['$4.8$', '$\\frac{5}{24}$', '$30$', '$14.5$'],
       answer: 2,
       solution:
-        'For inverse proportion $k$ is the constant product: $k = xy = 12 \\times 2.5 = 30$, so $y = \\frac{30}{x}$. Check it forward: $\\frac{30}{12} = 2.5$. ✓ (The choice $\\frac{5}{24}$ is $\\frac{y}{x} = \\frac{2.5}{12}$, the DIRECT constant; the choice $4.8$ is $\\frac{x}{y}$, that ratio upside down; the choice $14.5$ adds the two values.)',
+        'For inverse proportion $k$ is the constant product: $k = xy = 12 \\times 2.5 = 30$, so $y = \\frac{30}{x}$. Check it forward: $\\frac{30}{12} = 2.5$. ✓ (The choice $4.8$ is $\\frac{x}{y}$, that ratio upside down; the choice $\\frac{5}{24}$ is $\\frac{y}{x} = \\frac{2.5}{12}$, the DIRECT constant; the choice $14.5$ adds the two values.)',
     },
     {
       q: 'Suppose $y$ is inversely proportional to $x$, and $y = \\frac{3}{4}$ when $x = 8$. What is the constant $k$ in $y = \\frac{k}{x}$?',

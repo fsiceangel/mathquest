@@ -155,7 +155,7 @@ const s12 = [
       choices: ['$456$', '$457$', '$356$', '$455$'],
       answer: 0,
       solution:
-        'Route one, count by hundreds. Each hundred contributes the ten numbers with tens digit $5$: the $100$s give $150$ through $159$, the $200$s give $250$ through $259$, and the $300$s give $350$ through $359$. That is $30$ numbers, so the $31$st is $450$, the $32$nd is $451$, and the $37$th is $456$ ✓. Route two, a bijection with two-digit numbers. Deleting the tens digit $5$ from such a number leaves its hundreds digit followed by its units digit, a two-digit number from $10$ to $99$, and this pairing keeps the order: the list corresponds to $10, 11, 12, \\ldots, 99$. The $37$th two-digit number starting from $10$ is $10 + 36 = 46$, so the $37$th number in the list is $4$, then $5$, then $6$: $456$ ✓. (The choice $457$ is ADDING $7$ TO $450$ instead of $6$, treating $450$ as the $30$th rather than the $31$st ✗; $455$ is SUBTRACTING ONE TOO MANY, landing on the $36$th number ✗; $356$ is STOPPING ONE HUNDRED SHORT, the $27$th number rather than the $37$th ✗.)',
+        'Route one, count by hundreds. Each hundred contributes the ten numbers with tens digit $5$: the $100$s give $150$ through $159$, the $200$s give $250$ through $259$, and the $300$s give $350$ through $359$. That is $30$ numbers, so the $31$st is $450$, the $32$nd is $451$, and the $37$th is $456$ ✓. Route two, a bijection with two-digit numbers. Deleting the tens digit $5$ from such a number leaves its hundreds digit followed by its units digit, a two-digit number from $10$ to $99$, and this pairing keeps the order: the list corresponds to $10, 11, 12, \\ldots, 99$. The $37$th two-digit number starting from $10$ is $10 + 36 = 46$, so the $37$th number in the list is $4$, then $5$, then $6$: $456$ ✓. (The choice $457$ is ADDING $7$ TO $450$ instead of $6$, treating $450$ as the $30$th rather than the $31$st ✗; $356$ is STOPPING ONE HUNDRED SHORT, the $27$th number rather than the $37$th ✗; $455$ is SUBTRACTING ONE TOO MANY, landing on the $36$th number ✗.)',
     },
   ],
   // slot 7 — lists that cross zero
@@ -172,14 +172,14 @@ const s12 = [
       choices: ['$57$', '$59$', '$56$', '$58$'],
       answer: 0,
       solution:
-        'Route one, trim the ends and count posts. Strict inequalities exclude $-15$ and $43$ themselves, so the integers run from $-14$ to $42$, and there are $42 - (-14) + 1 = 57$ of them ✓. Route two, split at zero. The negatives allowed are $-1$ through $-14$, which is $14$ integers; the positives are $1$ through $42$, which is $42$; and $0$ is one more. Total $14 + 42 + 1 = 57$ ✓. (The choice $59$ is INCLUDING BOTH ENDPOINTS $-15$ AND $43$, which the strict inequalities forbid ✗; $58$ is INCLUDING ONE ENDPOINT ✗; $56$ is COUNTING THE GAPS from $-14$ to $42$ instead of the posts ✗.)',
+        'Route one, trim the ends and count posts. Strict inequalities exclude $-15$ and $43$ themselves, so the integers run from $-14$ to $42$, and there are $42 - (-14) + 1 = 57$ of them ✓. Route two, split at zero. The negatives allowed are $-1$ through $-14$, which is $14$ integers; the positives are $1$ through $42$, which is $42$; and $0$ is one more. Total $14 + 42 + 1 = 57$ ✓. (The choice $59$ is INCLUDING BOTH ENDPOINTS $-15$ AND $43$, which the strict inequalities forbid ✗; $56$ is COUNTING THE GAPS from $-14$ to $42$ instead of the posts ✗; $58$ is INCLUDING ONE ENDPOINT ✗.)',
     },
     {
       q: 'The integers from $-14$ up to $k$, inclusive, number exactly $40$. What is $k$?',
       choices: ['$26$', '$54$', '$24$', '$25$'],
       answer: 3,
       solution:
-        'Route one, posts and gaps. The count from $-14$ to $k$ is $k - (-14) + 1 = k + 15$, so $k + 15 = 40$ and $k = 25$ ✓. Route two, split at zero. The stretch $-14, -13, \\ldots, -1$ uses up $14$ of the integers and $0$ uses one more, which is $15$ so far. The remaining $40 - 15 = 25$ integers are the positives $1, 2, \\ldots, 25$, so the list ends at $k = 25$ ✓. (The choice $26$ is $-14 + 40$, TAKING $40$ STEPS when $40$ integers have only $39$ gaps ✗; $24$ is SUBTRACTING ONE TWICE ✗; $54$ is $40 + 14$, IGNORING THAT THE LIST STARTS BELOW ZERO and adding the start as if it were positive ✗.)',
+        'Route one, posts and gaps. The count from $-14$ to $k$ is $k - (-14) + 1 = k + 15$, so $k + 15 = 40$ and $k = 25$ ✓. Route two, split at zero. The stretch $-14, -13, \\ldots, -1$ uses up $14$ of the integers and $0$ uses one more, which is $15$ so far. The remaining $40 - 15 = 25$ integers are the positives $1, 2, \\ldots, 25$, so the list ends at $k = 25$ ✓. (The choice $26$ is $-14 + 40$, TAKING $40$ STEPS when $40$ integers have only $39$ gaps ✗; $54$ is $40 + 14$, IGNORING THAT THE LIST STARTS BELOW ZERO and adding the start as if it were positive ✗; $24$ is SUBTRACTING ONE TWICE ✗.)',
     },
   ],
   // slot 8 — squares and cubes as lists in disguise

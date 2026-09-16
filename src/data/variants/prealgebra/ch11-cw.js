@@ -21,7 +21,7 @@ const challenge = [
       q: 'A rectangular rug has area $216$ square feet and length $18$ feet. What is its perimeter?',
       choices: ['$30$', '$36$', '$12$', '$60$'],
       answer: 3,
-      solution: 'Run the area backwards: $216 \\div 18 = 12$, so the width is $12$ feet. Then the perimeter is $2(18 + 12) = 2 \\times 30 = 60$ feet. ($12$ is the width alone, stopping one step early; $30$ is $18 + 12$, half the perimeter — the doubling never happened; $36 = 2 \\times 18$ doubles the length but leaves both widths out of the walk.)',
+      solution: 'Run the area backwards: $216 \\div 18 = 12$, so the width is $12$ feet. Then the perimeter is $2(18 + 12) = 2 \\times 30 = 60$ feet. ($30$ is $18 + 12$, half the perimeter — the doubling never happened; $36 = 2 \\times 18$ doubles the length but leaves both widths out of the walk; $12$ is the width alone, stopping one step early.)',
     },
   ],
   // 2. Midpoints on the number line, including one run backwards.
@@ -42,7 +42,7 @@ const challenge = [
       q: 'Point $M$ is the midpoint of segment $AB$. Point $A$ is at $-5$ and $M$ is at $4$. Where is point $B$?',
       choices: ['$8$', '$13$', '$9$', '$-\\frac{1}{2}$'],
       answer: 1,
-      solution: 'The midpoint sits in the middle, so $B$ is exactly as far past $M$ as $A$ is before it. From $-5$ to $4$ is a jump of $9$, so jump $9$ more: $4 + 9 = 13$. Check: $\\frac{-5 + 13}{2} = \\frac{8}{2} = 4$. ✓ ($9$ is the size of the jump, not a location; $8 = 2 \\times 4$ doubles $M$ but forgets to subtract $A$; $-\\frac{1}{2}$ is the midpoint of $-5$ and $4$, which answers a different question.)',
+      solution: 'The midpoint sits in the middle, so $B$ is exactly as far past $M$ as $A$ is before it. From $-5$ to $4$ is a jump of $9$, so jump $9$ more: $4 + 9 = 13$. Check: $\\frac{-5 + 13}{2} = \\frac{8}{2} = 4$. ✓ ($8 = 2 \\times 4$ doubles $M$ but forgets to subtract $A$; $9$ is the size of the jump, not a location; $-\\frac{1}{2}$ is the midpoint of $-5$ and $4$, which answers a different question.)',
     },
   ],
   // 3. The triangle formula run backwards — the 1/2 is the whole game.
@@ -51,7 +51,7 @@ const challenge = [
       q: 'A triangle has area $84$ and base $12$. What is its height?',
       choices: ['$7$', '$42$', '$14$', '$168$'],
       answer: 2,
-      solution: 'The formula gives $\\frac{1}{2} \\times 12 \\times h = 84$, so $6h = 84$ and $h = 14$. Check: $\\frac{1}{2} \\times 12 \\times 14 = 84$. ✓ ($7$ comes from solving $12h = 84$ with the $\\frac{1}{2}$ left out; $168 = 2 \\times 84$ doubles the area but never divides by the base; $42 = 84 \\div 2$ halves the area instead of doubling it, and also never divides by the base.)',
+      solution: 'The formula gives $\\frac{1}{2} \\times 12 \\times h = 84$, so $6h = 84$ and $h = 14$. Check: $\\frac{1}{2} \\times 12 \\times 14 = 84$. ✓ ($7$ comes from solving $12h = 84$ with the $\\frac{1}{2}$ left out; $42 = 84 \\div 2$ halves the area instead of doubling it, and also never divides by the base; $168 = 2 \\times 84$ doubles the area but never divides by the base.)',
     },
     {
       q: 'A triangle has area $60$ square inches and base $15$ inches. What is its height?',
