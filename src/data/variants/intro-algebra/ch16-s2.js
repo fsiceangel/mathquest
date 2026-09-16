@@ -206,7 +206,7 @@ const s163 = [
       choices: ['$3$', '$9$', '$8$', '$15$'],
       answer: 2,
       solution:
-        'Inside first: $f(2) = 4 - 1 = 3$. Then feed $3$ back in: $f(3) = 9 - 1 = 8$. Check a second way with the doubled-up rule: $f(f(x)) = (x^2 - 1)^2 - 1$, which at $x = 2$ is $3^2 - 1 = 8$ ✓. (The choice $9$ squares the first output but forgets the second $-1$ ✗. The choice $15$ squares twice and subtracts once, that is $(2^2)^2 - 1$ ✗. THE HALF RUN reports $f(2) = 3$ ✗.)',
+        'Inside first: $f(2) = 4 - 1 = 3$. Then feed $3$ back in: $f(3) = 9 - 1 = 8$. Check a second way with the doubled-up rule: $f(f(x)) = (x^2 - 1)^2 - 1$, which at $x = 2$ is $3^2 - 1 = 8$ ✓. (THE HALF RUN reports $f(2) = 3$ ✗. The choice $9$ squares the first output but forgets the second $-1$ ✗. The choice $15$ squares twice and subtracts once, that is $(2^2)^2 - 1$ ✗.)',
     },
     {
       q: 'Ana feeds $1$ into the machine $m(x) = 2x + 3$, then feeds the answer back into the same machine. What number does Ana get?',

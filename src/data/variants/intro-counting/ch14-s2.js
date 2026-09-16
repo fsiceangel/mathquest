@@ -49,7 +49,7 @@ const s143 = [
       choices: ['$x^3$', '$x^4$', '$x^5$', '$x^2$'],
       answer: 0,
       solution:
-        'Route one, one term. The term with $x^j$ is $\\binom{5}{j}(4x)^j\\cdot 1^{5-j}$, with coefficient $\\binom{5}{j}4^j$; for $x^3$ this is $10\\cdot 64 = 640$ ✓. Route two, the whole row. From the top: $x^5$ has $4^5 = 1024$, $x^4$ has $5\\cdot 256 = 1280$, $x^3$ has $10\\cdot 64 = 640$, $x^2$ has $10\\cdot 16 = 160$, $x$ has $5\\cdot 4 = 20$, and the constant is $1$. Only $x^3$ carries $640$ ✓. (CHOOSING $x^2$ PUTS THE POWER OF $4$ ON THE WRONG SIDE — with $4^{5-j}$ instead of $4^j$, the $x^2$ entry would read $10\\cdot 4^3 = 640$ ✗; $x^4$ CARRIES $1280$, picked after DROPPING ONE FACTOR OF $2$ ✗; $x^5$ EXPECTS THE TOP POWER TO CARRY THE MATCH, but its coefficient is $1024$ ✗.)',
+        'Route one, one term. The term with $x^j$ is $\\binom{5}{j}(4x)^j\\cdot 1^{5-j}$, with coefficient $\\binom{5}{j}4^j$; for $x^3$ this is $10\\cdot 64 = 640$ ✓. Route two, the whole row. From the top: $x^5$ has $4^5 = 1024$, $x^4$ has $5\\cdot 256 = 1280$, $x^3$ has $10\\cdot 64 = 640$, $x^2$ has $10\\cdot 16 = 160$, $x$ has $5\\cdot 4 = 20$, and the constant is $1$. Only $x^3$ carries $640$ ✓. ($x^4$ CARRIES $1280$, picked after DROPPING ONE FACTOR OF $2$ ✗; $x^5$ EXPECTS THE TOP POWER TO CARRY THE MATCH, but its coefficient is $1024$ ✗; CHOOSING $x^2$ PUTS THE POWER OF $4$ ON THE WRONG SIDE — with $4^{5-j}$ instead of $4^j$, the $x^2$ entry would read $10\\cdot 4^3 = 640$ ✗.)',
     },
     {
       q: 'When $(x+3)^4$ is expanded and like terms are combined, what is the largest of its five coefficients?',

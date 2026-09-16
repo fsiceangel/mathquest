@@ -114,7 +114,7 @@ const s153 = [
       choices: ['$-10$', '$7$', '$-7$', '$39$'],
       answer: 0,
       solution:
-        'The square is at least $0$, so the whole expression is at least $0 - 10 = -10$. Equality needs $x - 7 = 0$, so $x = 7$; substituting into the original gives $0 - 10 = -10$ ✓, so the floor is reached. Check a second way at a neighbour: $x = 8$ gives $1 - 10 = -9$, above $-10$ ✓. (THE WRONG QUESTION gives $7$, the location rather than the value ✗. THE LAZY PLUG gives $39$: at $x = 0$ the expression is $49 - 10 = 39$ ✗. The choice $-7$ mixes the location with the minus sign from the constant ✗.)',
+        'The square is at least $0$, so the whole expression is at least $0 - 10 = -10$. Equality needs $x - 7 = 0$, so $x = 7$; substituting into the original gives $0 - 10 = -10$ ✓, so the floor is reached. Check a second way at a neighbour: $x = 8$ gives $1 - 10 = -9$, above $-10$ ✓. (THE WRONG QUESTION gives $7$, the location rather than the value ✗. The choice $-7$ mixes the location with the minus sign from the constant ✗. THE LAZY PLUG gives $39$: at $x = 0$ the expression is $49 - 10 = 39$ ✗.)',
     },
     {
       q: 'Where does $(x + 11)^2 - 4$ reach its minimum, and what is that minimum?',

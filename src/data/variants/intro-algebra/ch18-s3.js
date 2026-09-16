@@ -261,7 +261,7 @@ const challenge = [
       ],
       answer: 3,
       solution:
-        'Distribute the minus across all four terms: $2x^5 - 3x^4 + x^2 - 6x - 2x^5 + 3x^4 + 4x^2 - x$. TWO pairs vanish — the fifth powers and the fourth powers — because $-3x^4$ became $+3x^4$. What is left is $x^2 + 4x^2 = 5x^2$ and $-6x - x = -7x$, so the answer is $5x^2 - 7x$: two degree-$5$ polynomials collapsing to a degree-$2$ one. Second check at $x = 2$: the first polynomial is $64 - 48 + 4 - 12 = 8$, the second is $64 - 48 - 16 + 2 = 2$, and $8 - 2 = 6$; the simplified polynomial gives $20 - 14 = 6$ ✓. (THE LOST MINUS spares the final $+x$, giving $-6x + x = -5x$ and the answer $5x^2 - 5x$ ✗. Choice $-3x^2 - 5x$ never distributes the minus past the leading pair at all, so $x^2 - 4x^2 = -3x^2$ ✗. Choice $4x^5 - 6x^4 + 5x^2 - 7x$ adds the leading terms instead of cancelling them ✗.)',
+        'Distribute the minus across all four terms: $2x^5 - 3x^4 + x^2 - 6x - 2x^5 + 3x^4 + 4x^2 - x$. TWO pairs vanish — the fifth powers and the fourth powers — because $-3x^4$ became $+3x^4$. What is left is $x^2 + 4x^2 = 5x^2$ and $-6x - x = -7x$, so the answer is $5x^2 - 7x$: two degree-$5$ polynomials collapsing to a degree-$2$ one. Second check at $x = 2$: the first polynomial is $64 - 48 + 4 - 12 = 8$, the second is $64 - 48 - 16 + 2 = 2$, and $8 - 2 = 6$; the simplified polynomial gives $20 - 14 = 6$ ✓. (Choice $-3x^2 - 5x$ never distributes the minus past the leading pair at all, so $x^2 - 4x^2 = -3x^2$ ✗. THE LOST MINUS spares the final $+x$, giving $-6x + x = -5x$ and the answer $5x^2 - 5x$ ✗. Choice $4x^5 - 6x^4 + 5x^2 - 7x$ adds the leading terms instead of cancelling them ✗.)',
     },
   ],
 
@@ -282,7 +282,7 @@ const challenge = [
       choices: ['$16$', '$48$', '$64$', '$12$'],
       answer: 1,
       solution:
-        'A plain $x$ term needs the $x$ from exactly one of the three factors and the $4$ from the other two. There are three ways to choose which factor supplies the $x$, and each way contributes $4 \\times 4 = 16$, so the coefficient is $3 \\times 16 = 48$. Second check by expanding: $(x + 4)^2 = x^2 + 8x + 16$, and multiplying by $x + 4$ gives $x^3 + 8x^2 + 16x + 4x^2 + 32x + 64 = x^3 + 12x^2 + 48x + 64$ ✓, so the $x$ coefficient is $48$. Confirm at $x = 2$: the original is $6^3 = 216$, and the expansion is $8 + 48 + 96 + 64 = 216$ ✓. (THE MISSING PAIR counts only one of the three ways and answers $16$ ✗. Choice $12$ reports the $x^2$ coefficient instead ✗. Choice $64$ reports the constant term instead ✗.)',
+        'A plain $x$ term needs the $x$ from exactly one of the three factors and the $4$ from the other two. There are three ways to choose which factor supplies the $x$, and each way contributes $4 \\times 4 = 16$, so the coefficient is $3 \\times 16 = 48$. Second check by expanding: $(x + 4)^2 = x^2 + 8x + 16$, and multiplying by $x + 4$ gives $x^3 + 8x^2 + 16x + 4x^2 + 32x + 64 = x^3 + 12x^2 + 48x + 64$ ✓, so the $x$ coefficient is $48$. Confirm at $x = 2$: the original is $6^3 = 216$, and the expansion is $8 + 48 + 96 + 64 = 216$ ✓. (THE MISSING PAIR counts only one of the three ways and answers $16$ ✗. Choice $64$ reports the constant term instead ✗. Choice $12$ reports the $x^2$ coefficient instead ✗.)',
     },
     {
       q: 'What is the constant term of the expansion of $(x - 4)^3 + (x + 2)^2$?',
@@ -310,7 +310,7 @@ const challenge = [
       choices: ['$9$', '$13$', '$4$', '$5$'],
       answer: 0,
       solution:
-        'An $x^2$ term needs the $x$ term from exactly TWO of the three factors and the constant from the remaining one. There are three ways to choose which factor sits out: taking the constant from the third factor gives $x \\cdot x \\cdot 5 = 5x^2$; from the second gives $x \\cdot 2x \\cdot 3 = 6x^2$; from the first gives $x \\cdot 2x \\cdot (-1) = -2x^2$. Total: $5 + 6 - 2 = 9$. Second check by expanding. First $(x - 1)(x + 3) = x^2 + 3x - x - 3 = x^2 + 2x - 3$; then multiply by $2x + 5$: $2x^3 + 5x^2 + 4x^2 + 10x - 6x - 15 = 2x^3 + 9x^2 + 4x - 15$ ✓. Confirm at $x = 2$: the original is $(1)(5)(9) = 45$, and the expansion is $16 + 36 + 8 - 15 = 45$ ✓. (Choice $13$ drops the minus on the $-1$ and adds $5 + 6 + 2$ ✗. THE MISSING PAIR keeps only the first contribution and answers $5$ ✗. Choice $4$ reports the coefficient of $x$ instead of $x^2$ ✗.)',
+        'An $x^2$ term needs the $x$ term from exactly TWO of the three factors and the constant from the remaining one. There are three ways to choose which factor sits out: taking the constant from the third factor gives $x \\cdot x \\cdot 5 = 5x^2$; from the second gives $x \\cdot 2x \\cdot 3 = 6x^2$; from the first gives $x \\cdot 2x \\cdot (-1) = -2x^2$. Total: $5 + 6 - 2 = 9$. Second check by expanding. First $(x - 1)(x + 3) = x^2 + 3x - x - 3 = x^2 + 2x - 3$; then multiply by $2x + 5$: $2x^3 + 5x^2 + 4x^2 + 10x - 6x - 15 = 2x^3 + 9x^2 + 4x - 15$ ✓. Confirm at $x = 2$: the original is $(1)(5)(9) = 45$, and the expansion is $16 + 36 + 8 - 15 = 45$ ✓. (Choice $13$ drops the minus on the $-1$ and adds $5 + 6 + 2$ ✗. Choice $4$ reports the coefficient of $x$ instead of $x^2$ ✗. THE MISSING PAIR keeps only the first contribution and answers $5$ ✗.)',
     },
     {
       q: 'What is the coefficient of $x$ in the expansion of $(x + 3)(x - 5)(x^2 + 2x - 4)$?',

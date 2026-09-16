@@ -68,7 +68,7 @@ const s165 = [
       choices: ['$6$ and $8$', '$9$ only', '$5$ and $7$', '$6$ only'],
       answer: 0,
       solution:
-        'Scan the outputs for $9$. It appears twice, on the rows $t(6) = 9$ and $t(8) = 9$, so BOTH $6$ and $8$ are answers. Check a second way that this table is still a function: each input $5$, $6$, $7$, $8$ is listed once and has one output, which is the only rule that matters ✓. (The choice "$6$ only" stops at the first hit and misses the second ✗. The choice "$9$ only" hands back the output ✗. The inputs $5$ and $7$ go to $2$ and $4$ instead ✗.)',
+        'Scan the outputs for $9$. It appears twice, on the rows $t(6) = 9$ and $t(8) = 9$, so BOTH $6$ and $8$ are answers. Check a second way that this table is still a function: each input $5$, $6$, $7$, $8$ is listed once and has one output, which is the only rule that matters ✓. (The choice "$9$ only" hands back the output ✗. The inputs $5$ and $7$ go to $2$ and $4$ instead ✗. The choice "$6$ only" stops at the first hit and misses the second ✗.)',
     },
     {
       q: 'For the table $m(0) = -2$, $m(1) = 1$, $m(2) = 4$, $m(3) = 7$, for which input $x$ is $m(x) = -2$?',
@@ -212,7 +212,7 @@ const s165 = [
       choices: ['$59$', '$25$', '$31$', '$28$'],
       answer: 2,
       solution:
-        'Recover the rule by naming the inside: let $u = 2x$, so $x = \\frac{u}{2}$ and $f(u) = 8 \\cdot \\frac{u}{2} + 3 = 4u + 3$. Then $f(7) = 28 + 3 = 31$. Check a second way straight from the relation: to reach input $7$ we need $2x = 7$, so $x = \\frac{7}{2}$, and $8 \\cdot \\frac{7}{2} + 3 = 28 + 3 = 31$ ✓. (THE UNAIMED SUBSTITUTION gives $59$: putting $7$ into $8x + 3$ computes $f(14)$ ✗. The choice $28$ drops the constant ✗. The choice $25$ subtracts the constant instead of adding it ✗.)',
+        'Recover the rule by naming the inside: let $u = 2x$, so $x = \\frac{u}{2}$ and $f(u) = 8 \\cdot \\frac{u}{2} + 3 = 4u + 3$. Then $f(7) = 28 + 3 = 31$. Check a second way straight from the relation: to reach input $7$ we need $2x = 7$, so $x = \\frac{7}{2}$, and $8 \\cdot \\frac{7}{2} + 3 = 28 + 3 = 31$ ✓. (THE UNAIMED SUBSTITUTION gives $59$: putting $7$ into $8x + 3$ computes $f(14)$ ✗. The choice $25$ subtracts the constant instead of adding it ✗. The choice $28$ drops the constant ✗.)',
     },
     {
       q: 'A function satisfies $g(3x) = 9x - 6$ for every number $x$. What is $g(4)$?',
@@ -290,7 +290,7 @@ const s166 = [
       choices: ['$29$', '$37$', '$22$', '$31$'],
       answer: 1,
       solution:
-        'Apply the definition literally: the LEFT number is tripled and the RIGHT number is squared. With $a = 4$ and $b = 5$: $3(4) + 5^2 = 12 + 25 = 37$. Check a second way by building the two pieces separately and adding at the end: three copies of $4$ make $12$, a square of side $5$ is $25$, total $37$ ✓. The operation is not commutative, since the two slots do different jobs. (SWAPPED SLOTS gives $31$, which is $5 \\heartsuit 4 = 15 + 16$ ✗. THE DROPPED PIECE gives $29 = 4 + 25$, with the tripling forgotten ✗. The choice $22 = 12 + 10$ doubles the right number instead of squaring it ✗.)',
+        'Apply the definition literally: the LEFT number is tripled and the RIGHT number is squared. With $a = 4$ and $b = 5$: $3(4) + 5^2 = 12 + 25 = 37$. Check a second way by building the two pieces separately and adding at the end: three copies of $4$ make $12$, a square of side $5$ is $25$, total $37$ ✓. The operation is not commutative, since the two slots do different jobs. (THE DROPPED PIECE gives $29 = 4 + 25$, with the tripling forgotten ✗. The choice $22 = 12 + 10$ doubles the right number instead of squaring it ✗. SWAPPED SLOTS gives $31$, which is $5 \\heartsuit 4 = 15 + 16$ ✗.)',
     },
     {
       q: 'An operation is defined by $m \\square n = m^2 - 3n$. What is $6 \\square 4$?',
@@ -455,7 +455,7 @@ const s166 = [
       choices: ['$25$', '$29$', '$5$', '$9$'],
       answer: 2,
       solution:
-        'Write the definition out with the known left number: $3(2) + x^2 = 31$, so $6 + x^2 = 31$ and $x^2 = 25$. The positive number with square $25$ is $x = 5$. Check a second way by substituting back into the ORIGINAL operation: $2 \\heartsuit 5 = 6 + 25 = 31$ ✓. (THE UNFINISHED SOLVE gives $25$, stopping at $x^2$ ✗. SWAPPED SLOTS gives $9$: solving $3x + 4 = 31$ puts the unknown in the tripling slot instead ✗. The choice $29 = 31 - 2$ forgets that the left number is tripled and the right one squared ✗.)',
+        'Write the definition out with the known left number: $3(2) + x^2 = 31$, so $6 + x^2 = 31$ and $x^2 = 25$. The positive number with square $25$ is $x = 5$. Check a second way by substituting back into the ORIGINAL operation: $2 \\heartsuit 5 = 6 + 25 = 31$ ✓. (THE UNFINISHED SOLVE gives $25$, stopping at $x^2$ ✗. The choice $29 = 31 - 2$ forgets that the left number is tripled and the right one squared ✗. SWAPPED SLOTS gives $9$: solving $3x + 4 = 31$ puts the unknown in the tripling slot instead ✗.)',
     },
     {
       q: 'With $m \\square n = m^2 - 3n$, find the number $n$ that makes $7 \\square n = 25$.',

@@ -306,7 +306,7 @@ const challenge = [
       q: 'What is the smallest number that is divisible by every whole number from $1$ to $8$?',
       choices: ['$840$', '$420$', '$40{,}320$', '$168$'],
       answer: 0,
-      solution: 'Take the highest power of each prime that any of $1$ through $8$ demands: $8 = 2^3$ demands $2^3$, $4$ is then covered; $3$ and $6$ are covered by $3^1$; then $5$ and $7$. So the answer is $2^3 \\cdot 3 \\cdot 5 \\cdot 7 = 840$. ($420$ misses a factor of $2$ and fails on $8$; $168$ leaves out the $5$; and $8! = 40{,}320$ works but is nowhere near smallest.)',
+      solution: 'Take the highest power of each prime that any of $1$ through $8$ demands: $8 = 2^3$ demands $2^3$, $4$ is then covered; $3$ and $6$ are covered by $3^1$; then $5$ and $7$. So the answer is $2^3 \\cdot 3 \\cdot 5 \\cdot 7 = 840$. ($420$ misses a factor of $2$ and fails on $8$; $8! = 40{,}320$ works but is nowhere near smallest; and $168$ leaves out the $5$.)',
     },
     {
       q: 'What is the smallest number that is divisible by every whole number from $1$ to $10$?',

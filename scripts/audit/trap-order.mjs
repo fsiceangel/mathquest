@@ -89,6 +89,7 @@ function splitClauses(s) {
   return clauses
 }
 
+const OPENER = /^[\s("“]*(the choice|the value|choosing|picking|choice|selecting|answering|writing|taking)\b/i
 // A clause that names a choice by position or by a fragment of it, not by its value.
 const POSITIONAL = /\b(first|second|third|fourth|last|other|remaining|middle)\b[^$]{0,24}\bchoices?\b|\bchoices? (with|starting|beginning|ending)\b|\bchoices \$/i
 
@@ -137,12 +138,16 @@ function judge(p) {
   const clauses = splitClauses(inner)
   const distractors = p.choices.length - 1
   if (clauses.length < 2 || clauses.length > distractors) return 'unreadable'
+  // A clause carrying two ✗ packs two traps; it has no single place in the order.
+  if (clauses.some((c) => c.split('✗').length > 2)) return 'unreadable'
+  // Outside a parenthetical, the first clause must itself be a trap, not the end of route two.
+  if (!tail.endsWith(')') && !(OPENER.test(clauses[0]) || /^\s*[A-Z]{3,}/.test(clauses[0]) || subjectOf(clauses[0].slice(0, 12), choiceKeys(p.choices), p.answer) >= 0)) return 'unreadable'
   const keys = choiceKeys(p.choices)
   const subj = clauses.map((c) => subjectOf(c, keys, p.answer))
   if (subj.some((h) => h < 0) || new Set(subj).size !== subj.length) return 'unreadable'
   // A clause that leans on its neighbours ("both near-misses", "as well") has
   // no order of its own to judge.
-  const ANAPHORA = /\b(both|these|those|either|the two|each of (them|these)|all three|likewise|similarly|the same|as well|too|also|again|itself|the other (one|two)|the former|the latter)\b/i
+  const ANAPHORA = /\b(both|these|those|either|the two|each of (them|these)|all three|likewise|similarly|the same|as well|too|also|again|itself|the other (one|two)|the former|the latter)\b|\b(of|than|from|to|like) that\b|\bthat \$|^[\s("“]*(That|This|It|Here|There)\b/i
   if (clauses.some((c) => ANAPHORA.test(c))) return 'unreadable'
   const sorted = [...subj].sort((a, b) => a - b)
   return subj.join() === sorted.join() ? 'ordered' : 'unordered'
