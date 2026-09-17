@@ -1,0 +1,176 @@
+// Counting & Probability — Checkpoint 1: after chapter 3, covers chapters 1–3.
+// All problems, figures, and solutions are original MathQuest content.
+
+export default {
+  id: 'intro-counting-cp1',
+  book: 'intro-counting',
+  number: 1,
+  after: 3,
+  covers: [1, 3],
+  title: 'Counting in Disguise',
+  blurb: 'Every scene here hides which count it wants — a range that is not what it looks like, a symmetry waiting to halve the answer, a wording that sets the trap.',
+  minutes: 25,
+  problems: [
+    // ---- Band A ----
+    {
+      q: 'The lampposts along one side of Harbor Road are numbered $8, 11, 14, 17, \\ldots$, each number $3$ more than the one before, and the last lamppost is numbered $299$. How many of the lampposts have a two-digit number?',
+      choices: ['$29$', '$30$', '$31$', '$67$', '$98$'],
+      answer: 1,
+      solution: 'The numbers are $8 + 3k$, so the two-digit ones start at $11$ (the term after $8$) and end at $98$, the last such number below $100$. Between them, $\\frac{98 - 11}{3} = 29$ steps, and $29$ steps means $30$ lampposts — count the posts, not the gaps. Answering $29$ forgets that a run of $29$ steps has $30$ ends; $31$ starts the count at the post numbered $8$, which is not two-digit; $67$ is the number of three-digit posts, from $101$ to $299$; and $98$ is the total number of lampposts on the street.',
+      topic: 'patterns',
+      chapter: 1,
+    },
+    {
+      q: 'A school newspaper has $60$ staff members, and each of them may write articles, take photographs, do both, or do neither. Exactly $23$ staff members do both, and $9$ do neither. How many staff members do exactly one of the two jobs?',
+      choices: ['$14$', '$19$', '$28$', '$37$', '$51$'],
+      answer: 2,
+      solution: 'Everyone who is not in the "neither" group does at least one job: $60 - 9 = 51$ staff members. Of those, $23$ do both, and the rest do exactly one: $51 - 23 = 28$. The answer $14$ is $23 - 9$, a difference of the two given numbers that means nothing; $19$ subtracts the $9$ who do neither a second time, from the $28$; $37$ is $60 - 23$, which still contains the staff members who do nothing; and $51$ is everyone who does at least one job, both-doers included.',
+      topic: 'counting',
+      chapter: 1,
+    },
+    {
+      q: 'A keychain code is a straight row of $6$ beads read from left to right, each bead one of $5$ colors — white, red, blue, green, or black — and colors may repeat. The first and last beads must be the same color, and the third bead from the left may not be white. How many different codes are possible?',
+      choices: ['$500$', '$2000$', '$2500$', '$3125$', '$12500$'],
+      answer: 2,
+      solution: 'Choose the beads from left to right. The first bead has $5$ colors, the second $5$, the third only $4$ because white is barred, the fourth and fifth $5$ each, and the last bead has exactly $1$ choice — it must copy the first. So $5 \\cdot 5 \\cdot 4 \\cdot 5 \\cdot 5 \\cdot 1 = 2500$. Answering $500$ drops one of the free positions; $2000$ bars white from the first bead as well as the third; $3125 = 5^5$ ignores the ban on white; and $12500$ lets the last bead pick any color instead of matching the first.',
+      topic: 'counting',
+      chapter: 1,
+    },
+
+    // ---- Band B ----
+    {
+      q: 'A window maker’s catalog lists every rectangular pane whose width and height are positive whole numbers of inches and whose area is at most $20$ square inches. Width and height are listed separately, so the pane $2$ inches wide and $5$ inches tall is a different entry from the pane $5$ inches wide and $2$ inches tall. How many entries does the catalog have?',
+      choices: ['$35$', '$56$', '$60$', '$62$', '$66$'],
+      answer: 4,
+      solution: 'Sort by width $w$: the height can be anything from $1$ up to $\\frac{20}{w}$ rounded down. Widths $1$ through $10$ allow $20, 10, 6, 5, 4, 3, 2, 2, 2, 2$ heights, which add to $56$, and each width from $11$ to $20$ allows only height $1$, ten more entries. Total $56 + 10 = 66$. Answering $35$ counts each pair of dimensions once, ignoring that the catalog lists both orientations; stopping at width $10$ gives $56$; $60$ counts area strictly less than $20$; and $62$ throws out the four square panes as if they had no orientation.',
+      topic: 'counting',
+      chapter: 2,
+    },
+    {
+      q: 'A digital clock shows a $12$-hour time with no leading zero on the hour, so its displays run from $1{:}00$ through $12{:}59$, one display for each of the $720$ minutes in a cycle. In how many of these displays does the digit $0$ appear exactly once?',
+      choices: ['$199$', '$213$', '$225$', '$478$', '$663$'],
+      answer: 0,
+      solution: 'Only one hour contains a $0$: the hour $10$. For each of the other eleven hours, the minutes must supply exactly one $0$: minutes $01$ through $09$ give $9$ displays and $10, 20, 30, 40, 50$ give $5$ more, so $14$ per hour and $11 \\cdot 14 = 154$ in all. During the hour $10$ the minutes must contain no $0$ at all, and there are $5 \\cdot 9 = 45$ such minutes. Total $154 + 45 = 199$. The answer $213$ takes $12 \\cdot 14 = 168$ for every hour and then adds the $45$ without removing the fourteen $10$ o’clock displays that hold two zeros; $225$ counts displays with at least one $0$; $478$ writes the hours as $01$ through $12$, adding a zero the clock never shows; and $663$ is the count on a $24$-hour clock.',
+      topic: 'counting',
+      chapter: 2,
+    },
+    {
+      q: 'A nine-digit serial number uses the digit $4$ three times, the digit $7$ twice, and the digit $9$ four times, and no other digits. How many such serial numbers read the same from right to left as from left to right?',
+      choices: ['$12$', '$24$', '$36$', '$630$', '$1260$'],
+      answer: 0,
+      solution: 'A nine-digit number that reads the same both ways is decided by its first four digits and its middle digit; the last four are the mirror of the first four. Each digit except the middle one appears an even number of times in the number, so the middle digit must be the one used an odd number of times: a $4$. That leaves one $4$, two $7$s and four $9$s to split evenly between the two halves, so the left half is some arrangement of $4, 7, 9, 9$: $\\frac{4!}{2!} = 12$. Answering $24$ treats the two $9$s in the left half as different digits; $36$ lets any of the three digits sit in the middle; $630$ guesses that half of all the arrangements are mirror-symmetric; and $1260 = \\frac{9!}{3!\\,2!\\,4!}$ counts every serial number, mirrored or not.',
+      topic: 'counting',
+      chapter: 3,
+    },
+    {
+      q: 'A frozen-yogurt stand offers $9$ flavors and sells a two-scoop cup. The two scoops may be the same flavor or two different flavors, and a cup is described only by the flavors it holds, so mango over lime is the same cup as lime over mango. How many different cups can be ordered?',
+      choices: ['$36$', '$45$', '$72$', '$81$', '$90$'],
+      answer: 1,
+      solution: 'Split by whether the scoops match. Two different flavors, order irrelevant: $\\binom{9}{2} = 36$ cups. Both scoops the same flavor: $9$ cups, one per flavor. Total $36 + 9 = 45$. Answering $36$ forgets the double-flavor cups; $72 = 9 \\cdot 8$ counts each pair of different flavors twice, once in each order; $81 = 9^2$ does the same and also includes the matching cups; and $90$ adds the $9$ matching cups to the $81$ that already contain them.',
+      topic: 'counting',
+      chapter: 3,
+    },
+
+    // ---- Band C ----
+    {
+      q: 'A lock opens with a four-letter code, each letter chosen from $A, B, C, D, E, F$, and letters may repeat. The lock rejects any code whose four letters are all different, and also any code that uses only one letter. How many codes does the lock accept?',
+      choices: ['$360$', '$930$', '$936$', '$1290$', '$1296$'],
+      answer: 1,
+      solution: 'Count everything and remove the two rejected kinds. All codes: $6^4 = 1296$. All four letters different: $6 \\cdot 5 \\cdot 4 \\cdot 3 = 360$. Only one letter used: $6$, one per letter. Nothing is both all-different and all-same, so the accepted codes number $1296 - 360 - 6 = 930$. Answering $360$ stops at the all-different count; $936$ forgets to remove the six one-letter codes; $1290$ removes the one-letter codes but not the all-different ones; and $1296$ removes nothing.',
+      topic: 'counting',
+      chapter: 2,
+    },
+    {
+      q: 'Eight friends, including Mei, Jonah, Priya, and Tom, sit at a round table with $8$ evenly spaced chairs, shown below. Mei must sit directly across the table from Jonah, and Priya must sit directly across the table from Tom. Two seatings count as the same only if one becomes the other when everyone moves the same number of chairs around the table. How many different seatings are there?',
+      fig: {
+        view: [-2.9, -2.9, 2.9, 2.9],
+        elems: [
+          { t: 'circle', c: [0, 0], r: 1.5, fill: false },
+          { t: 'circle', c: [2.2, 0], r: 0.3, fill: true },
+          { t: 'circle', c: [1.556, 1.556], r: 0.3, fill: true },
+          { t: 'circle', c: [0, 2.2], r: 0.3, fill: true },
+          { t: 'circle', c: [-1.556, 1.556], r: 0.3, fill: true },
+          { t: 'circle', c: [-2.2, 0], r: 0.3, fill: true },
+          { t: 'circle', c: [-1.556, -1.556], r: 0.3, fill: true },
+          { t: 'circle', c: [0, -2.2], r: 0.3, fill: true },
+          { t: 'circle', c: [1.556, -1.556], r: 0.3, fill: true },
+        ],
+      },
+      choices: ['$24$', '$72$', '$144$', '$288$', '$720$'],
+      answer: 2,
+      solution: 'Seat Mei first. Because rotations are the same seating, every chair is the same chair for her, so seating her uses up the rotations and costs nothing. Jonah’s chair is now forced: the one directly across. Priya can take any of the $6$ remaining chairs, and then Tom’s chair is forced too, the one across from hers. The last four friends fill the four remaining chairs, which are now all different from one another, in $4! = 24$ ways, so there are $6 \\cdot 24 = 144$ seatings. Answering $24$ applies the round-table shortcut a second time, dividing Priya’s six chairs away as if her seat could still be rotated; $72$ halves for a flip of the table, but a mirror-image seating is a different seating here; $288$ counts Priya and Tom in both orders along their line, which her six chair choices already did; and $720 = 6!$ seats Mei across from Jonah and then forgets that Priya and Tom must face each other as well.',
+      topic: 'counting',
+      chapter: 3,
+    },
+    {
+      q: 'A seed tray has $9$ pots in a $3 \\times 3$ arrangement, shown below. Two identical seeds are planted, one seed per pot, so that the two pots used are in different rows and in different columns. How many different plantings are there?',
+      fig: {
+        view: [-0.5, -0.5, 3.5, 3.5],
+        elems: [
+          { t: 'poly', pts: [[0, 0], [3, 0], [3, 3], [0, 3]], fill: false },
+          { t: 'seg', a: [1, 0], b: [1, 3] },
+          { t: 'seg', a: [2, 0], b: [2, 3] },
+          { t: 'seg', a: [0, 1], b: [3, 1] },
+          { t: 'seg', a: [0, 2], b: [3, 2] },
+        ],
+      },
+      choices: ['$18$', '$27$', '$30$', '$36$', '$72$'],
+      answer: 0,
+      solution: 'Pretend the seeds are different for a moment. The first seed has $9$ pots; it rules out its own row and column, which together cover $5$ pots, so the second seed has $4$ pots: $9 \\cdot 4 = 36$ ordered plantings. But the seeds are identical, so each real planting was counted twice, once with each seed "first": $\\frac{36}{2} = 18$. Answering $27$ keeps the seeds out of the same row but forgets the columns; $30$ subtracts only $6$ bad pairs from $\\binom{9}{2} = 36$, when each row and each column holds $3$ bad pairs, $18$ in all; $36$ forgets to halve; and $72 = 9 \\cdot 8$ is the ordered count with no restriction.',
+      topic: 'counting',
+      chapter: 3,
+    },
+    {
+      q: 'A tram line has $14$ stops spaced evenly around a loop, and trams run in both directions. A ticket names a boarding stop and a different exit stop, in that order. The ticket is called short if the rider can reach the exit stop in at most $5$ stops by going the shorter way around the loop. How many different short tickets are there?',
+      choices: ['$70$', '$110$', '$112$', '$140$', '$182$'],
+      answer: 3,
+      solution: 'Fix the boarding stop. Going clockwise, the next $5$ stops are within reach; going counterclockwise, another $5$; and on a loop of $14$ these ten stops are all different, since the two directions only meet $7$ stops away. So each boarding stop has $10$ exit stops, and there are $14 \\cdot 10 = 140$ short tickets. Answering $70$ counts only one direction, or counts each pair of stops once when the ticket tells them apart; $110$ treats the stops as a straight line, where the end stops have fewer neighbors, and misses the trips that cross the seam of the loop; $112$ allows only $4$ stops each way, misreading "at most $5$"; and $182 = 14 \\cdot 13$ counts every ticket, short or not.',
+      topic: 'counting',
+      chapter: 1,
+    },
+
+    // ---- Band D ----
+    {
+      q: 'A square mosaic tile is divided into $9$ equal small squares, $3$ rows of $3$, shown below, and each small square is glazed either blue or white. Two tiles count as the same if turning one of them on the table, by $90^\\circ$, $180^\\circ$, or $270^\\circ$, makes it match the other; a tile is never flipped over. How many different tiles are there?',
+      fig: {
+        view: [-0.6, -0.6, 3.6, 3.6],
+        elems: [
+          { t: 'poly', pts: [[0, 0], [3, 0], [3, 3], [0, 3]], fill: false },
+          { t: 'seg', a: [1, 0], b: [1, 3] },
+          { t: 'seg', a: [2, 0], b: [2, 3] },
+          { t: 'seg', a: [0, 1], b: [3, 1] },
+          { t: 'seg', a: [0, 2], b: [3, 2] },
+        ],
+      },
+      choices: ['$102$', '$120$', '$128$', '$134$', '$140$'],
+      answer: 4,
+      solution: 'There are $2^9 = 512$ glazed tiles before turning is allowed, but they do not split evenly into groups of $4$, because some tiles look the same after a turn. Sort them by how many different pictures turning produces. A quarter-turn carries each corner square to the next corner and each edge square to the next edge, so a tile gives only $1$ picture when its four corners share a color and its four edge squares share a color, the center being free: $2 \\cdot 2 \\cdot 2 = 8$ tiles. A half-turn swaps opposite corners and opposite edge squares, so a tile unchanged by a half-turn is decided by two corner pairs, two edge pairs, and the center: $2^5 = 32$ glazings, and removing the $8$ already counted leaves $24$ glazings that give $2$ pictures each, which is $12$ tiles. Every other glazing gives $4$ pictures: $512 - 8 - 24 = 480$ pictures, so $120$ tiles. Total $8 + 12 + 120 = 140$. Answering $102$ also counts a flipped-over tile as the same, which the problem forbids; $120$ keeps only the tiles with four different pictures; $128 = \\frac{512}{4}$ divides as if every tile had four different pictures; and $134$ sets aside the eight fully symmetric tiles but treats the half-turn tiles as having four pictures instead of two.',
+      topic: 'counting',
+      chapter: 3,
+    },
+    {
+      q: 'Five coats hang in a cloakroom on five hooks labeled $1$ through $5$, and coat $k$ belongs on hook $k$. One evening the coats are hung one per hook so that no coat is on its own hook. In how many ways can that happen?',
+      choices: ['$0$', '$44$', '$60$', '$96$', '$120$'],
+      answer: 1,
+      solution: 'Count the bad arrangements and subtract from $5! = 120$. Arrangements with coat $1$ on its own hook number $4! = 24$, and likewise for each coat, but $5 \\cdot 24 = 120$ double-counts every arrangement where two coats are home, so add those back: $\\binom{5}{2} \\cdot 3! = 60$. Now the arrangements with three coats home have been over-corrected, so subtract $\\binom{5}{3} \\cdot 2! = 20$, then add $\\binom{5}{4} \\cdot 1! = 5$ and subtract the $1$ arrangement with all five home. Bad arrangements: $120 - 60 + 20 - 5 + 1 = 76$, so the good ones number $120 - 76 = 44$. Alternatively, list by shape: the five coats either trade in one loop of five ($24$ ways) or split into a swapped pair and a loop of three ($\\binom{5}{2} \\cdot 2 = 20$ ways). Answering $0$ subtracts $5 \\cdot 4!$ from $5!$ and stops, as if no arrangement had two coats home; $60$ stops the correction after adding the pairs back; $96 = 4 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1$ gives coat $1$ four hooks and then wrongly assumes the later coats always have one fewer choice; and $120$ ignores the condition.',
+      topic: 'counting',
+      chapter: 2,
+    },
+    {
+      q: 'A locker card shows a four-digit code, and the card works whether it is inserted right side up or upside down, so the only digits printed on it are $0, 1, 6, 8, 9$: turned upside down, $0$, $1$, and $8$ look the same while $6$ and $9$ trade places. A code is called steady if the card reads as exactly the same code either way up. A code may not begin with $0$. How many steady codes are there?',
+      choices: ['$6$', '$12$', '$16$', '$20$', '$25$'],
+      answer: 3,
+      solution: 'Turned upside down, the fourth digit lands in the first position and the third digit in the second, each flipped. So a code is steady exactly when its fourth digit is the flip of its first and its third digit is the flip of its second; the first two digits decide everything. The first digit is any of $1, 6, 8, 9$ (not $0$), and the second is any of the five, so $4 \\cdot 5 = 20$. The flip of a nonzero digit is never $0$, so the last digit takes care of itself. Answering $6$ uses only $0, 1, 8$, as if $6$ and $9$ could never appear; $12$ allows $6$ and $9$ in the first position but not in the second; $16$ bars $0$ from the second position, where it is harmless; and $25$ lets the code begin with $0$.',
+      topic: 'counting',
+      chapter: 2,
+    },
+    {
+      q: 'A coin is flipped $7$ times in a row and the results are recorded in order. How many of the $128$ possible sequences show more heads than tails and also never show two tails in a row?',
+      choices: ['$25$', '$32$', '$33$', '$34$', '$64$'],
+      answer: 2,
+      solution: 'More heads than tails in $7$ flips means at most $3$ tails, so sort by the number of tails. With $0$ tails there is $1$ sequence. With $1$ tail, $7$. With $2$ tails, they must not be neighbors: place the $5$ heads in a row, which creates $6$ gaps (including the two ends), and choose $2$ of them, $\\binom{6}{2} = 15$. With $3$ tails, the $4$ heads create $5$ gaps and $\\binom{5}{3} = 10$. Total $1 + 7 + 15 + 10 = 33$. Answering $25$ forgets the sequences with fewer than two tails; $32$ leaves out the all-heads sequence; $34$ also counts the single sequence with $4$ separated tails, which has more tails than heads; and $64$ counts every sequence with more heads than tails, neighbors or not.',
+      topic: 'counting',
+      chapter: 2,
+    },
+  ],
+}
