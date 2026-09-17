@@ -1,6 +1,8 @@
+import { Fragment } from 'react'
 import { isChapterAvailable, getChapterContent } from '../data/content.js'
+import { checkpointsFor } from '../data/checkpoints/index.js'
 import { getResult, starsFor } from '../lib/storage.js'
-import { Lock, ArrowRight } from '../components/icons.jsx'
+import { Lock, ArrowRight, Swords } from '../components/icons.jsx'
 import { BackLink } from '../components/ui.jsx'
 
 function chapterStars(bookId, content) {
@@ -53,7 +55,35 @@ function ChapterCard({ book, chapter }) {
   )
 }
 
+// A checkpoint card sits in the chapter list right after the last chapter it
+// covers, so it reads as the next thing to do rather than a separate mode.
+function CheckpointCard({ book, cp }) {
+  const best = getResult(`checkpoint/${cp.id}`)
+  const [from, to] = cp.covers
+  return (
+    <a className="chapter-card is-checkpoint accent-amber" href={`#/book/${book.id}/checkpoint/${cp.number}`}>
+      <span className="ch-num ch-crest">
+        <Swords size={22} />
+      </span>
+      <span className="ch-info">
+        <span className="ch-kicker">
+          Checkpoint {cp.number} · Chapters {from}–{to}
+        </span>
+        <span className="ch-title">{cp.title}</span>
+        <span className="ch-sub">
+          {cp.problems.length} problems · {cp.minutes ?? 25} minutes · timed
+        </span>
+      </span>
+      <span className="ch-side">
+        <span className="ch-stars">{best ? `Best ${best.correct}/${best.total}` : 'Not attempted'}</span>
+        <ArrowRight size={18} />
+      </span>
+    </a>
+  )
+}
+
 export default function BookPage({ book }) {
+  const checkpoints = checkpointsFor(book.id)
   return (
     <main className="page">
       <BackLink href="#/">All books</BackLink>
@@ -63,7 +93,14 @@ export default function BookPage({ book }) {
       </header>
       <div className="chapter-list">
         {book.chapters.map((c) => (
-          <ChapterCard key={c.number} book={book} chapter={c} />
+          <Fragment key={c.number}>
+            <ChapterCard book={book} chapter={c} />
+            {checkpoints
+              .filter((cp) => cp.after === c.number)
+              .map((cp) => (
+                <CheckpointCard key={`cp${cp.number}`} book={book} cp={cp} />
+              ))}
+          </Fragment>
         ))}
       </div>
     </main>

@@ -279,9 +279,41 @@ async function checkArenaSet(file) {
   checkAnswerSpread(id, set.problems, 5)
 }
 
+// Checkpoints are short contest-style papers between chapters: 15 problems,
+// five choices each, covering the book only up to the chapter they follow.
+const CHECKPOINT_SIZE = 15
+
+async function checkCheckpoint(file) {
+  const cp = (await import(pathToFileURL(file).href)).default
+  if (!cp || !cp.id || !cp.book || !cp.title || !Number.isInteger(cp.number)) {
+    errors.push(`${file}: checkpoint missing id/book/number/title`)
+    return
+  }
+  const id = `checkpoint/${cp.id}`
+  if (!Number.isInteger(cp.after) || !Array.isArray(cp.covers) || cp.covers.length !== 2) {
+    errors.push(`${id}: needs integer "after" and a two-element "covers" range`)
+    return
+  }
+  const [from, to] = cp.covers
+  if (!(from >= 1 && from <= to && to === cp.after)) {
+    errors.push(`${id}: covers [${from}, ${to}] must end at the chapter it follows (after: ${cp.after})`)
+  }
+  if (!Array.isArray(cp.problems) || cp.problems.length !== CHECKPOINT_SIZE) {
+    errors.push(`${id}: needs exactly ${CHECKPOINT_SIZE} problems (has ${cp.problems?.length ?? 0})`)
+    return
+  }
+  cp.problems.forEach((p, i) => {
+    checkProblem(`${id}.p[${i + 1}]`, p, { mc: true, nChoices: 5 })
+    if (!p.topic) warnings.push(`${id}.p[${i + 1}]: no topic tag`)
+    if (!Number.isInteger(p.chapter)) warnings.push(`${id}.p[${i + 1}]: no chapter tag`)
+    else if (p.chapter > to) errors.push(`${id}.p[${i + 1}]: leans on chapter ${p.chapter}, past the checkpoint's range`)
+  })
+  checkAnswerSpread(id, cp.problems, 5)
+}
+
 const files = []
 for (const book of readdirSync(dataDir, { withFileTypes: true })) {
-  if (!book.isDirectory() || book.name === 'variants' || book.name === 'arena') continue
+  if (!book.isDirectory() || ['variants', 'arena', 'checkpoints'].includes(book.name)) continue
   for (const f of readdirSync(join(dataDir, book.name))) {
     if (/^ch\d+\.js$/.test(f)) files.push(join(dataDir, book.name, f))
   }
@@ -329,6 +361,21 @@ for (const f of variantFiles.filter(wanted)) {
 for (const f of arenaFiles.filter(wanted)) {
   try {
     await checkArenaSet(f)
+  } catch (e) {
+    errors.push(`${f}: failed to load — ${e.message}`)
+  }
+}
+
+const checkpointsDir = join(dataDir, 'checkpoints')
+const checkpointFiles = []
+for (const book of listDir(checkpointsDir, (e) => e.isDirectory())) {
+  for (const f of readdirSync(join(checkpointsDir, book.name))) {
+    if (/^cp\d+\.js$/.test(f)) checkpointFiles.push(join(checkpointsDir, book.name, f))
+  }
+}
+for (const f of checkpointFiles.filter(wanted)) {
+  try {
+    await checkCheckpoint(f)
   } catch (e) {
     errors.push(`${f}: failed to load — ${e.message}`)
   }
@@ -432,11 +479,13 @@ if (only && matched === 0) {
 }
 if (errors.length) {
   for (const e of errors) console.error('ERROR', e)
-  console.error(`\n${errors.length} error(s) across ${files.length + variantFiles.length + arenaFiles.length} file(s).`)
+  console.error(
+    `\n${errors.length} error(s) across ${files.length + variantFiles.length + arenaFiles.length + checkpointFiles.length} file(s).`,
+  )
   process.exit(1)
 }
 const pct = baseCount ? Math.round((variedCount / baseCount) * 100) : 0
 console.log(
-  `OK — ${files.length} chapter file(s), ${variantFiles.length} variation file(s), ${arenaFiles.length} arena set(s) valid, ${warnings.length} warning(s).`,
+  `OK — ${files.length} chapter file(s), ${variantFiles.length} variation file(s), ${arenaFiles.length} arena set(s), ${checkpointFiles.length} checkpoint(s) valid, ${warnings.length} warning(s).`,
 )
 console.log(`Variations: ${variedCount}/${baseCount} base problems have all 3 (${pct}%).`)

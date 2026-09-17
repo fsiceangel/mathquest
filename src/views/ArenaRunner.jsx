@@ -1,17 +1,40 @@
 import { useMemo, useState } from 'react'
 import ArenaRun from './ArenaRun.jsx'
 import { drawPaper, getMode, getPaper } from '../data/arena/index.js'
+import { getCheckpoint } from '../data/checkpoints/index.js'
 import { BackLink } from '../components/ui.jsx'
 
-function NotFound() {
+function NotFound({ href = '#/arena', label = 'Challenge Arena', where = 'the Arena' }) {
   return (
     <main className="page page-narrow">
-      <BackLink href="#/arena">Challenge Arena</BackLink>
+      <BackLink href={href}>{label}</BackLink>
       <header className="page-head">
         <h1>That paper is not ready yet</h1>
-        <p className="lede">Pick another one from the Arena.</p>
+        <p className="lede">Pick another one from {where}.</p>
       </header>
     </main>
+  )
+}
+
+// A checkpoint is an authored paper that belongs to a book: everything the
+// student has met so far, posed contest-style.
+export function CheckpointRun({ book, number }) {
+  const cp = getCheckpoint(book.id, number)
+  const [nonce, setNonce] = useState(0)
+  if (!cp) return <NotFound href={`#/book/${book.id}`} label={book.title} where="the book" />
+  const [from, to] = cp.covers
+  return (
+    <ArenaRun
+      key={nonce}
+      title={cp.title}
+      subtitle={`Checkpoint ${cp.number} · ${book.title}, chapters ${from}–${to}`}
+      problems={cp.problems}
+      minutes={cp.minutes ?? 25}
+      storageId={`checkpoint/${cp.id}`}
+      backHref={`#/book/${book.id}`}
+      backLabel="Back to the book"
+      onRestart={() => setNonce((n) => n + 1)}
+    />
   )
 }
 

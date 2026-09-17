@@ -12,7 +12,7 @@ import WorksheetView from './views/WorksheetView.jsx'
 import FamilyPage from './views/FamilyPage.jsx'
 import ProgressPage from './views/ProgressPage.jsx'
 import ArenaPage from './views/ArenaPage.jsx'
-import { AuthoredPaper, DrawnPaper } from './views/ArenaRunner.jsx'
+import { AuthoredPaper, DrawnPaper, CheckpointRun } from './views/ArenaRunner.jsx'
 
 function useRoute() {
   const [hash, setHash] = useState(window.location.hash)
@@ -40,6 +40,10 @@ function resolve(route) {
   if (!book) return { view: <Home />, accent: 'coral' }
   const accent = book.accent
 
+  if (route[2] === 'checkpoint') {
+    const n = Number(route[3])
+    return { view: <CheckpointRun key={`${book.id}/cp${n}`} book={book} number={n} />, accent: 'amber' }
+  }
   if (route[2] !== 'ch') return { view: <BookPage book={book} />, accent }
   const number = Number(route[3])
   const meta = book.chapters.find((c) => c.number === number)

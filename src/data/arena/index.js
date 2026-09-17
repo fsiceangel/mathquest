@@ -4,6 +4,7 @@
 // 25-question papers written to ramp from gentle to genuinely hard. Drawn
 // papers are built on the spot from the chapter library, so they never repeat.
 import { allChapters } from '../content.js'
+import { allCheckpoints } from '../checkpoints/index.js'
 import { versionOf } from '../../lib/variants.js'
 
 const setModules = import.meta.glob('./set*.js', { eager: true })
@@ -34,6 +35,14 @@ function buildPool() {
     }
     ;(ch.challenge ?? []).forEach((p, i) => {
       pool.push({ p, diff: w + 1.2 + i / 11 })
+    })
+  }
+  // Checkpoint problems are written to contest difficulty from the start, so
+  // they occupy the top of the range and never appear in the Quick Round.
+  for (const cp of allCheckpoints()) {
+    const w = BOOK_WEIGHT[cp.book] ?? 0
+    cp.problems.forEach((p, i) => {
+      pool.push({ p, diff: w + 1.6 + i / (cp.problems.length - 1) })
     })
   }
   return pool

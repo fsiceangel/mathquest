@@ -1,12 +1,25 @@
-// Audit for the authored arena papers: ascending numeric choices,
-// answer-position spread, cross-paper echoes, house style, and figure sanity.
+// Audit for the authored arena papers and the between-chapter checkpoints:
+// ascending numeric choices, answer-position spread, cross-paper echoes, house
+// style, and figure sanity.
+//
+//   node scripts/audit/arena.mjs                 every arena paper and checkpoint
+//   node scripts/audit/arena.mjs <book>          one book's checkpoints only
 import { readdirSync } from 'node:fs'
 
 // Paths below are written from the repo root, where these are meant to be run.
 const ROOT = new URL('../../', import.meta.url)
 
-const dir = './src/data/arena/'
-const files = readdirSync(dir).filter((f) => /^set\d+\.js$/.test(f)).sort()
+const only = process.argv[2]
+const papers = [] // { dir, file }
+if (!only) for (const f of readdirSync('./src/data/arena/').filter((f) => /^set\d+\.js$/.test(f)).sort()) papers.push({ dir: './src/data/arena/', file: f })
+let cpBooks = []
+try {
+  cpBooks = readdirSync('./src/data/checkpoints/', { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => e.name)
+} catch {}
+for (const b of cpBooks) {
+  if (only && b !== only) continue
+  for (const f of readdirSync(`./src/data/checkpoints/${b}/`).filter((f) => /^cp\d+\.js$/.test(f)).sort()) papers.push({ dir: `./src/data/checkpoints/${b}/`, file: f })
+}
 
 // Parse a choice string to a number when it is one: integers, decimals, \frac{a}{b},
 // mixed a\frac{b}{c}, k\pi, \sqrt{n}, \$x, x\%, negatives. Returns null otherwise.
@@ -31,7 +44,7 @@ function numeric(s) {
 const norm = (s) => s.replace(/\\[a-zA-Z]+/g, ' ').replace(/[{}$\s,.]/g, '').toLowerCase()
 const all = []
 let problems = 0
-for (const f of files) {
+for (const { dir, file: f } of papers) {
   const set = (await import(new URL(dir + f, ROOT).href)).default
   const counts = [0, 0, 0, 0, 0]
   let figs = 0
@@ -55,16 +68,18 @@ for (const f of files) {
     if (/AMC|AoPS|Art of Problem|MATHCOUNTS|Mathcounts|AIME|Olympiad/i.test(text)) console.log(`NAME ${tag}: names a competition or publisher`)
     if (!p.topic) console.log(`TOPIC ${tag}: missing`)
   })
-  console.log(`${set.id} "${set.title}": ${set.problems.length} problems, ${figs} figures, answer positions ${counts.join('/')}${counts.some((c) => c < 3 || c > 7) ? '  <-- SPREAD' : ''}`)
+  // Each of the five positions should be right its fair share of the time: 3–7 of 25, 2–5 of 15.
+  const [lo, hi] = set.problems.length >= 25 ? [3, 7] : [2, 5]
+  console.log(`${set.id} "${set.title}": ${set.problems.length} problems, ${figs} figures, answer positions ${counts.join('/')}${counts.some((c) => c < lo || c > hi) ? '  <-- SPREAD' : ''}`)
 }
-console.log(`${files.length} papers, ${problems} problems`)
+console.log(`${papers.length} papers, ${problems} problems`)
 
 // Cross-paper echoes: identical stems, and stems sharing most of their number set.
 const nums = (s) => new Set((s.match(/\d+(\.\d+)?/g) || []).filter((n) => Number(n) > 9))
 for (let a = 0; a < all.length; a++) {
   for (let b = a + 1; b < all.length; b++) {
     const A = all[a], B = all[b]
-    if (A.tag.slice(0, 5) === B.tag.slice(0, 5)) continue
+    if (A.tag.split('#')[0] === B.tag.split('#')[0]) continue
     if (norm(A.p.q) === norm(B.p.q)) { console.log(`ECHO ${A.tag} == ${B.tag}`); continue }
     const na = nums(A.p.q), nb = nums(B.p.q)
     if (na.size >= 3 && nb.size >= 3) {

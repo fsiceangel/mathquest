@@ -40,7 +40,7 @@ function Timer({ left, total }) {
   )
 }
 
-function Review({ problems, answers, onRestart, backHref }) {
+function Review({ problems, answers, onRestart, backHref, backLabel }) {
   const correct = problems.filter((p, i) => answers[i] === p.answer).length
   return (
     <div className="arena-review">
@@ -80,7 +80,7 @@ function Review({ problems, answers, onRestart, backHref }) {
           Run it again
         </button>
         <a className="btn btn-ghost btn-lg" href={backHref}>
-          Back to the Arena
+          {backLabel}
         </a>
       </div>
       <p className="arena-review-foot">{correct} of {problems.length} correct.</p>
@@ -88,7 +88,16 @@ function Review({ problems, answers, onRestart, backHref }) {
   )
 }
 
-export default function ArenaRun({ title, subtitle, problems, minutes, storageId, backHref, onRestart }) {
+export default function ArenaRun({
+  title,
+  subtitle,
+  problems,
+  minutes,
+  storageId,
+  backHref,
+  backLabel = 'Back to the Arena',
+  onRestart,
+}) {
   const totalSeconds = minutes * 60
   const [idx, setIdx] = useState(0)
   const [answers, setAnswers] = useState(() => new Array(problems.length).fill(null))
@@ -202,7 +211,7 @@ export default function ArenaRun({ title, subtitle, problems, minutes, storageId
           {beatBest && <p className="arena-pb">New personal best!</p>}
         </div>
         <h2 className="list-heading">Every problem, worked out</h2>
-        <Review problems={problems} answers={answers} onRestart={onRestart} backHref={backHref} />
+        <Review problems={problems} answers={answers} onRestart={onRestart} backHref={backHref} backLabel={backLabel} />
       </main>
     )
   }
@@ -210,7 +219,7 @@ export default function ArenaRun({ title, subtitle, problems, minutes, storageId
   return (
     <main className="page page-narrow arena-page">
       <div className="arena-top">
-        <BackLink href={backHref}>Leave the arena</BackLink>
+        <BackLink href={backHref}>Leave the paper</BackLink>
         <Timer left={left} total={totalSeconds} />
       </div>
       <div className="arena-nav" role="group" aria-label="Jump to a problem">
