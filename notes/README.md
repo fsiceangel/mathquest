@@ -10,6 +10,12 @@ site — nothing here is shipped or imported.
   three lanes (fresh numbers, a different scenario shape, reversed or derived),
   the derived answer-index rule, key distinctness, and the two-route solution
   format the variations use.
+- **`arena-spec.md`** — the calibration the four Arena papers were written to:
+  five difficulty bands, ascending choices, a lane per slot so no two papers
+  share a problem.
+- **`checkpoint-spec.md`** and **`checkpoints/`** — the between-chapter papers:
+  what a checkpoint is, where each one sits, its bands and quotas, and one lane
+  table per book giving every slot's idea and twist.
 - **`pins/`** — one file per chapter of Counting & Probability, written before
   any prose. Each pins the scenario and the answer for all 156 (or 216)
   variations, with every key brute-forced first. Authors write against the pin
