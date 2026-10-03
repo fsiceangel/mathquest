@@ -4,6 +4,7 @@ import { Fig } from '../components/Fig.jsx'
 import { BackLink, Confetti, ProgressRing } from '../components/ui.jsx'
 import { ArrowLeft, ArrowRight, Bulb, Check, Clock, Cross, Flag } from '../components/icons.jsx'
 import { saveResult, getResult } from '../lib/storage.js'
+import { useAttempt } from '../lib/use-attempt.js'
 
 const LETTERS = 'ABCDE'
 
@@ -91,7 +92,7 @@ function Review({ problems, answers, onRestart, backHref, backLabel }) {
 export default function ArenaRun({
   title,
   subtitle,
-  problems,
+  problems: initialProblems,
   minutes,
   storageId,
   backHref,
@@ -99,65 +100,60 @@ export default function ArenaRun({
   onRestart,
 }) {
   const totalSeconds = minutes * 60
-  const [idx, setIdx] = useState(0)
-  const [answers, setAnswers] = useState(() => new Array(problems.length).fill(null))
-  const [flags, setFlags] = useState(() => new Set())
-  const [left, setLeft] = useState(totalSeconds)
-  const [done, setDone] = useState(false)
+  const session = useAttempt(storageId, 'arena', () => initialProblems, { seconds: totalSeconds })
+  const { problems, attempt, update } = session
+  const idx = attempt.index, answers = attempt.answers, left = attempt.left, done = attempt.done
+  const flags = new Set(attempt.flags)
   const [confirming, setConfirming] = useState(false)
   const doneRef = useRef(false)
   const best = useMemo(() => getResult(storageId), [storageId])
 
   useEffect(() => {
-    if (done) return
-    const t = setInterval(() => setLeft((s) => Math.max(0, s - 1)), 1000)
+    if (done || !session.ready) return
+    const t = setInterval(() => update(a => ({ ...a, left: Math.max(0, a.left - 1) })), 1000)
     return () => clearInterval(t)
-  }, [done])
+  }, [done, session.ready])
 
   useEffect(() => {
-    if (left === 0) finish()
+    if (session.ready && left === 0) finish()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [left])
+  }, [left, session.ready])
 
   function finish() {
-    if (doneRef.current) return
+    if (doneRef.current || done) return
     doneRef.current = true
-    setDone(true)
+    update(a => ({ ...a, done: true }))
   }
 
   const problem = problems[idx]
   const answeredCount = answers.filter((a) => a !== null).length
-  const correct = answers.filter((a, i) => a === problems[i].answer).length
+  const correct = answers.filter((a, i) => a !== null && a === problems[i]?.answer).length
   const used = totalSeconds - left
 
   useEffect(() => {
-    if (done) saveResult(storageId, correct, problems.length)
+    if (done && session.ready) saveResult(storageId, correct, problems.length, { attemptId: attempt.token })
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [done])
+  }, [done, session.ready])
 
   function choose(i) {
-    setAnswers((prev) => {
-      const next = prev.slice()
-      next[idx] = prev[idx] === i ? null : i
-      return next
-    })
+    update(a => ({ ...a, answers: a.answers.map((answer, index) => index === idx ? (answer === i ? null : i) : answer) }))
   }
 
   function toggleFlag() {
-    setFlags((prev) => {
-      const next = new Set(prev)
+    update(a => {
+      const next = new Set(a.flags)
       if (next.has(idx)) next.delete(idx)
       else next.add(idx)
-      return next
+      return { ...a, flags: [...next] }
     })
   }
 
   function go(delta) {
-    setIdx((i) => Math.min(problems.length - 1, Math.max(0, i + delta)))
+    update(a => ({ ...a, index: Math.min(problems.length - 1, Math.max(0, a.index + delta)) }))
   }
 
   useEffect(() => {
-    if (done) return
+    if (done || !session.ready) return
     function onKey(e) {
       if (e.target.tagName === 'BUTTON' && e.key === ' ') return
       const letter = LETTERS.indexOf(e.key.toUpperCase())
@@ -171,7 +167,18 @@ export default function ArenaRun({
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [idx, done, problem])
+  }, [idx, done, problem, session.ready])
+
+  function restart() {
+    session.reset()
+    onRestart()
+  }
+
+  if (!session.ready) return <main className="page page-narrow">
+    <BackLink href={backHref}>{backLabel}</BackLink>
+    <p role="status">{session.error ?? 'Loading your saved paper…'}</p>
+    {session.error && <button className="btn btn-accent" onClick={session.retryLoad}>Try loading again</button>}
+  </main>
 
   if (done) {
     const frac = correct / problems.length
@@ -211,7 +218,7 @@ export default function ArenaRun({
           {beatBest && <p className="arena-pb">New personal best!</p>}
         </div>
         <h2 className="list-heading">Every problem, worked out</h2>
-        <Review problems={problems} answers={answers} onRestart={onRestart} backHref={backHref} backLabel={backLabel} />
+        <Review problems={problems} answers={answers} onRestart={restart} backHref={backHref} backLabel={backLabel} />
       </main>
     )
   }
@@ -222,6 +229,10 @@ export default function ArenaRun({
         <BackLink href={backHref}>Leave the paper</BackLink>
         <Timer left={left} total={totalSeconds} />
       </div>
+      <p className="results-note" role="status">{session.saveFailed
+        ? 'This browser could not save your progress. Keep this page open until you finish.'
+        : session.changed ? 'This paper was updated. Your unchanged answers are saved; please revisit the changed question.'
+        : 'Your answers and flags save on this device. The timer pauses when you leave this paper.'}</p>
       <div className="arena-nav" role="group" aria-label="Jump to a problem">
         {problems.map((_, i) => (
           <button
@@ -232,7 +243,7 @@ export default function ArenaRun({
               (answers[i] !== null ? ' is-answered' : '') +
               (flags.has(i) ? ' is-flagged' : '')
             }
-            onClick={() => setIdx(i)}
+            onClick={() => update(a => ({ ...a, index: i }))}
             aria-label={`Problem ${i + 1}${answers[i] !== null ? ', answered' : ''}${flags.has(i) ? ', flagged' : ''}`}
             aria-current={i === idx}
           >
@@ -243,6 +254,7 @@ export default function ArenaRun({
 
       <div className="q-card arena-card" key={idx}>
         <div className="q-chips">
+          {problem.calibration?.scope === 'extension' && <span className="chip chip-quiet">Optional extension</span>}
           <span className="chip">
             Problem {idx + 1} of {problems.length}
           </span>

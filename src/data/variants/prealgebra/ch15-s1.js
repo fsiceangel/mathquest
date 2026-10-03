@@ -201,21 +201,21 @@ const s151 = [
   // p9 — find the secret rule of a number machine
   [
     {
-      q: 'A number machine follows one secret rule. It turns $1$ into $6$, turns $4$ into $21$, and turns $6$ into $31$. What does it turn $9$ into?',
+      q: 'A number machine multiplies every input by the same fixed number, then adds another fixed number. It turns $1$ into $6$, turns $4$ into $21$, and turns $6$ into $31$. What does it turn $9$ into?',
       choices: ['$45$', '$46$', '$14$', '$54$'],
       answer: 1,
       solution:
         'Hunt for a rule and test it on every clue. "Multiply by $5$, then add $1$" works all three times: $5 \\times 1 + 1 = 6$, $5 \\times 4 + 1 = 21$, $5 \\times 6 + 1 = 31$. ✓ So $9$ becomes $5 \\times 9 + 1 = 46$. Choosing $45$ multiplies by $5$ but forgets the $+1$. The rule "add $5$" fits the first clue but turns $4$ into $9$, not $21$, and it gives $14$; "multiply by $6$" also fits only the first clue and gives $54$. One clue is never enough.',
     },
     {
-      q: 'A number machine follows one secret rule. It turns $2$ into $5$, turns $4$ into $9$, and turns $8$ into $17$. What does it turn $12$ into?',
+      q: 'A number machine multiplies every input by the same fixed number, then adds another fixed number. It turns $2$ into $5$, turns $4$ into $9$, and turns $8$ into $17$. What does it turn $12$ into?',
       choices: ['$24$', '$26$', '$25$', '$15$'],
       answer: 2,
       solution:
         'Test rules against every clue. "Double, then add $1$" fits all three: $2 \\times 2 + 1 = 5$, $2 \\times 4 + 1 = 9$, $2 \\times 8 + 1 = 17$. ✓ So $12$ becomes $2 \\times 12 + 1 = 25$. Choosing $24$ doubles but drops the $+1$; $26$ adds the $1$ first and then doubles, $2 \\times (12 + 1)$, which is the right steps in the wrong order; and $15$ uses "add $3$", a rule that fits the first clue only — it would turn $4$ into $7$, not $9$.',
     },
     {
-      q: 'A number machine follows one secret rule. It turns $2$ into $7$, turns $5$ into $19$, and turns $8$ into $31$. What does it turn $10$ into?',
+      q: 'A number machine multiplies every input by the same fixed number, then adds another fixed number. It turns $2$ into $7$, turns $5$ into $19$, and turns $8$ into $31$. What does it turn $10$ into?',
       choices: ['$40$', '$41$', '$15$', '$39$'],
       answer: 3,
       solution:

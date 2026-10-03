@@ -298,6 +298,15 @@ const s54 = {
         answer: '$81$ placements.',
       },
       {
+        problem: 'Three different toys are assigned to two labeled boxes, $A$ and $B$, and both boxes must be used. How many assignments are there? Order inside a box does not matter.',
+        steps: [
+          'Ignoring the nonempty rule, each toy chooses one of two boxes, so there are $2^3=8$ assignments.',
+          'Exactly one assignment leaves $A$ empty (all toys in $B$), and exactly one leaves $B$ empty. They cannot both be empty because every toy is assigned.',
+          'Subtract these two exceptions: $8-1-1=6$. This short complement bridges direct labeled assignments to the later three-box nonempty cases.',
+        ],
+        answer: '$6$ assignments.',
+      },
+      {
         problem: 'Five identical marbles are dropped into three cups labeled $A$, $B$, and $C$. Cups may be empty. How many different results are there?',
         steps: [
           'Only the counts matter, so a result is a list $(a, b, c)$ of non-negative whole numbers with $a + b + c = 5$.',
@@ -321,7 +330,7 @@ const s54 = {
   },
   problems: [
     {
-      q: 'Five different keys are hung on two labeled hooks, left and right. A hook may hold any number of keys, including none. How many arrangements are there?',
+      q: 'Five different keys are hung on two labeled hooks, left and right. A hook may hold any number of keys, including none. Only which hook holds each key matters; the order of keys on a hook is ignored. How many arrangements are there?',
       choices: ['$10$', '$25$', '$32$', '$6$'],
       answer: 2,
       solution: 'Each key chooses left or right: $2^5 = 32$. Squaring the wrong way gives $5^2 = 25$; $6$ is the answer when the keys are identical, since only the count on the left hook would matter; $10 = \\binom{5}{2}$ counts one particular split size.',
@@ -345,7 +354,7 @@ const s54 = {
       solution: 'This is $8$ identical balls dropped into three labeled boxes $a$, $b$, $c$, with empty boxes allowed: arrange $8$ stars and $2$ bars, $\\binom{10}{2} = 45$. Sorting by $a$ checks it: $a = 0$ gives $9$ triples, then $8, 7, \\ldots, 1$, and $9 + 8 + \\cdots + 1 = 45$. The answer $\\binom{9}{2} = 36$ uses $9$ symbols instead of $10$, $\\binom{11}{2} = 55$ uses $11$, and $\\binom{8}{2} = 28$ forgets the bars entirely.',
     },
     {
-      q: 'Four different plants are placed on two labeled shelves, upper and lower, and neither shelf may be left empty. How many arrangements are there?',
+      q: 'Four different plants are placed on two labeled shelves, upper and lower, and neither shelf may be left empty. Only which shelf holds each plant matters; the order of plants on a shelf is ignored. How many arrangements are there?',
       choices: ['$16$', '$15$', '$14$', '$7$'],
       answer: 2,
       solution: 'With empties allowed, each plant picks a shelf: $2^4 = 16$. Exactly two of those leave a shelf empty — all on the upper, all on the lower — so $16 - 2 = 14$. Subtracting only one gives $15$; $7$ is the answer for unlabeled shelves; $16$ ignores the rule.',
@@ -375,7 +384,7 @@ const s54 = {
       solution: 'Sort by how many boxes are used. One box: $1$ way. Two boxes: split the animals into two unlabeled non-empty groups, sizes $3+1$ in $4$ ways or $2+2$ in $3$ ways, so $7$. Three boxes: sizes $2+1+1$, and choosing the pair decides everything, $\\binom{4}{2} = 6$. Total $1 + 7 + 6 = 14$. Labeled boxes give $3^4 = 81$; dividing that by $3$ gives $27$ and by $3! = 6$ gives a non-integer, which is a sign that plain division cannot work here; $6$ counts only the packings that use all three boxes.',
     },
     {
-      q: 'Five different charms, one of them gold and one silver, are placed on three labeled bracelets. Every bracelet must get at least one charm, and the gold and silver charms must be on different bracelets. How many arrangements are there?',
+      q: 'Five different charms, one of them gold and one silver, are assigned to three labeled bracelets. Every bracelet must get at least one charm, and the gold and silver charms must be on different bracelets. Only which bracelet receives each charm matters; the order of charms on a bracelet is ignored. How many assignments are there?',
       choices: ['$114$', '$150$', '$162$', '$69$'],
       answer: 0,
       solution: 'First count arrangements with every bracelet non-empty and no rule about gold and silver: $3^5 = 243$, minus the $3 \\times 2^5 = 96$ that leave a chosen bracelet empty, plus the $3$ that pile everything on one bracelet and were subtracted twice, gives $150$. Among those, the ones with gold and silver together can be counted by gluing the two into a single charm: $4$ charms onto $3$ non-empty bracelets is $3^4 - 3 \\times 2^4 + 3 = 36$. So $150 - 36 = 114$. Answering $150$ ignores the gold-silver rule; $162 = 3 \\times 2 \\times 27$ separates gold and silver but allows empty bracelets; $69 = 150 - 81$ subtracts every together-arrangement, including ones with an empty bracelet that were never in the $150$.',

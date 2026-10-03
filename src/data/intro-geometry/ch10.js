@@ -587,7 +587,7 @@ const s103 = {
       solution: 'The third side $c$ satisfies $12 - 5 < c < 12 + 5$, so $7 < c < 17$. The perimeter is $p = 5 + 12 + c = 17 + c$. Adding $17$ across the inequality: $24 < p < 34$. The endpoints stay excluded — $c$ can never actually equal $7$ or $17$, so $p$ never reaches $24$ or $34$.',
     },
     {
-      q: 'A delivery drone flies straight from $A$ to $B$ ($8$ km), then straight from $B$ to $C$ ($5$ km). Which of these could be the straight-line distance from $A$ to $C$?',
+      q: 'A delivery drone flies straight from $A$ to $B$ ($8$ km), then straight from $B$ to $C$ ($5$ km). Which of these could be the straight-line distance from $A$ to $C$? The points $A$, $B$, and $C$ are not collinear.',
       fig: {
         view: [-1.2, -1, 12.6, 6.1],
         elems: [
@@ -759,7 +759,7 @@ const worksheet = [
     solution: 'Write all three triangle inequalities. $x + 2x > 15$ gives $x > 5$. $x + 15 > 2x$ gives $x < 15$. The last check, $2x + 15 > x$, is always true for positive $x$. So the triangle exists exactly when $5 < x < 15$ — both endpoints excluded, since each produces a flat figure.',
   },
   {
-    q: 'A farmer walks from the village $V$ to the well $W$ ($350$ m), then from the well to the barn $B$ ($200$ m), every day. The well is not on the straight path from village to barn. If a straight path from $V$ to $B$ were built, what is the most distance the farmer could possibly save?',
+    q: 'A farmer walks from the village $V$ to the well $W$ ($350$ m), then from the well to the barn $B$ ($200$ m), every day. The well is not on the straight line through village and barn. If a straight path from $V$ to $B$ were built, give a strict upper bound on the distance the farmer could save.',
     fig: {
       view: [-1, -0.8, 10.5, 5.4],
       elems: [

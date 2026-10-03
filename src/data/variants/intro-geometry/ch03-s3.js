@@ -527,7 +527,7 @@ const s34 = [
         'They are congruent by ASA',
         'They are congruent by AAS',
         'The third angles must differ, so no criterion can apply',
-        'Nothing: no pair of sides is known to be equal, and matching angles fix the shape without fixing the size',
+        'Congruence is not guaranteed: matching angles fix the shape, but no pair of equal sides fixes the size',
       ],
       answer: 3,
       solution:

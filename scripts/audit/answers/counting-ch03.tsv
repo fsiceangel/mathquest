@@ -1,0 +1,52 @@
+3.2	1	F(6)/(F(2)*F(3))|F(8)/(F(4)*F(2))|F(7)/(F(3)*F(2)*F(2))|invC(2,28)	Multiset arrangements n! divided by each repeated symbol factorial. COCOON C2O3N1; RIFFRAFF R2F4I1A1. Inverse C(n,2) strictly increasing.
+3.2	2	C(7,2)|C(9,3)|C(8,3)|invC(4,126)-4	Choose positions of one indistinguishable category; inverse total flags determined by C(total,4)=126 then subtract four reds.
+3.2	3	F(6)/F(3)|F(6)/F(2)|F(7)/F(5)|3	GIGGLE G3, VACUUM U2, apples5. Inverse k!=7!/840=6 gives k3 uniquely for integer k>=1.
+3.2	4	F(7)/(F(2)*F(4))|F(8)/(F(3)*F(4))|F(8)/(F(3)*F(3)*F(2))|invC(2,36)-2	Multiset permutation counts; inverse count equals C(n+2,2).
+3.2	5	Words('BANANA',lambda s:s[0]=='N')|Words('ALFALFA',lambda s:s[0]=='L')|Words('WWWBBBSS',lambda s:s[0]=='S')|Words('ALFALFA',lambda s:s[0]==s[-1])	Enumerate distinct multiset strings and test endpoint conditions, retaining actual multiplicities.
+3.2	6	Words('TATTOO',lambda s:'OO' in s)|Words('NONSENSE',lambda s:'NNN' in s)|Words('NNNNAACC',lambda s:'CC' in s)|Words('NONSENSE',lambda s:'EE' in s and 'SS' in s)	Direct unique-string enumeration with requested contiguous runs.
+3.2	7	Words('LLAMA',lambda s:'AA' not in s)|Words('TOFFEE',lambda s:'FF' not in s)|Words('VVVCCMM',lambda s:'CC' not in s)|Words('TOFFEE',lambda s:'FF' not in s and 'EE' not in s)	Direct unique-string enumeration forbidding specified adjacent pairs.
+3.2	8	Words('BUBBLE',lambda s:'BB' not in s)|Words('TENNESSEE',lambda s:'SS' not in s)|C(7,4)|Words('TENNESSEE',lambda s:'SS' not in s and 'NN' not in s)	Multiset enumeration; tree case chooses four of seven gaps around six identical oaks, one maple per gap.
+3.2	9	Words('0011122',lambda s:s[0]!='0')|Words('00229999',lambda s:s[0]!='0')|Words('RRWWBB',lambda s:s[0]!='R')|Words('00229999',lambda s:s[0]!='0' and s[-1]=='0')	Distinct multiset strings with nonzero-leading or top-color restriction; multiples5 can only end0 from given digit inventory.
+3.2	10	Words('BBBWWW',lambda s:'BBB' not in s and 'WWW' not in s)|Words('BBBBWWWW',lambda s:'BBBB' not in s and 'WWWW' not in s)|Words('RRRRRBBBB',lambda s:'RRR' not in s and 'BBB' not in s)|Words('BBBBWWWW',lambda s:'BBB' in s or 'WWW' in s)	Enumerate all multiset strings and detect runs directly, handling overlapping long runs only once.
+3.3	1	C(14,2)|C(19,2)|C(22,2)|invC(2,153)	Each unordered pair generates one swap/chord/game; inverse strictly increasing binomial.
+3.3	2	C(9,2)|C(17,2)|C(16,2)|20	Unordered pair counts; withdrawing one of21 removes exactly its20 games.
+3.3	3	C(6,2)-6|C(11,2)-11|C(12,2)-12|14	Diagonals are all vertex pairs except n adjacent sides. Inverse n(n-3)/2=77 has positive polygon root14, monotone n>=3.
+3.3	4	2*C(7,2)|2*C(13,2)|12*11|11	Two directed interactions per unordered pair; inverse n(n-1)=110 gives n11 unique positive solution.
+3.3	5	5*6|7*9|10*7|R(102,6)	One interaction per cross-category pair; invert product when group size unknown.
+3.3	6	12|15|17|C(12,2)	Solve n(n-3)/2=54 or90 gives12 or15; n(n-1)=272 gives17. All strictly increasing on relevant positive-integer domain.
+3.3	7	C(10,2)-C(3,2)|C(18,2)-C(4,2)|C(15,2)-C(5,2)|invC(2,C(18,2)-147)	Remove internal pairs of noninteracting subgroup; inverse missing pairs equal6, unique subgroup size4.
+3.3	8	13+1|19+1|24+1|(C(14,2)-14)-(C(12,2)-12)	Diagonal increment n-1: new vertex adds n-2 new diagonals plus former side becomes diagonal. Club new member adds one game with each old member.
+3.3	9	R(10*4,2)|R(14*5,2)|R(18*3,2)|R(2*63,21)	Sum of degrees counts every undirected interaction twice; inverse regular degree2E/N.
+3.3	10	C(10,2)-C(4,2)+1|C(12,2)-C(5,2)+1|C(11,2)-C(4,2)-C(3,2)+2|invC(2,91+C(6,2)-1)	Collapse all pairs on each long collinear line into one line; no other triples ensures no further duplicate lines.
+3.4	1	F(6)|F(9)|F(7)|10	All objects distinct, fix one reference position to remove rotations; inverse (n-1)!=362880=9!, unique n10.
+3.4	2	F(4)/2|F(9)/2|F(3)/2|F(8)	Distinct beads imply reflection has no fixed cyclic arrangement; halve rotation classes. Adjacent designated pair doubles block orientations, cancel reflection divisor.
+3.4	3	F(4)|2*F(6)|F(6)|F(5)-2*F(4)	Rotation classes only; contract adjacent pair with two orders or subtract adjacency for prohibited pair.
+3.4	4	2*F(4)|2*F(7)|2*F(5)|9	Adjacent pair block yields2(n-2)!; inverse2(n-2)!=10080 gives n9 uniquely.
+3.4	5	F(6)/2|F(8)/2|(F(7)-2*F(6))/2|(F(6)-2*F(5))/2	Fix first item to remove rotations and required opposite to remove another free position; halve for reflection, which is free on all-distinct necklaces.
+3.4	6	F(5)|F(8)|F(9)/2|8*2*F(6)	Labelled chairs/alcoves distinguish rotations. Clasp fixes starting position but reflection reverses sequence; all distinct makes reversal free. Circular labelled adjacency chooses8*2 directed placements.
+3.4	7	F(7)-2*F(6)|F(9)-2*F(8)|F(8)-2*F(7)|6*F(8)	Subtract adjacent block from unrestricted rotations; last fix one person, forbidden other seats are two adjacent and one opposite, leaving6 of9.
+3.4	8	F(2)*F(3)|F(4)*F(5)|F(3)*F(4)/2|F(3)*F(4)	Arrange first category around circle then biject second category to gaps. Equal counts plus no adjacent boys forces alternation; divide reflection only bracelet.
+3.4	9	F(3)*C(4,3)*F(3)|F(5)*C(6,3)*F(3)|F(4)*C(5,3)*F(3)|F(8)-F(5)*C(6,3)*F(3)	Arrange other people circularly, choose distinct cyclic gaps for three distinguished people then permute them; complement for at least one adjacency.
+3.4	10	Orbit(4,3)|Orbit(5,3)|Orbit(6,3)|Orbit(4,3,True)	Enumerate all labelled colorings and canonicalize actual rotation/reflection orbit, avoiding invalid blanket division with repeated colors.
+challenge	1	F(5)/F(3)|F(10)/(F(3)*F(2)*F(2))|F(9)/(F(4)*F(3)*F(2))|F(8)/(F(2)*F(2))	SASSY S3; BOOKKEEPER E3,O2,K2. Fixed endpoints consume two Es, leaving eight letters with O2,K2 only repeated.
+challenge	2	C(11,2)|2*2*C(6,2)+6*6|5*C(5,2)|C(15,2)	Count each within-division pair with two games, cross-division once; independent table pairs. New team15 games means15 current teams.
+challenge	3	F(7)/2|F(5)*C(6,3)*F(3)/2|Orbit(5,2,True)|F(6)/2	All-distinct bracelets quotient rotations/reflection freely, including gap placements of three glass beads. Repeated colors use exact orbit enumeration.
+challenge	4	C(10,2)-10|C(12,2)-2*12|C(18,2)-18|19	Remove n sides and when requested n distance-two diagonals. Inverse n(n-3)/2=152 gives positive root19, strictly increasing for n>=3.
+challenge	5	F(5)|F(7)|F(5)/F(3)|F(8)/F(2)-F(7)	Contract prescribed repeated-letter blocks, remaining identical symbols divide factorials. Last AA block with BB not adjacent uses complement.
+challenge	6	C(12,2)-C(7,2)|C(16,2)-C(10,2)|C(14,2)-C(8,2)|18-invC(2,C(18,2)-138)	At least one marked endpoint excludes only all-unmarked pairs; inverse unmarked size from missing15 pairs.
+challenge	7	F(4)*F(3)|F(6)|F(5)*F(4)|F(6)*F(3)	Contract required contiguous block on circle; internal permutations only when specified any order. Fix rotation once after contraction.
+challenge	8	Words('112233',lambda s:int(s)%2==0)|Words('1122444',lambda s:int(s)%2==0)|Words('011222',lambda s:s[0]!='0' and int(s)%2==1)|Words('1122444',lambda s:int(s)%4==0)	Enumerate distinct digit multiset strings and exact numerical divisibility, excluding leading zero where applicable.
+challenge	9	Orbit(6,2)|Orbit(8,2)|Orbit(7,2,True)|Orbit(6,2,True)	Exhaustive colorings reduced to lexicographically minimal representative under allowed dihedral/cyclic group only.
+challenge	10	invC(2,210+C(7,2))-7|invC(2,272+C(8,2))-8|invC(2,175+C(6,2))-6|8*17	Total interactions C(total,2)-C(excluded,2); inverse monotone pair count. Last asks cross-category only.
+challenge	11	F(3)*2**4|Seats(8,lambda p:all(p[i]%2==0 and p[i+1]%2==1 and not adj(p[i],p[i+1],8) for i in (0,2,4,6)),True)|F(4)*2**3|F(3)*F(4)-Seats(8,lambda p:all(p[i]%2==0 and p[i+1]%2==1 and not adj(p[i],p[i+1],8) for i in (0,2,4,6)),True)	Couple blocks when spouses adjacent. Alternating case fixes first man at0, then enumerates gender-parity seats and each spouse nonadjacency; complement yields at least one adjacent spouse.
+challenge	12	MOrbit('RRBBGG',True)|MOrbit('AAAAJJJJ',True)|MOrbit('RRRWWWWWW',True)|MOrbit('RRBBGG')	Enumerate unique multiset strings then identify only rotation/reflection equivalences explicitly; repeated bead stabilizers handled automatically.
+worksheet	1	F(7)/F(4)|F(7)/F(2)|C(9,4)|F(6)	PIZZAZZ has four Zs, BUZZARD two; adjacent ZZ contracted into single symbol.
+worksheet	2	C(16,2)|C(23,2)|C(9,2)|invC(2,231)	Undirected pair interactions; inverse strictly increasing C(n,2).
+worksheet	3	C(9,2)-9|C(16,2)-16|C(14,2)-14|25	Diagonals exclude n sides; n(n-3)/2=275 gives positive root25 uniquely for polygon domain.
+worksheet	4	F(8)|F(3)*F(4)|P(8,6)/8|F(9)	Independent cyclic trays multiply. Six distinct rings guarantee rotations act freely even with two indistinguishable empty pegs; labelled seats retain all permutations.
+worksheet	5	F(8)/2|(F(8)-2*F(7))/2|Orbit(8,2,True)|F(7)	All-distinct reflection halves rotation classes; subtract/require adjacent pair block. Two-color bracelets use explicit orbit enumeration.
+worksheet	6	F(4)/F(2)|F(5)/(F(2)*F(2))|F(6)/(F(2)*F(2)*F(2))|Words('RATTRAP',lambda s:s[0]!='P' and s[-1]!='P')	Fixed repeated endpoints consume two copies; enumerate remaining multiset or endpoint exclusions directly.
+worksheet	7	R(12*5,2)|R(16*7,2)|R(22*4,2)|R(2*84,6)	Undirected degree sum counts interactions twice; inverse total people2E/degree.
+worksheet	8	F(4)|2*F(5)|F(8)|F(5)-F(4)	Fix reference person under rotations; opposite partner fixed, adjacent third has two choices; last excludes opposite seat from all rotations.
+worksheet	9	Words('122333',lambda s:int(s)>300000)|Words('1116668',lambda s:int(s)>6000000)|Words('115556',lambda s:int(s)%2==0)|Words('1116668',lambda s:int(s)%2==1)	Enumerate distinct multiset digit strings and test actual integer threshold/parity.
+worksheet	10	Orbit(3,3)|Orbit(3,4)|Orbit(3,6)|Orbit(3,5,True)	Enumerate every coloring and canonicalize only allowed rotations or dihedral symmetries; unequal stabilizers cannot be ignored.

@@ -298,7 +298,7 @@ const s154 = [
   // appears as a height scaled by an area ratio, not as a quotient of volumes.
   [
     {
-      q: 'A cylindrical rain barrel of radius $6$ is part full of water. A solid stone ball of radius $3$ is lowered in and sinks right under the surface. By how much does the water level rise?',
+      q: 'A cylindrical rain barrel of radius $6$ is part full of water. A solid stone ball of radius $3$ is lowered in and sinks right under the surface. By how much does the water level rise? No liquid spills or overflows.',
       fig: tankBallFig(6, 10, 3, 3, 'r = 6', '3', 240),
       choices: ['$1$', '$6$', '$4$', '$\\frac{3}{4}$'],
       answer: 0,
@@ -306,7 +306,7 @@ const s154 = [
         'Route one, displaced volume over base area: the ball shoves aside its own volume, $\\frac{4}{3}\\pi \\cdot 27 = 36\\pi$, and that water spreads across the barrel’s base, $\\pi \\cdot 36 = 36\\pi$. The rise is $\\frac{36\\pi}{36\\pi} = 1$ ✓. Check a second, independent way, by flattening the ball first: a ball of radius $3$ holds as much as a puck of radius $3$ and height $4$. That puck has to spread out over a barrel whose base is four times as wide in area, and a layer that spreads over four times the area is a quarter as thick: $\\frac{4}{4} = 1$ ✓. (The choice $6$ DIVIDES BY THE BARREL’S RADIUS $6$ INSTEAD OF ITS BASE AREA $36\\pi$ ✗; the choice $4$ SPREADS THE WATER OVER THE BALL’S OWN FOOTPRINT $9\\pi$ rather than the barrel’s ✗; the choice $\\frac{3}{4}$ DROPS THE $\\frac{4}{3}$ from the ball, displacing only $27\\pi$ ✗.)',
     },
     {
-      q: 'A cylindrical fish tank of radius $8$ holds water. A solid glass ornament in the shape of a ball of radius $4$ is set on the gravel and is completely covered by the water. How far does the water level rise?',
+      q: 'A cylindrical fish tank of radius $8$ holds water. A solid glass ornament in the shape of a ball of radius $4$ is set on the gravel and is completely covered by the water. How far does the water level rise? No liquid spills or overflows.',
       fig: tankBallFig(8, 12, 4, 4, 'r = 8', '4', 260),
       choices: ['$\\frac{32}{3}$', '$1$', '$\\frac{4}{3}$', '$\\frac{2}{3}$'],
       answer: 2,
@@ -314,7 +314,7 @@ const s154 = [
         'Route one, displaced volume over base area: the ball displaces $\\frac{4}{3}\\pi \\cdot 64 = \\frac{256\\pi}{3}$, and the tank’s base area is $\\pi \\cdot 64 = 64\\pi$. The rise is $\\frac{256\\pi}{3} \\div 64\\pi = \\frac{4}{3}$ ✓. Check a second, independent way, by flattening the ball first: a ball of radius $4$ holds as much as a puck of radius $4$ and height $\\frac{4 \\cdot 4}{3} = \\frac{16}{3}$. Spread that puck over a tank whose base area is four times as large and the layer is a quarter as thick: $\\frac{16}{3} \\div 4 = \\frac{4}{3}$ ✓. (The choice $\\frac{32}{3}$ DIVIDES BY THE TANK’S RADIUS $8$ INSTEAD OF ITS BASE AREA $64\\pi$ ✗; the choice $1$ DROPS THE $\\frac{4}{3}$ from the ball, displacing only $64\\pi$ ✗; the choice $\\frac{2}{3}$ SINKS ONLY HALF A BALL, using a hemisphere’s $\\frac{128\\pi}{3}$ ✗.)',
     },
     {
-      q: 'A cylindrical flower vase of radius $9$ is filled partway with water. A solid marble ball of radius $3$ is dropped in and settles at the bottom, fully under water. By how much does the water level rise?',
+      q: 'A cylindrical flower vase of radius $9$ is filled partway with water. A solid marble ball of radius $3$ is dropped in and settles at the bottom, fully under water. By how much does the water level rise? No liquid spills or overflows.',
       fig: tankBallFig(9, 14, 3, 3, 'r = 9', '3', 260),
       choices: ['$4$', '$2$', '$\\frac{1}{3}$', '$\\frac{4}{9}$'],
       answer: 3,
@@ -327,7 +327,7 @@ const s154 = [
   // width, so no volume is ever divided by a base area twice.
   [
     {
-      q: 'A cone-shaped paper cup of radius $6$ and height $15$ is filled to the brim with lemonade. The lemonade is tipped into an empty cylindrical tumbler, also of radius $6$. How deep does the lemonade stand in the tumbler?',
+      q: 'A cone-shaped paper cup of radius $6$ and height $15$ is filled to the brim with lemonade. The lemonade is tipped into an empty cylindrical tumbler, also of radius $6$. How deep does the lemonade stand in the tumbler? The receiving container holds all the liquid without overflowing.',
       fig: cupFig(6, 15, 'r = 6', 'h = 15', 240),
       choices: ['$15$', '$5$', '$7.5$', '$30$'],
       answer: 1,
@@ -335,7 +335,7 @@ const s154 = [
         'Route one, volume over base area: the cup holds $\\frac{1}{3}\\pi \\cdot 36 \\cdot 15 = 180\\pi$, and the tumbler’s base area is $\\pi \\cdot 36 = 36\\pi$, so the lemonade stands $\\frac{180\\pi}{36\\pi} = 5$ deep ✓. Check a second, independent way, without computing either volume: the cup and the tumbler share the same base circle, and a cone holds exactly one third of what a cylinder of the same height on that circle holds. So the lemonade fills one third of the cup’s height: $\\frac{15}{3} = 5$ ✓. (The choice $15$ DROPS THE $\\frac{1}{3}$ FROM THE CONE, filling the tumbler to the cup’s own height ✗; the choice $7.5$ HALVES THE HEIGHT INSTEAD OF TAKING A THIRD ✗; the choice $30$ DIVIDES BY THE TUMBLER’S RADIUS $6$ INSTEAD OF ITS BASE AREA $36\\pi$ ✗.)',
     },
     {
-      q: 'A conical funnel of radius $4$ and height $21$ is full of cooking oil, plugged at the tip. The plug is pulled and every drop runs into a cylindrical jar of radius $4$. How deep is the oil in the jar?',
+      q: 'A conical funnel of radius $4$ and height $21$ is full of cooking oil, plugged at the tip. The plug is pulled and every drop runs into a cylindrical jar of radius $4$. How deep is the oil in the jar? The receiving container holds all the liquid without overflowing.',
       fig: cupFig(4, 21, 'r = 4', 'h = 21', 200),
       choices: ['$7$', '$21$', '$10.5$', '$28$'],
       answer: 0,
@@ -343,7 +343,7 @@ const s154 = [
         'Route one, volume over base area: the funnel holds $\\frac{1}{3}\\pi \\cdot 16 \\cdot 21 = 112\\pi$, and the jar’s base area is $\\pi \\cdot 16 = 16\\pi$, so the oil stands $\\frac{112\\pi}{16\\pi} = 7$ deep ✓. Check a second, independent way, without computing either volume: funnel and jar sit on the same size circle, and a cone holds one third of the cylinder of matching height on that circle. So the oil reaches one third of the funnel’s height: $\\frac{21}{3} = 7$ ✓. (The choice $21$ DROPS THE $\\frac{1}{3}$ FROM THE CONE, filling the jar to the funnel’s own height ✗; the choice $10.5$ HALVES THE HEIGHT INSTEAD OF TAKING A THIRD ✗; the choice $28$ DIVIDES BY THE JAR’S RADIUS $4$ INSTEAD OF ITS BASE AREA $16\\pi$ ✗.)',
     },
     {
-      q: 'A cone-shaped paper cup of radius $5$ and height $24$ is brimming with maple syrup. All of it is poured into a wide empty cylindrical bowl of radius $10$. How deep is the syrup in the bowl?',
+      q: 'A cone-shaped paper cup of radius $5$ and height $24$ is brimming with maple syrup. All of it is poured into a wide empty cylindrical bowl of radius $10$. How deep is the syrup in the bowl? The receiving container holds all the liquid without overflowing.',
       fig: cupFig(5, 24, 'r = 5', 'h = 24', 200),
       choices: ['$6$', '$20$', '$2$', '$8$'],
       answer: 2,
@@ -427,21 +427,21 @@ const s154 = [
   // water plus the glass that joined it — so the rise is never computed.
   [
     {
-      q: 'A cylindrical drinking glass of radius $2$ holds water $5$ deep. Four solid glass marbles, each of radius $1$, are dropped in and sink until every one of them is under the water. What is the new depth of the water?',
+      q: 'A cylindrical drinking glass of radius $2$ holds water $5$ deep. Four solid glass marbles, each of radius $1$, are dropped in and sink until every one of them is under the water. What is the new depth of the water? No liquid spills or overflows.',
       choices: ['$\\frac{19}{3}$', '$\\frac{4}{3}$', '$6$', '$\\frac{23}{3}$'],
       answer: 0,
       solution:
         'Route one, rise then add: the four marbles displace $4 \\cdot \\frac{4}{3}\\pi \\cdot 1^3 = \\frac{16\\pi}{3}$, and the glass’s base area is $\\pi \\cdot 4 = 4\\pi$, so the level climbs $\\frac{16\\pi}{3} \\div 4\\pi = \\frac{4}{3}$. The new depth is $5 + \\frac{4}{3} = \\frac{19}{3}$ ✓. Check a second, independent way, by weighing everything under the waterline at once: below the new surface the glass is packed with water and marbles and nothing else. The water was $\\pi \\cdot 4 \\cdot 5 = 20\\pi = \\frac{60\\pi}{3}$ and the marbles are $\\frac{16\\pi}{3}$, so the contents total $\\frac{76\\pi}{3}$. Spread across the base $4\\pi$, that column stands $\\frac{76\\pi}{3} \\div 4\\pi = \\frac{19}{3}$ high ✓. (The choice $\\frac{4}{3}$ REPORTS THE RISE INSTEAD OF THE FINAL DEPTH ✗; the choice $6$ DROPS THE $\\frac{4}{3}$ from each marble, displacing $4\\pi$ and lifting the level by only $1$ ✗; the choice $\\frac{23}{3}$ DIVIDES BY THE GLASS’S RADIUS $2$ INSTEAD OF ITS BASE AREA $4\\pi$ ✗.)',
     },
     {
-      q: 'A cylindrical bucket of radius $6$ holds water $8$ deep. Fifteen solid glass marbles, each of radius $1$, are tipped in; they sink to the bottom and are completely covered by the water. How deep is the water now?',
+      q: 'A cylindrical bucket of radius $6$ holds water $8$ deep. Fifteen solid glass marbles, each of radius $1$, are tipped in; they sink to the bottom and are completely covered by the water. How deep is the water now? No liquid spills or overflows.',
       choices: ['$\\frac{5}{9}$', '$\\frac{77}{9}$', '$\\frac{34}{3}$', '$28$'],
       answer: 1,
       solution:
         'Route one, rise then add: the fifteen marbles displace $15 \\cdot \\frac{4}{3}\\pi \\cdot 1^3 = 20\\pi$, and the bucket’s base area is $\\pi \\cdot 36 = 36\\pi$, so the level climbs $\\frac{20\\pi}{36\\pi} = \\frac{5}{9}$. The new depth is $8 + \\frac{5}{9} = \\frac{72 + 5}{9} = \\frac{77}{9}$ ✓. Check a second, independent way, by weighing everything under the waterline at once: below the surface the bucket holds water and glass and nothing else — $\\pi \\cdot 36 \\cdot 8 = 288\\pi$ of water plus $20\\pi$ of glass, so $308\\pi$ in all. Over the base $36\\pi$ that column stands $\\frac{308\\pi}{36\\pi} = \\frac{77}{9}$ ✓. (The choice $\\frac{5}{9}$ REPORTS THE RISE INSTEAD OF THE FINAL DEPTH ✗; the choice $\\frac{34}{3}$ DIVIDES BY THE BUCKET’S RADIUS $6$ INSTEAD OF ITS BASE AREA $36\\pi$, lifting the level by $\\frac{10}{3}$ ✗; the choice $28$ SPREADS THE WATER OVER ONE MARBLE’S FOOTPRINT $\\pi$ rather than the bucket’s base ✗.)',
     },
     {
-      q: 'A cylindrical canister of radius $4$ holds apple juice $6$ deep. Eight solid steel beads, each of radius $1$, are dropped in and sink completely below the surface. What is the juice’s new depth?',
+      q: 'A cylindrical canister of radius $4$ holds apple juice $6$ deep. Eight solid steel beads, each of radius $1$, are dropped in and sink completely below the surface. What is the juice’s new depth? No liquid spills or overflows.',
       choices: ['$\\frac{2}{3}$', '$\\frac{50}{3}$', '$\\frac{13}{2}$', '$\\frac{20}{3}$'],
       answer: 3,
       solution:

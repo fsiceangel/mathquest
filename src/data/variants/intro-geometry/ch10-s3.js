@@ -171,7 +171,7 @@ const s103 = [
   // s5 — counting integer third sides, stick dressing.
   [
     {
-      q: 'Theo is framing a triangular kite. He has glued dowels of lengths $2$ and $6$ in place, and his bin holds one dowel of every integer length. How many different dowels from the bin could complete the frame?',
+      q: 'Theo is framing a triangular kite. He has dowels of lengths $2$ and $6$, and can adjust the angle between them, and his bin holds one dowel of every integer length. How many different dowels from the bin could complete the frame?',
       choices: ['$5$', '$4$', '$3$', '$7$'],
       answer: 2,
       solution:
@@ -185,7 +185,7 @@ const s103 = [
         'The third stake needs $10 - 3 < c < 10 + 3$, so $7 < c < 13$: the integers $8, 9, 10, 11, 12$ — five stakes ✓. Count a second way: the closed run from $7$ to $13$ holds $13 - 7 + 1 = 7$ integers, and striking the two flat endpoints ($3 + 7 = 10$ and $3 + 10 = 13$) leaves $7 - 2 = 5$ ✓. (The answer $7$ COUNTS BOTH ENDPOINTS ✗; $6$ COUNTS ONE ENDPOINT ✗; $12$ FORGETS THE LOWER BOUND and counts all of $1, \\ldots, 12$ — but a stake of length $4$ could never bridge the gap ✗.)',
     },
     {
-      q: 'A chef arranges skewers into a triangle on a display board. Two skewers, of lengths $4$ and $10$, are pinned down, and the drawer holds skewers of every integer length. How many drawer skewers could close the triangle?',
+      q: 'A chef arranges skewers into a triangle on a display board. Two skewers, of lengths $4$ and $10$, have been chosen, and their positions can be adjusted, and the drawer holds skewers of every integer length. How many drawer skewers could close the triangle?',
       choices: ['$9$', '$13$', '$8$', '$7$'],
       answer: 3,
       solution:
@@ -372,7 +372,7 @@ const s103 = [
   // s10 — which value COULD be the straight-line distance (figure).
   [
     {
-      q: 'A ferry sails straight from port $A$ to lighthouse $B$ ($7$ km), then straight from $B$ to harbor $C$ ($4$ km). Which of these could be the straight-line distance from $A$ to $C$?',
+      q: 'A ferry sails straight from port $A$ to lighthouse $B$ ($7$ km), then straight from $B$ to harbor $C$ ($4$ km). Which of these could be the straight-line distance from $A$ to $C$? The points $A$, $B$, and $C$ are not collinear.',
       fig: {
         view: [-1.2, -1, 9.3, 6.8],
         elems: [
@@ -393,7 +393,7 @@ const s103 = [
         'The distance $AC$ is fenced by the two legs: $7 - 4 < AC < 7 + 4$, so $3 < AC < 11$, and $9.5$ sits comfortably inside ✓. Confirm $9.5$ by the two raw checks: $4 + 7 = 11 > 9.5$, and $4 + 9.5 = 13.5 > 7$ — every pair beats the third side ✓. (The value $3$ km is the LOWER ENDPOINT, where $C$ folds back onto the line through $A$ and $B$ ✗; $11$ km is the UPPER ENDPOINT, the legs laid perfectly straight ✗; $12$ km is BEYOND THE REACH of a $7$ km and a $4$ km leg entirely ✗.)',
     },
     {
-      q: 'A courier van drives straight from the depot $A$ to an office $B$ ($9$ km), then straight from $B$ to a warehouse $C$ ($6$ km). Which of these could be the straight-line distance from $A$ to $C$?',
+      q: 'A courier van drives straight from the depot $A$ to an office $B$ ($9$ km), then straight from $B$ to a warehouse $C$ ($6$ km). Which of these could be the straight-line distance from $A$ to $C$? The points $A$, $B$, and $C$ are not collinear.',
       fig: {
         view: [-1.3, -1, 12.5, 8.5],
         elems: [
@@ -414,7 +414,7 @@ const s103 = [
         'The window for $AC$ runs from the difference to the sum of the legs: $9 - 6 < AC < 9 + 6$, so $3 < AC < 15$, and $13.5$ lies strictly inside ✓. Double-check $13.5$ against the raw inequalities: $6 + 9 = 15 > 13.5$ ✓ and $6 + 13.5 = 19.5 > 9$ ✓, so a triangle with these three distances exists ✓. (The value $15$ km is the UPPER ENDPOINT — it needs $A$, $B$, $C$ in a perfect line ✗; $3$ km is the LOWER ENDPOINT, the fold-back flat case ✗; $16$ km OVERSHOOTS what two legs totaling $15$ km can span ✗.)',
     },
     {
-      q: 'A homing pigeon flies straight from its loft $A$ to a barn $B$ ($10$ km), then straight from $B$ to a grain silo $C$ ($3$ km). Which of these could be the straight-line distance from $A$ to $C$?',
+      q: 'A homing pigeon flies straight from its loft $A$ to a barn $B$ ($10$ km), then straight from $B$ to a grain silo $C$ ($3$ km). Which of these could be the straight-line distance from $A$ to $C$? The points $A$, $B$, and $C$ are not collinear.',
       fig: {
         view: [-1.2, -1, 10.2, 9.3],
         elems: [

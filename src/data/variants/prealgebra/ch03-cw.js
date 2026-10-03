@@ -303,13 +303,13 @@ const challenge = [
   // 5. LCM of a whole run of small numbers.
   [
     {
-      q: 'What is the smallest number that is divisible by every whole number from $1$ to $8$?',
+      q: 'What is the smallest positive integer that is divisible by every whole number from $1$ to $8$?',
       choices: ['$840$', '$420$', '$40{,}320$', '$168$'],
       answer: 0,
       solution: 'Take the highest power of each prime that any of $1$ through $8$ demands: $8 = 2^3$ demands $2^3$, $4$ is then covered; $3$ and $6$ are covered by $3^1$; then $5$ and $7$. So the answer is $2^3 \\cdot 3 \\cdot 5 \\cdot 7 = 840$. ($420$ misses a factor of $2$ and fails on $8$; $8! = 40{,}320$ works but is nowhere near smallest; and $168$ leaves out the $5$.)',
     },
     {
-      q: 'What is the smallest number that is divisible by every whole number from $1$ to $10$?',
+      q: 'What is the smallest positive integer that is divisible by every whole number from $1$ to $10$?',
       choices: ['$3{,}628{,}800$', '$2520$', '$1260$', '$5040$'],
       answer: 1,
       solution: 'Highest prime powers needed: $8 = 2^3$ gives $2^3$, $9 = 3^2$ gives $3^2$, then $5$ and $7$. Multiply: $8 \\times 9 \\times 5 \\times 7 = 2520$. ($1260$ is half of that and fails on $8$; $5040 = 7!$ works but is twice as big as needed; $10! = 3{,}628{,}800$ is enormously bigger.)',
@@ -636,12 +636,12 @@ const worksheet = [
   // 10. Smallest perfect square with a required factor.
   [
     {
-      q: 'What is the smallest perfect square that is a multiple of $45$?',
+      q: 'What is the smallest positive perfect square that is a multiple of $45$?',
       answer: '$225$',
       solution: 'Factor: $45 = 3^2 \\cdot 5$. A perfect square needs every exponent even, and the $5$ appears just once, so it needs a partner: multiply by $5$ to get $3^2 \\cdot 5^2 = 225 = 15^2$. ✓ No smaller square works, since any square multiple of $45$ must contain $3^2 \\cdot 5^2$.',
     },
     {
-      q: 'What is the smallest perfect square that is a multiple of $24$?',
+      q: 'What is the smallest positive perfect square that is a multiple of $24$?',
       answer: '$144$',
       solution: 'Factor: $24 = 2^3 \\cdot 3$. Both exponents are odd, so each prime needs one more copy: multiply by $2 \\times 3 = 6$ to reach $2^4 \\cdot 3^2 = 144 = 12^2$. ✓ Checking the smaller squares $36, 49, 64, 81, 100,$ and $121$ confirms that none is a multiple of $24$.',
     },

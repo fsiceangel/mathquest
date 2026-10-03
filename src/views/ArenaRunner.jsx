@@ -3,6 +3,9 @@ import ArenaRun from './ArenaRun.jsx'
 import { drawPaper, getMode, getPaper } from '../data/arena/index.js'
 import { getCheckpoint } from '../data/checkpoints/index.js'
 import { BackLink } from '../components/ui.jsx'
+import QuizView from './QuizView.jsx'
+import { inDifficultyOrder } from '../data/calibration/index.js'
+import { attemptProgress } from '../lib/attempts.js'
 
 function NotFound({ href = '#/arena', label = 'Challenge Arena', where = 'the Arena' }) {
   return (
@@ -21,14 +24,32 @@ function NotFound({ href = '#/arena', label = 'Challenge Arena', where = 'the Ar
 export function CheckpointRun({ book, number }) {
   const cp = getCheckpoint(book.id, number)
   const [nonce, setNonce] = useState(0)
+  const [format, setFormat] = useState(null)
   if (!cp) return <NotFound href={`#/book/${book.id}`} label={book.title} where="the book" />
   const [from, to] = cp.covers
+  const practiceProgress = attemptProgress(`practice/checkpoint/${cp.id}`)
+  const timedProgress = attemptProgress(`checkpoint/${cp.id}`)
+  if (!format) return (
+    <main className="page page-narrow">
+      <BackLink href={`#/book/${book.id}`}>{book.title}</BackLink>
+      <header className="page-head"><h1>{cp.title}</h1>
+        <p className="lede">Mix what you learned in chapters {from}–{to}. First choose methods without a clock;
+          try the timed version once the earlier problems feel comfortable. The final questions are optional stretches.</p></header>
+      <div className="results-actions">
+        <button className="btn btn-accent btn-lg" onClick={() => setFormat('practice')}>{practiceProgress ? `Continue practice ${practiceProgress.answered}/${practiceProgress.total}` : 'Practice without a timer'}</button>
+        <button className="btn btn-ghost btn-lg" onClick={() => setFormat('timed')}>{timedProgress ? `Continue timed paper ${timedProgress.answered}/${timedProgress.total}` : `Start ${cp.minutes ?? 25}-minute paper`}</button>
+      </div>
+    </main>
+  )
+  if (format === 'practice') return <QuizView key={nonce} title={cp.title} subtitle="Checkpoint practice · No timer"
+    problems={cp.problems} storageId={`practice/checkpoint/${cp.id}`} backHref={`#/book/${book.id}`}
+    backLabel="Back to the book" rotateVersions={false} />
   return (
     <ArenaRun
       key={nonce}
       title={cp.title}
       subtitle={`Checkpoint ${cp.number} · ${book.title}, chapters ${from}–${to}`}
-      problems={cp.problems}
+      problems={inDifficultyOrder(cp.problems)}
       minutes={cp.minutes ?? 25}
       storageId={`checkpoint/${cp.id}`}
       backHref={`#/book/${book.id}`}
@@ -44,10 +65,15 @@ export function DrawnPaper({ modeId }) {
   const mode = getMode(modeId)
   const [nonce, setNonce] = useState(0)
   const problems = useMemo(
-    () => (mode ? drawPaper(mode.count, { maxDiff: mode.maxDiff }) : []),
+    () => (mode ? drawPaper(mode.count, { mode: mode.id }) : []),
     [mode, nonce],
   )
   if (!mode) return <NotFound />
+  if (mode.minutes == null) return (
+    <QuizView key={nonce} title={mode.title} subtitle="Prealgebra to contest problems · No timer"
+      problems={problems} storageId="arena/bridge" backHref="#/arena" backLabel="Back to the Arena"
+      onNewSet={() => setNonce(n => n + 1)} rotateVersions={false} />
+  )
   return (
     <ArenaRun
       key={nonce}

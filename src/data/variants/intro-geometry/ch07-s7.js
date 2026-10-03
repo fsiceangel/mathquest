@@ -210,11 +210,11 @@ const challenge = [
   // slot 4 — inradius and area to perimeter, P = 2A/r. Lane: 40 / 60 / 36.
   [
     {
-      q: 'A triangular courtyard has area $100$ square meters. The largest circle that fits inside it touches all three walls and has radius $5$ meters. How many meters of fence are needed to enclose the courtyard?',
-      choices: ['$40$ meters', '$20$ meters', '$80$ meters', '$10$ meters'],
+      q: 'A triangular courtyard has area $150$ square meters. The largest circle that fits inside it touches all three walls and has radius $5$ meters. How many meters of fence are needed to enclose the courtyard?',
+      choices: ['$60$ meters', '$30$ meters', '$120$ meters', '$15$ meters'],
       answer: 0,
       solution:
-        'A circle touching all three walls is the inscribed circle, so its radius is the inradius. From Area $= rs$: $100 = 5s$, so the semiperimeter is $s = 20$ and the fence — the full perimeter — is $2 \\cdot 20 = 40$ meters ✓. Check a second, independent way with the fan decomposition: joining the circle’s center to the three corners cuts the courtyard into three triangles, each of height $5$ over one wall, so $100 = \\frac{1}{2} \\cdot 5 \\cdot P$ and $P = \\frac{200}{5} = 40$ ✓. (The choice $20$ meters is STOPPING AT THE SEMIPERIMETER; the choice $80$ meters is DOUBLING A SECOND TIME after the perimeter is already in hand; the choice $10$ meters is DIVIDING THE AREA BY $2r$ instead of multiplying by $\\frac{2}{r}$.)',
+        'The circle is the incircle, so $r=5$. Area $=rs$ gives $150=5s$, hence $s=30$ and the full perimeter is $2s=60$ meters. Check by joining the center to the three vertices: $\\frac12\\cdot5\\cdot60=150$. The answer $30$ stops at the semiperimeter.',
     },
     {
       q: 'The circular stage at the middle of a triangular plaza touches all three edges of the plaza. The stage has radius $4$ m, and the plaza covers $120$ square meters. Find the total length of the plaza’s three edges.',
@@ -224,11 +224,11 @@ const challenge = [
         'Touching all three edges makes the stage the plaza’s inscribed circle, so $r = 4$. Area $= rs$ gives $120 = 4s$, so $s = 30$ — and $s$ is only HALF the boundary, so the three edges total $60$ m ✓. Check a second, independent way by fanning the plaza from the stage’s center into three triangles of height $4$: $120 = \\frac{1}{2} \\cdot 4 \\cdot P$, so $P = \\frac{240}{4} = 60$ ✓. (The choice $30$ m is STOPPING AT THE SEMIPERIMETER; the choice $120$ m is DOUBLING TWICE; the choice $15$ m is DIVIDING THE AREA BY $2r$.)',
     },
     {
-      q: 'A sailmaker sews a circular logo of radius $7$ feet onto a triangular sail of area $126$ square feet; the logo touches all three edges of the sail. How much edging tape does the sail’s full perimeter need?',
-      choices: ['$18$ feet', '$36$ feet', '$72$ feet', '$9$ feet'],
+      q: 'A sailmaker sews a circular logo of radius $7$ feet onto a triangular sail of area $294$ square feet; the logo touches all three edges of the sail. How much edging tape does the sail’s full perimeter need?',
+      choices: ['$42$ feet', '$84$ feet', '$168$ feet', '$21$ feet'],
       answer: 1,
       solution:
-        'A circle tangent to all three edges is the inscribed circle, so the sail’s inradius is $7$. From Area $= rs$: $126 = 7s$, so $s = 18$, and the perimeter is $2s = 36$ feet ✓. Check a second, independent way: segments from the logo’s center to the three corners cut the sail into three triangles with common height $7$, so $126 = \\frac{1}{2} \\cdot 7 \\cdot P$ and $P = \\frac{252}{7} = 36$ ✓. (The choice $18$ feet is STOPPING AT THE SEMIPERIMETER; the choice $72$ feet is DOUBLING TWICE; the choice $9$ feet is DIVIDING THE AREA BY $2r$.)',
+        'The logo is the incircle, so $r=7$. From Area $=rs$, $294=7s$ gives $s=42$. The full perimeter is $2s=84$ feet. Check: the three triangles from the incenter have total area $\\frac12\\cdot7\\cdot84=294$. The choice $42$ is only half the boundary.',
     },
   ],
   // slot 5 — right triangle from r and R to area, A = r(r + 2R).
@@ -337,7 +337,7 @@ const challenge = [
   // not equilateral. Conceptual; three dressings.
   [
     {
-      q: 'Maya computes all four classic centers of her triangle — the incenter, circumcenter, centroid, and orthocenter. They turn out to be four DIFFERENT points, yet a single straight line passes through all of them. What kind of triangle must Maya have drawn?',
+      q: 'Maya wants a triangle whose incenter, circumcenter, centroid, and orthocenter lie on one straight line without all being the same point. Which of the following triangle types guarantees this arrangement?',
       choices: [
         'an equilateral triangle',
         'a scalene right triangle',

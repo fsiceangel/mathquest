@@ -214,21 +214,21 @@ const s64 = [
   // p9 — percent comparisons are not symmetric
   [
     {
-      q: 'Suppose $a$ is $20\\%$ of $b$. Then $b$ is what percent of $a$?',
+      q: 'Suppose the positive number $a$ is $20\\%$ of $b$. Then $b$ is what percent of $a$?',
       choices: ['$20\\%$', '$80\\%$', '$500\\%$', '$120\\%$'],
       answer: 2,
       solution:
         'From $a = \\frac{1}{5}b$ we get $b = 5a$, and $5 = \\frac{500}{100}$, so $b$ is $500\\%$ of $a$. Try $a = 2$ and $b = 10$ to see it: $10$ really is five times $2$. (The choice $20\\%$ assumes the comparison is symmetric, but it flips to the RECIPROCAL; the choice $80\\%$ is the leftover $100\\% - 20\\%$; the choice $120\\%$ adds the $20\\%$ on top of $100\\%$, which describes a number only slightly bigger than $a$.)',
     },
     {
-      q: 'Suppose $m$ is $125\\%$ of $n$. Then $n$ is what percent of $m$?',
+      q: 'Suppose the positive number $m$ is $125\\%$ of $n$. Then $n$ is what percent of $m$?',
       choices: ['$125\\%$', '$80\\%$', '$75\\%$', '$25\\%$'],
       answer: 1,
       solution:
         'From $m = 1.25n$ we get $n = \\frac{m}{1.25} = 0.8m$, so $n$ is $80\\%$ of $m$. Try $n = 4$ and $m = 5$: indeed $4$ is $80\\%$ of $5$. Since $m$ is the bigger one, the answer must land under $100\\%$. (The choice $125\\%$ assumes symmetry; the choice $75\\%$ subtracts the extra $25\\%$ from $100\\%$, but undoing a $25\\%$ overshoot means DIVIDING by $1.25$, not subtracting; the choice $25\\%$ reports only the excess.)',
     },
     {
-      q: 'Suppose $x$ is $40\\%$ of $y$. Then $y$ is what percent of $x$?',
+      q: 'Suppose the positive number $x$ is $40\\%$ of $y$. Then $y$ is what percent of $x$?',
       choices: ['$60\\%$', '$140\\%$', '$40\\%$', '$250\\%$'],
       answer: 3,
       solution:

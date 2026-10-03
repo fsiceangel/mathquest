@@ -676,7 +676,7 @@ const s143 = {
       solution: 'Solve $V = \\frac{1}{3}Bh$ for $h$: with $B = 4^2 = 16$, we need $\\frac{1}{3} \\times 16 \\times h = 48$, so $16h = 144$ and $h = 9$. Check: $\\frac{1}{3} \\times 16 \\times 9 = 48$. ✓ Computing $48 \\div 16 = 3$ skips the factor of $\\frac{1}{3}$ — the height must be three times that.',
     },
     {
-      q: 'A square pyramid has base edge $10$ and height $12$. What is its slant height?',
+      q: 'A square pyramid has base edge $10$ and height $12$. What is its slant height? The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 6.4, 4.8],
         elems: [
@@ -702,7 +702,7 @@ const s143 = {
       solution: 'The slant height triangle uses half the base edge, not the whole edge: legs $12$ and $\\frac{10}{2} = 5$. So $\\ell = \\sqrt{12^2 + 5^2} = \\sqrt{169} = 13$. Using the full edge $10$ gives $\\sqrt{144 + 100} = \\sqrt{244}$, but the slant height lands at the midpoint of the base edge, only $5$ from the center.',
     },
     {
-      q: 'A square pyramid has base edge $10$ and slant height $13$. What is its total surface area?',
+      q: 'A square pyramid has base edge $10$ and slant height $13$. What is its total surface area? The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 6.4, 4.8],
         elems: [
@@ -724,13 +724,13 @@ const s143 = {
       solution: 'The base gives $10^2 = 100$. Each of the four triangular faces has area $\\frac{1}{2} \\times 10 \\times 13 = 65$, for a lateral total of $4 \\times 65 = 260$. Altogether $SA = 100 + 260 = 360$ square units. The choice $260$ stops at the lateral faces and forgets the base, while $620$ treats the triangles as full $10 \\times 13$ rectangles.',
     },
     {
-      q: 'A square pyramid has base edge $10$ and slant height $13$. What is its height?',
+      q: 'A square pyramid has base edge $10$ and slant height $13$. What is its height? The apex lies directly above the center of the square base.',
       choices: ['$12$', '$\\sqrt{69}$', '$13$', '$10$'],
       answer: 0,
       solution: 'Reverse the slant height triangle: the slant height is the hypotenuse, half the base edge is one leg. So $h = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$. Subtracting the full edge\'s square, $169 - 100 = 69$, uses $10$ where only the half-edge $5$ belongs. The height is always shorter than the slant height.',
     },
     {
-      q: 'A square pyramid has base edge $6$ and slant height $5$. What is its volume?',
+      q: 'A square pyramid has base edge $6$ and slant height $5$. What is its volume? The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 6.2, 4.4],
         elems: [
@@ -797,7 +797,7 @@ const s144 = {
     concepts: [
       {
         heading: 'The famous five',
-        body: 'A regular polyhedron (or Platonic solid) has faces that are all copies of one regular polygon, with the same number of faces meeting at every vertex. Amazingly, only five exist: the tetrahedron ($4$ triangles), the cube ($6$ squares), the octahedron ($8$ triangles), the dodecahedron ($12$ pentagons), and the icosahedron ($20$ triangles). Their names count their faces in Greek: tetra $= 4$, octa $= 8$, dodeca $= 12$, icosa $= 20$.',
+        body: 'A convex regular polyhedron (or Platonic solid) has faces that are all copies of one regular polygon, with the same number of faces meeting at every vertex. Amazingly, only five exist: the tetrahedron ($4$ triangles), the cube ($6$ squares), the octahedron ($8$ triangles), the dodecahedron ($12$ pentagons), and the icosahedron ($20$ triangles). Their names count their faces in Greek: tetra $= 4$, octa $= 8$, dodeca $= 12$, icosa $= 20$.',
       },
       {
         heading: 'Counting edges without drawing them',
@@ -805,7 +805,7 @@ const s144 = {
       },
       {
         heading: 'Euler\'s formula',
-        body: 'For any polyhedron (not just the regular ones!), the counts of vertices, edges, and faces obey one elegant equation: $V - E + F = 2$. The cube checks out: $8 - 12 + 6 = 2$. ✓ This is a powerful safety net: know any two of the three counts and the formula hands you the third. It is also a great error detector — if your counts give anything other than $2$, one of them is off.',
+        body: 'For any convex polyhedron (not just the regular ones!), the counts of vertices, edges, and faces obey one elegant equation: $V - E + F = 2$. The cube checks out: $8 - 12 + 6 = 2$. ✓ This is a powerful safety net: know any two of the three counts and the formula hands you the third. It is also a great error detector — if your counts give anything other than $2$, one of them is off.',
       },
       {
         heading: 'Why only five?',
@@ -827,7 +827,7 @@ const s144 = {
         steps: [
           'Count the parts: an octahedron is two square pyramids glued base to base. It has $6$ vertices (top, bottom, and $4$ around the middle) and $8$ triangular faces.',
           'Edges by the halving trick: $8$ triangles $\\times$ $3$ sides $= 24$, and $\\frac{24}{2} = 12$ edges.',
-          'Euler: $V - E + F = 6 - 12 + 8 = 2$. ✓ The formula holds, just as it does for every polyhedron.',
+          'Euler: $V - E + F = 6 - 12 + 8 = 2$. ✓ The formula holds, just as it does for every convex polyhedron.',
         ],
         answer: '$6 - 12 + 8 = 2$ ✓',
         fig: {
@@ -941,7 +941,7 @@ const s144 = {
       solution: 'List every side of every face: $20 \\times 3 = 60$ sides. But each edge of the solid is shared by exactly two faces, so this list names every edge twice: $E = \\frac{60}{2} = 30$. Forgetting to halve gives $60$ — the most common slip in edge counting.',
     },
     {
-      q: 'A polyhedron has $6$ vertices and $12$ edges. By Euler\'s formula, how many faces does it have?',
+      q: 'A convex polyhedron has $6$ vertices and $12$ edges. By Euler\'s formula, how many faces does it have?',
       choices: ['$6$', '$8$', '$10$', '$4$'],
       answer: 1,
       solution: 'Euler\'s formula says $V - E + F = 2$. Substitute what we know: $6 - 12 + F = 2$, so $F = 2 + 12 - 6 = 8$. This solid is exactly the octahedron: $6$ vertices, $12$ edges, $8$ faces.',
@@ -953,13 +953,13 @@ const s144 = {
       solution: 'Rearrange $V - E + F = 2$ to get $V = 2 + E - F = 2 + 30 - 12 = 20$. Sanity check: $20 - 30 + 12 = 2$. ✓ Interestingly, the icosahedron has the counts swapped ($12$ vertices, $20$ faces) — the two solids are duals of each other.',
     },
     {
-      q: 'A polyhedron has $7$ faces and $10$ vertices. How many edges does it have?',
+      q: 'A convex polyhedron has $7$ faces and $10$ vertices. How many edges does it have?',
       choices: ['$15$', '$17$', '$13$', '$5$'],
       answer: 0,
       solution: 'Solve Euler\'s formula for $E$: from $V - E + F = 2$ we get $E = V + F - 2 = 10 + 7 - 2 = 15$. Such a solid exists: a pentagonal prism has $2$ pentagon bases plus $5$ rectangles ($7$ faces), $10$ vertices, and $15$ edges. Check: $10 - 15 + 7 = 2$. ✓',
     },
     {
-      q: 'What is the greatest number of equilateral triangles that can meet at one vertex of a polyhedron?',
+      q: 'What is the greatest number of equilateral triangles that can meet at one vertex of a convex polyhedron?',
       fig: {
         view: [-3, -2.6, 3, 2.6],
         elems: [
@@ -1063,7 +1063,7 @@ const challenge = [
     solution: 'The height drops from the apex to the center of the base, so its right triangle uses half the base diagonal, not half a side. The base diagonal is $6\\sqrt{2}$, so the half-diagonal is $3\\sqrt{2}$, and $h = \\sqrt{6^2 - (3\\sqrt{2})^2} = \\sqrt{36 - 18} = 3\\sqrt{2}$. Then $V = \\frac{1}{3} \\times 36 \\times 3\\sqrt{2} = 36\\sqrt{2}$. Using half a side ($3$) instead gives $h = \\sqrt{27}$ and the tempting $36\\sqrt{3}$ — but lateral edges run to base corners, which sit along the diagonal.',
   },
   {
-    q: 'A polyhedron has $10$ vertices and every face is a triangle. How many faces does it have?',
+    q: 'A convex polyhedron has $10$ vertices and every face is a triangle. How many faces does it have?',
     choices: ['$16$', '$12$', '$20$', '$24$'],
     answer: 0,
     solution: 'All-triangle faces force $E = \\frac{3F}{2}$, since $F$ triangles list $3F$ sides and each edge is listed twice. Feed that into Euler: $V - E + F = 2$ becomes $10 - \\frac{3F}{2} + F = 2$, so $10 - \\frac{F}{2} = 2$ and $F = 16$. Then $E = 24$, and $10 - 24 + 16 = 2$. ✓',
@@ -1164,7 +1164,7 @@ const worksheet = [
     solution: 'Apply the space diagonal formula: $D = \\sqrt{6^2 + 6^2 + 7^2} = \\sqrt{36 + 36 + 49} = \\sqrt{121} = 11$. Or in two Pythagorean steps: the floor diagonal is $\\sqrt{36 + 36} = \\sqrt{72}$, and then $\\sqrt{72 + 49} = \\sqrt{121} = 11$.',
   },
   {
-    q: 'A square pyramid has base edge $12$ and height $8$. Find its volume and its total surface area.',
+    q: 'A square pyramid has base edge $12$ and height $8$. Find its volume and its total surface area. The apex lies directly above the center of the square base.',
     fig: {
       view: [-1, -1.5, 6.4, 4.8],
       elems: [
@@ -1188,7 +1188,7 @@ const worksheet = [
     solution: 'Volume: $V = \\frac{1}{3} \\times 12^2 \\times 8 = \\frac{1}{3} \\times 144 \\times 8 = 384$ cubic units. For the surface area, first get the slant height from the right triangle with legs $8$ and half the base, $6$: $\\ell = \\sqrt{64 + 36} = 10$. Then $SA = 144 + 4 \\times \\frac{1}{2} \\times 12 \\times 10 = 144 + 240 = 384$ square units. The two answers match in number — a happy accident of this particular pyramid.',
   },
   {
-    q: 'A polyhedron has $9$ faces and $9$ vertices. How many edges does it have?',
+    q: 'A convex polyhedron has $9$ faces and $9$ vertices. How many edges does it have?',
     answer: '$16$',
     solution: 'Euler\'s formula $V - E + F = 2$ gives $E = V + F - 2 = 9 + 9 - 2 = 16$. Such a solid really exists: an octagonal pyramid has $8$ triangles plus $1$ octagon base ($9$ faces), $8$ base vertices plus the apex ($9$ vertices), and $8 + 8 = 16$ edges. Check: $9 - 16 + 9 = 2$. ✓',
   },
@@ -1232,7 +1232,7 @@ const worksheet = [
     solution: 'Run the diagonal formula backwards: $13^2 = 3^2 + 4^2 + x^2$, so $169 = 9 + 16 + x^2$ and $x^2 = 144$, giving $x = 12$. This box hides the $3$-$4$-$5$ and $5$-$12$-$13$ right triangles inside it: the $3 \\times 4$ face has diagonal $5$, and then $5$ and $12$ make the hypotenuse $13$.',
   },
   {
-    q: 'A polyhedron has faces that are all regular pentagons, with exactly $3$ faces meeting at every vertex. Use Euler\'s formula to find how many faces, edges, and vertices it must have — and name the solid.',
+    q: 'A convex polyhedron has faces that are all regular pentagons, with exactly $3$ faces meeting at every vertex. Use Euler\'s formula to find how many faces, edges, and vertices it must have — and name the solid.',
     answer: '$F = 12$, $E = 30$, $V = 20$: the dodecahedron',
     solution: 'Let $F$ be the number of faces. Pentagon sides: $5F$, each edge shared by $2$ faces, so $E = \\frac{5F}{2}$. Pentagon corners: $5F$, each vertex shared by $3$ faces, so $V = \\frac{5F}{3}$. Euler demands $V - E + F = 2$: $\\frac{5F}{3} - \\frac{5F}{2} + F = 2$. Multiply by $6$: $10F - 15F + 6F = 12$, so $F = 12$. Then $E = 30$ and $V = 20$ — exactly the dodecahedron. The counts were forced: no other pentagon-faced regular solid is even arithmetically possible!',
   },

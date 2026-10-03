@@ -5,6 +5,7 @@
 // in the book so far, posed the way a contest poses it — no chapter label on
 // the problem, the technique hidden, the clock running. Files live in
 // src/data/checkpoints/<book>/cpN.js and are loaded eagerly like chapters.
+import { checkpointCalibration } from '../calibration/index.js'
 const modules = import.meta.glob('./*/cp*.js', { eager: true })
 
 const byBook = {}
@@ -15,6 +16,7 @@ for (const [path, mod] of Object.entries(modules)) {
     continue
   }
   ;(byBook[cp.book] ??= []).push(cp)
+  cp.problems.forEach((p, i) => { p.calibration = checkpointCalibration(cp.book, cp.number, i) })
 }
 for (const list of Object.values(byBook)) list.sort((a, b) => a.number - b.number)
 

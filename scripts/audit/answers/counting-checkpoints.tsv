@@ -1,0 +1,75 @@
+1	1	sum(10<=n<=99 for n in range(8,300,3))	Enumerate the actual arithmetic progression and restrict to two-digit labels.
+1	2	60-23-9	Disjoint cases are both, neither, exactly one; subtract the first two from total.
+1	3	5*4*5**3	First determines last; third has four nonwhite choices; remaining three positions independent five choices.
+1	4	sum(a*b<=20 for a,b in product(range(1,21),repeat=2))	Enumerate all positive ordered dimensions; each cannot exceed area bound.
+1	5	sum((str(h)+str(m//10)+str(m%10)).count('0')==1 for h in range(1,13) for m in range(60))	Enumerate every displayed minute with two-digit minutes and no leading-zero hour.
+1	6	F(4)/(F(2))	Odd digit count forces 4 in center; left half is multiset 4,7,9,9, right half then determined.
+1	7	C(9+2-1,2)	Unordered flavor multiset of size two allows repetition.
+1	8	6**4-P(6,4)-6	All strings minus disjoint all-distinct and one-symbol strings.
+1	9	Seats(8,lambda p:abs(p[0]-p[1])==4 and abs(p[2]-p[3])==4,True)	Enumerate circular seatings fixing first named person to quotient rotations; opposite means distance four.
+1	10	SUB(9,2,lambda s:s[0]//3!=s[1]//3 and s[0]%3!=s[1]%3)	Each pair of grid cells is unique unordered planting; compare row and column indices.
+1	11	sum(a!=b and min(abs(a-b),14-abs(a-b))<=5 for a,b in product(range(14),repeat=2))	Ordered boarding/exit pairs and circular shortest distance.
+1	12	R(2**9+2*2**3+2**5,4)	Burnside average: identity nine cells; quarter-turns have center plus two 4-cycles; half-turn has center plus four pairs. Reflections excluded.
+1	13	sum(all(i!=p[i] for i in range(5)) for p in permutations(range(5)))	Enumerate all coat permutations and reject every fixed point.
+1	14	4*5	Outside left digit has four nonzero choices, inner left five; rotated partners uniquely determine other two digits.
+1	15	AS(7,2,lambda a:sum(a)>=4 and all(a[i]+a[i+1]>0 for i in range(6)))	Head encoded one; strict majority and no adjacent zeros tested in each of 128 sequences.
+2	1	C(8,2)*3-7	All filling pairs times salsa; reject pineapple with one of seven other fillings plus smoky salsa.
+2	2	G(4,2)*(G(4,2)-1)	Figure endpoint (4,2); each outward route has all monotone returns except its reverse.
+2	3	C(8,4)+C(8,6)	Both ends red leave four red and four blue; both ends blue leave six red and two blue. Cases disjoint.
+2	4	SUB(10,4,lambda s:((0 in s)==(1 in s)) and ((2 in s)==(3 in s)))	Enumerate delegations with two independent all-or-none twin pairs.
+2	5	AS(5,3,lambda a:len(set(a))==3)	Labelled prizes map onto all three children; enumerate assignments.
+2	6	4*C(8,2)	One vowel and two consonants chosen independently as unlabelled subset.
+2	7	2**7-1-7	Remove empty and singleton subsets.
+2	8	COUNT(1,999,lambda n:all(a>b for a,b in zip(digits(n),digits(n)[1:])))	Enumerate positive integers; a one-digit integer satisfies strictly-decreasing condition vacuously.
+2	9	C(9,2)*C(7,2)/2	Pick first and second match then divide by swapping identical tables; players within each pair unordered.
+2	10	F(6)/(F(3)*F(2)*F(1))	Shortest cube-edge route has three x steps, two y steps, one z step, each monotone step word unique.
+2	11	60-(25+22+18-11-2*4)	Membership total counts exactly-two twice and exactly-three thrice; subtract overcounts to obtain union then complement.
+2	12	AS(5,3,lambda a:all(a[i]!=a[(i+1)%5] for i in range(5)))	Enumerate labelled-sector cyclic colorings; no quotient by rotation since sectors numbered.
+2	13	Paths(6,4,lambda p:all(y<=x for x,y in p))	Figure A=(0,0),B=(6,4),canal y=x. Enumerate all paths and require never northwest of diagonal.
+2	14	3**6-1	Six disjoint forbidden pairs {i,i+6}; choose neither or either member, then remove empty.
+2	15	sum(all(coins[i]>0 or i in gems for i in range(3)) for coins in product(range(5),repeat=3) if sum(coins)==4 for gems in product(range(3),repeat=2))	Enumerate labelled chest occupancy of identical coins and independently assign distinct ruby/sapphire; reject every empty chest.
+3	1	R(4*30+28,365)	A 365-day year has February 28 and four 30-day months; day sampling weights month lengths.
+3	2	R(3,4)+R(2,5)-R(9,10)	Inclusion-exclusion for intersection.
+3	3	R(5,18)	Every individual equally likely to occupy any of five selected slots.
+3	4	R(4,15)	Exchangeability: second position has the same winner fraction as any fixed position.
+3	5	1-R(1,2)**2-R(1,3)**2-R(1,6)**2	Complement of independent equal-color outcomes; unequal sector sizes use given probabilities.
+3	6	R(1,5)*R(3,4)*R(2,3)+R(4,5)*R(1,4)*R(2,3)+R(4,5)*R(3,4)*R(1,3)	Three disjoint exactly-one failures; each other event must not occur.
+3	7	R(5*4+3*2,8*7)	Figure displacement five right three up. First/last slots sample two directions without replacement from a uniform step word.
+3	8	R(2,7)	All seven tests needed iff last battery dead; exchangeability.
+3	9	(3*5+2*6)/C(18,2)	Count horizontal and vertical cell-wall adjacencies; divide by all pairs.
+3	10	C(5,4)/C(10,4)	Series-book positions form uniform four-subset of ten positions.
+3	11	R(COUNT(1,100,lambda n:'9' in str(n) or n%9==0),100)	Enumerate integers in union, never double-count intersection.
+3	12	R(4,7)+R(3,7)*(R(4,7)**2/(R(4,7)**2+R(3,7)**2))	From tied state, two identical winners settle match; split pair restarts, yielding p^2/(p^2+q^2). From lead one, next win ends and next loss ties.
+3	13	R(4*3*2*3+3*2*1*4,7*6*5*4)	First three draws same color and fourth opposite, counted as ordered distinct stones; disjoint starting colors.
+3	14	C(4,3)*C(5,3)*F(3)/C(20,3)	Select three distinct colors and three distinct numbers, then biject numbers to colors; uniform three-card subsets.
+3	15	R(AS(5,2,lambda a:len(set((i+(1 if a[i] else -1))%5 for i in range(5)))==5),2**5)	Enumerate all coin assignments and require distinct gift destinations; five gifts then exactly one per recipient.
+4	1	R(1,20)+R(3,10)	Rounded multiples are 0,3,6,9; 0 has interval length 1/2 and each other length one inside [0,10]. Endpoints measure zero.
+4	2	3*12	Expected payout prize/12 must equal fixed entry cost three.
+4	3	120+(462-252)	Figure local recurrence: missing upper entry=462-252, then x=120+missing; does not assume an unstated Pascal top row.
+4	4	R(4*2,4*5)	Each side contributes one-unit intervals at each end with no overlap; perimeter uniform.
+4	5	3*R(5,12)	Linearity: each draw has starred chance 5/12 without needing independence.
+4	6	2**12-1	Even subsets exactly half of all subsets by toggling one distinguished singer; exclude empty.
+4	7	C(20,2)-10	All unordered guest pairs except ten spouse pairs.
+4	8	R(13-5,15)	Strict triangle inequality is |9-4|<x<9+4; interval length eight.
+4	9	sum((2*a-1)**2+(2*b-1)**2<52 for a,b in product(range(-4,6),repeat=2))	Exact squared-distance enumeration includes all possible lattice points in bounding box; strict inequality excludes boundary.
+4	10	C(9,4)	Each four cyclic vertices determines one crossing diagonal pair; no triple concurrency makes crossing points distinct.
+4	11	C(6,3)*C(6,1)+C(6,4)	Homeowners strictly outnumber renters in four means 3+1 or 4+0.
+4	12	R(1,2)**2+R(3,10)**2+2*integrate(R(1,2)-x,(x,0,R(3,10)))	Cut-point unit square: both beyond 1/2 yields long left piece; both before knot 0.3 yields long right piece; straddling knot requires right-left>0.5 and has twice integral area.
+4	13	(sum(R(11,2) for i in range(1,6))+sum(range(6,11)))/10	Second-roll expectation 5.5; reroll initial 1..5 and keep 6..10, then average ten equiprobable first rolls.
+4	14	6*2**5	Choose headline first then arbitrary subset of other five fruits, giving automatically nonempty selection.
+4	15	sum(k*C(15-k,3) for k in range(1,13))/C(15,4)	Minimum k occurs when other three dates chosen strictly above k; exact weighted sum of all uniform four-subsets.
+5	1	(1+2)**3*(2-3)**4	Coefficient sum equals polynomial evaluated at x=1.
+5	2	sum(C(k+1,2) for k in range(4,12))	Remaining triangular layers are indices 4 through 11 inclusive.
+5	3	C(5,2)*D(8,2,1)	Choose the two used fillings then positive occupancy split of eight identical dumplings.
+5	4	C(8,3)	Strongest outside top four iff all three players chosen from ranks 5..12.
+5	5	1000000*R(11,10)**6	Six annual multiplicative interest updates with exact rational factor.
+5	6	Squares(tuple((a,b) for a,b in product(range(4),repeat=2) if not(a in (0,3) and b in (0,3))))	Enumerate four-subsets of actual twelve points. Squared pair distances certify four equal sides and two equal double-length diagonals, including tilted squares.
+5	7	T(22,lambda a,b,c:a==b)	Enumerate nonnegative labelled occupancy triples with equal first two coordinates.
+5	8	D(3,6,0,2)	Coefficient equals number of six exponent selections in {0,1,2} totalling three; exact convolution.
+5	9	Q(12,lambda a,b,c,d:a+b>=c+d)	Enumerate labelled nonnegative basket occupancies and test group-total inequality.
+5	10	2**13	Toggle inclusion of ticket one bijects even-total and odd-total collections; half of 2^14.
+5	11	R(sum(max(a)-min(a) for a in product(range(1,7),repeat=3)),6**3)	Exact average range across all 216 equally likely labelled dice triples.
+5	12	T(19,lambda a,b,c:max(a,b,c)<=9)	Each share at most others' combined means 2*share<=19, hence integer share<=9; enumerate nonnegative triples.
+5	13	AS(7,4,lambda a:a.count(3)%2==0)	Enumerate four-color position assignments and test parity of gold count including zero.
+5	14	sum(C(9-k,k) for k in range(5))	Each 2xn domino tiling consists uniquely of vertical columns (width one) and paired horizontal domino blocks (width two). With k double blocks choose k positions among 9-k blocks.
+5	15	sum(sum(s)%3==0 for s in combinations(range(1,14),4))	Enumerate unlabelled four-ticket subsets and exact sum residue.

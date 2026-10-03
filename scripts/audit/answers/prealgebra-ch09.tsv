@@ -1,0 +1,9 @@
+9/9.1/3/2	144	144=12 squared; remaining140,150,160 lie strictly between consecutive squares.
+9/9.1/3/4	121	121=11 squared;98,110,126 are nonsquares by adjacent-square bounds.
+9/9.1/6/1	P(1,a)	Principal square root of a squared is absolute a, and positivity makes it a; other expressions not identically equal.
+9/9.1/6/2	P(0,m)	Square of nonnegative principal root returns m; other expressions not identically equal for positive m.
+9/9.2/6	 sqrt(30);sqrt(35);sqrt(33);sqrt(42)	Selected radicands have no squared prime factors. Other radicands respectively12,18,27;20,45,50;24,28,63;40,98,54 contain square divisors4,9,25,49.
+9/9.2/8	P(2,sqrt(2));P(0,sqrt(5));P(1,sqrt(7));P(3,sqrt(10))	Nonsquare positive integers have irrational roots. First two imply infinite nonperiodic decimal, third no rational representation; final alternatives6,22/7,2/3 are rational. Exact numeric claims checked by squaring.
+9/9.2/9	P(3,sqrt(60)-77/10);P(0,sqrt(30)-55/10);P(1,sqrt(85)-92/10);P(2,sqrt(130)-114/10)	Root intervals (7.74,7.75),(5.47,5.48),(9.21,9.22),(11.40,11.41) follow by squaring endpoints; compare all listed distances, unique closest choices7.7,5.5,9.2,11.4.
+9/challenge/4/4	Max(sqrt(63),15/2,sqrt(65),8)	Compare positive values by squaring:63,56.25,65,64; sqrt65 largest.
+9/challenge/10	P(1,sqrt(4)*sqrt(9));P(0,sqrt(2)*sqrt(8));P(2,sqrt(72)/sqrt(2));P(3,sqrt(3)*sqrt(27))	Compute both sides of every offered equality. Unique valid equations are6=6,4=4,6=6,9=9; additive-radical alternatives explicitly fail.

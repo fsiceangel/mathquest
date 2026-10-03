@@ -1,0 +1,3410 @@
+[
+  {
+    "id": "intro-algebra/16/16.1/1/2",
+    "sourceDigest": "ff5659e44ec4a73fca0c3e54a181781037fa7af27ea4d8630865a25f3cd9efe1",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4*6+7",
+      "reason": "Substitute machine input."
+    },
+    "computed": "31",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/1/3",
+    "sourceDigest": "5b2c4b27b5447ba8df736927130442792b2720418df3065535b66490401ba57c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(27-3)/4",
+      "reason": "Solve4x+3=27."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/2/3",
+    "sourceDigest": "b2635a704f6e4abe0503311247fb61c67d39f692b61c1830c61f7ef4b5159fd1",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "12+5",
+      "reason": "Solve12-x=-5."
+    },
+    "computed": "17",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/2/4",
+    "sourceDigest": "cc0ee5ef6456d16a6f0023269bb93aee157e72a482cd59fe36b6bad10f4e3527",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "15-20",
+      "reason": "Substitute points lost20."
+    },
+    "computed": "-5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/3/3",
+    "sourceDigest": "109d7e79a8054b93a067b008e784c1b29c354e84264edd6348367f4082d6168e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "-5",
+      "reason": "Inputs solve x^2=25, hence+-5; only-5 offered among15,25,-5,10."
+    },
+    "computed": "-5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/3/4",
+    "sourceDigest": "c4cad1b890b9cbd2c80b5d6e156d6a9cfac55ad6bee4d532675eabd408c970cf",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*(-3)**2-1",
+      "reason": "Square negative input before doubling."
+    },
+    "computed": "17",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/4/1",
+    "sourceDigest": "370a2df5632c06b92c411f6497946edc92f585aee5b227e66f3ca37d646472b8",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Function has exactly one output per domain input, so repeated3 still8. R3 only choice1 assigns same2 both7 and9; others different inputs may share output. R4 yes: sharing output is allowed without invertibility/opposite-input conditions."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/4/2",
+    "sourceDigest": "fc34cee19f1fcfae585647ccc0fbaaa44e2805a6c66ce171b37cf3e53e60728e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(0,8)",
+      "reason": "Function has exactly one output per domain input, so repeated3 still8. R3 only choice1 assigns same2 both7 and9; others different inputs may share output. R4 yes: sharing output is allowed without invertibility/opposite-input conditions."
+    },
+    "computed": "(position, 0, 8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/4/3",
+    "sourceDigest": "4621d857b86e5833e398d38fafed5f6aa6d58133360c4da3a76a50d74423b204",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(1,2)",
+      "reason": "Function has exactly one output per domain input, so repeated3 still8. R3 only choice1 assigns same2 both7 and9; others different inputs may share output. R4 yes: sharing output is allowed without invertibility/opposite-input conditions."
+    },
+    "computed": "(position, 1, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/4/4",
+    "sourceDigest": "aeead9ac487bd3819e7914f2faca61c8ac65407eff8a58c1184db0af0bf6d0be",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Function has exactly one output per domain input, so repeated3 still8. R3 only choice1 assigns same2 both7 and9; others different inputs may share output. R4 yes: sharing output is allowed without invertibility/opposite-input conditions."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/5/4",
+    "sourceDigest": "e1361e664cdf8fc2813c5732b871c69851d9302069be51053096c83312fadda3",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "6*n-5",
+      "reason": "Apply multiplication before subtraction."
+    },
+    "computed": "6*n - 5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/6/4",
+    "sourceDigest": "01c949d956a900eb148c376d1238355e5a1aefde089067306f66da4f15ec7b02",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(2*x)**2",
+      "reason": "Square entire input2x."
+    },
+    "computed": "4*x**2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/7/1",
+    "sourceDigest": "93f2f3b3dbdcca1cdda6250f78c2c45de872cb2fc21870af89c0f781907f0318",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,5)",
+      "reason": "Exclude precisely denominator zero:5,-4,3,8 respectively. Read all domain choices including whole-number restriction r4; neither sign restriction nor other exclusions justified."
+    },
+    "computed": "(position, 3, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/7/2",
+    "sourceDigest": "f31a8b7741be9f634692ff92434f8998b005583108b8f59ad25c1f395312757e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(0,-4)",
+      "reason": "Exclude precisely denominator zero:5,-4,3,8 respectively. Read all domain choices including whole-number restriction r4; neither sign restriction nor other exclusions justified."
+    },
+    "computed": "(position, 0, -4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/7/3",
+    "sourceDigest": "63384566b6429d9bae12d1b9acddd612583f1054e482abe7bbb4a62e61c97ebb",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3",
+      "reason": "Exclude precisely denominator zero:5,-4,3,8 respectively. Read all domain choices including whole-number restriction r4; neither sign restriction nor other exclusions justified."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/7/4",
+    "sourceDigest": "b8232196f19601e107da27cc7850f3addb196da0ae48fc7c7d31a01fbb01f56d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,8)",
+      "reason": "Exclude precisely denominator zero:5,-4,3,8 respectively. Read all domain choices including whole-number restriction r4; neither sign restriction nor other exclusions justified."
+    },
+    "computed": "(position, 2, 8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/8/3",
+    "sourceDigest": "83f69b08ca2594af6a0eb41a5bb1211a981c433d3adf6b5cb37f4213890d2e46",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,8)",
+      "reason": "8-x>=0 iff x<=8, endpoint allowed; other choices reverse direction/wrong bound/exclude endpoint."
+    },
+    "computed": "(position, 2, 8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/8/4",
+    "sourceDigest": "ccf4ead7f4113577eba38b62d06976326bc7f6eca71369eaa633c25b7ccbf271",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2",
+      "reason": "Domain2x-6>=0 isx>=3; choices3,4,10 legal and2 illegal."
+    },
+    "computed": "2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/9/3",
+    "sourceDigest": "11bea1632c5fa16e480361046436d132572ceac53bb720073b470db9451f5b04",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,2)",
+      "reason": "3x^2>=0 with equality atx0 so minimum2. Other alternatives0,5,no minimum all false."
+    },
+    "computed": "(position, 2, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/9/4",
+    "sourceDigest": "56eed972bf929681b35bcefafa608aa6508a1b9977b3096f9bda25a9a749e79b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,4)",
+      "reason": "4-x^2 ranges(-infinity,4], all y<=4 and every such y attained. Other choiceswrong direction,allreals,nonnegative."
+    },
+    "computed": "(position, 3, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.1/10/4",
+    "sourceDigest": "9724b0c55781d2101ec08d842b7efb1e8ff0452422f038b933cd46722b37d712",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "10-4",
+      "reason": "Map10-x is involution; three applications equal one, so10-n=4."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/1/3",
+    "sourceDigest": "c08dec0e8a929369255cd8d6541b64f9726e8389bcf44b3f16831a4892d1be5b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(x+7)+(3*x-2)",
+      "reason": "Pointwise sum."
+    },
+    "computed": "4*x + 5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/1/4",
+    "sourceDigest": "bfd977eec9859d491f94304468d4ed24ac59edccf6b1878494e8fe7725976ca0",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(6-x)+(5*x-6)",
+      "reason": "Pointwise sum."
+    },
+    "computed": "4*x",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/2/4",
+    "sourceDigest": "239f0349bc86c77f44a3cff4766173bbb483e967e60c1d1de2c6905412f871b9",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5**2+2*5",
+      "reason": "Combine material and labor costs at5."
+    },
+    "computed": "35",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/3/4",
+    "sourceDigest": "e239bffd55bd47ebfdfd54cb1a8a71deb3199eff3e26d8b681e4bc911371396c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "9*x-(4*x+6)",
+      "reason": "Subtract all of second expression."
+    },
+    "computed": "5*x - 6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/4/4",
+    "sourceDigest": "981b0ac097f138312699a2c662f7be761f957296311d128e6d0f8895eb343831",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(5+2)*(2*5)",
+      "reason": "Positive rectangle dimensions7 and10 multiply."
+    },
+    "computed": "70",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/6/4",
+    "sourceDigest": "2dc27a6297e68bc8687c5d2ed1f59b2c9c7d869795a8c81a50456a5fc6f85c2d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,x*(x+6))",
+      "reason": "Products of four pairs are6x^2,6x^3,x^2+5x+6,x^2+6x; only fourth target."
+    },
+    "computed": "(position, 3, x*(x + 6))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/7/4",
+    "sourceDigest": "1d6cdbcfc2a9311b7924bde6b9cbb94085be708abecd433dbbdcee4af38b920a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3+5",
+      "reason": "Quotient simplifiesx-5 but retains exclusionx=-5; solve x-5=3 gives8 legal."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/8/1",
+    "sourceDigest": "cf55763f77b9e4d4b5859e48888318a956b6e69b33808755e29667a62534080f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(1,3)",
+      "reason": "Denominators factor(x-3)(x+3),(x-4)(x+4),x(x-5),x-7. Read all choices: exclude exactly+-3,+-4,0and5,7 respectively; numerator zeros do not restrict domain."
+    },
+    "computed": "(position, 1, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/8/2",
+    "sourceDigest": "c4cd261a0d7fcd9d4e3fa2133936d1cc6697a51e92d3ddc21348cf360e30cf4d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(0,4)",
+      "reason": "Denominators factor(x-3)(x+3),(x-4)(x+4),x(x-5),x-7. Read all choices: exclude exactly+-3,+-4,0and5,7 respectively; numerator zeros do not restrict domain."
+    },
+    "computed": "(position, 0, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/8/3",
+    "sourceDigest": "a86b66051d74d4983c5d855a9b6760cfb29ca816e93ad8a38eb29d4e9edb6be3",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,5)",
+      "reason": "Denominators factor(x-3)(x+3),(x-4)(x+4),x(x-5),x-7. Read all choices: exclude exactly+-3,+-4,0and5,7 respectively; numerator zeros do not restrict domain."
+    },
+    "computed": "(position, 2, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/8/4",
+    "sourceDigest": "1ed71ef1dd4e09f67e681e3c35372f4fea5f5f5417d86ceef980cd42f90e2448",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,7)",
+      "reason": "Denominators factor(x-3)(x+3),(x-4)(x+4),x(x-5),x-7. Read all choices: exclude exactly+-3,+-4,0and5,7 respectively; numerator zeros do not restrict domain."
+    },
+    "computed": "(position, 3, 7)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/9/1",
+    "sourceDigest": "36c418a128c0ec0cf016741d87ccc57bb0ef7221b3503ed80ac72501662d0e89",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(5*x+2)-(2*x-1)",
+      "reason": "Solve pointwise sum/difference identity for unknown function with correct subtraction order."
+    },
+    "computed": "3*x + 3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/9/2",
+    "sourceDigest": "8dce2da0004c20fa824c26cc9420b5a8f12ccba643a0e28089b2632d83b89d99",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(7*x-1)-(3*x+4)",
+      "reason": "Solve pointwise sum/difference identity for unknown function with correct subtraction order."
+    },
+    "computed": "4*x - 5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/9/3",
+    "sourceDigest": "2715dcb02e242912180c70ab10b03339611008fd700beebeb14e18d9821ccc84",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(6*x+5)-(x-2)",
+      "reason": "Solve pointwise sum/difference identity for unknown function with correct subtraction order."
+    },
+    "computed": "5*x + 7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/9/4",
+    "sourceDigest": "c23210c6758a27a66e87b8cbc116c3dcba977143ce78765c56ddd5fdbe751c4f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(5*x+4)-(2*x+9)",
+      "reason": "Solve pointwise sum/difference identity for unknown function with correct subtraction order."
+    },
+    "computed": "3*x - 5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/10/1",
+    "sourceDigest": "79bb0ed9fa5a1ef57ea9c7f0cecbc5342ac946a17f82b0148ad3a28670a73bde",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(0,2)",
+      "reason": "Zero sets of x(x-2),x(x-5),x(x-1),(x-3)(x+3) are{0,2},{0,5},{0,1},{-3,3}. Every alternative read: unique complete root set each."
+    },
+    "computed": "(position, 0, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/10/2",
+    "sourceDigest": "64851c44b0e9babd4d9d6e0624f8b239d1454e68312252edea4b2a487ae1040e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(1,5)",
+      "reason": "Zero sets of x(x-2),x(x-5),x(x-1),(x-3)(x+3) are{0,2},{0,5},{0,1},{-3,3}. Every alternative read: unique complete root set each."
+    },
+    "computed": "(position, 1, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/10/3",
+    "sourceDigest": "eb99c9f39682c898a568456b64372d072ff9232118e56cc5514eb0dd393611b8",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Zero sets of x(x-2),x(x-5),x(x-1),(x-3)(x+3) are{0,2},{0,5},{0,1},{-3,3}. Every alternative read: unique complete root set each."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.2/10/4",
+    "sourceDigest": "5478b2f370b17568b1178f0246dee20f87d9f31e8349435601a312e9d628bdb4",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,3)",
+      "reason": "Zero sets of x(x-2),x(x-5),x(x-1),(x-3)(x+3) are{0,2},{0,5},{0,1},{-3,3}. Every alternative read: unique complete root set each."
+    },
+    "computed": "(position, 3, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/1/2",
+    "sourceDigest": "637787924616535020c2285cfe367fb3fe747a81a21b0719d656c8da72d8d3a4",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*2+4",
+      "reason": "Inner tripler then adder."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/1/3",
+    "sourceDigest": "48d7755db6670f99c8e5e3945774f75b868c923a6a2cfd62b472619da27a87c6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4*3-5",
+      "reason": "Inner q then p."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/1/4",
+    "sourceDigest": "3714817c38c37868540d70ed84f304e4e6ded7c02c14c35ba9cc1eb467604214",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*5-7",
+      "reason": "Inner doubler then subtraction7."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/2/4",
+    "sourceDigest": "bc1d4021389ce9d6eee25c94fbe05e73cd07178987e809488fce6fc88b681a02",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*(7-3)",
+      "reason": "First subtract3 then triple."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/3/2",
+    "sourceDigest": "da38475a9bedb5376a3ee02552f8d55cf59f7772b0496742e075f1733e5283d3",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5*(x-3)",
+      "reason": "Substitute entire inner expression."
+    },
+    "computed": "5*x - 15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/3/4",
+    "sourceDigest": "7514c63124e0dfa470f9bed5872f9391343f5619d3b2617bec89814e73d825f6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4*(x-1)",
+      "reason": "Substitute f into g."
+    },
+    "computed": "4*x - 4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/4/1",
+    "sourceDigest": "9bc98b630f61490f623c6925576beeed253a7e59f4488480f44827e5d197d624",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,11,12)",
+      "reason": "Compute both orders:2*5+1=11 vs2*(5+1)=12;3*4+2=14 vs3*(4+2)=18;2*6-4=8 vs2*(6-4)=4 so first larger4;(3+1)^2=16 vs3^2+1=10. Read all alternatives including both-equal distractors."
+    },
+    "computed": "(position, 3, 11, 12)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/4/2",
+    "sourceDigest": "d9862205786a4fe7f0faf977f87b89678cd2ebcd31fbc83bb26fe22019976bbf",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(0,14,18)",
+      "reason": "Compute both orders:2*5+1=11 vs2*(5+1)=12;3*4+2=14 vs3*(4+2)=18;2*6-4=8 vs2*(6-4)=4 so first larger4;(3+1)^2=16 vs3^2+1=10. Read all alternatives including both-equal distractors."
+    },
+    "computed": "(position, 0, 14, 18)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/4/3",
+    "sourceDigest": "09ca5cdc0289f2de909779147572612b60cfd37a1465f254e2c2152d21434638",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(1,8-4)",
+      "reason": "Compute both orders:2*5+1=11 vs2*(5+1)=12;3*4+2=14 vs3*(4+2)=18;2*6-4=8 vs2*(6-4)=4 so first larger4;(3+1)^2=16 vs3^2+1=10. Read all alternatives including both-equal distractors."
+    },
+    "computed": "(position, 1, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/4/4",
+    "sourceDigest": "3a79e0acb2a454565e64d8d629673e1eb8b920e294a75956c33d14080ebd7a5f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,16,10)",
+      "reason": "Compute both orders:2*5+1=11 vs2*(5+1)=12;3*4+2=14 vs3*(4+2)=18;2*6-4=8 vs2*(6-4)=4 so first larger4;(3+1)^2=16 vs3^2+1=10. Read all alternatives including both-equal distractors."
+    },
+    "computed": "(position, 2, 16, 10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/5/2",
+    "sourceDigest": "d9805b9c1d2cd2faf2975e3288176981b3ddbf1e11ad17b01f305980be79b463",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(2-5)**2",
+      "reason": "Inner shift then square."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/5/4",
+    "sourceDigest": "276946f9d4d07fca1143c88c3546ebb07d088f4d5a2348687ee82f307f866b70",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(2*(-4)+3)**2",
+      "reason": "Inner affine output-5 then square."
+    },
+    "computed": "25",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/6/2",
+    "sourceDigest": "10591029d83f06b98e5f12a19fc40408ffe827b9551b6c330a713ca236f7e49f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*x**2+2",
+      "reason": "Outer3u+2 substitutesu=x^2."
+    },
+    "computed": "3*x**2 + 2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/6/3",
+    "sourceDigest": "74862eed8c3a76423c670028524f3ca0a204a40252e5d28f02e6a8df50f7eafa",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(x+3)**2",
+      "reason": "Outer square substitutes innerx+3; algebraic equality checked for expanded choices."
+    },
+    "computed": "(x + 3)**2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/6/4",
+    "sourceDigest": "2fd65eddbe2dcc7782a67092b5b6547cacf146328230a391caf430ed4e2ffb3c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(4*x)**2-2",
+      "reason": "Square whole inner4x then subtract2."
+    },
+    "computed": "16*x**2 - 2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/7/2",
+    "sourceDigest": "4428bea90f18bdf5f911168b48501ef34c86612f7fdba8f5574d684e5c3727bb",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*(3*4-2)-2",
+      "reason": "Apply same affine rule twice."
+    },
+    "computed": "28",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/7/4",
+    "sourceDigest": "faaf5379efb77d60371c4679e29f52a9750678531158e64ab7522f75a942605d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*(2*1+3)+3",
+      "reason": "Apply same affine rule twice."
+    },
+    "computed": "13",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/8/1",
+    "sourceDigest": "a51d784ab4a95791ed4ff85192533442672d8bc7d3c3129d1ce8d8c0d9eb32d4",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,(x+5)**2)",
+      "reason": "Read all pairs and substitute: r1 wrong outputsx^2+5,x^2+25,5(x+1)^2; r2 wrongx^3-6,x^3-216,(6-x)^3; r3 wrong1/x+4,1/x+4,1/(x+8); r4 wrongx/4+9,x/4+9,(x-9)/4. Correct pair domains match target, r3 x!=-4."
+    },
+    "computed": "(position, 3, (x + 5)**2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/8/2",
+    "sourceDigest": "4308df9007f1bb63886ab4b35d4464b00c352b8cac9a5bc959e1b1a1b2162539",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(0,(x-6)**3)",
+      "reason": "Read all pairs and substitute: r1 wrong outputsx^2+5,x^2+25,5(x+1)^2; r2 wrongx^3-6,x^3-216,(6-x)^3; r3 wrong1/x+4,1/x+4,1/(x+8); r4 wrongx/4+9,x/4+9,(x-9)/4. Correct pair domains match target, r3 x!=-4."
+    },
+    "computed": "(position, 0, (x - 6)**3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/8/3",
+    "sourceDigest": "705a6a3894c8f478469067cc460a42066f50111bdeabdb28c658255ff9f96de5",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(1,1/(x+4))",
+      "reason": "Read all pairs and substitute: r1 wrong outputsx^2+5,x^2+25,5(x+1)^2; r2 wrongx^3-6,x^3-216,(6-x)^3; r3 wrong1/x+4,1/x+4,1/(x+8); r4 wrongx/4+9,x/4+9,(x-9)/4. Correct pair domains match target, r3 x!=-4."
+    },
+    "computed": "(position, 1, 1/(x + 4))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/8/4",
+    "sourceDigest": "4addaf001882ae83d3aee9fe65764dd5ddf76dc85b5c0bacc528667f356a712a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,(x+9)/4)",
+      "reason": "Read all pairs and substitute: r1 wrong outputsx^2+5,x^2+25,5(x+1)^2; r2 wrongx^3-6,x^3-216,(6-x)^3; r3 wrong1/x+4,1/x+4,1/(x+8); r4 wrongx/4+9,x/4+9,(x-9)/4. Correct pair domains match target, r3 x!=-4."
+    },
+    "computed": "(position, 2, x/4 + 9/4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/9/1",
+    "sourceDigest": "451e2457254b98e872628b5ece550d11c0af5fb39de7671bb2e905e056d15e8e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*x+4",
+      "reason": "Solve affine coefficient equations: f(2x+1)=6x+7;f(3x-2)=12x-5;2g(x)-3=8x+1;f(x+4)=5x+13."
+    },
+    "computed": "3*x + 4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/9/2",
+    "sourceDigest": "2e750c9a7fdfd80676a1e67991d8cbf64dee962c24ccce7f3a64434b51d38ac7",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4*x+3",
+      "reason": "Solve affine coefficient equations: f(2x+1)=6x+7;f(3x-2)=12x-5;2g(x)-3=8x+1;f(x+4)=5x+13."
+    },
+    "computed": "4*x + 3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/9/3",
+    "sourceDigest": "cbc175e98faeb9e35b3a03394c5b5d249fe5e6a393302561619fdf3317042e7c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4*x+2",
+      "reason": "Solve affine coefficient equations: f(2x+1)=6x+7;f(3x-2)=12x-5;2g(x)-3=8x+1;f(x+4)=5x+13."
+    },
+    "computed": "4*x + 2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.3/9/4",
+    "sourceDigest": "81a215d926618cdf0dce75028b3ad3f861d9c9f4ac9cf1a60764db2da96748b9",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5*x-7",
+      "reason": "Solve affine coefficient equations: f(2x+1)=6x+7;f(3x-2)=12x-5;2g(x)-3=8x+1;f(x+4)=5x+13."
+    },
+    "computed": "5*x - 7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/1/3",
+    "sourceDigest": "b5708a605649111229a5ece6735c04ff8508add2e4b95d6cf79e046464671c87",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "x-12",
+      "reason": "Undo addition12."
+    },
+    "computed": "x - 12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/2/4",
+    "sourceDigest": "d675795c1c80fdd86e7bb3cf8fd35fe364a0e1454a1c5febde0e734e4f05b1e6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "x/8",
+      "reason": "Undo scaling8 by division8."
+    },
+    "computed": "x/8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/3/3",
+    "sourceDigest": "5443acc7697b07dc6c89d955e400dfa2611e78780ecd1a4a368e158d8313137e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(34-4)/5",
+      "reason": "Solve5input+4=34."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/4/1",
+    "sourceDigest": "91e79e72e6822b2cc60f16bdf1774bb4e43db3800b9d527f438ebf54e4c34acf",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,x)",
+      "reason": "Inverse cancels original on respective domains. R1 x, r2 original6, r3 identity precisely on inverse domain. R4 only fourth says run backwards; other choices multiply by-1,reciprocal output,shift graph down1 all wrong."
+    },
+    "computed": "(position, 2, x)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/4/2",
+    "sourceDigest": "a6d0cdf663e3d6f5a45eb48689dc988ad1213ba76773c9770e771e1ae2de322f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "6",
+      "reason": "Inverse cancels original on respective domains. R1 x, r2 original6, r3 identity precisely on inverse domain. R4 only fourth says run backwards; other choices multiply by-1,reciprocal output,shift graph down1 all wrong."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/4/3",
+    "sourceDigest": "d48eec0308c2cc87e77ae681d96f82886db3d08f5e43882eb75ab878554c9776",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(1,x)",
+      "reason": "Inverse cancels original on respective domains. R1 x, r2 original6, r3 identity precisely on inverse domain. R4 only fourth says run backwards; other choices multiply by-1,reciprocal output,shift graph down1 all wrong."
+    },
+    "computed": "(position, 1, x)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/4/4",
+    "sourceDigest": "afbc072a7e6d7e3d5e537fff7900a0d1cf19e56f570a2d7efbf87a3161ec9bb5",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Inverse cancels original on respective domains. R1 x, r2 original6, r3 identity precisely on inverse domain. R4 only fourth says run backwards; other choices multiply by-1,reciprocal output,shift graph down1 all wrong."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/5/4",
+    "sourceDigest": "73958c463cc74602dbd789b7a52600629660f54b664a40cc84d885f35d1a1c5e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5*x+3",
+      "reason": "Undo stated inverse subtract3 then divide5."
+    },
+    "computed": "5*x + 3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/6/1",
+    "sourceDigest": "fe8daa0fd10cee7aa120d630c86e196d04c2ec09d249d0c0e7d01b218a4331b4",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "R1 noninjective because+-1 share1; fast growth/nonnegative output alone not reason, defined0. R2 onlyx^4 noninjective, remaining affine slopes nonzero. R3 restrictx>=0 makes square injective; other exclusions leave opposite pairs. R4 output5 from inputs1,3 makes inverse multivalued; table need not include0 or constant differences."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/6/2",
+    "sourceDigest": "843574da6f28f102a71e4b6f5ab248fa06ff4a3de92a3adb820e3eec45bbc1e3",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "x**4",
+      "reason": "R1 noninjective because+-1 share1; fast growth/nonnegative output alone not reason, defined0. R2 onlyx^4 noninjective, remaining affine slopes nonzero. R3 restrictx>=0 makes square injective; other exclusions leave opposite pairs. R4 output5 from inputs1,3 makes inverse multivalued; table need not include0 or constant differences."
+    },
+    "computed": "x**4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/6/3",
+    "sourceDigest": "81bde53fb9c50a0d1a03cf18286c24ae95c18a6e430ab94ebc8ecd4ea8868ce1",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,0)",
+      "reason": "R1 noninjective because+-1 share1; fast growth/nonnegative output alone not reason, defined0. R2 onlyx^4 noninjective, remaining affine slopes nonzero. R3 restrictx>=0 makes square injective; other exclusions leave opposite pairs. R4 output5 from inputs1,3 makes inverse multivalued; table need not include0 or constant differences."
+    },
+    "computed": "(position, 2, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/6/4",
+    "sourceDigest": "85ff3be272b5cec384049a70864d857698576bccdfc081b20c171d15e46607f1",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,5)",
+      "reason": "R1 noninjective because+-1 share1; fast growth/nonnegative output alone not reason, defined0. R2 onlyx^4 noninjective, remaining affine slopes nonzero. R3 restrictx>=0 makes square injective; other exclusions leave opposite pairs. R4 output5 from inputs1,3 makes inverse multivalued; table need not include0 or constant differences."
+    },
+    "computed": "(position, 3, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/7/4",
+    "sourceDigest": "dd1f93a853c91465cdc9d7988d052c446136d877eedbf03e855e0fe620daade6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*s+4",
+      "reason": "Solve share s=(d-4)/2 for d."
+    },
+    "computed": "2*s + 4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/8/1",
+    "sourceDigest": "04bc04ae762bbd852118e3afd12811ea0e59a3fce56cf82b0e525d25e966f3d4",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5-x",
+      "reason": "Compose each alternative twice: correct reflections/reciprocal give identity. Other affine candidates nonunit second iterate, x^2 givesx^4,x^3 givesx^9,3-2x gives4x-3. Reciprocal restricted nonzero as stated."
+    },
+    "computed": "5 - x",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/8/2",
+    "sourceDigest": "cd60b1105f406ed9886ceae217f2c718e43a40d3e4122ed06c36bb60fc807e2d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "12-x",
+      "reason": "Compose each alternative twice: correct reflections/reciprocal give identity. Other affine candidates nonunit second iterate, x^2 givesx^4,x^3 givesx^9,3-2x gives4x-3. Reciprocal restricted nonzero as stated."
+    },
+    "computed": "12 - x",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/8/3",
+    "sourceDigest": "428bd78e56e01764e92587441db3ec35b313bc7180a48ad175c3111e27a81bd2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "1/x",
+      "reason": "Compose each alternative twice: correct reflections/reciprocal give identity. Other affine candidates nonunit second iterate, x^2 givesx^4,x^3 givesx^9,3-2x gives4x-3. Reciprocal restricted nonzero as stated."
+    },
+    "computed": "1/x",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/8/4",
+    "sourceDigest": "13565ce24393ccc2800164d153cd721622df91d5888ba66e1fb7d8eee2333a70",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "-x",
+      "reason": "Compose each alternative twice: correct reflections/reciprocal give identity. Other affine candidates nonunit second iterate, x^2 givesx^4,x^3 givesx^9,3-2x gives4x-3. Reciprocal restricted nonzero as stated."
+    },
+    "computed": "-x",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/9/3",
+    "sourceDigest": "f195cb5d6dcb5de29977f841c6303808cc7fa05d9cbd7f6c68afad8d90a58365",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(((59+1)/4)+1)/4",
+      "reason": "Inverse f is(u+1)/4; apply twice."
+    },
+    "computed": "4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/9/4",
+    "sourceDigest": "f48ecef2155c958c4498c6dcb3cb50763ab49ced340e1568cd3fafef59f7bc58",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(((22-1)/3)-1)/3",
+      "reason": "Inverse f is(u-1)/3; apply twice."
+    },
+    "computed": "2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/10/1",
+    "sourceDigest": "1472abe1d354cfacbf4b002be67c53818c90c3b7bc3f1e479377a2b264dd5b13",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5+(7-5)/(2-1)*(3-1)",
+      "reason": "Translate inverse point into original graph pair then linear interpolation/extrapolation; r3 solves inverse at21."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/10/2",
+    "sourceDigest": "4d54f5cfb7efde0c783865cd7330f4cb7a39dcfb6f1fa1f92e4c5b4d8ecb2102",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "9+(15-9)/(4-2)*(5-2)",
+      "reason": "Translate inverse point into original graph pair then linear interpolation/extrapolation; r3 solves inverse at21."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/10/3",
+    "sourceDigest": "c1c8fc3f2eb607a1c18757eea2b7a4a6b2c3f60325dc72fa5f0bc383db89e940",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "1+(21-3)/(11-3)*(5-1)",
+      "reason": "Translate inverse point into original graph pair then linear interpolation/extrapolation; r3 solves inverse at21."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.4/10/4",
+    "sourceDigest": "0041345b90d2e00459a67c7c82e5795528415b15e44be1b99fe6f35e756e9460",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "-4+(6+4)/5*3",
+      "reason": "Translate inverse point into original graph pair then linear interpolation/extrapolation; r3 solves inverse at21."
+    },
+    "computed": "2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/1/2",
+    "sourceDigest": "7973e8440d8a0529358dca25f697ee17a7bab84b8ed0837694841fc1e4ddafb2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "16",
+      "reason": "Read given table g(3)=16 directly, no extrapolation assumption."
+    },
+    "computed": "16",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/2/2",
+    "sourceDigest": "bf36381d9295242bd690d7612c03ee6dae5bafa67f9f447df7d64df788accc01",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3",
+      "reason": "Given r(3)=22; other listed inputs outputs8,15,29."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/2/3",
+    "sourceDigest": "ef4184eb4e7c85fe35e0d40e0f8bbc4fe0a0497b293d1c782a75f97c1b64d894",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(0,6,8)",
+      "reason": "Read all table entries: inputs6and8 yield9,inputs5and7 yield2and4. Alternatives9only,5and7,6only fail exact preimage."
+    },
+    "computed": "(position, 0, 6, 8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/3/1",
+    "sourceDigest": "ea67a2433fc0a7aacea20de3beaa3f9fca5c4d26cd99ed6745379f01e58eef0b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2+3*(4-1)",
+      "reason": "Iterate additive recurrence integer number of steps."
+    },
+    "computed": "11",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/3/2",
+    "sourceDigest": "e4c274760d6b18754a93717ba5b7e492672b2cb0d5e86eb2291905e7851e9f15",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3+5*(5-2)",
+      "reason": "Iterate additive recurrence integer number of steps."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/3/3",
+    "sourceDigest": "0d6afb5c2e2a863c44b12e739f393480b9ec96443e32e17ae758358ae99d54ca",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "20-4*(4-1)",
+      "reason": "Iterate additive recurrence integer number of steps."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/3/4",
+    "sourceDigest": "045fd1dbf7d7d856e1049871f30a506a59e8c18d6071b983591614e75439f701",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "10+7*(6-3)",
+      "reason": "Iterate additive recurrence integer number of steps."
+    },
+    "computed": "31",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/4/2",
+    "sourceDigest": "4f62202f1b333e63ec0ca333a76f9c3dbe47ba1b9a14431e29c388b0567aef76",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5*x-1",
+      "reason": "Check at0,1,2,3 yields-1,4,9,14; all choices compared as formulas, no uniqueness claim among arbitrary interpolating functions."
+    },
+    "computed": "5*x - 1",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/4/4",
+    "sourceDigest": "b0d89422f986e3aebda52f161e6a41021f4bb6ea46666d01ff12d6316f9e691b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "20-3*x",
+      "reason": "Check at0,1,2,3 yields20,17,14,11; all listed rules checked."
+    },
+    "computed": "20 - 3*x",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/5/1",
+    "sourceDigest": "a3a2a17793452f6d8e601f0131285bc91f0ce0827bd38180da1bb186b987a50a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "6/2+5",
+      "reason": "Solve inner input equation to evaluate supplied identity at requested argument."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/5/2",
+    "sourceDigest": "206de4088193809648a2bb26dc8c9be144f1aea52e770cfbb455cbfd6c9f51be",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "12/3+7",
+      "reason": "Solve inner input equation to evaluate supplied identity at requested argument."
+    },
+    "computed": "11",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/5/3",
+    "sourceDigest": "339813389af37684ca6090c30630cff87dd1db67534720c8b0608f97c7acb247",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5-8/2",
+      "reason": "Solve inner input equation to evaluate supplied identity at requested argument."
+    },
+    "computed": "1",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/5/4",
+    "sourceDigest": "12541411bf247f6bca9534d4da417c5cc491b88d9f8b624592fda629588607f3",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*(10-4)",
+      "reason": "Solve inner input equation to evaluate supplied identity at requested argument."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/6/1",
+    "sourceDigest": "9a5cbaac84fa474876388a7920a43d334ddc28252a3317663446f67bf8eb2507",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2+3*(10-1)",
+      "reason": "Additive recurrence: start value plus step count times increment."
+    },
+    "computed": "29",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/6/2",
+    "sourceDigest": "9e6aca6856eae2587d58c4456d48221339795e12abdd39a2ac1c65d647c0443d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5+6*(12-1)",
+      "reason": "Additive recurrence: start value plus step count times increment."
+    },
+    "computed": "71",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/6/3",
+    "sourceDigest": "fce244ea9e4de83a888a1569354ff18a07a4f9e5ab7755c7ced9be086e772c84",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "9+4*(20-2)",
+      "reason": "Additive recurrence: start value plus step count times increment."
+    },
+    "computed": "81",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/6/4",
+    "sourceDigest": "e5ae320a0bb087cb2994c1955540a9b04689054459dcd80bb0e07842cc522ab9",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "40-3*(11-1)",
+      "reason": "Additive recurrence: start value plus step count times increment."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/7/1",
+    "sourceDigest": "a06ae6f35b2e7d40d17f212be0603d70e50a72234959c9e9a237c5cf25e2541e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*4",
+      "reason": "Additivity on repeated integer sums suffices; no continuity or global linearity assumed."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/7/2",
+    "sourceDigest": "b7056d2c0511b4f59a87392822e06ea5e6f5c51ef1882db6a2b9dccd942abacc",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4*5",
+      "reason": "Additivity on repeated integer sums suffices; no continuity or global linearity assumed."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/7/3",
+    "sourceDigest": "61b4bf0711614a70ca4550434f796ee9448baa3524bb661dcf7651f2389ec361",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*6",
+      "reason": "Additivity on repeated integer sums suffices; no continuity or global linearity assumed."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/7/4",
+    "sourceDigest": "aecbede8bd37b2040794be4f0bb6bb569efa595bf969d14e33eb11aba2c2e3ab",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "12/3",
+      "reason": "Additivity on repeated integer sums suffices; no continuity or global linearity assumed."
+    },
+    "computed": "4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/8/1",
+    "sourceDigest": "c2e85c1d1f6654d041b7a5216e54a42e7b6a8ab931a26ffe5805448f8af186b2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "6*(5/2)-2",
+      "reason": "Substitute argument-solving value into global functional identity."
+    },
+    "computed": "13",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/8/2",
+    "sourceDigest": "cecbc30c01baa321def5164bda67c6a64c73789e59f7d0b174200a8c14eeae71",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "8*(7/2)+3",
+      "reason": "Substitute argument-solving value into global functional identity."
+    },
+    "computed": "31",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/8/3",
+    "sourceDigest": "8d042b80be11131edb7831ff6d052317af7f8a863d64694b3d493108140b7a85",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "9*(4/3)-6",
+      "reason": "Substitute argument-solving value into global functional identity."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/8/4",
+    "sourceDigest": "e86e94c6cf28fb909b5c61e0a52d5fcea35ec722aeeaa9bbde5abe2193cb7c45",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4*(5+1)",
+      "reason": "Substitute argument-solving value into global functional identity."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/9/1",
+    "sourceDigest": "2debb810445d3a6c59b68db2213eefe431a0556c3f8d18f921db4cc31531ca0c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "1+2*3+1+3",
+      "reason": "Explicit recurrence sequences:1,3,4,7,11;2,5,7,12,19;3,4,7,11,18,29;10,4,-6,-10,-4."
+    },
+    "computed": "11",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/9/2",
+    "sourceDigest": "29163bf537d8266691fe45af05f508871f72278f9707415409de6d3098af7181",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2+2*5+2+5",
+      "reason": "Explicit recurrence sequences:1,3,4,7,11;2,5,7,12,19;3,4,7,11,18,29;10,4,-6,-10,-4."
+    },
+    "computed": "19",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/9/3",
+    "sourceDigest": "0db5bb790983fe8515c7aea3a724d75db201cc411a61fa0a05af94907461c97c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*3+5*4",
+      "reason": "Explicit recurrence sequences:1,3,4,7,11;2,5,7,12,19;3,4,7,11,18,29;10,4,-6,-10,-4."
+    },
+    "computed": "29",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/9/4",
+    "sourceDigest": "293c6330a00026170c2f2da7d010789084c5604e4f78add9a5b23f7f0752d1f5",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "((4-10)-4)-(4-10)",
+      "reason": "Explicit recurrence sequences:1,3,4,7,11;2,5,7,12,19;3,4,7,11,18,29;10,4,-6,-10,-4."
+    },
+    "computed": "-4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/10/1",
+    "sourceDigest": "8da8b93fb50fb12754a0c71bad88cb15b7cff7c7f1ca1aa25bab727365c2db95",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*2**3",
+      "reason": "Count stride steps:1to7 by2=3;1to10 by3=3;2to8 by2=3;1to9 by2=4."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/10/2",
+    "sourceDigest": "85adf7bfb8acd099e2e80fb2522bb43a283aebb0f797c9db3976c6bb093fd980",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5*2**3",
+      "reason": "Count stride steps:1to7 by2=3;1to10 by3=3;2to8 by2=3;1to9 by2=4."
+    },
+    "computed": "40",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/10/3",
+    "sourceDigest": "0f2bc6ff733bcca2a1edaab88472668d6707b3f762b4ce6e910e971f7b116700",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4*3**3",
+      "reason": "Count stride steps:1to7 by2=3;1to10 by3=3;2to8 by2=3;1to9 by2=4."
+    },
+    "computed": "108",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.5/10/4",
+    "sourceDigest": "f2a95c392b399e02e0ec11edfe5f5397c0227115b379892fb40a1d95e3b5b55b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "96/2**4",
+      "reason": "Count stride steps:1to7 by2=3;1to10 by3=3;2to8 by2=3;1to9 by2=4."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/1/1",
+    "sourceDigest": "b55423bb6e7d5ec5af035c54b5176a5c31832d74d5a04500e4fe1f255bf5320d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*3+2**2",
+      "reason": "Replace first and second slots exactly in given operation."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/1/2",
+    "sourceDigest": "12b560b2c9ed7f3068316d601d4ee018c724de83125eee8876219a973c8d4850",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*4+5**2",
+      "reason": "Replace first and second slots exactly in given operation."
+    },
+    "computed": "37",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/1/3",
+    "sourceDigest": "d0822553a8bdc9fe41334c6426edc7674a8fb45f36be06379a2527534ff11d98",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "6**2-3*4",
+      "reason": "Replace first and second slots exactly in given operation."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/1/4",
+    "sourceDigest": "791cbd95446d5526a050c98f94ad0b6698e3f1a1ecb4e1d13eeb046590b436b7",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5*2-6**2",
+      "reason": "Replace first and second slots exactly in given operation."
+    },
+    "computed": "-26",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/2/1",
+    "sourceDigest": "99ccf07e35033e29ab702c8d389b317d0d310d0d3b6632b1cef05ce11e9233cf",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*2+3**2",
+      "reason": "Reversed arguments still use ordered definition."
+    },
+    "computed": "13",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/2/2",
+    "sourceDigest": "9326bca2e23a965e3c2f3367ec47a60beca26777e29cc742950be42919cf5613",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*5+4**2",
+      "reason": "Reversed arguments still use ordered definition."
+    },
+    "computed": "31",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/2/3",
+    "sourceDigest": "9701851c6f9dc2b2104944b963db19df3fa362f6d756868999066fe48b9280c0",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4**2-3*6",
+      "reason": "Reversed arguments still use ordered definition."
+    },
+    "computed": "-2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/2/4",
+    "sourceDigest": "24d1f4cdc0bb521ffa55eb563e56edb919fc9a5038666f694a1ec71e41290188",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5*6-2**2",
+      "reason": "Reversed arguments still use ordered definition."
+    },
+    "computed": "26",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/3/1",
+    "sourceDigest": "df74b0099f2a288e2ed4da2d52183a95ea2fb23146b37f05d558a4f336ef06e6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5*4-5",
+      "reason": "Substitute operation parameters."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/3/2",
+    "sourceDigest": "6c0e408b5de97677b8ac11cefc984454e4813a346cf7db76cb4316354c92b1c6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "7*3+3",
+      "reason": "Substitute operation parameters."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/3/3",
+    "sourceDigest": "47423451ebdd028542223e8904528b6fd9e152c5b2e431de38c39545fded1ba1",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "9*5-5",
+      "reason": "Substitute operation parameters."
+    },
+    "computed": "40",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/3/4",
+    "sourceDigest": "86585c5cd094997f2976308c62530cb2d05ffa767e7730d8d00d7af4e0c22b2b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*4*6-6",
+      "reason": "Substitute operation parameters."
+    },
+    "computed": "42",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/4/1",
+    "sourceDigest": "f92af18dfe81a8baa5e531e152ce10ee271fd3bb4c0a7e31095c35dee9ff0e17",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*(2*1+2**2)+3**2",
+      "reason": "Evaluate parenthesized operation first, then use its value as first argument."
+    },
+    "computed": "21",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/4/2",
+    "sourceDigest": "15e787e3154661d86cfd19d81e5c4cb2012e4978123bc0612ad3d27dc56ae195",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*(3*2+1**2)+2**2",
+      "reason": "Evaluate parenthesized operation first, then use its value as first argument."
+    },
+    "computed": "25",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/4/3",
+    "sourceDigest": "72b18abb3e7fcdb46a66963cc67befd1b27aab9d77cb0311e02d630b2ebf6142",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(4**2-3*2)**2-3*3",
+      "reason": "Evaluate parenthesized operation first, then use its value as first argument."
+    },
+    "computed": "91",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/4/4",
+    "sourceDigest": "f75760d2f324e45b6c0821c060fd058fa94449be1ee7b6496c12f63cea2c5a3f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5*(5*3-1**2)-2**2",
+      "reason": "Evaluate parenthesized operation first, then use its value as first argument."
+    },
+    "computed": "66",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/5/1",
+    "sourceDigest": "0bda570e306a0c2845d8e242bde1a31fe46419aaa052d0cb033431f834b448b4",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "((7+3)/2+9)/2",
+      "reason": "Average operations follow grouping; r4 ((4+12)/2+20)/2=14 and(4+(12+20)/2)/2=10 disproves associativity. Other alternatives wrong values or false equality."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/5/2",
+    "sourceDigest": "700391fdc28372f205905a513235459129852abcd0731c84a4598cdc113118c9",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "((10+2)/2+8)/2",
+      "reason": "Average operations follow grouping; r4 ((4+12)/2+20)/2=14 and(4+(12+20)/2)/2=10 disproves associativity. Other alternatives wrong values or false equality."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/5/3",
+    "sourceDigest": "9c132558468f290c280b5ad9f83116b80a659032ff90094446191fd8649635cc",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(12+(4+8)/2)/2",
+      "reason": "Average operations follow grouping; r4 ((4+12)/2+20)/2=14 and(4+(12+20)/2)/2=10 disproves associativity. Other alternatives wrong values or false equality."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/5/4",
+    "sourceDigest": "86fb10c1ff62a7b86c0346347856ae90eac85dec5d781bee9d42bd01f466d2ed",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,14,10)",
+      "reason": "Average operations follow grouping; r4 ((4+12)/2+20)/2=14 and(4+(12+20)/2)/2=10 disproves associativity. Other alternatives wrong values or false equality."
+    },
+    "computed": "(position, 2, 14, 10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/6/1",
+    "sourceDigest": "f9c5ba8fefac0d43f3bfd7c8a73a0aaf0753f0177724689375ce05a8bbc0aea7",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,6,5)",
+      "reason": "R1 pair1,2 gives6 vs5. R2 a^2+b^2 symmetric; a^2-b^2,2a+3b,a/b fail swap on1,2. R3 1^2-3*2=-5,2^2-3*1=1, so only fourth correct. R4 3+2*5=13,5+2*3=11; only second correctly states/proves noncommutativity."
+    },
+    "computed": "(position, 2, 6, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/6/2",
+    "sourceDigest": "8054101f361971ac2d61190fd5812ccbbdc260e89e6fd7437e2ebcad0aa6c57e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "R1 pair1,2 gives6 vs5. R2 a^2+b^2 symmetric; a^2-b^2,2a+3b,a/b fail swap on1,2. R3 1^2-3*2=-5,2^2-3*1=1, so only fourth correct. R4 3+2*5=13,5+2*3=11; only second correctly states/proves noncommutativity."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/6/3",
+    "sourceDigest": "3a3562ee2e0807a3d9a9c45de440c6fcf5210d4ef1b6c231e68ef9c517bdf3f7",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,-5,1)",
+      "reason": "R1 pair1,2 gives6 vs5. R2 a^2+b^2 symmetric; a^2-b^2,2a+3b,a/b fail swap on1,2. R3 1^2-3*2=-5,2^2-3*1=1, so only fourth correct. R4 3+2*5=13,5+2*3=11; only second correctly states/proves noncommutativity."
+    },
+    "computed": "(position, 3, -5, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/6/4",
+    "sourceDigest": "7cb360eabfbdd4d190063b9a1a6cb4003679c5add416a4ded8d0f34a5d9ac428",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(1,13,11)",
+      "reason": "R1 pair1,2 gives6 vs5. R2 a^2+b^2 symmetric; a^2-b^2,2a+3b,a/b fail swap on1,2. R3 1^2-3*2=-5,2^2-3*1=1, so only fourth correct. R4 3+2*5=13,5+2*3=11; only second correctly states/proves noncommutativity."
+    },
+    "computed": "(position, 1, 13, 11)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/7/1",
+    "sourceDigest": "6a436066799b9a7b22f06abee15023357e06937203596331a5b82d08a95846d6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "sqrt(24-2*4)",
+      "reason": "Solve operation equation; positive-number restriction selects positive square root for r1,r2,r4."
+    },
+    "computed": "4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/7/2",
+    "sourceDigest": "dd3fe9babeef05d0dc2389f6346c6b8bd3e4421728423136368c3f030284b33c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "sqrt(31-3*2)",
+      "reason": "Solve operation equation; positive-number restriction selects positive square root for r1,r2,r4."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/7/3",
+    "sourceDigest": "61ed6fa03d9ebe7a5899a8e97277a2a01c495668069444e977bb3b1eec9cbf17",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(7**2-25)/3",
+      "reason": "Solve operation equation; positive-number restriction selects positive square root for r1,r2,r4."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/7/4",
+    "sourceDigest": "2284e01232e81e8ea579bf3375700650c28312c20f751eff2003695f6a48e7f4",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "sqrt(5*8-4)",
+      "reason": "Solve operation equation; positive-number restriction selects positive square root for r1,r2,r4."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/8/1",
+    "sourceDigest": "f0d9c19ebd9d47b1e6ec031549b59e0545154c54b81571d11beec7178d922903",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(1*2+1+2)*3+(1*2+1+2)+3",
+      "reason": "Expand nested operation using exact ordered definition twice."
+    },
+    "computed": "23",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/8/2",
+    "sourceDigest": "454f699f3eebae0225c13150090d9493215cf57e9063d149fa601bcf96ad9c29",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(1*3+2*1+2*3)*2+2*(1*3+2*1+2*3)+2*2",
+      "reason": "Expand nested operation using exact ordered definition twice."
+    },
+    "computed": "48",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/8/3",
+    "sourceDigest": "7d4baa8a5f7b603da8c80393dabf1e3ba89bf1774e67f83d5a2091c135f01425",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(4*3-4-3)*2-(4*3-4-3)-2",
+      "reason": "Expand nested operation using exact ordered definition twice."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/8/4",
+    "sourceDigest": "3e94eda75d0b376a2f77cf232e378d07c1e611efab0ce0ba3419cda47bdc6997",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*(2*2*1+1)*3+1",
+      "reason": "Expand nested operation using exact ordered definition twice."
+    },
+    "computed": "31",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/9/1",
+    "sourceDigest": "4b220fada43b79910d6f71f27a0ba393b7216cddca155f3caeb727955679686f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(25-3**2)/2",
+      "reason": "Solve linear equation in first argument."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/9/2",
+    "sourceDigest": "19f037639124e00fc5b2a2373a15c18f67334d050d244123ba54ef6b24e71d16",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(34-4**2)/3",
+      "reason": "Solve linear equation in first argument."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/9/3",
+    "sourceDigest": "6e1bd9a4aa23609d4090eec8ee9ca36df92bf8394c91dc08ef56349d218111b3",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(11+3**2)/5",
+      "reason": "Solve linear equation in first argument."
+    },
+    "computed": "4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/9/4",
+    "sourceDigest": "545d5f654141b4bcf1ee2914df4bf3bd03055284ec3c882b40f93bef228cb0aa",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(30+6)/6",
+      "reason": "Solve linear equation in first argument."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/10/1",
+    "sourceDigest": "15d045f7785878c405b559aaab667636a024fb48ba53444c2321061a2adb0716",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(2**2-3)**2-(3**2-2)",
+      "reason": "Compute both inner results then outer operation with parentheses retained."
+    },
+    "computed": "-6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/10/2",
+    "sourceDigest": "7291bd405bde67be48ddedc499347eb55eaeedcf2f9f13916d8201f1116bdaee",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(4**2-1)**2-(1**2-4)",
+      "reason": "Compute both inner results then outer operation with parentheses retained."
+    },
+    "computed": "228",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/10/3",
+    "sourceDigest": "0a55233efb89212fa5e70390b7456298857c9da9259d631fccd4ef479ac937ce",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*(2*3-2**2)-(2*2-3**2)**2",
+      "reason": "Compute both inner results then outer operation with parentheses retained."
+    },
+    "computed": "-21",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/16.6/10/4",
+    "sourceDigest": "6f1dfd0d28244a313537899ce20ce60228e5194af9ab8e60f5ed2610cf78c1f1",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(3-1**2)-(1-3**2)**2",
+      "reason": "Compute both inner results then outer operation with parentheses retained."
+    },
+    "computed": "-62",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/1/3",
+    "sourceDigest": "26c41cbfbe1bad7430afa3c200bddf045f0155435344c3b1e849215cfb1ce47f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(3*(-1)-(-1)**2)-(3*(-5)-(-5)**2)",
+      "reason": "Requested signed difference first output minus second."
+    },
+    "computed": "36",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/1/4",
+    "sourceDigest": "eff93891d7299a3f958814bef26d650080592724d86c1915bef2c42589193a96",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,-3,22)",
+      "reason": "At-3 output9+12+1=22; at5 output25-20+1=6; first input larger. All input/output pair alternatives read."
+    },
+    "computed": "(position, 3, -3, 22)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/2/4",
+    "sourceDigest": "2222ee9f28850b0c2d598a3e0f25357e0ebfdc9b1bab1bbad758f0ea36ae851b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(6*4-2)/2+4",
+      "reason": "Inner s then outer r."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/3/2",
+    "sourceDigest": "5e4601c893517b63c0af2b441df5a81c94d291d971373a578294f2b2903703fd",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(7+8)/3",
+      "reason": "Solve7-3x=-8."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/3/4",
+    "sourceDigest": "d1ad7350ad2a1135cd328c20c69dee6d57eb6a6a24d98d6546197708bf9331fc",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4*(4*2+1)+1",
+      "reason": "Inverse4u+1 applied twice."
+    },
+    "computed": "37",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/4/1",
+    "sourceDigest": "50c70d3d019dc2dabd6b9f8c10a3e7c59e0569c5058d316d9ccc8222cb263003",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*2**4",
+      "reason": "Iterate forward/backward stated recurrence; final affine recurrence explicitly evaluated3,7,15."
+    },
+    "computed": "48",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/4/2",
+    "sourceDigest": "b87dad5fe441c5ef8aafd7ad1aa5b024ad1f6da1978758364ccf9edeff3dd0f2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4*3**4",
+      "reason": "Iterate forward/backward stated recurrence; final affine recurrence explicitly evaluated3,7,15."
+    },
+    "computed": "324",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/4/3",
+    "sourceDigest": "e26a13dd6a1d86668fe50130650670d69a044d8f8ac7606dc92bcde6a7ac87dc",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "96/2**4",
+      "reason": "Iterate forward/backward stated recurrence; final affine recurrence explicitly evaluated3,7,15."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/4/4",
+    "sourceDigest": "4314c514f45f4f69bd67ae233530ecd71f0270843804127e8ac00eae2acbd705",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*(2*(2*1+1)+1)+1",
+      "reason": "Iterate forward/backward stated recurrence; final affine recurrence explicitly evaluated3,7,15."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/5/1",
+    "sourceDigest": "69d2dd5d8ca5c5e35d8cdb99b06c06186b8852ac18e5db98151a859bc4719a58",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "x+3",
+      "reason": "Polynomial identity plus stated linear/quadratic class removes isolated-point ambiguity. Factor products; r4 f=(x+2)(x-5)=x^2-3x-10 but original quotient excludes-2. Every alternative checked for both polynomial and exclusion."
+    },
+    "computed": "x + 3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/5/2",
+    "sourceDigest": "25182689abc091d40cd0592b3c22bf25acaa4b4ed4b93e8100e97910ab56b16d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "x+4",
+      "reason": "Polynomial identity plus stated linear/quadratic class removes isolated-point ambiguity. Factor products; r4 f=(x+2)(x-5)=x^2-3x-10 but original quotient excludes-2. Every alternative checked for both polynomial and exclusion."
+    },
+    "computed": "x + 4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/5/3",
+    "sourceDigest": "ae2388b0692d7a81695f87ea1a5a93313b0a1e7b5df716c4c1156a51f760067d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*x+4",
+      "reason": "Polynomial identity plus stated linear/quadratic class removes isolated-point ambiguity. Factor products; r4 f=(x+2)(x-5)=x^2-3x-10 but original quotient excludes-2. Every alternative checked for both polynomial and exclusion."
+    },
+    "computed": "2*x + 4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/5/4",
+    "sourceDigest": "1213214f5772f2ba42acb4c7075f6da53fc5c35ff63431a7dfecf3bc56783471",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,(x+2)*(x-5),-2)",
+      "reason": "Polynomial identity plus stated linear/quadratic class removes isolated-point ambiguity. Factor products; r4 f=(x+2)(x-5)=x^2-3x-10 but original quotient excludes-2. Every alternative checked for both polynomial and exclusion."
+    },
+    "computed": "(position, 3, (x - 5)*(x + 2), -2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/6/1",
+    "sourceDigest": "509e91c063fbe8a129179283c4e53f5ee8405adff2c27339ac49dd854af2f599",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(3*4-3-4)*2-(3*4-3-4)-2",
+      "reason": "Substitute ordered operations; final solve8x-4=20."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/6/2",
+    "sourceDigest": "d5e4bb5a58d9ae9a9ee46308b3c311c694d03571ac88ab4f5ac0016ce9c1857f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(5+2*2-5*2)+2*3-(5+2*2-5*2)*3",
+      "reason": "Substitute ordered operations; final solve8x-4=20."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/6/3",
+    "sourceDigest": "4b9560de5d7e86b4d88b42ba9e1f177888be652432f8663b4de1d65f98aa84fb",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4**2-2*(5**2-2*3)",
+      "reason": "Substitute ordered operations; final solve8x-4=20."
+    },
+    "computed": "-22",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/6/4",
+    "sourceDigest": "d564da71b121c2620564a31c25320568a674a52c27097cbe5c9833670edfe570",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(20+4)/(2*4)",
+      "reason": "Substitute ordered operations; final solve8x-4=20."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/8/2",
+    "sourceDigest": "a45b2711d825f74daf4c9240f2437df0eb217e5b93d3aade154ab3c8df4b5c23",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(0,-4,1)",
+      "reason": "Radicandx+4>=0 and denominatorx-1!=0 gives[-4,infinity) except1; all four domain alternatives inspected."
+    },
+    "computed": "(position, 0, -4, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/8/3",
+    "sourceDigest": "782ff1bc7aeec96d6362e007b6d0e24ca11f0fe9e81bc07aee6ca2a70f3d2ee5",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,-3,3)",
+      "reason": "(x-3)(x+3)>=0 givesx<=-3 orx>=3 including endpoints; other alternatives miss left branch or include forbidden center."
+    },
+    "computed": "(position, 2, -3, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/8/4",
+    "sourceDigest": "d72f16ac9cecb6720819ded733e4cbc1c6d2f18db1a986c6c84cfa5f8a834b85",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,4)",
+      "reason": "Denominator square root must be strictly positive:4-x>0 givesx<4; choices<=4,>4,all except4 fail."
+    },
+    "computed": "(position, 3, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/9/4",
+    "sourceDigest": "46953e374e2e739ef02353e53268313f6d5583766ecfac11402017ff15f46c4c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "1",
+      "reason": "f reaches1 only at4; g reaches4 only at1; exact table composition preimage."
+    },
+    "computed": "1",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/10/1",
+    "sourceDigest": "3857f5e766f60aeb3f34dc992bed1095916ebc31bc810acd11d8817a501c4bc4",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(4*x+9-1)/2",
+      "reason": "Invert known affine function to solve chain; r3 replace x byu+4. R4 listed3x-1 squares to9x^2-6x+1, other offered functions fail; no uniqueness among unlisted negative branch asserted."
+    },
+    "computed": "2*x + 4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/10/2",
+    "sourceDigest": "487544c08b534e0a28e42baf19edb8cf3ae4a7be6d4881692904a50c038b08a6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "(6*x+7+2)/3",
+      "reason": "Invert known affine function to solve chain; r3 replace x byu+4. R4 listed3x-1 squares to9x^2-6x+1, other offered functions fail; no uniqueness among unlisted negative branch asserted."
+    },
+    "computed": "2*x + 3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/10/3",
+    "sourceDigest": "8ce59c9349485ead019c06f28b31e9c11757391d27c2735dd5d257541cc23507",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "5*x+8",
+      "reason": "Invert known affine function to solve chain; r3 replace x byu+4. R4 listed3x-1 squares to9x^2-6x+1, other offered functions fail; no uniqueness among unlisted negative branch asserted."
+    },
+    "computed": "5*x + 8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/10/4",
+    "sourceDigest": "e5b289a9515ca43efcf0a06d7d9556bf53a42d9da3cc3de417beb9a4b1611597",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*x-1",
+      "reason": "Invert known affine function to solve chain; r3 replace x byu+4. R4 listed3x-1 squares to9x^2-6x+1, other offered functions fail; no uniqueness among unlisted negative branch asserted."
+    },
+    "computed": "3*x - 1",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/11/1",
+    "sourceDigest": "7e308f9203cd41a3e753be6128abbd87a488fff91326e88382293bba704c6082",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(1,sqrt(3*x+1))",
+      "reason": "All composition alternatives read. R1 correct sqrt outer affine inner, wrong3sqrt(x)+1,sqrt(3x+3),3sqrt(x+1); r2 wrong2/x-5,1/(2x-10),1/(2x)-5; r3 wrong4x^2+1,(4x-2)^2,4(x+1)^2-3; r4 wrong3x^2-5,3x^2-7,9(x-1)^2-4. Correct natural domains coincide with targets."
+    },
+    "computed": "(position, 1, sqrt(3*x + 1))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/11/2",
+    "sourceDigest": "cd1968fac89a532adf8fb6e3e0125af1ee3145db1649cc594c1f766ba8e66c6d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(0,1/(2*x-5))",
+      "reason": "All composition alternatives read. R1 correct sqrt outer affine inner, wrong3sqrt(x)+1,sqrt(3x+3),3sqrt(x+1); r2 wrong2/x-5,1/(2x-10),1/(2x)-5; r3 wrong4x^2+1,(4x-2)^2,4(x+1)^2-3; r4 wrong3x^2-5,3x^2-7,9(x-1)^2-4. Correct natural domains coincide with targets."
+    },
+    "computed": "(position, 0, 1/(2*x - 5))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/11/3",
+    "sourceDigest": "a00145fcff5e49e55005bdd14fcf0213673f06315ca07d2363ec2c599bef62a3",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(2,(4*x-3)**2+1)",
+      "reason": "All composition alternatives read. R1 correct sqrt outer affine inner, wrong3sqrt(x)+1,sqrt(3x+3),3sqrt(x+1); r2 wrong2/x-5,1/(2x-10),1/(2x)-5; r3 wrong4x^2+1,(4x-2)^2,4(x+1)^2-3; r4 wrong3x^2-5,3x^2-7,9(x-1)^2-4. Correct natural domains coincide with targets."
+    },
+    "computed": "(position, 2, (4*x - 3)**2 + 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/11/4",
+    "sourceDigest": "6e57ad957147336e25009162e1f38a1a3fe7de87e121bc41f8edb386e4631ac2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "P(3,3*(x-1)**2-4)",
+      "reason": "All composition alternatives read. R1 correct sqrt outer affine inner, wrong3sqrt(x)+1,sqrt(3x+3),3sqrt(x+1); r2 wrong2/x-5,1/(2x-10),1/(2x)-5; r3 wrong4x^2+1,(4x-2)^2,4(x+1)^2-3; r4 wrong3x^2-5,3x^2-7,9(x-1)^2-4. Correct natural domains coincide with targets."
+    },
+    "computed": "(position, 3, 3*(x - 1)**2 - 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/12/1",
+    "sourceDigest": "53ba1face4a044efc4722b7dd170760a2f118533ab2e2ac3b64b71b7f9cea845",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2+7",
+      "reason": "Affine involution ax+b requiresa^2=1 andb(a+1)=0. Given nonidentity point forcesa=-1, so f(t)=sum(input,output)-t. Last b8 forcesa=-1."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/12/2",
+    "sourceDigest": "cb05e24eb524d4ebd7b774e5598352d1ed3a81f43d0b286469a3e25fa23cef25",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "1+6-4",
+      "reason": "Affine involution ax+b requiresa^2=1 andb(a+1)=0. Given nonidentity point forcesa=-1, so f(t)=sum(input,output)-t. Last b8 forcesa=-1."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/12/3",
+    "sourceDigest": "4d7d64d8b5622861f301e1c2681c01dbc3f93fff28f9f2a2d723d42c46ab979c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "-2+5-8",
+      "reason": "Affine involution ax+b requiresa^2=1 andb(a+1)=0. Given nonidentity point forcesa=-1, so f(t)=sum(input,output)-t. Last b8 forcesa=-1."
+    },
+    "computed": "-5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/challenge/12/4",
+    "sourceDigest": "23b6987c3d86a6f1562f490f12bb76b03606734d74b5e9ff2982554167b59494",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "-1",
+      "reason": "Affine involution ax+b requiresa^2=1 andb(a+1)=0. Given nonidentity point forcesa=-1, so f(t)=sum(input,output)-t. Last b8 forcesa=-1."
+    },
+    "computed": "-1",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/1/4",
+    "sourceDigest": "cd453eda56759b7cf15e1f4cdf398a41f4f2820a7815e2c7cac55e1457783b1b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "9-2*(-3)",
+      "reason": "Substitute negative input."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/4/2",
+    "sourceDigest": "3e8f2d61be7efcfb3dc40166079c1c6af5275c07f52734ed40f7f02776b9a002",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "V(3*(2+4),3*2+4)",
+      "reason": "Compute both composition orders separately."
+    },
+    "computed": "(values, 18, 10)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/5/3",
+    "sourceDigest": "f8b31dcba802f3938fbc0f807c8e3ace0f3ffaf8bcf13a752587a4de11b35359",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*(x-6)",
+      "reason": "Undo addition6 then division2."
+    },
+    "computed": "2*x - 12",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/6/1",
+    "sourceDigest": "89579aced5d35ff755f77f23c71721e728d438d42ebfe1f9a5c7665aceb191e8",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4**2+2*5",
+      "reason": "Substitute first three operation definitions; final solve28-x=19."
+    },
+    "computed": "26",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/6/2",
+    "sourceDigest": "9a1d4227976dd2f788cbb3a0084efe769d2b4633ab0bf51bce0e348c0bf0b0f9",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*5**2-8",
+      "reason": "Substitute first three operation definitions; final solve28-x=19."
+    },
+    "computed": "42",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/6/3",
+    "sourceDigest": "0edeb823457a74c996c9960c56a16634fdaf9cfc49bda8a6c48303b10405d790",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*3*5+3",
+      "reason": "Substitute first three operation definitions; final solve28-x=19."
+    },
+    "computed": "33",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/6/4",
+    "sourceDigest": "de41a4bbb21f9506f3cba12c133d40358e7478d38240c5774508414c685d24c4",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4*7-19",
+      "reason": "Substitute first three operation definitions; final solve28-x=19."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/7/1",
+    "sourceDigest": "fb20e85cc4594aa5d96183082d5d0d53376e08faf4dd0727ba6a8c682c53c9d7",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "4+5*19",
+      "reason": "Additive recurrence with correctly signed step count; third run backward10to2."
+    },
+    "computed": "99",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/7/2",
+    "sourceDigest": "5ab93270507fb73dd19a0e62649259dbc614f799937ceab7ad8618e49f449d13",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3+7*14",
+      "reason": "Additive recurrence with correctly signed step count; third run backward10to2."
+    },
+    "computed": "101",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/7/3",
+    "sourceDigest": "6db21496344434eafaa7bff0f569fbdc20679aad0ed00e7bef7bfb6c06714cec",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "50-6*8",
+      "reason": "Additive recurrence with correctly signed step count; third run backward10to2."
+    },
+    "computed": "2",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/7/4",
+    "sourceDigest": "dc257a3ad6d44d4d88ad02163cdd9df5588bbe2eef79e386475cb70f21fe0d79",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "100-4*11",
+      "reason": "Additive recurrence with correctly signed step count; third run backward10to2."
+    },
+    "computed": "56",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/8/1",
+    "sourceDigest": "56a7aa26d8986cef286db82ebd3c5abad2ba6d5196f877b5e9eb3604b0e70275",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*x-1",
+      "reason": "Solve coefficient identity for missing affine function."
+    },
+    "computed": "2*x - 1",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/8/2",
+    "sourceDigest": "434c66ba0e54883cc33efd5cb2bdc14cda861180481030394882eb9182ee3fc3",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*x+4",
+      "reason": "Solve coefficient identity for missing affine function."
+    },
+    "computed": "3*x + 4",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/8/3",
+    "sourceDigest": "3bf49cd5182b686b21aee9515948accd129d46d481caa2821194616e578e2b63",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "2*x+2",
+      "reason": "Solve coefficient identity for missing affine function."
+    },
+    "computed": "2*x + 2",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/8/4",
+    "sourceDigest": "7d08382fef78ae134550855f87333729f27db15b6061bf23fce25b36fb8d9ea5",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "3*x-5",
+      "reason": "Solve coefficient identity for missing affine function."
+    },
+    "computed": "3*x - 5",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/9/1",
+    "sourceDigest": "47a5e50749f3281db284b3c02fd7edaf4b4d8d91d67ce64146b6bff568cdc676",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "N(2*3+3,3*2+2)",
+      "reason": "Calculate both ordered examples; unequal results prove operation not commutative, including required verbal conclusion."
+    },
+    "computed": "(noncommutative, 9, 8)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/9/2",
+    "sourceDigest": "28287fdef3b4cb185f135eb285d224e8140ff1d170d40f00b6b41d3a1b89d342",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "N(5*4-1,5*1-4)",
+      "reason": "Calculate both ordered examples; unequal results prove operation not commutative, including required verbal conclusion."
+    },
+    "computed": "(noncommutative, 19, 1)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/9/3",
+    "sourceDigest": "0f6c95fdca40a7f538a497ace59cf944ed7a0f18843b15da23cb1fad4d171a17",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "N(5**2-3**2,3**2-5**2)",
+      "reason": "Calculate both ordered examples; unequal results prove operation not commutative, including required verbal conclusion."
+    },
+    "computed": "(noncommutative, 16, -16)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/16/worksheet/9/4",
+    "sourceDigest": "1a400be412d4d29e2e4b532337e639ff2cbdd13b1aef05b572d9de821a21c95d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete source-pinned option proof",
+    "evidence": {
+      "expression": "N(2*1+3*6,2*6+3*1)",
+      "reason": "Calculate both ordered examples; unequal results prove operation not commutative, including required verbal conclusion."
+    },
+    "computed": "(noncommutative, 20, 15)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  }
+]

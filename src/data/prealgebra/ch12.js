@@ -290,7 +290,7 @@ const s123 = {
       solution: 'A diagonal splits any quadrilateral into two triangles, and each triangle contributes $180^\\circ$. So the total is $2 \\times 180^\\circ = 360^\\circ$.',
     },
     {
-      q: 'Which name describes a quadrilateral with four equal sides and four equal angles?',
+      q: 'What is the most specific name for a quadrilateral with four equal sides and four equal angles?',
       choices: ['A square', 'A rhombus', 'A rectangle', 'A trapezoid'],
       answer: 0,
       solution: 'Four equal sides makes it a rhombus; four equal angles (each $90^\\circ$) makes it a rectangle. A shape that is both at once is a square — the most special quadrilateral of all.',

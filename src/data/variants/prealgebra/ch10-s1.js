@@ -141,7 +141,7 @@ const s101 = [
         'The three angles add to $360^\\circ$. The known pair uses $128 + 147 = 275^\\circ$, so the third is $360^\\circ - 275^\\circ = 85^\\circ$. Check: $128 + 147 + 85 = 360$. ✓ The choice $275^\\circ$ is just the sum of the two known angles. The choice $232^\\circ$ subtracts only the $128^\\circ$, and $95^\\circ$ is a borrowing slip in $360 - 275$.',
     },
     {
-      q: 'A pinwheel has $5$ equal blades meeting at its centre, and the angles between neighbouring blades fill the space all the way around. What is each of those angles?',
+      q: 'A pinwheel has $5$ equally spaced blades meeting at its centre, and the angles between neighbouring blades fill the space all the way around. What is each of those angles?',
       choices: ['$72^\\circ$', '$36^\\circ$', '$90^\\circ$', '$60^\\circ$'],
       answer: 0,
       solution:
@@ -466,25 +466,25 @@ const s102 = [
   // p10 — a zigzag path between two parallel lines
   [
     {
-      q: 'Lines $m$ and $n$ are parallel. A path starts on line $m$, goes to a point $P$ between the two lines, turns, and continues to line $n$. The first part makes a $28^\\circ$ angle with line $m$, and the second part makes a $54^\\circ$ angle with line $n$. What is the angle of the turn at $P$?',
+      q: 'Lines $m$ and $n$ are horizontal and parallel, with $m$ above $n$. Point $A$ is on $m$, point $B$ is on $n$, and $P$ is between the lines and to the right of both $A$ and $B$. Segments $AP$ and $BP$ make acute angles of $28^\\circ$ and $54^\\circ$ with their respective lines. What is $\\angle APB$?',
       choices: ['$26^\\circ$', '$98^\\circ$', '$82^\\circ$', '$180^\\circ$'],
       answer: 2,
       solution:
-        'Draw a helper line through $P$ parallel to both $m$ and $n$. It cuts the angle at $P$ into two pieces, and each piece is an alternate interior angle with one of the path angles — alternate interior angles are equal, so the pieces are $28^\\circ$ and $54^\\circ$. The turn is $28 + 54 = 82^\\circ$. The choice $26^\\circ$ subtracts the two angles instead of adding them. The choice $98^\\circ$ is $180 - 82$, the angle on the other side of the path, and $180^\\circ$ would mean the path never turns at all.',
+        'Draw a helper line through $P$ parallel to both $m$ and $n$. It cuts the angle at $P$ into two pieces, and each piece is an alternate interior angle with one of the path angles — alternate interior angles are equal, so the pieces are $28^\\circ$ and $54^\\circ$. The angle at $P$ is $28 + 54 = 82^\\circ$. The choice $26^\\circ$ subtracts the two angles instead of adding them. The choice $98^\\circ$ is $180 - 82$, the angle on the other side of the path, and $180^\\circ$ would mean the path never turns at all.',
     },
     {
-      q: 'Lines $m$ and $n$ are parallel. A path leaves line $m$ at a $62^\\circ$ angle, turns at a point $P$ between the lines, and reaches line $n$ at a $40^\\circ$ angle. What is the angle of the turn at $P$?',
+      q: 'Lines $m$ and $n$ are horizontal and parallel, with $m$ above $n$. Point $A$ is on $m$, point $B$ is on $n$, and $P$ is between the lines and to the right of both $A$ and $B$. Segments $AP$ and $BP$ make acute angles of $62^\\circ$ and $40^\\circ$ with their respective lines. What is $\\angle APB$?',
       choices: ['$22^\\circ$', '$102^\\circ$', '$78^\\circ$', '$118^\\circ$'],
       answer: 1,
       solution:
-        'The helper line through $P$ parallel to $m$ and $n$ splits the angle at $P$ into two alternate interior pieces, equal to $62^\\circ$ and $40^\\circ$. So the turn measures $62 + 40 = 102^\\circ$. The choice $22^\\circ$ is the difference rather than the sum. The choice $78^\\circ$ is $180 - 102$, and $118^\\circ$ is $180 - 62$, which uses the straight-line rule on just one of the two given angles.',
+        'The helper line through $P$ parallel to $m$ and $n$ splits the angle at $P$ into two alternate interior pieces, equal to $62^\\circ$ and $40^\\circ$. So the angle at $P$ measures $62 + 40 = 102^\\circ$. The choice $22^\\circ$ is the difference rather than the sum. The choice $78^\\circ$ is $180 - 102$, and $118^\\circ$ is $180 - 62$, which uses the straight-line rule on just one of the two given angles.',
     },
     {
-      q: 'Lines $m$ and $n$ are parallel. A path leaves line $m$ at a $42^\\circ$ angle, turns at a point $P$ between the lines, and reaches line $n$. The turn at $P$ measures $95^\\circ$. What angle does the second part of the path make with line $n$?',
+      q: 'Lines $m$ and $n$ are horizontal and parallel, with $m$ above $n$. Point $A$ is on $m$, point $B$ is on $n$, and $P$ is between the lines and to the right of both $A$ and $B$. Segment $AP$ makes an acute angle of $42^\\circ$ with $m$, and $\\angle APB = 95^\\circ$. What acute angle does $BP$ make with $n$?',
       choices: ['$137^\\circ$', '$85^\\circ$', '$48^\\circ$', '$53^\\circ$'],
       answer: 3,
       solution:
-        'The helper line through $P$ parallel to both lines splits the $95^\\circ$ turn into two alternate interior pieces, one matching each path angle. One piece is $42^\\circ$, so the other is $95^\\circ - 42^\\circ = 53^\\circ$, and that is the angle at line $n$. Check: $42 + 53 = 95$. ✓ The choice $137^\\circ$ adds when it should subtract — that is the forward version of the problem run backwards by mistake. The choice $85^\\circ$ is $180 - 95$, and $48^\\circ$ is the complement $90 - 42$.',
+        'The helper line through $P$ parallel to both lines splits the $95^\\circ$ angle into two alternate interior pieces, one matching each path angle. One piece is $42^\\circ$, so the other is $95^\\circ - 42^\\circ = 53^\\circ$, and that is the angle at line $n$. Check: $42 + 53 = 95$. ✓ The choice $137^\\circ$ adds when it should subtract — that is the forward version of the problem run backwards by mistake. The choice $85^\\circ$ is $180 - 95$, and $48^\\circ$ is the complement $90 - 42$.',
     },
   ],
 ]

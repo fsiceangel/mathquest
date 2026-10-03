@@ -1,0 +1,57 @@
+10/10.1/1	P(2,138);P(1,47);P(3,180);P(0,90)	Classify by strict intervals: acute0-90, right90, obtuse90-180, straight180; all verbal labels inspected.
+10/10.1/2/4	90-26	Complementary angles sum to90.
+10/10.1/3/4	180-93	Supplementary angles sum to180.
+10/10.1/4	40;118;180-25;2	Vertical angles equal, adjacent angles supplement. Final nonright crossing has exactly two137-degree angles.
+10/10.1/5/3	180-55-68	Angles partitioning straight angle sum to180.
+10/10.1/5/4	180-152	Opposite ground ray creates supplementary angle.
+10/10.1/6/2	360-85-100-65	Full turn less three given angles.
+10/10.1/6/4	360/5	Equal angular spacing around full turn.
+10/10.1/7	360-35;360-52;2*(180-74);360-295	Use full-turn sum or two adjacent supplementary angles, as specifically requested.
+10/10.1/8	(90+20)/2;(90+36)/2;(180+50)/2;(90-14)/2	Solve sum/difference equations, selecting larger except final smaller complement.
+10/10.1/9	180*4/5;180*5/6;90*2/3;180/10	Partition supplement/complement total according to stated ratio, respecting which angle is multiplied.
+10/10.1/10	3*((30+10)/(5-3))+10;2*((15+25)/(4-2))+25;4*((30-6)/(4-2))+6;Max(7*((180+5-15)/(7+3))-5,3*((180+5-15)/(7+3))+15)	Vertical pair equal; final adjacent pair sums180. Solve x then return requested angle, not x; all resultant angles positive and below180.
+10/10.2/1	58;133;84;46/2	Corresponding angles equal for parallel lines; final solve2x=46.
+10/10.2/2	74;39;126;85/5	Alternate interior angles equal; final solve5y=85.
+10/10.2/3	180-110;180-47;180-128;(180-10)/(2+3)	Same-side interior angles supplement; final solve linear sum equation.
+10/10.2/4	4;4;4;180-143	For nonperpendicular transversal four equal acute and four equal obtuse angles; final asks other angle measure.
+10/10.2/5	180-48;180-29;180-154;(180-65)-65	Use supplementary partner; final asks difference between obtuse and acute.
+10/10.2/6	180-118;180-143;180-108;180-55	Parallel lines preserve both angle sizes; select acute or obtuse supplementary partner.
+10/10.2/7	(70+10)/4;(63-12)/3;4*(36/(4-2));(45-15)/(2-1)	Corresponding pair equal; third round asks angle4x while others ask x.
+10/10.2/8	Max(3*((180-40)/4),(180-40)/4+40);Min(2*((180-30)/3),(180-30)/3+30);Max(4*((180-10-20)/5)+10,(180-10-20)/5+20);Max(5*((180+15-35)/8)-15,3*((180+15-35)/8)+35)	Solve supplementary pair then explicitly compare both positive angles, selecting requested extremum.
+10/10.2/9	5*((40+20)/(5-3))-20;7*((15+12)/(7-4))-12;6*((45-5)/(6-2))+5;3*((58-22)/(3-1))+22	Alternate interior equality determines x; substitute into first angle, check second agrees and lies0-180.
+10/10.2/10	35+45;28+54;62+40;95-42	Specified P between lines and right of both endpoints makes APB sum of acute inclinations; final subtract known inclination. Positional constraints remove supplement ambiguity.
+10/10.3/1	180-52-63;180-48-71;180-27-105;180-2*39	Triangle angle sum180, all third angles positive.
+10/10.3/2/4	(180-90)/2	Equal acute angles of right triangle split remaining90.
+10/10.3/3/3	360-3*105	Quadrilateral interior sum360.
+10/10.3/3/4	360-2*90-58	Quadrilateral interior sum360.
+10/10.3/5	35+65;48+57;72+53;118-46	Triangle exterior angle equals sum of two remote interior angles; final recover missing remote angle.
+10/10.3/7/3	180-2*57	Subtract two base angles from180.
+10/10.3/9/4	(360/(180-144)-2)*180	Exterior angle36 implies10 sides; polygon sum is(n-2)*180.
+10/10.3/10	180*4/(2+3+4);180*3/(1+2+3);180*3/(3+4+5);180*8/(2+5+8)	Allocate triangle angle sum to ratio parts; third asks smallest, others largest.
+10/challenge/1	(2*90-24)/3;(180/2+18)/(1+1/2);(180-30)/5;(3*90+8-180)/2	Translate relations with complement90-a and supplement180-a, then solve. All angles and used complements/supplements positive.
+10/challenge/2	360/(1+2+3+4);360*4/(1+2+2+3+4);180*4/(2+3+4);360*(6-3)/(3+4+5+6)	Partition full turn or straight angle by stated ratios; select minimum, maximum or difference as asked.
+10/challenge/3	180*5/6;(180+6)/3;180*5/9;180/(1+2/7)	Same-side pair supplements; solve ratio or affine relation and choose specified larger/smaller angle.
+10/challenge/4	(180-20)/4+20;3*((180+15)/5);2*((180-3*20)/4+20);(180-45)/3+30	Write all three angles in terms of first, set sum180, then substitute requested angle. All positive so feasible triangles.
+10/challenge/5/3	360/15	Exterior turning angles of convex regular polygon sum360.
+10/challenge/5/4	360/(180/(5+1))	Interior plus exterior is180, ratio5:1 gives exterior30 and12 sides.
+10/challenge/6/2	(12-2)*180/12	Regular interior angle is polygon angle sum divided by side count.
+10/challenge/6/3	(15-2)*180/15	Regular polygon interior formula.
+10/challenge/6/4	(9-2)*180/9	Regular polygon interior formula.
+10/challenge/7	7*((21+15)/(7-5))-15;7*((30+18)/(7-5))-18;Max(2*((180-25-15)/5)+25,3*((180-25-15)/5)+15);180-4*(63/(4-1))	Equal vertical pair or supplementary adjacent pair determines x; final asks adjacent angle, so supplement4x.
+10/challenge/8/2	90-(180-115)	Take supplement first then complement.
+10/challenge/8/3	180-(90-28)	Recover angle from complement then supplement it.
+10/challenge/8/4	90-(180-121)	Recover angle from supplement then complement it.
+10/challenge/9	(180-36)/2;(180+44)/2;180*(3-2)/(3+2);(180+70)/2	Acute and obtuse sum180; combine with stated difference or ratio and select requested quantity.
+10/challenge/10	(5-2)*180-110-90-120-100;(6-2)*180-100-130-115-140-125;(6-2)*180-5*128;((6-2)*180+60)/6-60	Subtract known angles from polygon total; final five equal a and sixth a-60. All angles positive below180, compatible with convex polygons.
+10/challenge/11	112-47;124-51;38+74;5*((20-10)/(5-2-2))+10	Exterior angle theorem: exterior equals sum of remote interior angles; final solve5x+10=4x+20 then substitute.
+10/challenge/12/4	360/(180/(11+1))	Interior/exterior ratio11 gives exterior15, hence24 sides.
+10/worksheet/1	V(90-28,180-28);V(90-53,180-53);V(90-16,180-16);V(90-41,180-(90-41))	Compute both requested angles in stated answer order.
+10/worksheet/2	V(74,180-74,180-74);V(38,180-38,180-38);V(115,180-115,180-115);2*(180-126)	Other three consist of equal vertical angle and two supplementary adjacent angles; final sums two acute angles.
+10/worksheet/3	180-131;180-143;180-64;(180-27)-27	Parallel crossings share angle sizes; select acute/obtuse partner or difference.
+10/worksheet/4/4	(180-96)/2	Equal pair splits remaining triangle angle sum.
+10/worksheet/5/4	(360-78-112)/2	Equal pair splits remaining quadrilateral angle sum.
+10/worksheet/6/4	1440/180+2	Invert polygon interior angle sum formula.
+10/worksheet/7	(3*90-180)/(3-1);(4*90-180)/(4-1);(2*90+10-180)/(2-1);(3*90-30-180)/(3-1)	Solve180-a=k*(90-a)+offset, with sign of offset read separately each round.
+10/worksheet/8	2*((25+15)/(3-2))+15;4*((33+7)/(4-2))-7;V(5*((180-12-8)/(5+3))+12,3*((180-12-8)/(5+3))+8);6*((24+40)/(6-2))-40	Equal alternate/corresponding pair except round3 supplementary pair; validate both requested answers there.
+10/worksheet/9/3	V(360/12,180-12)	Exterior angle gives side count, supplement gives interior angle; check both components.
+10/worksheet/10	90+70/2;90+50/2;2*(130-90);90+(180-50-68)/2	Bisectors meet inside triangle: BIC=180-(B+C)/2=90+A/2. Third round invert formula, fourth first determineA.

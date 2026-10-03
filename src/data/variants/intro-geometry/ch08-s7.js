@@ -520,7 +520,7 @@ const s87 = [
       choices: [
         'a square',
         'a rectangle that is not a square',
-        'a rhombus, though not necessarily a square',
+        'a rhombus that is not a square',
         'a kite that is not a parallelogram',
       ],
       answer: 2,
@@ -550,7 +550,7 @@ const s87 = [
       },
       choices: [
         'a square',
-        'a rhombus that need not be a square',
+        'a rhombus that is not a square',
         'a rectangle',
         'a kite that is not a parallelogram',
       ],
@@ -581,7 +581,7 @@ const s87 = [
         ],
       },
       choices: [
-        'a rhombus — and nothing forces it to be a square',
+        'a rhombus that is not a square',
         'a square',
         'a rectangle',
         'an isosceles trapezoid',
@@ -616,7 +616,7 @@ const s87 = [
         'a square',
         'a rhombus',
         'an isosceles trapezoid that is not a parallelogram',
-        'a rectangle, though not necessarily a square',
+        'a rectangle that is not a square',
       ],
       answer: 3,
       solution:
@@ -642,7 +642,7 @@ const s87 = [
         ],
       },
       choices: [
-        'a rectangle that need not be a square',
+        'a rectangle that is not a square',
         'a square',
         'a rhombus that is not a square',
         'an isosceles trapezoid',
@@ -674,7 +674,7 @@ const s87 = [
       choices: [
         'a rhombus',
         'a square',
-        'a rectangle — and nothing forces it to be a square',
+        'a rectangle that is not a square',
         'a kite that is not a parallelogram',
       ],
       answer: 2,

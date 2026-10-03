@@ -217,11 +217,11 @@ const s121 = [
         'The real numbers fill the whole number line, and some of the points on it — such as $\\sqrt{2} \\approx 1.414$ and $\\pi$ — are not fractions of integers. So “every real number is rational” is false. Check a second way: if $\\sqrt{2}$ were rational the equation $x^2 = 2$ would have a fraction solution, and no fraction squares to exactly $2$ ✓. (Calling the first statement false forgets that the integers sit INSIDE the reals; calling the third false forgets that $-\\frac{3}{4}$ is a perfectly good rational; calling the fourth false forgets that the integers run $\\ldots, -1, 0, 1, \\ldots$ and include zero.)',
     },
     {
-      q: 'Mia claims, “If a number is not an integer, then it must be irrational.” Which number shows that her claim is false?',
+      q: 'Mia claims, “If a real number is not an integer, then it must be irrational.” Which real number shows that her claim is false?',
       choices: ['$\\frac{3}{4}$', '$\\sqrt{2}$', '$-6$', '$\\sqrt{-1}$'],
       answer: 0,
       solution:
-        'A counterexample has to be not an integer AND not irrational. The number $\\frac{3}{4} = 0.75$ sits between $0$ and $1$, so it is not an integer, yet it is a fraction of integers, so it is rational. Check a second way: multiply back, $\\frac{3}{4} \\times 4 = 3$, so it really is the ratio of two whole numbers ✓. (The choice $\\sqrt{2}$ AGREES with Mia — it is not an integer and it IS irrational — so it cannot disprove her; the choice $-6$ IS an integer, so her claim says nothing about it; the choice $\\sqrt{-1}$ steps outside the real numbers entirely, where the labels “integer” and “irrational” do not even apply.)',
+        'A counterexample must be real, not an integer, AND not irrational. The number $\\frac{3}{4} = 0.75$ sits between $0$ and $1$, so it is not an integer, yet it is a fraction of integers, so it is rational. Check a second way: multiply back, $\\frac{3}{4} \\times 4 = 3$, so it really is the ratio of two whole numbers ✓. (The choice $\\sqrt{2}$ AGREES with Mia — it is not an integer and it IS irrational — so it cannot disprove her; the choice $-6$ IS an integer, so her claim says nothing about it; the choice $\\sqrt{-1} = i$ is not real, so it is outside the stated domain of her claim.)',
     },
   ],
   // p9 — irrational pieces that combine into something rational

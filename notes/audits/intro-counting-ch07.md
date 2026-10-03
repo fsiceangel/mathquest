@@ -1,0 +1,9 @@
+# Counting chapter 7: full variant difficulty review
+
+2026-09-22: all 52 base stems and **156 variant stems** compared, completing the prior 132-stem remainder. Spinner multiplicities were read from the explicit variant text; the omitted-output section was retrieved separately. Inspected divisor-shape, inverse probability, unknown parity-dependent pool, modulo/divisibility endings and ordered-position solution routes.
+
+Large gaps: challenge #6 round 4 changes a direct odd-product probability into an unknown population with even/odd n cases (L4). Challenge #8 round 4 moves from divisibility by 4 to by 8 and needs fourteen three-digit endings (L5). Section 7.2 #9 round 3 changes odd divisor parity into exactly four divisors (prime cubes or products of two distinct primes, L4). Section 7.3 #6 round 2 uses unequal color frequencies (L3); #9 round 4 needs the factor inventory for 12 (L4). Worksheet #1 round 4 is a bounded inverse count (L3), and #10 round 2 sums allowed position gaps (L4).
+
+Downward departures include exact-prime divisor recognition in 7.2 #9 round 4 (L2), a fixed known chip change in #10 round 4 (L3), opposite named beads in challenge #7 round 3 (L1), upper-bounded maxima (L2), and a three-child draw in challenge #12 round 3 where two whole twin pairs cannot occur (L3). All are recorded without changing their actual mathematical content.
+
+Probability sample spaces consistently remain equally likely positions, cards, dice tuples or explicitly uniform multiset arrangements. Number theory and inverse ratio skills are separate prerequisites; completing simple probability fractions alone is insufficient for these variants. No definite key error was established in inspected solutions. Full independent key proofs and measured student calibration remain outside this stem review.

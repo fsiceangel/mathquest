@@ -1,0 +1,63 @@
+# group<TAB>source problem number<TAB>independent expressions for rounds 1|2|3|4<TAB>derivation
+14.2	1	(x+y)**2-(x-y)**2|(x+2*y)**2-(x-2*y)**2|(x+y)**2+(x-y)**2|(a+b)**3+(a-b)**3	Direct distributive expansion of the two expressions in the stem.
+14.2	2	2**3|2**5|3**2|7	Choose one term from each factor; for the inverse, 2^7=128 and powers of 2 strictly increase.
+14.2	3	(2*x+1)**2|(3*x+2)**2|(5-2*x)**2|(R(30,6))**2	Direct expansion; inverse cross coefficient is 6c=30, so c=5 and constant c^2.
+14.2	4	(x-2)**3|(x-3)**3|(2*x-y)**3|coeff((x-2)**4,1)	Multiply all factors and collect like powers; no solution numbers used.
+14.2	5	C(5,3)|C(6,2)|C(5,4)+C(5,5)|8	Products correspond bijectively to the positions choosing b (or y); total degree forces n=5+3=8.
+14.2	6	coeff((x+3)**3,2)|coeff((x+6)**3,2)|coeff((a+4*b)**3,2,a)/b|sqrt(R(48,3))	Direct polynomial multiplication; inverse has 3c^2=48 and positive c.
+14.2	7	(3*x-2*y)**2|(4*x-3*y)**2|(2*a+5*b)**2|sqrt(49)+sqrt(9)	Expansion; positivity fixes p=7 and q=3 and cross coefficient confirms -42.
+14.2	8	coeff((x*x+x)**3,4)|coeff((x*x+x)**5,6)|coeff((x*x+3*x)**3,4)|2**5	Direct multiplication; coefficient sum is the polynomial evaluated at x=1.
+14.2	9	coeff((x*x+2*x+1)**3,5)|coeff((x*x+2*x+1)**4,7)|coeff((x*x-2*x+1)**3,3)|R(22,2)	Direct expansion; coefficient of x in (1+2x+x^2)^n is 2n.
+14.2	10	coeff((x+1)**3*(x-1)**3,4)|coeff((x+1)**4*(x-1)**4,6)|coeff((x+2)**2*(x-2)**2,2)|9	Direct multiplication; (x^2-1)^n has x^(2n-2) coefficient -n, forcing n=9.
+14.3	1	TERM((a+b)**6)|TERM((a+b)**8)|TERM((a-b)**7)|13	Generate every term by distributive multiplication and test each choice; inverse total degree forces n=9+4=13 and coefficient C(13,4)=715.
+14.3	2	x**1|x**2|x**3|max(coeff((x+3)**4,k) for k in range(5))	Expanded coefficient arrays are [16,32,24,8,1], [81,108,54,12,1], and [1,20,160,640,1280,1024]. Each target coefficient occurs once.
+14.3	3	coeff((y-1)**7,5,y)|coeff((y-1)**9,7,y)|coeff((t-2)**7,5,t)|15	Direct multiplication; inverse C(n,2)=105 forces n=15, since n(n-1) increases for positive integers n.
+14.3	4	coeff((3*x+1)**4,2)|coeff((2*x+1)**5,2)|coeff((a+2*b)**5,2,a)/b**3|sqrt(R(90,10))	Direct multiplication; inverse coefficient 10c^2=90 and c>0.
+14.3	5	coeff((2*x-1)**6,4)|coeff((2*x-1)**5,3)|coeff((1-3*x)**5,4)|6	Direct multiplication; inverse coefficient -n*2^(n-1), strictly decreasing, equals -192 precisely at n=6.
+14.3	6	coeff((x+y)**10,3)/y**7|coeff((x+y)**12,4)/y**8|coeff((a+b)**11,5,a)/b**6|26	Direct multiplication; inverse C(n,2)=325 forces n=26 by strict monotonicity.
+14.3	7	coeff((a-2*b)**6,3,a)/b**3|coeff((a-3*b)**5,2,a)/b**3|coeff((2*x+3*y)**5,3)/y**2|sqrt(R(60,15))	Direct multiplication; inverse coefficient 15c^2=60 and c>0.
+14.3	8	coeff((x**2+3)**5,6)|coeff((x**2+2)**6,4)|coeff((x**3+2)**4,9)|R(54,3)	Direct multiplication; degree 2n-2 requires one constant factor, coefficient 3n=54.
+14.3	9	coeff((x+1/x)**6,2)|coeff((x+1/x)**8,4)|coeff((x+2/x)**5,3)|20	Multiply Laurent polynomials exactly; degree n-2 requires exactly one reciprocal factor, giving coefficient n.
+14.3	10	coeff((1+2*x)**7-(1-2*x)**7,5)|coeff((1+3*x)**5-(1-3*x)**5,3)|coeff((1+x)**8+(1-x)**8,4)|coeff((1+2*x)**7-(1-2*x)**7,4)	Expand both polynomials before subtracting/adding; parity cancellation is independently represented.
+14.4	1	C(100,2)|C(50,2)|C(60,2)*2**2|48	Choosing the two constant factors gives the coefficient; inverse n(n-1)/2=1128 has unique positive n=48.
+14.4	2	101**3|102**3|98**3|101**4	Exact integer exponentiation independently evaluates the requested numerical expressions.
+14.4	3	coeff((x+2/x)**5,0)|coeff((x+2/x)**6,0)|coeff((2*x-3/x)**4,0)|coeff((x+2/x)**5,-1)	Full Laurent expansion, then collect the requested exponent (negative one for the last variant).
+14.4	4	R(102,100)**4|R(103,100)**3|R(97,100)**3|R(201,100)**4	Exact rational exponentiation, retaining all decimal places without rounding.
+14.4	5	coeff((2-x)**7,5)|coeff((3-x)**6,4)|coeff((1-2*x)**6,3)|x**2	Direct expansion; last polynomial has coefficient array [128,-448,672,-560,280,-84,14,-1], so only x^2 has coefficient 672.
+14.4	6	coeff((x**3-1/x)**8,0)|coeff((x**2-1/x)**9,0)|coeff((2*x**3-1/x**3)**4,0)|coeff((x**3-1/x)**10,2)	Direct Laurent expansion and exponent extraction handles signs and balancing exponents.
+14.4	7	11**4-9**4|21**3-19**3|12**3+8**3|31**3-29**3	Exact integer powers and arithmetic.
+14.4	8	coeff((1+x)**4*(1+x)**5,3)|coeff((1+x)**3*(1+x)**4,2)|coeff((1+x)**12,4)|17	Direct multiplication; inverse C(n+3,2)=190 has n+3=20, hence n=17; monotonicity proves uniqueness.
+14.4	9	coeff((1+x)**3*(1-x)**4,2)|coeff((1+x)**2*(1-x)**3,2)|coeff((1+3*x)**2*(1-2*x)**2,2)|coeff((1+x)**3*(1-x)**4,6)	Direct distributive multiplication of unlike factors avoids falsely merging bases.
+14.4	10	coeff((2*x-1/x**2)**9,0)|coeff((3*x-1/x**2)**6,0)|coeff((x**2+2/x**3)**5,0)|coeff((2*x-1/x**2)**9,3)	Direct Laurent multiplication; extract zero or three exponent only after collecting terms.
+14.5	1	sum(C(8,k) for k in range(8))|sum(C(9,k) for k in range(9))|sum(C(7,k) for k in range(2,8))|14	Sum the stated entries, observing truncated endpoints; inverse row sum minus one is 2^n-1=16383, strictly increasing.
+14.5	2	sum((-1)**k*C(7,k) for k in range(7))|sum((-1)**k*C(9,k) for k in range(8))|sum((-1)**k*C(12,k) for k in range(11))|sum((-1)**k*C(11,k) for k in range(6))	Direct finite signed sums, including exactly the given terminal index.
+14.5	3	sum(C(10,k) for k in range(2,9,2))|sum(C(12,k) for k in range(2,11,2))|sum(C(13,k) for k in range(1,14,2))|16	Direct parity-restricted sums; toggling one element pairs odd/even subsets, so the inverse is 2^(n-1)=32768 and n=16.
+14.5	4	sum(C(4,k)*3**(4-k)*2**k for k in range(5))|sum(C(5,k)*2**(5-k)*3**k for k in range(6))|sum(C(4,k)*5**(4-k)*(-3)**k for k in range(5))|sum(C(4,k)*3**(4-k)*(-2)**k for k in range(5))	Evaluate the finite weighted sums directly with exact binomial coefficients.
+14.5	5	(2-1)**6|(3-1)**4|(2-1-2)**3|sum(C(6,k)*3**(6-k)*(-1)**k for k in range(0,7,2))	Evaluate all variables at one for total coefficient sums; for the last stem retain only even y powers.
+14.5	6	sum(C(5,k)*(-2)**k for k in range(6))|sum(C(6,k)*(-3)**k for k in range(7))|sum(C(4,k)*(-5)**k for k in range(5))|sum(C(4,k)*7**(4-k)*(-4)**k for k in range(5))	Direct finite exact signed sums.
+14.5	7	sum(C(7,k)*3**(7-k) for k in range(8))|sum(C(6,k)*5**(6-k) for k in range(7))|sum(C(9,k)*2**(9-k) for k in range(10))|sum(C(7,k)*3**(7-k)*2**k for k in range(8))	Direct finite exact weighted sums.
+14.5	8	5|4|7|19	Binomial sums are respectively 4^n=1024, 6^n=1296, 3^n=2187, 2^n=524288; strict growth proves the displayed exponents unique.
+14.5	9	sum(C(6,k)*2**k for k in range(0,7,2))|sum(C(5,k)*3**k for k in range(0,6,2))|sum(C(6,k)*3**k for k in range(1,7,2))|sum(C(7,k)*2**k for k in range(1,8,2))	Sum exactly the specified even or odd indices.
+14.5	10	sum(C(7,k)*C(7,3-k) for k in range(4))|sum(C(6,k)*C(6,2-k) for k in range(3))|sum(C(5,k)*C(8,3-k) for k in range(4))|sum(C(7,k)**2 for k in range(8))	Direct finite products and sums, independently of the identity shortcut.
+challenge	1	coeff(coeff((x+y)**4+(x+y)**5,2),2,y)|coeff(coeff((x+y)**5+(x+y)**6,3),2,y)|coeff(coeff((x+y)**6-(x+y)**4,2),2,y)|coeff(coeff((x+y)**4+(x+2*y)**4,2),2,y)	Expand both homogeneous polynomials and extract both exponents; terms of other total degree contribute zero.
+challenge	2	coeff((x-3)**3,1)|coeff((x-4)**3,1)|coeff((x-5)**4,2)|(1-3)**3	Direct multiplication; last variant asks total coefficient sum, obtained at x=1.
+challenge	3	sum(C(6,k)*2**(6-k)*(-1)**k for k in range(7))|sum(C(4,k)*5**(4-k)*(-2)**k for k in range(5))|sum(C(6,k)*(-3)**k for k in range(7))|21	Exact finite sums; inverse is 2^n=2097152, with unique exponent 21.
+challenge	4	R(99,100)**3|R(98,100)**4|R(95,100)**3|R(93,100)	Exact rational exponentiation; (93/100)^3=804357/1000000 and the real cube map is strictly increasing, proving the inverse unique.
+challenge	5	coeff((2*x+3)**5,4)|coeff((3*x+2)**4,3)|coeff(coeff((2*x+5*y)**4,2),2,y)|coeff((2*x+3)**5,3)	Direct distributive multiplication and extraction of all requested variable exponents.
+challenge	6	coeff((x-1/x)**8,0)|coeff((x-1/x)**10,0)|coeff((3*x-1/x)**4,0)|coeff((x-1/x)**8,2)	Direct Laurent multiplication and extraction; preserves sign from reciprocal choices.
+challenge	7	coeff((1+x*x)**5*(1-x**3)**2,6)|coeff((1+x*x)**5*(1-x**4)**2,6)|coeff((1+2*x)**4*(1+x*x)**2,4)|coeff((1+x*x)**5*(1-x**3)**2,9)	Multiply polynomials and collect every possible contribution to the requested degree.
+challenge	8	6|3|5|22	The equations reduce to (-2)^n=64, (-3)^n=-27, 6^n=7776, (1+c)^3=12167; magnitude/sign or monotonicity gives unique solutions.
+challenge	9	14|23|13|27	For nonzero adjacent coefficients their ratios are (n-2)/3=4, (n-3)/4=5, (n-1)/2=13; the equal distinct entries in round 3 lie at complementary indices by strict unimodality, so n=5+8.
+challenge	10	coeff((x+1/x)**6*(x-1/x)**4,0)|coeff((x+1/x)**2*(x-1/x)**6,0)|coeff((x+3/x)**2*(x-3/x)**2,0)|coeff((x+1/x)**6*(x-1/x)**4,6)	Full Laurent product independently accounts for cancellations across all factor pairs.
+challenge	11	sum(C(k,2) for k in range(2,11))|sum(C(k,2) for k in range(3,13))|sum(C(k,4) for k in range(4,8))|23	Direct coefficient sums; inverse sum C(k,2)=C(m+1,3), C(24,3)=2024, with strict increase for m>=2.
+challenge	12	coeff((x+2+1/x)**5,0)|coeff((x-2+1/x)**4,0)|coeff((4*x+4+1/x)**3,0)|coeff((x+2+1/x)**5,1)	Direct trinomial Laurent expansion, independent of the suggested square substitution.
+worksheet	1	coeff(coeff((a-b)**6,2,a),4,b)|coeff(coeff((a-b)**9,6,a),3,b)|coeff(coeff((a-3*b)**5,3,a),2,b)|24	Direct expansion; inverse C(n,2)=276 gives n=24 uniquely for positive n.
+worksheet	2	coeff((x-2)**5,3)|coeff((x-3)**4,2)|coeff((2*x-1)**4,3)|coeff((x-2)**5,3)+coeff((x-2)**5,2)	Direct expansion and requested coefficient arithmetic.
+worksheet	3	21**4|19**4|41**3|22**4	Independent exact integer exponentiation.
+worksheet	4	coeff((2*x*x-1/x)**6,0)|coeff((2*x*x-1/x)**9,0)|coeff((x-3/x**2)**6,0)|coeff((2*x*x-1/x)**6,3)	Direct Laurent expansion, including numerical factors and signs.
+worksheet	5	sum(C(9,k) for k in range(1,8,2))|sum(C(11,k) for k in range(0,9,2))|sum(C(8,k) for k in range(1,8,2))|sum(C(12,k) for k in range(1,10,2))	Direct sums with the stated truncated parity-index endpoints.
+worksheet	6	sum(C(5,k)*4**(5-k)*(-1)**k for k in range(6))|sum(C(4,k)*5**(4-k)*(-1)**k for k in range(5))|sum(C(4,k)*2**(4-k)*5**k for k in range(5))|5	Direct finite sums; inverse (c-1)^5=1024 forces c-1=4 and c=5, uniquely because the fifth power is strictly increasing.
+worksheet	7	coeff((x*x+1/x)**12,3)|coeff((x*x+1/x)**11,1)|coeff((x*x+1/x)**9,-3)|coeff((x*x+1/x)**12,12)	Direct Laurent expansion; reciprocal x^3 means exponent -3.
+worksheet	8	coeff((1+3*x)**4*(1-x)**2,2)|coeff((1+3*x)**3*(1-2*x)**2,2)|coeff((1+2*x)**4*(1-3*x)**2,2)|coeff((1+3*x)**4*(1-x)**2,4)	Direct distributive multiplication accounts for all cross terms.
+worksheet	9	8|9|14|coeff((1+2*x)**8,3)	Inverse conditions are 4*C(n,2)=112, 9*C(n,2)=324, 8*C(n,3)=2912; each has unique n on its nonzero range by strict monotonicity.
+worksheet	10	sum(C(8,k)*R(1,2)**k for k in range(9))|sum(C(6,k)*R(1,3)**k for k in range(7))|sum(C(7,k)*R(-1,2)**k for k in range(8))|sum(C(5,k)*R(3,2)**k for k in range(6))	Finite sums with exact rational arithmetic, including signs and all endpoints.

@@ -500,25 +500,25 @@ const challenge = [
   // Lane: 18 / 27 / 45.
   [
     {
-      q: 'Two similar paper triangles have perimeters $10$ and $15$. The smaller one has area $8$. Find the area of the larger one.',
+      q: 'Two similar paper triangles have perimeters $20$ and $30$. The smaller one has area $8$. Find the area of the larger one.',
       choices: ['$18$', '$12$', '$13$', '$\\frac{32}{9}$'],
       answer: 0,
       solution:
-        'Perimeters reveal the side ratio at once: $\\frac{15}{10} = \\frac{3}{2}$. Areas take the square: $\\left(\\frac{3}{2}\\right)^2 = \\frac{9}{4}$, so the larger area is $8 \\times \\frac{9}{4} = 18$ ✓. Check a second, independent way, one dimension at a time: every base is stretched by $\\frac{3}{2}$, giving $8 \\to 12$, and every height is stretched by $\\frac{3}{2}$ as well, giving $12 \\to 18$ ✓. One ratio, used once for lengths and twice for areas. (The choice $12$ is SCALING THE AREA ONLY ONCE; the choice $13$ is ADDING THE PERIMETER DIFFERENCE, $8 + 5$, as if area grew by subtraction and addition; the choice $\\frac{32}{9}$ is SQUARING THE FLIPPED RATIO, shrinking what should grow.)',
+        'The perimeter ratio is $30/20=3/2$, so the corresponding side lengths have ratio $3/2$. A triangle area scales with both its base and its height, giving area ratio $(3/2)^2=9/4$. The larger area is $8\\cdot9/4=18$.',
     },
     {
-      q: 'The perimeters of two similar triangles are $14$ and $21$, and the area of the smaller triangle is $12$. What is the area of the larger triangle?',
+      q: 'The perimeters of two similar triangles are $28$ and $42$, and the area of the smaller triangle is $12$. What is the area of the larger triangle?',
       choices: ['$18$', '$19$', '$\\frac{16}{3}$', '$27$'],
       answer: 3,
       solution:
-        'The side ratio equals the perimeter ratio, $\\frac{21}{14} = \\frac{3}{2}$, so the area ratio is $\\left(\\frac{3}{2}\\right)^2 = \\frac{9}{4}$ and the larger area is $12 \\times \\frac{9}{4} = 27$ ✓. Check a second, independent way by stretching base then height: $12 \\times \\frac{3}{2} = 18$, then $18 \\times \\frac{3}{2} = 27$ ✓ — the factor lands once per dimension. (The choice $18$ is SCALING THE AREA ONLY ONCE, the halfway value of the second route; the choice $19$ is ADDING THE PERIMETER DIFFERENCE, $12 + 7$; the choice $\\frac{16}{3}$ is SQUARING THE FLIPPED RATIO, $12 \\times \\frac{4}{9}$.)',
+        'The perimeter ratio is $42/28=3/2$, so the corresponding side lengths have ratio $3/2$. A triangle area scales with both its base and its height, giving area ratio $(3/2)^2=9/4$. The larger area is $12\\cdot9/4=27$.',
     },
     {
-      q: 'Two similar triangular garden plots have perimeters $16$ m and $24$ m. The smaller plot covers $20$ square meters. How many square meters does the larger plot cover?',
+      q: 'Two similar triangular garden plots have perimeters $32$ m and $48$ m. The smaller plot covers $20$ square meters. How many square meters does the larger plot cover?',
       choices: ['$30$', '$28$', '$45$', '$\\frac{80}{9}$'],
       answer: 2,
       solution:
-        'Perimeters give the length ratio $\\frac{24}{16} = \\frac{3}{2}$, so areas compare as $\\left(\\frac{3}{2}\\right)^2 = \\frac{9}{4}$, and the larger plot covers $20 \\times \\frac{9}{4} = 45$ square meters ✓. Check a second, independent way in two stretches: widening every base by $\\frac{3}{2}$ takes $20 \\to 30$, and raising every height by $\\frac{3}{2}$ takes $30 \\to 45$ ✓. (The choice $30$ is SCALING THE AREA ONLY ONCE; the choice $28$ is ADDING THE PERIMETER DIFFERENCE, $20 + 8$; the choice $\\frac{80}{9}$ is SQUARING THE FLIPPED RATIO, which would make the bigger plot smaller.)',
+        'The perimeter ratio is $48/32=3/2$, so the corresponding side lengths have ratio $3/2$. A triangle area scales with both its base and its height, giving area ratio $(3/2)^2=9/4$. The larger area is $20\\cdot9/4=45$.',
     },
   ],
 

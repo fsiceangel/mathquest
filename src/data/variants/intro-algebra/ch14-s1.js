@@ -284,7 +284,7 @@ const s141 = [
   // p9 — how many x-intercepts? Discriminant, including one run backwards.
   [
     {
-      q: 'How many times does the graph of $y = x^2 - 6x + 9$ cross the $x$-axis?',
+      q: 'At how many points does the graph of $y = x^2 - 6x + 9$ meet the $x$-axis?',
       choices: ['$0$', '$1$', '$2$', 'It cannot be determined'],
       answer: 1,
       solution:

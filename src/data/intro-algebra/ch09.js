@@ -107,7 +107,7 @@ const s91 = {
       solution: 'Inequalities chain together: $a$ is left of $b$, and $b$ is left of $c$, so $a$ is left of $c$. That is, $a < c$. Mathematicians call this the transitive property.',
     },
     {
-      q: 'If $-1 < x < 3$, what can you say about $-2x$?',
+      q: 'If $-1 < x < 3$, which inequality describes exactly all possible values of $-2x$?',
       choices: ['$-6 < -2x < 2$', '$2 < -2x < 6$', '$-6 \\le -2x \\le 2$', '$-2 < -2x < 6$'],
       answer: 0,
       solution: 'Multiply every part of the chain by $-2$ and flip both symbols: $-1 < x < 3$ becomes $2 > -2x > -6$, which reads left-to-right as $-6 < -2x < 2$. The inequalities stay strict — no endpoint was ever included.',

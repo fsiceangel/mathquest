@@ -1,0 +1,63 @@
+# Independent Pascal recurrence calculations; four columns are source group, index, models for rounds 1–4, and proof evidence.
+12.2	1	5|14|20|invC(2,105)	Row n starts/ends 1,n; six entries identify row 5. Inverse position two uses increasing Pascal entries, independently built by recurrence.
+12.2	2	row(7)[2]|row(10)[3]|45+2*120+210|165-120	Build rows by adding the two parents; round 3 sums both children and round 4 reverses a parent sum.
+12.2	3	9+1|23+1|sum(n+1 for n in range(6))|17-1	Row n has n+1 entries, proved inductively from the two new edges.
+12.2	4	sum(row(10))|sum(row(14))|sum(row(8))+sum(row(9))|17	Exact recurrence row sums; inverse sum 65536=2^16 fixes row 16 with 17 entries.
+12.2	5	row(8)[4]|row(14)[7]|row(9)[4]+row(9)[5]|12	Build exact rows; even-row central entries strictly increase (each next even central entry is more than twice the previous); row 12 center is 924.
+12.2	6	sum(row(9))-2|sum(row(12))-2|sum(row(11))-row(11)[5]-row(11)[6]|13	Explicit row sums excluding only the specified entries; inverse 2^n-2=8190 gives n=13 uniquely.
+12.2	7	row(12)[2]|row(17)[2]|row(20)[1]+row(20)[2]|invC(2,190)	The entry at position one identifies n. Inverse at position two uses strictly increasing row(n)[2].
+12.2	8	row(8)[3]|row(12)[3]|45+120|120+210-2*84	Neighbor pairs identify row 9 positions 3,4 and row 13 positions 3,4 (successive ratio and binomial recurrence); shared upper parent lies at previous row position 3. Remaining stems are local addition/subtraction.
+12.2	9	sum(sum(row(n)) for n in range(8))|sum(sum(row(n)) for n in range(11))|sum(sum(row(n)) for n in range(5,9))|14	Direct finite sums. Inverse combined row sum is 2^(n+1)-1=32767, giving n=14 uniquely.
+12.2	10	sum(v%2 for v in row(12))|sum(v%2 for v in row(11))|sum(v%2==0 for v in row(9))|sum(v%2==0 for n in range(8) for v in row(n))	Construct every entry by Pascal recurrence and test each entry's parity; no parity shortcut assumption.
+12.3	1	row(8)[3]|row(12)[5]|row(9)[7]|SEQ(17,5)	Evaluate Pascal entries; reflected position 9-2=7. One-based line/position coordinates each add one.
+12.3	2	row(6)[3]-row(6)[5]|row(9)[6]-row(9)[8]|row(10)[6]-row(10)[2]-row(10)[1]|row(12)[6]-429	Construct each row independently, then perform the specified entry arithmetic.
+12.3	3	row(10)[6]|row(13)[9]|14-3|19	Symmetric positions k and n-k have equal entries; strict increase up to the center rules out other repetitions, so the inverse row index is 4+15.
+12.3	4	row(5)[2]|row(7)[3]|row(6)[2]+row(6)[4]|SEQ(4,5)	Endpoint position counts right steps. Pascal recurrence adds walks from the two parents; the sets ending at different positions are disjoint. Row 9 entries equal 126 only at 4 and 5.
+12.3	5	SEQ(3,5)|SEQ(3,7)|12|18	Enumerate the constructed row's positions for the stated value. Complement symmetry and strict unimodality force n=4+14=18 in the inverse; row 18 position 4 is 3060.
+12.3	6	SEQ(5,row(8)[5])|SEQ(4,row(12)[4])|SEQ(3,10)|SEQ(invC(3,364),row(invC(3,364))[2])	Combinations identify position k and its recurrence value. Reflected position is n-k; inverse position three is strictly increasing in n.
+12.3	7	row(11)[4]+row(11)[7]|row(12)[3]+row(12)[9]|row(10)[2]+row(10)[8]+row(10)[5]|10	Direct row lookup arithmetic; inverse requires entry 286 and k>6, which selects position 10 of row 13.
+12.3	8	invC(5,1287)|invC(4,2380)|invC(3,816)+1|row(14)[5]	Build Pascal rows until the required strictly increasing fixed-position entry is reached; row n contains n+1 entries.
+12.3	9	sum(v for v in row(6) if v>=15)|sum(v for v in row(7) if v>=21)|sum(v for v in row(8) if v<=28)|row(12)[6]	Each endpoint contributes its entry many walks; sum only allowed endpoints. Inverse 2^n=4096 fixes n=12.
+12.3	10	row(11)[4]|row(15)[6]|max(row(13))|row(invC(5,6188)-2)[(invC(5,6188)-2)//2]	Equal adjacent entries determine odd row 2k+1; update the row by the requested offset. Inverse largest 252 is row 10; fixed position 5 equal 6188 is row 17, so row 15 has central entries 6435.
+12.4	1	C(7,3)+C(7,4)|C(20,1)+C(20,2)|330+462|C(10,6)+C(10,7)	Direct exact binomial arithmetic; committees including/excluding Rosa form disjoint exhaustive classes.
+12.4	2	C(10,3)|C(15,6)|C(13,6)|C(16,6)+C(16,7)	Compute each candidate expression and compare to the target. Excluding Theo leaves 13 people; two parent counts add to the child.
+12.4	3	C(20,9)+C(20,10)|C(31,14)+C(31,15)|C(18,7)-C(17,7)|11	Direct combination arithmetic; inverse C(21,k)=C(21,11) allows 10,11 by symmetry/unimodality, and k>=11 selects 11.
+12.4	4	SEQ(1287-792,1716-792)|SEQ(row(13)[4],row(13)[6])|SEQ(120+210,210+252)|364-78	Neighbor parent/child sums; row with 14 entries is row 13 and its left-half 1287 is position 5.
+12.4	5	C(9,4)|C(11,4)|invC(2,105)+1|C(10,3)	Remove the fixed excluded person, or include the fixed person then choose remaining members. Inverse C(n-1,2)=105 gives n=16 and C(15,3)=455 confirms the second datum.
+12.4	6	invC(3,20)+1|invC(2,45)+1|495+792|1820-455	Fixed-position inverse is strictly increasing; Pascal child counts add both parent counts or subtract a known parent.
+12.4	7	C(9,4)-C(8,4)-C(7,3)|C(11,5)-C(10,5)-C(9,4)|C(10,2)+C(10,3)+C(11,4)|4	Direct arithmetic. Last difference is 330=C(11,4), with unique k in [0,5] by strict left-half increase.
+12.4	8	C(invC(2,66)-1,3)|C(invC(3,286)-1,4)|invC(3,455)+2|455+1365	Inclusion fixes one member, excluding two leaves n-2 candidates; invert the appropriate positive binomial, then choose the required committee. Final two cases are disjoint and exhaustive.
+12.4	9	C(10,3)+C(10,4)+C(11,5)|C(8,3)+C(8,4)+C(9,5)|C(12,4)+C(12,5)+C(13,6)+C(14,7)|6	Direct exact sums; last sum is 1716=C(13,6), unique in [0,6].
+12.4	10	C(invC(3,455)+1,2)|C(invC(4,495)+1,2)|invC(2,136)+1|C(invC(2,105)-1,3)	Pascal difference counts committees that include the last person: C(n,r)-C(n-1,r)=C(n-1,r-1). Invert the strictly increasing fixed-position value.
+12.5	1	sum(row(7))+sum(row(8))|sum(row(5))+sum(row(9))|2**6+2**9|7	Exact recurrence row sums or one binary include/exclude choice per element. Inverse sum is 3*2^n=384, unique n=7.
+12.5	2	2**5|2**11|2**7-2|R(32768,2)	Each subset corresponds to a binary membership string; exclude empty/full as specified. Toggling a fixed element pairs parity classes equally for nonempty ground set.
+12.5	3	sum(row(10)[1:])|sum(row(12)[1:])|sum(row(9)[2:8])|8	Build full rows and retain exact endpoints; inverse 2^n-1=255 gives unique n=8.
+12.5	4	sum(row(7)[2:])|sum(row(8)[2:])|sum(row(8)[:6])|sum(row(9)[3:])	Disjoint subset sizes give row entries. The inverse count 2^n-1-n=502 has n=9 and is strictly increasing for n>=1; then exclude sizes below three.
+12.5	5	sum(row(8)[:4])|sum(row(14)[:7])|sum(row(10)[4:])|row(10)[5]	Direct finite sums. For even n, the left-half sum counts subsets of size below n/2; adding two new unused elements injects these subsets into the next such collection, with additional subsets, so the sequence is strictly increasing. Row 10 has left sum 386.
+12.5	6	sum((-1)**k*row(9)[k] for k in range(10))|sum((-1)**k*row(12)[k] for k in range(13) if k!=6)|sum(row(11)[1::2])|2*2048	Direct alternating/parity sums; toggling one element bijects even and odd classes for the inverse total.
+12.5	7	sum(row(8)[::2])|sum(row(9)[::2])|sum(row(7)[::2])|sum(row(10)[::2])-sum(row(5)[::2])	Fixed included element reverses the parity needed from the remaining nine. Last variant subtracts even subsets made only from the five even elements.
+12.5	8	2**8-1|2**9|2**11-2**9|2**5	Binary choice for every free element. First excludes choosing none of the free elements; third removes subsets excluding both named members; fourth allows only five free even elements alongside mandatory 11.
+12.5	9	10|12|33|2**11-1-11	Counts of size>=2 are 2^n-1-n and strictly increase for n>=1; count of size<=2 is 1+n+n(n-1)/2, also strictly increasing. Substitution verifies 1013,4083,562 respectively.
+12.5	10	sum(row(10)[6:])|sum(row(11)[6:])|row(12)[6]|sum(row(10)[5:])	Translate strict majority/equality/non-strict majority into allowed sizes, and sum exactly the corresponding recurrence entries.
+challenge	1	sum(row(12))|sum(row(15))|sum(row(11))|24	Row n has n+1 entries. Inverse 2^n=8388608 gives n=23 and 24 entries.
+challenge	2	C(8,2)+C(8,3)|C(10,5)+C(10,6)|row(16)[7]+row(16)[8]|C(invC(3,969)-1,2)	Direct finite binomial sums; inverse by Pascal identity C(n+1,3)=969, strictly increasing in n.
+challenge	3	SEQ(9,row(9)[4]-row(10)[3])|SEQ(12,row(12)[4]-row(11)[5])|SEQ(C(14,5),C(14,5)-C(13,6))|row(10)[3]+row(9)[4]	Independent row values 120 vs 126, 495 vs 462, 2002 vs 1716 identify the larger entry and its difference.
+challenge	4	sum(row(6)[:5])|sum(row(7)[:5])|sum(row(9)[7:])|sum(row(8)[2:5])	Translate each strict/non-strict size condition into the exact subset size range.
+challenge	5	sum(row(12)[1::2])|sum(row(14)[1::2])|sum(row(15)[::2])|row(16)[8]	Direct parity-index row sums. Inverse odd sum is 2^(n-1)=32768, so n=16 and the requested center is row(16)[8].
+challenge	6	row(invC(2,66)+1)[4]|row(invC(3,560)+1)[5]|row(invC(2,105)-1)[3]|row(invC(2,153))[3]	Recover unique row by its fixed-position increasing value, independently check the adjacent supplied datum, then read the requested offset row and position.
+challenge	7	sum(v%2 for n in range(7) for v in row(n))|sum(v%2 for n in range(9) for v in row(n))|sum(v%2==0 for n in range(10) for v in row(n))|sum(v%2 for n in range(16) for v in row(n))	Generate every row entry by recurrence and count parities exactly.
+challenge	8	(2**6-1)*2**4|2**7*(2**5-1)|(2**6-1)*(2**5-1)|(2**6-1)*(2**4-1)	Independent binary subset choices for each distinguishable group; subtract one only from groups required nonempty.
+challenge	9	invC(5,3003)+invC(6,3003)|invC(2,120)+invC(3,120)|abs(invC(2,1540)-invC(3,1540))|SEQ(10,15,8,14)	Fixed-position inversion via Pascal recurrence; reflection k->n-k supplies the other position in each specified row.
+challenge	10	2*sum(row(8)[1::2])|2*sum(row(6)[::2])|3*sum(row(7)[1::2])|sum(row(8)[::2])	Select the unique mandatory member from 2 or 3 choices; remaining subset must have opposite parity from the final target. Excluding both leaves eight freely chosen members.
+challenge	11	10|15|13|sum(row(11)[3:])	Size-tail sums strictly increase once nonzero: old subsets inject by excluding the new member and new qualifying subsets appear. Direct substitution gives 968 at n=10 (size>=3),32647 at n=15 (size>=3),7814 at n=13 (size>=4).
+challenge	12	sum(row(10)[::2])-sum(row(8)[::2])|sum(row(12)[::2])-sum(row(10)[::2])|sum(row(10)[1::2])-sum(row(7)[1::2])|sum(row(10)[::2])-sum(row(6)[::2])	Subtract same-parity subsets that avoid every named element, leaving exactly those with at least one named element.
+worksheet	1	row(15)[3]|row(18)[3]|row(16)[2]+row(16)[3]|row(invC(3,969))[2]	Position one determines row n; inverse fixed position three is strictly increasing.
+worksheet	2	row(12)[3]|row(15)[4]|row(15)[5]|row(13)[4]	Independently regenerate Pascal rows rather than trusting the supplied arithmetic.
+worksheet	3	sum(row(13))|sum(row(17))|sum(sum(row(n)) for n in range(10,13))|SEQ(18,19)	Direct recurrence row sums; inverse 262144=2^18 gives row 18 with 19 entries.
+worksheet	4	C(6,2)+C(6,3)|C(9,4)+C(9,5)|C(14,6)-C(13,6)|SEQ(invC(6,3003)-1,C(invC(6,3003)-1,6))	Direct arithmetic verifies both sides of the answer's combination=value equation. Inverse C(n+1,6)=3003 gives n=13 and C(13,6)=1716.
+worksheet	5	C(20,5)+2*C(20,6)+C(20,7)|C(15,4)+2*C(15,5)+C(15,6)|C(12,3)+3*C(12,4)+3*C(12,5)+C(12,6)|C(18,7)	Direct binomial sums compare to the supplied single combination. Last identity is C(20,k+2)=C(20,9); symmetry yields k=7 or 9 and the bound selects 7.
+worksheet	6	sum(row(9)[2:])|sum(row(10)[4:])|sum(row(11)[:3])|sum(row(10)[4:8])	Sum exactly the admissible subset sizes, including/excluding endpoints according to the stem.
+worksheet	7	LOC(21)|LOC(10)|LOC(15)|LOC(120)	Enumerate all Pascal entries in rows 0 through the target value. Beyond that, each non-edge entry is at least the row number and hence exceeds the target; edges equal 1. This proves the finite enumeration exhaustive.
+worksheet	8	sum(row(12)[7:])|sum(row(16)[9:])|sum(row(13)[7:])|sum(row(12)[6:])	Exact finite row-tail sums with the specified middle-entry inclusion.
+worksheet	9	3*2**6|3*2**8|2*2**8|4*2**6	Forbidden pair allows neither/first/second (3 states); together pair allows neither/both (2); at most one of three allows 4 states. Every other member is independently in or out.
+worksheet	10	(2**5-1)**2|(2**7-1)*(2**4-1)|(2**5-1)*2**4*(2**3-1)|(2**5-1-5)**2	Independent subgroup choices with the exact required minimum; third permits all drummer subsets, fourth removes empty and singleton choices in each group.

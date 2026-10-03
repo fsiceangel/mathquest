@@ -78,7 +78,7 @@ const s33 = [
       ],
       answer: 1,
       solution:
-        'This is the previous question run backward: instead of hunting for the shared vertex, we are handed the vertex and asked for the two arms. The arms of $\\angle L$ are the two sides that have an endpoint at $L$, and those are $\\overline{KL}$ and $\\overline{LM}$ ✓. Check a second, independent way by taking each offered pair and finding where it meets. $\\overline{KL}$ and $\\overline{KM}$ share the endpoint $K$, so that pair belongs to $\\angle K$ ✗. $\\overline{KM}$ and $\\overline{LM}$ share $M$, so that pair belongs to $\\angle M$ ✗. That leaves one pair, and it meets at $L$ ✓ — the same answer, found by elimination rather than by construction. (Choosing the $K$ pair or the $M$ pair is MOVING THE VERTEX to a different corner of the triangle; choosing "no pair" is DENYING THE ANGLE EXISTS, when every angle of every triangle is included between two of its sides.)',
+        'Here we are handed the vertex and asked for the two arms. The arms of $\\angle L$ are the two sides that have an endpoint at $L$, and those are $\\overline{KL}$ and $\\overline{LM}$ ✓. Check a second, independent way by taking each offered pair and finding where it meets. $\\overline{KL}$ and $\\overline{KM}$ share the endpoint $K$, so that pair belongs to $\\angle K$ ✗. $\\overline{KM}$ and $\\overline{LM}$ share $M$, so that pair belongs to $\\angle M$ ✗. That leaves one pair, and it meets at $L$ ✓ — the same answer, found by elimination rather than by construction. (Choosing the $K$ pair or the $M$ pair is MOVING THE VERTEX to a different corner of the triangle; choosing "no pair" is DENYING THE ANGLE EXISTS, when every angle of every triangle is included between two of its sides.)',
     },
     {
       q: 'Nadia plans to prove two triangles congruent by SAS. In $\\triangle STU$ she has already marked the sides $\\overline{SU}$ and $\\overline{TU}$. Which angle must she mark?',
@@ -127,7 +127,7 @@ const s33 = [
       choices: [
         'He is right, and what he described is exactly SAS',
         'He is wrong, because SAS also needs the third pair of sides to be equal',
-        'He is right only when the equal angles lie between the two pairs of equal sides',
+        'SAS guarantees congruence when the equal angles lie between the marked sides; a non-included angle needs further conditions',
         'He is wrong, because equal angles are never any help in proving congruence',
       ],
       answer: 2,

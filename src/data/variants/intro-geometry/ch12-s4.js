@@ -63,7 +63,7 @@ const s124 = [
         'Route one, the cyclic quadrilateral rule: the four clips sit on one circular rim, so opposite angles are supplementary and $\\angle D = 180^\\circ - 98^\\circ = 82^\\circ$ ✓. Check a second, independent way, by counting arcs: the inscribed angle at $B$ opens onto the arc running from $C$ around through $D$ to $A$, so that arc is $2 \\times 98^\\circ = 196^\\circ$. What is left of the rim is the arc from $A$ through $B$ to $C$, measuring $360^\\circ - 196^\\circ = 164^\\circ$, and $\\angle D$ is half of that: $\\frac{164^\\circ}{2} = 82^\\circ$ ✓. (The choice $98^\\circ$ is ASSUMING OPPOSITE ANGLES ARE EQUAL instead of supplementary ✗; the choice $49^\\circ$ is HALVING THE GIVEN ANGLE, as though $98^\\circ$ were an arc ✗; the choice $262^\\circ$ is SUBTRACTING FROM THE WHOLE CIRCLE, computing $360^\\circ - 98^\\circ$ ✗.)',
     },
     {
-      q: 'A circular quilting hoop holds four pins $A$, $B$, $C$, and $D$ pushed through the fabric right at the hoop’s edge, and a basting thread runs $A$ to $B$ to $C$ to $D$ and back to $A$. The thread turns through $\\angle B = 107^\\circ$ at pin $B$. What is $\\angle D$?',
+      q: 'A circular quilting hoop holds four pins $A$, $B$, $C$, and $D$ pushed through the fabric right at the hoop’s edge, and a basting thread runs $A$ to $B$ to $C$ to $D$ and back to $A$. The thread forms the interior angle $\\angle B = 107^\\circ$ at pin $B$. What is $\\angle D$?',
       fig: {
         view: [-4.7, -4.7, 4.7, 4.7],
         elems: [

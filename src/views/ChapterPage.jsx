@@ -2,16 +2,30 @@ import { getResult, starsFor, isLearned } from '../lib/storage.js'
 import { Bulb, Target, Trophy, Printer, Check, ArrowRight } from '../components/icons.jsx'
 import { BackLink, StarBar } from '../components/ui.jsx'
 import { M } from '../lib/math.jsx'
+import { sectionCalibration, scopeLabels } from '../data/calibration/index.js'
+import BridgeReview from '../components/BridgeReview.jsx'
+import { attemptProgress } from '../lib/attempts.js'
 
 function SectionRow({ book, content, section }) {
   const base = `#/book/${book.id}/ch/${content.number}`
   const learned = isLearned(`${book.id}/${content.number}/${section.id}`)
   const result = getResult(`${book.id}/${content.number}/${section.id}`)
   const stars = starsFor(result?.pct)
+  const calibration = sectionCalibration(book.id, content.number, section.id)
+  const partial = attemptProgress(`${book.id}/${content.number}/${section.id}`)
   return (
     <li className="section-row">
       <span className="sec-chip">{section.id}</span>
-      <span className="sec-title">{section.title}</span>
+      <span className="sec-title">{section.title}
+        {calibration && <small className="scope-note">{scopeLabels[calibration.scope]}</small>}
+        {calibration?.prerequisites?.length > 0 && <details className="prerequisite-links">
+          <summary>Review first if needed</summary>
+          {calibration.prerequisites.map(key => {
+            const [bookId, sid] = key.split('/')
+            return <a key={key} href={`#/book/${bookId}/ch/${sid.split('.')[0]}/learn/${sid}`}>{bookId.replace('intro-', '')} {sid}</a>
+          })}
+        </details>}
+      </span>
       <span className="sec-actions">
         <a className="btn btn-ghost" href={`${base}/learn/${section.id}`}>
           <Bulb size={17} />
@@ -20,7 +34,7 @@ function SectionRow({ book, content, section }) {
         </a>
         <a className="btn btn-accent" href={`${base}/practice/${section.id}`}>
           <Target size={17} />
-          Practice
+          {partial ? `Continue ${partial.answered}/${partial.total}` : 'Practice'}
         </a>
         <StarBar stars={stars} size={15} />
       </span>
@@ -32,6 +46,7 @@ export default function ChapterPage({ book, meta, content }) {
   const base = `#/book/${book.id}/ch/${content.number}`
   const challengeResult = getResult(`${book.id}/${content.number}/challenge`)
   const challengeStars = starsFor(challengeResult?.pct)
+  const partial = attemptProgress(`${book.id}/${content.number}/challenge`)
   return (
     <main className="page">
       <BackLink href={`#/book/${book.id}`}>{book.title}</BackLink>
@@ -42,6 +57,10 @@ export default function ChapterPage({ book, meta, content }) {
           <M>{content.intro}</M>
         </p>
       </header>
+      <p className="learning-note">Follow the textbook chapter order. Practice runs start with gentler problems;
+        optional extension sections develop ideas beyond the contest preparation path. A hard final problem
+        is a chance to explore, not a requirement to finish the chapter.</p>
+      <BridgeReview book={book.id} chapter={content.number} />
 
       <h2 className="list-heading">Sections</h2>
       <ol className="section-list">
@@ -58,7 +77,8 @@ export default function ChapterPage({ book, meta, content }) {
           <span className="feature-body">
             <span className="feature-title">Chapter Challenge</span>
             <span className="feature-sub">
-              {content.challenge.length} mixed problems — trickier than practice. Earn your trophy!
+              {partial ? `Continue your saved practice: ${partial.answered} of ${partial.total} answered.`
+                : `${content.challenge.length} mixed problems to check which methods you can choose on your own.`}
             </span>
             <StarBar stars={challengeStars} size={15} />
           </span>

@@ -21,7 +21,7 @@ const s54 = [
   // slot 1 — different items, labeled containers, empties allowed
   [
     {
-      q: 'Six different photographs are filed in $3$ albums labeled $A$, $B$, and $C$. The photographs are all different, the albums are told apart by their labels, and an album may hold any number of photographs, including none. How many filings are there?',
+      q: 'Six different photographs are filed in $3$ albums labeled $A$, $B$, and $C$. The photographs are all different, the albums are told apart by their labels, and an album may hold any number of photographs, including none. Only which album receives each photograph matters, not its order inside an album. How many filings are there?',
       choices: ['$216$', '$18$', '$28$', '$729$'],
       answer: 3,
       solution:
@@ -35,7 +35,7 @@ const s54 = [
         'Route one, one decision per question. Each of the $4$ different questions is handed to exactly one of the $5$ labeled groups, and those decisions do not interfere with one another because a group may take any number. That is $5$ choices four times over: $5 \\times 5 \\times 5 \\times 5 = 5^4 = 625$ ✓. Route two, count by how many groups are used. If all $4$ questions go to one group there are $5$ ways. If exactly $2$ groups are used, choose them in $\\binom{5}{2} = 10$ ways and split the questions between those two labeled groups with neither empty in $2^4 - 2 = 14$ ways: $140$. Exactly $3$ groups: $\\binom{5}{3} = 10$ ways to choose them, and $3^4 - 3 \\times 2^4 + 3 = 36$ ways to fill all three: $360$. Exactly $4$ groups: $\\binom{5}{4} = 5$ ways to choose them, and $4! = 24$ ways to give the four questions one apiece: $120$. Total $5 + 140 + 360 + 120 = 625$ ✓. (The choice $1024$ SWAPS THE BASE AND THE EXPONENT, computing $4^5$ ✗; $120$ FORBIDS TWO QUESTIONS FROM SHARING A GROUP, counting $5 \\times 4 \\times 3 \\times 2$ ✗; $70$ TREATS THE QUESTIONS AS IDENTICAL, counting only the group totals, which is $\\binom{8}{4} = 70$ ✗.)',
     },
     {
-      q: '*Reversed.* Each of $n$ different flags is flown on one of $3$ poles labeled left, center, and right. The flags are all different, the poles are told apart, and a pole may be left bare. There are exactly $243$ arrangements. What is $n$?',
+      q: '*Reversed.* Each of $n$ different flags is flown on one of $3$ poles labeled left, center, and right. The flags are all different, the poles are told apart, and a pole may be left bare. Only which pole receives each flag matters, not the order on a pole. There are exactly $243$ arrangements. What is $n$?',
       choices: ['$5$', '$4$', '$6$', '$81$'],
       answer: 0,
       solution:

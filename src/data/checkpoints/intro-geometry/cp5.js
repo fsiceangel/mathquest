@@ -34,7 +34,7 @@ export default {
   minutes: 25,
   problems: [
     {
-      q: 'A storage shed is a block with a flat roof: its floor is an irregular hexagon, and the space inside it is $2700$ cubic feet. Beside it a tent is pitched on a floor of exactly the same shape and size, and the tent’s single peak stands exactly as high as the shed’s roof. How many cubic feet of air does the tent enclose?',
+      q: 'A storage shed is a right prism with a flat roof: its floor is an irregular hexagon, and the space inside it is $2700$ cubic feet. Beside it a tent shaped like a pyramid is pitched on a floor of exactly the same shape and size, and the tent’s single peak stands exactly as high as the shed’s roof. How many cubic feet of air does the tent enclose?',
       choices: ['$675$', '$900$', '$1350$', '$2700$', '$8100$'],
       answer: 1,
       solution: 'The tent is a pyramid and the shed is a prism, and they share a base and a height, so the tent holds exactly one third of the shed — the one-third rule does not care what shape the floor is, hexagon or otherwise. That gives $\\frac{2700}{3} = 900$ cubic feet. The choice $675$ takes a quarter instead of a third, $1350$ takes a half, $2700$ is the shed itself, and $8100$ multiplies by $3$ instead of dividing.',
@@ -42,10 +42,10 @@ export default {
       chapter: 14,
     },
     {
-      q: 'The paper label on a soup can is peeled off in one piece and laid flat. It is a rectangle $8$ cm by $10\\pi$ cm, and it wrapped around the can exactly once with no overlap, covering the can from top to bottom. What is the volume of the can, in cubic centimeters?',
+      q: 'The paper label on a soup can is peeled off in one piece and laid flat. It is a rectangle $8$ cm tall from the bottom of the can to the top and $10\\pi$ cm long in the direction that wrapped around the can exactly once, with no overlap. What is the volume of the can, in cubic centimeters?',
       choices: ['$40\\pi$', '$160$', '$80\\pi$', '$125\\pi$', '$200\\pi$'],
       answer: 4,
-      solution: 'The side of the label that went around the can is its circumference, and a circumference is the side carrying the $\\pi$: $2\\pi r = 10\\pi$, so $r = 5$, and the other side, $8$, is the height. The volume is $\\pi r^2 h = \\pi \\cdot 25 \\cdot 8 = 200\\pi$. The choice $40\\pi$ is $\\pi \\cdot 5 \\cdot 8$ with the radius never squared, $160$ comes from taking $8$ as the circumference (then $r = \\frac{4}{\\pi}$ and the $\\pi$’s cancel), $80\\pi$ is the area of the label itself, and $125\\pi$ is $\\pi \\cdot 5^3$, the radius cubed with the height never used.',
+      solution: 'The label is stated to be $8$ cm tall, and its $10\\pi$ cm length goes around the can. Thus $2\\pi r = 10\\pi$, so $r = 5$ and $h = 8$. The volume is $\\pi r^2 h = \\pi \\cdot 25 \\cdot 8 = 200\\pi$. The choice $40\\pi$ leaves the radius unsquared, $160$ swaps the stated height and circumference, $80\\pi$ is the area of the label, and $125\\pi$ cubes the radius instead of multiplying its square by the height.',
       topic: 'geometry',
       chapter: 15,
     },

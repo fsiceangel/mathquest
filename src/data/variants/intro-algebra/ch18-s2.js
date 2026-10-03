@@ -36,7 +36,7 @@ const s182 = [
         'When powers of the same variable are multiplied, the exponents ADD: $y^4 \\cdot y^7 = y^{4+7} = y^{11}$. Check a second way by counting letters instead of using the rule: $y^4$ is four $y$s and $y^7$ is seven $y$s, so writing them side by side gives eleven $y$s in one long product ✓. (THE MULTIPLIED EXPONENT gives $y^{28}$ from $4 \\times 7$ — that pattern belongs to $(y^4)^7$, not to a product ✗. Subtracting gives $y^3$, which is the division rule wearing the wrong hat ✗. And $2y^{11}$ adds the two invisible coefficients of $1$, but coefficients MULTIPLY: $1 \\times 1 = 1$ ✗.)',
     },
     {
-      q: 'Suppose $m^6 \\cdot m^{n} = m^{15}$ for a whole number $n$. What is $n$?',
+      q: 'The identity $m^6 \\cdot m^{n} = m^{15}$ holds for every positive real number $m$, where $n$ is a whole number. What is $n$?',
       choices: ['$\\frac{5}{2}$', '$21$', '$9$', '$-9$'],
       answer: 2,
       solution:

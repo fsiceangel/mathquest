@@ -1005,7 +1005,7 @@ const s35 = {
       choices: [
         'Nothing — this is SSA, so the triangles might differ',
         'The triangles are congruent by AAA',
-        'The triangles are congruent by HL, the one SSA-type setup that works',
+        'The triangles are congruent by HL, a valid SSA-type setup for right triangles',
         'The triangles are congruent only if the remaining legs are also marked equal',
       ],
       answer: 2,
@@ -1048,7 +1048,7 @@ const s35 = {
       solution: '$\\overline{DF}$ is the remaining leg. By the Pythagorean theorem, $DF^2 = 10^2 - 6^2 = 100 - 36 = 64$, so $DF = 8$. (The tempting $4$ comes from subtracting $10 - 6$ — but Pythagoras subtracts SQUARES, not lengths.)',
     },
     {
-      q: 'You are given two sides and a non-included angle. In which case is the triangle guaranteed to be unique?',
+      q: 'You are given two sides and a non-included angle, and at least one nondegenerate triangle fits these measurements. In which case is the triangle guaranteed to be unique up to congruence?',
       choices: [
         'When the side opposite the marked angle is at least as long as the other marked side',
         'When the side opposite the marked angle is the shorter of the two',
@@ -1067,7 +1067,7 @@ const s35 = {
         'Because congruence always requires at least one pair of equal angles at $B$ and $E$',
       ],
       answer: 2,
-      solution: 'The $40^\\circ$ angle is at $A$, but $\\overline{BC}$ does not touch $A$ — so the angle is not included, and this is SSA. Since the swinging side ($6$) is shorter than the adjacent side ($8$), it can land in two different spots. Each triangle could be either version, so congruence is not guaranteed.',
+      solution: 'The marked angle is not between the given sides, so this is SSA. Hold the adjacent side of length $8$ fixed and compare its perpendicular height with a larger special angle: the height for $45^\\circ$ is $4\\sqrt{2}$, and $4\\sqrt{2}<6$ because $32<36$. Since $40^\\circ$ is smaller, the actual height is smaller still. The opposite side $6$ is therefore longer than the perpendicular height but shorter than $8$. Its circle meets the base ray twice, producing two different triangles. Thus congruence is not guaranteed.',
     },
     {
       q: 'In the figure, $\\angle A = 30^\\circ$, $AB = 8$, and $BC = BD = 5$. What is the length $CD$?',
@@ -1428,12 +1428,12 @@ const challenge = [
     q: 'Two triangles each have sides of length $5$ and $8$, and each has a $30^\\circ$ angle that is NOT between those sides. In which case is congruence still guaranteed?',
     choices: [
       'When the $30^\\circ$ angle is opposite the side of length $5$',
-      'When neither triangle contains an obtuse angle',
+      'Whenever the marked angle is acute',
       'When the $30^\\circ$ angle is opposite the side of length $8$',
       'Never — SSA can never guarantee congruence',
     ],
     answer: 2,
-    solution: 'SSA is safe exactly when the side opposite the angle is at least as long as the other given side. With the $30^\\circ$ angle opposite the $8$, the swinging side ($8$) is longer than its neighbor ($5$), so only one triangle fits. Opposite the $5$, the shorter side can swing into two positions ($8 \\sin 30^\\circ = 4 < 5 < 8$), so two triangles exist. And "never" is too gloomy — HL is another famous safe case.',
+    solution: 'One sufficient condition for uniqueness is that the side opposite the angle is at least as long as the other given side. With the $30^\\circ$ angle opposite the $8$, the swinging side ($8$) is longer than its neighbor ($5$), so only one triangle fits. By the $30^\\circ$-$60^\\circ$-$90^\\circ$ ratio, the perpendicular height in the other placement is $4$. Opposite the $5$, the shorter side can swing into two positions ($\\frac{8}{2} = 4 < 5 < 8$), so two triangles exist. And "never" is too gloomy — HL is another famous safe case.',
   },
   {
     q: 'An isosceles triangle has perimeter $50$, and one of its sides has length $12$. How long is each leg?',
@@ -1498,7 +1498,7 @@ const worksheet = [
   {
     q: 'A triangle has $\\angle A = 30^\\circ$, $AB = 10$, and $BC = 6$. How many different (non-congruent) triangles fit this description? Explain.',
     answer: 'Two',
-    solution: 'This is SSA with the swinging side $BC = 6$ shorter than $AB = 10$. The lowest the swinging side must reach is the height $10 \\sin 30^\\circ = 5$, and since $5 < 6 < 10$, the side of length $6$ can land on the base ray in two different places. Two genuinely different triangles fit.',
+    solution: 'This is SSA with the swinging side $BC = 6$ shorter than $AB = 10$. The lowest the swinging side must reach is the height $\\frac{10}{2} = 5$, and since $5 < 6 < 10$, the side of length $6$ can land on the base ray in two different places. Two genuinely different triangles fit.',
   },
   {
     q: 'In $\\triangle ABC$, $AB = AC$. Point $D$ lies on $\\overline{BC}$ with $AD = BD$, and $\\angle ADC = 108^\\circ$. Find $\\angle BAC$.',

@@ -514,7 +514,7 @@ const challenge = [
     solution: 'The sum is $(1-3)^n = (-2)^n$. For this to equal $64$ we need an even $n$ with $2^n = 64$, so $n = 6$. The answer $3$ solves $4^n = 64$ as if the base were $1 + 3$; $4$ and $8$ give $16$ and $256$.',
   },
   {
-    q: 'In the expansion of $(1+x)^n$, the coefficient of $x^3$ is exactly four times the coefficient of $x^2$. What is $n$?',
+    q: 'For an integer $n \\ge 3$, in the expansion of $(1+x)^n$, the coefficient of $x^3$ is exactly four times the coefficient of $x^2$. What is $n$?',
     choices: ['$12$', '$8$', '$6$', '$14$'],
     answer: 3,
     solution: 'We need $\\binom{n}{3} = 4\\binom{n}{2}$. Since $\\binom{n}{3} = \\binom{n}{2}\\cdot\\frac{n-2}{3}$, this says $\\frac{n-2}{3} = 4$, so $n = 14$. Check: $\\binom{14}{3} = 364$ and $\\binom{14}{2} = 91$, and $364 = 4\\cdot 91$. The answer $12$ solves $n - 2 = 10$ from a wrong ratio; $8$ and $6$ come from guessing small rows.',

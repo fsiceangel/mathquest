@@ -1,0 +1,56 @@
+# Independently transcribed chapter 15 outstanding answers. Finite pattern rows use explicitly recorded intended elementary pattern.
+15/15.1/1	13+3;21+5;23+7;29-7	Continue intended constant-difference pattern inferred from all displayed successive differences: +3,+5,+7,-7 respectively. Finite samples alone do not force a unique arbitrary sequence.
+15/15.1/2	24*2;54*3;40*2;64*4	Continue intended constant-ratio pattern; observed successive ratios2,3,2,4 respectively. Claim concerns this elementary pattern, not arbitrary sequence continuations.
+15/15.1/3	P(2,3);P(0,3);P(1,3);P(3,2)	One-based positions modulo cycle lengths:27 mod4=3 Yellow(choice2);43 mod4=3 White(choice0);68 mod5=3 Coral(choice1);50 mod4=2 Ben(choice3). All four alternatives read and distinct each time.
+15/15.1/5	5+29*4;7+24*3;2+17*6;9+39*5	Explicit arithmetic progression nth term initial+(n-1)*difference.
+15/15.1/7	P(1,6);P(0,5);P(2,2);P(3,6)	Weekday index Monday0: Tuesday1+40=41 mod7=6 Sunday(choice1);Thursday3+30=33 mod7=5 Saturday(choice0);Sunday6-25=-19 mod7=2 Wednesday(choice2);Friday4+100=104 mod7=6 Sunday(choice3). All alternatives read.
+15/15.1/9	(10-7)/(3-2)*(10-2)+7;(21-6)/(4-1)*(9-1)+6;(9-5)/(4-2)*(12-2)+5;(19-7)/(5-2)*(10-2)+7	Stem explicitly restricts machine to affine function. Slope from first two pairs, checked on third pair16/31/17/31, then extrapolate requested input.
+15/15.2/1	2*3;4*3;5*2;18/6	Independent category choices multiply; inverse size count=orders/teas.
+15/15.2/2	5;4;3;7*11	Equal nonzero odd digits1,3,5,7,9; equal even digits2,4,6,8; nonzero multiple-of3 digits3,6,9. nth repeated-digit number=11n.
+15/15.2/4/2	10	Fixed tens4, units0..9.
+15/15.2/4/3	9*10	Tens1..9 and units0..9.
+15/15.2/4/4	9*2	Nine nonzero tens choices, units4 or9.
+15/15.2/7	2;3;4;5	Unordered distinct complementary pairs: target6 pairs(1,5),(2,4); target8 first1..3; target10 first1..4; target11 first1..5. Equal midpoint pair excluded.
+15/15.2/9	2**3;3**3;1*2**2;2**4	One allowed digit independently per position, except leading zero forbidden in0/8 variant so first forced8.
+15/15.3/1/2	8-1	Each ordinary cut through one straight carrot adds exactly one piece; no stacking implied.
+15/15.3/1/3	6	First local cut opens closed loop but does not increase number of pieces; six distinct local cuts yield six arcs.
+15/15.3/1/4	9+1	Nine separate crosscuts of one straight pole add nine pieces to original one.
+15/15.3/2	30/6+1;56/7+1;(12-1)*5;48/8+1	Straight row has one more endpoint marker than gaps; invert gap count for length.
+15/15.3/3	7-4+6-2;12-7+9-3;5+11-6+4;9-5+2-4	Track signed floor increments in given order.
+15/15.3/4/2	(6-1)*4	Six pieces from straight unstacked plank require five cuts, four minutes each.
+15/15.3/4/3	21/3+1	Seven cuts produce eight pieces of straight beam.
+15/15.3/4/4	5*6	Closed ring needs five local cuts for five separate arcs; six minutes per cut.
+15/15.3/5	-3+9-4;-8+12-5;6-15-4;-11-4+20	Right increases and left decreases signed position.
+15/15.3/6	30-(18+12-5);40-(25+18-9);28-(16+13-6);34+27-50	Inclusion-exclusion union then complement; final all members covered makes intersection sum-total.
+15/15.3/7	4*12/3;2*(16+8)/4;54/6;(30+24+18)/6	Closed border has number of posts equal to number of intervals, not one extra; all stated side lengths compatible with spacing at corners.
+15/15.3/8	(9-3)*12;(8-2)*15;(11-4)*14;60/(6-1)	Count flights as difference of floor numbers, then multiply steps per flight or invert.
+15/15.3/9	ceiling((10-3)/(3-2))+1;ceiling((15-4)/(4-2))+1;ceiling((12-5)/(5-3))+1;ceiling((20-6)/(6-4))+1	After d-1 full day-night cycles position=(d-1)(up-down); smallest d satisfying that plus up>=height. No slide after reaching top.
+15/15.3/10	3*20-2*3;4*50-3*8;(3*25-63)/2;5*60-4*5	Total lengths minus each of number-of-pieces-1 overlap joints; inverse equal overlaps.
+15/15.4/1	12-5;23-9;54/6;15+8	Reverse single addition, multiplication, or subtraction.
+15/15.4/2	(17+4)/3;(38+7)/5;(41-9)/4;(20-8)*3	Reverse the operations in reverse order; nonzero multiplier guarantees unique input.
+15/15.4/3	18/2+6;24/3+9;60/5-4;24/4+8	Undo outer multiplication before inner offset.
+15/15.4/4	(16-10)*2;(19-7)*3;(9+6)*2;(17-5)*4	Solve explicit fractional affine equation by reversing offset then division.
+15/15.4/5	9*2-8+5;13*2-14+9;17*2+11-6;(14-11+3)*2	Reconstruct pre-stop passenger count in reverse chronological order, including half remaining.
+15/15.4/6	(6+4)*2;(9+7)*2;11*2+8;(23-9)*2	Undo expenses/earnings and halving in reverse chronological order.
+15/15.4/7	36/(1+50/100);40/(1-20/100);60/(1+25/100);60/(1-40/100)	Original value is final divided by multiplicative retained/increased fraction.
+15/15.4/8	(13*2-6)/2;(32/2+5)/3;(30+4)/2-7;(45/3-9)*2	Reverse each explicitly ordered affine operation.
+15/15.4/9	(7+5)*4;(5+4)*4;7*4+6;(6*2+3)*2	Reverse successive remaining halves and fixed removals; given units remain integral.
+15/15.4/10	(27+5)/(1-20/100);(36+6)/(1-25/100);(81+9)/(1-40/100);48/(1-20/100)+8	Reverse coupon then percentage when percentage first; final variant reverses percentage then fixed discount because order changed.
+15/challenge/3	P(1,2);P(0,3);P(2,3);P(3,5)	Monday0 convention: January31 is30 days after Monday ->Wednesday(choice1); March29 is28 days after Thursday ->Thursday(choice0); June20 is19 days after Saturday ->Thursday(choice2);Thursday+100 ->Saturday(choice3). All alternatives read and unique.
+15/challenge/5	binomial(8,2);binomial(10,2);binomial(6,2);binomial(9,2)	One undirected handshake/game/chord per unordered pair of distinct participants.
+15/challenge/6	10/(6-1)*(12-1);12/(4-1)*(10-1);20/(5-1)*(9-1);42/(7-1)*(10-1)	Elapsed time first to last event contains strikes/flashes minus1 equal gaps; transfer same gap length to new event count.
+15/challenge/7	40-(22+19-6);45-(24+18-7);60-(31+26-12);30+26-(50-4)	Union by inclusion-exclusion then neither complement; inverse intersection uses union=total-neither.
+15/challenge/8	((20+12)/2+10)/2;((36+6)/2+9)/2;((40+8)/2+14)/2;(14*2+8)/4	Reverse chronological doubling and fixed expenses, or explicitly stated multiply-subtract-halve sequence.
+15/challenge/9	10*11/2;12**2;2*12*13/2;(-1+sqrt(1+8*78))/2	Triangular/square figure descriptions give standard intended shapes. Even-row can stack sum2(1+...+12). Last explicit triangular formula gives unique positive n12.
+15/challenge/11/2	(9-1)*5	Straight log into nine pieces requires eight separate crosscuts.
+15/challenge/11/3	30/6+1	Five separate cuts of a straight plank yield six pieces.
+15/challenge/11/4	9	Nine distinct local cut locations on one closed ring yield nine arcs.
+15/challenge/12	80/2**4;405/3**4;224/2**5;7	Explicit constant multiplicative sequence nth=first*r^(n-1). Last384/6=64=2^6, so term7, unique positive index.
+15/worksheet/1	6**2;2*6**2;5**3;6**2+1	Continue intended elementary square/twice-square/cube/square-plus-one patterns, each checked against all displayed terms; finite samples alone do not rule out arbitrary rules.
+15/worksheet/4	45/9+1;72/8+1;4*15/5;(11-1)*7	Straight endpoints count gaps+1; closed courtyard gaps count equals lanterns; tree separation spans ten gaps.
+15/worksheet/5	(27+5)/4;(61-7)/6;42/3+9;(20-12)*5	Undo explicitly stated affine operations in reverse order.
+15/worksheet/6/2	11-1	Unstacked straight rope needs one fewer local cuts than pieces.
+15/worksheet/6/3	8	Closed wreath first local cut opens ring; eight distinct cuts give eight pieces.
+15/worksheet/6/4	9+1	Nine separate crosscuts of one straight plank yield ten pieces.
+15/worksheet/8	32+27-50;41+34-60;19+16-28;45-(26+21-8)	Known full union gives intersection=sum-total; last union may omit members, so compute neither complement.
+15/worksheet/9	(14-6)*4;(21-9)*2/(1-1/3);(19-4+7)*2;(35-5)/(1-1/4)*2	Reverse found/bought additions, fixed giveaways, and fractional remaining amounts in proper chronological reverse order.

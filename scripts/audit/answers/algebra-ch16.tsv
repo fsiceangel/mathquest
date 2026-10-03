@@ -1,0 +1,97 @@
+# Independent function calculations and fully read semantic alternatives.
+16.1/1/2	4*6+7	Substitute machine input.
+16.1/1/3	(27-3)/4	Solve4x+3=27.
+16.1/2/3	12+5	Solve12-x=-5.
+16.1/2/4	15-20	Substitute points lost20.
+16.1/3/3	-5	Inputs solve x^2=25, hence+-5; only-5 offered among15,25,-5,10.
+16.1/3/4	2*(-3)**2-1	Square negative input before doubling.
+16.1/4	P(3,1);P(0,8);P(1,2);P(2,1)	Function has exactly one output per domain input, so repeated3 still8. R3 only choice1 assigns same2 both7 and9; others different inputs may share output. R4 yes: sharing output is allowed without invertibility/opposite-input conditions.
+16.1/5/4	6*n-5	Apply multiplication before subtraction.
+16.1/6/4	(2*x)**2	Square entire input2x.
+16.1/7	P(3,5);P(0,-4);3;P(2,8)	Exclude precisely denominator zero:5,-4,3,8 respectively. Read all domain choices including whole-number restriction r4; neither sign restriction nor other exclusions justified.
+16.1/8/3	P(2,8)	8-x>=0 iff x<=8, endpoint allowed; other choices reverse direction/wrong bound/exclude endpoint.
+16.1/8/4	2	Domain2x-6>=0 isx>=3; choices3,4,10 legal and2 illegal.
+16.1/9/3	P(2,2)	3x^2>=0 with equality atx0 so minimum2. Other alternatives0,5,no minimum all false.
+16.1/9/4	P(3,4)	4-x^2 ranges(-infinity,4], all y<=4 and every such y attained. Other choiceswrong direction,allreals,nonnegative.
+16.1/10/4	10-4	Map10-x is involution; three applications equal one, so10-n=4.
+16.2/1/3	(x+7)+(3*x-2)	Pointwise sum.
+16.2/1/4	(6-x)+(5*x-6)	Pointwise sum.
+16.2/2/4	5**2+2*5	Combine material and labor costs at5.
+16.2/3/4	9*x-(4*x+6)	Subtract all of second expression.
+16.2/4/4	(5+2)*(2*5)	Positive rectangle dimensions7 and10 multiply.
+16.2/6/4	P(3,x*(x+6))	Products of four pairs are6x^2,6x^3,x^2+5x+6,x^2+6x; only fourth target.
+16.2/7/4	3+5	Quotient simplifiesx-5 but retains exclusionx=-5; solve x-5=3 gives8 legal.
+16.2/8	P(1,3);P(0,4);P(2,5);P(3,7)	Denominators factor(x-3)(x+3),(x-4)(x+4),x(x-5),x-7. Read all choices: exclude exactly+-3,+-4,0and5,7 respectively; numerator zeros do not restrict domain.
+16.2/9	(5*x+2)-(2*x-1);(7*x-1)-(3*x+4);(6*x+5)-(x-2);(5*x+4)-(2*x+9)	Solve pointwise sum/difference identity for unknown function with correct subtraction order.
+16.2/10	P(0,2);P(1,5);P(2,1);P(3,3)	Zero sets of x(x-2),x(x-5),x(x-1),(x-3)(x+3) are{0,2},{0,5},{0,1},{-3,3}. Every alternative read: unique complete root set each.
+16.3/1/2	3*2+4	Inner tripler then adder.
+16.3/1/3	4*3-5	Inner q then p.
+16.3/1/4	2*5-7	Inner doubler then subtraction7.
+16.3/2/4	3*(7-3)	First subtract3 then triple.
+16.3/3/2	5*(x-3)	Substitute entire inner expression.
+16.3/3/4	4*(x-1)	Substitute f into g.
+16.3/4	P(3,11,12);P(0,14,18);P(1,8-4);P(2,16,10)	Compute both orders:2*5+1=11 vs2*(5+1)=12;3*4+2=14 vs3*(4+2)=18;2*6-4=8 vs2*(6-4)=4 so first larger4;(3+1)^2=16 vs3^2+1=10. Read all alternatives including both-equal distractors.
+16.3/5/2	(2-5)**2	Inner shift then square.
+16.3/5/4	(2*(-4)+3)**2	Inner affine output-5 then square.
+16.3/6/2	3*x**2+2	Outer3u+2 substitutesu=x^2.
+16.3/6/3	(x+3)**2	Outer square substitutes innerx+3; algebraic equality checked for expanded choices.
+16.3/6/4	(4*x)**2-2	Square whole inner4x then subtract2.
+16.3/7/2	3*(3*4-2)-2	Apply same affine rule twice.
+16.3/7/4	2*(2*1+3)+3	Apply same affine rule twice.
+16.3/8	P(3,(x+5)**2);P(0,(x-6)**3);P(1,1/(x+4));P(2,(x+9)/4)	Read all pairs and substitute: r1 wrong outputsx^2+5,x^2+25,5(x+1)^2; r2 wrongx^3-6,x^3-216,(6-x)^3; r3 wrong1/x+4,1/x+4,1/(x+8); r4 wrongx/4+9,x/4+9,(x-9)/4. Correct pair domains match target, r3 x!=-4.
+16.3/9	3*x+4;4*x+3;4*x+2;5*x-7	Solve affine coefficient equations: f(2x+1)=6x+7;f(3x-2)=12x-5;2g(x)-3=8x+1;f(x+4)=5x+13.
+16.4/1/3	x-12	Undo addition12.
+16.4/2/4	x/8	Undo scaling8 by division8.
+16.4/3/3	(34-4)/5	Solve5input+4=34.
+16.4/4	P(2,x);6;P(1,x);P(3,1)	Inverse cancels original on respective domains. R1 x, r2 original6, r3 identity precisely on inverse domain. R4 only fourth says run backwards; other choices multiply by-1,reciprocal output,shift graph down1 all wrong.
+16.4/5/4	5*x+3	Undo stated inverse subtract3 then divide5.
+16.4/6	P(0,1);x**4;P(2,0);P(3,5)	R1 noninjective because+-1 share1; fast growth/nonnegative output alone not reason, defined0. R2 onlyx^4 noninjective, remaining affine slopes nonzero. R3 restrictx>=0 makes square injective; other exclusions leave opposite pairs. R4 output5 from inputs1,3 makes inverse multivalued; table need not include0 or constant differences.
+16.4/7/4	2*s+4	Solve share s=(d-4)/2 for d.
+16.4/8	5-x;12-x;1/x;-x	Compose each alternative twice: correct reflections/reciprocal give identity. Other affine candidates nonunit second iterate, x^2 givesx^4,x^3 givesx^9,3-2x gives4x-3. Reciprocal restricted nonzero as stated.
+16.4/9/3	(((59+1)/4)+1)/4	Inverse f is(u+1)/4; apply twice.
+16.4/9/4	(((22-1)/3)-1)/3	Inverse f is(u-1)/3; apply twice.
+16.4/10	5+(7-5)/(2-1)*(3-1);9+(15-9)/(4-2)*(5-2);1+(21-3)/(11-3)*(5-1);-4+(6+4)/5*3	Translate inverse point into original graph pair then linear interpolation/extrapolation; r3 solves inverse at21.
+16.5/1/2	16	Read given table g(3)=16 directly, no extrapolation assumption.
+16.5/2/2	3	Given r(3)=22; other listed inputs outputs8,15,29.
+16.5/2/3	P(0,6,8)	Read all table entries: inputs6and8 yield9,inputs5and7 yield2and4. Alternatives9only,5and7,6only fail exact preimage.
+16.5/3	2+3*(4-1);3+5*(5-2);20-4*(4-1);10+7*(6-3)	Iterate additive recurrence integer number of steps.
+16.5/4/2	5*x-1	Check at0,1,2,3 yields-1,4,9,14; all choices compared as formulas, no uniqueness claim among arbitrary interpolating functions.
+16.5/4/4	20-3*x	Check at0,1,2,3 yields20,17,14,11; all listed rules checked.
+16.5/5	6/2+5;12/3+7;5-8/2;3*(10-4)	Solve inner input equation to evaluate supplied identity at requested argument.
+16.5/6	2+3*(10-1);5+6*(12-1);9+4*(20-2);40-3*(11-1)	Additive recurrence: start value plus step count times increment.
+16.5/7	3*4;4*5;3*6;12/3	Additivity on repeated integer sums suffices; no continuity or global linearity assumed.
+16.5/8	6*(5/2)-2;8*(7/2)+3;9*(4/3)-6;4*(5+1)	Substitute argument-solving value into global functional identity.
+16.5/9	1+2*3+1+3;2+2*5+2+5;3*3+5*4;((4-10)-4)-(4-10)	Explicit recurrence sequences:1,3,4,7,11;2,5,7,12,19;3,4,7,11,18,29;10,4,-6,-10,-4.
+16.5/10	3*2**3;5*2**3;4*3**3;96/2**4	Count stride steps:1to7 by2=3;1to10 by3=3;2to8 by2=3;1to9 by2=4.
+16.6/1	2*3+2**2;3*4+5**2;6**2-3*4;5*2-6**2	Replace first and second slots exactly in given operation.
+16.6/2	2*2+3**2;3*5+4**2;4**2-3*6;5*6-2**2	Reversed arguments still use ordered definition.
+16.6/3	5*4-5;7*3+3;9*5-5;2*4*6-6	Substitute operation parameters.
+16.6/4	2*(2*1+2**2)+3**2;3*(3*2+1**2)+2**2;(4**2-3*2)**2-3*3;5*(5*3-1**2)-2**2	Evaluate parenthesized operation first, then use its value as first argument.
+16.6/5	((7+3)/2+9)/2;((10+2)/2+8)/2;(12+(4+8)/2)/2;P(2,14,10)	Average operations follow grouping; r4 ((4+12)/2+20)/2=14 and(4+(12+20)/2)/2=10 disproves associativity. Other alternatives wrong values or false equality.
+16.6/6	P(2,6,5);P(0,1);P(3,-5,1);P(1,13,11)	R1 pair1,2 gives6 vs5. R2 a^2+b^2 symmetric; a^2-b^2,2a+3b,a/b fail swap on1,2. R3 1^2-3*2=-5,2^2-3*1=1, so only fourth correct. R4 3+2*5=13,5+2*3=11; only second correctly states/proves noncommutativity.
+16.6/7	sqrt(24-2*4);sqrt(31-3*2);(7**2-25)/3;sqrt(5*8-4)	Solve operation equation; positive-number restriction selects positive square root for r1,r2,r4.
+16.6/8	(1*2+1+2)*3+(1*2+1+2)+3;(1*3+2*1+2*3)*2+2*(1*3+2*1+2*3)+2*2;(4*3-4-3)*2-(4*3-4-3)-2;2*(2*2*1+1)*3+1	Expand nested operation using exact ordered definition twice.
+16.6/9	(25-3**2)/2;(34-4**2)/3;(11+3**2)/5;(30+6)/6	Solve linear equation in first argument.
+16.6/10	(2**2-3)**2-(3**2-2);(4**2-1)**2-(1**2-4);2*(2*3-2**2)-(2*2-3**2)**2;(3-1**2)-(1-3**2)**2	Compute both inner results then outer operation with parentheses retained.
+challenge/1/3	(3*(-1)-(-1)**2)-(3*(-5)-(-5)**2)	Requested signed difference first output minus second.
+challenge/1/4	P(3,-3,22)	At-3 output9+12+1=22; at5 output25-20+1=6; first input larger. All input/output pair alternatives read.
+challenge/2/4	(6*4-2)/2+4	Inner s then outer r.
+challenge/3/2	(7+8)/3	Solve7-3x=-8.
+challenge/3/4	4*(4*2+1)+1	Inverse4u+1 applied twice.
+challenge/4	3*2**4;4*3**4;96/2**4;2*(2*(2*1+1)+1)+1	Iterate forward/backward stated recurrence; final affine recurrence explicitly evaluated3,7,15.
+challenge/5	x+3;x+4;2*x+4;P(3,(x+2)*(x-5),-2)	Polynomial identity plus stated linear/quadratic class removes isolated-point ambiguity. Factor products; r4 f=(x+2)(x-5)=x^2-3x-10 but original quotient excludes-2. Every alternative checked for both polynomial and exclusion.
+challenge/6	(3*4-3-4)*2-(3*4-3-4)-2;(5+2*2-5*2)+2*3-(5+2*2-5*2)*3;4**2-2*(5**2-2*3);(20+4)/(2*4)	Substitute ordered operations; final solve8x-4=20.
+challenge/8/2	P(0,-4,1)	Radicandx+4>=0 and denominatorx-1!=0 gives[-4,infinity) except1; all four domain alternatives inspected.
+challenge/8/3	P(2,-3,3)	(x-3)(x+3)>=0 givesx<=-3 orx>=3 including endpoints; other alternatives miss left branch or include forbidden center.
+challenge/8/4	P(3,4)	Denominator square root must be strictly positive:4-x>0 givesx<4; choices<=4,>4,all except4 fail.
+challenge/9/4	1	f reaches1 only at4; g reaches4 only at1; exact table composition preimage.
+challenge/10	(4*x+9-1)/2;(6*x+7+2)/3;5*x+8;3*x-1	Invert known affine function to solve chain; r3 replace x byu+4. R4 listed3x-1 squares to9x^2-6x+1, other offered functions fail; no uniqueness among unlisted negative branch asserted.
+challenge/11	P(1,sqrt(3*x+1));P(0,1/(2*x-5));P(2,(4*x-3)**2+1);P(3,3*(x-1)**2-4)	All composition alternatives read. R1 correct sqrt outer affine inner, wrong3sqrt(x)+1,sqrt(3x+3),3sqrt(x+1); r2 wrong2/x-5,1/(2x-10),1/(2x)-5; r3 wrong4x^2+1,(4x-2)^2,4(x+1)^2-3; r4 wrong3x^2-5,3x^2-7,9(x-1)^2-4. Correct natural domains coincide with targets.
+challenge/12	2+7;1+6-4;-2+5-8;-1	Affine involution ax+b requiresa^2=1 andb(a+1)=0. Given nonidentity point forcesa=-1, so f(t)=sum(input,output)-t. Last b8 forcesa=-1.
+worksheet/1/4	9-2*(-3)	Substitute negative input.
+worksheet/4/2	V(3*(2+4),3*2+4)	Compute both composition orders separately.
+worksheet/5/3	2*(x-6)	Undo addition6 then division2.
+worksheet/6	4**2+2*5;2*5**2-8;2*3*5+3;4*7-19	Substitute first three operation definitions; final solve28-x=19.
+worksheet/7	4+5*19;3+7*14;50-6*8;100-4*11	Additive recurrence with correctly signed step count; third run backward10to2.
+worksheet/8	2*x-1;3*x+4;2*x+2;3*x-5	Solve coefficient identity for missing affine function.
+worksheet/9	N(2*3+3,3*2+2);N(5*4-1,5*1-4);N(5**2-3**2,3**2-5**2);N(2*1+3*6,2*6+3*1)	Calculate both ordered examples; unequal results prove operation not commutative, including required verbal conclusion.

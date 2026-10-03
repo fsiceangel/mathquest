@@ -1,10 +1,13 @@
-import { useEffect, useRef, useState } from 'react'
-import { saveResult, starsFor, getRound, bumpRound } from '../lib/storage.js'
+import { useEffect } from 'react'
+import { saveResult, starsFor, getRound } from '../lib/storage.js'
+import { useAttempt } from '../lib/use-attempt.js'
 import { versionCount, versionSet } from '../lib/variants.js'
 import { M } from '../lib/math.jsx'
 import { BackLink, ProgressRing, StarBar, Confetti } from '../components/ui.jsx'
 import { Check, Cross, Bulb, ArrowRight } from '../components/icons.jsx'
 import { Fig } from '../components/Fig.jsx'
+import { AnswerEntry } from '../components/AnswerEntry.jsx'
+import { isCorrectAnswer } from '../lib/answer-entry.js'
 
 const END_MESSAGES = {
   3: 'Outstanding! You have mastered this one.',
@@ -13,13 +16,12 @@ const END_MESSAGES = {
   0: 'Every mathematician starts somewhere. Revisit the lesson and come back — you have got this!',
 }
 
-function Results({ correct, total, storageId, onRetry, backHref, isChallenge, freshNext }) {
+function Results({ correct, total, storageId, attemptId, advanceRound, onRetry, backHref, backLabel, isChallenge, freshNext }) {
   const pct = Math.round((correct / total) * 100)
   const stars = starsFor(pct)
   useEffect(() => {
-    saveResult(storageId, correct, total)
-    bumpRound(storageId)
-  }, [storageId, correct, total])
+    saveResult(storageId, correct, total, { attemptId, advanceRound })
+  }, [storageId, correct, total, attemptId, advanceRound])
   return (
     <div className="results">
       {stars >= 2 && <Confetti />}
@@ -37,7 +39,7 @@ function Results({ correct, total, storageId, onRetry, backHref, isChallenge, fr
           Try again
         </button>
         <a className="btn btn-ghost btn-lg" href={backHref}>
-          Back to chapter
+          {backLabel}
         </a>
       </div>
       {isChallenge && stars === 3 && <p className="results-extra">Chapter conquered. On to the next adventure!</p>}
@@ -45,53 +47,46 @@ function Results({ correct, total, storageId, onRetry, backHref, isChallenge, fr
   )
 }
 
-export default function QuizView({ title, subtitle, problems: base, storageId, backHref, learnHref, isChallenge }) {
-  const [round, setRound] = useState(() => getRound(storageId))
-  const [idx, setIdx] = useState(0)
-  const [picked, setPicked] = useState(null)
-  const [correctCount, setCorrectCount] = useState(0)
-  const [done, setDone] = useState(false)
-  const versions = versionCount(base)
-  // A chapter's variations arrive asynchronously, so the version set can change
-  // under us. Swapping problems is fine before the first answer and jarring
-  // after it, so once a run is under way we hold on to what we handed out.
-  const held = useRef(null)
-  const started = idx > 0 || picked !== null
-  if (!started || !held.current) held.current = versionSet(base, round)
-  const problems = held.current
+export default function QuizView({ title, subtitle, problems: base, storageId, backHref, backLabel = 'Back to chapter', learnHref, isChallenge, onNewSet, rotateVersions = true }) {
+  const round = getRound(storageId)
+  const versions = rotateVersions ? versionCount(base) : 1
+  const session = useAttempt(storageId, 'quiz', () => versionSet(base, rotateVersions ? round : 0), { round })
+  const { problems, attempt, update } = session
+  const idx = attempt.index, done = attempt.done
+  const picked = attempt.answers[idx]
+  const correctCount = problems.filter((p, i) => isCorrectAnswer(p, attempt.answers[i])).length
   const total = problems.length
   const problem = problems[idx]
 
   function pick(i) {
     if (picked !== null) return
-    setPicked(i)
-    if (i === problem.answer) setCorrectCount((c) => c + 1)
+    update(a => ({ ...a, answers: a.answers.map((answer, index) => index === idx ? i : answer) }))
   }
 
   function next() {
     if (idx + 1 < total) {
-      setIdx(idx + 1)
-      setPicked(null)
+      update(a => ({ ...a, index: idx + 1 }))
     } else {
-      setDone(true)
+      update(a => ({ ...a, done: true }))
     }
   }
 
   function retry() {
-    held.current = null
-    setRound(getRound(storageId))
-    setIdx(0)
-    setPicked(null)
-    setCorrectCount(0)
-    setDone(false)
+    session.reset()
+    if (onNewSet) onNewSet()
   }
 
-  const isCorrect = picked !== null && picked === problem.answer
+  if (!session.ready) return <main className="page page-narrow">
+    <BackLink href={backHref}>{backLabel}</BackLink>
+    <p role="status">{session.error ?? 'Loading your saved practice…'}</p>
+    {session.error && <button className="btn btn-accent" onClick={session.retryLoad}>Try loading again</button>}
+  </main>
+  const isCorrect = isCorrectAnswer(problem, picked)
 
   return (
     <main className="page page-narrow">
       <div className="quiz-top">
-        <BackLink href={backHref}>Back to chapter</BackLink>
+        <BackLink href={backHref}>{backLabel}</BackLink>
         <div className="quiz-title">
           <p className="eyebrow">{subtitle}</p>
           <h1>{title}</h1>
@@ -101,39 +96,48 @@ export default function QuizView({ title, subtitle, problems: base, storageId, b
           role="progressbar"
           aria-valuemin={0}
           aria-valuemax={total}
-          aria-valuenow={done ? total : idx + (picked !== null ? 1 : 0)}
+          aria-valuenow={attempt.answers.filter(answer => answer !== null).length}
           aria-label="Quiz progress"
         >
           {problems.map((_, i) => (
             <span
               key={i}
               className={
-                'seg' + (i < idx || done ? ' seg-done' : i === idx && picked !== null ? ' seg-done' : i === idx ? ' seg-now' : '')
+                'seg' + (attempt.answers[i] !== null ? ' seg-done' : i === idx ? ' seg-now' : '')
               }
             />
           ))}
         </div>
       </div>
 
+      <p className="results-note" role="status">{session.saveFailed
+        ? 'This browser could not save your progress. Keep this page open until you finish.'
+        : session.changed ? 'This practice was updated. Your unchanged answers are saved; please revisit the changed question.'
+        : 'Your answers save on this device. You can leave and come back to continue.'}</p>
+
       {done ? (
         <Results
           correct={correctCount}
           total={total}
           storageId={storageId}
+          attemptId={attempt.token}
+          advanceRound={rotateVersions}
           onRetry={retry}
           backHref={backHref}
+          backLabel={backLabel}
           isChallenge={isChallenge}
           freshNext={versions > 1}
         />
       ) : (
         <div className="q-card" key={idx}>
           <div className="q-chips">
+            {problem.calibration?.scope === 'extension' && <span className="chip chip-quiet">Optional extension</span>}
             <span className="chip">
               Question {idx + 1} of {total}
             </span>
             {versions > 1 && (
               <span className="chip chip-quiet" title="Each attempt serves a different set of numbers">
-                Version {(round % versions) + 1} of {versions}
+                Version {(attempt.round % versions) + 1} of {versions}
               </span>
             )}
           </div>
@@ -141,7 +145,18 @@ export default function QuizView({ title, subtitle, problems: base, storageId, b
             <M>{problem.q}</M>
           </h2>
           {problem.fig && <Fig fig={problem.fig} />}
-          <div className="choices">
+          {problem.answerEntry ? <AnswerEntry
+            key={problem.calibration?.id ?? problem.id ?? `${storageId}-${idx}`}
+            problem={problem}
+            value={attempt.inputs?.[idx] ?? ''}
+            answer={picked}
+            correct={isCorrect}
+            onChange={value => update(a => ({
+              ...a,
+              inputs: problems.map((_, i) => i === idx ? value : (a.inputs?.[i] ?? '')),
+            }))}
+            onSubmit={pick}
+          /> : <div className="choices">
             {problem.choices.map((choice, i) => {
               let cls = 'choice'
               if (picked !== null) {
@@ -151,7 +166,7 @@ export default function QuizView({ title, subtitle, problems: base, storageId, b
               }
               return (
                 <button key={i} className={cls} onClick={() => pick(i)} disabled={picked !== null}>
-                  <span className="choice-letter">{'ABCD'[i]}</span>
+                  <span className="choice-letter">{'ABCDE'[i]}</span>
                   <span className="choice-text">
                     <M>{choice}</M>
                   </span>
@@ -162,7 +177,7 @@ export default function QuizView({ title, subtitle, problems: base, storageId, b
                 </button>
               )
             })}
-          </div>
+          </div>}
 
           <div aria-live="polite">
             {picked !== null && (

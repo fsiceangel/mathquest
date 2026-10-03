@@ -1,0 +1,3531 @@
+{
+  "reviewedAt": "2026-10-02",
+  "scope": "8 sections, every slot and all four versions",
+  "reviewedVersions": 320,
+  "method": "Read every stem and all answer choices independently. 228 versions additionally verified by exact SymPy expansion/cancellation or equation solving, including unique-match checks. 92 versions independently checked by finite sums, sign/exponent comparison, exact cross products, positive squaring, slope/intercept formulas and explicit counterexamples. This receipt covers key correctness and fill-in suitability, not every prose sentence or visual.",
+  "hashFormat": "SHA256(JSON.stringify([q,choices,answer,solution,fig]))",
+  "findings": [],
+  "domainNotes": [
+    "Rational-expression identities in section4.4 are valid on the domain of the original expression; zero denominators are excluded implicitly.",
+    "Formula rearrangements involving division assume divisor nonzero; this is conventional in existing physical contexts, but explicit nonzero wording would improve clarity."
+  ],
+  "sections": [
+    {
+      "id": "intro-algebra/2/2.2",
+      "reviewedVersions": 40,
+      "decision": "retain-current-choices",
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change.",
+      "slots": [
+        {
+          "id": "intro-algebra/2/2.2/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable monomial sums.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.2/1/1",
+              "sha256": "b4e0a45cc0076bf0d78303c79ccb3581537f0a8db132c717f6da27eebf5ed4f6",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*x",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.2/1/2",
+              "sha256": "03e1a5726385bf52c8fe350d1041e0a90b76b99797c7b84b7685d22b02c4151e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "13*y",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.2/1/3",
+              "sha256": "e1c475f39e51f116432358fb16f602df299cbc259b4fa0733f1ef9aa7a7a9cfe",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "15*m",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.2/1/4",
+              "sha256": "2b59d9a3e5ddeff40be73d116432c63761eec70b598a728b0b3db2995b903a99",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "17*p",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.2/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable monomial sums/differences.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.2/2/1",
+              "sha256": "2c8a77ff41743366a102713efc393281044a08fbdd7aaaac4fadb2a0eff31b08",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*y",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/2/2.2/2/2",
+              "sha256": "5a195db79d739218ef0b5fecc3cfb1bd2bf1e0fd9d5dd786f38cec7ce11fc6d1",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*m",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.2/2/3",
+              "sha256": "51487efd240b41f9c72a568f510e0ae318425b3aeb88792ff273d58764f864b4",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*k",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.2/2/4",
+              "sha256": "1c79342b0dd68af992bb1b55241782a3f392cd4632ac2d138701db8007b8f3ce",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "-3*b",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.2/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Two-term variable expressions.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.2/3/1",
+              "sha256": "8d6b82ceb610cb08bd2a94e8e04a36b316abfc350f58760735baa356c526248f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*x + 2",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.2/3/2",
+              "sha256": "7794520c35fe4531e549ce8a093eca895524bbf3d56cae4feeedb654d4f7d18f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*x + 8",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.2/3/3",
+              "sha256": "ece4febe2497caf223d7bd35e366dfb4126ccdd0a5c6341e9b01d74cbf1a79fa",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "9*n + 5",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.2/3/4",
+              "sha256": "0545794971ef3049ebf88bcbaf5dbca0e0f78287c9470759b6d76e3a92246340",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "7*c - 4",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.2/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Scalar times variable monomial.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.2/4/1",
+              "sha256": "3dee03010f81b0156c0db22b573e019a69fece07d1cd55726acd2735aae96462",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "15*x",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.2/4/2",
+              "sha256": "ed9e9613e5c4a67927c36ec5d7da634ac6b9029da2b7afbcef8612ed16a4bae1",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "24*x",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.2/4/3",
+              "sha256": "b2a5a3658666492dd99a0f998d515a0f1a2de8147d136901dc9a79f2608e640e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "14*w",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.2/4/4",
+              "sha256": "c8e28bd6ccb5647a976b8ff88a87311619ac2954d1a2e781a8329752f8765faa",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "72*z",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.2/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable expression including a constant.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.2/5/1",
+              "sha256": "c7deaec663838cfdf8582c63f92749d8126eb9d202d04d4b45451322415b28d9",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "7*x + 2",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/2/2.2/5/2",
+              "sha256": "479319e1fa95cc32b148e31c6f4094903c4fe84f239e2f8b8e0035248280e2a5",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*y + 5",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.2/5/3",
+              "sha256": "eb0e270df671e2dca8b4d68b8553317fb7a3a2738934bd2707a145b3fb977606",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "10*t + 9",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.2/5/4",
+              "sha256": "10e9d18959a59f7f62f59d5c274ffd53fea6f428549d4deb2f5248cc32d30f1e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "7*g + 8",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.2/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "Two-variable expressions.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.2/6/1",
+              "sha256": "62a39a9ffe2d925fe0c8d055f7e4424af488d3497cb04570dafe68d4ecbfbbdb",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*a + 4*b",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.2/6/2",
+              "sha256": "becd99d010c99b6ff4ca62ea7dc87eaf9d4ad3a1ae5f43f74e253474f5e60cf9",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*p + 7*q",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.2/6/3",
+              "sha256": "181c786fef68e8e03ea075a601bfe812c73eb1c1b8340c53235b7a32c6cb27e6",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*m + 5*n",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.2/6/4",
+              "sha256": "5413fb0fe5473e6a0953e0a1ba7366ab42832e7db944139f2bedaab49c87e9ca",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "9*y",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.2/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Like-term pairs or expression classification.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.2/7/1",
+              "sha256": "a8729df53715adbc68fded44d2f89ae4ed8dbb6bf7512fcb6d156c2f55c58244",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Like terms require identical monomial variable/exponent parts. Last option has unlike terms 7d and 7; other expressions collect to one monomial.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.2/7/2",
+              "sha256": "b489410463c76a3f4b4c3ace30bb77345d82dc33aa0620ebb7a23f6dac1bf01d",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Like terms require identical monomial variable/exponent parts. Last option has unlike terms 7d and 7; other expressions collect to one monomial.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.2/7/3",
+              "sha256": "5c4c9e59264a3c685dee51b8fff87782cf135b1256fb8312dd09045208a1d0cc",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Like terms require identical monomial variable/exponent parts. Last option has unlike terms 7d and 7; other expressions collect to one monomial.",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.2/7/4",
+              "sha256": "90841eeeb549c19f2c2350b9a702f8d23f15eccfbfbc3524ae78e4bc054b3d46",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Like terms require identical monomial variable/exponent parts. Last option has unlike terms 7d and 7; other expressions collect to one monomial.",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.2/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable expression with constant.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.2/8/1",
+              "sha256": "5fc1abd566690deffd14994fe23fa3c75532fe41d4d35f231cfecfc621c9ccac",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*x - 5",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.2/8/2",
+              "sha256": "eb131aa2e1c7b0aa79ad153b1dc8e616228c8e092dabe579d80453aa0bfcaedf",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "9*y - 9",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.2/8/3",
+              "sha256": "9e2ea9f0f8dc54b262adf71889919368bac86105f17545642212ad98b3ed8a34",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*k - 13",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.2/8/4",
+              "sha256": "66f07880c9accd1be75ddd7af12fd25081652712edaab927ef57d769c06ff44f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6 - 5*z",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.2/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "Symbolic perimeter expression.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.2/9/1",
+              "sha256": "ab2be10529afa6254dade506aa15cadfe13faf6fc02a6605e0f729c9876730d7",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*x + 2",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.2/9/2",
+              "sha256": "e2ac4ab8f31f6c0a7780c69da88193da308b7799a8fad743e8d3fec7187a76b8",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*x + 4",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.2/9/3",
+              "sha256": "0bee20a3bdf05707f162ab82b3fa0eb4c8d5a5f8769f7cce7e322ae8b175c3f6",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*x + 5",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.2/9/4",
+              "sha256": "81838b9da07c0735c5b492118df95093cbdf917be15caf5d349e8733c3b94e63",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*y + 12",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.2/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "First three versions ask expressions; only version4 asks numeric coefficient210.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.2/10/1",
+              "sha256": "7d14d54a632ac0eede5ed6356e8b60c869e03e7a17815ad94463b65ad7703c26",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "55*x",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.2/10/2",
+              "sha256": "efd2e0c7d44313a9826f6650e0396e9f42cfc0185a196a1bf28e0a5c8918d18a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "78*y",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.2/10/3",
+              "sha256": "1d27ebaed186b8d2f50cfacb99a576cc681b78567f80d38d363ab97fe2b79ef5",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "110*n",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.2/10/4",
+              "sha256": "0022601d61586017d7e816c1e2faa243dcc7d93aaf6e0537f4ad0e9f0a206b83",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "210",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        }
+      ],
+      "safeSlots": []
+    },
+    {
+      "id": "intro-algebra/2/2.3",
+      "reviewedVersions": 40,
+      "decision": "retain-current-choices",
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change.",
+      "slots": [
+        {
+          "id": "intro-algebra/2/2.3/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "Expanded variable expression.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.3/1/1",
+              "sha256": "5045eddc5ecbc51dc176db3233c8b2fc0d9f752224e6ed2434ae8e3def99f599",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*x + 12",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.3/1/2",
+              "sha256": "921a7b022e50186cccb77e221c4fb993cb206de36244ec6f2957df67df657dbf",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*x + 15",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.3/1/3",
+              "sha256": "2e94a962cb2767419d1a0c78ec86f2462cae90b3600a53e42a5fb71733be2085",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*y + 42",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.3/1/4",
+              "sha256": "74c1a315579b478be453d9136d4998afb91d7a56e9cba782cb34fcdba7a1e6a7",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*x + 36",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.3/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "Expanded variable expression.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.3/2/1",
+              "sha256": "955b5378811b5e0f82af68db714a1057f2bb5662c98f88e3d8aff879491d2e0f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "10*x - 6",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.3/2/2",
+              "sha256": "c5a00e6948245b5ff63d1ed29afe19279a7b16da79221c431c2ce3b929e8f1a7",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "12*x - 15",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.3/2/3",
+              "sha256": "002bec1fcafb1b4eda2e4fc008d8e542011472c15833ed834779ad3f9b45393f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*y - 28",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.3/2/4",
+              "sha256": "7597557d20a86b6edacbaf90646b33bad159aa5e9d683946f2ef008e81cb1dd7",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "18*x - 12",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.3/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable expression after sign distribution.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.3/3/1",
+              "sha256": "46c8e3d6eed433fabe178f66e0b5a74eb4a33ce544d261c6f5917c512268575a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*x + 3",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/2/2.3/3/2",
+              "sha256": "4b7f17f88302593124938b7c524c50b5ceecd52976f103440b0a1bf006376cc1",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*y + 5",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.3/3/3",
+              "sha256": "044483b497031a73cfe6135d59b6374e6c6a0711dd06aa4e8053b9fdcc958e4b",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*x + 4",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.3/3/4",
+              "sha256": "03c1a96f81eeb5f2b9504df81795a8f482603d71a798c92744260931f57b075e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*a + 6",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.3/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Factored variable expression.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.3/4/1",
+              "sha256": "b73534981466167dd0fb5129023f08042311d9a4cee3e822bdc7006837951e44",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*x + 9",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.3/4/2",
+              "sha256": "d7db55641184521e87b5663859a8e74af1cfb50451ab9a7e219ea08f3954cb52",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "10*x + 25",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.3/4/3",
+              "sha256": "20cd04857841924ffe59b1907a8dc4e7d94d2a2f0eca558d36091e944c65349d",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "14*x + 21",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.3/4/4",
+              "sha256": "ab6905f111d20199baa5a3f59f35b02b4dcaa2865413548eee90972f94728fe3",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*y + 20",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.3/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Expanded negative product.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.3/5/1",
+              "sha256": "caba2b38d6e58c292b090b713eb14dc8b7a1b5e60819e3cd487eaf37d17fa45c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8 - 4*x",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.3/5/2",
+              "sha256": "41cbb54eb8c9181057d0c49e057fee18690af6a3bd556c1155453da36864c896",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "15 - 3*x",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.3/5/3",
+              "sha256": "fa3f9fe8618a1ad1420b1589bb8f4da8ab2676e1a1b33ae7c1621101fa56a4e3",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "18 - 12*x",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.3/5/4",
+              "sha256": "8fee4156263121d4aef24caeda993e78cd5c46a791b35a6f90fae1cc51b2d465",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "20 - 5*y",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.3/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable expression after distribution and addition.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.3/6/1",
+              "sha256": "20caccfdeea7ab61a960428f1edd9b735d68b018e681c7f3194786abed77d2a1",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*x + 9",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.3/6/2",
+              "sha256": "e67501b8352f19df90eba488f827d482932feeea44fccb7b7b485f0cf9728df4",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*x + 17",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.3/6/3",
+              "sha256": "ab817fa4055b9b5573581f3a9171ac13b866925ac25924632a7b844cc2ad53c3",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "10*x + 23",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.3/6/4",
+              "sha256": "73701e4a540cfd164be0747af38f6a956e25f28975beaa5a70734acc62218d07",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*x + 16",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.3/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Factored polynomial, with required factorization form.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.3/7/1",
+              "sha256": "a675d997f4cf6207443b058aaea85e9bb42cb74a570d8f0b1c7d20019d13af38",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*x**2 + 6*x",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.3/7/2",
+              "sha256": "2c81a4ca695e7b226536a9c1a19d081beb1522f9c67636dbb142ce2d465f5b3c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*x**2 + 9*x",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.3/7/3",
+              "sha256": "32cc38e3a5a68b7da06e93a65eca8123533d7d8ce7cea7499904584b5781876f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "9*y**2 + 6*y",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.3/7/4",
+              "sha256": "3bd7f943f823604265d1b40494dc6464f1757582c2e3742be0c58f76a85b8daa",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "12*x**2 + 8*x",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.3/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable expression after subtracting parentheses.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.3/8/1",
+              "sha256": "a8cd166ab98eba025728dbacad2acb91a363a7c1e5830e14ef9cf2262b243ce0",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*x - 7",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/2/2.3/8/2",
+              "sha256": "35270df0129e385bcf944e6b550813304119666f601fdda0140b27effa0e6321",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*x - 8",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.3/8/3",
+              "sha256": "3621a880bfb2de9cb94d0eca170378adda66d2a322578a539f49d0a83b93ebd6",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "7*y - 10",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.3/8/4",
+              "sha256": "9f9f80da42bf7c724e1d88301c76622f8b63236681e94894465dd8b410be7ec3",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*a - 10",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.3/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "Expanded and collected variable expression.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.3/9/1",
+              "sha256": "4a4937c9674004898cac16add6afcb5548b997fa49649bc1f7c365b2f54e0cac",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*x + 11",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.3/9/2",
+              "sha256": "a9026b3d9b07de9070d2dbed6072b2f455d968fca278a5d6a9c4d2e311d5671d",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "9*x + 23",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.3/9/3",
+              "sha256": "9b34b96341a29abd1f918c0282586f1d33df10028d782d864e45d24b2519d8d7",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*x + 27",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.3/9/4",
+              "sha256": "7b972770d1dd9ced1c2e643ac58867916fe477345e3650adae3726cd815d55ad",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*x + 16",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.3/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "Factored polynomial, with required factorization form.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.3/10/1",
+              "sha256": "15227b4b56c260851e7ce8a8ecb0359fd1d0534df2f507627e11bb579bd322e3",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "12*x**2 - 18*x",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.3/10/2",
+              "sha256": "b167fc21f34b6dc9079409f3d0682fef3e1c1a4c3f661127b4fd5c470f56f60e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "15*x**2 - 20*x",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.3/10/3",
+              "sha256": "b28c3d70e90d9fd672d672ca3779f1b57021974ac1b3befdae0917052606d99b",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "20*y**2 - 12*y",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.3/10/4",
+              "sha256": "e01e9f9cdc9e8b87bdd8a958c8f483a081f0ee661c8f08e998fd62de2d80b2da",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "24*x**2 - 16*x",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        }
+      ],
+      "safeSlots": []
+    },
+    {
+      "id": "intro-algebra/2/2.4",
+      "reviewedVersions": 40,
+      "decision": "retain-current-choices",
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change.",
+      "slots": [
+        {
+          "id": "intro-algebra/2/2.4/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "Rational coefficient times variable.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.4/1/1",
+              "sha256": "ea200e583486f756061efbbf5d032bdb23d6922f6275bd2b8dbba9dff6d92e69",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*x/3",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/2/2.4/1/2",
+              "sha256": "9444bda00a176796fc9da9c535a1f06e8a5c20e902b6bb0f44b035770f4b6126",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*x/4",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.4/1/3",
+              "sha256": "1858e408a7756a30d2db908ea11aa49e46c2b62fc831f8bfeaf152ff01325bd4",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*y/5",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.4/1/4",
+              "sha256": "2157d47e2ca0bb4af188e5be0daa173749d397e4aee91f5a6491c0f7095d7e9c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*m/8",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.4/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "Cancel factor but answer retains variable.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.4/2/1",
+              "sha256": "62877005942e165cf37b6827641bbe3f3a3fda3603c3e5b8ba2cda3f9c8e4a7c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*y",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.4/2/2",
+              "sha256": "69ff9cb10b7562a753c15ba0bcdb649ee5bd6919a77a7ef627da2c85f4032ca2",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*b",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.4/2/3",
+              "sha256": "b4f9ffa3b51d6826368ca691629e034152bf6239acb745316a504f2f55bebc6d",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*m",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.4/2/4",
+              "sha256": "721444e9d0f85e8a9598fd82c44c7e1bd1293b5c3897b9196aaa19b201863357",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*p",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.4/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable rational sum.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.4/3/1",
+              "sha256": "58a5d4d242f951c49f0909ce72936732824a81fb5c05818a378808bf30a89f8c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*x/6",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.4/3/2",
+              "sha256": "73f787d7d7ef183a975658efeb5574ce333e7d9d985fe739ff5c3afcb40eaa7a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "7*x/12",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.4/3/3",
+              "sha256": "7cc269020594ce2352414eac3683d6f7f16b2c6db7508fa4c7d74e2dbb1ac142",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "9*y/20",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.4/3/4",
+              "sha256": "64ff50274e049e7c85571e1fa1a47c10eb9e1b88137ba72c43bc8c5c65e73caf",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "7*n/10",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.4/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable rational product.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.4/4/1",
+              "sha256": "4ce2ba0b6d6977870ff126afed30bd7d85ec4a9126a91c3be233b308d08ea33a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "x/2",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.4/4/2",
+              "sha256": "2ef2e95a7dc91c1f21bfe854acf7b4344a04eb71570cfec54c303fd156af160f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "x/6",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.4/4/3",
+              "sha256": "8d1537bf093ef3d8c0753861d0d9dbb724a5886c0195fd8a644a5a7b28ca05a9",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "x/4",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.4/4/4",
+              "sha256": "272914bdee326bc73b3b8504fdd18390833e78447b422f9210b23a28e8aa00fd",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "x/12",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.4/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable quotient.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.4/5/1",
+              "sha256": "1d3d58ad71612d380a75185b746a57e47526b5decae9da8b02cd73dd21738951",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*x",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.4/5/2",
+              "sha256": "c79ecb350af2c42b6653daf1661dd5a1a191f6fdd16b4b76713a096d66507718",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*x",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.4/5/3",
+              "sha256": "44818dd514ccc39b262118870e2e7a18bb26497db6afb03b69c9c50363cca9c6",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*y",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.4/5/4",
+              "sha256": "48877f049dd21a87add86307de07326fa6f53567e42a37d99b8933b410e82a6c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*n",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.4/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable rational difference.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.4/6/1",
+              "sha256": "d276730343f28c6141b827e38f28716e17004b3529f1b3787a72931d513b281b",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*x/5",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/2/2.4/6/2",
+              "sha256": "59405b340625f772911f835e13362f0fdb5b7210409783ba1c955b0cd4e9dad2",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*x/7",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.4/6/3",
+              "sha256": "f4b213e48c54e3e58a9e66a5f05994f9b7d4c6eb3cfac295ac9102366d622625",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*y/11",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.4/6/4",
+              "sha256": "a1b8941da5ba9d5ae8558ce9e5dfc5fc85ae02c755ab574572ec030adf568ead",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*m/2",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.4/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Select counterexample statement; many possible numeric counterexamples if rewritten.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.4/7/1",
+              "sha256": "cf912880b94bc555879e532925aea0c3727c25e3d1cd7d4c7f07aa6b33db3974",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Counterexamples x=3,5,2,1 give unequal claimed expressions; x=0 gives equality in every case, disproving the always-unequal distractor.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.4/7/2",
+              "sha256": "c9c1f14634030f7e720ca9da6a7d779d8ccc0ebe3d8c1729da3940d63db2c3b6",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Counterexamples x=3,5,2,1 give unequal claimed expressions; x=0 gives equality in every case, disproving the always-unequal distractor.",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.4/7/3",
+              "sha256": "85f4889f93ad934e03528f896d1aad0c9b8020079f388057a0ba62eb57929085",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Counterexamples x=3,5,2,1 give unequal claimed expressions; x=0 gives equality in every case, disproving the always-unequal distractor.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.4/7/4",
+              "sha256": "0cf6e7d7b6c2880d3d4f1c2b824b0b854dfbad76e5def12108cdc48d695f1009",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Counterexamples x=3,5,2,1 give unequal claimed expressions; x=0 gives equality in every case, disproving the always-unequal distractor.",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.4/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable expression from dividing every term.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.4/8/1",
+              "sha256": "b2e49ec49d5482bb6e166522a4b783c3fa1e5f0f38643be7ca08f7006fc78bac",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "x + 3",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.4/8/2",
+              "sha256": "3d382b5d54c1392e87d2d579a3f2c41cb254a63f7760952fcbb1d56de5d46666",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "x + 4",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.4/8/3",
+              "sha256": "cd4590382742dfd3f30f5c53cb4e1a9b28465780e924c3cbeaa0489c9bbad9ff",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "x - 4",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.4/8/4",
+              "sha256": "1c78d6985e47eaef6aa0cf7eb18830b43c327afed9079d4ec731a79d74a5887b",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*x + 5",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.4/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "Rational coefficient times variable.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.4/9/1",
+              "sha256": "4cfbc773f122d9d6272441bd0a52b122409cdd291ab08b4534ee3d82545cf8c6",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "x",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.4/9/2",
+              "sha256": "8022ef70f656315a04c10027ac5248699f64152e848340cdb9c81e00db70dfb6",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "7*x/8",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.4/9/3",
+              "sha256": "f74729e91643d5890cc90afbd39ed2bb59cb8ae544aff52cafce854932f96bf5",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*x/4",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.4/9/4",
+              "sha256": "52c11f5dca0fef9ae91be2189ff6ab3183e8f8ac181a51f75be236d9009ea802",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*y/5",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/2/2.4/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "Cancel powers but answer retains variable.",
+          "versions": [
+            {
+              "id": "intro-algebra/2/2.4/10/1",
+              "sha256": "62c0c8e639859cc0da2501252b1bee9ade5f008109a5b7b93716ae824ce65dba",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*x/2",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/2/2.4/10/2",
+              "sha256": "75f0afa63a6ee84f96745624d4f865736ec1c57643256e509a1fbfc054e4fd5a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*x/2",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/2/2.4/10/3",
+              "sha256": "6f9571f5683d6097efd9944cd6d8928725c7f5144ecde82717b7c4efe25ca160",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "7*y/2",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/2/2.4/10/4",
+              "sha256": "9072521651946a0c504e5dab7efe386ead716d6fdd948ddd6a4cbca1baf74f80",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*m/4",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        }
+      ],
+      "safeSlots": []
+    },
+    {
+      "id": "intro-algebra/4/4.2",
+      "reviewedVersions": 40,
+      "decision": "retain-current-choices",
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change.",
+      "slots": [
+        {
+          "id": "intro-algebra/4/4.2/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "Multivariate monomial sums.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.2/1/1",
+              "sha256": "fb945608e9c1a95caf020eeae4473af7f9716bb31cfb7db994339a2a2f02550f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*x*y",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.2/1/2",
+              "sha256": "4fffc7389e2785492b2b877e782ef454ff921839d39f1a0a4061938510a9390d",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "11*a*b",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.2/1/3",
+              "sha256": "8f938a33fa06927d671d9a1db18f975777a069b217bea89a980a9a81f402aa2d",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*m*n",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.2/1/4",
+              "sha256": "ef89cf5844942d544322f5263c5d5587fc72766f7551da254bf97779ef411be9",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "13*p*q",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.2/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "Select a like term; infinitely many valid like terms without listed options.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.2/2/1",
+              "sha256": "dfc22e51cf9fa01369ab43af97eb04c6342087d2140b0ab5c263a7a17c2994dd",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Compare exponent vectors: a^2b, x^3y, mn^2, p^2q^3; only the keyed term matches the requested vector.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.2/2/2",
+              "sha256": "11c5f3bac8bcbb7716e190b7d9cd2b04508cd0583f41cc92bacdc081eee2aea3",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Compare exponent vectors: a^2b, x^3y, mn^2, p^2q^3; only the keyed term matches the requested vector.",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.2/2/3",
+              "sha256": "b717e2c0150b4f9a4e4faf3a11c4f57cc1837badb6add0e83b6ffa020ec18ba4",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Compare exponent vectors: a^2b, x^3y, mn^2, p^2q^3; only the keyed term matches the requested vector.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.2/2/4",
+              "sha256": "3d405caa7f3c74fe3d5c1ad5a854ad8bbe12b5178c5fd2b41c755d7e1a47fe6a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Compare exponent vectors: a^2b, x^3y, mn^2, p^2q^3; only the keyed term matches the requested vector.",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.2/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Multivariate monomial differences.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.2/3/1",
+              "sha256": "46d01cd787089c1633c915f80298fdfadf32d73efbf352468bde3191a16805ff",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "-4*m*n",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/4/4.2/3/2",
+              "sha256": "d526f8b5a2bf0cd67fa31a027d89a64a5e50f4358c5a762900103505689df2a5",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "-7*x*y",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.2/3/3",
+              "sha256": "7fa474ef78e58a8283063cc6fd8a0569cfc43aef851847c0c8bef1a0cd61c898",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "-8*a*b",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.2/3/4",
+              "sha256": "a2b67ca9d69541e0532250d322e2901a15c1435fbcaf2c259766b290c2dea405",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "-9*s*t",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.2/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Two-variable expression.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.2/4/1",
+              "sha256": "c514a56550f264c70f2fc3c0efe26d9e150a5353ca203139c4e6fd2fe6878783",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "7*x + 2*y",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.2/4/2",
+              "sha256": "8b16b928bb1fe5a7362d7ae0ce0d772185502a07601c2d143d3cef136f664533",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "7*a + 4*b",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.2/4/3",
+              "sha256": "a7757daa8281523c8373484f9de5e75c407e5793a5b5a21627915d9f3112add4",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "9*m + n",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.2/4/4",
+              "sha256": "e98067e6691e60e03b308c965b237131b39af8b11236b54e5650bcc473cdb3d7",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "10*p + 6*q",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.2/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Two-variable expression.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.2/5/1",
+              "sha256": "877cba6f4cd4c29f6d9e29cf46351aa7ac254e801669a7cf5a0827a1ef3891bf",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*a - 5*b",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.2/5/2",
+              "sha256": "9f75762bf2df191eefefe71c6bf536e425ac6a3df011373310f92f1c9d7214ec",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "9*x - 5*y",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.2/5/3",
+              "sha256": "d5fedad5a57adf821085026aac4e248d07dde24a7129ca0c83a05c6ac4cc5ad0",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "9*m - 3*n",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.2/5/4",
+              "sha256": "14774b469f8047e854e352758bf2d30a6882e91018f31f10c1ec011ebcf31877",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "9*p + 3*q",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.2/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "Two-variable expression after subtraction.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.2/6/1",
+              "sha256": "fc715752369590787f8f73bfa311922ea73d93594e9d3f8ae9d3663e720a252a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*x - 2*y",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.2/6/2",
+              "sha256": "6cfe83ef1c489562ae8556f32ccb8e5f681cc4c6fef5af225209494ec55d390c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*a - 3*b",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.2/6/3",
+              "sha256": "1ac98316fc1b32ef4960f525a3783ffac78bd59b5de5fc01b58fd51b77f01110",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*m - 4*n",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.2/6/4",
+              "sha256": "4d6c9535f8bca836be7c5e874b3ec47c07117e41da02ca0d570296efcec66f65",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*p - 4*q",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.2/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Two distinct monomial types remain.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.2/7/1",
+              "sha256": "bc1580502feb0de44e78becddf0a4a6ccf6b7ae0e5c45fa378df44225c8b89f7",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*x**2*y + 3*x*y**2",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.2/7/2",
+              "sha256": "55934b7fa53163d29ed55d1085c62d4f09512f2cafea094bae2084c7c8150a91",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*a**2*b + 2*a*b**2",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.2/7/3",
+              "sha256": "d0f7754260daf2e3ff471e13de17e1be7f77c6de98eb5a328cf45fcddd9aa4a8",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*m**2*n + 8*m*n**2",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.2/7/4",
+              "sha256": "7234e908774a74a31a7057aef468c6b8eeb79a55a37e2a8a1534f31c536b8762",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*p**2*q + 4*p*q**2",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.2/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Commutativity gives variable monomial.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.2/8/1",
+              "sha256": "828f1ff465ebad81d8be8eb6dac06414a6ada51b0a3e3a02ce18987c55384446",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*a*b",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.2/8/2",
+              "sha256": "fd513b7240147ce14e695c1fb9c6f47e3429b4b21a0f8cef685af38441e8d638",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*m*n",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.2/8/3",
+              "sha256": "d3f5da36e54be9c84bc95b45a2d04cfe21ba01dbe3f2319e52d2f748258967bb",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "9*x*y",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.2/8/4",
+              "sha256": "d87971c8c878255801d3b28ed7862a74c47717753aa3408298c6908b81cf9e68",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "7*p*q",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.2/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "Three-term quadratic expression.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.2/9/1",
+              "sha256": "481d240ba8ac28e8fd12aa598c75a1175cceba31e0e4f7e7c0259c02bf86a762",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*x**2 + 4*x*y - 2*y**2",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/4/4.2/9/2",
+              "sha256": "725014396339eaab2d74e071f9dead812f926df17dd67dd57ee631dff786d835",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*a**2 + 4*a*b - 3*b**2",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.2/9/3",
+              "sha256": "f9a7e5ee6d9bb6011158f78556ec4b34bff5c8646195d87d709dd57fdaff2e52",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*m**2 + 7*m*n - 5*n**2",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.2/9/4",
+              "sha256": "f19c0ad183a6681ad848f4a26b408099d6805043812b0ead7b42c7fc9f1cfdaf",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*p**2 + 5*p*q - 6*q**2",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.2/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "Perimeter remains a variable monomial.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.2/10/1",
+              "sha256": "734206a406f14863ffddceb2670fe2bc3a4d79ab8032a2a635dd5d7e78ab59f8",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*a",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.2/10/2",
+              "sha256": "2d1b26dd428048994660bfde0c01e768d24e9c3e61dc84b268e8b05dc6dd0915",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8*x",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.2/10/3",
+              "sha256": "014e87167d656dc1c45f7929c1bdff2dfd5fd160108ddad74c3bedbd1f190a05",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "10*m",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.2/10/4",
+              "sha256": "733f8020428f7103186630a506adbbe8a1198bf2d50d80fd6a060cd3097d03d2",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "12*p",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        }
+      ],
+      "safeSlots": []
+    },
+    {
+      "id": "intro-algebra/4/4.4",
+      "reviewedVersions": 40,
+      "decision": "retain-current-choices",
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change.",
+      "slots": [
+        {
+          "id": "intro-algebra/4/4.4/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "Rational coefficient times variable.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.4/1/1",
+              "sha256": "9e6e6dd446fd9712ba59356baae4b1b796d1b5d555bf45b2cc3bbb67c3df9d0e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "x/2",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/4/4.4/1/2",
+              "sha256": "d109c7b5732c7f3e634fef8de9f78931c5cdbcf91462dd5ad2d80d49c18daf6a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*m/5",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.4/1/3",
+              "sha256": "48633aff5d68fea6374d941ea52ec59d98ef56bb96da4b910cca38d6a8351e7a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*k/3",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.4/1/4",
+              "sha256": "7bf723cb39d605185ae8755547e855fd73c4dc4e89e945b72627084a250309af",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "p/3",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.4/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable rational expression.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.4/2/1",
+              "sha256": "8fc46e042a7876e7c3a238dc997bcb6661374bf286b1905edbefe3ce264aca3f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*x/3",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.4/2/2",
+              "sha256": "9e52195b6c387c9e48b74489069c4e7d87597961dd7c5fbcad6c769ecc71102f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*b/3",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.4/2/3",
+              "sha256": "2650b883b62fe6608f08d92c19fe01d6cca62f402ca47c3bbf7798913f81d429",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*t/4",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.4/2/4",
+              "sha256": "f5baf9707aa745dceb36616ca5d7f6d93bf3125daa42abaa4a92326861534fc1",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2/(3*d)",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.4/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable rational expression after canceling factors.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.4/3/1",
+              "sha256": "fd92d2815568abec1a676a56bf11b6a9f94d724ec875e3d3c1139d93a674feb3",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*a/3",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.4/3/2",
+              "sha256": "34bfc24366feb819758994b153c4a7bec3b68b786a78ea8377ef98b626ce6f8c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*x/3",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.4/3/3",
+              "sha256": "d6a19020527a43235d1d8571d18e8f7c95ca8fd53d19636729de14a058e1ce0d",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*m*n/3",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/4/4.4/3/4",
+              "sha256": "a3d16e35887e6ff738ba0b6d3279a872002fa4b4169300c99c8113a8fe38bd80",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*x/4",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.4/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable rational expression.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.4/4/1",
+              "sha256": "261fe0c04ca43ce3d0a81e28d182c1f5b398b0ad0e6331e2099da702a72f5eeb",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*x/y",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.4/4/2",
+              "sha256": "474fe69f5864206eb2af82942590018e3fe44cd1cb8a4971391510cb0bf34d94",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*a/b",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.4/4/3",
+              "sha256": "8c6f1ece54beb59e9687445cde162549884bff3560ce9ef6816c6d078290fee9",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*m/n",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.4/4/4",
+              "sha256": "903f744eb2ca72a34be682d05e399c698fb5341eb9bd2b80594bc944bd8eb135",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*x/y",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.4/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Equivalent symbolic expression or single fraction.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.4/5/1",
+              "sha256": "038e0411e8518e96caeee830308fe8a04644f02fc2b84c063aff0c32cf0727cd",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "x/4 + 1",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.4/5/2",
+              "sha256": "c774dbadc6b2663f07d2696b9cb880a6c87c4e1475885197549104ba5c95f90d",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "y/6 + 1",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.4/5/3",
+              "sha256": "3665eb7ea392e2b7fd0857684e956c2f9af46ac83549b879d7162d7dffc93ab4",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*b - 3",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/4/4.4/5/4",
+              "sha256": "1ffb06288842a185756951d6d289fc4fa554d0fe50db9ea2135e9b7628ef6035",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "m/5 - 2",
+              "uniqueMatchingChoice": 0
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.4/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "Only versions1,2 scalar4,6; versions3,4 remain6x,2a/3.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.4/6/1",
+              "sha256": "e5b7bea83e00b1a6968644e7b494716af7ba5e319028cdfb82c35e2587d90a64",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.4/6/2",
+              "sha256": "e7cce29ec8d67c052f902186a3c4b6ddab665a54c0d3d77e9154b733b81c631a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.4/6/3",
+              "sha256": "107c4e5e78a79ad9b99120e39d1dee6c3f56d469a0b2ee98b61a5a89846587c1",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*x",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.4/6/4",
+              "sha256": "0384a9f73903c05ec98209afce25fb93327d722086ed9b41057eaae3e0820510",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*a/3",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.4/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Only versions1-3 scalar6,4,4/3; version4 remains9a.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.4/7/1",
+              "sha256": "5ee14f985db30a18b8e9b03f358f5fb32a7fd1f6451347f8b57b3b41d9b7698a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/4/4.4/7/2",
+              "sha256": "627b1b9397962c6c1149622e5c9967a4d41c99f2b9d9c70fc03f512c21cbe5aa",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.4/7/3",
+              "sha256": "f27b64296fd8a0b77280d42d010040836d60e1f86f21e03a2e05b6ea0e6cac80",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4/3",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.4/7/4",
+              "sha256": "9309869b8d81775845b34f7c8f69a8e2e6b3bf9922a86282711341718afd0804",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "9*a",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.4/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Two-variable rational expression.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.4/8/1",
+              "sha256": "865fff1b8b809429dc165209b0280eeb9935affa0f7c63b9f27b1b49d0c26d6a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "a/2 + b/3",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.4/8/2",
+              "sha256": "727219dc88dfe0b89bd5001005c8606a116a9658d743cd850b84b0c39918a7d3",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "x/3 + y/4",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/4/4.4/8/3",
+              "sha256": "fa5723eb902c427cc29cff041e5c518c61b28d91453e64051e514692456eb479",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "m/2 - n/5",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.4/8/4",
+              "sha256": "3055eef865dc556dfe7c08c770ba1c76fe8528652f2a8655785339f66a0e8897",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "p/6 + q/9",
+              "uniqueMatchingChoice": 1
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.4/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable rational expression with powers.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.4/9/1",
+              "sha256": "a12b763d9f4861a09947dc7a24d7db04256faf1697a9f1ffcf42c67d31d977a1",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*x/(4*y)",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.4/9/2",
+              "sha256": "21c5e885b752684ec779e5959bbce4685e302755d3bcff3c71ffb605c79b86b9",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*a**2/(3*b)",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.4/9/3",
+              "sha256": "48be3a8cb08c7342274b96b240110f3b92db2745f3b7a44e521e184cd4b0ea23",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*x/(5*y)",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.4/9/4",
+              "sha256": "cbc858a5175727075e4e0998d75b1f3049b372ef6999121c93b7c295b59833f3",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*m/(4*n**2)",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.4/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "Variable rational sum/difference.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.4/10/1",
+              "sha256": "4956160225ca5a322db771edc562c8ad97fc1aa233209bdd669807359fa5af5f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "x/(2*y)",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.4/10/2",
+              "sha256": "a4b85afea4467e15332edb92d1a79c07fed179fb49111cf277e2095a685b14f9",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*a/(3*b)",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.4/10/3",
+              "sha256": "6f3614ceb5ffaaa0065709f4ab6e48f4985f46b3f8631b113373c7390a7d34cc",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "7*x/(4*y)",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.4/10/4",
+              "sha256": "4ddca9dcc7501b8bf1dddc72a0f779ee51b32365387155d2aa5a27b66363db4c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*m/(6*n)",
+              "uniqueMatchingChoice": 1
+            }
+          ]
+        }
+      ],
+      "safeSlots": []
+    },
+    {
+      "id": "intro-algebra/4/4.5",
+      "reviewedVersions": 40,
+      "decision": "retain-current-choices",
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change.",
+      "slots": [
+        {
+          "id": "intro-algebra/4/4.5/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "Solve for variable in terms of another.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.5/1/1",
+              "sha256": "a928fda7a6c7819b2db9987a5a2437dccf3d5f91766c503efb68fd70802d01b5",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "10 - x",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.5/1/2",
+              "sha256": "bcef0f7aa49195e8efde765df32b9e7678102122ba7cdbbf5174c9ed6a28f918",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "14 - b",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.5/1/3",
+              "sha256": "8ee046af1cbf59b30257599d2797fef86fad303dbc044a952fea238abcbacceb",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "-m - 6",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/4/4.5/1/4",
+              "sha256": "f1a2ca69e4ab0c4fae7bfd375cc0cfa648c4b792884dadfd36e8f22c3aa01538",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "12 - d",
+              "uniqueMatchingChoice": 1
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.5/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "Solve for variable in terms of another.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.5/2/1",
+              "sha256": "def034698b7eb0de75b619dcb05bdd214233fcfd4c683d057cc346567a51247b",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*y",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.5/2/2",
+              "sha256": "be2b2da5529aef363857abc28b9e69dc0535fe0dbf02195b61b76923d6f5d4f3",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*b",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.5/2/3",
+              "sha256": "a4370579026a63b0ff36e56de3bd5171a5e1560c7fc84278c10c9ee93f6e5f71",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "p/4",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.5/2/4",
+              "sha256": "dad00511cf8f2679081e9aaabeeab9931f7c8c67983a67dce46b9f45d35d5bc0",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "-3*y",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.5/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Solve for variable in terms of another.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.5/3/1",
+              "sha256": "a439736a2adde40676ea8a97e3a0797161e8632c25eb5cf094d8395becff9c89",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "b + 7",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/4/4.5/3/2",
+              "sha256": "5a813e5e0235126b14031971c344cf4ec2e852bd03c2e1952595ee3ea89c4822",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "q + 12",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.5/3/3",
+              "sha256": "458803967622b6afbd5a6d72a3d9c2f51ca67ab115c967b93b9859b9fa112b7e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "u - 8",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.5/3/4",
+              "sha256": "d4475e5dc6a61db2c547cfb46cad63ae7fc80f1e561064023b2a1c0372dd1fe1",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "k - 5",
+              "uniqueMatchingChoice": 1
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.5/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Rearrange formula symbolically.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.5/4/1",
+              "sha256": "260cd3186ec176e0971f7e09e0224eaabcff76e8ca7beea301a2c3d08c2b1b8b",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "p/4",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.5/4/2",
+              "sha256": "555848103866c79973ab0cdb53350a6f4956ce9f7b15bb1ba8e105050261f3d0",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "w/7",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/4/4.5/4/3",
+              "sha256": "a946484d1919aa605d2b908d93871880dfdd23114c9e0effd8e4c94624a3ec58",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*T",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.5/4/4",
+              "sha256": "9794bd5e5dfc48060be9ac1bd395c79f83a723d3c6ac93106a8c343f0f14bda3",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "5*y/3",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.5/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Solve for variable in terms of another.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.5/5/1",
+              "sha256": "3070285ff68de957f03fc8ba1598ce4c87ff2590460e291b9edbd3c25beab9ab",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "15 - 3*x",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.5/5/2",
+              "sha256": "df15d74485ef897c6c311dde83be97d04cb705c6d3f1b720afa0f561ef74bb80",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "30 - 5*a",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.5/5/3",
+              "sha256": "1facd98ca1fa4f5f91276fe2f1f64305156dc8356326bd84f57ca3ad9f839d9c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "-2*p - 8",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.5/5/4",
+              "sha256": "7f360a2cf71d1f7045ef6ef1be2653dd049ba17aa0361281e6a97e3f8e4f27ff",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6*x + 4",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.5/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "Solve for variable in terms of another.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.5/6/1",
+              "sha256": "396c5ebc1a3520b1d64fb9ba4e8fd0f2ae1ed0a1d4335d957afe473955fb6d52",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "6 - 2*m/3",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/4/4.5/6/2",
+              "sha256": "fbc7de4c443c47e1e3652fb0ddf3f6e0b88b9e1a7a12e2742c0dc815a5ed565e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "20 - 5*x/2",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.5/6/3",
+              "sha256": "0ff9e92165420b7ed2a1648978d8fc27549440265db19808096bdf9a79ec2519",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4*a/3 - 8",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.5/6/4",
+              "sha256": "29f808d53abd7f8bebf9641b44e1d63572b3d9d384afb088c6bfaa87b81fed48",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "4 - 4*n/7",
+              "uniqueMatchingChoice": 1
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.5/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "First three formula rearrangements; only version4 scalar height8.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.5/7/1",
+              "sha256": "3641303aa165574a848f2e6e247b0facdae9e176c239aa0579d1413e71406579",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*A/b",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.5/7/2",
+              "sha256": "77f2676e26cfe367c1a279cca73e8d620b9471456a539bf4ddecc34bc0a05cc4",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "2*A/h",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.5/7/3",
+              "sha256": "4ccfbf62719bd02624f94e1448a97811bd4125a573f11f247e22b51f921d5909",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "3*V/h",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.5/7/4",
+              "sha256": "ddff911fa504d880f98f94a66cb1fabc41a648063b35c756d94ff7dbc3ffc171",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "8",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.5/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Symbolic formula rearrangement (nonzero divisor convention).",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.5/8/1",
+              "sha256": "70c61d835f464f885da70da7824fdd5195b4ba26c2dc31762ed1db479641dc88",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "d/r",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.5/8/2",
+              "sha256": "b089f18920389d174a2b9d6f4d70d6bf7abc6741e2cd9845fea09772ad02044b",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "C/n",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.5/8/3",
+              "sha256": "7fc00aae2931df7227eaf26f91c7343b8ea8f972817c2d272c55c76738befa9a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "W/F",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/4/4.5/8/4",
+              "sha256": "99d24a06774b42a58ca3c2a747e57e737beaefd79a9993c6974b821977609cba",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "d/t",
+              "uniqueMatchingChoice": 0
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.5/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "Solve for variable in terms of others.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.5/9/1",
+              "sha256": "57e7608a82e10230b2846183dbb11c68472c0c1bda8109b29e521e69566065c4",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "c/5 + 3*e/5",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.5/9/2",
+              "sha256": "51b79dae69b1425fb15e9fe70f98c3dc8de66a26cfaa69ca1b23c5febaca4305",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "y/4 + 7*z/4",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.5/9/3",
+              "sha256": "6e56a2ef2ddb71294eaed8a09e35d1504deac6199de926dce3de6b821eb8d0ae",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "P/3 - 2*R/3",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.5/9/4",
+              "sha256": "32b4d5d9b91e19233d8d90be210c61a3b99da17222e768ad0b5c22d89e710e7a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "-k + 8*m",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/4/4.5/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "Solve for variable in terms of others.",
+          "versions": [
+            {
+              "id": "intro-algebra/4/4.5/10/1",
+              "sha256": "5f79d9a4f64607bfb0093d4e22d528e9951fde34c630baecb382eea611b6103e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "-x + 3*z",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/4/4.5/10/2",
+              "sha256": "268b33ee3f9e71790b6f411d06a4d87a3e8a70ef6729353f7e0ea3ed4666dd18",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "a - 4*c",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/4/4.5/10/3",
+              "sha256": "549891918e2f6498c2b1968549c8e5d3d3b06bcd758f75ba4ea8ed2bd868e45f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "-2*m + 5*p",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/4/4.5/10/4",
+              "sha256": "fe46f6b30f6fee1f2b3941093d2cdcf380adeb0bd0ebfbd08d585dfb96eb8bd0",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "exact-symbolic",
+              "derivation": "p/2 - 3*r/2",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        }
+      ],
+      "safeSlots": []
+    },
+    {
+      "id": "intro-algebra/8/8.4",
+      "reviewedVersions": 40,
+      "decision": "retain-current-choices",
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change.",
+      "slots": [
+        {
+          "id": "intro-algebra/8/8.4/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "Line equation or slope/intercept pair.",
+          "versions": [
+            {
+              "id": "intro-algebra/8/8.4/1/1",
+              "sha256": "9bab80ec4823963f919b5d7c4e26f16a812df38952671efdb8d19f4faa615f64",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "y=mx+b; pairs (m,b)=(2,5),(6,-1),(-4,7),(2/3,-4).",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/8/8.4/1/2",
+              "sha256": "1fe6b538f9f0468c9652780c69941821242c826545f9e071834aac0d7455fc7f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "y=mx+b; pairs (m,b)=(2,5),(6,-1),(-4,7),(2/3,-4).",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/8/8.4/1/3",
+              "sha256": "db6c2f3c728a6381e084b855de37e37164f23162025e542510db737ef73c9526",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "y=mx+b; pairs (m,b)=(2,5),(6,-1),(-4,7),(2/3,-4).",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/8/8.4/1/4",
+              "sha256": "3ff80442b05a851851c543ffa999e90e2be26c9ff3f5b8a559388baca92e29ca",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "y=mx+b; pairs (m,b)=(2,5),(6,-1),(-4,7),(2/3,-4).",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/8/8.4/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "Line equation.",
+          "versions": [
+            {
+              "id": "intro-algebra/8/8.4/2/1",
+              "sha256": "45e9bec8726f3b0498f2426ee4ff03110d0f3215b85edf8ebea78905f11e3f78",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "y=mx+b gives (-3,4),(-5,-2),(-2,9),(3/4,0). Falling right gives negative slope.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/8/8.4/2/2",
+              "sha256": "0d7e74b544b17348bc4d33e0252d2695176cdd2928fddbeb3eb190e28c59f0a5",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "y=mx+b gives (-3,4),(-5,-2),(-2,9),(3/4,0). Falling right gives negative slope.",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/8/8.4/2/3",
+              "sha256": "bf8e31a04900338b080344f8f32b904f0baea699ce5623bc1abba8eef5521af7",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "y=mx+b gives (-3,4),(-5,-2),(-2,9),(3/4,0). Falling right gives negative slope.",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/8/8.4/2/4",
+              "sha256": "5682367d5a0c9f4d9a227f666a5965d5cb2fae4130d6baf3c94348914ed7969e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "y=mx+b gives (-3,4),(-5,-2),(-2,9),(3/4,0). Falling right gives negative slope.",
+              "uniqueMatchingChoice": 0
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/8/8.4/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Line equations or point coordinates.",
+          "versions": [
+            {
+              "id": "intro-algebra/8/8.4/3/1",
+              "sha256": "18e1db7f3dc344ec7a7b33357853c0ed042da71f5980b7b9aa3d06c54b01503c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Horizontal lines preserve y: -2,8,-4. For y=-6 only (4,-6) has matching second coordinate.",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/8/8.4/3/2",
+              "sha256": "d75e4d9670e3cfbc4874ec1eb13ec8e3777d6ee99ac5244d55cbe0bc8219daf1",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Horizontal lines preserve y: -2,8,-4. For y=-6 only (4,-6) has matching second coordinate.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/8/8.4/3/3",
+              "sha256": "a1c5411a5e1f39884bbfcf4c903c6110683c722b5235d30769c79ed2ba6a4ebd",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Horizontal lines preserve y: -2,8,-4. For y=-6 only (4,-6) has matching second coordinate.",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/8/8.4/3/4",
+              "sha256": "666e26434c2d32525aa3af4686f8ba723f8a0bbcee9dc2c54674177da59f38e0",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Horizontal lines preserve y: -2,8,-4. For y=-6 only (4,-6) has matching second coordinate.",
+              "uniqueMatchingChoice": 0
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/8/8.4/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "First three equations; only version4 numeric b=-7.",
+          "versions": [
+            {
+              "id": "intro-algebra/8/8.4/4/1",
+              "sha256": "e1842965c548f692e89b863cd45b6b45f92f37e50e62c7fca0f23d1971cf9dd7",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "b=y-mx gives 2,5,7,-7 respectively.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/8/8.4/4/2",
+              "sha256": "e12b19c6c83ca014cb5373a254a57928959753d2034941841a9e4e304cdb1809",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "b=y-mx gives 2,5,7,-7 respectively.",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/8/8.4/4/3",
+              "sha256": "9f572c80c72c94e8329d73be102dc0e3c8f3da93fe97de6b13df0f8cfb45c03b",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "b=y-mx gives 2,5,7,-7 respectively.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/8/8.4/4/4",
+              "sha256": "494c9f0c42f5ef7e16a548b3b283b1f57562c6255211464b474d8c61e503d3c5",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "b=y-mx gives 2,5,7,-7 respectively.",
+              "uniqueMatchingChoice": 1
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/8/8.4/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Vertical line equation.",
+          "versions": [
+            {
+              "id": "intro-algebra/8/8.4/5/1",
+              "sha256": "3d93e0ee506a9465b02b0105fb1a8dddadca6de309cf6773a3ca61ca6f090e91",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Vertical lines preserve x: 3,-5,8,-2.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/8/8.4/5/2",
+              "sha256": "69a26d82810aa5e82f4031c21cdb9598aab2b914a17600a02a082bf8b9d8f112",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Vertical lines preserve x: 3,-5,8,-2.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/8/8.4/5/3",
+              "sha256": "b3653d4ba6a54e68cc62a0a3ca33044392f6bdd37bb50cac2e51cae4a5174b39",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Vertical lines preserve x: 3,-5,8,-2.",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/8/8.4/5/4",
+              "sha256": "ef55c640d502105a0d49b75b91d70b10902f45bd0c241402d2a0fab1afc7242d",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Vertical lines preserve x: 3,-5,8,-2.",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/8/8.4/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "Line equation from two points.",
+          "versions": [
+            {
+              "id": "intro-algebra/8/8.4/6/1",
+              "sha256": "46865c556fe4d6d0e3e61fb11e28f8ebf477ede32a25c131295a892a58a9380e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Slope=(y2-y1)/(x2-x1), then b=y1-m*x1 gives (m,b)=(2,-1),(3,1),(2,5),(-2,8).",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/8/8.4/6/2",
+              "sha256": "2445202a1e1821a02aca43f5c82d126d7e8a6f65122102f088aecbd387a5bb63",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Slope=(y2-y1)/(x2-x1), then b=y1-m*x1 gives (m,b)=(2,-1),(3,1),(2,5),(-2,8).",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/8/8.4/6/3",
+              "sha256": "b2f5314acce614fe6d4e77724a58816542e6ba3346bc96967d4a245114d89d7a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Slope=(y2-y1)/(x2-x1), then b=y1-m*x1 gives (m,b)=(2,-1),(3,1),(2,5),(-2,8).",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/8/8.4/6/4",
+              "sha256": "92c23d64c21c231547617160e6f51c3d6f356d7f7d2d75ec421d2e40424dc1b8",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Slope=(y2-y1)/(x2-x1), then b=y1-m*x1 gives (m,b)=(2,-1),(3,1),(2,5),(-2,8).",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/8/8.4/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Equivalent line equation in requested form.",
+          "versions": [
+            {
+              "id": "intro-algebra/8/8.4/7/1",
+              "sha256": "34ae7710bd40149730de72787b4311932309fd9b83c5a8bb81cec3810674c838",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Isolate y: (2/3)x-4,(3/4)x-2,-(5/2)x+7; final multiply y=-x/3+4 by3 to obtain x+3y=12.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/8/8.4/7/2",
+              "sha256": "139404554d0bf557934fb5836dab456bc9bcc836c98eff4a5b0a5f5faae16efa",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Isolate y: (2/3)x-4,(3/4)x-2,-(5/2)x+7; final multiply y=-x/3+4 by3 to obtain x+3y=12.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/8/8.4/7/3",
+              "sha256": "14873619a17f30bd71a9e8269c461c5f66377da47293544cbf7be6eb245992dd",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Isolate y: (2/3)x-4,(3/4)x-2,-(5/2)x+7; final multiply y=-x/3+4 by3 to obtain x+3y=12.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/8/8.4/7/4",
+              "sha256": "18426c5820c2a577192ec04360945f98ade67d53959e724b3498e5e70cf79387",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Isolate y: (2/3)x-4,(3/4)x-2,-(5/2)x+7; final multiply y=-x/3+4 by3 to obtain x+3y=12.",
+              "uniqueMatchingChoice": 1
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/8/8.4/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Line equations or coordinate intercept.",
+          "versions": [
+            {
+              "id": "intro-algebra/8/8.4/8/1",
+              "sha256": "d4ee96828c13584975a6141f4f8569c65f10601868c03910b2e04d886d8ce8a8",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Two-point formula gives (m,b)=(-3,2),(-3,1),(4/3,3),(-2,1). Final y-intercept is (0,1).",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/8/8.4/8/2",
+              "sha256": "502c4d65ebabd5713ce082c39520d12f7b605eab42a85fb879c6fe4e5aea4736",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Two-point formula gives (m,b)=(-3,2),(-3,1),(4/3,3),(-2,1). Final y-intercept is (0,1).",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/8/8.4/8/3",
+              "sha256": "2bc960125a2ccba7abc3138b14a0c2b46900a95a55b11a1a73cdd941495f549c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Two-point formula gives (m,b)=(-3,2),(-3,1),(4/3,3),(-2,1). Final y-intercept is (0,1).",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/8/8.4/8/4",
+              "sha256": "7a326caef158ce9693ebb2b6188ad590e752a56c0d54e11feb2798ae1fa913d7",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Two-point formula gives (m,b)=(-3,2),(-3,1),(4/3,3),(-2,1). Final y-intercept is (0,1).",
+              "uniqueMatchingChoice": 1
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/8/8.4/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "Line equations or coordinate intercept.",
+          "versions": [
+            {
+              "id": "intro-algebra/8/8.4/9/1",
+              "sha256": "f4430f573cfccd5a481b7dcf80afc7b691bbebc91c451c4fa6db80fff6226f66",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "b=y-mx gives 5,-4,7,-2; last asks coordinate (0,-2).",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/8/8.4/9/2",
+              "sha256": "d5d263f9e340f94111fea113b8525d4ef6ecbafd6a15e7c25a468fccc8fb1857",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "b=y-mx gives 5,-4,7,-2; last asks coordinate (0,-2).",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/8/8.4/9/3",
+              "sha256": "3f08fd1745a143ba682ede2bd5f7eec9cf8058fc63a4142598481d689b6fdae2",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "b=y-mx gives 5,-4,7,-2; last asks coordinate (0,-2).",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/8/8.4/9/4",
+              "sha256": "fd8955cb4a3ea758fe50353a705bfb95f62a5f3646532b4aa870f0cd39e7a7d2",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "b=y-mx gives 5,-4,7,-2; last asks coordinate (0,-2).",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/8/8.4/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "Line equations or point coordinates.",
+          "versions": [
+            {
+              "id": "intro-algebra/8/8.4/10/1",
+              "sha256": "9cd26646a121af95b0d5620e7f981c4bd0029522fbe76897ae9be1d2f8865404",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Opposite endpoints give origin lines slopes4/3,-5/2,2/3. Final slope=-3/4 and only (4,-3) satisfies y=(-3/4)x.",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/8/8.4/10/2",
+              "sha256": "cfbf373152224b4095ec68d26249a7258b182b5e1fd639b2f0d124c222cf815a",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Opposite endpoints give origin lines slopes4/3,-5/2,2/3. Final slope=-3/4 and only (4,-3) satisfies y=(-3/4)x.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/8/8.4/10/3",
+              "sha256": "c1a64fd67f6f01ccf7002a8b393167d349e9b6b432cb8a96ab09eca66aed4574",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Opposite endpoints give origin lines slopes4/3,-5/2,2/3. Final slope=-3/4 and only (4,-3) satisfies y=(-3/4)x.",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/8/8.4/10/4",
+              "sha256": "56d0b0e745ecd3a3cbf75b71a02fb78dec16cc783725611e8620220026f34021",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Opposite endpoints give origin lines slopes4/3,-5/2,2/3. Final slope=-3/4 and only (4,-3) satisfies y=(-3/4)x.",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        }
+      ],
+      "safeSlots": []
+    },
+    {
+      "id": "intro-algebra/9/9.2",
+      "reviewedVersions": 40,
+      "decision": "convert-four-safe-slots",
+      "reason": "Four fraction-comparison slots have numeric answers in all four variants; remaining slots require statements or expressions.",
+      "slots": [
+        {
+          "id": "intro-algebra/9/9.2/1",
+          "verdict": "safe-numeric-entry",
+          "reason": "All four stems state both candidate fractions; unique requested extremum is rational.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.2/1/1",
+              "sha256": "be6cac773aeed7f1416eced4dd6c69c5b96b91b177419d0b8e9672239521adfd",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Cross-products:9>8;50>49;33>32;104<105 (last asks smaller).",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/9/9.2/1/2",
+              "sha256": "0386042ab92f31eced95bbb82565adb6d0adaa3829a14765de0d8c0389b10e7d",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Cross-products:9>8;50>49;33>32;104<105 (last asks smaller).",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/9/9.2/1/3",
+              "sha256": "026ee3fc3f42c44b6b79f9da929e4a77131ce0bb7fb6b8ed5924d4f8c4c6e442",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Cross-products:9>8;50>49;33>32;104<105 (last asks smaller).",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/9/9.2/1/4",
+              "sha256": "fe189d45af89559d3517e57abc1b964a0b65d0bbc800aeaaac2f207f2fd15a37",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Cross-products:9>8;50>49;33>32;104<105 (last asks smaller).",
+              "uniqueMatchingChoice": 0
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.2/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "Comparison statement or variable name, not a scalar.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.2/2/1",
+              "sha256": "e76c659ceb3b8c07201fbdd110b7b008bddf54ed3cef700f8c8241ffa061ae16",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Positive difference means first operand larger: a>b,m<n,q>p,h-k>0.",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/9/9.2/2/2",
+              "sha256": "c5be8bdc7e8606e16cc7edb944009daba82eb4e4795bb0f970241e6c5b9cd00e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Positive difference means first operand larger: a>b,m<n,q>p,h-k>0.",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/9/9.2/2/3",
+              "sha256": "2b2c62cf78d3ef587bcc8a33318e3796a36cfa8c6004dea429568dd15390a25c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Positive difference means first operand larger: a>b,m<n,q>p,h-k>0.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/9/9.2/2/4",
+              "sha256": "0f4f1a836b807661021a6ad452285a60d8af49ca1967592f1ed69be074640143",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Positive difference means first operand larger: a>b,m<n,q>p,h-k>0.",
+              "uniqueMatchingChoice": 0
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.2/3",
+          "verdict": "safe-numeric-entry",
+          "reason": "All four stems give candidate fractions; unique rational greater fraction.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.2/3/1",
+              "sha256": "b8dc3322ef81c20d8997d7fb728cbeb0c867674254aa1d74bfb827bf120a3820",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Cross-products60>56;105<110;40>36;27<28.",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/9/9.2/3/2",
+              "sha256": "69bdc1e04f216bea80b2cf3cb3426b6b02ae9e9f95666727e37d20dfedf5fb06",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Cross-products60>56;105<110;40>36;27<28.",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/9/9.2/3/3",
+              "sha256": "3e25d9930ce57365b7e4f13486101a46915d150167a5e1d03e8ca4ff9c2fa687",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Cross-products60>56;105<110;40>36;27<28.",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/9/9.2/3/4",
+              "sha256": "8cbda051c5a8ab81f2ad20501cdbbe3f01a1ddc1e55bcbb55961ac0477bf636c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Cross-products60>56;105<110;40>36;27<28.",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.2/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Radical comparisons or integer pair; mixed response types.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.2/4/1",
+              "sha256": "958753d468683edf91e2eb327ffa5f50e53481df4fd85031d31924974574a164",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Compare squares:40>36;30<36;55>49;64<68<81.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/9/9.2/4/2",
+              "sha256": "74f8c9e2b9ecffc4d2e43075fe878df30c894c55483b02e73db62b2dfb3ef57c",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Compare squares:40>36;30<36;55>49;64<68<81.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/9/9.2/4/3",
+              "sha256": "b9d9576cf1785be8c66cf7bbed037485a0df197daf0c280e1d6eb9f9c7beeb79",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Compare squares:40>36;30<36;55>49;64<68<81.",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/9/9.2/4/4",
+              "sha256": "ce157cf63eafb8781317843c8cb21538b738346c7c7288945064cac11961da61",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Compare squares:40>36;30<36;55>49;64<68<81.",
+              "uniqueMatchingChoice": 2
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.2/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Comparison/equality statement in three versions.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.2/5/1",
+              "sha256": "4be31804330cf4d862021fa68c943fe42b9143b609aca5462ecb1ce4b012c130",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Positive denominators preserve comparison of cross-products:112<117;72<77;99>98;84=84.",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/9/9.2/5/2",
+              "sha256": "74b2a9106f64652a646757c259f3ac54134a478849000cd6fb5d765ed89d3c74",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Positive denominators preserve comparison of cross-products:112<117;72<77;99>98;84=84.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/9/9.2/5/3",
+              "sha256": "b0108ae942107f2794d2698fa8f73d82eae7327299ed563650cadb76c59c5d8d",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Positive denominators preserve comparison of cross-products:112<117;72<77;99>98;84=84.",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/9/9.2/5/4",
+              "sha256": "6ff48e2df43244669180cbe7711fef73a5ba7c43e3c7916037a9e818f8ef0ce7",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Positive denominators preserve comparison of cross-products:112<117;72<77;99>98;84=84.",
+              "uniqueMatchingChoice": 1
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.2/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "Powers or equality statement; current numeric entry does not support expression syntax.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.2/6/1",
+              "sha256": "4f25fc2884680adadad3bc74ea2e9af75b1a6e425e9c0b330e8c9f9a0b985c6d",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Common powers:8^10<9^10;4^20<5^20;3^30=3^30;3^24>3^22.",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/9/9.2/6/2",
+              "sha256": "ace9c4328450d86420693096cbad521eed5e44a1f6150ff3810c1ae120ef92af",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Common powers:8^10<9^10;4^20<5^20;3^30=3^30;3^24>3^22.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/9/9.2/6/3",
+              "sha256": "15dde38cab4a93b4ccacb866b953c8d6570d6d3f7e65213cda4958efc8f4e6e2",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Common powers:8^10<9^10;4^20<5^20;3^30=3^30;3^24>3^22.",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/9/9.2/6/4",
+              "sha256": "7f57684a812fffb55924a9d20062eabf079ff3bee0c7698e89a805d8f8d268fd",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Common powers:8^10<9^10;4^20<5^20;3^30=3^30;3^24>3^22.",
+              "uniqueMatchingChoice": 0
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.2/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Radical answer in three versions.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.2/7/1",
+              "sha256": "53297bbcaee3631f7429d7cf7017dd13232089d57700ce052a9ec24f39a579f2",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "All positive, compare squares:50>49;80<81;108>100;18,20,16 largest20.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/9/9.2/7/2",
+              "sha256": "f63482e670e6fbb113fb9cc700f027aacbe8171c723707ceec783de271b60c90",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "All positive, compare squares:50>49;80<81;108>100;18,20,16 largest20.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/9/9.2/7/3",
+              "sha256": "3e41819d2b75ff4861576cf8dfdf837f90261697f77aa89ff8c19cd2b5aa06c9",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "All positive, compare squares:50>49;80<81;108>100;18,20,16 largest20.",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/9/9.2/7/4",
+              "sha256": "b74ef33d5a17755d177a7c0af7298a0fc718b86bd3a29dfe3f7534887c683380",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "All positive, compare squares:50>49;80<81;108>100;18,20,16 largest20.",
+              "uniqueMatchingChoice": 1
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.2/8",
+          "verdict": "safe-numeric-entry",
+          "reason": "Explicit candidate fractions with unique rational extremum.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.2/8/1",
+              "sha256": "55f44eed455b0544e2ce9fa6c07ce698f55bd653c3b8eeeed4e420eb94185941",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Compare deficits from1:1/17<1/16;1/11<1/10;1/24<1/21. Last compare excesses:1/12<1/11.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/9/9.2/8/2",
+              "sha256": "71fde33d5b8d29f36835ecff9e24b7db37880780a6b6c98d4375dac39e67355f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Compare deficits from1:1/17<1/16;1/11<1/10;1/24<1/21. Last compare excesses:1/12<1/11.",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/9/9.2/8/3",
+              "sha256": "268377922bd5e3723cd29926c1f7656915c3dd1f080681a55523e912fc3e745f",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Compare deficits from1:1/17<1/16;1/11<1/10;1/24<1/21. Last compare excesses:1/12<1/11.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/9/9.2/8/4",
+              "sha256": "2156c65e71469f684518300a09d2e363f6212334c6190eac6ea12cda7534353e",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Compare deficits from1:1/17<1/16;1/11<1/10;1/24<1/21. Last compare excesses:1/12<1/11.",
+              "uniqueMatchingChoice": 0
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.2/9",
+          "verdict": "safe-numeric-entry",
+          "reason": "All candidates explicit; unique rational maximum/minimum.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.2/9/1",
+              "sha256": "3850464e7ff0cb65def52cf644b5b76331e0c602ff323777de340261877c1d60",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Exact rational comparisons:5/8 exceeds3/5 (25>24) and8/13 (65>64);5/11 exceeds4/9 (45>44) and7/16 (80>77);9/13 below7/10 (90<91) and5/7 (63<65);2/3 exceeds5/8 (16>15) and9/14 (28>27).",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/9/9.2/9/2",
+              "sha256": "f1b8f27543035d6dbd05b8b127fa53094dd00f029f64f9ce8f0fbf791291a643",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Exact rational comparisons:5/8 exceeds3/5 (25>24) and8/13 (65>64);5/11 exceeds4/9 (45>44) and7/16 (80>77);9/13 below7/10 (90<91) and5/7 (63<65);2/3 exceeds5/8 (16>15) and9/14 (28>27).",
+              "uniqueMatchingChoice": 1
+            },
+            {
+              "id": "intro-algebra/9/9.2/9/3",
+              "sha256": "6474dbf7d38bb207a92b746b87c28e4be41bc83196abd0f49f00fa7071306840",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Exact rational comparisons:5/8 exceeds3/5 (25>24) and8/13 (65>64);5/11 exceeds4/9 (45>44) and7/16 (80>77);9/13 below7/10 (90<91) and5/7 (63<65);2/3 exceeds5/8 (16>15) and9/14 (28>27).",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/9/9.2/9/4",
+              "sha256": "7ba0e185d0dd71ea9bce1ed2ad5353a7fc4b23c7d1547ad67581019e5a968858",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Exact rational comparisons:5/8 exceeds3/5 (25>24) and8/13 (65>64);5/11 exceeds4/9 (45>44) and7/16 (80>77);9/13 below7/10 (90<91) and5/7 (63<65);2/3 exceeds5/8 (16>15) and9/14 (28>27).",
+              "uniqueMatchingChoice": 3
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.2/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "Radical expression or equality statement.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.2/10/1",
+              "sha256": "c524bb7deb28d52f1062ee8845a9d3d42d7a3f728d9fd23e4cf0ef7a097893c3",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Positive squaring:5+2sqrt6<10 since24<25;8+2sqrt15>15 since60>49;9+2sqrt14<17 since56<64;2sqrt6=sqrt24.",
+              "uniqueMatchingChoice": 3
+            },
+            {
+              "id": "intro-algebra/9/9.2/10/2",
+              "sha256": "90353966cfdd21259ff39a8ac323aafb4ea39bac7864a260c722ee8a45a35949",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Positive squaring:5+2sqrt6<10 since24<25;8+2sqrt15>15 since60>49;9+2sqrt14<17 since56<64;2sqrt6=sqrt24.",
+              "uniqueMatchingChoice": 0
+            },
+            {
+              "id": "intro-algebra/9/9.2/10/3",
+              "sha256": "2be431e7665665c1000644965db490ea5220dc2b397880a3b092ba6b69668546",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Positive squaring:5+2sqrt6<10 since24<25;8+2sqrt15>15 since60>49;9+2sqrt14<17 since56<64;2sqrt6=sqrt24.",
+              "uniqueMatchingChoice": 2
+            },
+            {
+              "id": "intro-algebra/9/9.2/10/4",
+              "sha256": "f14febdb5f8be931b81e82a5958840190a4446e37875a374f841f6d00f6b6d86",
+              "keyCorrect": true,
+              "uniqueAmongChoices": true,
+              "method": "independent-manual-exact",
+              "derivation": "Positive squaring:5+2sqrt6<10 since24<25;8+2sqrt15>15 since60>49;9+2sqrt14<17 since56<64;2sqrt6=sqrt24.",
+              "uniqueMatchingChoice": 1
+            }
+          ]
+        }
+      ],
+      "safeSlots": [
+        "intro-algebra/9/9.2/1",
+        "intro-algebra/9/9.2/3",
+        "intro-algebra/9/9.2/8",
+        "intro-algebra/9/9.2/9"
+      ]
+    }
+  ]
+}

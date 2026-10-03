@@ -1,0 +1,4018 @@
+[
+  {
+    "id": "intro-algebra/6/6.1/1/1",
+    "sourceDigest": "5f1736ac6a1ac97e9ee4182f9b11fb03d53e31874f419a91c451d34d3e6d4b63",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "30*3/5",
+      "reason": "Share equals total times requested ratio part divided by sum of parts."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/1/2",
+    "sourceDigest": "155d83a16cdc551b2c9547def8d94e549b6703624ec0736d2b156edc8675217e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "45*3/5",
+      "reason": "Share equals total times requested ratio part divided by sum of parts."
+    },
+    "computed": "27",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/1/3",
+    "sourceDigest": "96392f58946b184e2ea8f8c9f7cbd537fafbdb2123aa551a4133db44fc15475f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "36*4/9",
+      "reason": "Share equals total times requested ratio part divided by sum of parts."
+    },
+    "computed": "16",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/1/4",
+    "sourceDigest": "f10b974364082f74979e46562c7cd3fc025bb15ccf1c709a9f2feda158b05a46",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "66*4/11",
+      "reason": "Share equals total times requested ratio part divided by sum of parts."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/2/1",
+    "sourceDigest": "e529714a25e90bf07b7c8247349a7851e6d5ffbd2c2c713c4e604a32c70c0b41",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "20*5/4",
+      "reason": "Known share determines common scale; multiply by requested part."
+    },
+    "computed": "25",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/2/2",
+    "sourceDigest": "a6fad622e2c1bd36498b9d7f19104b0f2eecd91724d80f626d8852898a083985",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "18*7/3",
+      "reason": "Known share determines common scale; multiply by requested part."
+    },
+    "computed": "42",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/2/3",
+    "sourceDigest": "b98ad8b87d2c35a3b08d371868f29edabbf88066f3832b3688aa84ded7fb61f3",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "35*8/5",
+      "reason": "Known share determines common scale; multiply by requested part."
+    },
+    "computed": "56",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/2/4",
+    "sourceDigest": "e48aabb4cf70032c276fffc159cf85135dad777c1bdedd401534880a4742f3ce",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "63*4/9",
+      "reason": "Known share determines common scale; multiply by requested part."
+    },
+    "computed": "28",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/3/1",
+    "sourceDigest": "3c311ff7d0c05f63ad49f7afa9fedee738ab0d82e9d57659c134ba36ba705282",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "35*4/7",
+      "reason": "Requested second share is total times second ratio part over total parts."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/3/2",
+    "sourceDigest": "91c67ac7eb0ad0985d4f23324ed5db52708316c9875e45cf6424a09dc5265d9c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "56*2/7",
+      "reason": "Requested second share is total times second ratio part over total parts."
+    },
+    "computed": "16",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/3/3",
+    "sourceDigest": "008b99edcad39c55c953892533bf5a4a0b58966828d47c38430d7ec62daff075",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "60*5/12",
+      "reason": "Requested second share is total times second ratio part over total parts."
+    },
+    "computed": "25",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/3/4",
+    "sourceDigest": "31c827bee5cb3127b853fdec85ff75474354c26be7103a8e35cb45917e61b6ad",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "88*8/11",
+      "reason": "Requested second share is total times second ratio part over total parts."
+    },
+    "computed": "64",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/4/1",
+    "sourceDigest": "48287216996f472a05d5561c8211dafae5d99a56a9baffc3923889ffd53d5f0d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "21*5/(5-2)",
+      "reason": "Difference determines scale; r3 asks smaller share, other rounds larger."
+    },
+    "computed": "35",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/4/2",
+    "sourceDigest": "dafa78336f1280785152eef6bb67ee158f756abdc8952fcff8bde4deb908e97a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "28*7/(7-3)",
+      "reason": "Difference determines scale; r3 asks smaller share, other rounds larger."
+    },
+    "computed": "49",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/4/3",
+    "sourceDigest": "3ee9790dd91ec3c29e08c907b32fa8d5e08d1be4681872d10143e32138fcc423",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "32*5/(9-5)",
+      "reason": "Difference determines scale; r3 asks smaller share, other rounds larger."
+    },
+    "computed": "40",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/4/4",
+    "sourceDigest": "ea4f7063b46ebeda2533e3954b367ffc783ae94c82f96dc2a99770956b77af5e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "18*8/(8-5)",
+      "reason": "Difference determines scale; r3 asks smaller share, other rounds larger."
+    },
+    "computed": "48",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/5/1",
+    "sourceDigest": "0780dc66d1c68608c4e9a582df8cc637ad88bd2c004de370a38e64248ce9c659",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "72*3/6",
+      "reason": "Total determines common scale; largest,largest,smallest,middle requested respectively."
+    },
+    "computed": "36",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/5/2",
+    "sourceDigest": "1975307eb898dbe42728757782bb19ecb680fa096d98af611150826887a14709",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "80*4/8",
+      "reason": "Total determines common scale; largest,largest,smallest,middle requested respectively."
+    },
+    "computed": "40",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/5/3",
+    "sourceDigest": "5b954c84f0b0eb52547103ffb9f2ee93cab799250149e99b27207f36dbc00eac",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "90*2/10",
+      "reason": "Total determines common scale; largest,largest,smallest,middle requested respectively."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/5/4",
+    "sourceDigest": "392c2d48e30791813f638a58695f3b6fa6f8a3142fcfdc63c7c4a1a67d1c4b9c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "84*5/14",
+      "reason": "Total determines common scale; largest,largest,smallest,middle requested respectively."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/6/1",
+    "sourceDigest": "665b9aae1803771c5ce7b66bb391dd8fe4c0610394c5a30cca78024fc564f929",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "14*8/2",
+      "reason": "Total equals given difference times sum of ratio parts divided by their difference."
+    },
+    "computed": "56",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/6/2",
+    "sourceDigest": "ceb30f49fbfc3b56b3a31bfbb46fee339201b1c56eec69245bc80cd582cd5688",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "18*11/3",
+      "reason": "Total equals given difference times sum of ratio parts divided by their difference."
+    },
+    "computed": "66",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/6/3",
+    "sourceDigest": "d92c1730005e8287327a32f82686f838e52530a85af426b3ce2d3e0c921b5a17",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "16*8/2",
+      "reason": "Total equals given difference times sum of ratio parts divided by their difference."
+    },
+    "computed": "64",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/6/4",
+    "sourceDigest": "2541921be3fa2648fc32eaac66b70316c9f0db64f298f6f80bda589aea3d67b7",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "24*14/4",
+      "reason": "Total equals given difference times sum of ratio parts divided by their difference."
+    },
+    "computed": "84",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/7/1",
+    "sourceDigest": "0fc17cbb0d83c523768867d07fe24b773741712e35a3bac42555bbafb142ff6a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "108*3/9",
+      "reason": "Select middle/largest/blue/second component precisely in listed order."
+    },
+    "computed": "36",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/7/2",
+    "sourceDigest": "de8e853d79a6374a46348164dbd14153a8836a4169e4ddeaad2243c973367a41",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "96*8/16",
+      "reason": "Select middle/largest/blue/second component precisely in listed order."
+    },
+    "computed": "48",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/7/3",
+    "sourceDigest": "decdcac8fc2e6f31298f5a38404f4802eacc3b5f5400adacc8fd3f0a4786d7b2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "75*6/15",
+      "reason": "Select middle/largest/blue/second component precisely in listed order."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/7/4",
+    "sourceDigest": "c5d0a503380e924008cd4a027a2f5600f484272fedfd195f48ecf180ffe647be",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "130*2/13",
+      "reason": "Select middle/largest/blue/second component precisely in listed order."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/8/1",
+    "sourceDigest": "8d33beef5ad8e40111953cb41b74f4ba2d9733a67df1052ecf8f201a32b11f3c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "84*10/4",
+      "reason": "Difference over difference in ratio parts gives scale; multiply by sum."
+    },
+    "computed": "210",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/8/2",
+    "sourceDigest": "1e2fdffdf81a0e02dc23c429cebeae880ae71a556cba75391b56c95a55e2dbc1",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "60*14/4",
+      "reason": "Difference over difference in ratio parts gives scale; multiply by sum."
+    },
+    "computed": "210",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/8/3",
+    "sourceDigest": "cd063a86b30434363011d3ab6b43f71d1d3f4327f543d5d693ca4a276702d6ff",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "75*11/5",
+      "reason": "Difference over difference in ratio parts gives scale; multiply by sum."
+    },
+    "computed": "165",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/8/4",
+    "sourceDigest": "42482407c5d18003d1ec3fdf7e3d19bf758dae8586d470a51e0e19b696e875ff",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "54*11/3",
+      "reason": "Difference over difference in ratio parts gives scale; multiply by sum."
+    },
+    "computed": "198",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/9/1",
+    "sourceDigest": "6181a6972e622ad3d577a756946f62213930b3d1bd902fc34ad17421ff6dc51d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "R(4*33/11+3,7*33/11+3)",
+      "reason": "Compute both current ages from total then add/subtract common elapsed years; all resulting ages positive."
+    },
+    "computed": "(ratio, 15, 24)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/9/2",
+    "sourceDigest": "a053f11a798318624f0d540f4cff73711d1a65d49e8b3346b3c9807973fe6e53",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "R(3*32/8+4,5*32/8+4)",
+      "reason": "Compute both current ages from total then add/subtract common elapsed years; all resulting ages positive."
+    },
+    "computed": "(ratio, 16, 24)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/9/3",
+    "sourceDigest": "922ce80064d623b665afd5eb9bf5270d71d1dbf79a6a861e81272e09fb4ec220",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "R(7*54/9+6,2*54/9+6)",
+      "reason": "Compute both current ages from total then add/subtract common elapsed years; all resulting ages positive."
+    },
+    "computed": "(ratio, 48, 18)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/9/4",
+    "sourceDigest": "5189be76f90fdb97a97dc3571f69daadba91e8b1845c0748a4ef4e6defc2f139",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "R(2*25/5-5,3*25/5-5)",
+      "reason": "Compute both current ages from total then add/subtract common elapsed years; all resulting ages positive."
+    },
+    "computed": "(ratio, 5, 10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/10/1",
+    "sourceDigest": "53608af0a14a1befa54a81a1a5d531caaf537705be7c3c761bc94b84eb78cb98",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*3*(64/16)**2",
+      "reason": "Perimeter=2(a+b)k; area=ab*k^2 with positive length scale."
+    },
+    "computed": "240",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/10/2",
+    "sourceDigest": "7ecc0d6d90d62bbc54e50c90ea665be2941ae4f826e30ba527351ea87f7938df",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "7*2*(72/18)**2",
+      "reason": "Perimeter=2(a+b)k; area=ab*k^2 with positive length scale."
+    },
+    "computed": "224",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/10/3",
+    "sourceDigest": "af79736f003941d5f2ef14ae995666b9321f531eb343d2a6e74d02b341678932",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*4*(108/18)**2",
+      "reason": "Perimeter=2(a+b)k; area=ab*k^2 with positive length scale."
+    },
+    "computed": "720",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.1/10/4",
+    "sourceDigest": "8121820f7af94a51b9511a34cc47117d0c4229309bd78cb804ae44375bb648cf",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "8*3*(88/22)**2",
+      "reason": "Perimeter=2(a+b)k; area=ab*k^2 with positive length scale."
+    },
+    "computed": "384",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/1/1",
+    "sourceDigest": "304b6269e9ad21bb1a728cd36e24de3537c5ae72afeb74af55070a5f91cc236d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "R(2,4)",
+      "reason": "Middle terms already equal; retain first and last components then reduce ratio."
+    },
+    "computed": "(ratio, 2, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/1/2",
+    "sourceDigest": "a28eb12bc044741bd21623b075aaf66c13f509d2569e9f49495b980de750fc3a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "R(3,8)",
+      "reason": "Middle terms already equal; retain first and last components then reduce ratio."
+    },
+    "computed": "(ratio, 3, 8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/1/3",
+    "sourceDigest": "39c5b3ed4b9a69ab756913ac20afa7581e4f673d396c4f84be343feb335e016c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "R(4,2)",
+      "reason": "Middle terms already equal; retain first and last components then reduce ratio."
+    },
+    "computed": "(ratio, 4, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/1/4",
+    "sourceDigest": "975c0e8de9473228ae25d7bb12a9d3d126a4006ebe4be011b26b58cdd8e90c08",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "R(6,10)",
+      "reason": "Middle terms already equal; retain first and last components then reduce ratio."
+    },
+    "computed": "(ratio, 6, 10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/2/1",
+    "sourceDigest": "ca4770eeed9158468c25fa051d4c473eb87d2f52912f226036683416f201f9cb",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3*5/(4-3)",
+      "reason": "Added number closes initial difference; last asks second fish count, not added species."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/2/2",
+    "sourceDigest": "c521d2524b56183c553e0e62adb840ce3aee27e43e7b84674c32a83949830330",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "4*9/(7-4)",
+      "reason": "Added number closes initial difference; last asks second fish count, not added species."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/2/3",
+    "sourceDigest": "7713354a847aa2292395063973fd156296261a18783154356f667b8a2fee322d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "7*10/(9-7)",
+      "reason": "Added number closes initial difference; last asks second fish count, not added species."
+    },
+    "computed": "35",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/2/4",
+    "sourceDigest": "5f193a3fc228a2db3ec59bcc66fc368a2c487c0d47a7685707ecc89ba9fa5cc2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "8*15/(8-3)",
+      "reason": "Added number closes initial difference; last asks second fish count, not added species."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/3/1",
+    "sourceDigest": "50c696271dc79c01dde598f03bbccf47dbf1886506d53e65b94d400a640ca275",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "8*(5+3)/(5-3)",
+      "reason": "Addition to smaller or subtraction from larger equals original difference; compute sum."
+    },
+    "computed": "32",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/3/2",
+    "sourceDigest": "4fece229e8145c715c10f08c4f3f05adcab802a82577aef9a361abee9a629bf7",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "12*(7+4)/(7-4)",
+      "reason": "Addition to smaller or subtraction from larger equals original difference; compute sum."
+    },
+    "computed": "44",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/3/3",
+    "sourceDigest": "4566069a111e5e2ace479afa925ff2e367e29d856fbe0929110488bd81a5c694",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "16*(9+5)/(9-5)",
+      "reason": "Addition to smaller or subtraction from larger equals original difference; compute sum."
+    },
+    "computed": "56",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/3/4",
+    "sourceDigest": "1ed26dd5c05871b9b6cd8b9d159eaed17563a3414587090e3803488ccf66ab99",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "25*(8+3)/(8-3)",
+      "reason": "Addition to smaller or subtraction from larger equals original difference; compute sum."
+    },
+    "computed": "55",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/4/1",
+    "sourceDigest": "f3911624df47f23acb77a4cf452f9f948713ec50c19c83c8134cac1f1ae36a42",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3*9",
+      "reason": "Initial membership is common scale times sum of ratio parts; exclude joiners."
+    },
+    "computed": "27",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/4/2",
+    "sourceDigest": "4a3dfeee7a5f4f45fbda7985afef21c4e0f5e51731cb4a41fec5175dae799108",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "6*13/3",
+      "reason": "Initial membership is common scale times sum of ratio parts; exclude joiners."
+    },
+    "computed": "26",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/4/3",
+    "sourceDigest": "9115ca602e7114ce841f8fd5849beb334d249d7375f68bde4dc4f5b6562a6de0",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "8*10/4",
+      "reason": "Initial membership is common scale times sum of ratio parts; exclude joiners."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/4/4",
+    "sourceDigest": "ec346bfca4e756e76c30866af9be4edca6c9e7bc13e4abea0506cbf7fb488a2b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "20*13/5",
+      "reason": "Initial membership is common scale times sum of ratio parts; exclude joiners."
+    },
+    "computed": "52",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/5/1",
+    "sourceDigest": "57e201e2c062d9532edc9593cca6ef03693636bc7b3b506761c11f1c5194be6a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "2*9/(3-2)",
+      "reason": "Unchanged second count fixes new first count; solve positive scale from added first items. Last requests second count."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/5/2",
+    "sourceDigest": "23d1ba3d16687c8ac565486a6a3407e942e4078508f2a1a25f93429c92a7045c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3*10/(8/2-3)",
+      "reason": "Unchanged second count fixes new first count; solve positive scale from added first items. Last requests second count."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/5/3",
+    "sourceDigest": "cce81d152aa75ddff40f5c6aead7a92efd903c9b72b8ad4acef3c30ae4f04967",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "4*6/(9*2/3-4)",
+      "reason": "Unchanged second count fixes new first count; solve positive scale from added first items. Last requests second count."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/5/4",
+    "sourceDigest": "aebe175ecd704e4a2c03f2f81ac6b574bba5ee2babf543d7281f31e937b6b312",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "9*12/(7-5)",
+      "reason": "Unchanged second count fixes new first count; solve positive scale from added first items. Last requests second count."
+    },
+    "computed": "54",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/6/1",
+    "sourceDigest": "6da1bd7d76703e49a179b59d3fb1a26ad35e1d67461c70437490c9c502c54b84",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "7*(5*6-2*6)/(5*4-2*7)",
+      "reason": "Cross multiply altered counts:2(7k-6)=5(4k-6),3(9k-4)=7(5k-4),7k+4=2(3k+4),5k-4=3(3k-4). All resulting counts positive."
+    },
+    "computed": "21",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/6/2",
+    "sourceDigest": "5868ef537449e8b64c49530e7f064d7456d3cbc042b55aa4b56b6b5dd718e661",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "9*(7*4-3*4)/(7*5-3*9)",
+      "reason": "Cross multiply altered counts:2(7k-6)=5(4k-6),3(9k-4)=7(5k-4),7k+4=2(3k+4),5k-4=3(3k-4). All resulting counts positive."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/6/3",
+    "sourceDigest": "2fbb0100c2c273507c7ebdada187995fbdadd2e0d40455b1027fee1ff67fedf8",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3*(2*4-4)/(7-2*3)",
+      "reason": "Cross multiply altered counts:2(7k-6)=5(4k-6),3(9k-4)=7(5k-4),7k+4=2(3k+4),5k-4=3(3k-4). All resulting counts positive."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/6/4",
+    "sourceDigest": "ff9bf6f3b3c54f6be89e301d5dc8fee42c822426ba137c5dcca7762e87b855d6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "8*(3*4-4)/(3*3-5)",
+      "reason": "Cross multiply altered counts:2(7k-6)=5(4k-6),3(9k-4)=7(5k-4),7k+4=2(3k+4),5k-4=3(3k-4). All resulting counts positive."
+    },
+    "computed": "16",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/7/1",
+    "sourceDigest": "53c6bf660c25753b7847a0dc79e39525b1910ae0ba1210f72a387025ac26c0ad",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "R(9,12,14)",
+      "reason": "Match middle component using LCM of its two ratio values, preserving order."
+    },
+    "computed": "(ratio, 9, 12, 14)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/7/2",
+    "sourceDigest": "f67b6d9d2b88566e276d1bf45283eca4fa1a6232ec4a822d1586a3c624b5f25d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "R(8,20,15)",
+      "reason": "Match middle component using LCM of its two ratio values, preserving order."
+    },
+    "computed": "(ratio, 8, 20, 15)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/7/3",
+    "sourceDigest": "550641354382998bee345aacc0cdab76a85ba39e1d7c96a961096a8e1cdfb31f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "R(15,6,14)",
+      "reason": "Match middle component using LCM of its two ratio values, preserving order."
+    },
+    "computed": "(ratio, 15, 6, 14)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/7/4",
+    "sourceDigest": "65d78887ccac85bbc2341ec8bb79a43fc76b702dfade30c84ea648a2153c6362",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "R(12,9,5)",
+      "reason": "Match middle component using LCM of its two ratio values, preserving order."
+    },
+    "computed": "(ratio, 12, 9, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/8/1",
+    "sourceDigest": "dc566147c2e9ef025f433295b26adb7f9c4a97df5b69c7368732450935021813",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*12/4",
+      "reason": "First ingredient unchanged; express new second ingredient in same first-component scale and use increase to solve k."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/8/2",
+    "sourceDigest": "f4005c7d8d75586a61c7c879aa996ffc0317eff1c0c69a762634067021d850a1",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "7*20/5",
+      "reason": "First ingredient unchanged; express new second ingredient in same first-component scale and use increase to solve k."
+    },
+    "computed": "28",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/8/3",
+    "sourceDigest": "9ce8cca1a800578e53eb68a08018baa67a03796c71d266b3b52598666d4e1765",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*14/2",
+      "reason": "First ingredient unchanged; express new second ingredient in same first-component scale and use increase to solve k."
+    },
+    "computed": "35",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/8/4",
+    "sourceDigest": "48a59e56cc711cb5e89d6fe659613544d3d0bfcb0d4e3be39465a5ed6b89c407",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "4*18/(6-4)",
+      "reason": "First ingredient unchanged; express new second ingredient in same first-component scale and use increase to solve k."
+    },
+    "computed": "36",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/9/1",
+    "sourceDigest": "208f922bbb89d012c061ba2957d5e48162be158e24925ff4d93eb6ff7e27f48e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*6/(5-2*2)",
+      "reason": "Both ages gain same years; cross-multiply future ratio, solve k, select requested present age."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/9/2",
+    "sourceDigest": "7db272bc441dd7a770cb66b6c21faea1e988fe4423630c5b1cae7cf932b72699",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "2*(3*4-4)/(7-3*2)",
+      "reason": "Both ages gain same years; cross-multiply future ratio, solve k, select requested present age."
+    },
+    "computed": "16",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/9/3",
+    "sourceDigest": "35faf1870ef363510f90d1a588edc12b36b56518fdcf85c23446702d5440d2a8",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*(3*8-2*8)/(2*5-3*2)",
+      "reason": "Both ages gain same years; cross-multiply future ratio, solve k, select requested present age."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/9/4",
+    "sourceDigest": "1bc8149b2df369db16ef4cbb88d17a15368ee6067fef2468081f59feb38e61f9",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3*(3*4-2*4)/(2*5-3*3)",
+      "reason": "Both ages gain same years; cross-multiply future ratio, solve k, select requested present age."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/10/1",
+    "sourceDigest": "4ce2369d575e5cf77ca014e39016d60863e2d19ee3fc0d3ed3a23951e33f2791",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "11*(3*12+2*12)/(2*7-3*4)",
+      "reason": "Transfer conserves total. Equations3(4k+12)=2(7k-12),7(3k+8)=5(5k-8),2(4k-9)=5(k+9),2(7k-8)=3(3k+8); last asks original first wallet."
+    },
+    "computed": "330",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/10/2",
+    "sourceDigest": "a0e5826e6f6577bcde039da8e7099961bd50b28c0642447cd5f1b1879a18b9e0",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "8*(7*8+5*8)/(5*5-7*3)",
+      "reason": "Transfer conserves total. Equations3(4k+12)=2(7k-12),7(3k+8)=5(5k-8),2(4k-9)=5(k+9),2(7k-8)=3(3k+8); last asks original first wallet."
+    },
+    "computed": "192",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/10/3",
+    "sourceDigest": "18ddf3a67e03a719466274ae10e61879392d46922accdaf6e0ca71ad4a6658c8",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*(2*9+5*9)/(2*4-5)",
+      "reason": "Transfer conserves total. Equations3(4k+12)=2(7k-12),7(3k+8)=5(5k-8),2(4k-9)=5(k+9),2(7k-8)=3(3k+8); last asks original first wallet."
+    },
+    "computed": "105",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.2/10/4",
+    "sourceDigest": "4d679edad624274a86fd71990621e179f74ad11ddd97af219942708a09352c84",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "7*(2*8+3*8)/(2*7-3*3)",
+      "reason": "Transfer conserves total. Equations3(4k+12)=2(7k-12),7(3k+8)=5(5k-8),2(4k-9)=5(k+9),2(7k-8)=3(3k+8); last asks original first wallet."
+    },
+    "computed": "56",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/1/1",
+    "sourceDigest": "ba4225442f306b8d0415eb70739d5e2c5b049dfee91afc2a205c8f7f0f0f1580",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*100",
+      "reason": "Metric conversions m to cm,cm to mm,km to m,L to mL."
+    },
+    "computed": "500",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/1/2",
+    "sourceDigest": "1881013cd86e60638e8f943ce12cdbf4e79638138c62f3d4ae6fca33da56c975",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "7*10",
+      "reason": "Metric conversions m to cm,cm to mm,km to m,L to mL."
+    },
+    "computed": "70",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/1/3",
+    "sourceDigest": "7d8e039bd9b4d079a761631199a9c2b33fed2ced3b112a8efe111279096a9c78",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "4*1000",
+      "reason": "Metric conversions m to cm,cm to mm,km to m,L to mL."
+    },
+    "computed": "4000",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/1/4",
+    "sourceDigest": "eccd496925b8e66f3301ce726dc53436934fff40f16aec6b391984c74771c19b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5/2*1000",
+      "reason": "Metric conversions m to cm,cm to mm,km to m,L to mL."
+    },
+    "computed": "2500",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/2/1",
+    "sourceDigest": "5ed78faeaafbe671283b7a84760d4ebf66d5ddeaa19de4e36d4856a3e37d4f57",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3*60*60",
+      "reason": "Time units convert using60 seconds/minute,60 minutes/hour,24 hours/day,7 days/week."
+    },
+    "computed": "10800",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/2/2",
+    "sourceDigest": "614c89caee5e19363ee547b69acc3ab3e0ea67b879c3a12083e5b3eea1a70028",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "4*24*60",
+      "reason": "Time units convert using60 seconds/minute,60 minutes/hour,24 hours/day,7 days/week."
+    },
+    "computed": "5760",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/2/3",
+    "sourceDigest": "5da578ddae31a0db306f2e7a24ae41d3d52db727b99bdc5092186dd8c4249220",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3*7*24",
+      "reason": "Time units convert using60 seconds/minute,60 minutes/hour,24 hours/day,7 days/week."
+    },
+    "computed": "504",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/2/4",
+    "sourceDigest": "2e33f4efe790af41c39d74491d140579e84b528595f672f55ef420fd278ea5bf",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3*24*60*60",
+      "reason": "Time units convert using60 seconds/minute,60 minutes/hour,24 hours/day,7 days/week."
+    },
+    "computed": "259200",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/3/1",
+    "sourceDigest": "08720d385b8a18afc057fb46be081ac56f0860066cafa02933309d4342964a2a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "P(1,1/60)",
+      "reason": "Read all operation alternatives: minutes to hours divide60;mm to cm divide10;kg to g multiply1000;mL to L divide1000. Other choices have wrong scale/direction."
+    },
+    "computed": "(position, 1, 1/60)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/3/2",
+    "sourceDigest": "164fdf44e5d6b1d830d55300f5317a856f8a65c623b2a4eb903df636120cf6d0",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "P(1,1/10)",
+      "reason": "Read all operation alternatives: minutes to hours divide60;mm to cm divide10;kg to g multiply1000;mL to L divide1000. Other choices have wrong scale/direction."
+    },
+    "computed": "(position, 1, 1/10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/3/3",
+    "sourceDigest": "164c929ebac747582418fe7a7287ecfbb50f6951bca11bd611b087a980a413ce",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "P(3,1000)",
+      "reason": "Read all operation alternatives: minutes to hours divide60;mm to cm divide10;kg to g multiply1000;mL to L divide1000. Other choices have wrong scale/direction."
+    },
+    "computed": "(position, 3, 1000)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/3/4",
+    "sourceDigest": "2d8ddb3a125324330ae78cd7a9ff2b65b53b37bf352faa985480931090db7cc5",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "P(0,1/1000)",
+      "reason": "Read all operation alternatives: minutes to hours divide60;mm to cm divide10;kg to g multiply1000;mL to L divide1000. Other choices have wrong scale/direction."
+    },
+    "computed": "(position, 0, 1/1000)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/4/1",
+    "sourceDigest": "e35adaf3386f47e57ee2ae1cb727b793c407925b91ec40e8e2e1a241eaf9235d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "2400/1000",
+      "reason": "Divide by1000 for grams to kg or mL to L; divide100 for cm to m."
+    },
+    "computed": "12/5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/4/2",
+    "sourceDigest": "815cfe51e197106004e497afae29b396825f4a194fe3868534ec1377e97b8042",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "750/1000",
+      "reason": "Divide by1000 for grams to kg or mL to L; divide100 for cm to m."
+    },
+    "computed": "3/4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/4/3",
+    "sourceDigest": "edcb24a1a25ece1b023e2c375ccfa2896efa8049420edbcb2a46770ed2aa2444",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "145/100",
+      "reason": "Divide by1000 for grams to kg or mL to L; divide100 for cm to m."
+    },
+    "computed": "29/20",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/4/4",
+    "sourceDigest": "beafa7c11e09da668745309f9dc807292e15060d4b7946ac5b0436323b8d2bb2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3250/1000",
+      "reason": "Divide by1000 for grams to kg or mL to L; divide100 for cm to m."
+    },
+    "computed": "13/4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/5/1",
+    "sourceDigest": "ef27547045c89cd24f0552bb767adff3d6623942d5a64c6b683b42de5f71a64f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "54*1000/3600",
+      "reason": "km/h to m/s multiplies by1000/3600."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/5/2",
+    "sourceDigest": "6f1b0c6d56e842d89f28da240be701ed8a956b99751ebb7564a5a4c4a8155454",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "36*1000/3600",
+      "reason": "km/h to m/s multiplies by1000/3600."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/5/3",
+    "sourceDigest": "85aa938659bd7a8574afc781599817551d5a85a72584d66b54792b5b70d55557",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "9*1000/3600",
+      "reason": "km/h to m/s multiplies by1000/3600."
+    },
+    "computed": "5/2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/5/4",
+    "sourceDigest": "6431488524143daaf0504fa04f450fa2346279b2848d082cc40db48b7b3df8f2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "126*1000/3600",
+      "reason": "km/h to m/s multiplies by1000/3600."
+    },
+    "computed": "35",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/6/1",
+    "sourceDigest": "ae21d2db564a2d7ac6895d5e7ffd0d7ae22ced42f79ecfd1910cbd7f905c3a6f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "10*3600/1000",
+      "reason": "m/s to km/h multiplies by3600/1000."
+    },
+    "computed": "36",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/6/2",
+    "sourceDigest": "157828570cafcd92cff3c333c38a2905d11bc0fffd1e1966268688c7273f6713",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "9*3600/1000",
+      "reason": "m/s to km/h multiplies by3600/1000."
+    },
+    "computed": "162/5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/6/3",
+    "sourceDigest": "6df757971fd05eeca517ce855c9a57d95faa1a38799336bd0010391b5fba4462",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "18*3600/1000",
+      "reason": "m/s to km/h multiplies by3600/1000."
+    },
+    "computed": "324/5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/6/4",
+    "sourceDigest": "61216ce5d604c937ef522bfef3189277843fd76f32466fe529c88eb6478ce590",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "45*3600/1000",
+      "reason": "m/s to km/h multiplies by3600/1000."
+    },
+    "computed": "162",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/7/1",
+    "sourceDigest": "c31b7d911180ff7401b904539d7196906066314ca630b533dffcf29d81a24722",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*60/100",
+      "reason": "Multiply by stated duration in original time units then convert length/volume unit."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/7/2",
+    "sourceDigest": "888c4bbc4b40d3c2322489719f7a955bd861796603b4d28429500e56d1af7c7b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "4*60/10",
+      "reason": "Multiply by stated duration in original time units then convert length/volume unit."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/7/3",
+    "sourceDigest": "da44da835dd34e50cc766d3fbcc6ed49f3bfe24275d8f7e76073d338f45bf500",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3*60/1000",
+      "reason": "Multiply by stated duration in original time units then convert length/volume unit."
+    },
+    "computed": "9/50",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/7/4",
+    "sourceDigest": "f8b1b748dde1707d81de22f6a88957c18769c58aa48966cb8a954276e81a3a57",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "6*365/100",
+      "reason": "Multiply by stated duration in original time units then convert length/volume unit."
+    },
+    "computed": "219/10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/8/1",
+    "sourceDigest": "1232c9069d531a2555aa8230cb8a10d6ae2b5786a71015d413aa070300071232",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3*4*6",
+      "reason": "Chain conversion factors; last reverses chips to gems."
+    },
+    "computed": "72",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/8/2",
+    "sourceDigest": "82452d5570e78f1f9ebf65422d7df05f76d790e024f35dfb50c64b1ab7d25662",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "4*5*8",
+      "reason": "Chain conversion factors; last reverses chips to gems."
+    },
+    "computed": "160",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/8/3",
+    "sourceDigest": "dcf7080f2bcfa6efc95180ec09c9733003902929a8c75703d0e595ee89af0883",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "6*7*3",
+      "reason": "Chain conversion factors; last reverses chips to gems."
+    },
+    "computed": "126",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/8/4",
+    "sourceDigest": "b5dfc146afc045cfecbb5a42cfec7d1a9d52cfd2a8337a4d5a59ae4d6d587867",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "216/(9*4)",
+      "reason": "Chain conversion factors; last reverses chips to gems."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/9/1",
+    "sourceDigest": "16d6a8d27919efff107f59059b9a96a6c457a977fa2af7a0b7c6ca90cfcd0a7c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "90*1000/3600*10",
+      "reason": "Distance=speed*time; final asks time so distance/speed after SI conversion."
+    },
+    "computed": "250",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/9/2",
+    "sourceDigest": "683cc8ad9ee22f532db062709218b3e201e4e4f28b47277f57040f787491529e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "108*1000/3600*6",
+      "reason": "Distance=speed*time; final asks time so distance/speed after SI conversion."
+    },
+    "computed": "180",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/9/3",
+    "sourceDigest": "2b4ba45abf3fefbdfeef78ba56a7e3bc941da1871b2b7a96e055daf760c6d3e3",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "27*1000/3600*40",
+      "reason": "Distance=speed*time; final asks time so distance/speed after SI conversion."
+    },
+    "computed": "300",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/9/4",
+    "sourceDigest": "873f0ac01274580d016ccb0ec373634ffda97a0c77ec2e045734084536b0dc5f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "150/(36*1000/3600)",
+      "reason": "Distance=speed*time; final asks time so distance/speed after SI conversion."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/10/1",
+    "sourceDigest": "c1ddc0cf7b16ff7fc3fac242eb6c89225d9f61e26e6b709cc12dfa3f2ed0328c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "12*60*24",
+      "reason": "Multiply rate by elapsed time; final divides daily total by24."
+    },
+    "computed": "17280",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/10/2",
+    "sourceDigest": "7b8f141016186fd40e406f457a5939a211026ff1c0e37ff675c72ef729f0c396",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "15*60*8",
+      "reason": "Multiply rate by elapsed time; final divides daily total by24."
+    },
+    "computed": "7200",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/10/3",
+    "sourceDigest": "73cb7e1ad9e9443fe4afb6f19ff06c42cb6cdad3343d4a49663c9bf4e2689b36",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "9*60*60*24",
+      "reason": "Multiply rate by elapsed time; final divides daily total by24."
+    },
+    "computed": "777600",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.3/10/4",
+    "sourceDigest": "78380f88cfc7c31e204c8b29262b2004f9d52051378946b21f4cfb482ab1c342",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "720/24",
+      "reason": "Multiply rate by elapsed time; final divides daily total by24."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/3/4",
+    "sourceDigest": "07f13021ce7203aa559dcc0a3c22081768784a67b1510a1a47a990a80b7dda0f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "100*3/20",
+      "reason": "Percent number is100 times fraction."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/8/1",
+    "sourceDigest": "15c1c5f4a437245b89b355eab739c491782d58b9158c40f88dad9aab003ce7cf",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "14*4/8",
+      "reason": "Scale known percentage amount by ratio of requested percent to known percent."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/8/2",
+    "sourceDigest": "a8789d4a4e63824f533ad3ea1a355c644a105f8a59c2d9ca15506add17cc8f71",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "36*5/15",
+      "reason": "Scale known percentage amount by ratio of requested percent to known percent."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/8/3",
+    "sourceDigest": "de494e7547c8041d76b4451030d3ac9b213dd2bb51b15ff401e0a676ffe1ad4c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "21*18/6",
+      "reason": "Scale known percentage amount by ratio of requested percent to known percent."
+    },
+    "computed": "63",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/8/4",
+    "sourceDigest": "b458b5d26970188a24808ce22224d20b5f46492e6649381d9cf695f761de4dd6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "26*10/40",
+      "reason": "Scale known percentage amount by ratio of requested percent to known percent."
+    },
+    "computed": "13/2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/9/1",
+    "sourceDigest": "e59b9bdc6d4cc0a320f7e3d516590091a42cd1cfe1bfb4f7f6f8735c4d4646b6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "10000/25",
+      "reason": "For positive original quantities reciprocal percentage is100/(p/100)."
+    },
+    "computed": "400",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/9/2",
+    "sourceDigest": "d80a171f117a7003058cdf1b226276105af0f43759670bc706102ca288fadb3e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "10000/20",
+      "reason": "For positive original quantities reciprocal percentage is100/(p/100)."
+    },
+    "computed": "500",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/9/3",
+    "sourceDigest": "a8f0b14e0a108c581387f1ebc50480207e5e5e4261c8f6e6deedec8d791896c6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "10000/125",
+      "reason": "For positive original quantities reciprocal percentage is100/(p/100)."
+    },
+    "computed": "80",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/9/4",
+    "sourceDigest": "501ca5b248569a511df6a02b543d0b1bc3e04dd623fafe325e62e7aeb4b824fd",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "10000/40",
+      "reason": "For positive original quantities reciprocal percentage is100/(p/100)."
+    },
+    "computed": "250",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/10/1",
+    "sourceDigest": "ef63d22215ab1ead776088e8a71e4558e72030297c1430ffabf3d79b2fb92729",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "45*120/30",
+      "reason": "Equate percentage amounts, cancelling common factor1/100 and solve unknown number."
+    },
+    "computed": "180",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/10/2",
+    "sourceDigest": "6642c19d3836fbf55a45a917e1e9497a947c0e002e918880a2bac51d582c10ff",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "25*96/40",
+      "reason": "Equate percentage amounts, cancelling common factor1/100 and solve unknown number."
+    },
+    "computed": "60",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/10/3",
+    "sourceDigest": "9f78c0b1ba5e2932494d07946fe5ae46b761943f64d4508a293dd8513bc0d133",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "30*120/75",
+      "reason": "Equate percentage amounts, cancelling common factor1/100 and solve unknown number."
+    },
+    "computed": "48",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.4/10/4",
+    "sourceDigest": "f39f871bc5604e23c858ed01afac0db80d2209d6f011cde2578537929fc9257b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "55*80/20",
+      "reason": "Equate percentage amounts, cancelling common factor1/100 and solve unknown number."
+    },
+    "computed": "220",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/1/2",
+    "sourceDigest": "c59ff49dbe261ede772cc6cb376023ba307e753a74e1f40a5815b4ab50538e02",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "140*(1+35/100)",
+      "reason": "Increase original by35 percent of original."
+    },
+    "computed": "189",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/1/3",
+    "sourceDigest": "8beae0df87ef2aa08e369115a6d45d99dbdb5976583a5b4d3a9371a429ae89c7",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "250*(1+18/100)",
+      "reason": "Increase original by18 percent of original."
+    },
+    "computed": "295",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/1/4",
+    "sourceDigest": "fd40a436262b5cb9390d77a0a1091d842bdaa64452f1d8e009056edc691fa64a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "64*(1+75/100)",
+      "reason": "Increase original by75 percent of original."
+    },
+    "computed": "112",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/2/2",
+    "sourceDigest": "38b0de0e5f08ec896bc4ff31b916e8b6b03cfe1d2e4c22469d9646969ffa91cd",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "180*(1-40/100)",
+      "reason": "Retain60 percent of original."
+    },
+    "computed": "108",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/2/3",
+    "sourceDigest": "748a0ceb586dbcd4b7d745eb177c02aaf34651a3a0cfabe511d8dbf83b54b24b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "320*(1-15/100)",
+      "reason": "Retain85 percent of original."
+    },
+    "computed": "272",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/2/4",
+    "sourceDigest": "ff5c447270ecd530091ed37f6d08b0de733e48eb7468ed412f9bd9163328347d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "95*(1-20/100)",
+      "reason": "Retain80 percent of original."
+    },
+    "computed": "76",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/3/1",
+    "sourceDigest": "55ebdcd50e07adffce9f67e6cde34476272c86f843ba968503ef0446e4227eb0",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "63/(1-10/100)",
+      "reason": "Undo discount by dividing final price by retained fraction, not multiplying by reciprocal percent change."
+    },
+    "computed": "70",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/3/2",
+    "sourceDigest": "33080ca69a023b11c8495b212933c415f73263a8069e9c72624671657f6bd1f0",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "36/(1-20/100)",
+      "reason": "Undo discount by dividing final price by retained fraction, not multiplying by reciprocal percent change."
+    },
+    "computed": "45",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/3/3",
+    "sourceDigest": "5cb2dd6f81861a20fbb3787d947333420f512f4bc6834de903280d20fc1dc5f2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "78/(1-35/100)",
+      "reason": "Undo discount by dividing final price by retained fraction, not multiplying by reciprocal percent change."
+    },
+    "computed": "120",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/3/4",
+    "sourceDigest": "0c515e8f4a4a85c77b7029b7f1d2a8f4f786ac16dd6791244396bb1df7839741",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "51/(1-25/100)",
+      "reason": "Undo discount by dividing final price by retained fraction, not multiplying by reciprocal percent change."
+    },
+    "computed": "68",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/4/1",
+    "sourceDigest": "9560b747893bf6e31bae333dfacf552c49a19564fc434923fbf59d3a30ee5160",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "40*(1+30/100)",
+      "reason": "Markup is specified fraction of cost; selling price=cost*(1+markup)."
+    },
+    "computed": "52",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/4/2",
+    "sourceDigest": "658182a9a5f4a8a5554b8e5280b1d4c1246242488a7b457bde4542a4b93300e0",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "25*(1+60/100)",
+      "reason": "Markup is specified fraction of cost; selling price=cost*(1+markup)."
+    },
+    "computed": "40",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/4/3",
+    "sourceDigest": "5cf560a9691c0e35093ec10f0ab6e620bc5e8dc2b7954e433c5dd356bec4487a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "18*(1+45/100)",
+      "reason": "Markup is specified fraction of cost; selling price=cost*(1+markup)."
+    },
+    "computed": "261/10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/4/4",
+    "sourceDigest": "9883ed2bf3ce460b46acadfb6b53873a58c62c71d456369ab65b8706da1ba12f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "56*(1+75/100)",
+      "reason": "Markup is specified fraction of cost; selling price=cost*(1+markup)."
+    },
+    "computed": "98",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/5/1",
+    "sourceDigest": "6ca237d2960f64b3cad75d7b002c8589ce176285d6b555379bfb7776f1ab0b9c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "150/(1+25/100)",
+      "reason": "Undo multiplicative increase."
+    },
+    "computed": "120",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/5/2",
+    "sourceDigest": "07af1c2d49a9c047009d4d7611c07135c7622e77a2fe368f5d655374fc4503b5",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "792/(1+10/100)",
+      "reason": "Undo multiplicative increase."
+    },
+    "computed": "720",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/5/3",
+    "sourceDigest": "6e89d6048d7733378200f13f663595c927b6bd09fdd56f05e0e2a30a3d5ff73e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "72/(1+60/100)",
+      "reason": "Undo multiplicative increase."
+    },
+    "computed": "45",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/5/4",
+    "sourceDigest": "a1721773bf84ec49315e2a6ecef46ab6437ee87d41df54e3eed14c6e795968be",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "8640/(1+20/100)",
+      "reason": "Undo multiplicative increase."
+    },
+    "computed": "7200",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/6/1",
+    "sourceDigest": "accd6e1e51fb8b0c7ad88b2aeaf94a1ae5b2a3110a0a62c4798077064937c389",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "200*(1+30/100)*(1-30/100)",
+      "reason": "Successive percentage changes use successive current bases, hence multiply factors."
+    },
+    "computed": "182",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/6/2",
+    "sourceDigest": "914a8339f429da0522e2b1e4b23c2a7e0a388748dd4bec679c0a87504eecc128",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "500*(1+40/100)*(1-25/100)",
+      "reason": "Successive percentage changes use successive current bases, hence multiply factors."
+    },
+    "computed": "525",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/6/3",
+    "sourceDigest": "eccee66574fe6e339c0dceaa12992334a25b883e89ee536d0f422a7f7abed98b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "800*(1+15/100)*(1-20/100)",
+      "reason": "Successive percentage changes use successive current bases, hence multiply factors."
+    },
+    "computed": "736",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/6/4",
+    "sourceDigest": "5b2adef57736aaef0fcf07bbd6e86ba8ec2efac56caee68e9b3639ecea2b11b8",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "240*(1-25/100)*(1+40/100)",
+      "reason": "Successive percentage changes use successive current bases, hence multiply factors."
+    },
+    "computed": "252",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/7/1",
+    "sourceDigest": "6d9811801d565e0f0d0f3883ce9e88092aa18d0c6c4fc35bc758c6fdeb1c61d7",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "12*30/(12+6)",
+      "reason": "Solute amount conserved while total volume increases; concentration percent=old volume*old percent/new volume."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/7/2",
+    "sourceDigest": "290a0cd6d3f1679209f8b64d748e41e6a9f90cbae68028ded3e2c627a4de4205",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "20*45/(20+10)",
+      "reason": "Solute amount conserved while total volume increases; concentration percent=old volume*old percent/new volume."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/7/3",
+    "sourceDigest": "0efea1a3cf1411ddf05723abf0789a6983fa95d7e9954fa10ac66a1d88662ebb",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "8*50/(8+12)",
+      "reason": "Solute amount conserved while total volume increases; concentration percent=old volume*old percent/new volume."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/7/4",
+    "sourceDigest": "77624f1ca282b586289122a90e4cd098891058f98f839615a8c6e6f0e673aa0b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "15*60/(15+5)",
+      "reason": "Solute amount conserved while total volume increases; concentration percent=old volume*old percent/new volume."
+    },
+    "computed": "45",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/8/1",
+    "sourceDigest": "47cfda0900ef9cfb42548208d4897bd0edb5cf3ed6c3c06d3dc4a026e7d9ad76",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "180*10/(100-10)",
+      "reason": "Pure solute x satisfies old solute+x=p*(old total+x); all solutions x positive."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/8/2",
+    "sourceDigest": "69561b2b8f6687dabe355c90b88ec67cf64d601852c5e270a900ad5d8c2ad455",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "270*25/(100-25)",
+      "reason": "Pure solute x satisfies old solute+x=p*(old total+x); all solutions x positive."
+    },
+    "computed": "90",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/8/3",
+    "sourceDigest": "fbc4744d1a937431f2e5e796268bf72620dabdd692bb487434ecba1f12633632",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "48*20/(100-20)",
+      "reason": "Pure solute x satisfies old solute+x=p*(old total+x); all solutions x positive."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/8/4",
+    "sourceDigest": "bac0615c368454403cdda5fbee949b2512c0d0934ad7a47448acc8a4b92a4f6f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "60*(20-8)/(100-20)",
+      "reason": "Pure solute x satisfies old solute+x=p*(old total+x); all solutions x positive."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/9/1",
+    "sourceDigest": "c85a79f5c6e5f2a6e1d7d719c68ecf9bb3333676e4daa3b00aba309069034955",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "100*(1-(1-20/100)*(1-25/100))",
+      "reason": "Overall discount complements product of retained fractions; final solves unknown second retention from total retention0.60."
+    },
+    "computed": "40",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/9/2",
+    "sourceDigest": "7f2e46e0aa1140048746585199061cdb48110d5c717fe1da5f818a8f9aa6e313",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "100*(1-(1-30/100)*(1-20/100))",
+      "reason": "Overall discount complements product of retained fractions; final solves unknown second retention from total retention0.60."
+    },
+    "computed": "44",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/9/3",
+    "sourceDigest": "6a5f252edf3eb8073c8c656707725bb25158f03f2bec73d42abaf49ced602903",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "100*(1-(1-40/100)*(1-10/100))",
+      "reason": "Overall discount complements product of retained fractions; final solves unknown second retention from total retention0.60."
+    },
+    "computed": "46",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/9/4",
+    "sourceDigest": "360eacc1bcc9015ad0687eb245dedfc8aff79e2bc193aeda9dfc8b407947e1c7",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "100*(1-(1-40/100)/(1-25/100))",
+      "reason": "Overall discount complements product of retained fractions; final solves unknown second retention from total retention0.60."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/10/1",
+    "sourceDigest": "ddf7e874678d89af1cc18c60f8b5dbc4018a304ddb7ac8ac5def3354c57cbfaf",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "(40*35+60*60)/100",
+      "reason": "Conserve solute mass/volume under stated ideal additive mixture model; last solves unknown ingredient percent."
+    },
+    "computed": "50",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/10/2",
+    "sourceDigest": "efedd283726e1aa2f00c8fa0758ed0c61b96210ccbe6aac7716d7f0bcfdc0215",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "(30*20+70*40)/100",
+      "reason": "Conserve solute mass/volume under stated ideal additive mixture model; last solves unknown ingredient percent."
+    },
+    "computed": "34",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/10/3",
+    "sourceDigest": "78e8abfb1fa4029fa44b8d66257c14c32a8bb5540a291eff62695128a094d259",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "(2*15+3*40)/5",
+      "reason": "Conserve solute mass/volume under stated ideal additive mixture model; last solves unknown ingredient percent."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/6.5/10/4",
+    "sourceDigest": "170e3e5c2489f36fd6770f9f9bd4ef3f8c08037f2c3176cf2f6a285c2a7ca877",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "(100*22-40*10)/60",
+      "reason": "Conserve solute mass/volume under stated ideal additive mixture model; last solves unknown ingredient percent."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/1/1",
+    "sourceDigest": "929e403952286c27332f2498d9ddef8aa6579d636bad8887712823d72e8e8bd2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3*10/(8-2*3)",
+      "reason": "Both ages advance or retreat equally; solve ratio equation. Last3(3k-4)=5(2k-4); positive present and past ages checked."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/1/2",
+    "sourceDigest": "e2234e8ee5920abf80651a06a7ab192010824e36deeca72395cca86336b8209a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "4*5/(9-2*4)",
+      "reason": "Both ages advance or retreat equally; solve ratio equation. Last3(3k-4)=5(2k-4); positive present and past ages checked."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/1/3",
+    "sourceDigest": "2c9cf322f5cb9b23f0594518be7c5ec84cf57df0657c1f532d43d9e6ee42b19b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*(7*12-4*12)/(4*5-7*2)",
+      "reason": "Both ages advance or retreat equally; solve ratio equation. Last3(3k-4)=5(2k-4); positive present and past ages checked."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/1/4",
+    "sourceDigest": "98ee441bd798181abe6e9132d215324fdabf9a05132304bb7b9dbc16fd025157",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "3*(5*4-3*4)/(5*2-3*3)",
+      "reason": "Both ages advance or retreat equally; solve ratio equation. Last3(3k-4)=5(2k-4); positive present and past ages checked."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/2/1",
+    "sourceDigest": "530d10f6dab2f8edafbb36e42e23bfdae5baba506a834499cdd86ba0939d8743",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "142*27/(20+24+27)",
+      "reason": "Match shared ratio component; ratios20:24:27,9:12:10,6:21:28,6:10:15 then determine scale from sum or difference."
+    },
+    "computed": "54",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/2/2",
+    "sourceDigest": "6f2d29f0ff0265d1353b9eae778f4d603cd054db90ce2ec9559e395c0c9abf4f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "155*9/(9+12+10)",
+      "reason": "Match shared ratio component; ratios20:24:27,9:12:10,6:21:28,6:10:15 then determine scale from sum or difference."
+    },
+    "computed": "45",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/2/3",
+    "sourceDigest": "8cede7f52aa59da1e12fd92fb01f665eeb7367b3b4510d4c49eea3037cf0a1fb",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "165*28/(6+21+28)",
+      "reason": "Match shared ratio component; ratios20:24:27,9:12:10,6:21:28,6:10:15 then determine scale from sum or difference."
+    },
+    "computed": "84",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/2/4",
+    "sourceDigest": "edb81ca817cf0f916eaed7a7f2c8c590703e74543bf19c1bbeb7452e03d91272",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "63*10/(15-6)",
+      "reason": "Match shared ratio component; ratios20:24:27,9:12:10,6:21:28,6:10:15 then determine scale from sum or difference."
+    },
+    "computed": "70",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/3/1",
+    "sourceDigest": "d693f44eeadb903b2e0d168d2e945d03523756d29b009cd1fd81ebcaa210d915",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "108*1000/3600",
+      "reason": "Convert speeds using seconds and meters; final asks distance in km during25 minutes."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/3/2",
+    "sourceDigest": "1068d5869610ec652e6b570b446c15b761616d818164f28465cb4e2790e6644a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "90*1000/3600",
+      "reason": "Convert speeds using seconds and meters; final asks distance in km during25 minutes."
+    },
+    "computed": "25",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/3/3",
+    "sourceDigest": "95e15de537a4245ea9c9013e5f492caa053cce8ef0946af1a895cb8f47b5b76e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "20*3600/1000",
+      "reason": "Convert speeds using seconds and meters; final asks distance in km during25 minutes."
+    },
+    "computed": "72",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/3/4",
+    "sourceDigest": "ce7161029b6f35d537ee1e775023e8a1289a3755ee56bf6b6eff2dd0dd0a28fb",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "12*25*60/1000",
+      "reason": "Convert speeds using seconds and meters; final asks distance in km during25 minutes."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/4/1",
+    "sourceDigest": "2aac40f5ea72f7e9ec3ba2a42a91a255de12baf07598ee8399bc786090e53c31",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "60*90/45",
+      "reason": "Equal percentage amounts; r3 asks p percent whose numerical percent value is80."
+    },
+    "computed": "120",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/4/2",
+    "sourceDigest": "52d951ea15337ddae948a965c5470a6437e8a9413f4d98b9cd2c72a9d41730ab",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "80*45/60",
+      "reason": "Equal percentage amounts; r3 asks p percent whose numerical percent value is80."
+    },
+    "computed": "60",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/4/3",
+    "sourceDigest": "e6dc78b2cae592021fead77cb19efcfdd588c130fbae66d38fda88695a91a6c1",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "25*160/50",
+      "reason": "Equal percentage amounts; r3 asks p percent whose numerical percent value is80."
+    },
+    "computed": "80",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/4/4",
+    "sourceDigest": "746870b6a36e87b333819bf14fe79103aaa615379e9adf0789afb19fe03d6116",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "75*96/120",
+      "reason": "Equal percentage amounts; r3 asks p percent whose numerical percent value is80."
+    },
+    "computed": "60",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/5/1",
+    "sourceDigest": "2bae7e53e43423cd239fcc58af4c4a31dd074140cb3ad065ae570c155f392344",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "90/((1+20/100)*(1+50/100))",
+      "reason": "Reverse successive multipliers for original number; final converts overall growth multiplier to percent increase."
+    },
+    "computed": "50",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/5/2",
+    "sourceDigest": "0f48d479f002a9dcd9c2e5c9b90fd67e5d17defae61f34484e8fb577d4c7eb91",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "108/((1+50/100)*(1+20/100))",
+      "reason": "Reverse successive multipliers for original number; final converts overall growth multiplier to percent increase."
+    },
+    "computed": "60",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/5/3",
+    "sourceDigest": "420dd3ae3dfae68548f9ec3efcf76bbb32ba216db80ce04bf2adf4d6ca6f8d95",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "72/((1+20/100)*(1-25/100))",
+      "reason": "Reverse successive multipliers for original number; final converts overall growth multiplier to percent increase."
+    },
+    "computed": "80",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/5/4",
+    "sourceDigest": "f0e9ae10b61be6e5165263bf359cd27102964f1a0af1139a760dd7cd52ff0102",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "100*((1+25/100)*(1+40/100)-1)",
+      "reason": "Reverse successive multipliers for original number; final converts overall growth multiplier to percent increase."
+    },
+    "computed": "75",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/6/1",
+    "sourceDigest": "cf0f85aa31781580ece6d77d4ef00535b66f393c6db118cb818ab112b180877b",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "(6*50+9*20)/15",
+      "reason": "Weighted solute concentration; r3 asks WATER so take complement."
+    },
+    "computed": "32",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/6/2",
+    "sourceDigest": "3260ebb0f2889223fbaf9509d86a1cb15e4d7c2fb182d51a247244bb32dc6bac",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "(4*60+6*35)/10",
+      "reason": "Weighted solute concentration; r3 asks WATER so take complement."
+    },
+    "computed": "45",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/6/3",
+    "sourceDigest": "1a09810a9a994d3bc1b65c9a66fedbb8ba0ba72d437c37f845d5c300a9a9d9be",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "100-(3*40+9*20)/12",
+      "reason": "Weighted solute concentration; r3 asks WATER so take complement."
+    },
+    "computed": "75",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/6/4",
+    "sourceDigest": "b614b9f50e55961aa6b424ff18326bac1d4745442d775687e0ddc60804012dff",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "(5*30+20*55)/25",
+      "reason": "Weighted solute concentration; r3 asks WATER so take complement."
+    },
+    "computed": "50",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/7/1",
+    "sourceDigest": "9520c7d34f88da357b851b710620c2486e00d8e412d20d0d0dcb2b6f1db518ef",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "4*(6+3)/(5-4)",
+      "reason": "Both changes close original difference; choose requested initial red/yellow/juniors/total respectively."
+    },
+    "computed": "36",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/7/2",
+    "sourceDigest": "553519a612641d32f251fd99ab10c25b14970837ffafcefbe6a3588ebe0639d7",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "7*(10+2)/(7-3)",
+      "reason": "Both changes close original difference; choose requested initial red/yellow/juniors/total respectively."
+    },
+    "computed": "21",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/7/3",
+    "sourceDigest": "ce45cfccc55482d303796699fefadc3a4f467c2759b7502a7dd71ecaeb083194",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*(12+6)/(8-5)",
+      "reason": "Both changes close original difference; choose requested initial red/yellow/juniors/total respectively."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/7/4",
+    "sourceDigest": "059f7c851fc200914c1379714dee7ba9e020d1e37350301cb80ca711654f08dc",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "11*(3+15)/(7-4)",
+      "reason": "Both changes close original difference; choose requested initial red/yellow/juniors/total respectively."
+    },
+    "computed": "66",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/8/1",
+    "sourceDigest": "86931e0e5030b624e7f2aa9494d5d58c087a82b97c87771bfbf5def681506b59",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "60*(1+25/100)*(1-20/100)",
+      "reason": "Apply markup then discount; r3 reverse combined multiplier; r4 preserve signed percentage change and verify prose direction in every choice."
+    },
+    "computed": "60",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/8/2",
+    "sourceDigest": "eeafbfa68f7b5516d044f75dd3b0884683a1fd43a2d9c473eaa02f5f2b3729ad",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "80*(1+50/100)*(1-40/100)",
+      "reason": "Apply markup then discount; r3 reverse combined multiplier; r4 preserve signed percentage change and verify prose direction in every choice."
+    },
+    "computed": "72",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/8/3",
+    "sourceDigest": "02f055bafd2563c8dc114456a5d1aad17a90d29c64bc0a65702b4a3a62d15596",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "72/((1+60/100)*(1-25/100))",
+      "reason": "Apply markup then discount; r3 reverse combined multiplier; r4 preserve signed percentage change and verify prose direction in every choice."
+    },
+    "computed": "60",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/8/4",
+    "sourceDigest": "8048eb1c3ff71f56e205625857aaf884a336f3ed0e722b6f82611145e243b3c0",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "C(100*((1+20/100)*(1-30/100)-1))",
+      "reason": "Apply markup then discount; r3 reverse combined multiplier; r4 preserve signed percentage change and verify prose direction in every choice."
+    },
+    "computed": "(change, -16)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/9/3",
+    "sourceDigest": "22643fd4d742208d8f0f8beb087761483359c27f9f8d1ece06d33e0aa4886b7a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "36/(25/100*80/100)",
+      "reason": "Nested percentages multiply, undo product to recover number."
+    },
+    "computed": "180",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/10/1",
+    "sourceDigest": "147ce04f51e5df93cdb84cc795eecd69ac8318c29fc7f671a62e485977cd5a42",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*(12-8)/(20-12)",
+      "reason": "Conserve solute. Two-concentration addition x=V*(target-old)/(new-target); pure-water dilution and fixed-total mixture solved with same linear balance. All x feasible positive and final fixed-total x<=20."
+    },
+    "computed": "5/2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/10/2",
+    "sourceDigest": "ef45c342bd33bae5e8b2e8e39fbe78dde3aff18901a6c9e30306ab6e304c6b8e",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "12*(15-10)/(30-15)",
+      "reason": "Conserve solute. Two-concentration addition x=V*(target-old)/(new-target); pure-water dilution and fixed-total mixture solved with same linear balance. All x feasible positive and final fixed-total x<=20."
+    },
+    "computed": "4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/10/3",
+    "sourceDigest": "93588aa14e93522f587f1cb15ef6334eaa1db82be12a39f568427a722295b36c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "9*(40-30)/30",
+      "reason": "Conserve solute. Two-concentration addition x=V*(target-old)/(new-target); pure-water dilution and fixed-total mixture solved with same linear balance. All x feasible positive and final fixed-total x<=20."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/10/4",
+    "sourceDigest": "13c3b3f0240406205aedc97ec8944db97fa421acb4542cb77499f5cce8ab3c63",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "20*(30-15)/(35-15)",
+      "reason": "Conserve solute. Two-concentration addition x=V*(target-old)/(new-target); pure-water dilution and fixed-total mixture solved with same linear balance. All x feasible positive and final fixed-total x<=20."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/11/1",
+    "sourceDigest": "8cddc4ab227c03700870b9b4f47b51b0e60ea1f6e7ab13d600133b789bc828d4",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "36*10/3",
+      "reason": "Difference in ratio units determines scale; requested total,total,largest,total respectively."
+    },
+    "computed": "120",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/11/2",
+    "sourceDigest": "92a692c3832c215724643cab4ab44b0f7283c7051fa0bf56181b5610ef1ea7bc",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "15*15/5",
+      "reason": "Difference in ratio units determines scale; requested total,total,largest,total respectively."
+    },
+    "computed": "45",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/11/3",
+    "sourceDigest": "144cc18f6f72244b442bae5666ee98a3af3c0a0fd17a1501f43ec6a7158d9a35",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "30*9/2",
+      "reason": "Difference in ratio units determines scale; requested total,total,largest,total respectively."
+    },
+    "computed": "135",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/11/4",
+    "sourceDigest": "bcff0f70ce05b3361b3963ddff0300a46d79131d1eeb9e60df618fd9df234d14",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "45*19/5",
+      "reason": "Difference in ratio units determines scale; requested total,total,largest,total respectively."
+    },
+    "computed": "171",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/12/1",
+    "sourceDigest": "7b24beb7fa00ca5c0fec52bc241833c6df9fe0a9fcc352d00d1049e47f13ba4f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "(40+5)/(1-10/100)",
+      "reason": "Reverse operations in reverse order; r4 asks coupon amount after percentage discount."
+    },
+    "computed": "50",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/12/2",
+    "sourceDigest": "7321ee23bca17a53ff5bfe507afa8141ae5a765f931a26c8db8352eddf7f612d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "36/(1-20/100)+8",
+      "reason": "Reverse operations in reverse order; r4 asks coupon amount after percentage discount."
+    },
+    "computed": "53",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/12/3",
+    "sourceDigest": "92f3c6888efc7629e3cb779467d72fea17c7e206961556d281792953dfd1ea51",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "(42+6)/(1-25/100)",
+      "reason": "Reverse operations in reverse order; r4 asks coupon amount after percentage discount."
+    },
+    "computed": "64",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/challenge/12/4",
+    "sourceDigest": "9fd81c57f7f75623e6e61e347220dce56af0a689b51e216fb77650be7314eb29",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "120*(1-30/100)-70",
+      "reason": "Reverse operations in reverse order; r4 asks coupon amount after percentage discount."
+    },
+    "computed": "14",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/1/1",
+    "sourceDigest": "49520bf7ef274d101f54b335940b16e09bca39f689e4720912cbd8b6c2af46f0",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "90*7/10",
+      "reason": "Common ratio scale determined by total; third asks difference, fourth shorter piece."
+    },
+    "computed": "63",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/1/2",
+    "sourceDigest": "4a176edc0ce10a7a7df7f0b5af0ac7e917c52356526a7c5e78fdab15ad08f482",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "63*5/7",
+      "reason": "Common ratio scale determined by total; third asks difference, fourth shorter piece."
+    },
+    "computed": "45",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/1/3",
+    "sourceDigest": "c13d717924e135e202cdc84b1ce736609b579cdde2e017dcdb392bd2807c5c50",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "84*(9-5)/14",
+      "reason": "Common ratio scale determined by total; third asks difference, fourth shorter piece."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/1/4",
+    "sourceDigest": "8c55682b513928cf73a3a15ab633983ec00bca3d1ea56365ec35dd293cffe8ba",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "96*5/12",
+      "reason": "Common ratio scale determined by total; third asks difference, fourth shorter piece."
+    },
+    "computed": "40",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/2/3",
+    "sourceDigest": "42a2e5d14ec2674bf003e673c06cabe994965ccd2651e6ab14acc361322d150a",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "350*12/100",
+      "reason": "Green count=total*green fraction."
+    },
+    "computed": "42",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/3/2",
+    "sourceDigest": "c4cc95e746e62f55a642bbc326d80f0d5aba9165d25e6861cf1d3023bf5dc73d",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "54/(60/100)",
+      "reason": "Goal is collected amount divided by fraction achieved."
+    },
+    "computed": "90",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/3/3",
+    "sourceDigest": "1b203689aeb0dbf6b67f65f52cdeab7e50e8ce2c56de8e92900f58581ed58573",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "100*21/84",
+      "reason": "Red percentage=100*red count/total count."
+    },
+    "computed": "25",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/4/1",
+    "sourceDigest": "b0987a0b74745b426d27e8bd2f69b658a86d005fec51f9df06bd448c39861a35",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "25*3600/1000",
+      "reason": "Unit factors convert speed to requested units."
+    },
+    "computed": "90",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/4/2",
+    "sourceDigest": "5364ac3651a2990f8e819e190b332653fbb090c7788aef344668665d75fa5676",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "15*3600/1000",
+      "reason": "Unit factors convert speed to requested units."
+    },
+    "computed": "54",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/4/3",
+    "sourceDigest": "12f4ed4a375b8d32d287fde559639cf060561c6580bb92adeb46a15822790d54",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "126*1000/3600",
+      "reason": "Unit factors convert speed to requested units."
+    },
+    "computed": "35",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/4/4",
+    "sourceDigest": "d410d001aac8f1338fc850ee19f9426b6d0b67c96dc42a7a91414a556cbce2a0",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "12/10*1000/60",
+      "reason": "Unit factors convert speed to requested units."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/5/1",
+    "sourceDigest": "007a870bf1e0f445a39cf9a7002d843df051e3f28f4ef79ede84e8b47a8689dd",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "81*3/9",
+      "reason": "Common scale from total or given smallest share; select requested component."
+    },
+    "computed": "27",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/5/2",
+    "sourceDigest": "749016a4f34935fd7e06d50df9197c2879514516950f98936ffeef07566ae0a6",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "96*4/8",
+      "reason": "Common scale from total or given smallest share; select requested component."
+    },
+    "computed": "48",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/5/3",
+    "sourceDigest": "6b856dcea8b5d297f21ad711b81c193a97a720217976e6dc65d29d236e291c15",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "180*3/15",
+      "reason": "Common scale from total or given smallest share; select requested component."
+    },
+    "computed": "36",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/5/4",
+    "sourceDigest": "abb963f9bd0f1400ff575320119039cc4af34bf958c97fd451216dc1952804ac",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "18*(2+5+6)/2",
+      "reason": "Common scale from total or given smallest share; select requested component."
+    },
+    "computed": "117",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/6/1",
+    "sourceDigest": "45fd01ce3637bab0745c98180b68197a0abd960be2ee8836ddc82edc56bf5a43",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "56/(1-30/100)",
+      "reason": "Undo stated multiplicative change."
+    },
+    "computed": "80",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/6/2",
+    "sourceDigest": "ca7a726d96ac3cd70c554b43376256fe94f777c8376906616bcb81023ba8a0bf",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "52/(1-20/100)",
+      "reason": "Undo stated multiplicative change."
+    },
+    "computed": "65",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/6/3",
+    "sourceDigest": "2d142120c2e4013e693f4d7d00894fc0a9d6ff9cf4fb1f221458f500c9239af8",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "63/(1+40/100)",
+      "reason": "Undo stated multiplicative change."
+    },
+    "computed": "45",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/6/4",
+    "sourceDigest": "20e415e102c3c62b9b7db84170f1736869e8dcafc3c2705aa1b34dcabab6a3a5",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "91/(1-35/100)",
+      "reason": "Undo stated multiplicative change."
+    },
+    "computed": "140",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/7/1",
+    "sourceDigest": "7387671ca84389add51b45d195f32761d16274208e9760244079768a8115213c",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "13*10/(9*2/3-4)",
+      "reason": "Solve changed ratio from initial counts ak,bk; first asks initial total,second second choir,third first crate,fourth initial total. All changed counts positive."
+    },
+    "computed": "65",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/7/2",
+    "sourceDigest": "35602326afd3ebd8c3eb327b46e92bd55326f43c4c0ff1467e4bc76771ebbb29",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "8*12/(8*3/4-3)",
+      "reason": "Solve changed ratio from initial counts ak,bk; first asks initial total,second second choir,third first crate,fourth initial total. All changed counts positive."
+    },
+    "computed": "32",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/7/3",
+    "sourceDigest": "699e145ac1213e168e7ed11b9cde97ec438ce4a2507c69420f0bd04e2e9204de",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "7*6/(7-5)",
+      "reason": "Solve changed ratio from initial counts ak,bk; first asks initial total,second second choir,third first crate,fourth initial total. All changed counts positive."
+    },
+    "computed": "21",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/7/4",
+    "sourceDigest": "d0310b886d695274b860c3c685a72da45fa27a5addde7c914c1e86ef5b85c7b1",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "8*(3*4-2*4)/(2*5-3*3)",
+      "reason": "Solve changed ratio from initial counts ak,bk; first asks initial total,second second choir,third first crate,fourth initial total. All changed counts positive."
+    },
+    "computed": "32",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/8/1",
+    "sourceDigest": "34059e9c8dce738ad37850b7c21413659e4f2ba55f868b7ce0a971374366d45f",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "C(100*((1+25/100)*(1-12/100)-1))",
+      "reason": "Signed overall percent change=100*(product of successive factors-1); prose increase/decrease checked against sign."
+    },
+    "computed": "(change, 10)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/8/2",
+    "sourceDigest": "29b97c23f971127300f61a0223d2ef6fadf76bb9c57098754a549b852ff3da73",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "C(100*((1-20/100)*(1+45/100)-1))",
+      "reason": "Signed overall percent change=100*(product of successive factors-1); prose increase/decrease checked against sign."
+    },
+    "computed": "(change, 16)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/8/3",
+    "sourceDigest": "d095eb202a1bcb17f5ad020c8af7fe2b6b2ef31caa57f681aa0dc592dad980a4",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "C(100*((1+50/100)*(1-40/100)-1))",
+      "reason": "Signed overall percent change=100*(product of successive factors-1); prose increase/decrease checked against sign."
+    },
+    "computed": "(change, -10)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/8/4",
+    "sourceDigest": "f419949824e590d0776f6cdd6cd23661c81d5e5ed413dcc8a0c720070ef72635",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "C(100*((1+60/100)*(1-25/100)-1))",
+      "reason": "Signed overall percent change=100*(product of successive factors-1); prose increase/decrease checked against sign."
+    },
+    "computed": "(change, 20)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/9/1",
+    "sourceDigest": "5319d13cfdd99da07e668475bd00b9418737d6735bfaa0acdbc0da7f34d2cbab",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "4*30/12-4",
+      "reason": "Conserve original solute under dilution; r3 add pure solute; r4 solve45V=25(V+8). All volumes/masses positive."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/9/2",
+    "sourceDigest": "29418df395241f7d07a84152b3bfe4ee6bf0837f1efb47975c10b8b8431c7ed2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "6*25/10-6",
+      "reason": "Conserve original solute under dilution; r3 add pure solute; r4 solve45V=25(V+8). All volumes/masses positive."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/9/3",
+    "sourceDigest": "fd3ccb4ecff90d54306f3b90f3621421c1108ae3d3c9827cce334b041249bf12",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "240*20/(100-20)",
+      "reason": "Conserve original solute under dilution; r3 add pure solute; r4 solve45V=25(V+8). All volumes/masses positive."
+    },
+    "computed": "60",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/9/4",
+    "sourceDigest": "9a84c9ab78382d97b67d48d360c40234df8aea69e965c6bdf4c4cbffc6e731a3",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "8*25/(45-25)",
+      "reason": "Conserve original solute under dilution; r3 add pure solute; r4 solve45V=25(V+8). All volumes/masses positive."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/10/1",
+    "sourceDigest": "21d3d01b5a2650223c451f8cd542fc22a831bda82dff3262bb4cd684fa0117a8",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "7*9/(7-4)",
+      "reason": "Set A=ak,B=bk; equations6k/(4k+9)=6/7;6k/(5k+12)=3/4;4k/(3k-2)=2; (5k+7)/(4k)=3/2. Last asks NEW total9k+7."
+    },
+    "computed": "21",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/10/2",
+    "sourceDigest": "797cd4f357ef98d82db9cbdef665d14265b7f38c2b85ae694e1c94cbc73bedef",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "5*12/(6*4/3-5)",
+      "reason": "Set A=ak,B=bk; equations6k/(4k+9)=6/7;6k/(5k+12)=3/4;4k/(3k-2)=2; (5k+7)/(4k)=3/2. Last asks NEW total9k+7."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/10/3",
+    "sourceDigest": "00a640492d309ff584462be92c886205f679b770879631be3e36ebdf4fb132e2",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "11*(2*2)/(2*3-4)",
+      "reason": "Set A=ak,B=bk; equations6k/(4k+9)=6/7;6k/(5k+12)=3/4;4k/(3k-2)=2; (5k+7)/(4k)=3/2. Last asks NEW total9k+7."
+    },
+    "computed": "22",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/6/worksheet/10/4",
+    "sourceDigest": "276a328c14d40b956de0778ad6977254a0fd6a047eae4c5e9676d4c98b9799bb",
+    "status": "verified",
+    "method": "Independent exact stem calculation and complete option comparison",
+    "evidence": {
+      "expression": "(5+4)*7/(6-5)+7",
+      "reason": "Set A=ak,B=bk; equations6k/(4k+9)=6/7;6k/(5k+12)=3/4;4k/(3k-2)=2; (5k+7)/(4k)=3/2. Last asks NEW total9k+7."
+    },
+    "computed": "70",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  }
+]

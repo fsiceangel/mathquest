@@ -19,7 +19,7 @@ const s144 = [
   // the setting and the wording move.
   [
     {
-      q: 'A craft club is folding one paper model of every regular polyhedron there is — every solid whose faces are all copies of a single regular polygon, with the same number of faces meeting at each corner. How many different models will end up on the table?',
+      q: 'A craft club is folding one paper model of every convex regular polyhedron there is — every solid whose faces are all copies of a single regular polygon, with the same number of faces meeting at each corner. How many different models will end up on the table?',
       fig: {
         view: [-2.6, -3.2, 2.6, 2.6],
         elems: [
@@ -44,7 +44,7 @@ const s144 = [
         'Route one, the corner census: at least $3$ faces meet at every corner, and their angles must total less than $360^\\circ$ or the faces lie flat instead of folding. Equilateral triangles bring $60^\\circ$ apiece, so $3$, $4$, or $5$ of them fit ($180^\\circ$, $240^\\circ$, $300^\\circ$); squares bring $90^\\circ$, so only $3$ fit ($270^\\circ$); regular pentagons bring $108^\\circ$, so only $3$ fit ($324^\\circ$). That is $3 + 1 + 1 = 5$ workable corners, one solid apiece ✓. Check a second, independent way, by folding them one at a time: $4$ triangles close up into the tetrahedron, $8$ into the octahedron, $20$ into the icosahedron, $6$ squares into the cube, and $12$ pentagons into the dodecahedron — five finished models, and no sixth face shape left to try ✓. (The choice $4$ is COUNTING ONLY THE SOLIDS WHOSE GREEK NAMES COUNT FACES — tetra, octa, dodeca, icosa — and leaving the cube off the table ✗; the choice $6$ is ADDING A HEXAGON MODEL, though three hexagons at a corner already total $360^\\circ$ and lie flat ✗; the choice infinitely many is BORROWING THE RULE FOR REGULAR POLYGONS, where every side count works ✗.)',
     },
     {
-      q: 'A game designer wants one fair die shaped like each regular polyhedron — a solid with identical regular polygon faces and identical corners. How many dice will the finished set contain?',
+      q: 'A game designer wants one fair die shaped like each convex regular polyhedron — a solid with identical regular polygon faces and identical corners. How many dice will the finished set contain?',
       fig: {
         view: [-2.9, -3.3, 2.9, 2.6],
         elems: [
@@ -69,7 +69,7 @@ const s144 = [
         'Route one, the corner census: a corner needs at least $3$ faces and an angle total under $360^\\circ$. Triangles ($60^\\circ$) allow $3$, $4$, or $5$ per corner; squares ($90^\\circ$) allow $3$ only, since $4$ would give $360^\\circ$; pentagons ($108^\\circ$) allow $3$ only, since $4$ would give $432^\\circ$. Five workable corners means five dice ✓. Check a second, independent way, by rolling out the finished set: a $4$-face tetrahedron, a $6$-face cube, an $8$-face octahedron, a $12$-face dodecahedron, and a $20$-face icosahedron all close up into real solids, and no face shape larger than a pentagon can start a corner at all — five dice, no more ✓. (The choice $3$ is COUNTING THE USABLE FACE SHAPES — triangle, square, pentagon — instead of the solids, which misses the three different triangle corners ✗; the choice $6$ is COUNTING A HEXAGON DIE as a sixth member ✗; the choice infinitely many is TREATING SOLIDS LIKE POLYGONS, where every side count works ✗.)',
     },
     {
-      q: 'A jeweler is cutting a display tray of crystal pendants, one shaped like each regular polyhedron that exists. How many pendants belong on the tray?',
+      q: 'A jeweler is cutting a display tray of crystal pendants, one shaped like each convex regular polyhedron that exists. How many pendants belong on the tray?',
       fig: {
         view: [-0.9, -1.6, 5.1, 4.4],
         elems: [
@@ -176,7 +176,7 @@ const s144 = [
   // s3 — naming the solid from a description of its faces.
   [
     {
-      q: 'A sealed metal solid has faces that are all squares, with the same number meeting at every corner. Which member of the family is it?',
+      q: 'A sealed metal solid has faces that are all squares, with the same number meeting at every corner. Which member of the family is it? Assume the solid is convex.',
       fig: {
         view: [-1.1, -1.9, 3.5, 3.5],
         elems: [
@@ -190,7 +190,7 @@ const s144 = [
         'Route one, walk the family and read off face shapes: the tetrahedron, octahedron, and icosahedron are built from equilateral triangles, the dodecahedron from regular pentagons, and only the cube from squares — so the sealed solid is the cube ✓. Check a second, independent way, from the corner: a square contributes $90^\\circ$, and a corner needs at least $3$ faces with a total under $360^\\circ$. Three squares give $270^\\circ$, which folds; four give exactly $360^\\circ$, which lies flat. So a square-faced solid must have exactly $3$ faces at every corner, and a solid with $3$ squares at each corner is the box shape, the cube ✓. (The choice the octahedron is HEARING "EIGHT" AND PICTURING THE EIGHT CORNERS OF A BOX, though its $8$ faces are triangles ✗; the choice the dodecahedron is THE PENTAGON SPECIALIST, not the square one ✗; the choice the icosahedron is $20$ TRIANGLES, the largest triangle solid, not a square-faced one ✗.)',
     },
     {
-      q: 'A paper globe is pieced together from $20$ identical equilateral triangles, with the same number meeting at each corner. Which solid is the globe?',
+      q: 'A paper globe is pieced together from $20$ identical equilateral triangles, with the same number meeting at each corner. Which solid is the globe? Assume the solid is convex.',
       fig: {
         view: [-1.2, -2.1, 4.2, 3.5],
         elems: [
@@ -204,7 +204,7 @@ const s144 = [
         'Route one, the name: icosa means twenty, so a solid of $20$ regular faces is the icosahedron ✓. Check a second, independent way, by eliminating the rest of the family on their own face counts: the tetrahedron has $4$ faces, the cube $6$, the octahedron $8$, and the dodecahedron $12$ — none of them reaches $20$, and the family has only five members, so the globe is the one that remains ✓. (The choice the dodecahedron is MATCHING $20$ TO THE WRONG TALLY: $20$ is its corner count, while its $12$ faces are pentagons ✗; the choice the octahedron is TRIANGLE-FACED BUT EIGHT OF THEM ✗; the choice the cube is SQUARE-FACED, so its pieces would not be triangles at all ✗.)',
     },
     {
-      q: 'A mineral sample has grown into a solid with exactly $4$ flat faces, every one an equilateral triangle, and the same number of faces at each corner. Name the solid.',
+      q: 'A mineral sample has grown into a solid with exactly $4$ flat faces, every one an equilateral triangle, and the same number of faces at each corner. Name the solid. Assume the solid is convex.',
       fig: {
         view: [-1.1, -1.9, 3.7, 3.1],
         elems: [
@@ -408,7 +408,7 @@ const s144 = [
   // corner. The answer is always five; only the setting and the wording move.
   [
     {
-      q: 'Equilateral triangles cut from card are taped together edge to edge around a single point, and then the taped sheet is lifted off the table into a real corner. What is the greatest number of triangles that can meet at that one corner?',
+      q: 'Equilateral triangles cut from card are taped together edge to edge around a single point, and then the taped sheet is lifted off the table into a convex corner. What is the greatest number of triangles that can meet at that one corner?',
       fig: {
         view: [-2.4, -3.0, 2.4, 2.2],
         elems: [
@@ -433,7 +433,7 @@ const s144 = [
         'Route one, the angle budget: each equilateral triangle brings $60^\\circ$ to the shared point, so $n$ triangles bring $60n$ degrees. A flat sheet fills exactly $360^\\circ$ and cannot be lifted into a corner, so a real corner needs $60n < 360$, which means $n < 6$, and the largest whole number under $6$ is $5$ ✓. Check a second, independent way, by taping and lifting instead of adding angles: tape six triangles around the point and the card lies flat on the table with no gap, so nothing folds up. Peel one off and a $60^\\circ$ gap opens; pinch the gap shut and the remaining five bow into a genuine peak. Five triangles fold, six do not, so the greatest number is $5$ ✓. (The choice $3$ is the FEWEST that will close a corner, not the most ✗; the choice $6$ is the FLAT ARRANGEMENT, $6 \\times 60^\\circ = 360^\\circ$, which never leaves the table ✗; the choice $4$ is STOPPING AT A FAMILIAR CORNER instead of pushing to the largest one that still folds ✗.)',
     },
     {
-      q: 'A sculptor welds identical equilateral steel plates together so that several of them share one welded point, and the point must come to a true peak rather than lie flat. At most, how many plates can meet at that peak?',
+      q: 'A sculptor welds identical equilateral steel plates together so that several of them share one welded point, and the point must come to a convex peak rather than lie flat. At most, how many plates can meet at that peak?',
       fig: {
         view: [-0.6, -1.2, 3.4, 3.0],
         elems: [
@@ -448,7 +448,7 @@ const s144 = [
         'Route one, the angle budget: every corner of an equilateral plate measures $60^\\circ$, so $n$ plates at the peak use $60n$ degrees. The plates around a true peak must leave the flat, and flat is exactly $360^\\circ$, so the welded corner needs $60n < 360$, giving $n < 6$ and a largest whole value of $5$ ✓. Check a second, independent way, by looking at solids the sculptor could weld rather than at angles: plates can meet three at a peak, four at a peak, and five at a peak, and each of those closes up into a finished piece. A sixth plate at the same point flattens the peak into a plate-sized floor, and a flat point is no peak at all, so welding stops at $5$ ✓. (The choice $6$ is the FLAT ARRANGEMENT, $6 \\times 60^\\circ = 360^\\circ$, which leaves no peak to weld ✗; the choice $3$ is the SMALLEST peak that works, not the largest ✗; the choice $4$ is STOPPING ONE PLATE SHORT of the largest peak that still rises ✗.)',
     },
     {
-      q: 'A quilter is joining equilateral patches around one shared point so that the quilt puckers into a raised knob instead of lying smooth. What is the largest number of patches she can join at that point?',
+      q: 'A quilter is joining equilateral patches around one shared point so that the quilt puckers into a convex corner instead of lying flat. What is the largest number of patches she can join at that point?',
       fig: {
         view: [-2.4, -3.0, 2.4, 2.2],
         elems: [

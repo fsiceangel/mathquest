@@ -1,0 +1,168 @@
+4/4.1/2/1	9/4	Fraction represents numerator divided by denominator.
+4/4.1/2/2	7/12	Fraction represents division.
+4/4.1/2/3	11/6	Evaluate all equivalent division expressions.
+4/4.1/2/4	5/8	Five bars shared equally among eight people.
+4/4.1/1/4	5/12	Used equal pieces divided by total equal pieces.
+4/4.1/3/4	(5/7)/(1/7)	Count unit fractions by dividing total by unit.
+4/4.1/4/4	6*4	Numerator is denominator times desired whole-number value.
+4/4.1/5/1	3/8	Each of eight equal hops has length one eighth.
+4/4.1/5/2	7/10	Seven of ten equal hops across unit interval.
+4/4.1/5/3	5/(5/12)	Hop length equals coordinate divided by hop count; invert to get hops per unit.
+4/4.1/5/4	6/11	Six hops times hop length.
+4/4.1/6/1	7	Compare all fractions numerically with whole number seven.
+4/4.1/6/2	12	Compare all fractions with twelve.
+4/4.1/6/3	1	Compare all fractions with one.
+4/4.1/7/1	3/(1/6)	Divide total length by piece length.
+4/4.1/7/2	4/(1/5)	Divide number of wholes by size of each piece.
+4/4.1/7/3	24*(1/8)	Multiply pieces by size of each piece.
+4/4.1/7/4	2/(1/7)	Divide two cups by scoop capacity.
+4/4.1/9/1	2/6*5	Hop length is interval length divided by hop count.
+4/4.1/9/2	3/9*7	Multiply hop length by tick index.
+4/4.1/9/3	2/10*7	Multiply hop length by tick index.
+4/4.1/9/4	3/(4/8)	Desired coordinate divided by hop length gives tick index.
+4/4.1/10/1	(0+1/2)/2	Midpoint averages endpoint coordinates.
+4/4.1/10/2	(0+1/3)/2	Midpoint averages endpoints.
+4/4.1/10/3	(1/4+3/4)/2	Midpoint averages endpoints.
+4/4.1/10/4	(1/5)/2	Two equal hops divide distance by two.
+4/4.2/1/4	1/2*1/5	Fraction of a remaining fraction multiplies.
+4/4.2/2/4	4/7*2/3	Rectangle area equals product of side lengths.
+4/4.2/3/4	12/(1/3)	Undo multiplication by one third.
+4/4.2/4/2	1/(5/7)	Multiplicative inverse makes product one.
+4/4.2/5/4	36*5/9	Whole count times fractional share.
+4/4.2/8/4	9/10*4/7	Used share of ribbon multiplies original length.
+4/4.2/9/4	1/30	Adjacent numerator-denominator cancellation telescopes, leaving first numerator and final denominator.
+4/4.2/10/1	1/2*1/3*90	Successive fractions multiply.
+4/4.2/10/2	1/3*1/4*84	Successive fractions multiply.
+4/4.2/10/3	1/2*1/5*120	Successive fractions multiply.
+4/4.2/10/4	2/3*1/2*72	Successive fractions multiply.
+4/4.3/1/4	(1/2)/(1/8)	Count pieces by total divided by piece size.
+4/4.3/2/1	1/(5/9)	Division by a nonzero fraction is multiplication by its reciprocal.
+4/4.3/2/2	1/(7/3)	Invert divisor, not dividend.
+4/4.3/2/3	(4/9)/(2/5)	Compare offered multiplication expressions with division result.
+4/4.3/3/4	7/(1/6)	Cups divided by scoop capacity.
+4/4.3/4/4	(6/7)/3	Equal share divides total fraction by three friends.
+4/4.3/5/3	P(1,1)	Every nonzero number divided by itself is one; square or reciprocal is not generally one (e.g. x=2).
+4/4.3/6/1	6/(3/4)	Total capacity divided by scoop size.
+4/4.3/6/2	10/(2/5)	Total length divided by piece length.
+4/4.3/6/3	9/(3/5)	Total volume divided by glass capacity.
+4/4.3/6/4	(7/2)/(7/8)	Total length divided by piece length.
+4/4.3/9/4	48/(2/3)	Occupied count divided by occupied fraction.
+4/4.4/1/4	sqrt(1/64)	Take positive square root as required by stem.
+4/4.4/2/4	sqrt(9/25)	Positive square root selects unique sign.
+4/4.4/3/3	5	Repeated halving five times gives reciprocal of 32.
+4/4.4/5/4	3	(-1/4)^3=-1/64, and distinct integer powers have different magnitudes.
+4/4.4/6/3	1/(11/6)	Invert given reciprocal to obtain positive fraction.
+4/4.5/1/4	3/5	Compare all offered fractions after exact reduction.
+4/4.5/3/4	18/(3/7)	Solve 18/n=3/7 by multiplication.
+4/4.5/5/4	18	Euclidean algorithm: gcd(54,72)=gcd(54,18)=18.
+4/4.5/7/1	42/70	Cancel gcd14, using 42=2*3*7 and 70=2*5*7.
+4/4.5/7/2	66/154	Factor as 2*3*11 and 2*7*11 then cancel gcd22.
+4/4.5/7/3	90/126	Factor as 2*3^2*5 and 2*3^2*7 then cancel gcd18.
+4/4.5/7/4	132/198	Factor as 2^2*3*11 and 2*3^2*11 then cancel gcd66.
+4/4.5/10/1	12/(12+18)	Reference whole includes both girls and boys.
+4/4.5/10/2	20/(20+28)	Reference whole includes novels and comics.
+4/4.5/10/3	15/(15+25)	Reference whole includes red and blue marbles.
+4/4.5/10/4	(36-27)/36	Complement count divided by total membership.
+4/4.6/1/1	Max(3/7,5/7)	Compare exact rational values of stated pair.
+4/4.6/1/2	Max(7/11,4/11)	Compare exact rational values.
+4/4.6/2/1	Max(1/5,1/8)	For positive unit fractions smaller denominator gives larger value.
+4/4.6/2/2	Max(1/4,1/9)	Compare exact rational values.
+4/4.6/2/3	Max(3/7,3/10)	Common positive numerator: smaller denominator gives larger value.
+4/4.6/3/1	Max(2/3,3/4)	Cross products 8 and 9 give exact comparison.
+4/4.6/3/2	Max(3/5,5/8)	Cross products 24 and 25 give exact comparison.
+4/4.6/3/3	Max(4/9,3/7)	Cross products 28 and 27 give exact comparison.
+4/4.6/5/1	Max(5/9,4/7)	Compare positive-denominator cross products 35 and 36.
+4/4.6/5/2	Max(7/10,5/7)	Compare positive-denominator cross products 49 and 50.
+4/4.6/5/3	Max(6/11,5/9)	Compare positive-denominator cross products 54 and 55.
+4/4.6/7/1	Max(7/8,8/9)	Compare distance from one or cross products.
+4/4.6/7/2	Max(5/6,6/7)	Compare exact fractions.
+4/4.6/7/3	Max(9/10,11/12)	Compare exact fractions.
+4/4.6/8/1	V(1/2,3/5,2/3)	Common denominator 30 gives ascending numerators15,18,20.
+4/4.6/8/2	V(5/8,2/3,3/4)	Common denominator24 gives ascending numerators15,16,18.
+4/4.6/8/3	V(4/5,3/4,7/10)	Descending order: common denominator20 gives16,15,14.
+4/4.6/8/4	V(1/2,5/9,7/12)	Common denominator36 gives ascending numerators18,20,21.
+4/4.6/9/3	Min(7/10,3/5,13/20,3/4)	Compare all four exact rational values.
+4/4.7/1/4	3/10+4/10	Sum distances walked.
+4/4.7/2/4	11/15-5/15	Subtract poured volume from original volume.
+4/4.7/4/4	5/6-1/3	Subtract cut length from original length.
+4/4.7/6/4	9/10-3/4	Lost fraction equals before minus after.
+4/4.7/8/1	1/4+3/8	Disjoint eaten shares add.
+4/4.7/8/2	2/5+1/4	Disjoint painted shares add.
+4/4.7/8/3	1/3+1/2	Sum ingredient volumes.
+4/4.7/8/4	1-3/8-1/4	Unread share is complement of both read shares.
+4/4.7/10/3	5/6-1/4	Solve initial minus unknown equals remainder.
+4/4.8/1/4	(5+2/3)/(1/3)	Divide mixed number by one third.
+4/4.8/2/4	27/4	Mixed and improper representations have same exact value.
+4/4.8/3/1	5+2/3	Mixed number means integer plus proper fraction.
+4/4.8/3/2	4+3/7	Mixed number means integer plus proper fraction.
+4/4.8/4/4	(2+1/4)+(3+3/8)	Add the two hike lengths.
+4/4.8/6/4	(3+1/6)-(1+5/6)	Subtract poured volume from total.
+4/4.8/7/4	(3+1/2)*(1+3/7)	Rectangle area from product of lengths.
+4/4.8/8/4	(2+7/8)+(1+5/6)	Add stack heights.
+4/4.8/9/1	(10+1/2)/(1+3/4)	Divide total board length by piece length; quotient integer.
+4/4.8/9/2	(8+3/4)/(1+1/4)	Divide total rope length by piece length.
+4/4.8/9/3	(9+1/3)/(1+1/6)	Divide total ribbon length by piece length.
+4/4.8/9/4	(10+1/2)/7	Divide total length by piece count.
+4/challenge/1/1	3/12*7	Tick index times equal hop length.
+4/challenge/1/2	6/8*5	Tick index times equal hop length.
+4/challenge/1/3	5/20*9	Tick index times equal hop length.
+4/challenge/1/4	4/((5/3)/5)	Recover hop length from fifth tick coordinate, then divide total interval by hop length.
+4/challenge/2/1	1/10	Telescoping cancellation leaves first numerator divided by final denominator.
+4/challenge/2/2	2/12	Telescoping product starts at two and ends with denominator twelve.
+4/challenge/2/3	3/10	Telescoping product starts at three and ends with denominator ten.
+4/challenge/2/4	25-1	Telescoping product equals 1/(n+1), so n+1=25.
+4/challenge/5/3	4	After cancelling powers of five, equation is 2^(6-n)=4, hence n=4.
+4/challenge/6/3	Min(5/6,7/9,13/18,11/15)	Compare all four fractions exactly.
+4/challenge/6/4	8/17	Absolute distances to half are 1/18,1/30,1/22,1/34; last is uniquely smallest.
+4/challenge/8/4	(8+1/4)/(1+1/2)	Length equals area divided by width.
+4/challenge/9/1	45*3/5*2/3	Nested fractional subsets multiply.
+4/challenge/9/2	84*5/7*3/4	Nested fractional subsets multiply.
+4/challenge/9/3	90*4/5*5/6	Nested fractional subsets multiply.
+4/challenge/9/4	12/(3/8*4/9)	Undo both nested fractions to recover total population.
+4/challenge/10/1	(4/9)/(2/3)	Invert multiplication by two thirds.
+4/challenge/10/2	(9/20)/(3/4)	Invert multiplication by three quarters.
+4/challenge/10/3	(10/21)/(5/6)	Invert multiplication by five sixths.
+4/challenge/10/4	(6/5)*(5/8)	Undo division by five eighths.
+4/challenge/11/3	5/11-4/9	Larger minus smaller fraction.
+4/challenge/11/4	3/8+1/40	Add positive difference to known smaller fraction.
+4/challenge/12/1	(2+1/4)*(1+1/3)	Per-batch flour times batch count.
+4/challenge/12/2	(1+5/6)*(2+2/5)	Per-coat paint times number of coats.
+4/challenge/12/3	(3+1/5)*(1+7/8)	Per-batch oats times batch count.
+4/challenge/12/4	floor((7+1/2)/(1+7/8))	Count whole batches by flooring total divided by required amount.
+4/worksheet/1/4	90/(5/7)	Solve equivalent fraction equation for denominator.
+4/worksheet/10/1	floor((2+1/4)/(3/4))	Count full glasses from total volume divided by capacity.
+4/worksheet/10/2	floor((7+1/2)/(7/8))	Whole bows require floor of available length divided by length per bow.
+4/worksheet/10/3	floor((9+1/3)/(5/6))	Completely filled bags require floor of total divided by capacity.
+4/worksheet/10/4	(4+2/3)/7	Equal piece length is total divided by piece count.
+4/4.1/1/1	P(2,7)	Denominator specifies how many equal parts make one whole; other descriptions concern numerator, coordinate, or whole count.
+4/4.1/1/2	P(0,5)	Numerator specifies how many equal parts are taken.
+4/4.1/1/3	P(1,1)	Denominator counts all equal parts of the reference whole.
+4/4.1/6/4	P(3,1)	Division by one preserves numerator; neither constant nor reciprocal is generally equal.
+4/4.1/8/2	22/5	Only denominator5 not dividing numerator is 22; others20,35,45 all divisible by5.
+4/4.1/8/3	42/7	Among30,42,38,45 only42 divisible by7.
+4/4.1/8/4	54	Only offered numerator54 divisible by6; others16,26,46 leave nonzero remainders.
+4/4.3/2/4	P(3,(3/7)*(5/6))	Division requires reciprocal of second fraction; Priya instead inverted first. Other diagnoses false.
+4/4.3/5/4	(4/7)*(4/7)	Only squared proper fraction differs from one; the other three are quotients of equal nonzero values or reciprocal products.
+4/4.4/4/4	(-5/2)**4	First two odd negative powers and third explicit negative square are negative; fourth even power positive.
+4/4.4/8/3	9/5	For positive x, x squared exceeds x iff x>1; only9/5 qualifies among four choices.
+4/4.5/2/1	P(0,5/5)	Dividing numerator and denominator by same nonzero number divides fraction by one; other reasons fail or are false.
+4/4.5/2/2	P(1,(8-2)/(12-2))	Subtracting2 changes2/3 to3/5; other options multiply or divide numerator and denominator equally.
+4/4.5/2/3	P(2,4/4)	Multiplication by4/4=1 preserves value; parity is irrelevant and no change in size occurs.
+4/4.5/2/4	P(3,3/3)	Common nonzero factor3 cancels; unrelated separate subtraction does not establish equality of ratios.
+4/4.5/4/2	7/16	GCDs of pairs are1,7,5,3; first only reduced fraction.
+4/4.5/4/3	9/20	GCDs are6,1,2,5; second only reduced fraction.
+4/4.5/4/4	21/28	GCDs are1,1,7,1; third only reducible fraction.
+4/4.5/8/1	P(0,4/6)	Cancel remaining gcd2 to obtain integer numerator2 and denominator3; alternative operations do not finish reduction correctly.
+4/4.5/8/2	P(1,6/9)	Cancel remaining gcd3; original6/9 not reduced, dividing by6 produces noninteger denominator and multiplying by2 does not reduce.
+4/4.5/8/3	P(2,2)	Both even guarantees common factor2. Properness, prime denominator, or numerator1 do not guarantee reducibility.
+4/4.5/8/4	P(3,20/30)	Removing terminal zero is dividing by10; deleting arbitrary matching digits has counterexample12/21 versus1/2.
+4/4.6/1/3	P(1,Max(2/9,5/9,4/9))	Identical reference bars permit comparing numerators; Ben eats largest fraction5/9.
+4/4.6/1/4	11	Positive common denominator13 reduces inequality to numerator>9; only11 among choices qualifies.
+4/4.6/2/4	P(3,1/6-1/8)	For identical cakes one sixth exceeds one eighth by1/24; equal-cut assumption fixes sizes.
+4/4.6/3/4	V(5/6,7/8)	Only20/24 and21/24 preserve both given values and share denominator24; all alternative pairs differ numerically.
+4/4.6/4/2	13/12	Only numerator13 exceeds denominator12; other values at most one.
+4/4.6/5/4	V(3*11,8*4)	Cross-multiply numerator of each fraction with opposite denominator.
+4/4.6/6/2	5/11	Double numerators14,10,18,12 compare with denominators13,11,16,11; only second below half.
+4/4.6/6/4	P(3,2*13-25)	Positive cross-product difference26-25 proves13/25 exceeds half; other rationales fail.
+4/4.8/3/3	23/5	Mixed number is13/5; only23/5 differs, with other expressions summing to13/5.
+4/4.8/3/4	P(2,3+1/4)	Coordinate3.25 is between3 and4, one quarter of unit interval after3; other descriptions give0.75 or4.25.

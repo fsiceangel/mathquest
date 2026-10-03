@@ -243,21 +243,21 @@ const s211 = [
   // s10 — three consecutive terms: a sum and the largest term give the step.
   [
     {
-      q: 'Three consecutive terms of an arithmetic sequence add up to $66$, and the largest of them is $30$. What is the common difference?',
+      q: 'Three consecutive terms of an increasing arithmetic sequence add up to $66$, and the largest of them is $30$. What is the common difference?',
       choices: ['$8$', '$22$', '$16$', '$36$'],
       answer: 0,
       solution:
         'Three consecutive terms average out to the middle one, so the middle term is $\\frac{66}{3} = 22$. The largest term is one step above the middle: $22 + d = 30$, so $d = 8$ ✓. Check a second, independent way by anchoring on the largest term instead of the middle: the three terms are $30$, $30 - d$, and $30 - 2d$, and their sum is $90 - 3d = 66$, so $3d = 24$ and $d = 8$ ✓. The terms are $14, 22, 30$, and $14 + 22 + 30 = 66$ ✓. (The choice $22$ is REPORTING THE MIDDLE TERM instead of the step; the choice $16$ is REPORTING THE WHOLE GAP $30 - 14$, which covers two steps, not one; the choice $36$ is $66 - 30$, the sum of the other two terms rather than a difference at all.)',
     },
     {
-      q: 'Three consecutive terms of an arithmetic sequence add up to $78$, and the largest of them is $38$. What is the common difference?',
+      q: 'Three consecutive terms of an increasing arithmetic sequence add up to $78$, and the largest of them is $38$. What is the common difference?',
       choices: ['$26$', '$12$', '$24$', '$40$'],
       answer: 1,
       solution:
         'The middle of three consecutive terms is their average: $\\frac{78}{3} = 26$. The largest sits one step above it, so $26 + d = 38$ and $d = 12$ ✓. Check a second, independent way by writing the terms as $38 - 2d$, $38 - d$, $38$: their sum is $114 - 3d = 78$, so $3d = 36$ and $d = 12$ ✓. The terms are $14, 26, 38$, which really do add to $78$ ✓. (The choice $26$ is REPORTING THE MIDDLE TERM; the choice $24$ is REPORTING THE WHOLE GAP $38 - 14$, two steps wide; the choice $40$ is $78 - 38$, what the other two terms add up to.)',
     },
     {
-      q: 'Three consecutive terms of an arithmetic sequence add up to $90$, and the largest of them is $43$. What is the common difference?',
+      q: 'Three consecutive terms of an increasing arithmetic sequence add up to $90$, and the largest of them is $43$. What is the common difference?',
       choices: ['$30$', '$26$', '$13$', '$47$'],
       answer: 2,
       solution:

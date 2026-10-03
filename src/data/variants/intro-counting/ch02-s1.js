@@ -106,7 +106,7 @@ const s22 = [
         'Route one, casework on the blue die. Blue $1$: red $4, 5, 6$ — $3$ rolls. Blue $2$: red $5$ or $6$ — $2$. Blue $3$: red $6$ — $1$. Blue $4$ or higher leaves no red value. Add: $3 + 2 + 1 = 6$ ✓. Route two, casework on the gap, red minus blue, which must be $3$, $4$, or $5$. Gap $3$: $(4,1), (5,2), (6,3)$. Gap $4$: $(5,1), (6,2)$. Gap $5$: $(6,1)$. Add: $3 + 2 + 1 = 6$ ✓. (The value $10$ READS "AT LEAST $3$ MORE" AS "AT LEAST $2$ MORE" ✗. The value $3$ READS IT AS "MORE THAN $3$ MORE", a strict inequality ✗. The value $12$ COUNTS BOTH DIRECTIONS, letting either die be the big one ✗.)',
     },
     {
-      q: 'Exactly $15$ two-digit positive integers have a tens digit that is at least $k$ more than the units digit. What is $k$?',
+      q: 'For a positive integer $k$, exactly $15$ two-digit positive integers have a tens digit that is at least $k$ more than the units digit. What is $k$?',
       choices: ['$4$', '$6$', '$3$', '$5$'],
       answer: 3,
       solution:
@@ -154,7 +154,7 @@ const s22 = [
         'Route one, casework on $m$. For each $m$ there are $\\lfloor 12/m \\rfloor$ choices of $n$: $12, 6, 4, 3, 2, 2$ for $m = 1, \\ldots, 6$, then $1$ each for $m = 7, \\ldots, 12$. Add: $12 + 6 + 4 + 3 + 2 + 2 + 6 = 35$ ✓. Route two, casework on the product $k = mn$. The pairs with product exactly $k$ number $d(k)$, the count of divisors of $k$, and $d(1), \\ldots, d(12) = 1, 2, 2, 3, 2, 4, 2, 4, 3, 4, 2, 6$. Add: $35$ ✓. (The value $29$ READS THE INEQUALITY AS STRICT, dropping the six pairs with product exactly $12$ ✗. The value $19$ COUNTS UNORDERED PAIRS, merging $(2, 5)$ with $(5, 2)$ ✗. The value $34$ FORGETS THE PAIR $(12, 1)$ ✗.)',
     },
     {
-      q: 'The number of ordered pairs of positive integers $(a, b)$ satisfying $a + 3b \\le N$ is exactly $12$. What is $N$?',
+      q: 'For a positive integer $N$, the number of ordered pairs of positive integers $(a, b)$ satisfying $a + 3b \\le N$ is exactly $12$. What is $N$?',
       choices: ['$10$', '$11$', '$9$', '$12$'], answer: 0,
       solution:
         'Route one, test $N = 10$ by cases on $b$. $b = 1$: $a \\le 7$, seven pairs. $b = 2$: $a \\le 4$, four. $b = 3$: $a = 1$, one. Add: $7 + 4 + 1 = 12$ ✓. Route two, watch the count grow with $N$: each pair stays valid when $N$ rises, so the count never falls. $N = 9$ gives $6 + 3 = 9$, $N = 10$ gives $12$, and $N = 11$ gives $8 + 5 + 2 = 15$, so $N = 10$ is the only answer ✓. (The value $11$ READS THE INEQUALITY AS STRICT, counting $a + 3b < 11$ ✗. The value $9$ ALLOWS $a = 0$, where $N = 9$ gives $7 + 4 + 1 = 12$ ✗. The value $12$ ECHOES THE TARGET COUNT instead of solving for $N$ ✗.)',

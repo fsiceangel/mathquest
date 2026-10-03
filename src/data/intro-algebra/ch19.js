@@ -328,7 +328,7 @@ const s193 = {
       solution: 'Multiply the growth factors: $1.5 \\cdot 0.5 = 0.75$, so the final price is $75\\%$ of the original — a $25\\%$ loss. The fall hurts more because the $50\\%$ drop is taken from a bigger number than the $50\\%$ rise was.',
     },
     {
-      q: 'Bank A pays $12\\%$ compounded annually. Bank B pays a $12\\%$ annual rate compounded semiannually. Which deal is better for a saver?',
+      q: 'Bank A pays $12\\%$ compounded annually. Bank B pays a $12\\%$ annual rate compounded semiannually. Which deal is better for a saver after one year?',
       choices: ['Bank A', 'They are exactly the same', 'Bank B', 'It depends on how much you deposit'],
       answer: 2,
       solution: 'Per dollar, Bank A multiplies by $1.12$ each year, while Bank B multiplies by $(1.06)^2 = 1.1236$. Bank B wins. And since both are just multipliers, the winner is the same no matter the size of the deposit.',

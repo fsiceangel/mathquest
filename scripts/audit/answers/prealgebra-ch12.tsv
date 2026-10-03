@@ -1,0 +1,58 @@
+12/12.1/1/3	sqrt(12**2+16**2)	Pythagorean theorem for positive hypotenuse.
+12/12.1/2	P(2,90);P(0,90);P(1,Max(9,12,15));P(3,90)	Hypotenuse is opposite right angle and strictly longest; remaining two sides are legs. All verbal alternatives checked;9,12,15 satisfy Pythagoras.
+12/12.1/3/4	sqrt(12**2+35**2)	Hypotenuse square equals sum of leg squares.
+12/12.1/6	sqrt(17**2-8**2);sqrt(29**2-20**2);sqrt(61**2-11**2);sqrt(53**2-28**2)	Ladder/wire/ramp is hypotenuse; subtract known perpendicular leg square. All radicands positive.
+12/12.1/7	sqrt(8**2+6**2);sqrt(9**2+12**2);sqrt(32**2+24**2);sqrt(20**2+48**2)	Perpendicular cardinal-direction legs give Euclidean displacement.
+12/12.1/8/2	P(0,6**2+8**2-10**2)	Selected triple satisfies Pythagoras; other triples have nonzero square residuals. All offered triples satisfy triangle inequality.
+12/12.1/8/3	P(1,7**2+24**2-25**2)	Test sorted leg squares versus largest square for each triple; only7,24,25 works.
+12/12.1/8/4	P(2,20**2+21**2-29**2)	Only20,21,29 has zero Pythagorean residual; other valid triangles are not right.
+12/12.1/10	sqrt(24**2+7**2);sqrt(40**2+30**2);sqrt(21**2+28**2);sqrt(27**2+36**2)	Rectangle diagonal is hypotenuse of right triangle formed by adjacent sides.
+12/12.2/1	180/3;180/3;180/3;2*180/3	Equilateral/equiangular triangle has three equal60-degree angles; final asks sum of two.
+12/12.2/2/2	180-2*72	Triangle angle sum minus two equal base angles.
+12/12.2/2/3	(180-34)/2	Equal base angles split remaining angle sum.
+12/12.2/2/4	180-2*48	Apex angle from two base angles.
+12/12.2/3	7*sqrt(2);9*sqrt(2);12*sqrt(2);6*sqrt(2)	Isosceles right triangle hypotenuse equals leg times sqrt2 by Pythagoras.
+12/12.2/4	10/2;18/2;24/2;30/2	In30-60-90 triangle shortest leg is half hypotenuse.
+12/12.2/5	8*sqrt(2)/sqrt(2);5*sqrt(2)/sqrt(2);15*sqrt(2)/sqrt(2);13*sqrt(2)/sqrt(2)	Equal legs or square side are hypotenuse divided by sqrt2.
+12/12.2/6	4*sqrt(3);6*sqrt(3);9*sqrt(3);5*sqrt(3)	Longer leg is shortest leg times sqrt3.
+12/12.2/7	14/2*sqrt(3);20/2*sqrt(3);16/2*sqrt(3);22/2*sqrt(3)	Longer leg equals hypotenuse times sqrt3/2.
+12/12.2/8	(180-100)/2;(180-130)/2;(180-110)/2;(180-96)/2	Given obtuse angle cannot be one of equal pair, because two obtuse angles exceed180; it is apex, making other angles equal.
+12/12.2/9/3	14*sqrt(2)	Square diagonal from Pythagoras.
+12/12.2/9/4	11*sqrt(2)	Square diagonal from Pythagoras.
+12/12.2/10/3	6*sqrt(3)/2	Equilateral altitude bisects base, yielding30-60-90 ratio.
+12/12.2/10/4	20*sqrt(3)/2	Equilateral altitude equals side times sqrt3/2.
+12/12.3/1/2	360-3*90	Quadrilateral angle sum360.
+12/12.3/1/4	360/4	Four equal quadrilateral angles split360.
+12/12.3/2	P(0,90);P(1,4);P(2,90);P(3,1)	Base repaired to ask most specific name because square is also rectangle and rhombus. Other rounds exclude square by nonright angles or unequal sides; exactly one parallel pair uses textbook trapezoid convention.
+12/12.3/3/3	44/4	Square has four equal sides.
+12/12.3/3/4	60/4	Rhombus has four equal sides.
+12/12.3/4	70;118;43;54	Opposite angles of a parallelogram are equal.
+12/12.3/5	180-65;180-38;180-104;180-127	Adjacent parallelogram angles are supplementary.
+12/12.3/6	P(2,4);P(0,90);P(1,2);P(3,90)	Inclusive hierarchy: square implies rhombus and rectangle; rectangle implies parallelogram. Counterexamples: nonsquare rhombus60/120 degrees, nonsquare2x3 rectangle, nonparallel generic quadrilateral, and ordinary trapezoid.
+12/12.3/7	P(1,90);P(0,1);P(2,1/2);P(3,90)	Rhombus diagonals perpendicular; rectangle diagonals equal; parallelogram diagonals bisect. Simultaneously equal and perpendicular in parallelogram forces square. Non-square rectangle/rhombus and generic trapezoid refute other universal statements.
+12/12.3/8	sqrt(12**2+5**2);sqrt(8**2+6**2);sqrt(15**2+8**2);sqrt(24**2+10**2)	Rectangle diagonals equal positive Pythagorean length.
+12/12.3/9	180/(2+1);180/(5+1);180*3/(3+1);(180-20)/2	Adjacent angles sum180; combine ratio or difference and select requested smaller/larger.
+12/12.3/10/4	sqrt(64)*sqrt(2)	Square side from area, then diagonal.
+12/challenge/3	10/sqrt(2);18/sqrt(2);6/sqrt(2);20/sqrt(2)	Isosceles right leg is hypotenuse divided by sqrt2.
+12/challenge/4	2*(6*sqrt(3)/sqrt(3));2*(9*sqrt(3)/sqrt(3));2*(10*sqrt(3)/sqrt(3));2*(5*sqrt(3)/sqrt(3))	Divide longer leg by sqrt3 then double shortest leg for hypotenuse.
+12/challenge/5	sqrt(((32-12)/2)**2-(12/2)**2);sqrt(((64-30)/2)**2-(30/2)**2);sqrt(((48-18)/2)**2-(18/2)**2);sqrt(((98-40)/2)**2-(40/2)**2)	Equal side=(perimeter-base)/2; altitude bisects base then Pythagoras. Equal sides10,17,15,29 all exceed half-bases6,15,9,20, ensuring existence.
+12/challenge/6	180-140/2;180-100/2;180-220/2;180-130/2	Equal opposite angles each half stated sum; requested adjacent angle supplements either.
+12/challenge/7/4	(5*sqrt(2))**2/2	Square area is half diagonal squared.
+12/challenge/8	sqrt(5**2+12**2);sqrt(9**2+12**2);sqrt(15**2+8**2);sqrt(20**2+15**2)	Perpendicular cardinal motions determine right-triangle displacement.
+12/challenge/9/4	3*(2*6*sqrt(3)/sqrt(3))	Invert equilateral altitude formula for side, then multiply by3 for perimeter.
+12/challenge/10/4	4*sqrt((14/2)**2+(48/2)**2)	Rhombus diagonals perpendicularly bisect; side is hypotenuse using half diagonals.
+12/challenge/11/2	P(2,9**2+12**2-16**2)	NOT: only9,12,16 has nonzero Pythagorean residual;12,16,20 and6,8,10 and7,24,25 satisfy theorem. All are valid triangles.
+12/challenge/11/3	P(1,20**2+21**2-29**2)	Only20,21,29 is right; other triples8,9,12 and4,5,7 and10,11,15 have nonzero residuals.
+12/challenge/11/4	P(2,12**2+16**2-21**2)	Only12,16,21 fails Pythagoras;15,20,25 and5,12,13 and20,48,52 pass.
+12/challenge/12	180-75;180-62;180-124;180-95	Angles on the same nonparallel leg of trapezoid supplement by parallel-line theorem; select stated common leg, not unrelated angle.
+12/worksheet/1/4	sqrt(24**2+45**2)	Gate diagonal from perpendicular sides.
+12/worksheet/3	11*sqrt(2);13*sqrt(2);6*sqrt(2);15*sqrt(2)	Isosceles right hypotenuse/square diagonal is leg times sqrt2.
+12/worksheet/4	2*7;2*9;6*sqrt(3);2*11	30-60-90 ratios shortest:longer:hypotenuse=1:sqrt3:2; third asks longer leg.
+12/worksheet/5	V(180-48,48,180-48);V(180-55,55,180-55);V(180-118,180-118,118);V(180-37,37,180-37)	Match named answer angles in order: B,C,D or P,R,S. Opposite equal and adjacent supplementary.
+12/worksheet/6/1	52/4	Rhombus sides each quarter perimeter.
+12/worksheet/6/2	68/4	Rhombus sides each quarter perimeter.
+12/worksheet/6/4	100/4	Rhombus sides each quarter perimeter.
+12/worksheet/7	sqrt(13**2-12**2);sqrt(20**2-12**2);sqrt(26**2-24**2);sqrt(41**2-9**2)	Ladder/wire is hypotenuse; subtract known leg squared, take positive remaining distance.
+12/worksheet/8	14/sqrt(2);10/sqrt(2);18/sqrt(2);4*12/sqrt(2)	Square side diagonal/sqrt2; final asks perimeter so multiply by4.
+12/worksheet/9	10*sqrt(13**2-(10/2)**2)/2;16*sqrt(17**2-(16/2)**2)/2;14*sqrt(25**2-(14/2)**2)/2;12*sqrt(10**2-(12/2)**2)/2	Altitude bisects base; all equal-side lengths exceed half base, ensuring valid triangles. Area half base times height.
+12/worksheet/10	4*sqrt((10/2)**2+(24/2)**2);4*sqrt((12/2)**2+(16/2)**2);4*sqrt((18/2)**2+(80/2)**2);2*sqrt((80/4)**2-(32/2)**2)	Rhombus side from half diagonals using Pythagoras; final invert for missing full diagonal, with positive radicand.

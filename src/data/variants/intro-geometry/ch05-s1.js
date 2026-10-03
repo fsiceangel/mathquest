@@ -34,7 +34,7 @@ const s51 = [
       choices: [
         'corresponding angles equal and corresponding sides proportional',
         'corresponding angles and corresponding sides both equal',
-        'corresponding angles proportional and corresponding sides proportional',
+        'corresponding angles proportional and corresponding sides equal',
         'equal perimeters and corresponding angles proportional',
       ],
       answer: 0,

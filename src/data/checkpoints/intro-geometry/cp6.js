@@ -45,7 +45,7 @@ const problems = [
     chapter: 18,
   },
   {
-    q: 'The figure shows a six-sided plot with a right angle at every corner; its six side lengths are marked. What is the length of the dashed segment from $B$ to $E$?',
+    q: 'The figure shows a six-sided plot whose consecutive sides are perpendicular; its six side lengths are marked. What is the length of the dashed segment from $B$ to $E$?',
     fig: {
       view: [-2, -1.5, 18.5, 13.5],
       elems: [

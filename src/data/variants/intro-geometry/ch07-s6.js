@@ -248,7 +248,7 @@ const s76 = [
       choices: ['$1.125$', '$2.25$', '$4.5$', '$4.8$'],
       answer: 1,
       solution:
-        'Run the pipeline: $s = \\frac{5 + 29 + 30}{2} = 32$, so Heron gives Area $= \\sqrt{32 \\cdot 27 \\cdot 3 \\cdot 2} = \\sqrt{5184} = 72$, and $r = \\frac{72}{32} = 2.25$ ✓. Check a second, independent way with the figure’s coordinates: $C(1.4, 4.8)$ satisfies $\\sqrt{1.4^2 + 4.8^2} = \\sqrt{25} = 5$ ✓ and $\\sqrt{28.6^2 + 4.8^2} = \\sqrt{841} = 29$ ✓, so the altitude to the $30$ side is $4.8$, the area is $\\frac{1}{2} \\cdot 30 \\cdot 4.8 = 72$ ✓, and the incircle of radius $2.25$ drawn at $I(3, 2.25)$ sits tangent to the base at height $2.25$ ✓. (The choice $1.125$ is DIVIDING BY THE FULL PERIMETER $64$ instead of the semiperimeter ✗; $4.5$ is ANSWERING THE DIAMETER ✗; $4.8$ is ANSWERING AN ALTITUDE — the height to the $30$ side, not the incircle’s radius ✗.)',
+        'Run the pipeline: $s = \\frac{5 + 29 + 30}{2} = 32$, so Heron gives Area $= \\sqrt{32 \\cdot 27 \\cdot 3 \\cdot 2} = \\sqrt{5184} = 72$, and $r = \\frac{72}{32} = 2.25$ ✓.',
     },
     {
       q: 'A metal sheet is cut as a triangle with sides $13$, $37$, and $40$. What is the radius of the largest circle that fits inside the sheet?',
@@ -270,7 +270,7 @@ const s76 = [
       choices: ['$\\frac{8}{3}$', '$12$', '$\\frac{16}{3}$', '$\\frac{32}{3}$'],
       answer: 2,
       solution:
-        'The largest circle inside a triangle is the incircle. Heron: $s = \\frac{13 + 37 + 40}{2} = 45$, Area $= \\sqrt{45 \\cdot 32 \\cdot 8 \\cdot 5} = \\sqrt{57600} = 240$, so $r = \\frac{240}{45} = \\frac{16}{3}$ ✓. Check a second, independent way with the figure’s coordinates: $C(35, 12)$ satisfies $\\sqrt{35^2 + 12^2} = \\sqrt{1369} = 37$ ✓ and $\\sqrt{5^2 + 12^2} = 13$ ✓, and the incenter $I(32, \\frac{16}{3})$ has distance to the line $BC$ (the line $12x + 5y - 480 = 0$, divided by $13$) equal to $\\frac{|384 + \\frac{80}{3} - 480|}{13} = \\frac{208/3}{13} = \\frac{16}{3}$ ✓ — tangent to that side too, so the circle truly fits. (The choice $\\frac{8}{3}$ is DIVIDING BY THE FULL PERIMETER $90$ ✗; $12$ is ANSWERING AN ALTITUDE, the height to the $40$ side ✗; $\\frac{32}{3}$ is ANSWERING THE DIAMETER ✗.)',
+        'The largest circle inside a triangle is the incircle. Heron: $s = \\frac{13 + 37 + 40}{2} = 45$, Area $= \\sqrt{45 \\cdot 32 \\cdot 8 \\cdot 5} = \\sqrt{57600} = 240$, so $r = \\frac{240}{45} = \\frac{16}{3}$ ✓.',
     },
     {
       q: 'A triangle has sides $15$, $28$, and $41$. Find the radius of its inscribed circle.',
@@ -292,7 +292,7 @@ const s76 = [
       choices: ['$3$', '$1.5$', '$9$', '$6$'],
       answer: 0,
       solution:
-        'Heron first: $s = \\frac{15 + 28 + 41}{2} = 42$, and Area $= \\sqrt{42 \\cdot 27 \\cdot 14 \\cdot 1} = \\sqrt{15876} = 126$ — that last factor $s - 41 = 1$ is the sign of a very flat, obtuse triangle. Then $r = \\frac{126}{42} = 3$ ✓. Check a second, independent way with the figure’s coordinates: $C(-12, 9)$ satisfies $\\sqrt{12^2 + 9^2} = 15$ ✓ and $\\sqrt{40^2 + 9^2} = \\sqrt{1681} = 41$ ✓, and the incenter $I(1, 3)$ has distance to line $AC$ (the line $3x + 4y = 0$, divided by $5$) equal to $\\frac{|3 + 12|}{5} = 3$ ✓ — the same $3$ that separates $I$ from the base, so the circle is tangent all around. (The choice $1.5$ is DIVIDING BY THE FULL PERIMETER $84$ ✗; $9$ is ANSWERING AN ALTITUDE, the height to the $28$ side ✗; $6$ is ANSWERING THE DIAMETER ✗.)',
+        'Heron first: $s = \\frac{15 + 28 + 41}{2} = 42$, and Area $= \\sqrt{42 \\cdot 27 \\cdot 14 \\cdot 1} = \\sqrt{15876} = 126$ — that last factor $s - 41 = 1$ is the sign of a very flat, obtuse triangle. Then $r = \\frac{126}{42} = 3$ ✓.',
     },
   ],
   // s6 — the shortest altitude belongs to the longest side.
@@ -497,7 +497,7 @@ const s76 = [
       choices: ['$4.8$', '$15$', '$10.2$', '$12.2$'],
       answer: 2,
       solution:
-        'Symmetry puts both $R$ and $I$ on the vertical axis through the base’s midpoint. The apex height is $\\sqrt{17^2 - 8^2} = \\sqrt{225} = 15$, the area is $\\frac{1}{2} \\cdot 16 \\cdot 15 = 120$, and $s = \\frac{17 + 17 + 16}{2} = 25$, so $r = \\frac{120}{25} = 4.8$ — the incenter floats at height $4.8$. Then $RI = 15 - 4.8 = 10.2$ ✓. Check a second, independent way with a tangency distance: from $I(8, 4.8)$ to the side line $RP$ (the line $15x - 8y = 0$, divided by $17$) the distance is $\\frac{|120 - 38.4|}{17} = \\frac{81.6}{17} = 4.8$ ✓ — the pad of radius $4.8$ really touches the slanted side, so the incenter’s height, and with it $RI = 10.2$, is confirmed. (The choice $4.8$ is ANSWERING THE INRADIUS, the distance from $I$ down to the base ✗; $15$ is ANSWERING THE WHOLE ALTITUDE ✗; $12.2$ is SUBTRACTING FROM THE LEG, $17 - 4.8$, though $r$ is measured along the axis, not along a slanted side ✗.)',
+        'Symmetry puts both $R$ and $I$ on the vertical axis through the base’s midpoint. The apex height is $\\sqrt{17^2 - 8^2} = \\sqrt{225} = 15$, the area is $\\frac{1}{2} \\cdot 16 \\cdot 15 = 120$, and $s = \\frac{17 + 17 + 16}{2} = 25$, so $r = \\frac{120}{25} = 4.8$ — the incenter floats at height $4.8$. Then $RI = 15 - 4.8 = 10.2$ ✓.',
     },
     {
       q: 'Isosceles triangle $ABC$ has base $AB = 30$ and legs $CA = CB = 25$, with apex $C$ over the midpoint of $\\overline{AB}$. How far is the incenter from apex $C$?',
@@ -520,7 +520,7 @@ const s76 = [
       choices: ['$7.5$', '$12.5$', '$20$', '$17.5$'],
       answer: 1,
       solution:
-        'The altitude from $C$ measures $\\sqrt{25^2 - 15^2} = \\sqrt{400} = 20$, so with area $\\frac{1}{2} \\cdot 30 \\cdot 20 = 300$ and $s = \\frac{25 + 25 + 30}{2} = 40$ the inradius is $r = \\frac{300}{40} = 7.5$. The incenter rides the axis of symmetry at height $7.5$, so $CI = 20 - 7.5 = 12.5$ ✓. Check a second, independent way with a tangency distance: from $I(15, 7.5)$ to the line through $A(0, 0)$ and $C(15, 20)$ (the line $4x - 3y = 0$, divided by $5$) the distance is $\\frac{|60 - 22.5|}{5} = \\frac{37.5}{5} = 7.5$ ✓ — the incircle drawn in the figure is tangent to the leg, so the height of $I$, and with it $CI = 12.5$, checks out. (The choice $7.5$ is ANSWERING THE INRADIUS — the drop from $I$ to the BASE, not the climb to the apex ✗; $20$ is ANSWERING THE WHOLE ALTITUDE ✗; $17.5$ is SUBTRACTING FROM THE LEG, $25 - 7.5$ ✗.)',
+        'The altitude from $C$ measures $\\sqrt{25^2 - 15^2} = \\sqrt{400} = 20$, so with area $\\frac{1}{2} \\cdot 30 \\cdot 20 = 300$ and $s = \\frac{25 + 25 + 30}{2} = 40$ the inradius is $r = \\frac{300}{40} = 7.5$. The incenter rides the axis of symmetry at height $7.5$, so $CI = 20 - 7.5 = 12.5$ ✓.',
     },
     {
       q: 'A pennant is an isosceles triangle $DEF$ with base $DE = 20$ and equal sides $FD = FE = 26$, the tip $F$ directly above the midpoint of the base. Its inscribed circle is centered at $I$. Find the distance $FI$ from the tip to $I$.',
@@ -543,7 +543,7 @@ const s76 = [
       choices: ['$\\frac{20}{3}$', '$24$', '$\\frac{58}{3}$', '$\\frac{52}{3}$'],
       answer: 3,
       solution:
-        'The tip stands at height $\\sqrt{26^2 - 10^2} = \\sqrt{576} = 24$ above the base. Area $= \\frac{1}{2} \\cdot 20 \\cdot 24 = 240$ and $s = \\frac{26 + 26 + 20}{2} = 36$, so $r = \\frac{240}{36} = \\frac{20}{3}$, and the incenter sits on the axis at that height. Then $FI = 24 - \\frac{20}{3} = \\frac{52}{3}$ ✓. Check a second, independent way with a tangency distance: from $I\\left(10, \\frac{20}{3}\\right)$ to the line through $D(0, 0)$ and $F(10, 24)$ (the line $12x - 5y = 0$, divided by $13$) the distance is $\\frac{\\left|120 - \\frac{100}{3}\\right|}{13} = \\frac{260/3}{13} = \\frac{20}{3}$ ✓ — the circle touches the slanted edge exactly, pinning $I$’s height and with it $FI = \\frac{52}{3}$. (The choice $\\frac{20}{3}$ is ANSWERING THE INRADIUS, the distance from $I$ to the base ✗; $24$ is ANSWERING THE WHOLE ALTITUDE ✗; $\\frac{58}{3}$ is SUBTRACTING FROM THE LEG, $26 - \\frac{20}{3}$ ✗.)',
+        'The tip stands at height $\\sqrt{26^2 - 10^2} = \\sqrt{576} = 24$ above the base. Area $= \\frac{1}{2} \\cdot 20 \\cdot 24 = 240$ and $s = \\frac{26 + 26 + 20}{2} = 36$, so $r = \\frac{240}{36} = \\frac{20}{3}$, and the incenter sits on the axis at that height. Then $FI = 24 - \\frac{20}{3} = \\frac{52}{3}$ ✓.',
     },
   ],
 ]

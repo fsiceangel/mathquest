@@ -275,6 +275,15 @@ const s14 = {
         answer: '$20$ outfits.',
       },
       {
+        problem: 'How many two-digit odd positive integers use two different digits?',
+        steps: [
+          'Choose the restricted units digit first: $1,3,5,7,9$, giving $5$ choices.',
+          'The tens digit is nonzero and differs from the chosen units digit, so $8$ choices remain in every case.',
+          'The stages multiply: $5\\times8=40$. This is a small two-stage bridge before longer digit restrictions: fix the restricted slot, then count the remaining choices.',
+        ],
+        answer: '$40$ integers.',
+      },
+      {
         problem: 'How many odd three-digit positive integers have three different digits?',
         steps: [
           'Fill the most restricted slot first: the units digit must be odd, so it has $5$ options.',

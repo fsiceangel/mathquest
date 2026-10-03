@@ -1,7 +1,7 @@
 // Book / chapter / section metadata for every course on the site.
-// Chapter and section numbering follows the physical books a student works
-// from, so the site can be used side by side with them. All quiz and learn
-// content is original.
+// The topic structure follows the physical books a student works from;
+// additional MathQuest sections are labeled as supplements. All quiz and
+// learn content is original.
 // A chapter is "available" when a content module for it exists (see content.js).
 
 export const books = [

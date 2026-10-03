@@ -1,5 +1,8 @@
 node_modules/
+__pycache__/
+*.py[cod]
 dist/
+tmp/
 *.local
 .DS_Store
 tmp_*.mjs

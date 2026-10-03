@@ -230,7 +230,7 @@ const s75 = [
       ],
       answer: 0,
       solution:
-        'The angle at $C$ is obtuse — the vectors to $A$ and $B$ give $(-6)(2) + (-3)(-3) = -3 < 0$ — so two altitudes only reach their opposite sides’ EXTENSIONS, and the crossing gets pushed off the triangle ✓. Check with coordinates: the altitude from $C$ is the vertical line $x = 6$, and the altitude from $A$ is perpendicular to $\\overline{BC}$ (slope $-\\frac{3}{2}$), so it runs along $y = \\frac{2}{3}x$; at $x = 6$ that gives $H(6, 4)$, above $C(6, 3)$ and outside ✓. Guard with the third altitude, from $B$: perpendicular to $\\overline{AC}$ (slope $\\frac{1}{2}$) means slope $-2$, so $y = -2(x - 8)$, and at $x = 6$ it too reaches $y = 4$ ✓. (Inside is KEEPING THE ACUTE HABIT ✗; the vertex answer is BORROWING THE RIGHT-TRIANGLE RULE, which pins $H$ to a vertex only when the angle there is exactly $90^\\circ$ ✗; the midpoint of $\\overline{AB}$ is PROMOTING A MIDPOINT — midpoints belong to medians and perpendicular bisectors, not to where altitudes cross ✗.)',
+        'The triangle is given to be obtuse. In an obtuse triangle, two altitude lines meet extensions of the opposite sides, and the orthocenter is outside the triangle, beyond the obtuse vertex $C$ in this figure. This is the location rule from the lesson; no coordinate equation is needed. The foot of an altitude is where it meets a side line, while the orthocenter is where the altitude lines meet one another.',
     },
     {
       q: 'The long, low triangle shown has vertices $A(0, 0)$, $B(7, 0)$, and $C(6, 2)$, and the angle at $C$ is obtuse. Which statement locates its orthocenter $H$?',
@@ -249,13 +249,13 @@ const s75 = [
       },
       choices: [
         '$H$ is inside the triangle, like every orthocenter',
-        '$H$ lies outside the triangle — here at $(6, 3)$, just past $C$',
+        '$H$ lies outside the triangle, just past $C$',
         '$H$ is at $C$, because the obtuse angle pulls the altitudes to itself',
         '$H$ is on side $\\overline{AB}$',
       ],
       answer: 1,
       solution:
-        'Intersect two altitude lines: the altitude from $C$ is vertical, $x = 6$, and the altitude from $A$ is perpendicular to $\\overline{BC}$ (slope $-2$), so it runs along $y = \\frac{1}{2}x$; at $x = 6$ that gives $H(6, 3)$, above $C(6, 2)$ — outside the triangle ✓. Guard with the third altitude, from $B$: perpendicular to $\\overline{AC}$ (slope $\\frac{1}{3}$) means slope $-3$, so $y = -3(x - 7)$, which at $x = 6$ also gives $y = 3$ ✓ — all three lines agree. The obtuse angle at $C$ is what exiles $H$: the dot product of the vectors from $C$ to $A$ and to $B$ is $(-6)(1) + (-2)(-2) = -2 < 0$ ✓. (Inside is KEEPING THE ACUTE HABIT ✗; "the obtuse angle pulls the altitudes" is BORROWING THE RIGHT-TRIANGLE RULE — only a $90^\\circ$ angle parks $H$ at its vertex ✗; on $\\overline{AB}$ is PARKING ON THE BASE, where only a foot of an altitude lives ✗.)',
+        'The triangle is given to be obtuse. In an obtuse triangle, two altitude lines meet extensions of the opposite sides, and the orthocenter is outside the triangle, beyond the obtuse vertex $C$ in this figure. This is the location rule from the lesson; no coordinate equation is needed. The foot of an altitude is where it meets a side line, while the orthocenter is where the altitude lines meet one another.',
     },
     {
       q: 'An obtuse triangle has vertices $A(0, 0)$, $B(9, 0)$, and $C(8, 2)$, as shown. Its three altitude lines, each extended as far as needed, pass through one common point $H$. Where is $H$?',
@@ -273,14 +273,14 @@ const s75 = [
         ],
       },
       choices: [
-        'at $(8, 0)$, the foot of the altitude from $C$',
+        'at the foot of the altitude from $C$ on side $AB$',
         'at the vertex $B$',
-        'at $(8, 4)$ — outside the triangle',
-        'at $\\left(\\frac{17}{3}, \\frac{2}{3}\\right)$ — inside the triangle',
+        'outside the triangle, beyond $C$',
+        'inside the triangle',
       ],
       answer: 2,
       solution:
-        'The altitude from $C$ is the vertical line $x = 8$. The altitude from $A$ is perpendicular to $\\overline{BC}$, whose slope is $\\frac{2 - 0}{8 - 9} = -2$, so it runs along $y = \\frac{1}{2}x$ and reaches $(8, 4)$ — above $C(8, 2)$, outside the triangle ✓. Guard with the third altitude, from $B$: perpendicular to $\\overline{AC}$ (slope $\\frac{1}{4}$) means slope $-4$, so $y = -4(x - 9)$, and at $x = 8$ it also gives $y = 4$ ✓ — the three lines concur at $H(8, 4)$, and the obtuse angle at $C$ (dot product $(-8)(1) + (-2)(-2) = -4 < 0$) is why $H$ sits outside. (The choice $(8, 0)$ is ANSWERING THE FOOT, where one altitude lands rather than where all three meet ✗; the vertex $B$ is PINNING IT TO A VERTEX, the right-triangle special case ✗; $\\left(\\frac{17}{3}, \\frac{2}{3}\\right)$ is GRABBING THE CENTROID, the average of the vertices ✗.)',
+        'The triangle is given to be obtuse. In an obtuse triangle, two altitude lines meet extensions of the opposite sides, and the orthocenter is outside the triangle, beyond the obtuse vertex $C$ in this figure. This is the location rule from the lesson; no coordinate equation is needed. The foot of an altitude is where it meets a side line, while the orthocenter is where the altitude lines meet one another.',
     },
   ],
   // s6 — legs given; the altitude to the hypotenuse wanted (figure).

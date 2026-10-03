@@ -1,0 +1,24 @@
+2/2.1/1/4	9**2	Square area equals side squared.
+2/2.1/2/3	P(1,11**2)	121 is 11 squared; 30 lies between 5 and 6 squared, 60 between 7 and 8 squared, 140 between 11 and 12 squared.
+2/2.1/6/4	5	Square residues for digits 0 through 9 are 0,1,4,9,6,5,6,9,4,1; only 5 gives terminal 5.
+2/2.1/8/4	(12+1)**2-12**2	Difference of larger and smaller square areas.
+2/2.1/9/1	20**2	First n odd integers sum to n squared, by difference-of-squares telescoping.
+2/2.1/9/2	15**2	First n odd integers sum to n squared.
+2/2.1/9/3	sqrt(169)	Positive count n satisfies n squared equals 169.
+2/2.1/9/4	25**2	First n odd integers sum to n squared.
+2/2.2/2/3	9	Positive ninth power of ten has nine trailing zeros in decimal notation.
+2/2.2/8/4	P(2,(-1)**35)	Only offered odd exponent is 35; all other listed exponents give +1.
+2/2.2/10/4	P(3,23%4)	Powers of two have period four modulo ten, ending 8 precisely at exponent 3 mod 4; only 23 qualifies.
+2/2.3/2/4	P(3,0)	All nonzero bases to power zero equal one; zero to zero is undefined under this textbook convention.
+2/2.3/10/4	3	The four values are 1,2,1,1; three equal one.
+2/2.4/3/4	-4	81=3^4, so reciprocal is 3^-4; uniqueness from strictly increasing powers of 3.
+2/2.4/7/4	7-1	The 1 is in the seventh decimal place, preceded by six zeros after the decimal point.
+2/2.4/10/4	1-(1/2+1/4+1/8+1/16+1/32+1/64)	Subtract full stated finite sum from one.
+2/challenge/7/2	Max(3**7,7**3,2**11,5**4)	Evaluate each offered power independently then compare values.
+2/challenge/12/4	7	Finite geometric sum is 2^(n+1)-1=255, so n+1=8.
+2/worksheet/1/4	23**2	Square area is side squared.
+2/worksheet/2/4	2**7	Repeated doubling gives 2^7=128; stored answer has required power-of-two form.
+2/worksheet/10/1	E((61-60)*(61+60))	Difference of squares is 121; check both sides of stored equality, whose second expression is 11 squared.
+2/worksheet/10/2	E((41-40)*(41+40))	Difference of squares is 81; check equality to 9 squared.
+2/worksheet/10/3	E((13-12)*(13+12))	Difference of squares is 25; check equality to 5 squared.
+2/worksheet/10/4	V((169-1)/2,(169+1)/2)	For consecutive nonnegative n,n+1 the square difference is 2n+1; solve then verify both consecutive numbers.

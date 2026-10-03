@@ -38,7 +38,7 @@ const worksheet = [
   //          bend 134 with a 59 top -> 75 at the bottom.
   [
     {
-      q: 'The two horizontal lines in the figure are parallel, and a path runs from $A$ on the top line down to $B$, then back up to $C$ on the bottom line. The path makes a $41^\\circ$ angle with the top line and a $27^\\circ$ angle with the bottom line. Find $\\angle ABC$.',
+      q: 'The two horizontal lines in the figure are parallel, and a path runs from $A$ on the top line down to $B$ between the lines, then farther down to $C$ on the bottom line. The path makes a $41^\\circ$ angle with the top line and a $27^\\circ$ angle with the bottom line. Find $\\angle ABC$.',
       fig: {
         view: [0, -1.2, 7.5, 4.2],
         elems: [

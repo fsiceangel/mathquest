@@ -108,7 +108,7 @@ const s151 = [
         'Route one, unrolling the wall: slit the tube from top to bottom along one straight line and press it flat. What lies on the table is a rectangle $11$ tall, and its width is the length that used to reach once around the rim, namely $2\\pi \\cdot 4 = 8\\pi$. The cardboard measures $8\\pi \\cdot 11 = 88\\pi$ ✓. Check a second, independent way, by cutting bands: slice the tube into eleven bands, each exactly $1$ unit tall. A single band is a thin ring of cardboard, and cutting it once and straightening it gives a strip $1$ unit tall whose length is the rim, $8\\pi$ — an area of $8\\pi$ per band. Every band is the same size, since the tube keeps one radius the whole way up, so eleven bands give $11 \\cdot 8\\pi = 88\\pi$ ✓. (The choice $44\\pi$ is USING $\\pi r$ FOR THE WAY AROUND instead of $2\\pi r$ ✗; the choice $176\\pi$ is MISTAKING THE DIAMETER $8$ FOR THE RADIUS, doubling the wall ✗; the choice $120\\pi$ is CAPPING THE TUBE WITH TWO LIDS worth $32\\pi$, when the tube has no ends at all ✗.)',
     },
     {
-      q: 'A garden roller is a cylinder of radius $7$ and height $5$. It is dipped in ink and rolled once across a wide sheet of paper without slipping. What area of paper does the roller print?',
+      q: 'A garden roller is a cylinder of radius $7$ and height $5$. It is dipped in ink and rolled for one complete revolution across a wide sheet of paper without slipping. What area of paper does the roller print?',
       choices: ['$35\\pi$', '$168\\pi$', '$70\\pi$', '$245\\pi$'],
       answer: 2,
       solution:
@@ -277,21 +277,21 @@ const s151 = [
   // s9 — pour the water into a new cylinder: volume is fixed, depth is not.
   [
     {
-      q: 'A cylindrical pitcher of radius $6$ is filled with lemonade to a depth of $8$. All of it is poured into an empty cylindrical tub of radius $12$. How deep is the lemonade in the tub?',
+      q: 'A cylindrical pitcher of radius $6$ is filled with lemonade to a depth of $8$. All of it is poured into an empty cylindrical tub of radius $12$. How deep is the lemonade in the tub? The receiving container holds all the liquid without overflowing.',
       choices: ['$2$', '$4$', '$8$', '$32$'],
       answer: 0,
       solution:
         'Route one, follow the lemonade: pouring changes the shape of the lemonade but not how much there is. In the pitcher it fills $\\pi \\cdot 6^2 \\cdot 8 = 36\\pi \\cdot 8 = 288\\pi$. In the tub it spreads over a floor of area $\\pi \\cdot 12^2 = 144\\pi$, and depth is volume divided by floor area, so the lemonade stands $288\\pi \\div 144\\pi = 2$ deep ✓. Check a second, independent way, by comparing the two floors: the tub’s radius is twice the pitcher’s, and doubling a radius stretches the floor in two directions at once, so the tub’s floor is $2 \\cdot 2 = 4$ times as large. Volume is floor area times depth and the volume is unchanged, so if the floor grows by a factor of $4$ the depth must shrink by that same factor: $8 \\div 4 = 2$ ✓. (The choice $4$ is SHRINKING THE DEPTH BY THE RADIUS RATIO $\\frac{1}{2}$ instead of by the floor-area ratio $\\frac{1}{4}$ ✗; the choice $8$ is CARRYING THE OLD DEPTH ACROSS, as though a wider tub filled just as high ✗; the choice $32$ is MULTIPLYING BY $4$ WHERE ONE SHOULD DIVIDE, which would need four times as much lemonade ✗.)',
     },
     {
-      q: 'A narrow cylindrical vase of radius $4$ holds water to a depth of $18$. The water is emptied into a cylindrical bowl of radius $6$. How deep is the water in the bowl?',
+      q: 'A narrow cylindrical vase of radius $4$ holds water to a depth of $18$. The water is emptied into a cylindrical bowl of radius $6$. How deep is the water in the bowl? The receiving container holds all the liquid without overflowing.',
       choices: ['$12$', '$18$', '$8$', '$40.5$'],
       answer: 2,
       solution:
         'Route one, follow the water: the amount of water is fixed by the vase, $\\pi \\cdot 4^2 \\cdot 18 = 16\\pi \\cdot 18 = 288\\pi$. The bowl’s floor is a circle of area $\\pi \\cdot 6^2 = 36\\pi$, and the water sits on it as a cylinder, so its depth is $288\\pi \\div 36\\pi = 8$ ✓. Check a second, independent way, by comparing the two floors: the bowl’s radius is $\\frac{6}{4} = \\frac{3}{2}$ times the vase’s, and a floor stretched by $\\frac{3}{2}$ in two directions grows by a factor of $\\frac{3}{2} \\cdot \\frac{3}{2} = \\frac{9}{4}$. With the same water spread over a floor $\\frac{9}{4}$ times as large, the depth must be $\\frac{4}{9}$ of what it was: $18 \\cdot \\frac{4}{9} = 8$ ✓. (The choice $12$ is SCALING THE DEPTH BY THE RADIUS RATIO $\\frac{2}{3}$ instead of by the area ratio $\\frac{4}{9}$ ✗; the choice $18$ is ASSUMING THE DEPTH TRAVELS WITH THE WATER, though the bowl is wider ✗; the choice $40.5$ is TURNING THE RATIO UPSIDE DOWN, deepening the water when a wider bowl must make it shallower ✗.)',
     },
     {
-      q: 'A wide cylindrical basin of radius $12$ contains water $5$ deep. Every drop is poured into an empty cylindrical drum of radius $6$, which is tall enough to hold it. How deep is the water in the drum?',
+      q: 'A wide cylindrical basin of radius $12$ contains water $5$ deep. Every drop is poured into an empty cylindrical drum of radius $6$, which is tall enough to hold it. How deep is the water in the drum? The receiving container holds all the liquid without overflowing.',
       choices: ['$10$', '$20$', '$5$', '$1.25$'],
       answer: 1,
       solution:

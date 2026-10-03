@@ -86,7 +86,7 @@ const s144 = [
         'One chord per pair of points, and a chord does not care which endpoint you name first, so halve: $\\frac{9 \\times 8}{2} = \\frac{72}{2} = 36$ chords. The choice $72$ counts each chord once from each of its two endpoints; $81 = 9 \\times 9$ would include a "chord" from a point to itself; and $9$ is the number of points.',
     },
     {
-      q: 'Five stars are plotted on a chart, and a straight line is drawn joining every pair of stars. How many lines are drawn?',
+      q: 'Five stars are plotted on a chart, with no three on one straight line, and a straight line is drawn joining every pair of stars. How many lines are drawn?',
       choices: ['$20$', '$10$', '$25$', '$5$'],
       answer: 1,
       solution:

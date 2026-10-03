@@ -1,0 +1,42 @@
+5.1/4	P(3);P(0);P(1);P(2)	One free real variable gives infinitely many pairs; fourth system fixes x=7,y=8 uniquely. Other offered finite counts false.
+5.1/8	P(2);P(0);P(1);P(3)	Proportional equal equations give infinite solutions in rounds1,2; round3 requires sum6 and10 simultaneously; round4 sum9 difference1 uniquely gives5,4.
+5.1/10	10-1;7-1;5+1;12-1	Positive integer ordered sum n has n-1 solutions; nonnegative has n+1.
+5.2/4	P(1);P(0);P(2);P(3)	Substitution yields respectively3x-1=11,4x-4=20,7y+6=24,11x+4=25. Other coefficients or signs disagree.
+5.3/3	P(1);P(1);P(2);P(3)	Cancel chosen variable by adding first pair, subtracting second, subtracting three times equation2 in third, subtracting twice equation2 in fourth. Other offered operations leave nonzero coefficient.
+5.3/7	P(2);P(0);P(1);P(3)	Least positive cancellation multipliers are(3,2),(5,3),(2,3),(2,3), using coefficient least common multiples6,15,6,12.
+5.4/1	(20+4)/2;(26+6)/2;(34-8)/2;(32+12)/2	Sum and difference determine larger(S+D)/2 and smaller(S-D)/2.
+5.4/2	(25-5)/2;(31-7)/2;(40+14)/2;(23-9)/2	Choose requested larger or smaller from sum and difference.
+5.4/3	(12-2*5)/(3-2);(27-3*7)/(5-3);9-(30-2*9)/(5-2);(38-4*8)/(6-4)	Subtract all-cheap baseline; excess divided by price difference gives expensive count. Counts integral and between0 and total.
+5.4/4	(21+3)/2;(27+5)/2;(35-7)/2;(86-4)/2	Ages determined by sum and difference, requested older/younger selected.
+5.4/5	(74-4*11)/(9-4);(88-7*9)/(12-7);12-(145-8*12)/(15-8);14-(124-6*14)/(11-6)	Ticket excess over all-cheap baseline yields adult count; subtract from total when child/student requested. All counts feasible integers.
+5.4/6	(100-5*14)/5;18-(145-5*18)/5;(185-10*11)/15;20-(320-5*20)/20	Work in cents, subtract all-low-denomination baseline, divide denomination gap; complement for low-denomination count.
+5.4/7	(44-2*15)/2;(56-2*20)/2;18-(52-2*18)/2;(40-2*14)/2	Subtract two legs per head; each four-legged animal contributes two additional legs.
+5.4/8	36*2/3;45*4/5;60/4;48*4/6	For ratio k:1 use parts k+1; difference uses k-1 parts.
+5.4/9	(72-6*10)/3;(81-5*12)/3;15-(145-7*15)/5;(60-4*9)/6	Count-price linear system; all-cheap baseline and excess price uniquely determine nonnegative integer counts.
+5.4/10	10*(11+3)/2+(11-3)/2;10*(13+5)/2+(13-5)/2;10*(9-3)/2+(9+3)/2;10*12*2/3+12/3	Solve tens and units by sum/difference or ratio; each digit integer0..9 and tens nonzero.
+5.5/1	P(0);P(1);P(2);P(3)	Multiply both sides by denominator: sum10,sum21,difference24,2x+y20. Every other option changes equation.
+5.5/3	P(1);P(0);P(2);P(3)	Same left side requires incompatible right sides:7vs9,12vs5,12vs15,9vs7.5. Hence no solutions.
+5.5/4	P(3);P(0);P(1);P(2)	Both equations reduce to sum5,sum7,difference4,sum12 respectively, hence infinite real solutions.
+5.5/8	P(0);P(1);P(2);P(3)	Round1 A inconsistent3vs8; other choices unique/infinite/unique. Round2 B inconsistent6vs11; others unique/infinite/unique. Round3 C proportional sum5; others inconsistent/unique/unique. Round4 D determinant-3 gives(4,1); others infinite/none/infinite.
+5.5/10	2*4;3*6;14/2;5*8	Proportional equations consistent only when right side has same scale; unequal gives no solutions.
+5.6/7	P(1);P(2);P(3);P(0)	Half sum of pair sums gives total. Triples(5,7,10),(6,8,12),(6,13,10),(13,9,6) determine requested extrema uniquely.
+5.6/10	3+7-5;6+11-9;8+15-13;7+15	Alternating pair sums recover requested expression; last all-variable sum is first plus third disjoint pair sums.
+challenge/1/4	((24+10)/2)*((24-10)/2)	Sum24 and difference10 give17,7, product119.
+challenge/4	200-(1130-4*200)/3;150-(1070-5*150)/4;(845-3*140)/5;90-2*(740-6*90)/5	Ticket baseline method gives requested cheap/expensive count or count difference. All counts integral feasible.
+challenge/6	P(3);P(1);P(2);P(0)	First equations proportional consistent; second proportional inconsistent24vs30; third proportional consistent; fourth determinant-10 nonzero gives(4,2).
+challenge/7	14+6/2;20+8/2;16-6/2;25+12/2	Numbers are mean plus/minus half difference.
+challenge/10	3*5;4*7;3*9;P(3)	Right side must match proportional scale. Last coefficient rows proportional for every k, hence never exactly one solution.
+challenge/11	(305-5*25)/20;(555-10*30)/15;20-(165-5*20)/5;25*(450-10*24)/15/100	Coin excess method in cents; last asks total quarter value dollars, not coin count. Feasible counts9,17,7low,14quarters.
+challenge/12	(24+28+26)/2-24;(17+25+22)/2-25;(23+19+20)/2-19;(14+23+19)/2	Total equals half of pair sums; subtract appropriate pair to obtain oldest/youngest, or give total.
+worksheet/1	V(8,6);V(13,7);V(12,3);V(3,6)	Sum/difference solution((S+D)/2,(S-D)/2), nonzero determinant.
+worksheet/2	V(7,11);V(9,15);V(8,13);V(5,13)	Substitute dependent variable into sum:2x+4=18,2x+6=24,2y-5=21,4x-2=18.
+worksheet/3	V(5,3);V(4,5);V(7,4);V(6,2)	Subtract equations: x=5,2x=8,3y=12,2a=12; back substitute gives ordered remaining variable.
+worksheet/4	V(9,1,8,4,5);V(12,2,10,5,7);V(5,6,1,9,4);V(1,8,3,4)	Displayed distinct examples each satisfy x+y9,x+y12,x-y5,2x+y10 respectively. Answers are examples, not complete finite solution sets.
+worksheet/5	V(6,4);V(7,5);V(6,9);V(4,12,8)	Price/count systems: expensive counts(52-40)/2=6,(31-24)=7,(99-75)/4=6,(136-100)/3=12. Complement counts4,5,9,8. Last difference4.
+worksheet/6	V(10,6);V(12,6);V(15,5);V(6,14)	Clear denominators then solve sum/difference16,4;18,6;20,10;20,-8 respectively.
+worksheet/7/1	V(6,4)	Eliminate y:15x+10y130 minus4x+10y64 gives11x66; y4.
+worksheet/7/2	V(6,5)	Eliminate y:4x+6y54 minus15x+6y120 gives-11x-66; y5.
+worksheet/7/4	V(7,3)	Eliminate q:15p+20q165 minus8p+20q116 gives7p49; q3.
+worksheet/8	V(10,8);V(7,8);V(9,12);V(7,9)	Higher denomination count from(totalValue-low*count)/gap gives8,8,12,9; complement gives10,7,9,7, all nonnegative integers.
+worksheet/9	V(6,7,9);V(3,8,6);V(8,12,5);V(6,13,10)	Total is half of pair sums; subtract opposite pair to obtain each named variable in requested order.
+worksheet/10	V(14,14);V(10,10);V(45);V(4)	Second coefficient row proportional to first. First two no solution precisely except k14 or10; third infinite precisely k45. Fourth never unique: infinite for k4, none otherwise. Prose qualifiers explicitly checked.

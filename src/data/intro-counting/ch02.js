@@ -54,6 +54,16 @@ const s22 = {
         ],
         answer: 'There are $30$ squares.',
       },
+      {
+        problem: 'How many ordered triples of nonnegative integers $(a,b,c)$ have $a+b+c=4$? How does this help with a nonzero leading digit?',
+        steps: [
+          'Fix $a$. If $a=0$, choose $b=0,1,2,3,4$; then $c=4-b$ is forced, giving $5$ triples.',
+          'For $a=1,2,3,4$, the same count gives $4,3,2,1$ triples. Add: $5+4+3+2+1=15$. No selection formula is needed.',
+          'More generally, a remaining total $s$ gives $(s+1)+s+\\cdots+1$ ordered triples by this same list. For totals at most $9$, these nonnegative values automatically fit in digit positions.',
+          'If a digit $h$ must be at least $1$, give it one unit first and write $h=1+a$. For example, $h+t+u=5$ becomes $a+t+u=4$, giving the same $15$ choices. For four digit positions, fix one position and add the corresponding three-position counts.',
+        ],
+        answer: 'There are $15$ triples; reserve a positive minimum before counting the remaining cases.',
+      },
     ],
   },
   problems: [
@@ -538,7 +548,7 @@ const challenge = [
     q: 'How many four-digit positive integers have four different digits and are divisible by $4$?',
     choices: ['$1120$', '$1078$', '$1232$', '$2250$'],
     answer: 0,
-    solution: 'A number is divisible by $4$ exactly when its last two digits form a multiple of $4$, so build from the right. The two-digit endings $00$ through $96$ that are multiples of $4$ number $25$, but $00$, $44$, and $88$ repeat a digit, leaving $22$ endings. Case on whether the ending contains a $0$. It does for $04, 08, 20, 40, 60, 80$ — $6$ endings; then the thousands digit avoids only the two used digits ($8$ choices) and the hundreds digit avoids three ($7$ choices): $6 \times 56 = 336$. The other $16$ endings have no $0$, so the thousands digit must also avoid $0$ ($7$ choices), then $7$ for the hundreds digit: $16 \times 49 = 784$. Add: $336 + 784 = 1120$. Treating every ending like a zero-free one gives $22 \times 49 = 1078$; letting the thousands digit be $0$ gives $22 \times 56 = 1232$; $2250$ counts every four-digit multiple of $4$ and ignores the distinct-digit rule.',
+    solution: 'A number is divisible by $4$ exactly when its last two digits form a multiple of $4$, so build from the right. The two-digit endings $00$ through $96$ that are multiples of $4$ number $25$, but $00$, $44$, and $88$ repeat a digit, leaving $22$ endings. Case on whether the ending contains a $0$. It does for $04, 08, 20, 40, 60, 80$ — $6$ endings; then the thousands digit avoids only the two used digits ($8$ choices) and the hundreds digit avoids three ($7$ choices): $6 \\times 56 = 336$. The other $16$ endings have no $0$, so the thousands digit must also avoid $0$ ($7$ choices), then $7$ for the hundreds digit: $16 \\times 49 = 784$. Add: $336 + 784 = 1120$. Treating every ending like a zero-free one gives $22 \\times 49 = 1078$; letting the thousands digit be $0$ gives $22 \\times 56 = 1232$; $2250$ counts every four-digit multiple of $4$ and ignores the distinct-digit rule.',
   },
   {
     q: 'Seven people, including Ava, Ben, and Cal, sit in a row. Ava and Ben must sit next to each other, and Cal must not sit next to either of them. How many seatings are possible?',

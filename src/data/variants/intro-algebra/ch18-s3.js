@@ -362,7 +362,7 @@ const challenge = [
         'Expand the left side in full: $(x + a)(x + b) = x^2 + bx + ax + ab = x^2 + (a + b)x + ab$. Matching against $x^2 - 11x + 24$ gives $a + b = -11$ and $ab = 24$. The question asks for the PRODUCT, and it is sitting in the constant term: $24$. Second check by finding the two numbers themselves: $a = -3$ and $b = -8$ satisfy both conditions, and $(x - 3)(x - 8) = x^2 - 8x - 3x + 24 = x^2 - 11x + 24$ ✓, with $ab = (-3)(-8) = 24$ ✓. (Choice $-11$ hands back the SUM, which the middle coefficient supplies, instead of the product ✗. Choice $11$ strips the sign off the sum ✗. Choice $-24$ assumes the product must inherit the minus sign from the middle term ✗.)',
     },
     {
-      q: 'Numbers $a$ and $b$ satisfy $(3x + a)(x + b) = 3x^2 - 5x - 12$ for all $x$. What is $a + b$?',
+      q: 'Integers $a$ and $b$ satisfy $(3x + a)(x + b) = 3x^2 - 5x - 12$ for all $x$. What is $a + b$?',
       choices: ['$-5$', '$1$', '$-12$', '$7$'],
       answer: 1,
       solution:

@@ -356,7 +356,7 @@ const worksheet = [
         'The whole secant beam is $PB = PA + AB = 36 + 13 = 49$, so the power of the lamppost is $PA \\cdot PB = 36 \\cdot 49 = 1764$. A tangent is what a secant becomes when its two crossing points merge, so the tangent length obeys $PT^2 = 1764$, and since a length is positive, $PT = \\sqrt{1764} = 42$ ✓. Second route through the tangent-chord angle: $\\angle PTA$ between the tangent and chord $\\overline{TA}$ equals the inscribed angle $\\angle PBT$ on arc $TA$, and the angle at $P$ is shared, so triangle $PTA$ is similar to triangle $PBT$. One multiplier $k$ therefore carries $PA$ to $PT$ and $PT$ to $PB$, which makes $k^2 = \\frac{PB}{PA} = \\frac{49}{36}$, so $k = \\frac{7}{6}$ and $PT = 36 \\cdot \\frac{7}{6} = 42$ ✓.',
     },
     {
-      q: 'A wire runs from the top of a birdhouse pole at $P$ and just touches the edge of a circular duck pond at one point $T$. A straight boardwalk from $P$ crosses the pond, meeting the edge at $A$ and then $B$, with $PA = 24$ and $AB = 30$. Find $PT$.',
+      q: 'A wire runs from the base of a birdhouse pole at $P$ and just touches the edge of a circular duck pond at one point $T$. A straight boardwalk from $P$ crosses the pond, meeting the edge at $A$ and then $B$, with $PA = 24$ and $AB = 30$. Find $PT$.',
       fig: {
         view: [-3, -10, 61, 34],
         elems: [

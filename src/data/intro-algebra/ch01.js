@@ -582,7 +582,7 @@ const s15 = {
 
 const s16 = {
   id: '1.6',
-  title: 'Exponents',
+  title: 'Exponents (MathQuest supplement)',
   learn: {
     concepts: [
       {
@@ -697,7 +697,7 @@ const s16 = {
 
 const s17 = {
   id: '1.7',
-  title: 'Fractional Exponents',
+  title: 'Fractional Exponents (MathQuest supplement)',
   learn: {
     concepts: [
       {
@@ -812,7 +812,7 @@ const s17 = {
 
 const s18 = {
   id: '1.8',
-  title: 'Radicals',
+  title: 'Radicals (MathQuest supplement)',
   learn: {
     concepts: [
       {
@@ -1057,10 +1057,9 @@ export default {
   number: 1,
   title: 'Follow the Rules',
   intro:
-    'Welcome to Introduction to Algebra! You already know how numbers behave — now we sharpen those rules into precision tools. In this chapter we revisit the laws of arithmetic with fresh eyes, then push further into exponents, roots, and the logic of equations.',
+    'Welcome to Introduction to Algebra! You already know how numbers behave — now we sharpen those rules into precision tools. In this chapter we revisit the laws of arithmetic with fresh eyes, then push further into exponents, roots, and the logic of equations. After the textbook’s sections 1.1–1.5, MathQuest adds sections 1.6–1.8 as supplementary review of powers and roots; the textbook’s own section 1.6 is its Summary.',
   sections: [s11, s12, s13, s14, s15, s16, s17, s18],
   challenge,
   worksheet,
 }
-
 

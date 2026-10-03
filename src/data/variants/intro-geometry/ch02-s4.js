@@ -369,13 +369,13 @@ const s24 = [
           { t: 'label', p: [-2.6, 0.3], text: 'm' },
           { t: 'label', p: [2.6, 2.3], text: 'l' },
           { t: 'angle', at: [0, 0], from: [3, 0], to: [-2.23, 2.85], r: 0.6, label: '128' },
-          { t: 'angle', at: [-1.56, 2], from: [3, 2], to: [-2.23, 2.85], r: 0.5, label: 'b' },
+          { t: 'angle', at: [-1.56, 2], from: [-3, 2], to: [-2.23, 2.85], r: 0.5, label: 'b' },
         ],
       },
       choices: ['$52^\\circ$', '$128^\\circ$', '$38^\\circ$', '$232^\\circ$'],
       answer: 0,
       solution:
-        'The angle at the upper crossing opening up and to the LEFT corresponds to the $128^\\circ$ at $P$, so it measures $128^\\circ$; angle $b$ is its neighbour along line $\\ell$, opening up and to the right, so the two form a linear pair and $b = 180^\\circ - 128^\\circ = 52^\\circ$ ✓. Check a second, independent way with the two-families count. Every angle here is $128^\\circ$ or $52^\\circ$. The marked angle at $P$ is drawn wide, while $b$ is drawn as a narrow wedge between line $\\ell$ and the transversal — different families ✓ — so $b$ has to be the small value, $52^\\circ$. (The choice $128^\\circ$ is STOPPING AT THE CORRESPONDING ANGLE ✗; $38^\\circ$ is THE COMPLEMENT MIX-UP applied to $52^\\circ$ ✗; $232^\\circ$ is READING THE REFLEX ANGLE ✗.)',
+        'At the upper crossing, the angle corresponding to the marked $128^\\circ$ angle also measures $128^\\circ$. Angle $b$ shares the transversal ray with it and uses the opposite ray of the upper parallel line, so the two form a straight angle. Thus $b=180^\\circ-128^\\circ=52^\\circ$. Equivalently, the vertical angle opposite $b$ lies between the parallel lines and is supplementary to the given same-side interior angle.',
     },
     {
       q: 'Lines $\\ell$ and $m$ are parallel, and the marked angle at $P$ is $71^\\circ$. Find the angle marked $b$ at the upper crossing.',
@@ -395,7 +395,7 @@ const s24 = [
       choices: ['$71^\\circ$', '$19^\\circ$', '$109^\\circ$', '$161^\\circ$'],
       answer: 2,
       solution:
-        'Slide up the transversal: the angle at the upper crossing in the same position as the marked one — up and to the right — is $71^\\circ$. Angle $b$ is next to it along line $\\ell$, so the pair is a linear pair and $b = 180^\\circ - 71^\\circ = 109^\\circ$ ✓. Check a second, independent way by naming the pair $b$ makes with $P$ directly. Angle $b$ is between the parallel lines, and so is the marked angle at $P$; both open toward the same side of the transversal, which makes them same-side interior angles — supplementary — so $b = 180^\\circ - 71^\\circ = 109^\\circ$ ✓ in one step instead of two. (The choice $71^\\circ$ is STOPPING AT THE CORRESPONDING ANGLE ✗; $19^\\circ$ is THE COMPLEMENT MIX-UP ✗; $161^\\circ$ is COMPLEMENTING BEFORE SUPPLEMENTING, computing $180^\\circ - 19^\\circ$ ✗.)',
+        'At the upper crossing, the angle corresponding to the marked $71^\\circ$ angle also measures $71^\\circ$. Angle $b$ shares the transversal ray with it and uses the opposite ray of the upper parallel line, so the two form a straight angle. Thus $b=180^\\circ-71^\\circ=109^\\circ$. Equivalently, the vertical angle opposite $b$ lies between the parallel lines and is supplementary to the given same-side interior angle.',
     },
   ],
   // s7 — corresponding-angle algebra: set equal, solve, then report the ANGLE.

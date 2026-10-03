@@ -1,0 +1,164 @@
+{
+  "book": "intro-geometry",
+  "date": "2026-10-01",
+  "scope": "Conversion safety review of prompt independence, unique scalar numeric answers, approximation wording, and units. Existing mathematical answer audit remains the separate authority; this is not a new full mathematical proof of every keyed answer.",
+  "manifestSelectedSha256": "ca5441a0b2542049f4b26f96e34471c1fbcdf43626496c5f06d77c32741d5a00",
+  "reviewedSelectedSlots": 285,
+  "reviewedSelectedVersions": 1140,
+  "excludedSlots": [
+    {
+      "id": "intro-geometry/9/9.3/5",
+      "reason": "Approximate apothem and estimate/about wording do not specify rounding or require the unrounded product; exact-only grading could reject reasonable estimates."
+    },
+    {
+      "id": "intro-geometry/18/18.1/5",
+      "reason": "Approximate sine/cosine and about wording do not explicitly require the stated approximations without further rounding. Keep multiple choice until an exact input instruction is supplied."
+    },
+    {
+      "id": "intro-geometry/18/challenge/8",
+      "reason": "Approximate area wording does not specify output precision. Keep multiple choice or explicitly ask for the unrounded calculation using the stated sine approximation."
+    }
+  ],
+  "excludedCalibrationIds": [
+    {
+      "id": "intro-geometry/9/9.3/5/1",
+      "reason": "Approximate apothem and estimate/about wording do not specify rounding or require the unrounded product; exact-only grading could reject reasonable estimates."
+    },
+    {
+      "id": "intro-geometry/9/9.3/5/2",
+      "reason": "Approximate apothem and estimate/about wording do not specify rounding or require the unrounded product; exact-only grading could reject reasonable estimates."
+    },
+    {
+      "id": "intro-geometry/9/9.3/5/3",
+      "reason": "Approximate apothem and estimate/about wording do not specify rounding or require the unrounded product; exact-only grading could reject reasonable estimates."
+    },
+    {
+      "id": "intro-geometry/9/9.3/5/4",
+      "reason": "Approximate apothem and estimate/about wording do not specify rounding or require the unrounded product; exact-only grading could reject reasonable estimates."
+    },
+    {
+      "id": "intro-geometry/18/18.1/5/1",
+      "reason": "Approximate sine/cosine and about wording do not explicitly require the stated approximations without further rounding. Keep multiple choice until an exact input instruction is supplied."
+    },
+    {
+      "id": "intro-geometry/18/18.1/5/2",
+      "reason": "Approximate sine/cosine and about wording do not explicitly require the stated approximations without further rounding. Keep multiple choice until an exact input instruction is supplied."
+    },
+    {
+      "id": "intro-geometry/18/18.1/5/3",
+      "reason": "Approximate sine/cosine and about wording do not explicitly require the stated approximations without further rounding. Keep multiple choice until an exact input instruction is supplied."
+    },
+    {
+      "id": "intro-geometry/18/18.1/5/4",
+      "reason": "Approximate sine/cosine and about wording do not explicitly require the stated approximations without further rounding. Keep multiple choice until an exact input instruction is supplied."
+    },
+    {
+      "id": "intro-geometry/18/challenge/8/1",
+      "reason": "Approximate area wording does not specify output precision. Keep multiple choice or explicitly ask for the unrounded calculation using the stated sine approximation."
+    },
+    {
+      "id": "intro-geometry/18/challenge/8/2",
+      "reason": "Approximate area wording does not specify output precision. Keep multiple choice or explicitly ask for the unrounded calculation using the stated sine approximation."
+    },
+    {
+      "id": "intro-geometry/18/challenge/8/3",
+      "reason": "Approximate area wording does not specify output precision. Keep multiple choice or explicitly ask for the unrounded calculation using the stated sine approximation."
+    },
+    {
+      "id": "intro-geometry/18/challenge/8/4",
+      "reason": "Approximate area wording does not specify output precision. Keep multiple choice or explicitly ask for the unrounded calculation using the stated sine approximation."
+    }
+  ],
+  "includeSlots": [
+    {
+      "id": "intro-geometry/10/10.2/7",
+      "reason": "All four versions ask for a unique integer completing a right triangle. The alternative radical leg is nonintegral; which does not depend on choices."
+    },
+    {
+      "id": "intro-geometry/10/10.2/8",
+      "reason": "All four versions count integers satisfying explicit strict longest-side and obtuse-triangle conditions. Unique numeric count; which appears in a relative clause."
+    },
+    {
+      "id": "intro-geometry/10/10.2/9",
+      "reason": "All four versions count integer third sides yielding an acute triangle. Unique numeric count; which appears in a relative clause."
+    },
+    {
+      "id": "intro-geometry/10/10.2/10",
+      "reason": "All four versions solve for the unique positive parameter of a stated right triangle. Which does not refer to a list of options."
+    }
+  ],
+  "sectionGaps": [
+    {
+      "id": "intro-geometry/1/1.5",
+      "title": "The Burden of Proof",
+      "selected": 0,
+      "suggestion": "Proof and logic section. Slot1 can be hand-specified as [1,1,1,0], but general counterexample requests admit many answers and must remain multiple choice or gain a predicate grader."
+    },
+    {
+      "id": "intro-geometry/8/8.7",
+      "title": "If and Only If",
+      "selected": 0,
+      "suggestion": "Biconditionals/classification; all existing answers are concepts, statements, or reasoning. Retain multiple choice or author separate reasoning-oriented numeric examples."
+    },
+    {
+      "id": "intro-geometry/10/10.1",
+      "title": "Sides and Angles of a Triangle",
+      "selected": 0,
+      "suggestion": "Side/angle comparisons answer with labels or inequalities. A single-number grader would alter the learning objective; retain choices."
+    },
+    {
+      "id": "intro-geometry/10/10.2",
+      "title": "Pythagoras — Not Just For Right Triangles",
+      "selected": 0,
+      "suggestion": "Safe numeric count/parameter slots 7-10 are explicitly approved in includeSlots."
+    },
+    {
+      "id": "intro-geometry/11/11.3",
+      "title": "Funky Areas",
+      "selected": 0,
+      "suggestion": "Composite circle areas require pi expressions, not plain rational answers. Keep choices until exact symbolic input is supported; do not silently strip pi."
+    },
+    {
+      "id": "intro-geometry/16/16.1",
+      "title": "Translations",
+      "selected": 0,
+      "suggestion": "Translation questions ask for coordinate pairs or transformation rules; single rational input cannot represent their answer."
+    },
+    {
+      "id": "intro-geometry/16/16.3",
+      "title": "Reflections",
+      "selected": 1,
+      "suggestion": "Other slots require coordinate pairs, symmetry line names, or transformation concepts. One count slot is suitable across all versions."
+    },
+    {
+      "id": "intro-geometry/16/challenge",
+      "title": "Chapter challenge",
+      "selected": 1,
+      "suggestion": "Only one slot is plain numeric across all versions. E.g shortest reflected path slot7 has radicals in three versions; do not force rational input."
+    },
+    {
+      "id": "intro-geometry/17/17.2",
+      "title": "Circles",
+      "selected": 1,
+      "suggestion": "Only radius slot6 is plain numeric in all versions. Slot3 version3 is sqrt(30), so converting the whole slot requires symbolic input."
+    },
+    {
+      "id": "intro-geometry/17/17.4",
+      "title": "Proofs with Analytic Geometry",
+      "selected": 0,
+      "suggestion": "General coordinate proofs deliberately use variables, expressions, and coordinate pairs. Numeric substitutes would weaken the proof objective."
+    },
+    {
+      "id": "intro-geometry/19/19.3",
+      "title": "Proofs",
+      "selected": 0,
+      "suggestion": "Proof justifications/congruence criteria/logical validity are not single numeric answers. Preserve reasoning choices rather than disguising them as numeric entry."
+    }
+  ],
+  "notes": [
+    "Selected numeric geometry questions retain figure context. Hide choices but retain the figure and mathematical prompt.",
+    "Angles and percentages preserve the explicit degree/percent suffix outside the input. Number-only answers in meter/area/volume story problems have units already stated in the prompt; input hint must explicitly say to omit units.",
+    "Do not broadly remove all questions containing which: it can be a relative clause in a unique integer-count question. Conversely possible chord/third-side and unbounded counterexample requests depend on the choices and are unsafe.",
+    "Do not parse radicals, pi, coordinate pairs, multiple solutions, or expressions as a single rational value. Fraction extraction must match the entire numeric expression; mixed numerals must not concatenate."
+  ]
+}

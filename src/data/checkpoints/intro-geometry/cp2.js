@@ -37,10 +37,10 @@ export default {
       chapter: 3,
     },
     {
-      q: 'A right triangle has a hypotenuse of length $125$, and both of its legs are whole numbers. How many different such triangles are there? (Two triangles that are congruent count as one.)',
-      choices: ['$1$', '$2$', '$3$', '$4$', '$6$'],
+      q: 'A right triangle has a hypotenuse of length $25$, and both of its legs are positive whole numbers. How many different such triangles are there? (Two triangles that are congruent count as one.)',
+      choices: ['$0$', '$1$', '$2$', '$3$', '$4$'],
       answer: 2,
-      solution: 'A leg $a$ works exactly when $125^2 - a^2 = 15625 - a^2$ is a perfect square, so this is a search, not a single computation. Scaling familiar triples first: $3$-$4$-$5$ times $25$ gives $75$-$100$-$125$, and $7$-$24$-$25$ times $5$ gives $35$-$120$-$125$; no other small triple has a hypotenuse dividing $125$. But one more triangle is primitive: $44^2 + 117^2 = 1936 + 13689 = 15625$, so $44$-$117$-$125$ works too, and running the shorter leg through the remaining values from $1$ to $88$ (the shorter leg is below $\\frac{125}{\\sqrt{2}}$) finds nothing else. That makes $3$ triangles. The choice $1$ stops after the $3$-$4$-$5$ multiple; $2$ finds both scaled triples and never suspects a primitive one; $4$ admits the degenerate $0$-$125$-$125$; and $6$ counts every triangle twice, once for each order of its legs.',
+      solution: 'The triples $7$-$24$-$25$ and $15$-$20$-$25$ give two triangles. To check that none are missing, call the longer leg $b$. It is less than $25$, and $2b^2$ must be at least $25^2 = 625$, so $b$ is one of $18,19,20,21,22,23,24$. The corresponding values of $625-b^2$ are $301,264,225,184,141,96,49$; only $225=15^2$ and $49=7^2$ are squares. Thus there are exactly $2$ triangles. The choice $0$ misses both triples, $1$ stops after finding one, $3$ includes the flat $0$-$25$-$25$ configuration, and $4$ counts each triangle twice by swapping its legs.',
       topic: 'geometry',
       chapter: 6,
     },

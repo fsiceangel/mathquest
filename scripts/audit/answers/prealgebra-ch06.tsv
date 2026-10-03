@@ -1,0 +1,52 @@
+6/6.1/1/4	P(3,8/1000)	8 is third place after decimal point, the thousandths position.
+6/6.1/2/3	75/100+16/10	Sum the two liquid volumes exactly.
+6/6.1/2/4	435/100-9/10	Missing addend is target minus known addend.
+6/6.1/3/4	(62/10)/100	Undo multiplication by100.
+6/6.1/4/4	15/10-86/100	Subtract poured volume.
+6/6.1/5/4	8/10*15/100	Rectangle area is product of side lengths.
+6/6.1/6/4	(744/100)/6	Divide volume into six equal shares.
+6/6.1/7/4	(56/10)/(7/10)	Multiplying dividend and divisor by10 preserves quotient; compare all expressions.
+6/6.1/8/4	(4/10)*100	Undo division by100.
+6/6.1/9/4	75/100*24/10	Price per metre times length.
+6/6.1/10/1	(72/10)/(45/100)	Total length divided by piece length.
+6/6.1/10/2	(54/10)/(36/100)	Total volume divided by cup capacity.
+6/6.1/10/3	(42/10)/(35/100)	Total mass divided by loaf mass.
+6/6.1/10/4	(85/10)/(25/100)	Row length divided by tile width.
+6/6.2/6	H(5,1);H(8,1);H(32/10,1/10);H(6/10,1/10)	Apply exact positive round-half-up rule to every candidate and require unique qualifying value.
+6/6.2/7	floor(1987/100+1/2)+floor(302/10+1/2);floor(87/10+1/2)*floor(52/10+1/2);floor(614/10+1/2)-floor(2875/100+1/2);floor(302/100+1/2)*floor(196/10+1/2)	Round each operand first, then perform specified operation; final item checks approximate scale.
+6/6.2/10	H(37/10,1/10);H(24/10,1/10);H(56/100,1/100);H(5,1/10)	Exact half-up rounding applied independently to every offered decimal.
+6/6.3/1/4	1/10	One decimal tenth is fraction1/10.
+6/6.3/2/4	4/10	Exact decimal-fraction equivalence.
+6/6.3/3/4	6/10	Reduce fraction6/10 by gcd2.
+6/6.3/4/4	17/50	Convert by multiplying numerator and denominator by2.
+6/6.3/5/4	P(3,16)	Reduced denominator must have only prime factors2 and5; 12,15,21 contain3 or7, while16=2^4.
+6/6.3/6/4	52/100	Reduce by gcd4 to13/25.
+6/6.3/7/1	P(1,Max(6/10,5/8))	Exact values0.6 and0.625 are unequal and comparable; second larger.
+6/6.3/7/2	P(0,Max(9/16,55/100))	0.5625 exceeds0.55; equality and incomparability false.
+6/6.3/7/4	Max(5/8,72/100,7/10,66/100)	Compare all exact rational candidates.
+6/6.3/9/1	P(0,21/28)	Reduced fraction3/4 terminates at0.75; all alternative decimals and nontermination claim false.
+6/6.3/9/2	P(1,22/55)	Reduced fraction2/5 terminates at0.4.
+6/6.3/9/3	P(2,27/45)	Reduced fraction3/5 terminates at0.6.
+6/6.3/9/4	P(3,35/56)	Cancel gcd7 before denominator test;5/8=0.625. Raw denominator or odd numerator cannot imply nontermination.
+6/6.3/10	V(7/10,72/100,3/4);V(58/100,6/10,5/8);V(65/100,3/5,56/100);V(2/10,24/100,1/4)	Sort exact rational values; round3 descending, all others ascending.
+6/6.4/1/1	P(1,5/9)	Bar over5 means endless consecutive fives; finite or interspersed-zero alternatives differ.
+6/6.4/1/2	P(0,2/9)	Bar over2 means endless consecutive twos; alternatives differ.
+6/6.4/1/3	P(2,16/99)	Bar over16 repeats entire block16 indefinitely, not only final6 or finitely many digits.
+6/6.4/1/4	4/9	Infinite repeating4 corresponds exactly to4/9; integer part must be zero.
+6/6.4/4/3	7/16	Only reduced denominator16 has no prime factors except2,5;15,9,7 produce nonterminating repeating decimals.
+6/6.4/4/4	P(2,30)	Already reduced denominator30 contains factor3; other stated features do not imply nontermination (e.g.1/2).
+6/6.4/6/4	2/9	Geometric series sum of2*10^-k, k>=1, is2/9.
+6/6.4/7/1	P(2,Max(7/9,75/100))	Compare exact rationals;7/9 exceeds3/4, so neither equality nor uncertainty.
+6/6.4/7/2	P(0,Max(1/3,34/100))	34/100 exceeds1/3 by1/150.
+6/6.4/7/3	P(1,Max(5/9,55/100))	5/9 exceeds55/100 by1/180.
+6/6.4/7/4	Min(6/9,68/100,(68-6)/90,666/1000)	Convert repeating decimals exactly before taking minimum.
+6/6.4/10/1	P(1,9/9)	Geometric series0.999... equals9/9 exactly, not slightly below or above one.
+6/6.4/10/4	P(3,3*(1/3))	Multiply both equality sides by3:1=0.999...; finite0.9 and0.99 unequal one, and3 unequal0.999....
+6/challenge/1/4	84/10+35/100+16/10+65/100	Sum all four parcel masses.
+6/challenge/5	8-1/2;43/10-1/20;20-10/2;3-1/200	Under stated half-up convention smallest value rounding to target is target minus half the rounding unit; lower endpoint included.
+6/challenge/7/2	9/24	Reduce to3/8; other reduced denominators15,21,33 retain prime factors other than2,5.
+6/challenge/7/3	15/24	Reduce to5/8; other reduced denominators22,9,7 do not divide a power of10.
+6/challenge/9/2	Max(45/100,(45-4)/90,454/1000,45/99)	Convert finite and repeating decimals to exact rationals and compare all four.
+6/challenge/9/3	Max(71/99,717/1000,(717-71)/900,(71-7)/90)	Rightmost coordinate is maximum exact rational.
+6/challenge/9/4	Min(272/1000,(272-27)/900,27/99,(27-2)/90)	Leftmost coordinate is minimum exact rational.
+6/worksheet/9	7/12;11/12;7/15;7/22	Decode each answer's repeating bar as exact rational via geometric series; compare against original fraction.

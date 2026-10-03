@@ -37,7 +37,7 @@ const s111 = [
         'Larger minus smaller: $2 - (-7) = 2 + 7 = 9$ units. Picture it: $-7$ is $7$ steps left of zero and $2$ is $2$ steps right, so the walk is $7 + 2 = 9$. Writing $2 - 7 = -5$ forgets that subtracting a negative adds. Dropping the minus sign and computing $7 - 2$ gives $5$. And $-7 - 2 = -9$ subtracts in the wrong order; distance is never negative.',
     },
     {
-      q: 'A submarine floats $12$ metres below sea level while a gull flies $5$ metres above it. What is the vertical distance between them, in metres?',
+      q: 'A submarine floats $12$ metres below sea level while a gull flies $5$ metres above sea level. What is the vertical distance between them, in metres?',
       choices: ['$7$', '$-7$', '$-17$', '$17$'],
       answer: 3,
       solution:
@@ -708,21 +708,21 @@ const s113 = [
   // p10 — how area changes when the radius changes
   [
     {
-      q: 'A large round cake has radius $9$ inches and a small one has radius $3$ inches. How many small cakes together hold the same amount as the large one?',
+      q: 'A large round cake has radius $9$ inches and a small one has radius $3$ inches. How many small cakes together have the same total top area as the large one?',
       choices: ['$9$', '$3$', '$6$', '$81$'],
       answer: 0,
       solution:
         'Compare areas. Large: $\\pi \\times 9^2 = 81\\pi$. Small: $\\pi \\times 3^2 = 9\\pi$. Since $81\\pi \\div 9\\pi = 9$, it takes $9$ small cakes. The choice $3$ compares the radii instead of the areas — tripling a length multiplies area by $3 \\times 3 = 9$, not by $3$. The choice $6$ subtracts the radii, $9 - 3$. And $81$ is the large cake\'s area in units of $\\pi$, with no dividing done.',
     },
     {
-      q: 'The radius of a circular pancake is tripled. What happens to the amount of pancake?',
+      q: 'The radius of a circular pancake is tripled. What happens to its area?',
       choices: ['It is $3$ times as big', 'It is $6$ times as big', 'It is $9$ times as big', 'It stays the same'],
       answer: 2,
       solution:
         'Area is $\\pi r^2$, so replacing $r$ by $3r$ gives $\\pi (3r)^2 = 9\\pi r^2$ — $9$ times as much. Answering "$3$ times" assumes area grows in step with length, but the radius is squared, so a scale factor of $3$ becomes $3 \\times 3 = 9$. Answering "$6$ times" doubles the scale factor instead of squaring it. And the amount certainly does not stay the same — a bigger circle holds more.',
     },
     {
-      q: 'A circular tabletop of radius $6$ is replaced by one of radius $12$. How many times as much wood does the new top need?',
+      q: 'A circular tabletop of radius $6$ is replaced by one of radius $12$. How many times as large is the area of the new top?',
       choices: ['$2$', '$6$', '$\\frac{1}{4}$', '$4$'],
       answer: 3,
       solution:

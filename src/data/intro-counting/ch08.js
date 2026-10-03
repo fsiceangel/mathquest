@@ -385,6 +385,16 @@ const s85 = {
     ],
     examples: [
       {
+        problem: 'A fair coin chooses one of two bags. Bag A has two red marbles; Bag B has one red and one blue. One marble is drawn from the chosen bag. Given that it is red, what is the probability that Bag A was chosen?',
+        steps: [
+          'Label the marbles A1, A2, B1 (red), and B2 (blue). Each has probability $\\frac12 \\times \\frac12 = \\frac14$ of being drawn.',
+          'The observation rules out B2. The new sample space is the three equally likely red outcomes A1, A2, B1, of which two came from A.',
+          'Therefore the conditional probability is $\\frac23$. Equivalently, divide the joint probability $P(A \\text{ and red})=\\frac12$ by $P(\\text{red})=\\frac34$.',
+          'This is different from asking for red after A is known, which has probability $1$. For a weighted tree, sum the branches consistent with the observation and divide the desired branches by that total.',
+        ],
+        answer: 'The probability is $\\frac23$.',
+      },
+      {
         problem: 'A bag holds $4$ red and $3$ blue marbles. Two marbles are drawn at random without replacement. What is the probability that both are blue?',
         steps: [
           'The first marble is blue with probability $\\frac{3}{7}$.',

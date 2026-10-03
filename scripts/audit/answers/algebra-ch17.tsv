@@ -1,0 +1,43 @@
+# MC positions are zero-based, independently selected after solving and checking all four choices. Proofs list rounds in order.
+17.1/1	P(1,8);P(0,2);P(2,6);P(3,512)	A graph point has input first/output second: f(3)=8,g(7)=2,h(-4)=6; last requires point(5,12), not swapped/added coordinates.
+17.1/2/4	P(3,3)	The drawn polyline has vertex(0,3); the y-axis has x=0, so only(0,3).
+17.1/3	P(0,2*2-3);P(1,3*4-5);P(2,5-2*3);P(3,5*2-1)	Substitute both coordinates in every candidate. Only(2,1),(4,7),(3,-1) work respectively; final four functions at2 give -5,11,10,9, so only5x-1.
+17.1/4	P(2,1);P(0,1);P(1,1);P(3,1)	Vertical-line test: circle fails whereas upward parabola,V,nonvertical line pass; only horizontal line passes among vertical/circle/sideways parabola; sideways parabola fails among three valid functions; points(4,2),(4,-5) force two outputs at4.
+17.1/6	P(3,-9);P(0,36);P(1,-12);P(2,5)	Set x=0 for y-intercepts(0,-9),(0,-12),(0,5). Round2 solve x²=36: both(6,0),(-6,0) required, excludes single root and swapped axes.
+17.1/7/3	P(2,7)	Polyline x coordinates run continuously from-2 to5, inclusive endpoints. Domain[-2,5], not y-range[-3,4] or[-1,4].
+17.1/8	P(1,3);P(0,5);P(2,2);P(3,2)	Each distinct horizontal crossing has a distinct input solving f(x)=height. Thus3 solutions at2;5 at-4;2 intersections with y=6;2 zeros exactly mean2 x-intercepts. Other choices confuse input/output, axes, or vertical-line test.
+17.1/9	P(3,4-(-2));P(0,7-(-3));P(1,(-5+3)/2);P(2,5)	Factor roots(-2,4) distance6;(-3,7) distance10;(-5,3) midpoint-1;(-5,4) farther point(-5,0) with positive distance5. All numeric/sign alternatives excluded.
+17.1/10	P(2,1);P(0,1);P(1,1);P(3,1)	A repeated input cannot have different outputs: forbidden(2,7),(-1,0),h(5)=3. Last first3 lists repeat inputs2,0,3 with conflicting outputs; last inputs1,4,9 are distinct despite equal outputs.
+17.2/1	P(0,5);P(1,-6);P(2,9);P(3,-1+7)	Adding outside f shifts vertically: up5,down6,up9 means f(x)+9; point(4,-1) becomes(4,6). Horizontal or opposite shifts do not work generally.
+17.2/2	P(3,3);P(2,-6);P(0,8);P(1,7)	Solve new input inside f=old input: f(x-3) shifts right3,f(x+6) left6,right8 means f(x-8); |x-7| vertex(7,0). Other directions/vertical shifts differ.
+17.2/3	P(1,-7);P(3,-5);P(0,1);P(2,2)	Negate only output: (2,-7),(-3,-5),pair(0,-3),(2,1). Final -f(5)=-2 implies f(5)=2. Other coordinate/sign choices fail.
+17.2/4	P(1,1);P(0,1);P(2,1);P(3,1)	f(-x) reflects across y-axis; -f(x) across x-axis; y-reflection is f(-x); invariance about y-axis means f(-x)=f(x). Other identities would impose oddness,zero,or identity without support.
+17.2/5	P(0,6-4);P(2,-1+5);P(3,3+7);P(1,9-2)	Coordinates: f(x+4) at(2,-2); f(x-5) at(4,8); reverse f(x+7) gives original(10,4); root9 moves to7 under f(x+2). Output unchanged, so other choices fail.
+17.2/6	P(3,2);P(1,-1);P(2,3);P(0,2)	Inspect every plotted vertex/slope: invertedV vertex(0,2) gives -|x|+2; invertedV vertex(0,-1) gives -|x|-1; uprightV vertex(3,0) gives |x-3|; vertex0 slopes±2 gives2|x|. Other options disagree in vertex or orientation/slope.
+17.2/7	P(2,1);P(0,1);P(3,1);P(1,2*4-3)	Input shift/output arithmetic gives(3,-1),(-3,9); reverse g(6)=-2=f(2)+1 gives f(2)=-3; vertical scaling sends(5,4) to(5,5). Check both coordinates excludes alternatives.
+17.2/8	P(1,0);P(2,0);P(0,0);P(3,0)	Multiplication by a nonzero scalar preserves zeros exactly; nonzero heights change. Thus x-intercepts stay; root6 stays; roots-2,7 stay; point(4,0) stays. Neither horizontal scaling nor all-points invariance follows.
+17.2/10	P(2,1);P(0,1);P(1,1);P(3,1)	Vertex of (x-h)²+k is(h,k): (-3,-4),(5,2); vertex(-2,6) means(x+2)²+6; f(x+h)+k vertex(-h,k)=(3,-5) means h=-3,k=-5. Other signs excluded.
+17.3/1	P(2,1);P(0,1);P(1,1);P(3,1)	Inverse swaps coordinates: (11,3),(-4,6),(9,-2),(-1,5); signs unchanged, so other options fail.
+17.3/2	P(3,1);P(0,1);P(1,1);P(2,1)	Inverse interchanges input and output, mapping(a,b) to(b,a); reflection in y=x. Neither axis-reflection nor origin rotation implements this swap in general.
+17.3/3/3	P(2,5)	h inverse at5 equals12 means h(12)=5, not12,1/5,60.
+17.3/3/4	P(3,18)	f maps18 to45, so inverse maps45 back to18, not45,1/45,63.
+17.3/4	P(1,1);P(0,1);P(2,1);P(3,1)	Nonzero-slope linear function injective; square/absolute/constant not. Cube strictly increasing and injective, others not. Fourth power repeats at±1 unlike3 increasing lines. Last slope-2 line injective; horizontal/downward parabola not; circle not even a function.
+17.3/6	P(1,1);P(0,1);P(2,1);P(3,1)	Compose candidate with itself:10-(10-x)=x, whereas shifts/scales/square fail; 6/(6/x)=x on nonzero domain; -(-x+4)+4=x versus slopes9 or1/16 for other options. f∘f=id implies graph symmetric under coordinate swap, not necessarily a line or y-axis symmetric.
+17.3/7	P(3,1);P(0,1);P(1,1);P(2,1)	Horizontal-line failure means distinct inputs share output and inverse is not single-valued; horizontal-line success gives injectivity; points(1,6),(9,6) preclude inverse but preserve functionhood; vertical-line failure means not a function and says nothing necessary about horizontal-line failure.
+17.3/9	P(0,8/(3-1));P(1,12/(5-1));P(2,4/(1-1/2));P(3,10/(6-1))	Increasing affine f and inverse meet only at fixed point f(x)=x; coordinates respectively(4,4),(3,3),(8,8),(2,2). Final inverse(x+10)/6 implies f=6x-10. All alternatives disagree.
+17.3/10	P(1,1);P(0,1);P(2,1);P(3,1)	Keep a single monotone arm: |x|-1 with x>=0; (x-4)² with x>=4; |x+3| with x<=-3. Other proposed restrictions retain symmetric equal-output inputs. Last domain[-3,3] still contains±2 both mapping9; restricted relation remains a function, not invertible.
+challenge/1	P(1,1);P(2,1);P(1,1);P(0,1)	Coordinate transformations yield(-2+3,5+1)=(1,6);(-7-4,6-9)=(-11,-3); reverse(2-6,-5-8)=(-4,-13);(5+4,-(-3)+1)=(9,4). Other choices have wrong sign/direction/output.
+challenge/2	P(2,1);P(1,1);P(2,1);P(3,1)	Input reflection gives(-3,7); reflect and add6 gives(8,9); reverse at x=-4 gives original(4,12+5)=(4,17); solve -x+2=5 gives x=-3,y=8. Other options fail these equations.
+challenge/3/1	P(3,1)	|x|=0 has exactly one solution0; neither0 nor2 norinfinitely many.
+challenge/3/2	P(0,0)	|x+3|=-2 impossible, so0 solutions.
+challenge/3/4	P(2,-4)	Horizontal level intersects |x|-4 exactly once only at minimum-4; higher levels twice, lower none.
+challenge/4	P(3,1);P(1,1);P(3,(-1-7)/(5-3)**2);P(0,1)	Negative quadratic coefficient opens down: vertex(2,5),then(-6,-4); substitution -1=4a+7 gives a=-2; -(x-7)²-2<=-2 with equality only x=7. All vertex/orientation alternatives checked.
+challenge/5/4	P(1,1)	Range sqrt(x)+3 is[3,infinity). Inverse solves u=(y-3)² with y>=3. Other choices have wrong algebra or erroneously extend inverse domain to all reals.
+challenge/6	P(1,1);P(2,1);P(3,1);P(0,5*6-2)	Vertical transforms preserve input: (4,2*2-3)=(4,1);(-3,4*5-11)=(-3,9); reverse(-2,(13-4)/3)=(-2,3);g(9)=5f(1)-2=28. Other coordinates or values fail.
+challenge/7	P(2,1);P(3,1);P(1,1);P(1,1)	Repeated outputs9,4 forbid inverse, not functionhood. Vertical +7 preserves collision g(2)=g(-5)=6. Last duplicate output3 at-4,2: removing2 repairs; removing-1 or5 does not; no-removal fails.
+challenge/8	P(0,1);P(3,1);P(0,1);P(2,1)	At x=0 outputs are-1+4=3; f(3)-2=-10; (16-1)/3=5; f(0)-4=-13. Every y-intercept must have x-coordinate0, and other outputs differ.
+challenge/9	P(2,1);P(1,1);P(3,1);P(2,1)	Nonzero vertical factor preserves roots-1,5. Shift right5 sends-8,3 to-3,8. Factor-5 preserves roots2,-9 and multiplies y-intercept-4 to20. Only -6f(x) guarantees same zero set for arbitrary f, not vertical/horizontal shifts or input scaling.
+challenge/10	P(0,5);P(1,-3);P(2,2);P(3,-2+6)	Solve g(input)=target: f(5)+2=10; f(-3)-7=5; target4 requires f=0 at2; f inverse7=-2 and inputshift6 means g inverse7=4. Other values fail.
+challenge/11/3	P(2,4)	Polyline heights3,-3,3,-3,0 straddle-1 on all4 consecutive segments, no vertex equals-1. Exactly4 crossings, excludes2,3,5.
+challenge/12/2	P(3,1)	From y=12/x obtain x=12/y with both nonzero. Inverse12/x, not x/12,12x,-12/x.
+challenge/12/3	P(2,1)	f(f(x))=8-(8-x)=x; inverse is same full line8-x, so infinitely many shared points, not only fixed point(4,4).

@@ -78,7 +78,7 @@ export default {
       topic: 'geometry',
     },
     {
-      q: 'The spinner shown is divided into four sectors whose central angles are $120^\\circ$ (red), $90^\\circ$ (blue), $60^\\circ$ (green), and $90^\\circ$ (yellow). When the arrow is spun once, what is the probability that it stops on red or yellow?',
+      q: 'The spinner shown is divided into four sectors whose central angles are $120^\\circ$ (red), $90^\\circ$ (blue), $60^\\circ$ (green), and $90^\\circ$ (yellow). The arrow is equally likely to stop at any angle. When it is spun once, what is the probability that it stops on red or yellow?',
       fig: {
         view: [-2.7, -2.7, 2.7, 2.7],
         elems: [

@@ -1,0 +1,38 @@
+20.2/1/4	Abs(-44)	Distance from zero is absolute value.
+20.2/4/4	P(3,FiniteSet(-8+24,-8-24))	Step24 in both directions from-8, yielding16,-32. Only fourth option contains both and no extraneous values.
+20.2/6	P(2,6);P(0,12);P(1,16);P(3,12)	Distance from centre c is |x-c|; compare each equation's centre and radius. Centres2,9,-4,28 and distances6,12,16,12.
+20.2/7/4	P(3,24)	Symmetric strict interval(-24,24) is exactly |x|<24; non-strict or reversed alternatives differ at boundary or outside.
+20.2/9/4	P(2,(16+44)/2)	Unique equidistant real point is midpoint30; other numeric points and nonexistence alternative false.
+20.3/7	P(2,Interval(5,6,False,True));P(1,Interval(9,10,False,True));P(3,Interval(6,7,True,False));P(0,Interval(-4,-3,False,True))	Floor m means m<=x<m+1; ceiling m means m-1<x<=m. Check all endpoint inclusions explicitly.
+20.3/9	4*ceiling(63/10);6*ceiling(34/10);8*ceiling(56/10);9*ceiling(26/10)	Each started billing unit incurs full charge, so multiply rate by exact ceiling of use.
+20.3/10	P(0,2);P(1,5);P(2,8);P(3,9)	Integer solution intervals are6..7,10..14,17..24,-18..-10; finite counts2,5,8,9. Ceiling/floor endpoint distinctions preserved.
+20.4/4	12/3;-28/4;22/2;-30/5	Exclude unique zero of original denominator; numerator zero is not a restriction.
+20.4/5	x+2;x+6;x-3;x-7	Factor difference of squares and cancel permitted nonzero factor; explicit excluded value in stem retained.
+20.4/6	P(0,x+3);P(2,x+11);P(1,x);P(3,2)	Cancel factor only on original domain, excluding3,11,-6,-9 respectively. Other statements incorrectly restore hole or assign value there.
+20.4/8	P(0,6/(2001/1000-2));P(1,10/(5999/1000-6));P(2,9/(-2999/1000+3));P(3,30)	Outputs at named nearby points6000,-10000,9000 give signs. Last magnitude30/|x+6| diverges on either side as distance to-6 tends0; no two-sided signed limit claimed.
+20.5/1	1+2;2+6;3*(-5)+4;10-5	Inputs lie strictly in first branch; substitute only into that branch.
+20.5/2	3*3-2;4*5-3;(-2)**2+1;2*8	Input equals split boundary, belonging to >= second branch in each version.
+20.5/3	3*5-2;4*8-3;3**2+1;2*11	Inputs are above boundary and use second branch.
+20.5/4	P(3,Abs(x));P(2,Abs(x-5));P(0,Abs(x+2));P(1,Abs(3*x))	Positive inner expression retained, negative one negated; correct breakpoints0,5,-2,0. All other rules fail at a test point within wrong-sign interval.
+20.5/5	2**2;5**2-1;(-2)**2+2;3*(-5)+1	Equality belongs to first <= branch; substitute there, not other branch.
+20.5/6	7;5;11;6	Read threshold inclusions: age10 uses>=10 rate7; age12 uses<=12 rate5; age8 uses>=8 rate11; mass2 uses<=2 rate6.
+20.5/7	P(2,FiniteSet(4));P(1,FiniteSet(7));P(3,FiniteSet(-6));P(0,FiniteSet(-1,2))	Solve branches and filter: roots(5 rejected,4 accepted),(5 rejected,7 accepted),(-6 accepted,-5 rejected),(-1 and2 both accepted). Include exact boundary only where branch allows.
+20.5/8	25/10+(5-1)*15/10;7+(5-1)*4;6+(6-2)*3;12+(180-100)*20/100	Initial allowance charged once, subsequent units alone incur additional rate.
+20.5/9	P(3,FiniteSet(3));P(1,FiniteSet(8));P(0,FiniteSet(-5,20));P(2,FiniteSet(-6))	Branch-filtered solutions:4 rejected and+3 retained;54 rejected and+8 retained;-5 and20 retained with+5 rejected;both +/-4 fail<=-8 while-6 passes>-8.
+20.5/10	2;3;1;0	Complete branch candidate sets: base{-sqrt2,2};r2{-sqrt3,+sqrt3,3};r3{1} since both square roots fail<=-2;r4 empty since +/-2 fail x<-2 and-3 fails x>=-2.
+challenge/2	P(1,3);P(2,10);P(0,-40);P(3,25)	|u|=-u iff u<=0, |u|=u iff u>=0. Resulting complete sets x<=3,x>=10,x<=-40,x<=25.
+challenge/3	P(0,Interval(-4,-3,False,True));P(3,Interval(-7,-6,False,True));P(1,Interval(-6,-5,True,False));P(2,Interval(-1,0,True,False))	Apply floor/ceiling interval definitions even for negative values; all boundary exclusions checked.
+challenge/7	P(2,3+1);P(0,20+5);P(3,30-10);P(1,2*10+3)	Factored expressions evaluate to4,25,20,23 at given valid inputs, while original denominators vanish at1,5,-10,3/2. All compound statements checked.
+challenge/8	5*ceiling(2+20/60);20*ceiling(4+10/60);6*ceiling(50/24);5*ceiling((60+50)/20)	Convert durations to billing units then round upward; final units are20 minutes, not hours.
+challenge/9	P(1,Interval(7/2,8/2,False,True));P(0,Interval(30/4,31/4,False,True));P(3,Interval(6*5,7*5,False,True));P(2,Interval(14/2,15/2,True,False))	Undo positive scaling on floor/ceiling intervals while preserving inclusion of correct endpoint.
+challenge/12	(2*(-3)+1)+sqrt(9);(Abs(-20)+10)+floor(15/2);sqrt(4+60)+(2*40+5);(5-4*(-5))-ceiling(-15/10)	Select branches independently for both inputs, preserving equality condition and outer addition/subtraction.
+worksheet/1/3	I('le',98/7)	Real square root requires98-7t>=0, hence t<=14; negative divisor reverses sign.
+worksheet/1/4	I('ge',-26/4)	Real square root requires4x+26>=0, hence x>=-13/2.
+worksheet/2/3	A(13,35,22,-48)	Equation|x-(-13)|=35; both values-13+35 and-13-35 satisfy it. Answer repaired to include equation as requested, in addition to both solutions.
+worksheet/3/3	floor(-126/10)+ceiling(-126/10)	Floor-13 and ceiling-12 sum-25.
+worksheet/4/3	(13+26)/(13-7)	Substitute13, confirm nonzero denominator6, quotient39/6.
+worksheet/5	V(2+7,4*(-1));V(7**2,5*3-1);V(5*11+21,3*14);V((-3)**2+7,2*7+13)	Validate both outputs in specified order; boundary inputs select inclusive branch and group pricing uses per-person rates plus fixed fee only where stated.
+worksheet/6/3	(13**2+7)/2	Square r13 gives2p-7=169, so pressure88; radicand nonnegative and positive root13.
+worksheet/7/4	16	Equation sqrt(x+84)=x-6 requires x>=6; squaring gives(x-16)(x+3)=0, only16 survives. Direct substitution10=10.
+worksheet/8/3	V(11,-6)	Solve3n+1=n+23 and-(3n+1)=n+23 with sign constraints. Solutions11 and-6 give nonnegative RHS34 and17 and satisfy original absolute-value equation.
+worksheet/9	F(3,6,8);F(12,84,95);F(14,-28,-15);F(18,73,90)	Floor x/d=m yields dm<=x<d(m+1); ceiling x/18=5 yields72<x<=90. Check count and every endpoint of displayed integer enumeration.

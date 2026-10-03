@@ -1,0 +1,182 @@
+// Original mixed-topic practice. Skills are metadata, never hints in the question.
+export default [
+  {
+    id: 'transfer-1', title: 'New Connections',
+    description: 'Twelve new situations, from a gentle start to two longer challenges.',
+    problems: [
+      {
+        q: 'The chart shows how many books four friends read. How many more books must Dani read to make the mean for the four friends equal to $7$? No one else reads any more books.',
+        fig: { view: [-1, -1.5, 9, 10], elems: [
+          { t: 'seg', a: [0, 0], b: [8, 0] },
+          ...[[1, 5, 'Ari'], [3, 8, 'Bo'], [5, 6, 'Cy'], [7, 3, 'Dani']].flatMap(([x, h, name]) => [
+            { t: 'poly', pts: [[x - 0.5, 0], [x + 0.5, 0], [x + 0.5, h], [x - 0.5, h]] },
+            { t: 'label', p: [x, h + 0.6], text: String(h) },
+            { t: 'label', p: [x, -0.8], text: name },
+          ]),
+        ] },
+        choices: ['$4$', '$5$', '$6$', '$7$'], answer: 2,
+        solution: 'A mean of $7$ for four people requires $4(7)=28$ books. The chart gives $5+8+6+3=22$ books so far. Dani must add $28-22=6$ books; her final total will be $9$.',
+        level: 2, skill: 'read-data', topic: 'statistics',
+      },
+      {
+        q: 'A solid rectangular block is built from unit cubes. Its bottom layer has $4$ rows of $5$ cubes, and it has $3$ complete layers. One entire vertical column of cubes is removed, from top to bottom. How many cubes remain?',
+        choices: ['$17$', '$40$', '$57$', '$59$'], answer: 2,
+        solution: 'Each layer has $4(5)=20$ cubes, giving $60$ cubes in all. A vertical column contains one cube from each of the three layers. Removing its $3$ cubes leaves $57$.',
+        level: 2, skill: 'spatial', topic: 'geometry',
+      },
+      {
+        q: 'A ribbon is cut into two pieces in the ratio $3:5$. The longer piece is $18$ centimeters longer than the shorter piece. How long was the ribbon before it was cut?',
+        choices: ['$48$ cm', '$54$ cm', '$72$ cm', '$144$ cm'], answer: 2,
+        solution: 'The difference is $5-3=2$ equal ratio parts, so each part is $18/2=9$ centimeters. The whole ribbon has $3+5=8$ parts and is $8(9)=72$ centimeters long.',
+        level: 2, skill: 'method-choice', topic: 'ratios',
+      },
+      {
+        q: 'Stickers are sold only in unopened packs of $8$. A teacher needs at least $45$ stickers and wants to buy as few packs as possible. How many stickers will be left after giving out exactly $45$?',
+        choices: ['$3$', '$5$', '$6$', '$8$'], answer: 0,
+        solution: 'Five packs give only $40$ stickers, so the smallest possible purchase is six packs. They contain $48$ stickers, leaving $48-45=3$.',
+        level: 2, skill: 'discrete', topic: 'algebra',
+      },
+      {
+        q: 'Two rectangular paper strips, each $10$ centimeters long and $4$ centimeters wide, cross at right angles. Their overlap is exactly a $4$ by $4$ square. What area of the table is covered by at least one strip?',
+        choices: ['$56$ square cm', '$64$ square cm', '$80$ square cm', '$96$ square cm'], answer: 1,
+        solution: 'The two strip areas total $40+40=80$, but this counts the overlap twice. Subtract its area once: $80-4(4)=64$ square centimeters.',
+        level: 3, skill: 'spatial', topic: 'geometry',
+      },
+      {
+        q: 'A bicycle rental costs $6$ plus $3$ for each hour under Plan A, or $14$ plus $2$ for each hour under Plan B. Rentals last a positive whole number of hours. What is the shortest rental for which Plan B costs less than Plan A?',
+        choices: ['$7$ hours', '$8$ hours', '$9$ hours', '$10$ hours'], answer: 2,
+        solution: 'Plan B starts $8$ dollars higher but saves $1$ per hour. The plans tie at eight hours. Plan B first becomes cheaper at nine hours: $32$ dollars instead of $33$.',
+        level: 3, skill: 'discrete', topic: 'algebra',
+      },
+      {
+        q: 'A rectangular garden has positive whole-number side lengths in meters and perimeter $30$ meters. What is the greatest possible area?',
+        choices: ['$49$ square m', '$54$ square m', '$56$ square m', '$60$ square m'], answer: 2,
+        solution: 'The two side lengths sum to $15$. The possible unordered pairs are $(1,14),(2,13),(3,12),(4,11),(5,10),(6,9),(7,8)$. Their products are $14,26,36,44,50,54,56$, so the maximum is $56$.',
+        level: 3, skill: 'optimization', topic: 'geometry',
+      },
+      {
+        q: 'A club recorded its members\' scores: $2$ members scored $4$, $5$ members scored $6$, and $3$ members scored $8$. After one more member\'s score is included, the mean is exactly $6$. What was the additional score?',
+        choices: ['$2$', '$4$', '$6$', '$8$'], answer: 1,
+        solution: 'There were $2+5+3=10$ members and $2(4)+5(6)+3(8)=62$ points. Eleven members with mean $6$ need $66$ points, so the additional score was $66-62=4$. Averaging the three score labels would ignore their different frequencies.',
+        level: 3, skill: 'read-data', topic: 'statistics',
+      },
+      {
+        q: 'Mira spends one third of her money on a book and then one fourth of the money that remains on lunch. She has $18$ dollars left. How much money did she have at the start?',
+        choices: ['$30$', '$36$', '$42$', '$48$'], answer: 1,
+        solution: 'After the book she has $2/3$ of the original amount. After lunch she keeps $3/4$ of that, or $(2/3)(3/4)=1/2$ of the original amount. Her original amount was therefore $2(18)=36$ dollars.',
+        level: 3, skill: 'method-choice', topic: 'ratios',
+      },
+      {
+        q: 'A rectangular sheet is $12$ centimeters by $8$ centimeters. A square of side $2$ centimeters is cut from each corner. The sides are folded upward along straight lines to form an open box, without overlap. What is the volume of the box?',
+        choices: ['$32$ cubic cm', '$64$ cubic cm', '$96$ cubic cm', '$192$ cubic cm'], answer: 1,
+        solution: 'Folding makes the height $2$. Two corner cuts reduce each base dimension: the base is $(12-4)$ by $(8-4)$, or $8$ by $4$. The volume is $8(4)(2)=64$ cubic centimeters.',
+        level: 3, skill: 'spatial', topic: 'geometry',
+      },
+      {
+        q: 'A workshop has $40$ red beads and $40$ blue beads. A small ornament uses $2$ red and $3$ blue beads and sells for $5$ dollars. A large ornament uses $3$ red and $2$ blue beads and sells for $8$ dollars. Whole ornaments must be made, unused beads are allowed, and every ornament made is sold. What is the greatest total sales amount?',
+        choices: ['$104$', '$105$', '$106$', '$108$'], answer: 2,
+        solution: 'Let $s$ and $l$ be the numbers of small and large ornaments. Red beads give $2s+3l\\le40$. Twice the sales amount satisfies $10s+16l=5(2s+3l)+l\\le200+l$. Also $l\\le13$. Thus sales are at most $106.5$ dollars, so the whole-dollar total is at most $106$. This is achievable with $s=2,l=12$: they use $40$ red and $30$ blue beads and sell for $10+96=106$ dollars.',
+        level: 4, skill: 'optimization', topic: 'algebra',
+      },
+      {
+        q: 'In trapezoid $ABCD$, $AB$ is parallel to $CD$, $AB=6$, and $CD=12$. Diagonals $AC$ and $BD$ meet at $O$. Triangle $AOB$ has area $8$. What is the area of the entire trapezoid?',
+        fig: { view: [-1, -1, 13, 9], elems: [
+          { t: 'poly', pts: [[3, 8], [9, 8], [12, 0], [0, 0]], fill: false },
+          { t: 'seg', a: [3, 8], b: [12, 0] }, { t: 'seg', a: [9, 8], b: [0, 0] },
+          { t: 'point', p: [3, 8], label: 'A', dx: -12 }, { t: 'point', p: [9, 8], label: 'B' },
+          { t: 'point', p: [12, 0], label: 'C' }, { t: 'point', p: [0, 0], label: 'D', dx: -12 },
+          { t: 'point', p: [6, 16 / 3], label: 'O', dx: 12, dy: 3 },
+          { t: 'label', p: [6, 8.7], text: '6' }, { t: 'label', p: [6, -0.7], text: '12' },
+        ] },
+        choices: ['$48$', '$56$', '$64$', '$72$'], answer: 3,
+        solution: 'Triangles $AOB$ and $COD$ are similar: their vertical angles at $O$ agree, and their other matching angles agree because the bases are parallel. Their corresponding lengths have ratio $1:2$. If the height from $O$ to $AB$ is $h$, the height from $O$ to $CD$ is $2h$. Since $6h/2=8$, we have $h=8/3$, and the trapezoid height is $3h=8$. Its area is $(6+12)(8)/2=72$.',
+        level: 4, skill: 'method-choice', topic: 'geometry',
+      },
+    ],
+  },
+  {
+    id: 'transfer-2', title: 'A Fresh Perspective',
+    description: 'Twelve more situations to work through without chapter hints.',
+    problems: [
+      {
+        q: 'A water tank contained $18$ liters at noon, $30$ liters at 1 p.m., $26$ liters at 2 p.m., and $41$ liters at 3 p.m. Between which two consecutive readings was the increase greatest?',
+        choices: ['Noon to 1 p.m.', '1 p.m. to 2 p.m.', '2 p.m. to 3 p.m.', 'The two increases were equal.'], answer: 2,
+        solution: 'The successive changes are $30-18=12$, $26-30=-4$, and $41-26=15$ liters. The greatest increase is $15$ liters, between 2 p.m. and 3 p.m.',
+        level: 2, skill: 'read-data', topic: 'statistics',
+      },
+      {
+        q: 'A solid cube of side length $3$ centimeters is painted on all six outside faces, then cut into $27$ unit cubes. How many unit cubes have paint on exactly three faces?',
+        choices: ['$6$', '$8$', '$12$', '$26$'], answer: 1,
+        solution: 'Exactly three painted faces meet only at an original corner. A cube has eight corners, each belonging to a different unit cube. The answer is $8$.',
+        level: 2, skill: 'spatial', topic: 'geometry',
+      },
+      {
+        q: 'Two identical notebooks and a pen cost $11$ dollars. The same notebook and pen together cost $7$ dollars. How much does the pen cost?',
+        choices: ['$2$', '$3$', '$4$', '$5$'], answer: 1,
+        solution: 'Removing one notebook-and-pen purchase from the larger purchase leaves one notebook costing $11-7=4$ dollars. The pen therefore costs $7-4=3$ dollars.',
+        level: 2, skill: 'method-choice', topic: 'algebra',
+      },
+      {
+        q: 'A ferry holds at most $9$ passengers per crossing. There are $50$ passengers waiting, and every passenger must cross once. What is the smallest possible number of passenger-carrying crossings needed?',
+        choices: ['$5$', '$6$', '$7$', '$9$'], answer: 1,
+        solution: 'Five crossings can carry at most $45$ passengers, which is not enough. Six crossings can carry all $50$, for example five groups of nine and one group of five. The minimum is $6$.',
+        level: 2, skill: 'discrete', topic: 'algebra',
+      },
+      {
+        q: 'A square is made from $5$ rows of $5$ unit squares. Every unit square touching the outside boundary is shaded. What fraction of the large square is shaded?',
+        choices: ['$\\frac{9}{25}$', '$\\frac{16}{25}$', '$\\frac{20}{25}$', '$\\frac{24}{25}$'], answer: 1,
+        solution: 'The unshaded interior is a $3$ by $3$ square, with area $9$. The shaded area is $25-9=16$, so the shaded fraction is $16/25$. Adding the four edge lengths would count each corner twice.',
+        level: 3, skill: 'spatial', topic: 'geometry',
+      },
+      {
+        q: 'A shop sells apples only in bags of $4$ for $3$ dollars or bags of $7$ for $5$ dollars. You need at least $18$ apples. What is the least possible cost?',
+        choices: ['$12$', '$13$', '$14$', '$15$'], answer: 1,
+        solution: 'Two seven-apple bags and one four-apple bag give $18$ apples for $13$ dollars. To rule out anything cheaper, consider the number of seven-apple bags: with none, at least five four-apple bags cost $15$; with one, at least three four-apple bags cost $14$; with two, at least one four-apple bag costs $13$; with three or more, the cost is already at least $15$.',
+        level: 3, skill: 'optimization', topic: 'algebra',
+      },
+      {
+        q: 'On a map, town $A$ is $6$ kilometers due west of town $B$, and town $C$ is $8$ kilometers due north of $B$. A cyclist travels from $A$ to $B$ to $C$. How much shorter is the straight-line distance from $A$ to $C$ than the cyclist\'s route?',
+        choices: ['$2$ km', '$4$ km', '$10$ km', '$14$ km'], answer: 1,
+        solution: 'The route is $6+8=14$ kilometers. The straight-line route is the hypotenuse of a right triangle, so it is $\\sqrt{6^2+8^2}=10$ kilometers. The saving is $14-10=4$ kilometers.',
+        level: 3, skill: 'method-choice', topic: 'geometry',
+      },
+      {
+        q: 'A traveler moves along a straight road on one side of home. The graph shows distance from home throughout the trip, with straight segments between the plotted points. During which labeled one-hour interval did the traveler move fastest?',
+        fig: { view: [-0.8, -1.5, 4.6, 9.5], w: 260, elems: [
+          { t: 'seg', a: [0, 0], b: [3.7, 0] }, { t: 'seg', a: [0, 0], b: [0, 8.6] },
+          { t: 'poly', pts: [[0, 0], [1, 2], [2, 8], [3, 5]], closed: false },
+          ...[[0, 0], [1, 2], [2, 8], [3, 5]].map(([x, y]) => ({ t: 'point', p: [x, y], label: `(${x}, ${y})`, dx: 10, dy: -7 })),
+          { t: 'label', p: [1.8, -1], text: 'Time (hours)' },
+          { t: 'label', p: [1.8, 9.1], text: 'Distance from home (km)' },
+        ] },
+        choices: ['Hour 0 to hour 1', 'Hour 1 to hour 2', 'Hour 2 to hour 3', 'All three intervals have the same speed.'], answer: 1,
+        solution: 'Over the three one-hour intervals, the changes in distance are $2$, $6$, and $-3$ kilometers. The corresponding speeds along this straight out-and-back route are $2$, $6$, and $3$ kilometers per hour. The fastest interval is hour 1 to hour 2; a decreasing distance means travel toward home, not a negative speed.',
+        level: 3, skill: 'read-data', topic: 'algebra',
+      },
+      {
+        q: 'An aquarium is $40$ centimeters long and $25$ centimeters wide, with vertical sides. A solid object is placed entirely under the water, without spilling any water. The water level rises by $3$ centimeters. What is the volume of the object?',
+        choices: ['$120$ cubic cm', '$195$ cubic cm', '$1000$ cubic cm', '$3000$ cubic cm'], answer: 3,
+        solution: 'The object displaces its own volume of water. The extra occupied volume is the aquarium\'s base area times the rise: $40(25)(3)=3000$ cubic centimeters.',
+        level: 3, skill: 'method-choice', topic: 'geometry',
+      },
+      {
+        q: 'A game awards $7$ points for each win and subtracts $2$ points for each loss. There are no ties. After exactly $12$ games, Sam has $39$ points. How many games did Sam win?',
+        choices: ['$5$', '$6$', '$7$', '$9$'], answer: 2,
+        solution: 'Twelve losses would give $-24$ points. Changing one loss into one win raises the total by $7-(-2)=9$ points. Sam needs an increase of $39-(-24)=63$ points, so he won $63/9=7$ games. Check: $7(7)-2(5)=39$.',
+        level: 3, skill: 'discrete', topic: 'algebra',
+      },
+      {
+        q: 'A rectangle is $12$ centimeters long and $8$ centimeters wide. A point $P$ lies on one of its $12$-centimeter sides. What is the smallest possible sum of the distances from $P$ to the two corners on the opposite $12$-centimeter side?',
+        choices: ['$16$ cm', '$20$ cm', '$24$ cm', '$28$ cm'], answer: 1,
+        solution: 'Reflect one of the opposite corners across the side containing $P$. Its distance to $P$ stays the same. The two requested distances now form a broken route between two fixed points whose horizontal separation is $12$ and vertical separation is $16$. Any such route is at least the straight-line distance $\\sqrt{12^2+16^2}=20$. That straight segment meets the side at its midpoint, so choosing that midpoint for $P$ attains $20$.',
+        level: 4, skill: 'optimization', topic: 'geometry',
+      },
+      {
+        q: 'A rectangular garden has positive whole-number side lengths in meters. Its area is greater than $80$ square meters but less than $100$ square meters, and its perimeter is a multiple of $10$ meters. Among gardens with the smallest possible perimeter, how many different pairs of side lengths are possible? Rotating a garden does not make a new pair.',
+        choices: ['$2$', '$3$', '$4$', '$5$'], answer: 2,
+        solution: 'A perimeter below $40$ that is a multiple of $10$ is at most $30$. For such a rectangle, the side lengths sum to at most $15$, giving area at most $7(8)=56$, too small. At perimeter $40$, the sides sum to $20$. The unordered pairs with area strictly between $80$ and $100$ are $(6,14),(7,13),(8,12),(9,11)$, with areas $84,91,96,99$. The pair $(5,15)$ has area $75$, all less balanced pairs have smaller area, and $(10,10)$ has area $100$, which is excluded. Thus the minimum perimeter is $40$ and there are four pairs.',
+        level: 4, skill: 'discrete', topic: 'geometry',
+      },
+    ],
+  },
+]

@@ -74,7 +74,7 @@ const worksheet = [
     },
     {
       q: 'A number $x$ sits exactly $35$ units from $-13$ on the number line. Write an absolute-value equation for $x$ and find both possible values.',
-      answer: '$x = 22$ or $x = -48$',
+      answer: '$|x + 13| = 35$; $x = 22$ or $x = -48$',
       solution:
         'Distance between $x$ and $a$ is $|x - a|$, and here $a = -13$, so the equation is $|x - (-13)| = 35$, that is, $|x + 13| = 35$. Step $35$ each way from $-13$: right gives $-13 + 35 = 22$, left gives $-13 - 35 = -48$. Second check by the case split: $x + 13 = 35$ gives $x = 22$, and $x + 13 = -35$ gives $x = -48$ — same pair, no number line required. Substituting confirms both: $|22 + 13| = 35$ ✓ and $|-48 + 13| = |-35| = 35$ ✓. Two traps. THE SIGN INSIDE writes $|x - 13| = 35$ ✗ — that measures distance from $+13$ and lands on $48$ and $-22$, a completely different pair; distance from a NEGATIVE point turns into a plus sign inside the bars. THE FORGOTTEN NEGATIVE CASE reports only $22$ ✗, though the point $48$ units to the left is just as far from $-13$.',
     },

@@ -185,7 +185,7 @@ const s41 = [
   // s5 — all-right-angle rectilinear shape; perimeter by the slide trick.
   [
     {
-      q: 'Every angle of the terraced lawn shown is a right angle, and only the overall width and height are labeled. What is the perimeter of the lawn?',
+      q: 'In the terraced lawn shown, each pair of neighboring sides is perpendicular, and only the overall width and height are labeled. What is the perimeter of the lawn?',
       fig: {
         view: [-1.5, -1.5, 11.5, 8.5],
         elems: [
@@ -215,7 +215,7 @@ const s41 = [
         'Push each horizontal ledge up to the top and each vertical face out to the right: they reassemble the missing top and right of a $9 \\times 5$ rectangle, so the perimeter is $2(9 + 5) = 28$ ✓. Check a second, independent way by bookkeeping the walk itself: going once around, the total distance walked rightward must equal the total walked leftward (the walk comes home), and likewise up must equal down. The only rightward edge is the bottom, $9$, and the only downward edge is the left side, $5$, so the loop is $9 + 9 + 5 + 5 = 28$ ✓. (The choice $26$ is ASSUMING THE STEPS CUT THE WALK SHORT by a couple of units, which no right-angle staircase ever does ✗; $45$ is COMPUTING THE BOUNDING AREA, $9 \\times 5$ ✗; $14$ is WALKING ONLY HALF THE LOOP ✗.)',
     },
     {
-      q: 'Every angle in the floor plan shown is a right angle, and only the overall width and height are given. What is the perimeter of the floor plan?',
+      q: 'In the floor plan shown, each pair of neighboring sides is perpendicular, and only the overall width and height are given. What is the perimeter of the floor plan?',
       fig: {
         view: [-1.5, -1.5, 13.5, 10.5],
         elems: [
@@ -419,7 +419,7 @@ const s41 = [
   // s10 — staircase perimeter; the step count is a decoy.
   [
     {
-      q: 'Every angle in the five-step staircase shown is a right angle, and only the total width and total height are labeled. What is its perimeter?',
+      q: 'In the five-step staircase shown, each pair of neighboring sides is perpendicular, and only the total width and total height are labeled. What is its perimeter?',
       fig: {
         view: [-1.5, -1.5, 13.5, 9.5],
         elems: [
@@ -434,7 +434,7 @@ const s41 = [
         'Five steps or fifty — it makes no difference. Slide every tread up to the top and every riser out to the side: they rebuild the top and right of a $12 \\times 8$ bounding rectangle, so the perimeter is $2(12 + 8) = 40$ ✓. Check a second, independent way by bookkeeping the loop: walking once around, rightward travel must equal leftward travel and upward must equal downward, since the walk returns home. The only rightward edge is the bottom, $12$, and the only downward edge is the tall left side, $8$ — so the loop totals $12 + 12 + 8 + 8 = 40$ ✓, and the unlabeled steps never enter the ledger. (The choice $96$ is COMPUTING THE BOUNDING AREA, $12 \\times 8$ ✗; $20$ is WALKING ONLY HALF THE LOOP ✗; $36$ is ASSUMING THE STEPS CUT THE WALK SHORT ✗.)',
     },
     {
-      q: 'The three-step staircase profile shown descends from right to left, every angle is a right angle, and only the total width and total height are labeled. What is its perimeter?',
+      q: 'The three-step staircase profile shown descends from right to left, each pair of neighboring sides is perpendicular, and only the total width and total height are labeled. What is its perimeter?',
       fig: {
         view: [-1.5, -1.5, 10.5, 8.5],
         elems: [
@@ -449,7 +449,7 @@ const s41 = [
         'The staircase leans the other way, but the slide trick is ambidextrous: push each tread up to the top level and each riser out to the left, and the boundary rebuilds a $9 \\times 7$ rectangle. Perimeter: $2(9 + 7) = 32$ ✓. Check a second, independent way with the drawn steps, whose treads are $3$, $3$, $3$ and risers are $2$, $3$, $2$: the full walk is $9 + 7 + 3 + 2 + 3 + 3 + 3 + 2 = 32$ ✓ — the concrete tally matches the rectangle, and rearranging the steps could never change it. (The choice $63$ is COMPUTING THE BOUNDING AREA, $9 \\times 7$ ✗; $16$ is WALKING ONLY HALF THE LOOP, one width plus one height ✗; $30$ is ASSUMING THE STEPS CUT THE WALK SHORT ✗.)',
     },
     {
-      q: 'Every angle in the six-step staircase shown is a right angle. Only the total width and total height are labeled. What is the perimeter of the staircase?',
+      q: 'In the six-step staircase shown, each pair of neighboring sides is perpendicular. Only the total width and total height are labeled. What is the perimeter of the staircase?',
       fig: {
         view: [-2, -2, 15.5, 14.5],
         elems: [

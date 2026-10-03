@@ -116,7 +116,7 @@ const s151 = [
         'Factor: $x^2 - 36 = (x-6)(x+6)$, with roots $-6$ and $6$. A product is positive outside its roots and zero at them, and the $\\ge$ keeps the roots, so $x \\le -6$ or $x \\ge 6$. Test $x = -10$: $100 - 36 = 64 \\ge 0$ ✓. Check a second, independent way in the middle: $x = 0$ gives $-36$, which is not $\\ge 0$ ✗, so the middle is correctly excluded. (The choice $-6 \\le x \\le 6$ SWAPS BETWEEN AND OUTSIDE; the choice $x \\ge 6$ LOSES THE LEFT BRANCH, which is where all the negative solutions live; the choice $x \\ge -6$ wrongly accepts $x = 0$, which we just tested and rejected ✗.)',
     },
     {
-      q: 'A square photo has side length $s$ centimetres, and its area is at most $121$ square centimetres. Which describes every possible value of $s$?',
+      q: 'A square photo has side length $s$ centimetres, and its area is at most $121$ square centimetres. Which describes exactly all possible values of $s$?',
       choices: ['$0 < s \\le 11$', '$-11 \\le s \\le 11$', '$s \\le 11$', '$0 < s < 11$'],
       answer: 0,
       solution:
@@ -312,7 +312,7 @@ const s152 = [
   // p2 — the forbidden value: a zero denominator is never allowed.
   [
     {
-      q: 'Which value of $x$ can never belong to the solution set of $\\frac{x-7}{x+4} \\le 0$?',
+      q: 'Which value of $x$ is excluded because the fraction is undefined in $\\frac{x-7}{x+4} \\le 0$?',
       choices: ['$x = 7$', '$x = -4$', '$x = 4$', '$x = -7$'],
       answer: 1,
       solution:

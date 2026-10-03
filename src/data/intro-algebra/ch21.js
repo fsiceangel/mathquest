@@ -109,7 +109,7 @@ const s211 = {
       solution: 'The $n$th term is $12 + 7(n-1)$. We need $12 + 7(n-1) < 300$, so $7(n-1) < 288$, which means $n - 1 \\le 41$. The $42$nd term is $12 + 7 \\times 41 = 299$, still under $300$, but the $43$rd term is $306$. So $42$ terms qualify.',
     },
     {
-      q: 'Three consecutive terms of an arithmetic sequence add up to $51$, and the largest of them is $27$. What is the common difference?',
+      q: 'Three consecutive terms of an increasing arithmetic sequence add up to $51$, and the largest of them is $27$. What is the common difference?',
       choices: ['$5$', '$17$', '$7$', '$10$'],
       answer: 3,
       solution: 'Three consecutive terms average out to the middle one, so the middle term is $\\frac{51}{3} = 17$. The largest term is one step above the middle: $17 + d = 27$, so $d = 10$. Check: $7 + 17 + 27 = 51$.',

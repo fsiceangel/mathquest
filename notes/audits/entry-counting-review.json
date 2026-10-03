@@ -1,0 +1,155 @@
+{
+  "book": "intro-counting",
+  "candidateManifestSha256": "a94e66d95489d5d33d12b7a631c6593d521f0cf934111a7e1218a41e1b807d4f",
+  "reviewedGroups": 60,
+  "reviewedSlots": 193,
+  "reviewedVersions": 772,
+  "scope": "Conversion suitability review of every selected stem/version: single numeric answer, option dependency, units and expected input domain. Mathematical answer correctness relies on existing independently audited source; no new all-answer proof claim.",
+  "excludeSlots": [],
+  "includeSlots": [
+    {
+      "id": "intro-counting/5/5.2/1",
+      "reason": "All four versions ask one path count or grid width. Below refers to preserved diagram, not choices. Base figure present; later textual specifications complete."
+    },
+    {
+      "id": "intro-counting/5/5.2/4",
+      "reason": "All four versions ask one path count through/avoiding the named corner. Below refers to preserved diagram, not choices. Every graphical version has a figure."
+    }
+  ],
+  "rationalOverrides": [
+    {
+      "id": "intro-counting/7/7.2/4/1",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/7/7.2/4/2",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/11/11.2/3/1",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/11/11.2/3/3",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/11/11.2/8/3",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/11/11.3/2/1",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/11/11.3/5/1",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/11/11.3/5/4",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/11/11.4/10/1",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/11/challenge/5/1",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/11/challenge/5/2",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/11/challenge/5/4",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/15/challenge/10/3",
+      "kind": "rational",
+      "reason": "Probability/expectation admits fractional proposed answers; integer result must not leak through the input hint or reject valid numerical reasoning."
+    },
+    {
+      "id": "intro-counting/10/10.2/1/4",
+      "kind": "rational",
+      "reason": "Unknown continuous length/time/marked number/coefficient parameter is not specified to be an integer; integer key does not constrain allowed input type."
+    },
+    {
+      "id": "intro-counting/10/10.2/4/4",
+      "kind": "rational",
+      "reason": "Unknown continuous length/time/marked number/coefficient parameter is not specified to be an integer; integer key does not constrain allowed input type."
+    },
+    {
+      "id": "intro-counting/10/10.2/7/4",
+      "kind": "rational",
+      "reason": "Unknown continuous length/time/marked number/coefficient parameter is not specified to be an integer; integer key does not constrain allowed input type."
+    },
+    {
+      "id": "intro-counting/10/10.3/1/4",
+      "kind": "rational",
+      "reason": "Unknown continuous length/time/marked number/coefficient parameter is not specified to be an integer; integer key does not constrain allowed input type."
+    },
+    {
+      "id": "intro-counting/10/challenge/1/4",
+      "kind": "rational",
+      "reason": "Unknown continuous length/time/marked number/coefficient parameter is not specified to be an integer; integer key does not constrain allowed input type."
+    },
+    {
+      "id": "intro-counting/10/challenge/4/4",
+      "kind": "rational",
+      "reason": "Unknown continuous length/time/marked number/coefficient parameter is not specified to be an integer; integer key does not constrain allowed input type."
+    },
+    {
+      "id": "intro-counting/11/11.2/3/4",
+      "kind": "rational",
+      "reason": "Unknown continuous length/time/marked number/coefficient parameter is not specified to be an integer; integer key does not constrain allowed input type."
+    },
+    {
+      "id": "intro-counting/14/14.2/6/4",
+      "kind": "rational",
+      "reason": "Unknown continuous length/time/marked number/coefficient parameter is not specified to be an integer; integer key does not constrain allowed input type."
+    }
+  ],
+  "unitSuggestions": [
+    {
+      "id": "intro-counting/10/10.2/7/4",
+      "unit": "ft"
+    },
+    {
+      "id": "intro-counting/10/challenge/4/4",
+      "unit": "seconds"
+    },
+    {
+      "id": "intro-counting/13/13.5/7/3",
+      "unit": "dollars"
+    }
+  ],
+  "sectionGaps": [
+    {
+      "id": "intro-counting/5/5.2",
+      "selected": 1,
+      "target": 3,
+      "resolution": "Add reviewed slots 1 and 4 above; final coverage 3/10 slots across all four rounds."
+    }
+  ],
+  "notes": [
+    "No selected stem depends on hidden multiple-choice alternatives.",
+    "Keep symbolic binomial identities, sets of possible k, paired Pascal entries and polynomial-expression choices as MC; not suitable for single numeric input without rewriting.",
+    "Do not classify input domain solely by whether the keyed result happens to be an integer. Probability 0/1 and integral expected values need rational input.",
+    "Preserve figures when converting diagram questions.",
+    "Eight decimal places in 14.4 slot4 are deliberate exact decimal evaluation, supported by exact rational parser; no rounding tolerance is justified."
+  ]
+}

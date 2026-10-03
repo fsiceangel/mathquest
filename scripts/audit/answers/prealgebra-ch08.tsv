@@ -1,0 +1,53 @@
+# Independently calculated from all four stems; verbal option proofs explicitly reviewed.
+8/8.1/1	63/100;41/100;9/100;P(3,70/10)	Percent means hundredths. Final NOT choice is 7, whereas other three values equal 0.7.
+8/8.1/2	7/100;135/100;25/1000;P(3,8/100)	Divide percentage number by 100; final error moves decimal only one place. All explanations compared.
+8/8.1/3	35/100;8/100;14/10;125/1000	Exact decimal-percent equivalence.
+8/8.1/4	2/5;7/20;9/25;24/100	Exact fraction-percent equivalence, all numeric options compared.
+8/8.1/5	20*45/100;40*65/100;5*240/100;60*35/100	Multiply reference whole by fractional share.
+8/8.1/6	150*30/100;200*18/100;250*40/100;60*125/100	Percentages greater than 100 multiply by factors greater than one.
+8/8.1/7	18/24;14/35;27/45;28/40	Part divided by specified whole.
+8/8.1/8	21/(30/100);18/(40/100);9/(15/100);30/(12/100)	Solve fraction times unknown equals known part.
+8/8.1/9	8*25/100;6*50/100;16*25/100;18*200/100	Multiply percent by whole.
+8/8.1/10	(25/100)*64/(40/100);(50/100)*36/(60/100);(30/100)*50/(20/100);(25/100)*48/(75/100)	Equate the two percent products and divide by coefficient of unknown.
+8/8.2/1	50*(1-10/100);60*(1-30/100);24*(1-15/100);45*(1-40/100)	Sale price uses complement of discount.
+8/8.2/2	17/20;21/25;26/40;27/30	Correct count divided by total count.
+8/8.2/3	6*25/100;5*60/100;40*7/100;4*150/100	Tax amount is rate times pretax price.
+8/8.2/4	35*20/100;45*15/100;32*25/100;60*18/100	Tip amount is stated percentage of bill.
+8/8.2/5	5*1200/100;4*250/100;3*2500/100;15*800/100	Commission equals rate times sales total.
+8/8.2/6	80*(1-30/100);120*(1-40/100);90*(1-35/100);64*(1-25/100)	Pay complement of discount rate.
+8/8.2/7	200*30/100*50/100;400*25/100*20/100;200*40/100*30/100;300*60/100*10/100	Nested subsets multiply both fractions by total population.
+8/8.2/8	40/50;45/60;35/28;36/40	Use second person's or object's amount as reference denominator.
+8/8.2/9	150*(1-20/100)*(1+8/100);200*(1-25/100)*(1+6/100);80*(1-10/100)*(1+5/100);250*(1-40/100)*(1+8/100)	Apply tax to discounted price, using successive multipliers.
+8/8.2/10	60/100*25/100;40/100*30/100;50/100*20/100;80/100*25/100	Nested fraction of whole is product of subgroup fractions.
+8/8.3/1	(25-20)/20;(32-25)/25;(60-50)/50;(120-80)/80	Relative increase divides change by original amount.
+8/8.3/2	50*(1+20/100);80*(1+15/100);120*(1+35/100);24*(1+25/100)	Increase multiplier is one plus rate.
+8/8.3/3	80*(1-25/100);150*(1-40/100);65*(1-20/100);260*(1-15/100)	Decrease multiplier is one minus rate.
+8/8.3/4	1+35/100;1-18/100;C(106/100-1);1+7/100	Translate change to multiplier; third round translates multiplier back to signed percent change.
+8/8.3/5	(120-90)/120;(90-72)/90;(25-16)/25;(48-30)/48	Relative decrease uses initial amount as denominator.
+8/8.3/6	60*(1+15/100);40*(1+25/100);120*(1+5/100);28*(1+125/1000)	Multiply old ticket/pass price by one plus increase rate.
+8/8.3/7	48/(1-20/100);54/(1-25/100);33/(1-40/100);34/(1-15/100)	Recover original price by dividing by sale multiplier.
+8/8.3/8	C((1+50/100)*(1-50/100)-1);C((1+30/100)*(1-30/100)-1);C((1-10/100)*(1+25/100)-1);C((1+40/100)*(1-25/100)-1)	Compose percentage multipliers and subtract one; compare both magnitude and direction of all choices.
+8/8.3/9	1000*(1+10/100)**2;400*(1+20/100)**2;5000*(1+10/100)**2;200*(1-10/100)**2	Two successive years compound the multiplier twice.
+8/8.3/10	45/(1+25/100);84/(1+20/100);87/(1+50/100);2700/(1+8/100)	Divide final amount by increase multiplier.
+8/challenge/1	125/1000*96;375/1000*64;625/1000*48;875/1000*72	Exact rational multiplication of decimal percentages.
+8/challenge/2	36/(45/100);42/(35/100);51/(85/100);91/(130/100)	Unknown reference whole equals part divided by rate.
+8/challenge/3	120*(1-25/100)*(1-10/100);80*(1-30/100)*(1-20/100);200*(1-15/100)*(1-10/100);60*(1-40/100)*(1-25/100)	Successive discounts multiply their complements.
+8/challenge/4	40*(1-80/100);60*(1-85/100);25*(1-92/100);(50-6)/50	First three ask wrong count; fourth asks fraction correct.
+8/challenge/5	96/((1+20/100)*(1-20/100));182/((1+30/100)*(1-30/100));54/((1-40/100)*(1+50/100));154/((1+10/100)*(1-30/100))	Reverse both successive percentage changes.
+8/challenge/6	P(0,55*(1-10/100)-60*(1-20/100));P(1,36*(1-15/100)-40*(1-25/100));P(2,75*(1-15/100)-90*(1-30/100));P(3,50*(1-40/100)-36*(1-20/100))	Independently compute both prices: A cheaper in first three, B in fourth. Inspect every store-name and difference combination.
+8/challenge/7	P(3,30*70/100);P(0,16*75/100);P(1,8*250/100);P(2,40*120/100)	Both products equal in each pair (third is 8*250=25*80); verbal and numeric alternatives all checked.
+8/challenge/8	54/(1+8/100);63/(1+5/100);78/(1+4/100);96/(1+20/100)	Reverse included tax or tip, rather than subtract percent of final amount.
+8/challenge/9	60/100*25/100+40/100*50/100;40/100*75/100+60/100*20/100;30/100*50/100+70/100*20/100;40/100*25/100+60/100*60/100	Total fraction is weighted sum across two disjoint subgroups.
+8/challenge/10	(50/100)/(1+50/100);(25/100)/(1+25/100);(20/100)/(1-20/100);(60/100)/(1+60/100)	Restoration rate divides original absolute change by changed amount; third round restores a decrease.
+8/challenge/11	C((1+20/100)*(1-20/100)-1);C((1+50/100)*(1-30/100)-1);C((1+10/100)**2-1);C((1-40/100)*(1+30/100)-1)	Area multiplier is product of dimension multipliers; square changes both dimensions.
+8/challenge/12	5/4;9/6;36/30;7/28	Specified part divided by specified reference whole.
+8/worksheet/1	3/8;5/8;13/25;9/16	Exact rational percent conversion.
+8/worksheet/2	35*80/100;45*60/100;15*140/100;120*45/100	Multiply whole by percent.
+8/worksheet/3	27/60;21/35;18/120;34/40	Part divided by whole.
+8/worksheet/4	45*(1-20/100);28*(1-25/100);120*(1-15/100);64*(1-35/100)	Apply sale multiplier.
+8/worksheet/5	240*(1+15/100);180*(1+25/100);350*(1-12/100);90*(1+140/100)	Apply signed percent change; decrease in round three.
+8/worksheet/6	18/(12/100);40/(16/100);84/(35/100);54/(150/100)	Divide part by known fraction.
+8/worksheet/7	53/(1+6/100);321/10/(1+7/100);168/10/(1+5/100);46/(1+15/100)	Reverse included tax or tip.
+8/worksheet/8	C((1+25/100)*(1-20/100)-1);C((1+50/100)*(1-20/100)-1);C((1-10/100)*(1+10/100)-1);C((1+20/100)**2-1)	Multiply sequential factors, subtract one, and validate direction as well as magnitude.
+8/worksheet/9	200*45/100*40/100;160*60/100*25/100;400*35/100*20/100;250*48/100*25/100	Multiply population by both nested subgroup shares.
+8/worksheet/10	27/(1-40/100);140/(1-30/100);91/(1-65/100);486/(1+8/100)	Recover original amount from final amount and multiplier; last round is increase.

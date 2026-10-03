@@ -1,0 +1,45 @@
+10.2	1	R(3,18)|R(6,21)|R(9,45)|4/R(1,9)	Uniform length ratio; inverse probability below one guarantees endpoint neighbourhood shorter than segment, so L=4/p uniquely.
+10.2	2	R(5-2,12-2)|R(7-1,17-1)|R(10,16)|4+6/R(3,8)	Intersect requested interval with sampling interval; inverse 6/(k-4)=3/8 with k>10.
+10.2	3	R(6,15)|R(14,40)|R(24-14,24)|4/R(2,9)	Uniform phase gives uniform wait on one cycle; inverse wait threshold over period.
+10.2	4	R(3+10,2*10)|R(5+16,2*16)|R(20-4,20)|6	Equidistance at midpoint of compared locations, giving interval on appropriate side. Inverse (4+b/2)/(4+b)=7/10 yields b=6 uniquely.
+10.2	5	R(40+5,95)|R(32+5,72)|R(10+13,45)|48*R(1,3)	Probability is total qualifying phase duration / total period; inverse r/(r+48)=1/4.
+10.2	6	R(2+4,10)|R(4+3,10)|R(1+2,11)|R(5+2,16)	Solve cubic by monotonicity and squared inequalities into intervals, then intersect domain; last intersection (-2,5).
+10.2	7	R(24-16,24)|R(12,30)|R(2,8)|(40-40*R(3,10))/2	Shorter piece >=k iff cut in [k,L-k]; at most k uses two end intervals. Ratio longer >=7 shorter gives shorter <=L/8.
+10.2	8	R(18-5,20)|R(18-2,24)|R(12-6,15)|R(4+4,18)	Absolute values define intervals; merge union, intersect simultaneous constraints, or take complement directly.
+10.2	9	R(8-2,10)|R(11-3,14)|R(4,12)|R(8-3,11)	Let PA=x,PB=L-x. Factor quadratic thresholds to roots 2/8,3/11,3/8; linear constraint in round three gives x<4.
+10.2	10	R(sum(any((t-R(k,2))%60<3 for t in (0,12,24,36,48,5,25,45)) for k in range(1,120,2)),60)|R(sum(any((t-R(k,2))%30<2 for t in (0,10,20,4,19)) for k in range(1,60,2)),30)|R(sum(bool((R(k,2)%10<3) or (5<=R(k,2)%20<9)) for k in range(1,40,2)),20)|15*R(1,3)-3	All phase boundaries are integers: each half-integer exactly represents one unit interval; count union once. Inverse two windows overlap by 3-k, total 3+k.
+10.3	1	R(8*8,2*12*8)|R(9*8,2*10*8)|R((8+4)*6,2*10*6)|2*14*R(2,7)	Triangle/trapezoid area divided by rectangle; common full height cancels. Positive base inverse unique.
+10.3	2	pi/4|pi*4**2/(4*8*4)|pi*3**2/(2*9*5)|sqrt(R(400,8))	Circular sector area fraction with given radius and rectangle dimensions; inverse positive radius.
+10.3	3	1-R(6**2,8**2)|1-R(6**2,10**2)|1-R(10*6,12*8)|(9-9*sqrt(1-R(5,9)))/2	Complement interior rectangle inset from every side; w<4.5 selects nonnegative inner-side root.
+10.3	4	Area(4,4,[(1,1,2)])/16|Area(5,5,[(1,1,3)])/25|Area(6,6,[(-1,0,-2),(0,-1,-2)])/36|Area(4,4,[(-1,-1,-2),(1,1,5)])/16	Exact clipping of uniform rectangle with linear halfplanes; strict boundaries have area zero.
+10.3	5	R(2**2,6**2)|R(4**2,10**2)|1-R(5**2,8**2)|12*sqrt(R(1,16))	Concentric circle area ratios are squared radius ratios; inverse radius positive.
+10.3	6	R(1,4)|Area(14,6,[(-1,1,0),(1,1,14),(0,2,6)])/(14*6)|R(5,9)|5	Nearest bottom side requires y<x,y<w-x,y<h/2. Bisector of P/Q is x=5. For h4,w>=4, area=2w-4, probability=1/2-1/w=3/10 uniquely w5.
+10.3	7	pi*2**2/(2*6*4)|pi*3**2/(2*8*3)|pi*2**2/24|10	Semicircle area pi*r^2/2. Right triangle inradius=(6+8-10)/2=2. Diameter w semicircle probability pi*w/40, inverse gives w10 fitting height5.
+10.3	8	R((6-2)**2,6**2)|R((8-3)**2,8**2)|Area(10,5,[(1,-1,2),(-1,1,2)])/50|R((4-2)**2,36)	Outside diagonal band consists of two equal right triangles; unequal windows clipped exactly. Last restricts to [2,6]^2 but original denominator remains36.
+10.3	9	1-R(50**2+40**2,2*60**2)|1-R(45**2+35**2,2*60**2)|Area(40,20,[(1,-1,5),(-1,1,5)])/800|60*(1-sqrt(1-R(7,16)))	No meeting gives two distinct late-arrival triangles; unequal arrival windows clipped. Inverse 1-(1-w/60)^2=7/16 with 0<=w<=60.
+10.3	10	Area(6,6,[(1,-1,3),(-1,1,3),(-1,-1,-3)])/36|Area(8,8,[(1,-1,5),(-1,1,5),(-1,-1,-5)])/64|Area(4,4,[(1,-1,5),(-1,1,5),(-1,-1,-5)])/16|Area(6,6,[(1,-1,3),(-1,1,3),(-1,-1,-3),(1,1,6)])/36	Triangle constraints |x-y|<c<x+y and additional perimeter x+y<6 in last variant, exact polygon clipping.
+challenge	1	R(8,25)|R(4,18)|R(12,40)|30*R(7,15)/2	Midpoint interval has length twice radius unless clipped; probability below one selects unclipped interval uniquely.
+challenge	2	R(4,10)|R(8,15)|R(7,16)|9	Intersect centered interval with sampling range. Inverse r=9 gives [0,18] length18; length strictly increases near this solution and saturation only at probability1.
+challenge	3	16/(16*pi)|36/(25*pi)|32/(25*pi)|sqrt(100*pi*121/(100*pi))	Contained polygon area over circle area, with inverse positive side from s^2/(100pi).
+challenge	4	R(25+10,60)|R(18+12,48)|R(40+20,90)|24	Good phase includes all GO/WALK and last tolerated wait portion of off phase. Inverse (w+12)/(w+48)=1/2.
+challenge	5	1-R(1,4)|R(1,4)|R(7**2-4**2,10**2)|R(9**2-6**2,12**2)	Distance to edge is R-r and center distance r; compare r with R/2 then apply annulus squared-radius area.
+challenge	6	R(2*6,6**2)|R(2*30,12**2)|1-R(2*6,10*4)|sqrt(42/R(7,24))	Area PBC=PB*BC/2, with PB uniform along side. Inverse square side satisfies 42/s^2=7/24.
+challenge	7	pi/16|4*pi/36|9*pi/60|sqrt(144/9)	Nonoverlapping four quarter-circles total one disk; two semicircles likewise. Inverse r4 is within half-side6, consistent with disjointness.
+challenge	8	Area(60,30,[(1,-1,10),(-1,1,10)])/1800|Area(50,25,[(1,-1,5),(-1,1,5)])/1250|Area(30,30,[(1,-1,23),(-1,1,-7)])/900|Area(60,30,[(1,-1,10),(-1,1,0)])/Area(60,30,[(1,-1,10),(-1,1,10)])	Exact arrival-time rectangle clipping. Offset-window variant uses y=Jon time minus15; |x-(y+15)|<8. Conditional Dev first restricts y<x.
+challenge	9	R(2*1**2,16)|R(2*3**2,64)|R(4*4,100)|R(2*(2**2-1**2),16)	L1 ball is diamond with area2r^2, contained in sampling square. Simultaneous absolute inequalities define a 4x4 square; last subtracts nested diamonds.
+challenge	10	R(1,4)|R((18-3*4)**2,18**2)|R((16-4)**2,16**2)|1-4*R(1,2)**3	Uniform cut spacings: triangle iff no piece >=half, three disjoint excluded corner events each1/4. Lower bounds on three spacings scale simplex by (L-3a)/L in dimension2. Middle spacing=absolute cut difference. Quadrilateral complement four disjoint spacing>=half events each1/8.
+challenge	11	R(30,180)|R(24,180)|R(40,180)|R(180-120,180)	Relative clock angle runs through exactly eleven complete uniform cycles in twelve hours; spinner relative angle also uniform. Fold to [0,180].
+challenge	12	Area(6,6,[(1,-2,0),(-2,1,0),(-1,-1,-6)])/36|Area(6,6,[(1,-3,0),(-3,1,0),(-1,-1,-4)])/36|Area(6,6,[(1,-1,0),(1,2,8)])/36|Area(6,6,[(1,-2,0),(-2,1,0),(1,1,6)])/36	Exact intersection of stated ratio and sum halfplanes in uniform square.
+worksheet	1	R(5,14)|R(7,11)|R(16-5,24)|35*R(3,5)	Uniform segment length ratio; inverse subsegment length direct.
+worksheet	2	R(15-5,25)|R(10-4,18)|R(5+24-16,24)|7/R(7,22)	Wait uniform in period; disjoint end intervals add. Inverse specified T>12 ensures full requested wait interval fits.
+worksheet	3	R(9,20)|R(36,50)|R(16-3,22)|16/R(8,13)	Square monotone nonnegative root inequality and intersect domain. Probability below1 forces inverse upper limit larger than16.
+worksheet	4	2*pi*4/64|3*pi/36|12/(16*pi)|13	Add explicitly nonoverlapping painted areas. Inverse 8pi/(8w)=pi/13 uniquely w13 and circles fit.
+worksheet	5	1-R(12*8,12**2)|1-R(10*6,16*12)|1-R(4*5,12*10)|R(5,2)	Deck/patio complement of unpainted central rectangle. Inverse 2d/(10+2d)=1/3 yields d2.5.
+worksheet	6	Area(5,5,[(2,-1,0)])/25|Area(8,8,[(3,-1,0)])/64|Area(10,10,[(-1,2,2)])/100|10*(1-R(13,20))	Exact clipped halfplane areas. For a<=5 no clipping of y=2x upper bound: probability1-a/10 yields a3.5.
+worksheet	7	R((30-10)**2,2*30**2)|R((40-15)**2,2*40**2)|R(1,2)-R((60-20)**2,2*60**2)|36-36*sqrt(2*R(2,81))	One ordered arrival triangle area half squared available window. Near-arrival case subtracts late triangle from ordering half-square; inverse positive w branch specified.
+worksheet	8	2/pi|3*sqrt(3)/(2*pi)|3*sqrt(3)/(4*pi)|R(8,5)/pi	Inscribed regular polygon area via central triangles. Semicircle square has (s/2)^2+s^2=25 so s^2=20; divide by semicircle area25pi/2.
+worksheet	9	R(1+2+2,12)|R(1+2+2+2,14)|R(2+4+4,22)|R(4*3,30)	Intersect nonoverlapping neighbourhood intervals with finite domain, including truncated interval about zero. Last complement leaves four gaps each length3.
+worksheet	10	1-R(2*4**2,2*6**2)|1-R(2*5**2,2*8**2)|R(3**2,2*10*4)|(1-R(2*4**2,2*6**2))/2	Band removes two equal corner triangles; last symmetric event y>x halves sum-band probability, diagonal measure zero.
+
+
+

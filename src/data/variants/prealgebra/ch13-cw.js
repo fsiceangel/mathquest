@@ -236,19 +236,19 @@ const challenge = [
   // 12. Build the set to order, then push the top value as high as the mode allows.
   [
     {
-      q: 'A set of five whole numbers has mode $3$, median $8$, and mean $10$. What is the largest possible value in the set?',
+      q: 'A set of five whole numbers has unique mode $3$, median $8$, and mean $10$. What is the largest possible value in the set?',
       choices: ['$27$', '$18$', '$28$', '$36$'],
       answer: 0,
       solution: 'Sorted, the set must look like $3, 3, 8, a, b$: two $3$s secure the mode and $8$ sits in the middle. The mean fixes the total at $5 \\times 10 = 50$, so $a + b = 50 - 14 = 36$. Now the mode does the real work: $a$ cannot be $8$, or the set would have two $8$s and two $3$s and no single mode, so $a \\ge 9$ and $b \\le 36 - 9 = 27$. The set $3, 3, 8, 9, 27$ checks out. ($18$ splits the $36$ evenly, but $3, 3, 8, 18, 18$ has two modes; $28$ comes from allowing $a = 8$; $36$ is the pair\'s total, not one value.)',
     },
     {
-      q: 'A set of five whole numbers has mode $2$, median $5$, and mean $8$. What is the largest possible value in the set?',
+      q: 'A set of five whole numbers has unique mode $2$, median $5$, and mean $8$. What is the largest possible value in the set?',
       choices: ['$26$', '$25$', '$31$', '$16$'],
       answer: 1,
       solution: 'The sorted set is $2, 2, 5, a, b$, and the total must be $5 \\times 8 = 40$, so $a + b = 40 - 9 = 31$. To keep $2$ as the only mode, $a$ cannot equal $5$ (that would make $5$ a second mode), so $a \\ge 6$ and $b \\le 31 - 6 = 25$. The set $2, 2, 5, 6, 25$ has mode $2$, median $5$, and mean $\\frac{40}{5} = 8$. ✓ ($26$ allows $a = 5$, which creates a tie for the mode; $31$ is $a + b$; $16$ comes from the balanced set $2, 2, 5, 15, 16$, which is legal but nowhere near the largest.)',
     },
     {
-      q: 'A set of five whole numbers has mode $5$, median $7$, and mean $9$. What is the largest possible value in the set?',
+      q: 'A set of five whole numbers has unique mode $5$, median $7$, and mean $9$. What is the largest possible value in the set?',
       choices: ['$14$', '$21$', '$20$', '$28$'],
       answer: 2,
       solution: 'Sorted, the set is $5, 5, 7, a, b$, with total $5 \\times 9 = 45$, so $a + b = 45 - 17 = 28$. Since a second $7$ would tie the mode, $a \\ge 8$, which caps $b$ at $28 - 8 = 20$. The set $5, 5, 7, 8, 20$ has mode $5$, median $7$, and mean $\\frac{45}{5} = 9$. ✓ ($14$ splits the $28$ evenly, but $5, 5, 7, 14, 14$ is bimodal too; $21$ comes from allowing $a = 7$, which gives the set two modes; $28$ is the total of the top two, not a single value.)',

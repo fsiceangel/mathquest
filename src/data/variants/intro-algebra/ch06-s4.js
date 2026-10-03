@@ -106,7 +106,7 @@ const challenge = [
         'Translate both sides into an equation: $0.6n = 0.8 \\times 45 = 36$. Then $n = \\frac{36}{0.6} = 60$. Check forward: $60\\%$ of $60$ is $36$, and $80\\%$ of $45$ is also $36$. ✓ (The choice $36$ is only the right-hand side, one step short of $n$; the choice $27$ is $60\\%$ of $45$, which attaches the left percent to the right number; the choice $21.6$ multiplies by $0.6$ instead of dividing, shrinking the number when it should grow.)',
     },
     {
-      q: '$25\\%$ of $160$ equals $p\\%$ of $50$. What is $p$?',
+      q: '$25\\%$ of $160$ equals $p\\%$ of $50$. What is $p\\%$?',
       choices: ['$125\\%$', '$40\\%$', '$80\\%$', '$25\\%$'],
       answer: 2,
       solution:

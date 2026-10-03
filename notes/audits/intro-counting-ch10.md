@@ -1,0 +1,7 @@
+# Counting chapter 10: full variant difficulty review
+
+2026-09-22: all 42 base stems and **126 variant stems** compared. Inspected clipped arrival rectangles, closest-side trapezoids, inverse area and width equations, stick cuts, inscribed polygons and triangle inequalities. All stems read; routine numerical variants were not independently reproved.
+
+The probability operation is often easy while the geometry prerequisite changes substantially. Replacing a square by a rectangle invalidates equal closest-side regions (10.3 #6 rounds 2/4, L4). Inscribed-circle and inscribed-equilateral-triangle variants need additional geometry and are extension; they must not inherit the direct semicircle or square calculation's level. The equilateral triangle solution was rewritten to use elementary median and Pythagorean geometry instead of trigonometry, with that prerequisite still explicit in scope.
+
+Challenge #8 round 4 adds conditional probability after an asymmetric meeting-region calculation (L5). Three-cut quadrilateral formation remains extension, since exchangeability of interior gap lengths needs justification. Conversely, the middle-piece-only cut question is a standard two-coordinate difference region (L3 bridge), and the linear replacement of a length-product inequality is L2 bridge. The independent spinner-angle variant avoids moving-clock reasoning (L2). Shape and endpoint descriptions were read from stems; this review does not assert pixel-level diagram verification or original-page matching.

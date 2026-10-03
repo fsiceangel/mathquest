@@ -134,21 +134,21 @@ const challenge = [
   // version pulls out a constant first; one runs the quotient backwards.
   [
     {
-      q: 'Suppose $f(x) = x + 3$ and $(f \\cdot g)(x) = x^2 + 7x + 12$. What is $g(x)$?',
+      q: 'Suppose $f(x) = x + 3$, $g$ is a linear function, and $(f \\cdot g)(x) = x^2 + 7x + 12$. What is $g(x)$?',
       choices: ['$g(x) = x^2 + 6x + 9$', '$g(x) = x + 4$', '$g(x) = x + 7$', '$g(x) = x - 4$'],
       answer: 1,
       solution:
         'A product of functions is a product of their rules, so we need $(x + 3) \\cdot g(x) = x^2 + 7x + 12$ — a division, not a subtraction. Factor the right side: two numbers multiplying to $12$ and adding to $7$ are $3$ and $4$, so $x^2 + 7x + 12 = (x+3)(x+4)$ and therefore $g(x) = x + 4$. Check by multiplying back out: $(x+3)(x+4) = x^2 + 4x + 3x + 12 = x^2 + 7x + 12$ ✓. Check one number too: at $x = 1$, $f(1) = 4$ and $g(1) = 5$, and $4 \\times 5 = 20 = 1 + 7 + 12$ ✓. (The choice $x^2 + 6x + 9$ subtracts $f$ from the product instead of dividing. The choice $x + 7$ reads the middle coefficient off as the constant, but $(x+3)(x+7) = x^2 + 10x + 21$. The choice $x - 4$ flips a sign and gives $x^2 - x - 12$.)',
     },
     {
-      q: 'Suppose $g(x) = x - 2$ and $(f \\cdot g)(x) = 2x^2 - 8$. What is $f(x)$?',
+      q: 'Suppose $g(x) = x - 2$, $f$ is a linear function, and $(f \\cdot g)(x) = 2x^2 - 8$. What is $f(x)$?',
       choices: ['$f(x) = x + 2$', '$f(x) = 2x - 4$', '$f(x) = 2x + 4$', '$f(x) = 2x^2 - x - 6$'],
       answer: 2,
       solution:
         'Pull the common factor out first: $2x^2 - 8 = 2\\left(x^2 - 4\\right) = 2(x-2)(x+2)$, using the difference of squares. One factor of $x - 2$ is exactly $g$, so what remains is $f(x) = 2(x + 2) = 2x + 4$. Check by multiplying back: $(2x+4)(x-2) = 2x^2 - 4x + 4x - 8 = 2x^2 - 8$ ✓. Check one number: at $x = 3$, $f(3) = 10$ and $g(3) = 1$, and $10 \\times 1 = 10 = 18 - 8$ ✓. (The choice $x + 2$ forgets the factor of $2$ and gives only $x^2 - 4$. The choice $2x - 4$ flips a sign and gives $2x^2 - 8x + 8$. The choice $2x^2 - x - 6$ subtracts $g$ from the product instead of dividing by it.)',
     },
     {
-      q: 'Suppose $g(x) = x + 2$ and $\\frac{f}{g}(x) = x - 5$. What is $f(x)$, and which input must be kept out of the quotient’s domain?',
+      q: 'Suppose $g(x) = x + 2$, $f$ is a quadratic function, and $\\frac{f}{g}(x) = x - 5$. What is $f(x)$, and which input must be kept out of the quotient’s domain?',
       choices: ['$f(x) = 2x - 3$, exclude $x = -2$', '$f(x) = x^2 - 10$, exclude $x = 5$', '$f(x) = x^2 + 7x + 10$, exclude $x = -2$', '$f(x) = x^2 - 3x - 10$, exclude $x = -2$'],
       answer: 3,
       solution:

@@ -102,7 +102,7 @@ const s151 = {
       solution: 'The powers of $8$ end in $8, 4, 2, 6$ and then repeat every $4$. Since $22 = 4 \\times 5 + 2$, the remainder is $2$, so $8^{22}$ matches the $2$nd entry: $4$. (Careful: forgetting the remainder step and grabbing the last cycle entry gives $6$.)',
     },
     {
-      q: 'A number machine follows one secret rule. It turns $2$ into $7$, turns $3$ into $10$, and turns $5$ into $16$. What does it turn $10$ into?',
+      q: 'A number machine multiplies every input by the same fixed number, then adds another fixed number. It turns $2$ into $7$, turns $3$ into $10$, and turns $5$ into $16$. What does it turn $10$ into?',
       choices: ['$31$', '$30$', '$15$', '$33$'],
       answer: 0,
       solution: 'Hunt for the rule and test it on every clue. "Triple, then add $1$" works: $3 \\times 2 + 1 = 7$, $3 \\times 3 + 1 = 10$, $3 \\times 5 + 1 = 16$. So $10$ becomes $3 \\times 10 + 1 = 31$. (The rule "add $5$" fits the first clue but fails the second — one clue is never enough!)',

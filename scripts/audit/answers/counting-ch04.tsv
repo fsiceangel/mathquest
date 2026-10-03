@@ -1,0 +1,52 @@
+4.2	1	C(6,2)|C(7,2)|C(9,2)|invC(2,45)	Unordered choices of two distinct members are subsets; inverse fixed-size binomial is strictly increasing.
+4.2	2	C(5,3)|C(7,4)|C(6,3)|invC(3,56)	Unordered subsets with the exact prescribed size; inverse C(n,3)=56 gives unique n=8.
+4.2	3	F(3)|F(4)|F(5)|C(9,3)	Every fixed k-subset has k! distinct linear orders. Last variant asks number of subsets rather than multiplicity of one subset.
+4.2	4	P(8,2)-C(8,2)|P(12,2)-C(12,2)|P(10,2)-C(10,2)|invC(2,120)	Ordered-role assignments are twice unordered pairs, so their difference is C(n,2).
+4.2	5	C(4,3)|C(6,4)|C(8,7)|invC(3,10)	Distinct unranked kinds form subsets; inverse size-three count strictly increases with available kinds.
+4.2	6	C(9,3)|C(11,3)|C(15,3)|C(10,3)-C(9,3)	Direct subset counts and difference of the two specified group sizes.
+4.2	7	C(10,4)|C(12,5)|C(14,3)|3	Order is postponed, so count subsets. Within sizes 0..4 of a ten-member set counts are 1,10,45,120,210, uniquely selecting size 3.
+4.2	8	C(5,2)*C(6,2)|C(7,2)*C(6,2)|C(6,3)*C(5,3)|invC(2,R(360,C(5,2)))	Choose independently from disjoint categories; inverse divides by the fixed category count then inverts C(n,2).
+4.2	9	C(8,4)-C(6,3)|C(9,3)-C(7,2)|C(8,3)-C(6,2)|C(7,3)	Only-if restriction forbids first named member in and second out; select remaining k-1 from n-2 for that forbidden event. Final stem asks that event directly.
+4.2	10	C(9,4)-C(7,2)|C(10,3)-C(8,1)|C(9,3)-C(7,1)|11	Remove subsets containing both incompatible members. Inverse C(n,3)-(n-2)=156 at n=11; increasing n adds legal teams, strictly for n>=3.
+4.3	1	C(10,2)|C(14,2)|C(17,2)|C(11,2)	Direct exact pair count.
+4.3	2	C(12,3)|C(13,3)|C(16,3)|invC(3,286)	Exact size-three subset count and monotone inverse.
+4.3	3	C(9,0)+C(9,1)+C(9,9)|C(15,0)+C(15,1)+C(15,15)|1+12+1|23	Each displayed expression equals n+2; garden's three sizes are disjoint because n=12. Inverse n+2=25.
+4.3	4	C(15,2)|C(19,2)|C(23,2)|C(14,2)*C(12,2)	Unordered pair selections; two named recipients are distinguishable, so choose Ana's pair then Ben's from the remaining twelve.
+4.3	5	C(9,4)|C(14,4)|C(15,4)|invC(4,3060)	Exact size-four subset counts and strictly increasing inverse.
+4.3	6	C(11,5)|C(13,6)|C(13,5)|invC(5,792)	Direct subset counts with order ignored; inverse fixed-size count is strictly increasing.
+4.3	7	invC(2,66)|invC(2,120)|invC(2,105)|COUNT(2,201,lambda n:C(n,2)<=200)	Invert monotone pair counts. For last variant n>=202 has C(n,2)>200, so enumeration through 201 exhausts all possible solutions.
+4.3	8	C(7,3)*C(4,2)|C(9,2)*C(5,3)|C(6,3)*C(7,2)|invC(2,R(840,C(8,3)))	Independent choices from disjoint categories; inverse removes known category multiplicity before solving the rabbit pair count.
+4.3	9	2*C(9,4)|4*C(8,4)|2*C(8,2)|C(12,4)-C(9,4)	Exactly one designated type: choose it then all remaining members from the other type. At least one is complement of zero.
+4.3	10	C(12,3)-C(5,3)-C(4,3)|C(10,3)-C(4,3)|C(10,2)-C(4,2)+1|invC(3,354+C(5,3))	Subtract precisely the collinear triples (disjoint named collinear groups). A shared island route replaces its six pair routes by one. Inverse adds the ten forbidden triples then inverts C(n,3).
+4.4	1	C(20,18)|C(22,20)|C(21,19)|invC(2,300)	Direct combinations; complement bijection turns selecting n-2 into omitting two for the inverse.
+4.4	2	C(14,13)+C(14,12)|C(17,16)+C(17,15)|C(15,13)-C(15,14)|15	Direct combination arithmetic; inverse n+C(n,2)=n(n+1)/2=120 has unique positive n=15.
+4.4	3	C(11,4)|C(15,6)|C(n,3)|7	Complementation is a bijection between k-subsets and (n-k)-subsets; strict unimodality restricts distinct equal entries to complementary positions.
+4.4	4	C(12,10)|C(13,11)|C(13,10)|invC(2,231)	Direct subset counts; inverse uses omitted-pair bijection.
+4.4	5	10|11|16|17	For 0<=k<r<=n, equality of binomial coefficients forces k+r=n by symmetry and strict increase to the center. Solve n=3+7,2+9,3+13, or 2k+6=40.
+4.4	6	C(11,9)|C(14,11)|C(18,15)|invC(3,1140)	Exact subset counts; omitted triple bijection gives the strictly increasing inverse.
+4.4	7	C(25,23)-C(25,2)|C(21,19)+C(21,2)|C(30,27)/C(30,3)|4	Direct arithmetic and complement symmetry; inverse distinct equal entry has index 26-22=4.
+4.4	8	C(12,10)*10|C(14,11)*11|C(11,9)*9|C(11,9)*C(9,2)	Choose the unranked whole group, then the distinguished member or unranked pair inside it; all outcomes have a unique such decomposition.
+4.4	9	C(14,12)-C(12,10)|C(16,13)-C(14,11)|C(15,12)-C(13,10)|2*C(10,2)	At least one left out forbids both in; final variant chooses which of the two is omitted and the remaining two omissions from ten others.
+4.4	10	COUNT(0,12,lambda k:C(12,k)>200)|COUNT(0,10,lambda k:C(10,k)>100)|COUNT(0,11,lambda k:C(11,k)<100)|max(row(15))	Enumerate every allowed column of the exact Pascal row and test the bound or maximum.
+challenge	1	C(8,5)|C(10,5)|C(9,6)|sum(C(9,k) for k in range(7,10))	Exact subset counts; variable-size choices are a disjoint union of the permitted sizes.
+challenge	2	2**4-1|2**5-1|2**5|sum(C(6,k) for k in range(3,7))	Each member is independently included/excluded; omit the empty subset only where forbidden, or sum the required sizes.
+challenge	3	C(30,28)|C(40,38)|C(26,2)|invC(2,528)	Direct combinations and complement-based inverse.
+challenge	4	C(5,2)*C(4,2)|C(7,3)*C(6,2)|C(8,2)*C(5,2)|invC(2,R(2760,C(5,3)))	Independent unranked selections from disjoint groups; remove fixed multiplicity for inverse.
+challenge	5	C(10,3)-C(8,3)|C(11,4)-C(9,4)|C(8,4)-C(6,4)|2*C(7,3)	At least one is complement of neither. Exactly one selects its identity then the remaining unranked members from outside the pair.
+challenge	6	C(8,3)*3|C(7,3)*3|C(9,4)*4|C(8,2)	Select the unranked set then its one distinguished member. If caramel is already fixed on top, only the other two syrups remain to choose.
+challenge	7	C(9,4)|C(11,5)|C(14,4)|C(8,3)	Fixed sorted order identifies each subset with one sequence; requiring A and excluding B leaves three choices among eight other symbols.
+challenge	8	SUB(11,4,lambda s:sum(v>=6 for v in s)>=2)|SUB(11,4,lambda s:sum(v>=7 for v in s)>=2)|SUB(10,5,lambda s:sum(v>=6 for v in s)>=3)|SUB(11,4,lambda s:sum(v>=5 for v in s)<=1)	Enumerate all actual subsets of labelled categories and test the literal minimum/maximum category count.
+challenge	9	SUB(9,5,lambda s:(0 in s)==(1 in s))|SUB(10,4,lambda s:(0 in s)==(1 in s))|SUB(11,4,lambda s:(0 in s)==(1 in s))|SUB(10,4,lambda s:(0 in s)!=(1 in s))	Direct subset enumeration with equality or exclusive-or of the two named membership indicators.
+challenge	10	SUB(10,5,lambda s:sum(v<4 for v in s)>=2 and not(4 in s and 5 in s))|SUB(11,4,lambda s:sum(v<5 for v in s)>=2 and not(5 in s and 6 in s))|SUB(9,5,lambda s:sum(v>=4 for v in s)>=3 and not(4 in s and 5 in s))|SUB(9,4,lambda s:sum(v<3 for v in s)>=1 and not(3 in s and 4 in s))	Exhaustively enumerate all labelled subsets and simultaneously enforce category minimum and the prohibited pair.
+challenge	11	SUB(10,5,lambda s:sum(v>=6 for v in s)>=2 and ((0 in s)==(1 in s)))|SUB(10,5,lambda s:sum(v>=7 for v in s)>=1 and ((0 in s)==(1 in s)))|SUB(9,4,lambda s:sum(v>=5 for v in s)>=2 and ((0 in s)==(1 in s)))|SUB(9,4,lambda s:sum(v>=5 for v in s)>=2 and not(0 in s and 1 in s))	Enumerate all actual subsets and test together-or-neither or forbidden-pair constraints alongside the category minimum.
+challenge	12	SUB(11,4,lambda s:sum(v<5 for v in s)>2 and not(0 in s and 5 in s))|SUB(12,4,lambda s:sum(v<7 for v in s)>2 and not(0 in s and 7 in s))|SUB(10,5,lambda s:sum(v<6 for v in s)>=3 and not(0 in s and 6 in s))|SUB(11,4,lambda s:sum(v<6 for v in s)>2 and 0 in s)	Direct subset enumeration enforces strict majority plus the cross-category incompatible pair or mandatory member.
+worksheet	1	C(8,2)|C(11,2)|C(13,2)|invC(2,210)	Exact pair counts and monotone inverse.
+worksheet	2	C(12,4)|C(11,4)|C(12,5)|C(12,4)+C(12,8)	Direct exact combination arithmetic.
+worksheet	3	C(18,16)|C(23,21)|C(19,17)|invC(2,351)	Direct combination evaluation and inverse via omitted-pair bijection.
+worksheet	4	C(8,2)*6|C(10,3)*7|C(9,2)*7|C(9,2)*C(7,2)	Choose the first unranked group, then the second distinguished person/group from the unused members. Jobs are distinct so no extra division.
+worksheet	5	C(4,2)*C(5,2)|C(6,3)*C(5,2)|C(7,2)*C(6,2)|C(5,2)*4	Independent choices from two distinct categories; required blue star leaves one choice among the other four blues.
+worksheet	6	C(9,2)|C(10,3)|C(9,4)|C(10,2)	Fix required members and remove forbidden members, then choose the remaining unranked subset from available people.
+worksheet	7	invC(2,78)|invC(2,171)|invC(2,253)|C(invC(2,45),3)	Pair counts strictly increase; recover available population and then compute the requested triple count.
+worksheet	8	C(10,4)-C(8,2)|C(11,4)-C(9,2)|C(10,3)-C(8,1)|C(12,3)-10	Remove subsets containing the incompatible pair. Last fixes Ivy first; forbidden residual triples include both Gia/Hal and one of ten other people.
+worksheet	9	C(7,3)|C(9,2)|C(8,4)|C(12,2)	Distinct points on a circle have no collinear triples; each chosen vertex subset defines exactly one convex polygon, with mandatory vertices already fixed.
+worksheet	10	SUB(11,5,lambda s:sum(v<6 for v in s)>=3 and not(0 in s and 6 in s))|SUB(12,4,lambda s:sum(v<7 for v in s)>=2 and not(0 in s and 7 in s))|SUB(11,4,lambda s:sum(v<6 for v in s)>=2 and not(0 in s and 6 in s))|SUB(10,4,lambda s:sum(v<5 for v in s)>=2 and 0 in s)	Exhaustive labelled-subset enumeration simultaneously tests category minima and cross-category exclusion or required member.

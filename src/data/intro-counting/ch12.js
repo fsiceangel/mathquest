@@ -151,6 +151,16 @@ const s123 = {
         answer: '$\\binom{7}{4} = 35$.',
       },
       {
+        problem: 'Starting at row $0$, position $0$ of Pascal’s triangle, a walk takes four steps down-left or down-right. How many walks end at position $1$ of row $4$?',
+        steps: [
+          'Every step moves down one row. A down-left step keeps the position number the same; a down-right step increases it by one.',
+          'Ending at position $1$ therefore means taking exactly one right step among the four steps. Choose when that right step occurs: RLLL, LRLL, LLRL, or LLLR.',
+          'There are $4$ paths, matching position $1$ of row $4=1,4,6,4,1$. The entry counts paths arriving there, not just the endpoint itself.',
+          'For two different requested endpoints, perform this single-endpoint translation for each and add their path counts.',
+        ],
+        answer: '$4$ walks.',
+      },
+      {
         problem: 'A librarian picks $3$ of $9$ new titles to feature. Where in Pascal’s triangle is the number of possible picks, and what is it?',
         steps: [
           'The count is $\\binom{9}{3}$: row $9$, position $3$.',

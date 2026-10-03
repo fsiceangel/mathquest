@@ -1,0 +1,76 @@
+# Checkpoint calculations independently derived from statements and actual figure labels/coordinates.
+checkpoint/1/1	60/2	Pair each even2k with preceding odd2k-1;30 pairs differ by1.
+checkpoint/1/2	CP(102)	Enumerate all two-digit integers, retaining prime factor set exactly{2,7}:14,28,56,98.
+checkpoint/1/3	CP(103)	Enumerate squares of roots1 through30, then test units digit6. Bounds include square900.
+checkpoint/1/4	floor(200/4)-floor(200/12)	Multiples of4 minus multiples of lcm(4,6)=12, inclusive1..200.
+checkpoint/1/5	(23+35+42)/2-23	Pair sums total twice all weights; heaviest equals total minus smallest pair. Individual weights8,15,27 positive and reproduce all pair sums.
+checkpoint/1/6	(108-1-7-8)/4	Figure rows advance7; block is n,n+1,n+7,n+8. Solve sum108; n23 not at row end so block valid. Figure shows7 columns and matching first two rows.
+checkpoint/1/7	2*(61-2)	Odd sum of two primes requires sole even prime2;59 is prime (no prime divisor at mostsqrt59).
+checkpoint/1/8	(4*30*18)/(12*4)	Figure bottom row gives common product2160; left column12,?,4 forces45. Remaining blanks10 and4 make all rows and columns consistent.
+checkpoint/1/9	floor(28/5)+floor(28/25)	Trailing zeros in28! limited by factors5; factors2 more plentiful.
+checkpoint/1/10	Digits(10**17-2589)	Perform exact integer subtraction then independently sum decimal digits.
+checkpoint/1/11	Max(2**48,3**36,5**24,7**12,11**8)	Evaluate every offered integer power exactly, then select unique maximum.
+checkpoint/1/12	CP(112)	Enumerate divisor pairs of240, constrain gcd6 and lcm240, minimize sum. Pair30,48 attains78.
+checkpoint/1/13	2*36	If k terms start at integera,72=k*(2a+k-1), so k divides72 and at most72. k72 attained by integers-35 through36.
+checkpoint/1/14	(4*7)+(3*6)+(2*5)+(1*4)	Count axis-aligned squares for sizes1..4 using(4-s+1)(7-s+1); grid figure has4 rows7 columns.
+checkpoint/1/15	CP(115)	Enumerate n ascending until triangular sum divisible by1000; n624 first, then digit sum. Search reaches n2000 which certainly works.
+checkpoint/2/1	45/(3/4-5/8)	Withdrawn45 litres equals difference of tank fractions times capacity.
+checkpoint/2/2	(495/10)/(10-1)	Decimal shift multiplies positive number by10; increase is9 times original.
+checkpoint/2/3	CP(203)	A reduced unit fraction terminates iff denominator has only prime factors2 and5; enumerate2..20.
+checkpoint/2/4	17-7	First inequality x>=7, second x<17; integers7 through16.
+checkpoint/2/5	CP(205)	Figure A=2/12,B=20/12; strict interior numerators3..19; retain gcd(n,12)=1.
+checkpoint/2/6	100*75/100*(1-2/5)	Figure shaded polygon area70+5=75 cells, matching75%; erasure leaves3/5 of them.
+checkpoint/2/7	((66/2-3)/3)*(2*((66/2-3)/3)+3)	Perimeter2*(w+2w+3)=66 gives w10,length23. Figure ratio11.5:5 matches23:10 and right-angle mark.
+checkpoint/2/8	(2/3-(5/12)*(4/5))/(1-5/12)	Subtract boy bus-riders as fraction of whole, divide remaining riders by girls' fraction.
+checkpoint/2/9	10*((13-45/9)/2)+(13+45/9)/2	Swapping digits changes number by9*(units-tens); combine difference5 and sum13 to get digits4,9.
+checkpoint/2/10	CP(210)	Exact remaining solvent54*(2/3)^k; smallest positive k with value below7.5 found by increasing k.
+checkpoint/2/11	8*((14+22)/(11-8))+14	Two collection totals differ36 at3 per member, so12 members; price is short collection plus14.
+checkpoint/2/12	CP(212)	Enumerate numerators1..89 coprime to90, independent of Euler totient shortcut.
+checkpoint/2/13	CP(213)	Enumerate all20 unordered choices of three distinct list entries and compare exact products.
+checkpoint/2/14	2+22	Expression=2^4*10^22=16 followed by22 zeros, so24 digits.
+checkpoint/2/15	CP(215)	Reverse each doubling transfer from equal16mL cups, then replay all forward transfers to verify nonnegative contents and final equality.
+checkpoint/3/1	81*1000/3600	Convert kilometres to metres and hours to seconds.
+checkpoint/3/2	42/(15/100-10/100)	Difference42 is5% of total coin count.
+checkpoint/3/3	floor(4*sqrt(47)+1/2)	Square side sqrt47, perimeter four times that; exact nearest whole number. Figure equal sides and area label agree.
+checkpoint/3/4	200/(25/10)*6/60	Number of can volumes times seconds per can, then convert seconds to minutes.
+checkpoint/3/5	(25/100)/(1+25/100)	Relative shortfall uses larger Mira count as denominator.
+checkpoint/3/6	5*4*9	Coprime ratio4:9 and gcd5 force intervals20,45; next coincidence lcm180.
+checkpoint/3/7	R(75*2/5*(1-2/5),75*3/5)	Initial red30 blue45; remove12 red, then reduce ratio18:45.
+checkpoint/3/8	(1+60/100)*(1-25/100)-1	Selling-price multiplier1.2 gives profit0.2 times original cost.
+checkpoint/3/9	sqrt(28)+sqrt(63)	Side-by-side square widths add; figure labels28 and63 denote their areas, coordinates show contiguous square bases.
+checkpoint/3/10	(9*2)/(3-2)*(3+2)	Transfer9 reduces original difference by18; one ratio unit18, total five units90.
+checkpoint/3/11	2/(1/15+1/30)	Equal-distance round trip average is total distance divided by summed times, harmonic mean of speeds.
+checkpoint/3/12	6*20	Match pears: apples:pears:plums=6:15:20, total41k. Strict210<41k<260 permits only integer k6; plum count120.
+checkpoint/3/13	CP(313)	Enumerate integer purchase counts with exact conditional discount, respecting pre-discount40 threshold; maximize affordable count then subtract actual cost.
+checkpoint/3/14	CP(314)	Enumerate unique reduced fractions n/d with d<=12 and strict1/3<n/d<2/3, then sum exactly.
+checkpoint/3/15	1-((1-75/100)+(1-80/100)+(1-90/100))	Union bound on dislikes gives all-three at least45%. Bound attained with disjoint dislike groups25%,20%,10%, remaining45% liking all; diagram is schematic only.
+checkpoint/4/1	Abs((8*30+30/2)-30*6)	Hour hand advances0.5 degree per minute to255; minute hand180; smaller difference75.
+checkpoint/4/2	(1+30/100)**2-1	Area multiplier squares linear scale factor.
+checkpoint/4/3	4*sqrt((70/2)**2+(24/2)**2)	Perpendicular bisecting diagonals form legs35,12, so side37. Figure endpoints(-35,0),(35,0),(0,-12),(0,12) confirm full diagonal measures.
+checkpoint/4/4	1-(3/7)**2	Concentric circle area ratio is squared radius ratio; outside fraction is complement.
+checkpoint/4/5	360/36	Smallest positive number of36-degree turns making full360-degree rotation is10.
+checkpoint/4/6	CP(406)	Enumerate positive integer sides with144<2s squared<900; equivalent to strict diagonal bounds12<sqrt2*s<30.
+checkpoint/4/7	2*(18/3+12/3)	Boundary lattice points: two horizontal sides with7 each and two vertical sides with5 each, minus4 double-counted corners, total20.
+checkpoint/4/8	5*180-2*360	For convex five-point star traversal A-C-E-B-D-A, signed turning sums720; each turn is180 minus tip angle, giving tip sum180. Figure ordered outer points convex; explicit convex condition added.
+checkpoint/4/9	(2*(40*(1+25/100)+10*(1-20/100)))/(2*(40+10))-1	New dimensions50,8 preserve400 area; perimeter grows100 to116, relative increase16%.
+checkpoint/4/10	10/24	Triangles on parallel bases SR10 andPQ24 have same height12, so area ratio10:24. Figure coordinates also give nonparallel sides13,15 as labelled.
+checkpoint/4/11	sqrt(5**2-(sqrt(5**2-(14/10)**2)-8/10)**2)-14/10	Initial height4.8, finalheight4, final base distance3. Subtract original1.4; both right triangles feasible.
+checkpoint/4/12	sqrt(6**2+6**2)/(sqrt(3)/2)	AC is6sqrt2. In right ACD, AC adjacent to30-degree angle, so AD=AC/cos30. Figure right-angle placements and30-degree marker match; coordinates approximate true layout.
+checkpoint/4/13	CP(413)	Factor(c-b)(c+b)=24 squared; enumerate positive ordered factor pairs d<e of576 with matching parity. Recover positive b,c, giving all integer right triangles exactly once.
+checkpoint/4/14	CP(414)	Enumerate integer lattice points in bounding square[-3,3]^2 and test4*(x squared+y squared)<49; figure centre(0,0), radius3.5 matches.
+checkpoint/4/15	CP(415)	Interior angle180-360/n integral iff n divides360; enumerate inclusive3..100.
+checkpoint/5/1	63+3*2	Seven consecutive odd integers have median/mean equal fourth; maximum three steps of2 above63.
+checkpoint/5/2	9+90*2+(186-100+1)*3	Count digits in one-,two-,three-digit ranges separately with inclusive endpoints.
+checkpoint/5/3	(101-1)/5	Row of n hexagons uses6+5(n-1)=5n+1 toothpicks. Figure chains share exactly one full side per neighbouring pair.
+checkpoint/5/4	CP(504)	Uniform90 two-digit numbers; enumerate tens1..9 and nonzero units1..9 satisfying divisibility by tens.
+checkpoint/5/5	(30*70-6*90)/24	Subtract top-six total from entire total, divide by remaining count24; e.g. all top90 and all remaining65 is feasible.
+checkpoint/5/6	2*(2*(2*(7+1)+1)+1)	Reverse each half-then-one toll as x=2*(next+1), three times; forward70->34->16->7 valid whole counts.
+checkpoint/5/7	2*(2*3+2)	Figure roads:2 H-P,2 P-Q,3 Q-S,2 direct P-S. Left-to-right routes count2*(2*3+2)=16; curves inspected for no additional junctions.
+checkpoint/5/8	CP(508)	Enumerate positive divisors120 and count odd ones, normalize by all divisors.
+checkpoint/5/9	5*16-(3+16+18+39)	For0<x<=16 median16 gives x4 valid. For16<=x<=18 medianx gives x19 outside interval; forx>=18 median18 gives x14 outside interval. Unique positive solution4.
+checkpoint/5/10	(29-3*(123-4*29))/2	Let firsta,secondb; fifth2a+3b29,eighth8a+13b123. Subtract4*fifth to getb7, thena4; forward recurrence4,7,11,18,29,47,76,123.
+checkpoint/5/11	binomial(3,2)*5+3*binomial(5,2)	Nondegenerate triangle chooses two distinct points on one parallel line and one on the other; figure has3 upper and5 lower points.
+checkpoint/5/12	CP(512)	Enumerate all66 unordered pairs of distinct tokens1..12; count13 pairs with sum divisible by5.
+checkpoint/5/13	floor((12*5-12)/(7-1))	Start everyone at1, leaving48 extra stickers. Every child above6 needs at least6 extra; at most8, attained by eight7s and four1s.
+checkpoint/5/14	Min(sqrt((15+5)**2+3**2),sqrt((15+3)**2+5**2),sqrt((5+3)**2+15**2))	Unfold opposite-corner box paths into three possible two-dimension sums; minimum sqrt(8 squared+15 squared)=17, valid crossing inside face boundaries. Figure opposite corners and dimensions match.
+checkpoint/5/15	6*15/10	For cross-cut rectangle, opposite area products equal; diagram positions top-left10,top-right6,bottom-left15 imply bottom-right9. Coordinate ratios5:3 and2:3 also match all labels.

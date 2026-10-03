@@ -184,7 +184,7 @@ const s191 = {
       solution: 'Drop the altitude from the top-right vertex (dashed). It splits the figure into a rectangle of width $8$ and a right triangle whose horizontal leg is $14 - 8 = 6$ and whose hypotenuse is the slant side $10$. The height is $\\sqrt{10^2 - 6^2} = \\sqrt{64} = 8$. Dropping an altitude is THE move for trapezoids — it manufactures the right triangle the problem is hiding.',
     },
     {
-      q: 'In quadrilateral $ABCD$, $\\angle B = 90^\\circ$, $AB = 3$, $BC = 4$, $CD = 12$, and $DA = 13$. Find the area of $ABCD$.',
+      q: 'In convex quadrilateral $ABCD$, $\\angle B = 90^\\circ$, $AB = 3$, $BC = 4$, $CD = 12$, and $DA = 13$. Find the area of $ABCD$.',
       fig: {
         view: [-1.5, -1.5, 13, 11],
         elems: [
@@ -957,7 +957,7 @@ const challenge = [
     solution: 'Let $\\angle A = x$ and pass it up the isosceles chain. $AB = BC$ gives $\\angle BCA = x$ and exterior angle $\\angle CBD = 2x$. Then $BC = CD$ gives $\\angle CDB = 2x$, so in triangle $BCD$, $\\angle BCD = 180^\\circ - 4x$. Since $A$, $C$, $E$ are collinear, the angles at $C$ on that line satisfy $x + (180^\\circ - 4x) + \\angle DCE = 180^\\circ$, so $\\angle DCE = 3x = 84^\\circ$ and $x = 28^\\circ$. Equal segments are $x$-multipliers: each link adds one more $x$.',
   },
   {
-    q: 'The L-shaped figure shown has all right angles, with the side lengths marked. What is its area?',
+    q: 'Each pair of consecutive sides of the L-shaped figure shown is perpendicular, with the side lengths marked. What is its area?',
     fig: {
       view: [-1, -1, 9, 8],
       elems: [

@@ -118,7 +118,7 @@ const s41 = {
       solution: 'A regular hexagon has $6$ equal sides, so the perimeter is $6 \\times 7 = 42$. Counting sides carefully matters: $35$ would be a pentagon and $28$ a square. ($49$ is $7^2$ — squaring is an area move, not a perimeter move.)',
     },
     {
-      q: 'Every angle in this shape is a right angle. What is its perimeter?',
+      q: 'In this shape, each pair of neighboring sides is perpendicular. What is its perimeter?',
       fig: {
         view: [-1.5, -1.5, 9.5, 8.5],
         elems: [
@@ -186,7 +186,7 @@ const s41 = {
       solution: 'Perimeter $24$ means length plus width is $12$. Try the pairs: $1 \\times 11 = 11$, $2 \\times 10 = 20$, $3 \\times 9 = 27$, $4 \\times 8 = 32$, $5 \\times 7 = 35$, $6 \\times 6 = 36$. The square wins with $36$. Same fence, very different yards — the closer to a square, the more area a fixed perimeter encloses.',
     },
     {
-      q: 'Every angle in this four-step staircase is a right angle. What is its perimeter?',
+      q: 'In this four-step staircase, each pair of neighboring sides is perpendicular. What is its perimeter?',
       fig: {
         view: [-1.5, -1.5, 11.5, 9.5],
         elems: [
@@ -354,7 +354,7 @@ const s42 = {
       solution: 'Average the parallel sides, then multiply by the height: $\\frac{1}{2}(8 + 4) \\cdot 3 = 6 \\cdot 3 = 18$. Forgetting the $\\frac{1}{2}$ gives $36$, and using only the long base gives $8 \\cdot 3 = 24$ — the averaging is what makes it a trapezoid formula.',
     },
     {
-      q: 'Every angle in this shape is a right angle. What is its area?',
+      q: 'In this shape, each pair of neighboring sides is perpendicular. What is its area?',
       fig: {
         view: [-1.5, -1.5, 9.5, 10.5],
         elems: [
@@ -794,7 +794,7 @@ const challenge = [
     solution: 'Triangles $ABD$ and $ABC$ share base $AB$ and have apexes $D$ and $C$ on a line parallel to $AB$, so $[ABD] = [ABC]$. Both triangles contain triangle $ABX$; subtract it from each side to get $[AXD] = [BXC] = 12$. This equal pair of "side triangles" appears in every trapezoid — a lovely hidden symmetry.',
   },
   {
-    q: 'Every side of this plus-shaped figure has length $4$, and every angle is a right angle. What is its area?',
+    q: 'Every side of this plus-shaped figure has length $4$, and each pair of neighboring sides is perpendicular. What is its area?',
     fig: {
       view: [-1.5, -1.5, 13.5, 13.5],
       elems: [
@@ -845,7 +845,7 @@ const worksheet = [
     solution: 'Half of base times height: $\\frac{1}{2} \\cdot 9 \\cdot 8 = 36$.',
   },
   {
-    q: 'Every angle in this staircase shape is a right angle. Find its perimeter.',
+    q: 'In this staircase shape, each pair of neighboring sides is perpendicular. Find its perimeter.',
     fig: {
       view: [-1.5, -1.5, 10.5, 6.5],
       elems: [
@@ -883,7 +883,7 @@ const worksheet = [
     solution: 'First recover the length: $96 \\div 8 = 12$. Then the perimeter is $2(12 + 8) = 40$.',
   },
   {
-    q: 'Every angle in this L-shape is a right angle. Find its area AND its perimeter.',
+    q: 'In this L-shape, each pair of neighboring sides is perpendicular. Find its area AND its perimeter.',
     fig: {
       view: [-1.5, -1.5, 12.5, 9.5],
       elems: [

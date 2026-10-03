@@ -180,7 +180,7 @@ const s21 = [
       choices: ['$2n + 9$', '$9(n + 2)$', '$2(n + 9)$', '$2 + 9n$'],
       answer: 2,
       solution:
-        '"The sum of $n$ and $9$" is $n + 9$, and "twice" that means the whole sum is doubled: $2(n + 9)$. Test at $n = 1$: the sum is $10$ and twice it is $20$. The choice $2n + 9$ doubles only the $n$, giving $11$ — the missing parentheses change the meaning. The choice $9(n + 2)$ trades the roles of the $2$ and the $9$, giving $27$, and $2 + 9n$ gives $11$ as well at $n = 1$, but $18$ at $n = 2$ where the key gives $22$.',
+        '"The sum of $n$ and $9$" is $n + 9$, and "twice" that means the whole sum is doubled: $2(n + 9)$. Test at $n = 1$: the sum is $10$ and twice it is $20$. The choice $2n + 9$ doubles only the $n$, giving $11$ — the missing parentheses change the meaning. The choice $9(n + 2)$ trades the roles of the $2$ and the $9$, giving $27$, and $2 + 9n$ gives $11$ as well at $n = 1$, but $20$ at $n = 2$ where the key gives $22$.',
     },
     {
       q: 'Write "the product of $6$ and the sum of $z$ and $4$" as an expression, then evaluate it when $z = 2$.',

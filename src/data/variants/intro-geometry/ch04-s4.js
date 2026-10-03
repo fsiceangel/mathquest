@@ -351,7 +351,7 @@ const challenge = [
   // Lane: 125 / 20 / 180.
   [
     {
-      q: 'Every side of the plus-shaped figure shown has length $5$, and every angle is a right angle. What is its area?',
+      q: 'Every side of the plus-shaped figure shown has length $5$, and each pair of neighboring sides is perpendicular. What is its area?',
       fig: {
         view: [-1.5, -1.5, 16.5, 16.5],
         alt: 'A plus-shaped figure made of five squares of side 5',
@@ -367,7 +367,7 @@ const challenge = [
         'Build it from squares: a center $5 \\times 5$ square with four $5 \\times 5$ arms attached, five squares in all, so the area is $5 \\cdot 25 = 125$ ✓. Check a second, independent way by subtraction: the plus fits snugly in a $15 \\times 15$ bounding square, from which the four $5 \\times 5$ corner squares are missing, $225 - 4 \\cdot 25 = 225 - 100 = 125$ ✓. Five squares built up, or nine minus four torn down — the count agrees. (The choice $225$ is ANSWERING THE BOUNDING SQUARE; the choice $100$ is DROPPING THE CENTER SQUARE and counting only the four arms; the choice $60$ is ANSWERING THE PERIMETER, $12 \\cdot 5$.)',
     },
     {
-      q: 'A tile in the shape of a plus sign has twelve sides, all of length $2$, and every angle is a right angle. What is the area of the tile?',
+      q: 'A tile in the shape of a plus sign has twelve sides, all of length $2$, and each pair of neighboring sides is perpendicular. What is the area of the tile?',
       fig: {
         view: [-1, -1, 7, 7],
         alt: 'A plus-shaped tile made of five squares of side 2',
@@ -383,7 +383,7 @@ const challenge = [
         'The tile is five $2 \\times 2$ squares — one in the center and one in each arm — so its area is $5 \\cdot 4 = 20$ ✓. Check a second, independent way from the outside in: the bounding square is $6 \\times 6 = 36$, and the four missing $2 \\times 2$ corners take away $16$, leaving $36 - 16 = 20$ ✓. (The choice $36$ is ANSWERING THE BOUNDING SQUARE; the choice $16$ is DROPPING THE CENTER SQUARE, four arms with no middle; the choice $24$ is ANSWERING THE PERIMETER, $12 \\cdot 2$.)',
     },
     {
-      q: 'The plus-shaped patio shown has twelve sides, all of length $6$, and every angle is a right angle. Find its area.',
+      q: 'The plus-shaped patio shown has twelve sides, all of length $6$, and each pair of neighboring sides is perpendicular. Find its area.',
       fig: {
         view: [-1.5, -1.5, 19.8, 19.5],
         alt: 'A plus-shaped patio made of five squares of side 6',

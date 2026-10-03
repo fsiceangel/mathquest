@@ -247,7 +247,7 @@ const s42 = [
   // s5 — rectilinear shape: split into rectangles.
   [
     {
-      q: 'Every angle of the shape shown is a right angle. What is the area it encloses?',
+      q: 'In the shape shown, each pair of neighboring sides is perpendicular. What is the area it encloses?',
       fig: {
         view: [-1.5, -1.5, 10.5, 11.5],
         elems: [
@@ -266,7 +266,7 @@ const s42 = [
         'Split it with a horizontal cut at height $4$: the bottom slab is $9 \\times 4 = 36$ and the tall block above it is $5 \\times 6 = 30$, for a total of $36 + 30 = 66$ ✓. Check a second, independent way by subtracting: the bounding rectangle is $9 \\times 10 = 90$, and the missing bite at the top right measures $4 \\times 6 = 24$, so $90 - 24 = 66$ ✓ — two roads, one answer. (The choice $90$ is STOPPING AT THE BOUNDING RECTANGLE ✗; $38$ is MIXING UP PERIMETER AND AREA, since the staircase perimeter is $2(9 + 10)$ ✗; $60$ is SUBTRACTING A PIECE THAT IS STILL THERE, $90 - 30$, removing the $5 \\times 6$ block the shape keeps ✗.)',
     },
     {
-      q: 'Every corner of this floor plan is a right angle. What is its area?',
+      q: 'In this floor plan, each pair of neighboring sides is perpendicular. What is its area?',
       fig: {
         view: [-1.5, -1.5, 11.5, 9.5],
         elems: [
@@ -285,7 +285,7 @@ const s42 = [
         'Cut at height $4$: the bottom room is $10 \\times 4 = 40$, and the tower above sits on the right with footprint $3 \\times 4 = 12$, so the plan covers $40 + 12 = 52$ ✓. Check a second, independent way by subtracting: the bounding rectangle is $10 \\times 8 = 80$, and the missing upper-left region is $7 \\times 4 = 28$, so $80 - 28 = 52$ ✓. (The choice $80$ is STOPPING AT THE BOUNDING RECTANGLE ✗; $36$ is MIXING UP PERIMETER AND AREA, $2(10 + 8)$ ✗; $68$ is SUBTRACTING A PIECE THAT IS STILL THERE, $80 - 12$, removing the tower instead of the gap ✗.)',
     },
     {
-      q: 'Every angle of the plot shown is a right angle. What is its area?',
+      q: 'In the plot shown, each pair of neighboring sides is perpendicular. What is its area?',
       fig: {
         view: [-1.6, -1.5, 12.5, 11.5],
         elems: [

@@ -159,7 +159,7 @@ const s133 = [
       choices: ['$6$', '$-6$', '$-3$', '$3$'],
       answer: 1,
       solution:
-        'When the coefficients are rational, irrational roots come in conjugate pairs, so the other root is $3 - \\sqrt{7}$. Their sum is $6$, and the sum of the roots equals $-\\frac{b}{a} = -b$. So $-b = 6$ and $b = -6$ ✓. Check the product as an independent consistency test: $(3+\\sqrt{7})(3-\\sqrt{7}) = 9 - 7 = 2$, which matches $\\frac{c}{a} = 2$ ✓ — the given root really does belong to this family. Now substitute into $x^2 - 6x + 2$: $(3+\\sqrt{7})^2 = 9 + 6\\sqrt{7} + 7 = 16 + 6\\sqrt{7}$, and $16 + 6\\sqrt{7} - 6(3+\\sqrt{7}) + 2 = 16 + 6\\sqrt{7} - 18 - 6\\sqrt{7} + 2 = 0$ ✓. (The choice $6$ reports the sum of the roots and forgets that the sum equals $-b$, not $b$. The choice $-3$ uses only the given root and throws its $\\sqrt{7}$ away, treating the sum as $3$. The choice $3$ makes that same mistake and then also loses the sign flip.)',
+        'The product of the two roots is $2$. Since one root is $3 + \\sqrt{7}$, the other is $\\frac{2}{3+\\sqrt{7}} = \\frac{2(3-\\sqrt{7})}{9-7} = 3-\\sqrt{7}$. Their sum is $6$, and the sum equals $-b$, so $b=-6$. This uses the specified product; we do not assume in advance that the unknown real coefficient $b$ is rational. Check directly: for $x=3+\\sqrt{7}$, $x^2=16+6\\sqrt{7}$, so $x^2-6x+2=16+6\\sqrt{7}-18-6\\sqrt{7}+2=0$ ✓. The choice $6$ loses the sign in the sum-of-roots rule. The choices $-3$ and $3$ incorrectly discard the radical from the given root and omit the other root.',
     },
   ],
   // p7 — a leading coefficient other than 1
@@ -471,7 +471,7 @@ const s134 = [
         'Set the discriminant to zero: $k^2 - 4(9)(4) = k^2 - 144 = 0$, so $k^2 = 144$ and $k = \\pm 12$. The question asks for the positive value, so $k = 12$ ✓. Check a second, independent way: $9x^2 + 12x + 4 = (3x+2)^2$, a perfect square with the single root $x = -\\frac{2}{3}$ ✓. (The choice $-12$ is the other genuine root, ruled out only by the word "positive". The choice $144$ reports $k^2$ without taking the square root. The choice $6$ drops the $4$ from $4ac$ and solves $k^2 = 36$; but then the true discriminant is $36 - 144 = -108$, so there would be no solutions at all ✗.)',
     },
     {
-      q: 'For which values of $k$ does $kx^2 + 8x + k = 0$ have exactly one solution?',
+      q: 'For which nonzero values of $k$ does $kx^2 + 8x + k = 0$ have exactly one solution?',
       choices: ['$k = 4$ only', '$k = \\pm 4$', '$k = \\pm 16$', '$k = 2$ only'],
       answer: 1,
       solution:

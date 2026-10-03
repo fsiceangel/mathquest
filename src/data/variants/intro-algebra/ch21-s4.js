@@ -242,7 +242,7 @@ const s214 = [
   // infinite geometric sum, and the trips that get counted twice are the trap.
   [
     {
-      q: 'Omar pulls the bob of a pendulum $40$ cm to the right of its resting point and lets go. It swings across and reaches $30$ cm to the left, then back to $\\frac{3}{4}$ of that on the right, and so on forever. What total distance does the bob travel?',
+      q: 'Omar pulls the bob of a pendulum $40$ cm to the right of its resting point and lets go. It swings across and reaches $30$ cm to the left, then back to $\\frac{3}{4}$ of that on the right, and so on forever. All distances from the resting point are measured along the arc of motion. What total distance does the bob travel?',
       choices: ['$160$ cm', '$280$ cm', '$240$ cm', '$320$ cm'],
       answer: 1,
       solution:
@@ -256,7 +256,7 @@ const s214 = [
         'Every leap here is a round trip: the toy rises some height and falls the same height, so each leap contributes twice its height — including the first, since the toy begins on the floor and its opening $45$ cm rise is followed by a $45$ cm fall. The heights are $45, 30, 20, \\frac{40}{3}, \\ldots$ with ratio $\\frac{2}{3}$, summing to $\\frac{45}{1 - \\frac{2}{3}} = \\frac{45}{\\frac{1}{3}} = 135$ cm. Doubling gives $270$ cm ✓. Check a second, independent way by doubling first and summing after: the round trips measure $90, 60, 40, \\frac{80}{3}, \\ldots$ cm, themselves geometric with ratio $\\frac{2}{3}$ and first term $90$, so the total is $\\frac{90}{\\frac{1}{3}} = 270$ cm ✓. (The choice $135$ cm is NO DOUBLING, counting only the rises; the choice $225$ cm treats the opening leap as a one-way trip, $45 + 2 \\times 90$, but the toy comes back down from it; the choice $90$ cm is the first leap alone, up and down, with the infinite tail ignored.)',
     },
     {
-      q: 'Rosa starts a metronome by tipping its arm $90$ mm to the right of centre. The arm swings across to $30$ mm on the left, then to $\\frac{1}{3}$ of that on the right, and so on forever. What total distance does the tip of the arm travel?',
+      q: 'Rosa starts a metronome by tipping its arm $90$ mm to the right of centre. The arm swings across to $30$ mm on the left, then to $\\frac{1}{3}$ of that on the right, and so on forever. All distances from centre are measured along the arc traced by the tip. What total distance does the tip of the arm travel?',
       choices: ['$135$ mm', '$90$ mm', '$270$ mm', '$180$ mm'],
       answer: 3,
       solution:

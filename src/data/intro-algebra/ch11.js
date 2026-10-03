@@ -181,7 +181,7 @@ const s112 = {
       solution: 'The factors straddle $40$: $(40+1)(40-1) = 1600 - 1 = 1599$. We subtract the $1$, never add it — the product of a number just above and just below $40$ is slightly LESS than $40^2$.',
     },
     {
-      q: 'Which expression can be factored using the difference of squares formula?',
+      q: 'Which expression is a difference of squares of two monomials with integer coefficients?',
       choices: ['$x^2 - 36$', '$x^2 + 36$', '$x^2 - 35$', '$x^3 - 36$'],
       answer: 0,
       solution: 'We need a square minus a square. $x^2 - 36 = x^2 - 6^2$ qualifies. $x^2 + 36$ is a SUM of squares, $35$ is not a perfect square, and $x^3$ is a cube, not a square.',

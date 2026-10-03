@@ -1,0 +1,2498 @@
+[
+  {
+    "id": "intro-algebra/5/5.1/4/1",
+    "sourceDigest": "f9fceddab56eb60e6b10759a0590e5c8acb93e240ed81560d9028c9fe40cd2a4",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(3)",
+      "reason": "One free real variable gives infinitely many pairs; fourth system fixes x=7,y=8 uniquely. Other offered finite counts false."
+    },
+    "computed": "(position, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.1/4/2",
+    "sourceDigest": "6f0155d59c1ab6ec2e916a4383f275f40d49176f455d04eae9c528818ed99faa",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(0)",
+      "reason": "One free real variable gives infinitely many pairs; fourth system fixes x=7,y=8 uniquely. Other offered finite counts false."
+    },
+    "computed": "(position, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.1/4/3",
+    "sourceDigest": "537f13fb894d19d27b17acb32563f7a3a9a2e971c82ae5150f0a70902dea5221",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(1)",
+      "reason": "One free real variable gives infinitely many pairs; fourth system fixes x=7,y=8 uniquely. Other offered finite counts false."
+    },
+    "computed": "(position, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.1/4/4",
+    "sourceDigest": "d8e5354acf9238edceb97946f7055cfd8f6a4985322e1013b71dbe2cc002dacb",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(2)",
+      "reason": "One free real variable gives infinitely many pairs; fourth system fixes x=7,y=8 uniquely. Other offered finite counts false."
+    },
+    "computed": "(position, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.1/8/1",
+    "sourceDigest": "fc72ab061cf09bdb3043b89210d941b1bcf1377cbc1555d9dce73f179411a448",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(2)",
+      "reason": "Proportional equal equations give infinite solutions in rounds1,2; round3 requires sum6 and10 simultaneously; round4 sum9 difference1 uniquely gives5,4."
+    },
+    "computed": "(position, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.1/8/2",
+    "sourceDigest": "47c40495b6fa508a2079b57010a71d02692f71d8d4a63e36c2906b3d28657f76",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(0)",
+      "reason": "Proportional equal equations give infinite solutions in rounds1,2; round3 requires sum6 and10 simultaneously; round4 sum9 difference1 uniquely gives5,4."
+    },
+    "computed": "(position, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.1/8/3",
+    "sourceDigest": "03badd9e9e88f7d7289f331c1cb04d1956158713fa6daaaf2b7e3870c2c47e5a",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(1)",
+      "reason": "Proportional equal equations give infinite solutions in rounds1,2; round3 requires sum6 and10 simultaneously; round4 sum9 difference1 uniquely gives5,4."
+    },
+    "computed": "(position, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.1/8/4",
+    "sourceDigest": "27f17bfdc95fefb907f46038ec91b5b1822557a4382633538ba37bddb2d80973",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(3)",
+      "reason": "Proportional equal equations give infinite solutions in rounds1,2; round3 requires sum6 and10 simultaneously; round4 sum9 difference1 uniquely gives5,4."
+    },
+    "computed": "(position, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.1/10/1",
+    "sourceDigest": "e7f1e719f8a3788a44cf8f46e284bf64bf0af995bbb30e1a62a891a69b544682",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "10-1",
+      "reason": "Positive integer ordered sum n has n-1 solutions; nonnegative has n+1."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.1/10/2",
+    "sourceDigest": "e10d81f88af9474f43fe46619e0ece92db901923681e2d58a2c6e9912118cf4b",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "7-1",
+      "reason": "Positive integer ordered sum n has n-1 solutions; nonnegative has n+1."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.1/10/3",
+    "sourceDigest": "227905fb1e2815ea625dc2424df1a932ee60a0e35bb3c39e785adcce3ae00a49",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "5+1",
+      "reason": "Positive integer ordered sum n has n-1 solutions; nonnegative has n+1."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.1/10/4",
+    "sourceDigest": "a14235f226ecf1dc4de6b204bba209ea8055f533f3a54a4da3574f9215787701",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "12-1",
+      "reason": "Positive integer ordered sum n has n-1 solutions; nonnegative has n+1."
+    },
+    "computed": "11",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.2/4/1",
+    "sourceDigest": "96a904a7fd51b7513eb7e885706fa0ec4c6d2a0e20e5a27ae79114c8103946af",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(1)",
+      "reason": "Substitution yields respectively3x-1=11,4x-4=20,7y+6=24,11x+4=25. Other coefficients or signs disagree."
+    },
+    "computed": "(position, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.2/4/2",
+    "sourceDigest": "f2c37f4920f937322b9087ed56c03aa60c9ea2f759e846affbd2f01c80aa8412",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(0)",
+      "reason": "Substitution yields respectively3x-1=11,4x-4=20,7y+6=24,11x+4=25. Other coefficients or signs disagree."
+    },
+    "computed": "(position, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.2/4/3",
+    "sourceDigest": "82178d9edbd5da91383afaee121e302b73bd4745a9bb49772ed825706de35bf3",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(2)",
+      "reason": "Substitution yields respectively3x-1=11,4x-4=20,7y+6=24,11x+4=25. Other coefficients or signs disagree."
+    },
+    "computed": "(position, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.2/4/4",
+    "sourceDigest": "7a93d68c313e1f04f9734ed98bd6f353759b0210da69fb19cb700e991b8a0f5a",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(3)",
+      "reason": "Substitution yields respectively3x-1=11,4x-4=20,7y+6=24,11x+4=25. Other coefficients or signs disagree."
+    },
+    "computed": "(position, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.3/3/1",
+    "sourceDigest": "adcdd1cf9d1c228c999b5f42f9fdad3334b9cc4d8775db63e6b9980791c5f8cc",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(1)",
+      "reason": "Cancel chosen variable by adding first pair, subtracting second, subtracting three times equation2 in third, subtracting twice equation2 in fourth. Other offered operations leave nonzero coefficient."
+    },
+    "computed": "(position, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.3/3/2",
+    "sourceDigest": "61e2ee5d1eb4f343c76024b2a494b201f33c06941c9a9adbfc804c80e7f1c4a1",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(1)",
+      "reason": "Cancel chosen variable by adding first pair, subtracting second, subtracting three times equation2 in third, subtracting twice equation2 in fourth. Other offered operations leave nonzero coefficient."
+    },
+    "computed": "(position, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.3/3/3",
+    "sourceDigest": "b8390eb9cad25c0a0db0edc1bb61bc3ef82d7b038c60a195a4e1ffd2d3a3a084",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(2)",
+      "reason": "Cancel chosen variable by adding first pair, subtracting second, subtracting three times equation2 in third, subtracting twice equation2 in fourth. Other offered operations leave nonzero coefficient."
+    },
+    "computed": "(position, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.3/3/4",
+    "sourceDigest": "e2000cee71ef7897b53ec17a737055617fbe3dfd871c6d89bdc030f578648650",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(3)",
+      "reason": "Cancel chosen variable by adding first pair, subtracting second, subtracting three times equation2 in third, subtracting twice equation2 in fourth. Other offered operations leave nonzero coefficient."
+    },
+    "computed": "(position, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.3/7/1",
+    "sourceDigest": "f513c7fe8096202e4decf88bb0b825a14f5964d01112b402cdc2774e7bcdbedb",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(2)",
+      "reason": "Least positive cancellation multipliers are(3,2),(5,3),(2,3),(2,3), using coefficient least common multiples6,15,6,12."
+    },
+    "computed": "(position, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.3/7/2",
+    "sourceDigest": "4673ceedeb9ef5635a6632ecad451b3cad3eb093380e055fca74b293035ecb91",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(0)",
+      "reason": "Least positive cancellation multipliers are(3,2),(5,3),(2,3),(2,3), using coefficient least common multiples6,15,6,12."
+    },
+    "computed": "(position, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.3/7/3",
+    "sourceDigest": "2915b4121f3bcb145de61faceeb93cda9d30f97632620022d303a074b838e310",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(1)",
+      "reason": "Least positive cancellation multipliers are(3,2),(5,3),(2,3),(2,3), using coefficient least common multiples6,15,6,12."
+    },
+    "computed": "(position, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.3/7/4",
+    "sourceDigest": "0be492253eda52ba7d699d940b0801499756e68fc105ef678d7c3e9ccf0a166c",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(3)",
+      "reason": "Least positive cancellation multipliers are(3,2),(5,3),(2,3),(2,3), using coefficient least common multiples6,15,6,12."
+    },
+    "computed": "(position, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/1/1",
+    "sourceDigest": "b8996869382bb6f51eeac09e9f3a789c1a8a669cef9a18195c43c775caa76167",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(20+4)/2",
+      "reason": "Sum and difference determine larger(S+D)/2 and smaller(S-D)/2."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/1/2",
+    "sourceDigest": "86351eafdf1d01deb8ff1f55d0712a363ccf0f48e8107bd88345655e969a5524",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(26+6)/2",
+      "reason": "Sum and difference determine larger(S+D)/2 and smaller(S-D)/2."
+    },
+    "computed": "16",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/1/3",
+    "sourceDigest": "f9356534b6f583e7606fe65f01c552e39a233f2ab1623b36228fd6c7ea99b5e3",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(34-8)/2",
+      "reason": "Sum and difference determine larger(S+D)/2 and smaller(S-D)/2."
+    },
+    "computed": "13",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/1/4",
+    "sourceDigest": "6abfaba08d8bdd5a70c6a68e6a9285a9f94715865f42986cbd1f245b5b17fc12",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(32+12)/2",
+      "reason": "Sum and difference determine larger(S+D)/2 and smaller(S-D)/2."
+    },
+    "computed": "22",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/2/1",
+    "sourceDigest": "19c8dce71746e74cc49046528b5fff0b7329e196bc3740e5260dfd19eb54a529",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(25-5)/2",
+      "reason": "Choose requested larger or smaller from sum and difference."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/2/2",
+    "sourceDigest": "8a1564adf901ec594a0ce00cd580325b54d905475af7af70b4a5d12e91fd58b1",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(31-7)/2",
+      "reason": "Choose requested larger or smaller from sum and difference."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/2/3",
+    "sourceDigest": "77a76ccac44d2618dd37ff4f1dd813510318fbefb0f899ed91dbc258674c20f5",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(40+14)/2",
+      "reason": "Choose requested larger or smaller from sum and difference."
+    },
+    "computed": "27",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/2/4",
+    "sourceDigest": "496d6d6dc00e5069e0941bf7edc50646193090b5cf92e7b71fba6dc13ee9c2fe",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(23-9)/2",
+      "reason": "Choose requested larger or smaller from sum and difference."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/3/1",
+    "sourceDigest": "fc44373005ee74d99bcca8bf3ac9ebd7af32e5302677162cec095d55727e9a20",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(12-2*5)/(3-2)",
+      "reason": "Subtract all-cheap baseline; excess divided by price difference gives expensive count. Counts integral and between0 and total."
+    },
+    "computed": "2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/3/2",
+    "sourceDigest": "48029a667e6e7a8133f3cdda016a4762256bce9314010726fc8bedf6c7e8b647",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(27-3*7)/(5-3)",
+      "reason": "Subtract all-cheap baseline; excess divided by price difference gives expensive count. Counts integral and between0 and total."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/3/3",
+    "sourceDigest": "25b463e7f4d12352c1927158cee41b251eb705d0676aa125ceaebdf5b9344c58",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "9-(30-2*9)/(5-2)",
+      "reason": "Subtract all-cheap baseline; excess divided by price difference gives expensive count. Counts integral and between0 and total."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/3/4",
+    "sourceDigest": "25c95b30a4cb285e9c21e36774fa94ed4623449ade5e2cc8423e94b3a69fa012",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(38-4*8)/(6-4)",
+      "reason": "Subtract all-cheap baseline; excess divided by price difference gives expensive count. Counts integral and between0 and total."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/4/1",
+    "sourceDigest": "3b38dbb9bc5595f480365f5e0be9e38f4f2fe633fcae5d479602c82d59b50cfb",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(21+3)/2",
+      "reason": "Ages determined by sum and difference, requested older/younger selected."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/4/2",
+    "sourceDigest": "cfe14ec74cfbe49a22b7bfe6e1167726698e499150becfe89c0ce2c2232cd246",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(27+5)/2",
+      "reason": "Ages determined by sum and difference, requested older/younger selected."
+    },
+    "computed": "16",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/4/3",
+    "sourceDigest": "37da6f81bd7190ba742bc88a495669e17113ebcb9356c5218779cad7849a2374",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(35-7)/2",
+      "reason": "Ages determined by sum and difference, requested older/younger selected."
+    },
+    "computed": "14",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/4/4",
+    "sourceDigest": "2436a87eb63941cb32b3332e4add5c7f871ff69c71d1c482e0cb7b579fa4be9b",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(86-4)/2",
+      "reason": "Ages determined by sum and difference, requested older/younger selected."
+    },
+    "computed": "41",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/5/1",
+    "sourceDigest": "b5524b1d1f9fa44de35f2e08219b42d99f4517f98e570db83cb2f19eccd416fe",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(74-4*11)/(9-4)",
+      "reason": "Ticket excess over all-cheap baseline yields adult count; subtract from total when child/student requested. All counts feasible integers."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/5/2",
+    "sourceDigest": "7d4cb1982a84c1828913ff4616bf853b2adaeeecf34469a14554568a503edb41",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(88-7*9)/(12-7)",
+      "reason": "Ticket excess over all-cheap baseline yields adult count; subtract from total when child/student requested. All counts feasible integers."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/5/3",
+    "sourceDigest": "ed696655aaf39a01096adf500b843abd0539b7aa081a1705ee0c4627d0b20a22",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "12-(145-8*12)/(15-8)",
+      "reason": "Ticket excess over all-cheap baseline yields adult count; subtract from total when child/student requested. All counts feasible integers."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/5/4",
+    "sourceDigest": "6130beb897d849a108dd5669f1d4393ea1b3396d06b04e8b6a24c10b645af767",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "14-(124-6*14)/(11-6)",
+      "reason": "Ticket excess over all-cheap baseline yields adult count; subtract from total when child/student requested. All counts feasible integers."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/6/1",
+    "sourceDigest": "7ecbfeeba70e918dbbd8e050bd35d409173567b877a9dfecca8798b353c56026",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(100-5*14)/5",
+      "reason": "Work in cents, subtract all-low-denomination baseline, divide denomination gap; complement for low-denomination count."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/6/2",
+    "sourceDigest": "fde1c4c2a892a2a11f8f578528a8b363f06e3c4ae02e0a24335a3187c935d2eb",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "18-(145-5*18)/5",
+      "reason": "Work in cents, subtract all-low-denomination baseline, divide denomination gap; complement for low-denomination count."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/6/3",
+    "sourceDigest": "02c90dd83ee7b93b2fcf4b162e5d029b27416806bce1532d7d211183f6bef22b",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(185-10*11)/15",
+      "reason": "Work in cents, subtract all-low-denomination baseline, divide denomination gap; complement for low-denomination count."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/6/4",
+    "sourceDigest": "fce561a0ae87c2149cc931b88148c2f45fdaa2139ef060e55db75ace6f305d3c",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "20-(320-5*20)/20",
+      "reason": "Work in cents, subtract all-low-denomination baseline, divide denomination gap; complement for low-denomination count."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/7/1",
+    "sourceDigest": "f13d93fcf2549e85946c84a3c6c346e7266e469fc1fff63523e718776e17d03c",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(44-2*15)/2",
+      "reason": "Subtract two legs per head; each four-legged animal contributes two additional legs."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/7/2",
+    "sourceDigest": "fecb12584c15d01c02f60db2d14b60637117cd924e3ee5e0c6846d17007acca2",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(56-2*20)/2",
+      "reason": "Subtract two legs per head; each four-legged animal contributes two additional legs."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/7/3",
+    "sourceDigest": "97250d7246d4da479067ecd482bf74c824a4275aea0063e450ca5ecd09804b86",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "18-(52-2*18)/2",
+      "reason": "Subtract two legs per head; each four-legged animal contributes two additional legs."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/7/4",
+    "sourceDigest": "269b17c151aad77a5b07065531f1783f16ed1aef72fe153f7549f2381f89c01f",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(40-2*14)/2",
+      "reason": "Subtract two legs per head; each four-legged animal contributes two additional legs."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/8/1",
+    "sourceDigest": "5d82990097ffe4274471ebf7cadda481a479bc15121e363e5f48ae244b62477d",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "36*2/3",
+      "reason": "For ratio k:1 use parts k+1; difference uses k-1 parts."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/8/2",
+    "sourceDigest": "1117a56be9c04735342562b9850b6141252db11aaf46f9bb048bdfe976944dac",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "45*4/5",
+      "reason": "For ratio k:1 use parts k+1; difference uses k-1 parts."
+    },
+    "computed": "36",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/8/3",
+    "sourceDigest": "3f7633f7602b5b102b34c5693a8eef4e766fc548482fc7bb1275259bd33c3092",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "60/4",
+      "reason": "For ratio k:1 use parts k+1; difference uses k-1 parts."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/8/4",
+    "sourceDigest": "65299950c0c26dea67ae19572690eca9ee2a79d46f082cf881097878f92bc120",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "48*4/6",
+      "reason": "For ratio k:1 use parts k+1; difference uses k-1 parts."
+    },
+    "computed": "32",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/9/1",
+    "sourceDigest": "9bddc50e73c66179ef8e49fc91f0e7564cb4618db415abac4e42cd8226ba2a27",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(72-6*10)/3",
+      "reason": "Count-price linear system; all-cheap baseline and excess price uniquely determine nonnegative integer counts."
+    },
+    "computed": "4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/9/2",
+    "sourceDigest": "167e96a5c643dc5d17dd0c44f78e9a1c70e68e3f999ff0dcf9de4c5bc06dacf1",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(81-5*12)/3",
+      "reason": "Count-price linear system; all-cheap baseline and excess price uniquely determine nonnegative integer counts."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/9/3",
+    "sourceDigest": "4c27ba48728aaf75afba2ac2f0a5208277dd405a03255e72db4f10ce282a5d3a",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "15-(145-7*15)/5",
+      "reason": "Count-price linear system; all-cheap baseline and excess price uniquely determine nonnegative integer counts."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/9/4",
+    "sourceDigest": "c61d75d4427578449c4e87f778c6c79745b7500c16ef95f7a59a70a7bb772e28",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(60-4*9)/6",
+      "reason": "Count-price linear system; all-cheap baseline and excess price uniquely determine nonnegative integer counts."
+    },
+    "computed": "4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/10/1",
+    "sourceDigest": "fab0d084541b08a8c61d6a05ecb6eafbea9f60d20625dd8a5d39dded803e83f3",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "10*(11+3)/2+(11-3)/2",
+      "reason": "Solve tens and units by sum/difference or ratio; each digit integer0..9 and tens nonzero."
+    },
+    "computed": "74",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/10/2",
+    "sourceDigest": "2ba561d78e25699507de041fb4c606ab4bf92ed2acd569370b8c0d0c83bb7b85",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "10*(13+5)/2+(13-5)/2",
+      "reason": "Solve tens and units by sum/difference or ratio; each digit integer0..9 and tens nonzero."
+    },
+    "computed": "94",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/10/3",
+    "sourceDigest": "a1e0d824813ce1e584b192452bef6b0771c880efd81c5080d6e54b783c8e3c23",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "10*(9-3)/2+(9+3)/2",
+      "reason": "Solve tens and units by sum/difference or ratio; each digit integer0..9 and tens nonzero."
+    },
+    "computed": "36",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.4/10/4",
+    "sourceDigest": "837ef55c3a2996f229dc75599508ab665547779ef31ccae840f7eb470b2ad014",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "10*12*2/3+12/3",
+      "reason": "Solve tens and units by sum/difference or ratio; each digit integer0..9 and tens nonzero."
+    },
+    "computed": "84",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/1/1",
+    "sourceDigest": "c1a9f1f1f0a61e35fd89771a119e9f9bdbadb12de0a832ac45d6ffec59fb37f7",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(0)",
+      "reason": "Multiply both sides by denominator: sum10,sum21,difference24,2x+y20. Every other option changes equation."
+    },
+    "computed": "(position, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/1/2",
+    "sourceDigest": "79a6fd6cd5c845ea2a9b1e70a9130bfa321145f647c494048c01e3ed86958012",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(1)",
+      "reason": "Multiply both sides by denominator: sum10,sum21,difference24,2x+y20. Every other option changes equation."
+    },
+    "computed": "(position, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/1/3",
+    "sourceDigest": "7c1513b4f1896f4d70954ebb082598b10bf3c334e038e32880f3e74afc8bf60e",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(2)",
+      "reason": "Multiply both sides by denominator: sum10,sum21,difference24,2x+y20. Every other option changes equation."
+    },
+    "computed": "(position, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/1/4",
+    "sourceDigest": "4bf678032a04bf5b5a0f40a4b030f88c1806a4e307daa746e54aa4d4dfc7a8d4",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(3)",
+      "reason": "Multiply both sides by denominator: sum10,sum21,difference24,2x+y20. Every other option changes equation."
+    },
+    "computed": "(position, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/3/1",
+    "sourceDigest": "d3a6b01da6708cf47a583d6abbaf05615cd3c0af7315e1e2495d31805c07129c",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(1)",
+      "reason": "Same left side requires incompatible right sides:7vs9,12vs5,12vs15,9vs7.5. Hence no solutions."
+    },
+    "computed": "(position, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/3/2",
+    "sourceDigest": "890fdbdc2ce5decacf135be455e8b786e54c425e1c56ee8003ef1965d7a7e8bd",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(0)",
+      "reason": "Same left side requires incompatible right sides:7vs9,12vs5,12vs15,9vs7.5. Hence no solutions."
+    },
+    "computed": "(position, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/3/3",
+    "sourceDigest": "afec9cac5e3850a94843e07e17756d9a7352e7f4f460565400ab1baa00bb8cc6",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(2)",
+      "reason": "Same left side requires incompatible right sides:7vs9,12vs5,12vs15,9vs7.5. Hence no solutions."
+    },
+    "computed": "(position, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/3/4",
+    "sourceDigest": "a9176331905a394638b993fa78bd093d7a4abaaf65d8b76d91f90be17450073c",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(3)",
+      "reason": "Same left side requires incompatible right sides:7vs9,12vs5,12vs15,9vs7.5. Hence no solutions."
+    },
+    "computed": "(position, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/4/1",
+    "sourceDigest": "67a377fc3cb4996f8a552f43453179b3b0ce51863239c5b2082f126075575a84",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(3)",
+      "reason": "Both equations reduce to sum5,sum7,difference4,sum12 respectively, hence infinite real solutions."
+    },
+    "computed": "(position, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/4/2",
+    "sourceDigest": "58090fd69e83070aebd00abc1ba5c420ea7935205a3515674288592b93aa0ba1",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(0)",
+      "reason": "Both equations reduce to sum5,sum7,difference4,sum12 respectively, hence infinite real solutions."
+    },
+    "computed": "(position, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/4/3",
+    "sourceDigest": "80226fd661429411aced7aefb0b92eeecb5038fec10678f1dcdd5d50124b5be0",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(1)",
+      "reason": "Both equations reduce to sum5,sum7,difference4,sum12 respectively, hence infinite real solutions."
+    },
+    "computed": "(position, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/4/4",
+    "sourceDigest": "f5fdb6f45833ba07947941399d60b67eec17edc4804ad93f991028f9dd32f81c",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(2)",
+      "reason": "Both equations reduce to sum5,sum7,difference4,sum12 respectively, hence infinite real solutions."
+    },
+    "computed": "(position, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/8/1",
+    "sourceDigest": "1adf7164e6bb78cac762e51d7ab3b54c499a283f06d418d88984aa3b3984d344",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(0)",
+      "reason": "Round1 A inconsistent3vs8; other choices unique/infinite/unique. Round2 B inconsistent6vs11; others unique/infinite/unique. Round3 C proportional sum5; others inconsistent/unique/unique. Round4 D determinant-3 gives(4,1); others infinite/none/infinite."
+    },
+    "computed": "(position, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/8/2",
+    "sourceDigest": "ef36077f97dbba81e3245ee963fab109e3e6f97479710038f5659e755aff169a",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(1)",
+      "reason": "Round1 A inconsistent3vs8; other choices unique/infinite/unique. Round2 B inconsistent6vs11; others unique/infinite/unique. Round3 C proportional sum5; others inconsistent/unique/unique. Round4 D determinant-3 gives(4,1); others infinite/none/infinite."
+    },
+    "computed": "(position, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/8/3",
+    "sourceDigest": "29e89a9003946431c232c9b362a46e019fd50234c70966d685008141cb1146b5",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(2)",
+      "reason": "Round1 A inconsistent3vs8; other choices unique/infinite/unique. Round2 B inconsistent6vs11; others unique/infinite/unique. Round3 C proportional sum5; others inconsistent/unique/unique. Round4 D determinant-3 gives(4,1); others infinite/none/infinite."
+    },
+    "computed": "(position, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/8/4",
+    "sourceDigest": "065781204efbb7175a5cee272a42157dbc001bee52d14db510f4b0264960be13",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(3)",
+      "reason": "Round1 A inconsistent3vs8; other choices unique/infinite/unique. Round2 B inconsistent6vs11; others unique/infinite/unique. Round3 C proportional sum5; others inconsistent/unique/unique. Round4 D determinant-3 gives(4,1); others infinite/none/infinite."
+    },
+    "computed": "(position, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/10/1",
+    "sourceDigest": "e51ed34ad511d0d0b6feaf74f11bcf4e4d9b12761015e2f56c477fe36505b934",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "2*4",
+      "reason": "Proportional equations consistent only when right side has same scale; unequal gives no solutions."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/10/2",
+    "sourceDigest": "37871105ae6cb2b5efb726121b48de69df9aec401b78202f791deed7bb94dca7",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "3*6",
+      "reason": "Proportional equations consistent only when right side has same scale; unequal gives no solutions."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/10/3",
+    "sourceDigest": "001eeb26d6dbadad3c47c7a6d41d9b00f7bb8176908fe17f76f84ae7ce6e61ec",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "14/2",
+      "reason": "Proportional equations consistent only when right side has same scale; unequal gives no solutions."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.5/10/4",
+    "sourceDigest": "b1065c6ce23f3d284ab169c491fb832b00eb26cccb1b1d357472ae1afcb00f95",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "5*8",
+      "reason": "Proportional equations consistent only when right side has same scale; unequal gives no solutions."
+    },
+    "computed": "40",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.6/7/1",
+    "sourceDigest": "830e4dd1cf56216a9e56f9a51d66eaf805f834a3f78ecac0d2264b67f29fe459",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(1)",
+      "reason": "Half sum of pair sums gives total. Triples(5,7,10),(6,8,12),(6,13,10),(13,9,6) determine requested extrema uniquely."
+    },
+    "computed": "(position, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.6/7/2",
+    "sourceDigest": "ff49326f4f6af70e41258ed16c16f331354e39c9da44cf907ac130bd93def914",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(2)",
+      "reason": "Half sum of pair sums gives total. Triples(5,7,10),(6,8,12),(6,13,10),(13,9,6) determine requested extrema uniquely."
+    },
+    "computed": "(position, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.6/7/3",
+    "sourceDigest": "0ec3a69609457b35d04303a84c02c9fb2ba05326635f92ce841e01ff6be4c8a9",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(3)",
+      "reason": "Half sum of pair sums gives total. Triples(5,7,10),(6,8,12),(6,13,10),(13,9,6) determine requested extrema uniquely."
+    },
+    "computed": "(position, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.6/7/4",
+    "sourceDigest": "13802e6e142b0ec74a81d26e115f4a75d8a198e68fd7c1e966bcd558672a76cb",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(0)",
+      "reason": "Half sum of pair sums gives total. Triples(5,7,10),(6,8,12),(6,13,10),(13,9,6) determine requested extrema uniquely."
+    },
+    "computed": "(position, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.6/10/1",
+    "sourceDigest": "dcabcd65b7445dc744cf2ad89853a8aecddbc042d7b0901931352caf7eb2d8f7",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "3+7-5",
+      "reason": "Alternating pair sums recover requested expression; last all-variable sum is first plus third disjoint pair sums."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.6/10/2",
+    "sourceDigest": "569145a4d7b67b61f92bc1eaa6d36307eded627acbf4f7d7c45ab9c3cae28970",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "6+11-9",
+      "reason": "Alternating pair sums recover requested expression; last all-variable sum is first plus third disjoint pair sums."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.6/10/3",
+    "sourceDigest": "c90119c14b208e1d462b2d7e5836beedb5b9af11ed107d23dbc79c665080e872",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "8+15-13",
+      "reason": "Alternating pair sums recover requested expression; last all-variable sum is first plus third disjoint pair sums."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/5.6/10/4",
+    "sourceDigest": "7ff0a6ceb665f15f4a38ec80c1d58f59173af6133d1d16927a8b0049b6976090",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "7+15",
+      "reason": "Alternating pair sums recover requested expression; last all-variable sum is first plus third disjoint pair sums."
+    },
+    "computed": "22",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/1/4",
+    "sourceDigest": "dda36a4aa2361510dcc7dc1971031c8bae9141737bded575a36d368945fcf8f6",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "((24+10)/2)*((24-10)/2)",
+      "reason": "Sum24 and difference10 give17,7, product119."
+    },
+    "computed": "119",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/4/1",
+    "sourceDigest": "a463d25933262ed18b03817d6d69bd29efd9da222b70d36e45b474ef6488c979",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "200-(1130-4*200)/3",
+      "reason": "Ticket baseline method gives requested cheap/expensive count or count difference. All counts integral feasible."
+    },
+    "computed": "90",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/4/2",
+    "sourceDigest": "27488334123dd236e1195173a177ba71a6eaca517a84fe109713d7c329214af2",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "150-(1070-5*150)/4",
+      "reason": "Ticket baseline method gives requested cheap/expensive count or count difference. All counts integral feasible."
+    },
+    "computed": "70",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/4/3",
+    "sourceDigest": "5633d93c9b7dc512b0c41745a4176add72546a564339d22fdee496f912970b3b",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(845-3*140)/5",
+      "reason": "Ticket baseline method gives requested cheap/expensive count or count difference. All counts integral feasible."
+    },
+    "computed": "85",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/4/4",
+    "sourceDigest": "aea033ec06f74ab7ed0b95c88d6909707d38203c93de302c397dc6d57a865b6d",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "90-2*(740-6*90)/5",
+      "reason": "Ticket baseline method gives requested cheap/expensive count or count difference. All counts integral feasible."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/6/1",
+    "sourceDigest": "3cd62a4bc146d9c96e37c88ad28bb906138eaf18581e7072723fe00b35af90b5",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(3)",
+      "reason": "First equations proportional consistent; second proportional inconsistent24vs30; third proportional consistent; fourth determinant-10 nonzero gives(4,2)."
+    },
+    "computed": "(position, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/6/2",
+    "sourceDigest": "16827d778cf91109a16c56dcc138c9eece33bb732ce6b73e52003eb6d929ae18",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(1)",
+      "reason": "First equations proportional consistent; second proportional inconsistent24vs30; third proportional consistent; fourth determinant-10 nonzero gives(4,2)."
+    },
+    "computed": "(position, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/6/3",
+    "sourceDigest": "c3b84381145f765da62add8d1a9d6693568a4cf3bd7da89ac306dc66c71f817a",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(2)",
+      "reason": "First equations proportional consistent; second proportional inconsistent24vs30; third proportional consistent; fourth determinant-10 nonzero gives(4,2)."
+    },
+    "computed": "(position, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/6/4",
+    "sourceDigest": "c7da39fba1ba1365fd6dcfa27cb74a53ffb938c16556e924ca5eb43c0c479c09",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(0)",
+      "reason": "First equations proportional consistent; second proportional inconsistent24vs30; third proportional consistent; fourth determinant-10 nonzero gives(4,2)."
+    },
+    "computed": "(position, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/7/1",
+    "sourceDigest": "2c8124b03f361fc32738ec0445cc5a0dbfd6595b954b3c84bf8030f801607920",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "14+6/2",
+      "reason": "Numbers are mean plus/minus half difference."
+    },
+    "computed": "17",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/7/2",
+    "sourceDigest": "fdf5d75ce36b8607b8706e412a0db9175b2c109d8e6cf979051a62054356b4f1",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "20+8/2",
+      "reason": "Numbers are mean plus/minus half difference."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/7/3",
+    "sourceDigest": "d5eaab422a7f409b2909981431b6a20380b7e917ed3499ef72ffc5f1ae9e01fe",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "16-6/2",
+      "reason": "Numbers are mean plus/minus half difference."
+    },
+    "computed": "13",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/7/4",
+    "sourceDigest": "c70507d1e04ea49864011dd617bb7c41ff68cf26cce76f06ef985d9c82e6ec50",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "25+12/2",
+      "reason": "Numbers are mean plus/minus half difference."
+    },
+    "computed": "31",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/10/1",
+    "sourceDigest": "12e923925c4320fd2aa83c7d1cbff811ed651d0b4d04c24f8b7bd090c9525702",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "3*5",
+      "reason": "Right side must match proportional scale. Last coefficient rows proportional for every k, hence never exactly one solution."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/10/2",
+    "sourceDigest": "ee87d1f40f9920eb9a39f5c56a3ac291cf95b9944e25937368cc5c80e6ac5c72",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "4*7",
+      "reason": "Right side must match proportional scale. Last coefficient rows proportional for every k, hence never exactly one solution."
+    },
+    "computed": "28",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/10/3",
+    "sourceDigest": "eb53592c87c317a75fd247fdec436537240519076b11dfdd7bc145b2ad239788",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "3*9",
+      "reason": "Right side must match proportional scale. Last coefficient rows proportional for every k, hence never exactly one solution."
+    },
+    "computed": "27",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/10/4",
+    "sourceDigest": "3929fd7b09dc77ea2b18a3d3df137231e2e8d4b3691bf5854bd9c9c5e17e316f",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "P(3)",
+      "reason": "Right side must match proportional scale. Last coefficient rows proportional for every k, hence never exactly one solution."
+    },
+    "computed": "(position, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/11/1",
+    "sourceDigest": "4c66f3aba8c248053c99e36abd6ac7c19021f2aaa3146f04864fd5693304e8de",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(305-5*25)/20",
+      "reason": "Coin excess method in cents; last asks total quarter value dollars, not coin count. Feasible counts9,17,7low,14quarters."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/11/2",
+    "sourceDigest": "e49420cd782eec08fd8e419b04e183d0b0eee65f6ec94ab044c7636ef96620f1",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(555-10*30)/15",
+      "reason": "Coin excess method in cents; last asks total quarter value dollars, not coin count. Feasible counts9,17,7low,14quarters."
+    },
+    "computed": "17",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/11/3",
+    "sourceDigest": "811543f5acfbe6ef21404a9ff28bc10a2663713257a5876ef5236435b7f98aea",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "20-(165-5*20)/5",
+      "reason": "Coin excess method in cents; last asks total quarter value dollars, not coin count. Feasible counts9,17,7low,14quarters."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/11/4",
+    "sourceDigest": "1f51a66d41a385f9dfd5ee6240129a8c424ffab24b3f407c6fcb58f4df2b9b22",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "25*(450-10*24)/15/100",
+      "reason": "Coin excess method in cents; last asks total quarter value dollars, not coin count. Feasible counts9,17,7low,14quarters."
+    },
+    "computed": "7/2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/12/1",
+    "sourceDigest": "41bcbff855c69e8689eb0fe4d75872176db06b4bfae8dfe3e07387b704638066",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(24+28+26)/2-24",
+      "reason": "Total equals half of pair sums; subtract appropriate pair to obtain oldest/youngest, or give total."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/12/2",
+    "sourceDigest": "5f8f0e8d66b127907ae19838d5482b86d1ba672983410cb10c24862724c2d005",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(17+25+22)/2-25",
+      "reason": "Total equals half of pair sums; subtract appropriate pair to obtain oldest/youngest, or give total."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/12/3",
+    "sourceDigest": "c65cd3c3eaed8c94c27bd13a3216c6b5ac58ac245a6fe7954a7a8be91456c766",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(23+19+20)/2-19",
+      "reason": "Total equals half of pair sums; subtract appropriate pair to obtain oldest/youngest, or give total."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/challenge/12/4",
+    "sourceDigest": "fd9a4c76cefb6c12bfa81efb48c77de5fabb958efd3728c7255d8e630ea3bbcb",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "(14+23+19)/2",
+      "reason": "Total equals half of pair sums; subtract appropriate pair to obtain oldest/youngest, or give total."
+    },
+    "computed": "28",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/1/1",
+    "sourceDigest": "2cc88b19ae3db6f99d2c561c3536ad91ca5d737f8cc028df985550a5f52ef753",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(8,6)",
+      "reason": "Sum/difference solution((S+D)/2,(S-D)/2), nonzero determinant."
+    },
+    "computed": "(values, 8, 6)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/1/2",
+    "sourceDigest": "50c04672ac4b7373a1372148d65d9c3cdfabe7ac8cf47fb506887ebfe3e90c71",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(13,7)",
+      "reason": "Sum/difference solution((S+D)/2,(S-D)/2), nonzero determinant."
+    },
+    "computed": "(values, 13, 7)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/1/3",
+    "sourceDigest": "c2f56efbd7ee86909c8d51434e697fdfa3aac8b9a5f576c719852d0fed518f23",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(12,3)",
+      "reason": "Sum/difference solution((S+D)/2,(S-D)/2), nonzero determinant."
+    },
+    "computed": "(values, 12, 3)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/1/4",
+    "sourceDigest": "1b209d94b9fd5d79ab716689a0d346bae31ed83b08f3e3f9e6079a21f69fc613",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(3,6)",
+      "reason": "Sum/difference solution((S+D)/2,(S-D)/2), nonzero determinant."
+    },
+    "computed": "(values, 3, 6)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/2/1",
+    "sourceDigest": "44b59f656f73f01da7399de579de44cbc656c82f3cb9a99854c77c15e34adf00",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(7,11)",
+      "reason": "Substitute dependent variable into sum:2x+4=18,2x+6=24,2y-5=21,4x-2=18."
+    },
+    "computed": "(values, 7, 11)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/2/2",
+    "sourceDigest": "6fd52407466ea751eb100ef2bc97c02c8f62947e289ca59747768170f9a0e6e4",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(9,15)",
+      "reason": "Substitute dependent variable into sum:2x+4=18,2x+6=24,2y-5=21,4x-2=18."
+    },
+    "computed": "(values, 9, 15)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/2/3",
+    "sourceDigest": "ca9bba684d1b8f980d8ac729a566c995860c962e2790a8bcc24006928037b471",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(8,13)",
+      "reason": "Substitute dependent variable into sum:2x+4=18,2x+6=24,2y-5=21,4x-2=18."
+    },
+    "computed": "(values, 8, 13)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/2/4",
+    "sourceDigest": "8b14acc340c8628c9689183551e65f092184b0bc14a429cdcc802ea6a6f9843b",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(5,13)",
+      "reason": "Substitute dependent variable into sum:2x+4=18,2x+6=24,2y-5=21,4x-2=18."
+    },
+    "computed": "(values, 5, 13)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/3/1",
+    "sourceDigest": "cb28882c80bec41e183b705d364c3af30e3c2e4ec1f9dd569a39bcfd4946d74a",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(5,3)",
+      "reason": "Subtract equations: x=5,2x=8,3y=12,2a=12; back substitute gives ordered remaining variable."
+    },
+    "computed": "(values, 5, 3)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/3/2",
+    "sourceDigest": "785bf9aed80635c28265130e2f184a3a1eacb0c10d6a99f55ec97ed9ea975c31",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(4,5)",
+      "reason": "Subtract equations: x=5,2x=8,3y=12,2a=12; back substitute gives ordered remaining variable."
+    },
+    "computed": "(values, 4, 5)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/3/3",
+    "sourceDigest": "be6d0ffbbb47b2c0d2e7f9fbea71606e7c08daaf305f86cdc819295caa47d867",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(7,4)",
+      "reason": "Subtract equations: x=5,2x=8,3y=12,2a=12; back substitute gives ordered remaining variable."
+    },
+    "computed": "(values, 7, 4)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/3/4",
+    "sourceDigest": "3345e644fba6214d69f97378b6af4cf74527e84600085eb4fe663030eccc1249",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(6,2)",
+      "reason": "Subtract equations: x=5,2x=8,3y=12,2a=12; back substitute gives ordered remaining variable."
+    },
+    "computed": "(values, 6, 2)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/4/1",
+    "sourceDigest": "8f6d23d7c346066e5f4a1d3e833e8a05ed891a12b95f1bb43412ea2f03a05cf6",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(9,1,8,4,5)",
+      "reason": "Displayed distinct examples each satisfy x+y9,x+y12,x-y5,2x+y10 respectively. Answers are examples, not complete finite solution sets."
+    },
+    "computed": "(values, 9, 1, 8, 4, 5)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/4/2",
+    "sourceDigest": "b5716a453ef144e2e9436c6be22b7a7da52774e4115b9e56cb38ce889f8559f0",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(12,2,10,5,7)",
+      "reason": "Displayed distinct examples each satisfy x+y9,x+y12,x-y5,2x+y10 respectively. Answers are examples, not complete finite solution sets."
+    },
+    "computed": "(values, 12, 2, 10, 5, 7)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/4/3",
+    "sourceDigest": "a70420d133026563d29613f9de9d0750f0eb9dd6065e028fa46922e659403c0d",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(5,6,1,9,4)",
+      "reason": "Displayed distinct examples each satisfy x+y9,x+y12,x-y5,2x+y10 respectively. Answers are examples, not complete finite solution sets."
+    },
+    "computed": "(values, 5, 6, 1, 9, 4)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/4/4",
+    "sourceDigest": "1f7e0ded312eadc1850019c21f254f35f06e2b4ec84ee8e4c396e1ce6d15317e",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(1,8,3,4)",
+      "reason": "Displayed distinct examples each satisfy x+y9,x+y12,x-y5,2x+y10 respectively. Answers are examples, not complete finite solution sets."
+    },
+    "computed": "(values, 1, 8, 3, 4)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/5/1",
+    "sourceDigest": "96b41764c7ba21a22d725666b1b09176208c6b954dce85f5b131338a0b6ec254",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(6,4)",
+      "reason": "Price/count systems: expensive counts(52-40)/2=6,(31-24)=7,(99-75)/4=6,(136-100)/3=12. Complement counts4,5,9,8. Last difference4."
+    },
+    "computed": "(values, 6, 4)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/5/2",
+    "sourceDigest": "aa2f88d62ff5cd1622e4a5eb66ecb214ac17234c95bb09f3b78648908b6612de",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(7,5)",
+      "reason": "Price/count systems: expensive counts(52-40)/2=6,(31-24)=7,(99-75)/4=6,(136-100)/3=12. Complement counts4,5,9,8. Last difference4."
+    },
+    "computed": "(values, 7, 5)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/5/3",
+    "sourceDigest": "9f6557a5ac04151009c4ac6397c1ab991a8db1365699cea4cdfdef047657a1ec",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(6,9)",
+      "reason": "Price/count systems: expensive counts(52-40)/2=6,(31-24)=7,(99-75)/4=6,(136-100)/3=12. Complement counts4,5,9,8. Last difference4."
+    },
+    "computed": "(values, 6, 9)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/5/4",
+    "sourceDigest": "06adf180f0823216b31fd2ce841a3e995097f284d259cc91e530515094ed77a0",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(4,12,8)",
+      "reason": "Price/count systems: expensive counts(52-40)/2=6,(31-24)=7,(99-75)/4=6,(136-100)/3=12. Complement counts4,5,9,8. Last difference4."
+    },
+    "computed": "(values, 4, 12, 8)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/6/1",
+    "sourceDigest": "8a69cdc9e536087be55b796cb8b3d4a69141d5ac2e88239b3cfc90507a62249f",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(10,6)",
+      "reason": "Clear denominators then solve sum/difference16,4;18,6;20,10;20,-8 respectively."
+    },
+    "computed": "(values, 10, 6)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/6/2",
+    "sourceDigest": "f51990f96e805abff7a91c7798920bb78ac46ba8935f36f3841385234efe2c72",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(12,6)",
+      "reason": "Clear denominators then solve sum/difference16,4;18,6;20,10;20,-8 respectively."
+    },
+    "computed": "(values, 12, 6)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/6/3",
+    "sourceDigest": "15598865683b48b8b25451160d8c5f3d75598fac41bd95803ec34a23a23e466e",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(15,5)",
+      "reason": "Clear denominators then solve sum/difference16,4;18,6;20,10;20,-8 respectively."
+    },
+    "computed": "(values, 15, 5)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/6/4",
+    "sourceDigest": "047ff629ba1ff29db65dc23ecce8bbe518180828c9ab20b2504b239ff4444386",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(6,14)",
+      "reason": "Clear denominators then solve sum/difference16,4;18,6;20,10;20,-8 respectively."
+    },
+    "computed": "(values, 6, 14)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/7/1",
+    "sourceDigest": "326b0e53c74fa61b4c054a9b54cbf0f5b6dc889385d7cf825de393288c25a899",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(6,4)",
+      "reason": "Eliminate y:15x+10y130 minus4x+10y64 gives11x66; y4."
+    },
+    "computed": "(values, 6, 4)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/7/2",
+    "sourceDigest": "54c87e7965e37e28412897a6246b7fc8ff544a44dfac459a8cd247a6d4cb7c0c",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(6,5)",
+      "reason": "Eliminate y:4x+6y54 minus15x+6y120 gives-11x-66; y5."
+    },
+    "computed": "(values, 6, 5)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/7/4",
+    "sourceDigest": "1709b01bf90e2dd11eb8eb6fb06b242151452c5c0cf7e12bfab6f6da4b4e5d75",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(7,3)",
+      "reason": "Eliminate q:15p+20q165 minus8p+20q116 gives7p49; q3."
+    },
+    "computed": "(values, 7, 3)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/8/1",
+    "sourceDigest": "63693aeb5c31046ed80eb54ee4dd51eb0266bfde3b9591f752442e044a1281b5",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(10,8)",
+      "reason": "Higher denomination count from(totalValue-low*count)/gap gives8,8,12,9; complement gives10,7,9,7, all nonnegative integers."
+    },
+    "computed": "(values, 10, 8)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/8/2",
+    "sourceDigest": "d8999c22887fa95816948ead4985a2a4ff78e70fbd209ee2a2a15f6f71d60e4e",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(7,8)",
+      "reason": "Higher denomination count from(totalValue-low*count)/gap gives8,8,12,9; complement gives10,7,9,7, all nonnegative integers."
+    },
+    "computed": "(values, 7, 8)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/8/3",
+    "sourceDigest": "e48fce350405d1db8a94be59f4773b97d0c8c7e19d4cb91898e4776989dd9c80",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(9,12)",
+      "reason": "Higher denomination count from(totalValue-low*count)/gap gives8,8,12,9; complement gives10,7,9,7, all nonnegative integers."
+    },
+    "computed": "(values, 9, 12)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/8/4",
+    "sourceDigest": "93dd03a3bbcb485fa35e19fc588808364891779a0487459865a28ed9fdc93bb4",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(7,9)",
+      "reason": "Higher denomination count from(totalValue-low*count)/gap gives8,8,12,9; complement gives10,7,9,7, all nonnegative integers."
+    },
+    "computed": "(values, 7, 9)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/9/1",
+    "sourceDigest": "98ce6ffa519dc3e6fc4c4433fc2f3402b68e4dd93e2cfdcfc5b0fe3e6a335341",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(6,7,9)",
+      "reason": "Total is half of pair sums; subtract opposite pair to obtain each named variable in requested order."
+    },
+    "computed": "(values, 6, 7, 9)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/9/2",
+    "sourceDigest": "a160b2c197a8213b4cb711e7b6f73871226682e15109b8866b23ec9f8a1f7ae8",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(3,8,6)",
+      "reason": "Total is half of pair sums; subtract opposite pair to obtain each named variable in requested order."
+    },
+    "computed": "(values, 3, 8, 6)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/9/3",
+    "sourceDigest": "d4c9d518d051fdf6427a801c1bfb2853fc4ae2f30f01c496a840fdc0e253d6e2",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(8,12,5)",
+      "reason": "Total is half of pair sums; subtract opposite pair to obtain each named variable in requested order."
+    },
+    "computed": "(values, 8, 12, 5)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/9/4",
+    "sourceDigest": "dcbb7b9706e59564516973c12b76ae81386802a35541045739fd2b70fd42e91e",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(6,13,10)",
+      "reason": "Total is half of pair sums; subtract opposite pair to obtain each named variable in requested order."
+    },
+    "computed": "(values, 6, 13, 10)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/10/1",
+    "sourceDigest": "0650ff6b0d270a40fe7274ef4fd0d4b32cc9725f872fee780ac5aa2f61134d7c",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(14,14)",
+      "reason": "Second coefficient row proportional to first. First two no solution precisely except k14 or10; third infinite precisely k45. Fourth never unique: infinite for k4, none otherwise. Prose qualifiers explicitly checked."
+    },
+    "computed": "(values, 14, 14)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/10/2",
+    "sourceDigest": "b4a99fe24dc9652c51fd3b8d0c9ff02833c4c928394209acf95008ccbd7b5ff8",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(10,10)",
+      "reason": "Second coefficient row proportional to first. First two no solution precisely except k14 or10; third infinite precisely k45. Fourth never unique: infinite for k4, none otherwise. Prose qualifiers explicitly checked."
+    },
+    "computed": "(values, 10, 10)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/10/3",
+    "sourceDigest": "d6e20dec8415e4c091dafd6b349d89c126aed36c10f6ebb461f9b1eb1005be5a",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(45)",
+      "reason": "Second coefficient row proportional to first. First two no solution precisely except k14 or10; third infinite precisely k45. Fourth never unique: infinite for k4, none otherwise. Prose qualifiers explicitly checked."
+    },
+    "computed": "(values, 45)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  },
+  {
+    "id": "intro-algebra/5/worksheet/10/4",
+    "sourceDigest": "d9acd6f33370a120eb57fcb4c2a335e017e1ea4431d408567d64b70cb0d37328",
+    "status": "verified",
+    "method": "Independent linear system or counting derivation; complete MC option review",
+    "evidence": {
+      "expression": "V(4)",
+      "reason": "Second coefficient row proportional to first. First two no solution precisely except k14 or10; third infinite precisely k45. Fourth never unique: infinite for k4, none otherwise. Prose qualifiers explicitly checked."
+    },
+    "computed": "(values, 4)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Explanation prose not independently checked sentence by sentence."
+    ]
+  }
+]

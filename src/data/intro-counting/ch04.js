@@ -257,6 +257,16 @@ const s44 = {
     ],
     examples: [
       {
+        problem: 'Why do the numbers $\\binom{8}{k}$ rise to the middle and then fall? Is symmetry alone enough?',
+        steps: [
+          'Compute the row for $k=0,1,2,3,4$: $1,8,28,56,70$. Complement symmetry supplies the other half: $56,28,8,1$.',
+          'The factorial formula gives the next value from the current one by multiplying by $(8-k)/(k+1)$. From $k=2$ to $k=3$, for example, multiply $28$ by $6/3$ to get $56$.',
+          'In general the multiplier is $(n-k)/(k+1)$. It is greater than one before the middle, equal to one between two middle entries when $n$ is odd, and less than one after the middle.',
+          'Thus the maximum is in the middle, and different positions have equal values only when their indices add to $n$. Symmetry gives equal mirror entries; the increasing-then-decreasing check rules out extra equal entries.',
+        ],
+        answer: 'The row peaks at $70$; consecutive-value comparison justifies the general pattern.',
+      },
+      {
         problem: 'Compute $\\binom{16}{15}$ and $\\binom{24}{22}$.',
         steps: [
           'Flip each bottom number to $n - k$: $\\binom{16}{15} = \\binom{16}{1}$ and $\\binom{24}{22} = \\binom{24}{2}$.',

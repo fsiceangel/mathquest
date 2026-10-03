@@ -482,7 +482,7 @@ const s93 = [
         'Split along the dashed diagonal $\\overline{EG}$. Triangle $EFG$ has base $EF = 9$ on the $x$-axis and height $5$ (the $y$-coordinate of $G$): area $\\frac{1}{2} \\cdot 9 \\cdot 5 = 22.5$. Triangle $EGH$ has base $EH = 3$ on the $y$-axis and height $7$ (the $x$-coordinate of $G$): area $\\frac{1}{2} \\cdot 3 \\cdot 7 = 10.5$. Total: $22.5 + 10.5 = 33$ ✓. Check a second, independent way by boxing: the $9 \\times 5$ bounding rectangle holds $45$; removing the triangle past $\\overline{FG}$ (legs $2$ and $5$, area $5$) and the triangle above $\\overline{GH}$ (legs $7$ and $2$, area $7$) leaves $45 - 5 - 7 = 33$ ✓. (The choice $45$ is TAKING THE WHOLE BOUNDING RECTANGLE ✗; $66$ is FORGETTING THE $\\frac{1}{2}$ IN THE SHOELACE FORMULA ✗; $40$ is SUBTRACTING ONLY ONE CORNER TRIANGLE ✗.)',
     },
     {
-      q: 'A kite-shaped park occupies the quadrilateral with corners $(0, 0)$, $(6, 0)$, $(8, 6)$, and $(0, 8)$ on the city grid, as shown. Find the park’s area.',
+      q: 'A four-sided park occupies the quadrilateral with corners $(0, 0)$, $(6, 0)$, $(8, 6)$, and $(0, 8)$ on the city grid, as shown. Find the park’s area.',
       fig: {
         view: [-1, -1, 9, 9],
         elems: [

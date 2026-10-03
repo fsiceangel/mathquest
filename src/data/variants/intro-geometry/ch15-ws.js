@@ -219,7 +219,7 @@ const worksheet = [
         'Convert to the radius before anything else: $r = \\frac{36}{2} = 18$. Then $V = \\frac{4}{3}\\pi \\cdot 18^3 = \\frac{4}{3} \\cdot 5832\\pi = 4 \\cdot 1944\\pi = 7776\\pi$ ✓. Second route, through the can the ball just fits into: a cylinder that touches the ball at the sides, the top, and the bottom has radius $18$ and height equal to the diameter $36$, so it holds $\\pi \\cdot 18^2 \\cdot 36 = 324\\pi \\cdot 36 = 11664\\pi$. A snug ball fills exactly two thirds of its can, and $\\frac{2}{3} \\cdot 11664\\pi = 7776\\pi$ ✓. Feeding the diameter into the formula instead of the radius would multiply the answer by $8$, since the radius is cubed.',
     },
     {
-      q: 'A hollow glass globe has diameter $30$. Find the volume of space it encloses.',
+      q: 'A hollow glass globe has inner diameter $30$. Find the volume of space it encloses.',
       answer: '$4500\\pi$',
       solution:
         'Convert to the radius first: $r = \\frac{30}{2} = 15$. Then $V = \\frac{4}{3}\\pi \\cdot 15^3 = \\frac{4}{3} \\cdot 3375\\pi = 4 \\cdot 1125\\pi = 4500\\pi$ ✓. Second route, through the can the globe just fits into: a cylinder touching the globe all around has radius $15$ and height equal to the diameter $30$, holding $\\pi \\cdot 225 \\cdot 30 = 6750\\pi$. A snug ball takes up two thirds of its can, and $\\frac{2}{3} \\cdot 6750\\pi = 4500\\pi$ ✓.',
@@ -242,7 +242,7 @@ const worksheet = [
         'Peel the band off and cut it with one straight snip: it flattens into a rectangle. Its height is the candle’s height $7$, and its width is whatever wrapped once around, the circumference $2\\pi \\cdot 6 = 12\\pi$. Area: $12\\pi \\cdot 7 = 84\\pi$ ✓. Second route, starting from the whole closed can and taking the lids away: a sealed cylinder of radius $6$ and height $7$ has surface $2\\pi r^2 + 2\\pi rh = 2\\pi \\cdot 6 \\cdot (6 + 7) = 12\\pi \\cdot 13 = 156\\pi$. The two circular ends account for $2 \\cdot \\pi \\cdot 6^2 = 72\\pi$ of that, and a band never covers them, so the band is $156\\pi - 72\\pi = 84\\pi$ ✓.',
     },
     {
-      q: 'A printed strip wraps exactly once around the side of a wide biscuit tin of radius $11$ and height $5$, with no overlap. Find the area of the strip.',
+      q: 'A printed strip wraps exactly once around the side of a wide biscuit tin of radius $11$ and height $5$, covering the whole curved side with no overlap. Find the area of the strip.',
       answer: '$110\\pi$',
       solution:
         'Unrolled, the strip is a rectangle: its height is the tin’s height $5$, and its width is the distance once around the tin, $2\\pi \\cdot 11 = 22\\pi$. Area: $22\\pi \\cdot 5 = 110\\pi$ ✓. Second route, starting from the whole closed tin and taking the lids away: sealed, the tin has surface $2\\pi r(r + h) = 2\\pi \\cdot 11 \\cdot (11 + 5) = 22\\pi \\cdot 16 = 352\\pi$. Its top and bottom are circles of $\\pi \\cdot 121 = 121\\pi$ each, $242\\pi$ together, and the strip covers none of that: $352\\pi - 242\\pi = 110\\pi$ ✓. On such a wide, low tin the two lids are more than twice the strip — worth noticing before adding anything by habit.',
@@ -356,21 +356,21 @@ const worksheet = [
   //          Lanes: tank r 10 -> 72/25; tank r 12 -> 2; tank r 15 -> 32/25.
   [
     {
-      q: 'A cylindrical rain barrel of radius $10$ holds water. A solid ball of radius $6$ is lowered in until it is completely under the surface. By how much does the water level rise?',
+      q: 'A cylindrical rain barrel of radius $10$ holds water. A solid ball of radius $6$ is lowered in until it is completely under the surface. By how much does the water level rise? No liquid spills or overflows.',
       fig: tankBallFig(10, 14, 6, 6, 'r = 10', '6'),
       answer: '$\\frac{72}{25}$',
       solution:
         'The ball shoves aside exactly its own volume of water: $\\frac{4}{3}\\pi \\cdot 6^3 = \\frac{4}{3} \\cdot 216\\pi = 288\\pi$. That water has nowhere to go but up, spreading as a thin layer across the barrel’s whole base, which has area $\\pi \\cdot 10^2 = 100\\pi$. So the rise is $\\frac{288\\pi}{100\\pi} = \\frac{288}{100} = \\frac{72}{25}$ ✓. Second route, by swapping the ball for a can of the same volume and then spreading it wider: the smallest cylinder around the ball has radius $6$ and height $12$, holding $\\pi \\cdot 36 \\cdot 12 = 432\\pi$, and the snug ball fills two thirds of it, $288\\pi$. Since $288\\pi = \\pi \\cdot 36 \\cdot 8$, the ball displaces just as much as a can of radius $6$ standing $8$ deep. Pour that can into a barrel of radius $10$ instead and the base it must cover grows by $\\left(\\frac{10}{6}\\right)^2$, so the depth shrinks by the same factor: rise $= 8 \\cdot \\frac{36}{100} = \\frac{288}{100} = \\frac{72}{25}$ ✓, a shade under $3$.',
     },
     {
-      q: 'A cylindrical fish tank of radius $12$ contains water. A solid stone ornament, a ball of radius $6$, is set on the bottom and is completely covered by the water. By how much does the water level rise?',
+      q: 'A cylindrical fish tank of radius $12$ contains water. A solid stone ornament, a ball of radius $6$, is set on the bottom and is completely covered by the water. By how much does the water level rise? No liquid spills or overflows.',
       fig: tankBallFig(12, 15, 6, 6, 'r = 12', '6'),
       answer: '$2$',
       solution:
         'The ornament pushes aside its own volume of water: $\\frac{4}{3}\\pi \\cdot 6^3 = 288\\pi$. That water rises as an even layer over the tank’s whole base, of area $\\pi \\cdot 12^2 = 144\\pi$, so the rise is $\\frac{288\\pi}{144\\pi} = 2$ ✓. Second route, by swapping the ball for a can of the same volume and then spreading it wider: the smallest cylinder around the ball has radius $6$ and height $12$, holding $432\\pi$, of which the snug ball is two thirds, $288\\pi$; and since $288\\pi = \\pi \\cdot 36 \\cdot 8$, the ball displaces as much as a can of radius $6$ and depth $8$. Spread over a tank of radius $12$, the base is $\\left(\\frac{12}{6}\\right)^2 = 4$ times as large, so the depth is a quarter as much: $8 \\cdot \\frac{1}{4} = 2$ ✓.',
     },
     {
-      q: 'A cylindrical drum of radius $15$ is partly filled with water. A solid ball of radius $6$ is dropped in and sinks right under the surface. By how much does the water level rise?',
+      q: 'A cylindrical drum of radius $15$ is partly filled with water. A solid ball of radius $6$ is dropped in and sinks right under the surface. By how much does the water level rise? No liquid spills or overflows.',
       fig: tankBallFig(15, 16, 6, 6, 'r = 15', '6'),
       answer: '$\\frac{32}{25}$',
       solution:

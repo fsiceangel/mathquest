@@ -1847,7 +1847,7 @@ const challenge = [
 
 const worksheet = [
   {
-    q: 'Points $A$, $O$, $B$ lie on a line, and $\\angle AOC = 143^\\circ$. Find $\\angle COB$.',
+    q: 'Points $A$, $O$, $B$ lie on a line with $O$ between $A$ and $B$, and $\\angle AOC = 143^\\circ$. Find $\\angle COB$.',
     answer: '$37^\\circ$',
     solution: 'The two angles form a linear pair: $\\angle COB = 180^\\circ - 143^\\circ = 37^\\circ$.',
   },

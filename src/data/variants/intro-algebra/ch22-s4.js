@@ -253,34 +253,41 @@ const challenge = [
     },
   ],
 
-  // c9 — the infinite power tower. It cannot simply be re-keyed to a bigger
-  //      target: a tower converges only for bases from about $0.066$ up to
-  //      $e^{1/e} \approx 1.4447$, and its value can never exceed $e \approx
-  //      2.718$. So v1 aims BELOW the base problem, and v2 and v3 run the
-  //      question backwards — v2 from a base to the settled value (with the
-  //      classic $4$ trap), v3 straight at the convergence ceiling.
+  // c9 — conditional self-similarity; convergence is given.
   [
     {
-      q: 'If $x^{x^{x^{\\cdot^{\\cdot^{\\cdot}}}}} = \\frac{1}{2}$, what is $x$?',
-      choices: ['$\\frac{1}{2}$', '$\\frac{1}{\\sqrt{2}}$', '$\\frac{1}{16}$', '$\\frac{1}{4}$'],
-      answer: 3,
-      solution:
-        'The tower sitting on top of the bottom $x$ is the whole tower again, and the whole tower equals $\\frac{1}{2}$. So the equation collapses to $x^{1/2} = \\frac{1}{2}$, that is $\\sqrt{x} = \\frac{1}{2}$, and squaring gives $x = \\frac{1}{4}$. Second route, by building the tower from a base of $\\frac{1}{4}$ and watching it settle. The partial towers are $0.25$, then $0.25^{0.25} \\approx 0.707$, then $0.25^{0.707} \\approx 0.375$, then $0.25^{0.375} \\approx 0.594$, then $\\approx 0.439$, $\\approx 0.544$, $\\approx 0.470$, $\\approx 0.521$ — the values wobble above and below and squeeze in on $0.5$ ✓. That wobble is what a base smaller than $1$ does: each new layer flips the tower to the other side of its final value, and the flips shrink. It settles at all because $\\frac{1}{4}$ is comfortably above the lower limit for these towers, which sits near $0.066$. (Choice $\\frac{1}{2}$ ✗ reads $x$ straight off the tower’s value, which would need $x$ to equal $x^{1/2}$. Choice $\\frac{1}{\\sqrt{2}}$ ✗ takes a square root where the equation calls for squaring — that is the shape of the answer when the tower equals $2$, not $\\frac{1}{2}$. Choice $\\frac{1}{16}$ ✗ squares twice, undoing the exponent $\\frac{1}{2}$ as though it were $\\frac{1}{4}$.)',
+      "q": "An infinite tower $x^{x^{x^{\\cdot^{\\cdot^{\\cdot}}}}}$ is known to converge to $\\frac{1}{2}$. What is $x$?",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{\\sqrt{2}}$",
+        "$\\frac{1}{16}$",
+        "$\\frac{1}{4}$"
+      ],
+      "answer": 3,
+      "solution": "Let the settled value be $T=\\frac{1}{2}$. The tower above its bottom base has the same limit, so $x^T=T$, giving $\\sqrt{x}=\\frac{1}{2}$ and $x=\\frac{1}{4}$ ✓. Alternatively, substituting each offered base into $\\sqrt{x}=\\frac{1}{2}$ leaves only $x=\\frac{1}{4}$ ✓. Convergence is given, so checking a finite list of partial towers is unnecessary. COPYING THE LIMIT gives $\\frac{1}{2}$ ✗; TAKING ANOTHER ROOT gives $\\frac{1}{\\sqrt{2}}$ instead of undoing the square root ✗; SQUARING TWICE gives $\\frac{1}{16}$ ✗."
     },
     {
-      q: 'The infinite tower $x^{x^{x^{\\cdot^{\\cdot^{\\cdot}}}}}$ is built with $x = \\sqrt{2}$. What value does it settle at?',
-      choices: ['$2$', '$4$', '$\\sqrt{2}$', 'It grows without bound'],
-      answer: 0,
-      solution:
-        'Name the settled value $T$. The tower above the bottom $\\sqrt{2}$ is the whole tower, so $T = \\left(\\sqrt{2}\\right)^T$. Here is the twist: this equation has TWO solutions, since $\\left(\\sqrt{2}\\right)^2 = 2$ ✓ and $\\left(\\sqrt{2}\\right)^4 = 4$ ✓. The equation alone cannot choose between them — the tower does, by climbing from the bottom and stopping at the first value it reaches: $1.414$, then $1.632$, then $1.761$, then $1.840$, then $1.892$, then $1.926$, creeping up on $2$ ✓. So the value is $2$. Second route, proving the ceiling instead of computing: if some layer of the tower is less than $2$, the next layer is $\\left(\\sqrt{2}\\right)^{\\text{that}} < \\left(\\sqrt{2}\\right)^2 = 2$. The first layer, $\\sqrt{2} \\approx 1.414$, is less than $2$, so EVERY layer is less than $2$ ✓ — the tower is trapped below $2$ forever and can never reach $4$. Worth knowing: no tower of this kind ever exceeds about $2.718$, and towers with a base above roughly $1.4447$ do not settle at all. (Choice $4$ ✗ is the extra root of $T = \\left(\\sqrt{2}\\right)^T$ that the climb never reaches — the same kind of impostor a squaring step produces. Choice $\\sqrt{2}$ ✗ reports the base, as though stacking more layers changed nothing. Choice “it grows without bound” ✗ ignores the trap argument that pins every layer below $2$.)',
+      "q": "Starting with $t_1=\\sqrt{2}$, define $t_{n+1}=(\\sqrt{2})^{t_n}$. This sequence is known to converge. Which listed value is its limit?",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$\\sqrt{2}$",
+        "It grows without bound"
+      ],
+      "answer": 0,
+      "solution": "Every term is below $2$: the first is, and $t_n<2$ implies $(\\sqrt{2})^{t_n}< (\\sqrt{2})^2=2$. Thus the given limit is at most $2$. It must also satisfy $T=(\\sqrt{2})^T$. Among the listed values at most $2$, the value $2$ satisfies that equation, while $\\sqrt{2}$ does not: $(\\sqrt{2})^{\\sqrt{2}}>\\sqrt{2}$ because both the base and exponent exceed $1$. Hence the limit is $2$ ✓. The bound rules out $4$, even though $4$ is another fixed point; this is why the fixed-point equation alone is insufficient. WRONG FIXED POINT selects $4$ ✗; FIRST TERM selects $\\sqrt{2}$ ✗; IGNORING THE BOUND selects growth without bound ✗."
     },
     {
-      q: 'For one of these bases the infinite tower $x^{x^{x^{\\cdot^{\\cdot^{\\cdot}}}}}$ never settles down — its layers race away to infinity. Which base is it?',
-      choices: ['$\\sqrt[3]{3}$', '$\\sqrt{3}$', '$\\frac{1}{4}$', '$\\sqrt{2}$'],
-      answer: 1,
-      solution:
-        'A tower settles only for bases up to about $1.4447$; above that, each layer multiplies the exponent enough to outrun the last. Compare the four: $\\sqrt{2} \\approx 1.4142$ ✓, $\\sqrt[3]{3} \\approx 1.4422$ ✓ (just under the line), $\\frac{1}{4} = 0.25$ ✓, and $\\sqrt{3} \\approx 1.7321$ ✗ — over the limit. So $\\sqrt{3}$ is the runaway. Second route, by simply climbing the $\\sqrt{3}$ tower and watching: $1.732$, then $1.732^{1.732} \\approx 2.589$, then $1.732^{2.589} \\approx 4.15$, then $1.732^{4.15} \\approx 9.7$, then $1.732^{9.7} \\approx 205$, then astronomically more ✓. Each layer is bigger than the last by a wider margin, so nothing can pin it down. The other three do settle: the $\\sqrt{2}$ tower climbs to $2$, the $\\frac{1}{4}$ tower wobbles in on $\\frac{1}{2}$, and the $\\sqrt[3]{3}$ tower creeps up to about $2.48$. That last one is a warning worth carrying: a tower is capped near $2.718$, so no base whatsoever makes one equal $3$ — a target above the cap has no answer at all, however tidy the algebra looks. (Choice $\\sqrt[3]{3}$ ✗ is under the limit and settles, even though $\\sqrt[3]{3}$ is the answer to the FAKE equation “tower $= 3$”. Choice $\\frac{1}{4}$ ✗ is small, and small bases only wobble; they run away only below about $0.066$. Choice $\\sqrt{2}$ ✗ is the tamest base of the four.)',
-    },
+      "q": "An infinite tower $x^{x^{x^{\\cdot^{\\cdot^{\\cdot}}}}}$ is known to converge to $\\frac{3}{2}$. What is $x^3$?",
+      "choices": [
+        "$\\frac{3}{2}$",
+        "$\\frac{9}{4}$",
+        "$\\frac{27}{8}$",
+        "$3$"
+      ],
+      "answer": 1,
+      "solution": "The settled tower above the bottom base is again $\\frac{3}{2}$, so $x^{3/2}=\\frac{3}{2}$. Squaring both sides gives $x^3=\\frac{9}{4}$ ✓. Alternatively, solve for the base as $x=(\\frac{3}{2})^{2/3}$ and then cube: $x^3=(\\frac{3}{2})^2=\\frac{9}{4}$ ✓. COPYING THE LIMIT gives $\\frac{3}{2}$ ✗; CUBING THE LIMIT gives $\\frac{27}{8}$ even though its exponent must first be undone ✗; DOUBLING INSTEAD OF SQUARING gives $3$ ✗. Convergence is a premise; no convergence threshold is needed."
+    }
   ],
 
   // c10 — the product is NOT given: it has to be recovered from $x + y$ and

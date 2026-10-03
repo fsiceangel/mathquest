@@ -75,7 +75,7 @@ const problems = [
 
   // ---- Band C ----
   {
-    q: 'Five points $A, B, C, D, E$ lie around a loop, and the star in the figure is drawn by joining each point to the two points that are not next to it. The five points are not evenly spaced. What is the sum of the five marked angles at the tips $A, B, C, D, E$?',
+    q: 'Five points $A, B, C, D, E$ are the vertices of a convex pentagon, in that order. The star in the figure is drawn by joining each point to the two points that are not next to it. The five points are not evenly spaced. What is the sum of the five marked angles at the tips $A, B, C, D, E$?',
     fig: {
       view: [-12.5, -11, 13.5, 12],
       elems: [

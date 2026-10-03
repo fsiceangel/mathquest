@@ -12,6 +12,7 @@ import WorksheetView from './views/WorksheetView.jsx'
 import FamilyPage from './views/FamilyPage.jsx'
 import ProgressPage from './views/ProgressPage.jsx'
 import ArenaPage from './views/ArenaPage.jsx'
+import TransitionRun from './views/TransitionRun.jsx'
 import { AuthoredPaper, DrawnPaper, CheckpointRun } from './views/ArenaRunner.jsx'
 
 function useRoute() {
@@ -28,6 +29,7 @@ function useRoute() {
 }
 
 function resolve(route) {
+  if (route[0] === 'transition') return { view: <TransitionRun key={route[1]} setId={route[1]} />, accent: 'amber' }
   if (route[0] === 'arena') {
     if (route[1] === 'paper') return { view: <AuthoredPaper key={route[2]} paperId={route[2]} />, accent: 'amber' }
     if (route[1]) return { view: <DrawnPaper key={route[1]} modeId={route[1]} />, accent: 'amber' }

@@ -1,0 +1,7 @@
+# Counting chapter 11: full variant difficulty review
+
+2026-09-22: all 52 base stems and **156 variant stems** compared. Inspected products versus squares, dependent marginals, nonconstant indicators, signed stopping payoffs, inverse stopping expectations, order statistics and median distributions. Scope remains optional expected-value extension throughout, independent of numerical difficulty.
+
+The strongest departure is challenge #12 round 2: irregular face values remove the simple symmetry argument and require organizing ties and strict lower/upper median cases (L5). Squared counts and squared sums need cross terms or their actual distributions, not the square of the average (L4). Larger without-replacement stopping pools need more distribution work. Conversely, an independent product, a unique black token's position, number of reached trials, and the binary occurrence of any head reduce the demand and received lower levels.
+
+Payoff conventions are explicit in the variant stems (fee, returned fee, reward versus profit, first-win stopping); inspected routes honor those conventions. The cubic inverse expectation has an elementary guessed root plus strict-monotonicity uniqueness argument, so a general cubic solver is not required. No definite key error established. All stems were read, but only nontrivial routes were inspected in detail; full independent proof of every key and original-page comparison are not claimed.

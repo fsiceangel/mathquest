@@ -115,11 +115,11 @@ const s54 = [
         'Call the smaller $n$: $n + (n + 1) = 73$, so $2n = 72$ and $n = 36$. The integers are $36$ and $37$, and the question asks for the larger: $37$. Check: $36 + 37 = 73$. ✓ Answering $36$ stops at the variable instead of the question, and $\\frac{73}{2}$ forgets that the two integers are not equal.',
     },
     {
-      q: 'The two page numbers showing when a book lies open are consecutive, and they add up to $95$. What is the smaller page number?',
+      q: 'Nina reads two consecutively numbered pages of a book. Their page numbers add up to $95$. What is the smaller page number?',
       choices: ['$48$', '$\\frac{95}{2}$', '$94$', '$47$'],
       answer: 3,
       solution:
-        'Let the smaller page be $n$, so the facing page is $n + 1$. Then $2n + 1 = 95$, so $2n = 94$ and $n = 47$. The pages are $47$ and $48$. Check: $47 + 48 = 95$. ✓ The choice $48$ is the facing page, $94$ is the value of $2n$ before dividing, and $\\frac{95}{2}$ is not even a page number.',
+        'Let the smaller page number be $n$, so the next page number is $n + 1$. Then $2n + 1 = 95$, so $2n = 94$ and $n = 47$. The pages are $47$ and $48$. Check: $47 + 48 = 95$. ✓ The choice $48$ is the larger page number, $94$ is the value of $2n$ before dividing, and $\\frac{95}{2}$ is not even a page number.',
     },
   ],
   // p6 — two quantities differing by a fixed amount, asking for the smaller

@@ -1,0 +1,83 @@
+# Source-family coordinates; four independently transcribed stem calculations; shared mathematical method.
+7/7.1/1	R(4,6);R(9,12);R(10,25);R(21,14)	Reduce the two given part counts by their common divisor; preserve requested order.
+7/7.1/2	R(15,25);R(18,24);R(28,35);R(30,45)	Reduce each explicit ratio, preserving order.
+7/7.1/3	R(5,8);R(5,7+5);R(9,20-9);R(6,18)	Identify the requested numerator/denominator: wins/all, paperback/all, broken/unbroken, adults/all.
+7/7.1/4	12*3/4;10*5/2;24*8/3;28*4/7	Divide the known category count by its ratio part, then multiply by the requested part.
+7/7.1/5	35*3/(2+3);48*3/(3+5);56*4/(3+4);45*4/(4+5)	Divide total by total ratio parts; select larger, smaller, larger, smaller respectively.
+7/7.1/6	27*5/(4+5);32*5/(3+5);42*2/(5+2);54*4/(4+5)	Whole-to-part proportions with the category explicitly requested in each stem.
+7/7.1/7	20*2/5;12*7/3;32*3/4;45*2/5	Scale one known material to the other; last variant gives sand and asks cement.
+7/7.1/8	3/(3+7);4/(5+4);2/(2+9);5/(7+5)	Requested category divided by total ratio parts, not by the other category.
+7/7.1/9	18*7/(7-4);25*3/(8-3);28*9/(9-5);30*(2+7)/(7-2)	Difference determines one ratio unit; last variant asks sum instead of one part.
+7/7.1/10	R(6+5,9+5);R(8+4,12+4);R(9+3,6+3);R(10-5,15-5)	Apply additions or removals to actual counts before reducing the new ratio.
+7/7.2/1	2+3+5;4+5+6;1+3+7;2+2+5	Sum primitive ratio parts; gcd of 2,2,5 is 1, so 9 is minimum integral slices.
+7/7.2/2	R(6,9,12);R(10,15,25);R(12,20,28);R(28,35,42)	Reduce all three components by their joint gcd.
+7/7.2/3	60*3/(1+2+3);84*4/(1+2+4);60*2/(2+3+5);96*3/(1+3+4)	Scale the explicitly requested largest/smallest/middle share from total parts.
+7/7.2/4	R(3,7);R(4,11);R(6,10);R(8,14)	Select exactly the two named components, then reduce.
+7/7.2/5	90*3/(2+3+4);120*5/(3+4+5);140*2/(2+5+7);90*2/(1+2+2)	Middle/largest/smallest/each tied share uses the appropriate ratio component.
+7/7.2/6	R(3,7);R(5,11);R(9,7);R(5,3)	Shared middle ratio part already matches; final variant reverses requested category order.
+7/7.2/7	R(2*4,3*4,3*5);R(5*6,4*6,4*7);R(5*4,6*4,6*9);R(2*3,7*3,7*4)	For a:b=p:q and b:c=r:s, common triple is pr:qr:qs.
+7/7.2/8	180*4/(2+3+4);180*3/(1+2+3);180*2/(2+2+5);360*4/(1+2+3+4)	Use the stated angle total, selecting largest/smallest as requested; fourth variant is a quadrilateral.
+7/7.2/9	R(3*6,4*5);R(2*9,3*4);R(4*10,5*3);R(6*2,7*5)	Multiply a/b by b/c to derive a/c, then reduce.
+7/7.2/10	35*(2+3+7)/(7-2);36*(2+5+6)/(6-2);45*(3+4+9)/(9-4);18*(1+4+6)/(4-1)	Difference in named shares sets scale; multiply by sum of all parts.
+7/7.3/1	12*3/4;15*2/5;20*7/10;9*8/6	Solve the explicit proportion for numerator x.
+7/7.3/2	12*5/3;20*7/4;24*5/8;12*7/4	Cross multiply explicit proportion, respecting whether unknown is numerator or denominator.
+7/7.3/3	6*4;12*8;8*20;75/15	First three map/model lengths scale forward; fourth reverses real distance to map distance.
+7/7.3/4	2*30/12;3*42/18;5*9/2;4*25/10	Constant ingredient/resource use per product; scale to stated target count.
+7/7.3/5	8*15/20;15*14/21;16*9/12;20*6/8	Solve each explicit proportion for numerator n.
+7/7.3/6	6*10/4;7*12/4;5*9/12;20*6/8	Similar rectangles share one scale factor; identify the known corresponding side.
+7/7.3/7	10*6/4;15*10/6;12*14/8;60/(36/9)	Unit mass times target count; final variant divides target mass by unit mass.
+7/7.3/8	Q(1);Q(1);Q(0);Q(1)	Independently reduce both fractions in every option; select equality, except third version requests the unequal pair.
+7/7.3/9	3*20/8;4*35/10;5*30/12;15*8/6	Map/real proportions; fourth variant asks real rather than map length.
+7/7.3/10	R(12+12,36+12);R(8+8,32+8);R(6-2,18-2);R(4+5,20+5)	Add/subtract the same time or weight from actual quantities, then form ratio.
+7/7.4/1	4*60;7*60;2*60+15;3/4*60	Hours to minutes; include the separately given minutes or fractional hour.
+7/7.4/2	300/100;750/100;45/10;4200/1000	Divide by the conversion factor from smaller units to requested larger units.
+7/7.4/3	2*16;3*16;5/2*16;3*8	Multiply by stated ounces per pound or pints per gallon.
+7/7.4/4	5*1000;8*1000;6/10*1000;4*1000	Metric prefix kilo means 1000 base units.
+7/7.4/5	150/60;210/60;45/60;390/60	Minutes divided by sixty minutes per hour.
+7/7.4/6	48/16;96/16;2000/1000;270/60	Divide by explicit unit factor; last variant converts seconds to minutes.
+7/7.4/7	2*24*60;3*24*60;2*60*60;7*24*60	Compose day/hour/minute/second conversion factors.
+7/7.4/8	4/10*1000*100;7/10*1000*100;2*1000*1000;250000/(100*1000)	Compose metric scale factors, reversing for centimeters to kilometers.
+7/7.4/9	36*1000/3600;18*1000/3600;54*1000/3600;2*3600/1000	Convert both numerator distance units and denominator time units.
+7/7.4/10	5*60/100;8*60/100;12*60/1000;6*100/24	Convert length/volume and time independently; last is meters/day to centimeters/hour.
+7/7.5/1	50*3;24*4;6*5/2;8*3/4	Distance equals constant speed multiplied by time in hours.
+7/7.5/2	120/3;84/4;150/(5/2);400/8	Speed equals distance divided by time, in the units requested.
+7/7.5/3	200/80;54/18;15/4;210/60	Travel time equals distance divided by speed.
+7/7.5/4	12*90/60;5*24/60;30*20/60;16*(2+15/60)	Convert minutes to hours before multiplying by hourly speed.
+7/7.5/5	300/5*8;240/4*7;300/(180/3);96/8*30	Infer constant speed; third variant asks required time, not distance.
+7/7.5/6	(4+10)*2;(15+9)*3;(12+20)/2;18/(5+7)	Opposite directions give separation speed as sum; fourth asks elapsed time.
+7/7.5/7	240/(120/60+120/40);120/(60/30+60/20);72/(36/12+36/36);12/(6/6+6/12)	Average speed is total distance divided by total time, not arithmetic average of speeds.
+7/7.5/8	T(13*60+3/(12-3)*60);T(10*60+4/(12-4)*60);T(10*60+40*2/(60-40)*60);10*(6/2)/(10-6)	Head start divided by speed difference; add to pursuer start time for first three, use pursuer distance for fourth.
+7/7.5/9	(1*40+2*70)/3;(2*30+3*55)/5;(2*60+4*45)/6;(30*40+90*60)/(30+90)	Total distance divided by total time; equal conversion factors cancel in last minutes-based weighted average.
+7/7.5/10	300/(70+80)*80;360/(50+70)*50;30/(4+6);270-(60+75)*1	Relative closing speed; select faster/slower distance, time, or remaining separation as requested.
+7/7.6/1	2/5;4/5;18/3;3/12	Unit price is total price divided by number or mass of units.
+7/7.6/2	90/3;144/6;150/30*60;400/32	Compute requested output per time or distance per fuel unit.
+7/7.6/3	P(1,24/10/8-3/12);P(0,216/10/8-125/10/5);P(2,36/10/2-54/10/3);P(3,42/10/6-65/10/10)	Unit prices are .30 vs .25, 2.50 vs2.70,1.80 vs1.80,.70 vs.65. All verbal choices inspected; universally cheaper-bigger reasoning is false.
+7/7.6/4	40*10;25*12;7*15;18/3	Constant output rate times elapsed time.
+7/7.6/5	90/6;200/8;450/15;54/3	Amount divided by output rate gives time.
+7/7.6/6	P(3,120/4-90/3);P(0,600/12-700/20);P(1,84/6-105/7);P(2,220/10-294/14)	Rate differences are0,15,-1,1: tie,Mina,Jonas,printerA. All verbal options inspected, including invalid total-only reasons.
+7/7.6/7	75/10/3*5;96/10/4*7;15/6*10;27/(18/4)	Infer unit price; last variant divides budget by unit price to obtain quantity.
+7/7.6/8	3/4;2/5;6/9;1/(1/6)	Completed fraction = time/whole-job time; last variant inverts the supplied per-hour fraction.
+7/7.6/9	1/(1/4+1/12);1/(1/6+1/3);1/(1/20+1/30);1/(1/4-1/12)	Add independent work rates; fourth subtracts known worker rate from combined rate.
+7/7.6/10	100/(8-3);120/(12-4);90/(15-5);25-300/20	Net inflow is inlet minus drain; fourth recovers drain from measured net rate.
+7/challenge/1	10*5/(5-3);18*7/(7-4);12/(8-5)*8*2;35*9/(9-2)	Difference in category counts sets ratio unit; third asks new combined size and fourth asks original cars.
+7/challenge/2	R(3*6,4*7);R(2*3,5*8);R(4*5,3*2);R(6*4,5*9)	Multiply consecutive ratios to eliminate middle variable.
+7/challenge/3	5*20/8;6*24/9;2*(12+5*12/3);15*6/9	Similarity scale; third variant then computes perimeter using supplied reminder.
+7/challenge/4	72*60*24;3*60*60*24;15*60*8;21600/3600	Compose rate and elapsed-time conversions, respecting per-second versus per-minute sources.
+7/challenge/5	180/(90/45+90/90);24/(12/8+12/24);210/(60/30+150/50);60/(120/48-60/40)	Total distance divided by total time; inverse fourth model subtracts outbound time from target total time.
+7/challenge/6	1/(1/3+1/6-1/4);1/(1/4+1/12-1/6);1/(1/3-1/4);(1-10*(1/30+1/45))*45	Add/subtract signed work rates; last subtracts completed joint work then uses remaining worker rate.
+7/challenge/7	45/10/6-7/10;54/10/3-85/10/5;24*(6/4-104/10/8);P(3,Min(58/10/2,135/10/5,224/10/8))	Compare all unit prices. Third scales saving to 24 cups; last unit prices2.9,2.7,2.8 uniquely choose the5kg bag; all verbal options inspected.
+7/challenge/8	90/(20+25)*20;36/(5+4)*5;60*(15*3/2)/(60-15);105/(18+17)*(18-17)	Use sum speed for approach, difference speed for delayed pursuit, and select requested distance or distance difference.
+7/challenge/9	28*(3+5+9)/(9-5);36*(2+5+8)/(8-2);48/6*(11-4);150*5/(1+4+5)/2	Differences or known shares determine ratio unit; fourth halves the computed largest prize.
+7/challenge/10	90*1000/3600;3/2*3600/1000;4*3600/100;30*60/1000	Convert speed or one-hour travel distance with both unit factors.
+7/challenge/11	490/(350/5);275/(200/8);54/6*11;552/12*5	Per-machine/tap/printer/bus proportional productivity; distinguish unknown quantity from target output.
+7/challenge/12	300/(300/20+300/30);1/(1/40+1/24);4*(60/10+60/15);60/(60/10+60/20+60/60)	Add independent rates; third asks volume after4minutes and stays below60L capacity; others ask completion time.
+7/worksheet/1	R(10,15);R(18,24);R(12,12+20);R(21,35)	Preserve requested category order and distinguish part:part from part:whole.
+7/worksheet/2	72*4/(2+3+4);84*1/(1+2+4);96*(5-3)/(3+4+5);150*3/(2+3+5)	Scale largest/smallest/difference/middle ratio quantities independently.
+7/worksheet/3	3*40/24;5*48/30;6*10/4;2*28/7	Scale the requested ingredient/output category from its corresponding given pair.
+7/worksheet/4	5/2*3600;3*24*60;54000/3600;6/10*1000*100	Compose time or metric conversion factors.
+7/worksheet/5	55*4;28*7/2;138/3;270/60	Distance=speed×time; solve for requested distance, speed, or time.
+7/worksheet/6	3/4*7;5/4*9;108/10/(72/10/6);24/10/3*11	Unit price models; third reverses budget to quantity.
+7/worksheet/7	12/(6/3+6/6);24/(12/4+12/12);120/(30/30+90/45);60/(120/40-60/30)	Average=total distance/total time; fourth solves required return speed after subtracting outbound time.
+7/worksheet/8	R(5*3,6*4);R(4*3,9*5);R(7*8,4*9);R(2*10,5*10,5*3)	Eliminate shared ratio variable; fourth asks full three-part ratio.
+7/worksheet/9	250/5*60/1000;180/2*60/1000;48/10*1000/60;45/300*12000/1000	Convert both flow/time units or multiply per-page toner by target pages before grams-to-kilograms.
+7/worksheet/10	1/(1/2-1/6);1/(1/4-1/12);1/(1/8-1/12);1/(1/2-1/6-1/12)	Subtract all known workers from combined work rate, then invert positive remainder.

@@ -1,0 +1,3554 @@
+[
+  {
+    "id": "intro-algebra/9/9.1/1/1",
+    "sourceDigest": "c67fbcece4fdf2a177cc58abd5917d011ecdb3868ab0bf02dc7c9288de2d1c98",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-3-(-7))",
+      "reason": "Compare signed integers by subtraction or number-line position; offered symbol or statement uniquely correct."
+    },
+    "computed": "(position, 1, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/1/2",
+    "sourceDigest": "9bf3a848a49382e0a7c7af23ee6c4fe939d9839e271b135534804e5b9bf51589",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-9-(-4))",
+      "reason": "Compare signed integers by subtraction or number-line position; offered symbol or statement uniquely correct."
+    },
+    "computed": "(position, 1, -5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/1/3",
+    "sourceDigest": "957c9e6ea8f79554d40142e38e64e85803c0a1d922277bdfab5af64353229fc4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,-6-(-1))",
+      "reason": "Compare signed integers by subtraction or number-line position; offered symbol or statement uniquely correct."
+    },
+    "computed": "(position, 2, -5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/1/4",
+    "sourceDigest": "7c7fb9495566a9faefa441917324f6bf3a1e9df5767f1f1b3b6a5f031560c5ec",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,-1-(-10))",
+      "reason": "Compare signed integers by subtraction or number-line position; offered symbol or statement uniquely correct."
+    },
+    "computed": "(position, 3, 9)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/2/1",
+    "sourceDigest": "acf48623992b5ed4328054625de3680bb7c6636a32c34eddc5113b09cbabd42d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,5)",
+      "reason": "Inclusive inequality permits boundary plus values on indicated side; final only-4 fails n>=-3."
+    },
+    "computed": "(position, 1, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/2/2",
+    "sourceDigest": "d899ff8a0f7aaf2d1ddcdb7d60b83088a805aa0982c311e8fb45983c6ecc2f66",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,-2)",
+      "reason": "Inclusive inequality permits boundary plus values on indicated side; final only-4 fails n>=-3."
+    },
+    "computed": "(position, 0, -2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/2/3",
+    "sourceDigest": "be9d941f79f292a411052f07bde63e7b65af373ffa820c0fc100aa7f05c1c9f4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,12)",
+      "reason": "Inclusive inequality permits boundary plus values on indicated side; final only-4 fails n>=-3."
+    },
+    "computed": "(position, 2, 12)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/2/4",
+    "sourceDigest": "c5f4a407917723279f6b5a468c9243a945adf17b36c166c5bca8a7c0247d1767",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "-4",
+      "reason": "Inclusive inequality permits boundary plus values on indicated side; final only-4 fails n>=-3."
+    },
+    "computed": "-4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/3/1",
+    "sourceDigest": "4a7a8688985c501d7b6baca760a899b1381261704b180dc4e8e1eb6c9fc3bb1e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,10)",
+      "reason": "Adding/subtracting same constant preserves strict order; multiplying by positive3 preserves it. Equality, reversed signs, or negative-multiplier distractors false."
+    },
+    "computed": "(position, 0, 10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/3/2",
+    "sourceDigest": "02868475fa801bc1a11e6f832ebb036e4f7ea20dc6fef87ed9ee4bd2f1507bda",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,-8)",
+      "reason": "Adding/subtracting same constant preserves strict order; multiplying by positive3 preserves it. Equality, reversed signs, or negative-multiplier distractors false."
+    },
+    "computed": "(position, 0, -8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/3/3",
+    "sourceDigest": "a76eb7ccbc7578c9a185fe768bd30be4af3f5dfa1a6280d974839d451bbe45df",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,3)",
+      "reason": "Adding/subtracting same constant preserves strict order; multiplying by positive3 preserves it. Equality, reversed signs, or negative-multiplier distractors false."
+    },
+    "computed": "(position, 1, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/3/4",
+    "sourceDigest": "d64dc9d30bfa3485f2256890d499dbf891f1f4d99ab4d771901c2d329fd992aa",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,-5)",
+      "reason": "Adding/subtracting same constant preserves strict order; multiplying by positive3 preserves it. Equality, reversed signs, or negative-multiplier distractors false."
+    },
+    "computed": "(position, 3, -5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/4/1",
+    "sourceDigest": "1366b82f3ad2f14e8cbf62de72203c926ea36a8adb8efc0eea08494e5c16c857",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,3-5)",
+      "reason": "Apply specified identical addition/subtraction to both sides, preserve relation and orientation; endpoints -2,5,-9,3."
+    },
+    "computed": "(position, 3, -2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/4/2",
+    "sourceDigest": "163130b551a63eb18a02a2e6e043a7bf019e669fd8feda2f766c4973148adbd0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,-4+9)",
+      "reason": "Apply specified identical addition/subtraction to both sides, preserve relation and orientation; endpoints -2,5,-9,3."
+    },
+    "computed": "(position, 0, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/4/3",
+    "sourceDigest": "4250c4a842c6c9cd15e99f607d04bd904294149779e5c31235ac696532a96ac4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-2-7)",
+      "reason": "Apply specified identical addition/subtraction to both sides, preserve relation and orientation; endpoints -2,5,-9,3."
+    },
+    "computed": "(position, 1, -9)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/4/4",
+    "sourceDigest": "1347f25fd6f8f7aa1144797fdcd49502630df393966f1983814ed216db2bc1f0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,-3+6)",
+      "reason": "Apply specified identical addition/subtraction to both sides, preserve relation and orientation; endpoints -2,5,-9,3."
+    },
+    "computed": "(position, 2, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/5/1",
+    "sourceDigest": "af5257876b7595a8d3a770aac13be3a7d265894e2a6f608517a8b1f91e52955b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,-2)",
+      "reason": "Negation reverses inequality. Correct exact sets -x<-2,-y>6,t<-5,-a<=-4. Last figure is closed4 right ray. Variants2-4 clarified to require exact range, excluding weaker implications that were also true."
+    },
+    "computed": "(position, 2, -2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/5/2",
+    "sourceDigest": "d7ccecd813d057019b28b6686fb0b6267f40b4d6a539095e73124fdf7ce91ecd",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,6)",
+      "reason": "Negation reverses inequality. Correct exact sets -x<-2,-y>6,t<-5,-a<=-4. Last figure is closed4 right ray. Variants2-4 clarified to require exact range, excluding weaker implications that were also true."
+    },
+    "computed": "(position, 2, 6)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/5/3",
+    "sourceDigest": "f21b1aa0764bc24dfd90cea8209b75630acc885f56a45bfe4ff5127015ce505b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-5)",
+      "reason": "Negation reverses inequality. Correct exact sets -x<-2,-y>6,t<-5,-a<=-4. Last figure is closed4 right ray. Variants2-4 clarified to require exact range, excluding weaker implications that were also true."
+    },
+    "computed": "(position, 1, -5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/5/4",
+    "sourceDigest": "65683ff6ef243952102b1b7cbd03cfff3cb54608191efb86aff81499aa644e76",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,-4)",
+      "reason": "Negation reverses inequality. Correct exact sets -x<-2,-y>6,t<-5,-a<=-4. Last figure is closed4 right ray. Variants2-4 clarified to require exact range, excluding weaker implications that were also true."
+    },
+    "computed": "(position, 3, -4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/8/1",
+    "sourceDigest": "7120b6a8c11261f3da6d0e7a210e29016277cc7b7e26bc7dad71bfba13d8e354",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Transitivity of strict order in first three, non-strict in final. Equality allowed in final prevents concluding x<z."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/8/2",
+    "sourceDigest": "1e6aed9d439068bfc159819a950e504994719e69ee8112825e7fb0781bc476ef",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Transitivity of strict order in first three, non-strict in final. Equality allowed in final prevents concluding x<z."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/8/3",
+    "sourceDigest": "0bf78c6bc145171239fce20f7163d2d92444f8b5a40a2f0449c285653b8d72cc",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Transitivity of strict order in first three, non-strict in final. Equality allowed in final prevents concluding x<z."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/8/4",
+    "sourceDigest": "9c3252b1386926f6781b859d5ab9e559020bc86132f30a6d41449bae6fccde3b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,0)",
+      "reason": "Transitivity of strict order in first three, non-strict in final. Equality allowed in final prevents concluding x<z."
+    },
+    "computed": "(position, 1, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/9/1",
+    "sourceDigest": "24637bb45cd5c4f0c5f49c47ac0e6e7f5e2ba72ca3546ee0e045b869b72e9f6f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,Interval(-6,2,True,True))",
+      "reason": "Affine transformations with negative slope reverse endpoints; all source intervals open. Third figure endpoints2,6 both open. All four stems repaired to ask exact possible range because closed supersets were also true implications."
+    },
+    "computed": "(position, 0, Interval.open(-6, 2))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/9/2",
+    "sourceDigest": "a7d3d7b1f401c76f01b7ecac47a54fa55ebe41d5ff8abddeaf9023e8c3c449e6",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,Interval(-3,12,True,True))",
+      "reason": "Affine transformations with negative slope reverse endpoints; all source intervals open. Third figure endpoints2,6 both open. All four stems repaired to ask exact possible range because closed supersets were also true implications."
+    },
+    "computed": "(position, 3, Interval.open(-3, 12))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/9/3",
+    "sourceDigest": "79e556e40d8f55609640c172d4b1c77818ce59226b81a1cbcf75f63079c3eac8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,Interval(-3,-1,True,True))",
+      "reason": "Affine transformations with negative slope reverse endpoints; all source intervals open. Third figure endpoints2,6 both open. All four stems repaired to ask exact possible range because closed supersets were also true implications."
+    },
+    "computed": "(position, 2, Interval.open(-3, -1))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/9/4",
+    "sourceDigest": "6f90707cacb98a9ddabb69fec5f922e6b9ae940ab8bd009af20a44fc95851b00",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Interval(-1,5,True,True))",
+      "reason": "Affine transformations with negative slope reverse endpoints; all source intervals open. Third figure endpoints2,6 both open. All four stems repaired to ask exact possible range because closed supersets were also true implications."
+    },
+    "computed": "(position, 1, Interval.open(-1, 5))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/10/1",
+    "sourceDigest": "f5accf41e5ce96996f58f19538f14b61041ab504bc7e17ded40b3e919b2e0a53",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,(-2)**2-(-1)**2)",
+      "reason": "Counterexamples to NOT statements: a-2,b-1 reverses square order;p-1,q1 reverses claimed reciprocal comparison; multiplier c0 destroys strictness. Final h-g>0 follows premise, other claims fail at g-2,h-1 or reverse positive division."
+    },
+    "computed": "(position, 3, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/10/2",
+    "sourceDigest": "014d29eb26e8a6e4c99821ed690f448a730b1e33f9519ffa49183bfde2817ee6",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1/(-1)-1/1)",
+      "reason": "Counterexamples to NOT statements: a-2,b-1 reverses square order;p-1,q1 reverses claimed reciprocal comparison; multiplier c0 destroys strictness. Final h-g>0 follows premise, other claims fail at g-2,h-1 or reverse positive division."
+    },
+    "computed": "(position, 2, -2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/10/3",
+    "sourceDigest": "96db3b3793522c94e406acd585fda254dec50e5978c5c0b8501a443e579b22b1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,0)",
+      "reason": "Counterexamples to NOT statements: a-2,b-1 reverses square order;p-1,q1 reverses claimed reciprocal comparison; multiplier c0 destroys strictness. Final h-g>0 follows premise, other claims fail at g-2,h-1 or reverse positive division."
+    },
+    "computed": "(position, 3, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.1/10/4",
+    "sourceDigest": "296039d3444430b3892ead16af7233e90da29b1447b48b8d1de43cdfaa1d3395",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Counterexamples to NOT statements: a-2,b-1 reverses square order;p-1,q1 reverses claimed reciprocal comparison; multiplier c0 destroys strictness. Final h-g>0 follows premise, other claims fail at g-2,h-1 or reverse positive division."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/1/1",
+    "sourceDigest": "bcefb02f9b87fabdf9b399c5ef6fe2243e883da5001581f3fc1c2897599b6bea",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,Max(3/4,2/3))",
+      "reason": "Exact positive-denominator cross products compare fractions; final asks smaller. All equal/incomparability claims false."
+    },
+    "computed": "(position, 0, 3/4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/1/2",
+    "sourceDigest": "570e4c422f335c4fb80e15f0d42585326a718f3dcd00ba219849905725e29540",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,Max(5/7,7/10))",
+      "reason": "Exact positive-denominator cross products compare fractions; final asks smaller. All equal/incomparability claims false."
+    },
+    "computed": "(position, 3, 5/7)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/1/3",
+    "sourceDigest": "76f10141f17a0cbff9c90f6db7444946c5c52574aa735c7ff903f1d6de8780e6",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Max(3/8,4/11))",
+      "reason": "Exact positive-denominator cross products compare fractions; final asks smaller. All equal/incomparability claims false."
+    },
+    "computed": "(position, 1, 3/8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/1/4",
+    "sourceDigest": "f378fda05bcc818f5c9d9fa891bcac3827063d8fe96ffa3ff01348d5bd0dc64a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,Min(8/15,7/13))",
+      "reason": "Exact positive-denominator cross products compare fractions; final asks smaller. All equal/incomparability claims false."
+    },
+    "computed": "(position, 0, 8/15)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/2/1",
+    "sourceDigest": "2a75f5e30d43b6436b95f6639cbfc6a3e64359003896ed2f78023ac503ed39c0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,4/10)",
+      "reason": "Sign of difference determines order uniquely: a>b,m<n,q>p,h-k>0."
+    },
+    "computed": "(position, 1, 2/5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/2/2",
+    "sourceDigest": "3fdef49fe053fd59c381e1d31f8ba09695f5ddc8f2d90639644fbed4d8f6e0de",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-17/10)",
+      "reason": "Sign of difference determines order uniquely: a>b,m<n,q>p,h-k>0."
+    },
+    "computed": "(position, 1, -17/10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/2/3",
+    "sourceDigest": "dcb2f4f0445e206a4eeeab923c1b51d90b865cd5b241bccf322b2829c22b5abe",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Sign of difference determines order uniquely: a>b,m<n,q>p,h-k>0."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/2/4",
+    "sourceDigest": "0e6efec4d2b50b7ee8b7f4014b3c916195f3537615ccb6362df7815c12ffa075",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Sign of difference determines order uniquely: a>b,m<n,q>p,h-k>0."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/3/1",
+    "sourceDigest": "8be5eb2a067a64b5205513fb708ca392c7f9eea8f691173124f6eb1292a23e0b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Max(5/8,7/12))",
+      "reason": "Compare rational values exactly, or numerators27 versus28 over36 in final round."
+    },
+    "computed": "(position, 1, 5/8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/3/2",
+    "sourceDigest": "fc304aeb0450cad244a0a8f6c590c9f7dce7146ac73182986678a7f96e1837dc",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Max(7/10,11/15))",
+      "reason": "Compare rational values exactly, or numerators27 versus28 over36 in final round."
+    },
+    "computed": "(position, 1, 11/15)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/3/3",
+    "sourceDigest": "1cb391963f52330f7109694ebf7c00e7158565f4e1e5f32d0453278f54ab1f7c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,Max(5/12,3/8))",
+      "reason": "Compare rational values exactly, or numerators27 versus28 over36 in final round."
+    },
+    "computed": "(position, 3, 5/12)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/3/4",
+    "sourceDigest": "739262d731337ae661589d265ac8fec0c752bd25b769e5f413640386cf459b42",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,Max(3/4,7/9))",
+      "reason": "Compare rational values exactly, or numerators27 versus28 over36 in final round."
+    },
+    "computed": "(position, 2, 7/9)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/4/1",
+    "sourceDigest": "fb7503bf70b12a857c8bff7497df17c5219e5f8e584c6c83275c4c4227a8a9b9",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,40-6**2)",
+      "reason": "Nonnegative quantities compare by squaring; final64<68<81 bounds sqrt68 between8 and9."
+    },
+    "computed": "(position, 2, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/4/2",
+    "sourceDigest": "64c68fb08c5168c6f987e85fbcf3704757cdfbc08bb3f9dbeb28804ec7c3752a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,6**2-30)",
+      "reason": "Nonnegative quantities compare by squaring; final64<68<81 bounds sqrt68 between8 and9."
+    },
+    "computed": "(position, 0, 6)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/4/3",
+    "sourceDigest": "30d87be499da189a51056d9efc858d426eb1847f202055f945f906b455ce88fe",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,55-7**2)",
+      "reason": "Nonnegative quantities compare by squaring; final64<68<81 bounds sqrt68 between8 and9."
+    },
+    "computed": "(position, 3, 6)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/4/4",
+    "sourceDigest": "fe2ee441716acd942d3e41696563a547b8f963b06b4daa3c977c8ed100e8ab8b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "V(8,9)",
+      "reason": "Nonnegative quantities compare by squaring; final64<68<81 bounds sqrt68 between8 and9."
+    },
+    "computed": "(values, 8, 9)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/5/1",
+    "sourceDigest": "dc44a98abe7a5c2cfeadd7286badf821a6c9ef19e3357b2b1363b5a0d2cc9c7a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,112-117)",
+      "reason": "Denominators positive, so cross-product difference preserves fraction comparison; equal cross products imply equal fractions."
+    },
+    "computed": "(position, 1, -5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/5/2",
+    "sourceDigest": "e466401d7e554f5918909676d00c881f6ad368f7b4e93cf2a64a82f30d18fa4a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,72-77)",
+      "reason": "Denominators positive, so cross-product difference preserves fraction comparison; equal cross products imply equal fractions."
+    },
+    "computed": "(position, 0, -5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/5/3",
+    "sourceDigest": "222e4b7362759334cc0b2bf972449aab03d1c8d832f6c5c107ad6a736a731db4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,99-98)",
+      "reason": "Denominators positive, so cross-product difference preserves fraction comparison; equal cross products imply equal fractions."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/5/4",
+    "sourceDigest": "e0d8d4b3201f1fbefd3183fdc60d90bac30c7b8a59b018ce8bc123efc660ae2a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,84-84)",
+      "reason": "Denominators positive, so cross-product difference preserves fraction comparison; equal cross products imply equal fractions."
+    },
+    "computed": "(position, 1, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/6/1",
+    "sourceDigest": "ed7db4b22c4f184e501eaa32383a4c6a1b243c931fc7b262deb595b61b9480e8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,3**20-2**30)",
+      "reason": "Use common powers:8^10<9^10;4^20<5^20;both3^30;3^24>3^22. Every alternative checked including equality."
+    },
+    "computed": "(position, 3, 2413042577)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/6/2",
+    "sourceDigest": "ba73d88c181dadf2aba6039b3542a35ca12939b4aa72d54d7a1e78eb9ccc0aac",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,5**20-2**40)",
+      "reason": "Use common powers:8^10<9^10;4^20<5^20;both3^30;3^24>3^22. Every alternative checked including equality."
+    },
+    "computed": "(position, 2, 94267920012849)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/6/3",
+    "sourceDigest": "d5a3070a37eafa94309ead28250e1a31e1ba52174ac34096164c3c64f0888e3b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,9**15-27**10)",
+      "reason": "Use common powers:8^10<9^10;4^20<5^20;both3^30;3^24>3^22. Every alternative checked including equality."
+    },
+    "computed": "(position, 1, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/6/4",
+    "sourceDigest": "6ab1cb9a927866073ac1a515b4cd611c3fda359fd9ae165689cc923ddd7f2601",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,3**24-9**11)",
+      "reason": "Use common powers:8^10<9^10;4^20<5^20;both3^30;3^24>3^22. Every alternative checked including equality."
+    },
+    "computed": "(position, 0, 251048476872)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/7/1",
+    "sourceDigest": "95cd29bdc412a2a7a536aff67fcd50152516005f60a6fa6f012be797bc3fedc1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,50-49)",
+      "reason": "Compare squares of positive candidates. Last largest square20 belongs to2sqrt5."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/7/2",
+    "sourceDigest": "075fe1d33597357d21cb6906076181438a7da47dd7ade7179443a136070abd80",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,81-80)",
+      "reason": "Compare squares of positive candidates. Last largest square20 belongs to2sqrt5."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/7/3",
+    "sourceDigest": "03ce46ce8446674bb80d2686bdd79d7841bd2ce595e08f348b730c1f7d7ba0b5",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,108-100)",
+      "reason": "Compare squares of positive candidates. Last largest square20 belongs to2sqrt5."
+    },
+    "computed": "(position, 3, 8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/7/4",
+    "sourceDigest": "6abf4e23b5dcd6ef824c881a36fd91e43dd1a534b62e589940fed17e3fdb33a9",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Max(18,20,16))",
+      "reason": "Compare squares of positive candidates. Last largest square20 belongs to2sqrt5."
+    },
+    "computed": "(position, 1, 20)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/8/1",
+    "sourceDigest": "3aa4bdd5ece1147b52b6705573089eea2b5d5e05e17ff47c226c1f5fc1a26e0c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,Max(15/16,16/17))",
+      "reason": "Compare distances from1 or exact rational values; final both exceed1 and13/12 is smaller."
+    },
+    "computed": "(position, 2, 16/17)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/8/2",
+    "sourceDigest": "a2916a12f1cf52ca67686fa9f0e40ff01a037a9968016543f855bd1777c0b7ed",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,Max(9/10,10/11))",
+      "reason": "Compare distances from1 or exact rational values; final both exceed1 and13/12 is smaller."
+    },
+    "computed": "(position, 3, 10/11)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/8/3",
+    "sourceDigest": "f758f6182cc0fa7cee29be3a244e69dd52c70453f42ecf3e452157d9ecf6f057",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,Max(20/21,23/24))",
+      "reason": "Compare distances from1 or exact rational values; final both exceed1 and13/12 is smaller."
+    },
+    "computed": "(position, 2, 23/24)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/8/4",
+    "sourceDigest": "66b87d5270475c28a3ed166c1e459e41d2c94bc4d9eb106613f71f7efa3c3354",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,Min(12/11,13/12))",
+      "reason": "Compare distances from1 or exact rational values; final both exceed1 and13/12 is smaller."
+    },
+    "computed": "(position, 0, 13/12)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/9/1",
+    "sourceDigest": "77da263e3e4d8718102c96c3634f499b6aa8f36c8564feb6a4050bb2b8ed4d48",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Max(3/5,5/8,8/13))",
+      "reason": "Exact rational comparisons of all three listed fractions, with third round minimum."
+    },
+    "computed": "(position, 1, 5/8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/9/2",
+    "sourceDigest": "64fb8e3410907017a063bb756614214c8c8f257ce9c3d39366f5ac5eff072a8f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Max(4/9,5/11,7/16))",
+      "reason": "Exact rational comparisons of all three listed fractions, with third round minimum."
+    },
+    "computed": "(position, 1, 5/11)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/9/3",
+    "sourceDigest": "6382279cfe42694d5ca6bbcb6b57ca8f57fb3ad9d96f3d79762a7585e16888bb",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,Min(5/7,7/10,9/13))",
+      "reason": "Exact rational comparisons of all three listed fractions, with third round minimum."
+    },
+    "computed": "(position, 0, 9/13)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/9/4",
+    "sourceDigest": "3f75e01c984a97ffa1111b9605f08515efe1f18a9914395df71a9e5766733da1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,Max(2/3,5/8,9/14))",
+      "reason": "Exact rational comparisons of all three listed fractions, with third round minimum."
+    },
+    "computed": "(position, 3, 2/3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/10/1",
+    "sourceDigest": "097a736486306644db0c903f855f0022e3e9121241f2b59185808c2d9408f473",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,10-(5+2*sqrt(6)))",
+      "reason": "Squaring nonnegative candidates: first2sqrt6<5;second2sqrt15>7;third2sqrt14<8;last exact equality2sqrt6=sqrt24. Compare squared residuals24<25,60>49,56<64."
+    },
+    "computed": "(position, 3, 5 - 2*sqrt(6))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/10/2",
+    "sourceDigest": "865832bb27ba807ce7f002bc685e86e7e7121dbbb7b8fd80fb9aac8aea684851",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,8+2*sqrt(15)-15)",
+      "reason": "Squaring nonnegative candidates: first2sqrt6<5;second2sqrt15>7;third2sqrt14<8;last exact equality2sqrt6=sqrt24. Compare squared residuals24<25,60>49,56<64."
+    },
+    "computed": "(position, 0, -7 + 2*sqrt(15))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/10/3",
+    "sourceDigest": "4501122cbdf060808b046befc41105feaa6092d920e619091900008ccd2bb834",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,17-(9+2*sqrt(14)))",
+      "reason": "Squaring nonnegative candidates: first2sqrt6<5;second2sqrt15>7;third2sqrt14<8;last exact equality2sqrt6=sqrt24. Compare squared residuals24<25,60>49,56<64."
+    },
+    "computed": "(position, 2, 8 - 2*sqrt(14))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.2/10/4",
+    "sourceDigest": "81c0aeadc6a6559e2a47a988defb2c35a362486fe71420696310bda0ab6faa88",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,2*sqrt(6)-sqrt(24))",
+      "reason": "Squaring nonnegative candidates: first2sqrt6<5;second2sqrt15>7;third2sqrt14<8;last exact equality2sqrt6=sqrt24. Compare squared residuals24<25,60>49,56<64."
+    },
+    "computed": "(position, 1, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.3/8/1",
+    "sourceDigest": "95a1bc7e4024aec9c3487fbd64442ac3bcc40362b80919e97a7ebd303e2ba642",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3*90-84-92",
+      "reason": "Total target less completed scores/distances gives tight threshold94,156,67 and maximum14 respectively; direction follows at-least versus at-most."
+    },
+    "computed": "94",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.3/8/2",
+    "sourceDigest": "4c97dd01898b2c026aac71e3eb94d3c508f7391e4891baaab449128f913978af",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3*140-126-138",
+      "reason": "Total target less completed scores/distances gives tight threshold94,156,67 and maximum14 respectively; direction follows at-least versus at-most."
+    },
+    "computed": "156",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.3/8/3",
+    "sourceDigest": "b5043aa8178bf76b7a6495138cedd96229b90d5e0807752403b01ef3d908d259",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3*60-52-61",
+      "reason": "Total target less completed scores/distances gives tight threshold94,156,67 and maximum14 respectively; direction follows at-least versus at-most."
+    },
+    "computed": "67",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.3/8/4",
+    "sourceDigest": "8c884450b632fcc1f6bfb977b5240b0711c4517e1baf636eaa098c14c9216881",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4*12-14-9-11",
+      "reason": "Total target less completed scores/distances gives tight threshold94,156,67 and maximum14 respectively; direction follows at-least versus at-most."
+    },
+    "computed": "14",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/1/1",
+    "sourceDigest": "f2944f75c4edb8959c819cea0facac8b871c07121e96ef3e40691c271b4b3c89",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,4)",
+      "reason": "Closed dot for included endpoint, open dot for strict inequality; shade right for greater and left for less. Only strict>7 option uses open endpoint in round3."
+    },
+    "computed": "(position, 1, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/1/2",
+    "sourceDigest": "1f863b35a5934942657adac2c7558d59a04dd95d0f646a19f1c54e82ddfb2118",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,-2)",
+      "reason": "Closed dot for included endpoint, open dot for strict inequality; shade right for greater and left for less. Only strict>7 option uses open endpoint in round3."
+    },
+    "computed": "(position, 0, -2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/1/3",
+    "sourceDigest": "80c2fefce76ae779c35112f1f5d7e24b90ee14e7416ca4b3c897ae697e2b99ab",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,7)",
+      "reason": "Closed dot for included endpoint, open dot for strict inequality; shade right for greater and left for less. Only strict>7 option uses open endpoint in round3."
+    },
+    "computed": "(position, 1, 7)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/1/4",
+    "sourceDigest": "72270446f679fbbea431a7a2fab389d6a7ff553e58b18d5686775a9f91d4be72",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,-5)",
+      "reason": "Closed dot for included endpoint, open dot for strict inequality; shade right for greater and left for less. Only strict>7 option uses open endpoint in round3."
+    },
+    "computed": "(position, 3, -5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/2/1",
+    "sourceDigest": "33328021ab645abbff61c3b358493daa075a5cdaad32ba874687a2695ce183b9",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,-1)",
+      "reason": "Read figures: open-1 right ray;open3 left ray;closed-4 right ray;open2 right ray. Final only2 is excluded among2,2.5,4,6."
+    },
+    "computed": "(position, 2, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/2/2",
+    "sourceDigest": "f236adff55d5da28c2c6de5dcfa534a02fcdf5b7fd25b4ae1f46288c058540de",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,3)",
+      "reason": "Read figures: open-1 right ray;open3 left ray;closed-4 right ray;open2 right ray. Final only2 is excluded among2,2.5,4,6."
+    },
+    "computed": "(position, 1, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/2/3",
+    "sourceDigest": "7c80a59c2401dc059f093808a9bc33a7e8c7f958dacb7b457043339014c69b1d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,-4)",
+      "reason": "Read figures: open-1 right ray;open3 left ray;closed-4 right ray;open2 right ray. Final only2 is excluded among2,2.5,4,6."
+    },
+    "computed": "(position, 2, -4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/2/4",
+    "sourceDigest": "86036b1890968131ce9c60d88fdd76bfd2e708628850c52dc6d3ce55e0f55445",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "2",
+      "reason": "Read figures: open-1 right ray;open3 left ray;closed-4 right ray;open2 right ray. Final only2 is excluded among2,2.5,4,6."
+    },
+    "computed": "2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/3/1",
+    "sourceDigest": "f4198c3bfe3ad18a5ff428fc1165be30f82d28addc1f275108c473a06ce7fc8e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,0)",
+      "reason": "Strict planar inequality excludes line and uses dashed boundary; <=/>= includes line and uses solid. Slope/numeric coefficient irrelevant."
+    },
+    "computed": "(position, 1, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/3/2",
+    "sourceDigest": "d29b7307cae0b10ddd28c3374d5486e3cb489a0deb1ecf317f5b561c33aa77f9",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Strict planar inequality excludes line and uses dashed boundary; <=/>= includes line and uses solid. Slope/numeric coefficient irrelevant."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/3/3",
+    "sourceDigest": "f1859d7f7306215d69f503b1fb76ed68aedb8cde9b7b4d71e982549de1837517",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,0)",
+      "reason": "Strict planar inequality excludes line and uses dashed boundary; <=/>= includes line and uses solid. Slope/numeric coefficient irrelevant."
+    },
+    "computed": "(position, 1, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/3/4",
+    "sourceDigest": "33d322043484bec8a78dc007478697d25f03833cb8cb668bb2239b2c0ad5ac0b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,0)",
+      "reason": "Strict planar inequality excludes line and uses dashed boundary; <=/>= includes line and uses solid. Slope/numeric coefficient irrelevant."
+    },
+    "computed": "(position, 3, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/4/1",
+    "sourceDigest": "3f2fc03a0115010a9a80295be7f08ca5b1372ddf8aa78923cd6c1a88fe961cae",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,0-3)",
+      "reason": "Origin test succeeds0<=3 and0>-5, fails0<-2; final origin on boundary y=x so cannot choose between open halfplanes, though itself included."
+    },
+    "computed": "(position, 0, -3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/4/2",
+    "sourceDigest": "b300c1049f3ff463f17a147758ee1168726d6f3d8e4cd7c78917aa8c27326931",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,0-(-5))",
+      "reason": "Origin test succeeds0<=3 and0>-5, fails0<-2; final origin on boundary y=x so cannot choose between open halfplanes, though itself included."
+    },
+    "computed": "(position, 0, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/4/3",
+    "sourceDigest": "e6724f5225c2e7c3bcabe3f9a128eadef25ad4ae1639f7b9585b595960695f06",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,0-(-2))",
+      "reason": "Origin test succeeds0<=3 and0>-5, fails0<-2; final origin on boundary y=x so cannot choose between open halfplanes, though itself included."
+    },
+    "computed": "(position, 2, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/4/4",
+    "sourceDigest": "acf076cbcf9132b97557bae7f6937d59cc2de081d5f90635fa78292db5dc666c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,0-0)",
+      "reason": "Origin test succeeds0<=3 and0>-5, fails0<-2; final origin on boundary y=x so cannot choose between open halfplanes, though itself included."
+    },
+    "computed": "(position, 3, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/5/1",
+    "sourceDigest": "995ecdaa8d234f681dbe33df4287498de02f6252a20a744e3ff804c33ce05bf4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,-4)",
+      "reason": "Figure shaded closed left rays end-4,5; third closed-2/open3 bounded segment; final closed left ray end4 has maximum4, no minimum."
+    },
+    "computed": "(position, 3, -4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/5/2",
+    "sourceDigest": "7a2723685604330f1585c3c53a268ad1e71840963436f92dce563468d950204a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,5)",
+      "reason": "Figure shaded closed left rays end-4,5; third closed-2/open3 bounded segment; final closed left ray end4 has maximum4, no minimum."
+    },
+    "computed": "(position, 1, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/5/3",
+    "sourceDigest": "96fd6ccdca0f05fbfcd98a2e45bf81215759c4a890cdde6ac4a2e65d814036e7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,Interval(-2,3,False,True))",
+      "reason": "Figure shaded closed left rays end-4,5; third closed-2/open3 bounded segment; final closed left ray end4 has maximum4, no minimum."
+    },
+    "computed": "(position, 0, Interval.Ropen(-2, 3))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/5/4",
+    "sourceDigest": "64f772f7d6fd479ec48101f3572c4ef164a961f86e227338f093a19dd3ab054a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,4)",
+      "reason": "Figure shaded closed left rays end-4,5; third closed-2/open3 bounded segment; final closed left ray end4 has maximum4, no minimum."
+    },
+    "computed": "(position, 3, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/6/1",
+    "sourceDigest": "6920f7d5e2894d67c3108c712104b83ed8b904a4b8b629ef92e668e641631b0b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1-2*3)",
+      "reason": "Substitute ordered(x,y) from every option, preserving strict/non-strict boundary. Only(3,1),(1,5),(5,1) satisfy respective first three; last only(0,0) fails."
+    },
+    "computed": "(position, 1, -5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/6/2",
+    "sourceDigest": "7e51b4d6b5044f8e7a0df9f4099c3d8a7d0340e990e7dc9ead18a243da4ce5b4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,5-3*1)",
+      "reason": "Substitute ordered(x,y) from every option, preserving strict/non-strict boundary. Only(3,1),(1,5),(5,1) satisfy respective first three; last only(0,0) fails."
+    },
+    "computed": "(position, 2, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/6/3",
+    "sourceDigest": "23cbd68f7c767fbdec068446c0bf399424de9b7c5b90b23d671c02485581a79b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1-(5-3))",
+      "reason": "Substitute ordered(x,y) from every option, preserving strict/non-strict boundary. Only(3,1),(1,5),(5,1) satisfy respective first three; last only(0,0) fails."
+    },
+    "computed": "(position, 0, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/6/4",
+    "sourceDigest": "a0b9caa50d97c1cda632e52e1c712ba4be5eb9ba6ef93d2f13927130d23ddc9c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,0-(-0+1))",
+      "reason": "Substitute ordered(x,y) from every option, preserving strict/non-strict boundary. Only(3,1),(1,5),(5,1) satisfy respective first three; last only(0,0) fails."
+    },
+    "computed": "(position, 1, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/7/1",
+    "sourceDigest": "4f7314b2442f44e1f420d4ec98bad562834e37b728f10ed1200a1a51c9a981a7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,Interval(-2,3,True,False))",
+      "reason": "Translate each endpoint inclusion into dot fill; final divide entire chain by positive2 before graphing."
+    },
+    "computed": "(position, 0, Interval.Lopen(-2, 3))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/7/2",
+    "sourceDigest": "e2df4a9ca3c04f2de8240f5891d6329406b42566c8f00c2c5e21e08780e39dc4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,Interval(-5,1,False,True))",
+      "reason": "Translate each endpoint inclusion into dot fill; final divide entire chain by positive2 before graphing."
+    },
+    "computed": "(position, 2, Interval.Ropen(-5, 1))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/7/3",
+    "sourceDigest": "8e528a13889bb5f946459491e700dee9a622ec45a2019336ee8ff0a7abd12169",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,Interval(0,7,True,True))",
+      "reason": "Translate each endpoint inclusion into dot fill; final divide entire chain by positive2 before graphing."
+    },
+    "computed": "(position, 3, Interval.open(0, 7))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/7/4",
+    "sourceDigest": "7985b0c7a5a5b87e918ae25231f730cbdc4b7ae3ba7c0161c8d9349ce1cb4bae",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Interval(-2,3,False,True))",
+      "reason": "Translate each endpoint inclusion into dot fill; final divide entire chain by positive2 before graphing."
+    },
+    "computed": "(position, 1, Interval.Ropen(-2, 3))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/8/1",
+    "sourceDigest": "e1cc00975858630773546b43e4a2fa042a503399e97dcffabcb11784d58d320e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,0-2)",
+      "reason": "Failed origin tests mean shade opposite side; second nonstrict<= requires solid boundary. Final evaluate every point: only(5,5) satisfies y>=-3x+9."
+    },
+    "computed": "(position, 1, -2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/8/2",
+    "sourceDigest": "94de0647919fd792aa7a05cd67e43e60f2dbac0a2138661514fd68dd279bf392",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,0-(-6))",
+      "reason": "Failed origin tests mean shade opposite side; second nonstrict<= requires solid boundary. Final evaluate every point: only(5,5) satisfies y>=-3x+9."
+    },
+    "computed": "(position, 3, 6)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/8/3",
+    "sourceDigest": "03e2d5bfdac5adeb1252b56596d0add7b3abcb239a865d07b0f2c8b8fc0912c0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,0-(-4))",
+      "reason": "Failed origin tests mean shade opposite side; second nonstrict<= requires solid boundary. Final evaluate every point: only(5,5) satisfies y>=-3x+9."
+    },
+    "computed": "(position, 2, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/8/4",
+    "sourceDigest": "44e815f14efff280497739943c26c3dcbce0fd96d94977857cd0fc9d38630ef5",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,5-(-3*5+9))",
+      "reason": "Failed origin tests mean shade opposite side; second nonstrict<= requires solid boundary. Final evaluate every point: only(5,5) satisfies y>=-3x+9."
+    },
+    "computed": "(position, 0, 11)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/9/1",
+    "sourceDigest": "2267540d9439f3b981dd2326cd010603d9b874ec7290fa424d15968838dc7b27",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "1-(-3)+1",
+      "reason": "Read figures:closed[-3,1] gives5 integers;(-2,4] gives6;(-1,5) gives5;[-3,2) has minimum integer-3."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/9/2",
+    "sourceDigest": "28cb8e56635ee7598537c590a02ed8b293e1cf9f578b321744b4708dd0fc0884",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,4-(-2))",
+      "reason": "Read figures:closed[-3,1] gives5 integers;(-2,4] gives6;(-1,5) gives5;[-3,2) has minimum integer-3."
+    },
+    "computed": "(position, 1, 6)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/9/3",
+    "sourceDigest": "48599b559170905531144e82a24344db117af01b1716855e052aa5a0a8f29c72",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5-(-1)-1",
+      "reason": "Read figures:closed[-3,1] gives5 integers;(-2,4] gives6;(-1,5) gives5;[-3,2) has minimum integer-3."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/9/4",
+    "sourceDigest": "d194bacf17e10f2ea9aa030e2c1b53768398f9c4f918cde99826fa257ea9d822",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "-3",
+      "reason": "Read figures:closed[-3,1] gives5 integers;(-2,4] gives6;(-1,5) gives5;[-3,2) has minimum integer-3."
+    },
+    "computed": "-3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/10/1",
+    "sourceDigest": "972d3af7fe63ca5da2e64cdc6d363f69c9c13e5da286125ac8042b0c697f6cd9",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,3)",
+      "reason": "Solve affine inequalities, reverse when dividing negative: x<3,x>=-4,x>3,x<=-3. Final graph filled-3 left ray."
+    },
+    "computed": "(position, 2, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/10/2",
+    "sourceDigest": "aa8e515b3089c2822cb2a52aff9a82e3ee2ce8017f9f2753234db12619550398",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-4)",
+      "reason": "Solve affine inequalities, reverse when dividing negative: x<3,x>=-4,x>3,x<=-3. Final graph filled-3 left ray."
+    },
+    "computed": "(position, 1, -4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/10/3",
+    "sourceDigest": "54c15df55b4a171a807ca39278c3675c22c9aed32c457c9d5a4ab2978cc2ba2e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,3)",
+      "reason": "Solve affine inequalities, reverse when dividing negative: x<3,x>=-4,x>3,x<=-3. Final graph filled-3 left ray."
+    },
+    "computed": "(position, 2, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.4/10/4",
+    "sourceDigest": "d2c227d59c817de594a4efa56be03dda9e29e0d2beb70ce11a3ec885e0d25853",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,-3)",
+      "reason": "Solve affine inequalities, reverse when dividing negative: x<3,x>=-4,x>3,x<=-3. Final graph filled-3 left ray."
+    },
+    "computed": "(position, 0, -3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/1/1",
+    "sourceDigest": "971654adfde7b69fb708ebad13c0c88a0f737c1cf1505b61e25dbc0a6b2062b8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6+3",
+      "reason": "Increasing affine expression takes maximum at upper endpoint, minimum at lower; select requested extremum."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/1/2",
+    "sourceDigest": "24b2915ed1e891a47e0083159a9a4c21c2c729d848be55eebb6446fcd9db9e93",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3+5",
+      "reason": "Increasing affine expression takes maximum at upper endpoint, minimum at lower; select requested extremum."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/1/3",
+    "sourceDigest": "ac4b4ae81604c215139f245325388bd478f37186dfff07bda0dbdc973c955fdb",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "2-6",
+      "reason": "Increasing affine expression takes maximum at upper endpoint, minimum at lower; select requested extremum."
+    },
+    "computed": "-4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/1/4",
+    "sourceDigest": "edb93801e9a6a14f8aea5d1acc92b9595795de9ceeba7269cb93e6f5277c2e6c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "-2+10",
+      "reason": "Increasing affine expression takes maximum at upper endpoint, minimum at lower; select requested extremum."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/2/1",
+    "sourceDigest": "b67a75d3db44b84d7f012fdbae62ee3c310ceda66220ee1798cc5bcef86e6e73",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4*2",
+      "reason": "Positive scaling preserves order; substitute corresponding interval endpoint."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/2/2",
+    "sourceDigest": "840aeaedfdfb462e29d19d3b825bce8d515eac2188c814df275e99d3e9150928",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5*8",
+      "reason": "Positive scaling preserves order; substitute corresponding interval endpoint."
+    },
+    "computed": "40",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/2/3",
+    "sourceDigest": "936b1ce27d83677010e35e83b4dae023421c567e99a58ab849b42ec9ac86d4f7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4/4",
+      "reason": "Positive scaling preserves order; substitute corresponding interval endpoint."
+    },
+    "computed": "1",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/2/4",
+    "sourceDigest": "1e251903a1375bd45c03a32d7e4f0180148717ff809713ab1805f55e55013f2e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "7*2",
+      "reason": "Positive scaling preserves order; substitute corresponding interval endpoint."
+    },
+    "computed": "14",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/3/1",
+    "sourceDigest": "9fdbb6b7acde37f1cff9a9fb86b8a1076a14e4d3ec54c3df218b8e32d2668450",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "10-2*0",
+      "reason": "Negative slope reverses endpoint choice; all intervals closed so bounds attained."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/3/2",
+    "sourceDigest": "bafd907f67af108325fd8a3248a15d36fc903fa7b3eb40d6da36a25cae87dc06",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "20-3*1",
+      "reason": "Negative slope reverses endpoint choice; all intervals closed so bounds attained."
+    },
+    "computed": "17",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/3/3",
+    "sourceDigest": "ee4153e9ea11fc5551a31ad67cfe3a62dc67b2847b45e1eb4eba6911ee60e2f9",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6-5*4",
+      "reason": "Negative slope reverses endpoint choice; all intervals closed so bounds attained."
+    },
+    "computed": "-14",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/3/4",
+    "sourceDigest": "d9caedcc392da35763e195a29c1bc252d64881ce0904cf2551f3d1b5eb782b93",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "8-4*(-3)",
+      "reason": "Negative slope reverses endpoint choice; all intervals closed so bounds attained."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/4/1",
+    "sourceDigest": "45299ca604ac86e7beed9f2fd530702722346ad349b1b4c03b795b2d7ebfbc0c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Max((-2)**2,3**2)",
+      "reason": "Square maximum at greatest magnitude endpoint; minimum0 if interval contains0, otherwise at nearest endpoint."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/4/2",
+    "sourceDigest": "86767df8191fcf65998805ca4d340763cc57da6300f0f21cd25a552620ca7bb2",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Max((-5)**2,2**2)",
+      "reason": "Square maximum at greatest magnitude endpoint; minimum0 if interval contains0, otherwise at nearest endpoint."
+    },
+    "computed": "25",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/4/3",
+    "sourceDigest": "3122f062309618852169b50f79b7b94843d1ae8bedd482d73816fbc038ecc556",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "0",
+      "reason": "Square maximum at greatest magnitude endpoint; minimum0 if interval contains0, otherwise at nearest endpoint."
+    },
+    "computed": "0",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/4/4",
+    "sourceDigest": "c27284b0ba8dfb1126265660ef11c541e1147d6b60258b46f5e4ace288b8198e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(-1)**2",
+      "reason": "Square maximum at greatest magnitude endpoint; minimum0 if interval contains0, otherwise at nearest endpoint."
+    },
+    "computed": "1",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/5/1",
+    "sourceDigest": "080287dc3db893360a89cd4cb48f5e4ff839b3144968879aa605a50ca4aa8f69",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor(12/2)*ceiling(12/2)",
+      "reason": "At fixed integer side sum/product, squared difference minimized by equal or closest integers. Rectangle side sum half perimeter14."
+    },
+    "computed": "36",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/5/2",
+    "sourceDigest": "974775e6fcbe5f282aa7bec23277021bdb9eb53014fa56ac5fa9e395f5562008",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor(18/2)*ceiling(18/2)",
+      "reason": "At fixed integer side sum/product, squared difference minimized by equal or closest integers. Rectangle side sum half perimeter14."
+    },
+    "computed": "81",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/5/3",
+    "sourceDigest": "2f945c77111003e0879aef92e7e936b0cc20b4ca719cb7e1e2f1f104f4baf3bb",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(28/4)**2",
+      "reason": "At fixed integer side sum/product, squared difference minimized by equal or closest integers. Rectangle side sum half perimeter14."
+    },
+    "computed": "49",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/5/4",
+    "sourceDigest": "1f21eea21de32a00c38a92eb7cf97c725ac2b663dc6916be29bd7fcf45bc2082",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "V(15,15)",
+      "reason": "At fixed integer side sum/product, squared difference minimized by equal or closest integers. Rectangle side sum half perimeter14."
+    },
+    "computed": "(values, 15, 15)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/6/1",
+    "sourceDigest": "df4052bea95ccd9bb3985e1d6a293744b2142faaec595225cd50ed16c44cf224",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4*7",
+      "reason": "Products of independent positive variables monotone in both; positive quotient maximized with greatest numerator and smallest denominator."
+    },
+    "computed": "28",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/6/2",
+    "sourceDigest": "de58d324d77916cdba36d5a1c08fd83e87cdae5e51364bb2b03813193d9f0963",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5*9",
+      "reason": "Products of independent positive variables monotone in both; positive quotient maximized with greatest numerator and smallest denominator."
+    },
+    "computed": "45",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/6/3",
+    "sourceDigest": "a4765bcc3a0647f10c68bfb434c3fba677874cf141e0ec5947f46c83b3e75204",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3*2",
+      "reason": "Products of independent positive variables monotone in both; positive quotient maximized with greatest numerator and smallest denominator."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/6/4",
+    "sourceDigest": "2f01a9cf0eae08c3bfce32403af421d8e49292641fc7a8b3259e59afdd7cfc89",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6/2",
+      "reason": "Products of independent positive variables monotone in both; positive quotient maximized with greatest numerator and smallest denominator."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/7/1",
+    "sourceDigest": "a5b1f3bd363aa009f360c1ff39f18c5699124a565bfe67a35b445e78af3b4afc",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3-4",
+      "reason": "Difference minimized by minimum minuend and maximum subtrahend; third maximizes x-y with opposite endpoints."
+    },
+    "computed": "-1",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/7/2",
+    "sourceDigest": "24fe51bdea0b1cb09ba35d19213138baad82759465caa89bf3e9d2332d632df8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4-10",
+      "reason": "Difference minimized by minimum minuend and maximum subtrahend; third maximizes x-y with opposite endpoints."
+    },
+    "computed": "-6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/7/3",
+    "sourceDigest": "a158ec8f435cc8a11a43f0c0dd623ed46136f2c1af65ca1394fd60a69cce4e8a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "7-1",
+      "reason": "Difference minimized by minimum minuend and maximum subtrahend; third maximizes x-y with opposite endpoints."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/7/4",
+    "sourceDigest": "cd60a9662096614568c5917e2c0e45b7f30ece77f88c5f2fd0b787d3f3b04947",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "1-2",
+      "reason": "Difference minimized by minimum minuend and maximum subtrahend; third maximizes x-y with opposite endpoints."
+    },
+    "computed": "-1",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/8/1",
+    "sourceDigest": "3371e3cebb655df1460524ceff280e1294cf194541533205a1e472f8c49cfa23",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(8/2)**2",
+      "reason": "Complete square: x(S-x)=S^2/4-(x-S/2)^2; shifted final factors sum10 and attain5 each at x4. Third asks maximizing variable10, not product100."
+    },
+    "computed": "16",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/8/2",
+    "sourceDigest": "57a5ed9274eba69baeb5a7fa1455c21a2e3ce1dc3854cbc3dfdb20496fbfde11",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(12/2)**2",
+      "reason": "Complete square: x(S-x)=S^2/4-(x-S/2)^2; shifted final factors sum10 and attain5 each at x4. Third asks maximizing variable10, not product100."
+    },
+    "computed": "36",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/8/3",
+    "sourceDigest": "c91e2e05baef99cc4984998b1647d088e19e8476e9ed97987123f1dfc221e119",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "20/2",
+      "reason": "Complete square: x(S-x)=S^2/4-(x-S/2)^2; shifted final factors sum10 and attain5 each at x4. Third asks maximizing variable10, not product100."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/8/4",
+    "sourceDigest": "fafe303d9d9836fdbf3b0743e4bbedee90f4d4f673b27947e495239f8888eeab",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "((1+9)/2)**2",
+      "reason": "Complete square: x(S-x)=S^2/4-(x-S/2)^2; shifted final factors sum10 and attain5 each at x4. Third asks maximizing variable10, not product100."
+    },
+    "computed": "25",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/9/1",
+    "sourceDigest": "913aa6bc940081a9341952de3b697282514a1e044508578aac09a72ee5e09036",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor(15/2)*ceiling(15/2)",
+      "reason": "Whole-number products at fixed sum maximize with closest integer pair, avoiding unattainable half-integer pair."
+    },
+    "computed": "56",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/9/2",
+    "sourceDigest": "d07be1202ba890aeec732c72c714449b15a023537c51247b5e955501f88d9f63",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "V(10,11)",
+      "reason": "Whole-number products at fixed sum maximize with closest integer pair, avoiding unattainable half-integer pair."
+    },
+    "computed": "(values, 10, 11)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/9/3",
+    "sourceDigest": "1fbdaf3303569fb726927d08c195c5faac1c1aaa2e283236647acad05708818c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor(27/2)*ceiling(27/2)",
+      "reason": "Whole-number products at fixed sum maximize with closest integer pair, avoiding unattainable half-integer pair."
+    },
+    "computed": "182",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/9/4",
+    "sourceDigest": "9d831811481578358e3689822ceac0ba17ac736c12e4ccb1ae9d4e938004bf88",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor(19/2)*ceiling(19/2)",
+      "reason": "Whole-number products at fixed sum maximize with closest integer pair, avoiding unattainable half-integer pair."
+    },
+    "computed": "90",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/10/1",
+    "sourceDigest": "ea832f35e0d2866bc278cf10a7dba1ba429526582b4d94e920b6fb923e36c19e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Max(9*2,6*4,3*6)",
+      "reason": "Enumerate all positive integer solutions of each linear constraint. Final y1,2,3 gives xy18,24,18, unique optimizer y2."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/10/2",
+    "sourceDigest": "0aec8326b26381d08ab5639277caefcfe1d2ca30c34d1035390852a92e5f02d0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Max(15*2,12*4,9*6,6*8,3*10)",
+      "reason": "Enumerate all positive integer solutions of each linear constraint. Final y1,2,3 gives xy18,24,18, unique optimizer y2."
+    },
+    "computed": "54",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/10/3",
+    "sourceDigest": "6564c89bbe2d1887ebc52d14b51a205b1b27f2eb2a80e8c4e2dfd991598b57be",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Max(1*25,2*20,3*15,4*10,5*5)",
+      "reason": "Enumerate all positive integer solutions of each linear constraint. Final y1,2,3 gives xy18,24,18, unique optimizer y2."
+    },
+    "computed": "45",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.5/10/4",
+    "sourceDigest": "080e36132c3184b2477366016f7d0499e87a573df54df0df31313d0907a2bb8c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "2",
+      "reason": "Enumerate all positive integer solutions of each linear constraint. Final y1,2,3 gives xy18,24,18, unique optimizer y2."
+    },
+    "computed": "2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/1/4",
+    "sourceDigest": "efc55306d759a265fcb0a2c0ac503f44dcd2df6c236a2b1bdce6eb51b0e43906",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,(12+13)/5)",
+      "reason": "Solve12-5w>=-13 gives w<=5 after sign reversal."
+    },
+    "computed": "(position, 1, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/3/1",
+    "sourceDigest": "65d31de4693e09344e859168d8265318bd5f86d8f82b5072441025bdb17dde8c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Max(6/11,5/9,1/2,4/7)",
+      "reason": "Compare every listed rational exactly; third asks smallest and fourth last in ascending order means maximum."
+    },
+    "computed": "4/7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/3/2",
+    "sourceDigest": "49d51a327f240900601a200375aa11a1ee9c4c689db2f9d5bc1c01c422ec66bd",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Max(5/12,3/7,2/5,4/9)",
+      "reason": "Compare every listed rational exactly; third asks smallest and fourth last in ascending order means maximum."
+    },
+    "computed": "4/9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/3/3",
+    "sourceDigest": "f52ef656085a915dcf59d416a8c467a736775cfc45be4a5fe07dcb6be6a166c2",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Min(7/9,5/7,8/11,3/4)",
+      "reason": "Compare every listed rational exactly; third asks smallest and fourth last in ascending order means maximum."
+    },
+    "computed": "5/7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/3/4",
+    "sourceDigest": "6d384cbfa585a8a366d3616a95b9eda5b233bb5731ad2077291ee3a288a50f0f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Max(9/16,7/13,5/9,11/20)",
+      "reason": "Compare every listed rational exactly; third asks smallest and fourth last in ascending order means maximum."
+    },
+    "computed": "9/16",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/4/1",
+    "sourceDigest": "029f35feb486ec88f9e549908a120fb2825d05d25f3a8a847b335b8a40506aaf",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,10+2*sqrt(21)-19)",
+      "reason": "For positive sums compare squared values via84>81,40>36,168<169. Last sqrt10<1+sqrt6 since3<2sqrt6 (9<24), so root difference below1."
+    },
+    "computed": "(position, 0, -9 + 2*sqrt(21))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/4/2",
+    "sourceDigest": "4ccb1ba2b57b472c0b84016650d52a06c16cd8b90f34d4ff62d0cb40252c6f0e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,7+2*sqrt(10)-13)",
+      "reason": "For positive sums compare squared values via84>81,40>36,168<169. Last sqrt10<1+sqrt6 since3<2sqrt6 (9<24), so root difference below1."
+    },
+    "computed": "(position, 0, -6 + 2*sqrt(10))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/4/3",
+    "sourceDigest": "0b91204d5c6ebdf4c513f03f3ec07a319b057cd3f2673e65649907c148bb2cb7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,26-(13+2*sqrt(42)))",
+      "reason": "For positive sums compare squared values via84>81,40>36,168<169. Last sqrt10<1+sqrt6 since3<2sqrt6 (9<24), so root difference below1."
+    },
+    "computed": "(position, 2, 13 - 2*sqrt(42))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/4/4",
+    "sourceDigest": "2fdfd260772d052aafa30ad1d671b4cd12bef4bdece46a70a2ce708b1d6fcacb",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1-(sqrt(10)-sqrt(6)))",
+      "reason": "For positive sums compare squared values via84>81,40>36,168<169. Last sqrt10<1+sqrt6 since3<2sqrt6 (9<24), so root difference below1."
+    },
+    "computed": "(position, 1, -sqrt(10) + 1 + sqrt(6))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/5/1",
+    "sourceDigest": "9696619d5ab01930de4e16207eab0173f07c0040204fb3c9e484e17cb15a77cb",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,-1)",
+      "reason": "Multiplying/dividing strict inequality by negative reverses it. Final -3a<-3b is false while shifts, positive division and adding b preserve given order."
+    },
+    "computed": "(position, 2, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/5/2",
+    "sourceDigest": "fc0160b7725d30df34f973b46548a0775343eb19fd6bf39223d4402aab7e687e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-1)",
+      "reason": "Multiplying/dividing strict inequality by negative reverses it. Final -3a<-3b is false while shifts, positive division and adding b preserve given order."
+    },
+    "computed": "(position, 1, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/5/3",
+    "sourceDigest": "f52e0bf63c654e65de7076b980a638b1bfccf759767dc08fa7b3007c74e1601c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,-1)",
+      "reason": "Multiplying/dividing strict inequality by negative reverses it. Final -3a<-3b is false while shifts, positive division and adding b preserve given order."
+    },
+    "computed": "(position, 3, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/5/4",
+    "sourceDigest": "c947b7d2d4bbcd6bebb21dba8fb8c4116050a4bf837d5a34b0f6738b6bd44d26",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,-3)",
+      "reason": "Multiplying/dividing strict inequality by negative reverses it. Final -3a<-3b is false while shifts, positive division and adding b preserve given order."
+    },
+    "computed": "(position, 2, -3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/6/1",
+    "sourceDigest": "e7a9b49513ca0b9ef7451b4c908244b3ea82a1ea5c2d2e537033e15046b278dd",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5-2*4",
+      "reason": "Decreasing affine functions attain minimum at upper and maximum at lower endpoint; final complete closed range[-2,13]."
+    },
+    "computed": "-3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/6/2",
+    "sourceDigest": "6153ad38a960f271694827e0c535b03c1165bcc7f50fbb65d29ccb8c393919c1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4-3*(-3)",
+      "reason": "Decreasing affine functions attain minimum at upper and maximum at lower endpoint; final complete closed range[-2,13]."
+    },
+    "computed": "13",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/6/3",
+    "sourceDigest": "42b129811abb9351bb1701cf3f3e06d6047a0f6d6775014f58a3ea31d6453ec6",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "10-4*7",
+      "reason": "Decreasing affine functions attain minimum at upper and maximum at lower endpoint; final complete closed range[-2,13]."
+    },
+    "computed": "-18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/6/4",
+    "sourceDigest": "916a1d5332a1a539aa7fdf11d080b6b2a2b465717ed72a8de331a6a081d829d1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,Interval(7-3*3,7-3*(-2)))",
+      "reason": "Decreasing affine functions attain minimum at upper and maximum at lower endpoint; final complete closed range[-2,13]."
+    },
+    "computed": "(position, 2, Interval(-2, 13))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/7/1",
+    "sourceDigest": "e4f101c1fba60ff73def9d1ce4c8353bfd39f93daf488ca2d8ec82cf8346e961",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,Interval(-1,4,False,True))",
+      "reason": "Intersect solved inequalities: [-1,4),(-3,4],[-3,2),(-4,5]. Last integers-3 through5 count9."
+    },
+    "computed": "(position, 3, Interval.Ropen(-1, 4))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/7/2",
+    "sourceDigest": "da670fa0a3d44da42ec7b08e252b16a40bbfd5952611eb5d3616e02032b71da6",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,Interval(-3,4,True,False))",
+      "reason": "Intersect solved inequalities: [-1,4),(-3,4],[-3,2),(-4,5]. Last integers-3 through5 count9."
+    },
+    "computed": "(position, 0, Interval.Lopen(-3, 4))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/7/3",
+    "sourceDigest": "3cd69597962be1b32ac810f9e887039e0a225062aaa575dc0b518751ef932bc0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Interval(-3,2,False,True))",
+      "reason": "Intersect solved inequalities: [-1,4),(-3,4],[-3,2),(-4,5]. Last integers-3 through5 count9."
+    },
+    "computed": "(position, 1, Interval.Ropen(-3, 2))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/7/4",
+    "sourceDigest": "eed2845dee1ee73675945c019ce2ae0f7de28380488511ff42511fe8bd5a648f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5-(-4)",
+      "reason": "Intersect solved inequalities: [-1,4),(-3,4],[-3,2),(-4,5]. Last integers-3 through5 count9."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/8/1",
+    "sourceDigest": "dc217b47773ff77bea198aafd91989050a8a661cacf320e096cf0f5e604ce4e4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "10*10-1*19",
+      "reason": "Fixed positive integer sum gives largest balanced product and smallest endpoint1*(S-1); final entries>1 so minimum2*(19-2)."
+    },
+    "computed": "81",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/8/2",
+    "sourceDigest": "fdc73c21e631cfb5d49b24a7790b4af10c06e3d98c029ec338bd870fabdbb2ae",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "8*8-1*15",
+      "reason": "Fixed positive integer sum gives largest balanced product and smallest endpoint1*(S-1); final entries>1 so minimum2*(19-2)."
+    },
+    "computed": "49",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/8/3",
+    "sourceDigest": "bdf162ef8fd332721fe82f9f0ff528167906620d8a421fd35b23365da0aeb7dc",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6*7-1*12",
+      "reason": "Fixed positive integer sum gives largest balanced product and smallest endpoint1*(S-1); final entries>1 so minimum2*(19-2)."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/8/4",
+    "sourceDigest": "2a356ea137ce3004b5c251b9d86c02b098e742338c79558eb189b4b212d83502",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "2*17",
+      "reason": "Fixed positive integer sum gives largest balanced product and smallest endpoint1*(S-1); final entries>1 so minimum2*(19-2)."
+    },
+    "computed": "34",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/9/1",
+    "sourceDigest": "d3c6362c2dfc4d07f53cb8e9fedbba45bb7180e57ec117475cc6adbd21eb632d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "20-2*4",
+      "reason": "Respect integer and strict endpoints before affine extrema; allowed minimizing/maximizing inputs4,4,0 and2/8."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/9/2",
+    "sourceDigest": "80bc45346a1dbf8a44e66a440bab43face17d1672d9924d44fcf49615450acf5",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "30-4*4",
+      "reason": "Respect integer and strict endpoints before affine extrema; allowed minimizing/maximizing inputs4,4,0 and2/8."
+    },
+    "computed": "14",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/9/3",
+    "sourceDigest": "06ed1e06b755114d90f077bc3681fa31010ac22589b4d4e519749adeee6cc413",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5*0+12",
+      "reason": "Respect integer and strict endpoints before affine extrema; allowed minimizing/maximizing inputs4,4,0 and2/8."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/9/4",
+    "sourceDigest": "f14fe0a4a2562f64f6eabaa135c23187cf4935390f06f5c0d11aa3b3fd671f7f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(40-3*2)-(40-3*8)",
+      "reason": "Respect integer and strict endpoints before affine extrema; allowed minimizing/maximizing inputs4,4,0 and2/8."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/10/1",
+    "sourceDigest": "a5b667c4ee49a26a4b1bf380f0675425208ccf2ab0920106dfda6c35dc95bd89",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,2-(2*3-3))",
+      "reason": "Substitute all ordered points, including boundary equality. Unique failing/satisfying points(3,2),(1,5),(3,-3),(6,0) as requested."
+    },
+    "computed": "(position, 2, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/10/2",
+    "sourceDigest": "2585aa3938bd3b3042b815cf986ee269e018883f3be3c069752fcf728a162874",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,5-(3*1+1))",
+      "reason": "Substitute all ordered points, including boundary equality. Unique failing/satisfying points(3,2),(1,5),(3,-3),(6,0) as requested."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/10/3",
+    "sourceDigest": "7414fa428ae95b51d299b3f86ebe850dee6d5f97eaf8d8cd56c10746d320ce6a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,-3-(-2*3+4))",
+      "reason": "Substitute all ordered points, including boundary equality. Unique failing/satisfying points(3,2),(1,5),(3,-3),(6,0) as requested."
+    },
+    "computed": "(position, 0, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/10/4",
+    "sourceDigest": "d8f5991cc6e07901fea878018d43e0965f320c9bd357c2b57da45f98a8c70543",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,0-(6-5))",
+      "reason": "Substitute all ordered points, including boundary equality. Unique failing/satisfying points(3,2),(1,5),(3,-3),(6,0) as requested."
+    },
+    "computed": "(position, 2, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/11/1",
+    "sourceDigest": "5e1dde0bb83676fe838a48b2169857fee5b935ec6a0918329744719f8d543884",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4*85-80-88-84",
+      "reason": "Target total minus completed total determines exact minimum final score, maximum spending, or minimum two-game mean; last divide needed168 total by2."
+    },
+    "computed": "88",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/11/2",
+    "sourceDigest": "f88af87d9cf68d5dcc0f64d990908bda2561e66d2b6b85afbf105d0b2ae6b386",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4*85-88-76-94",
+      "reason": "Target total minus completed total determines exact minimum final score, maximum spending, or minimum two-game mean; last divide needed168 total by2."
+    },
+    "computed": "82",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/11/3",
+    "sourceDigest": "7f6fee404f27854582a1643e9a0e4368186c81b5c85d71520b84a303f8f75dfa",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5*40-52-31-44-38",
+      "reason": "Target total minus completed total determines exact minimum final score, maximum spending, or minimum two-game mean; last divide needed168 total by2."
+    },
+    "computed": "35",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/11/4",
+    "sourceDigest": "9c7c72513a9b41084dfd1a09b878202e0407f90c17cf9c57f8912c56cfacc978",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(6*80-4*78)/2",
+      "reason": "Target total minus completed total determines exact minimum final score, maximum spending, or minimum two-game mean; last divide needed168 total by2."
+    },
+    "computed": "84",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/12/1",
+    "sourceDigest": "97049fe83301904ee86ea2f8ba8ecc10b915b1ea3916062b3840ae83aeb767fe",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,3)",
+      "reason": "Compute shifted-ratio difference k*(b-a)/(b*(b+k)): positive when a<b, negative when a>b. Subtracting1 with1<m<n decreases ratio because difference(m-n)/(n*(n-1))<0. All denominators positive."
+    },
+    "computed": "(position, 1, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/12/2",
+    "sourceDigest": "6f84d9c60d40dd4cdd5a942e0c64a138e43eebfcbf34fcd0a8f834d95835f98f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,5)",
+      "reason": "Compute shifted-ratio difference k*(b-a)/(b*(b+k)): positive when a<b, negative when a>b. Subtracting1 with1<m<n decreases ratio because difference(m-n)/(n*(n-1))<0. All denominators positive."
+    },
+    "computed": "(position, 0, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/12/3",
+    "sourceDigest": "22b767b9120166620833b99c255d9368019362e5d74538d2eb64549c8a2c9c79",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Compute shifted-ratio difference k*(b-a)/(b*(b+k)): positive when a<b, negative when a>b. Subtracting1 with1<m<n decreases ratio because difference(m-n)/(n*(n-1))<0. All denominators positive."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/challenge/12/4",
+    "sourceDigest": "39a0fc30fbc85872cbe01261fd1ed9afe0ee28398c7a997959d1a758d3bf1243",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Compute shifted-ratio difference k*(b-a)/(b*(b+k)): positive when a<b, negative when a>b. Subtracting1 with1<m<n decreases ratio because difference(m-n)/(n*(n-1))<0. All denominators positive."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/3/4",
+    "sourceDigest": "d92dfbf4a15f016b3e1c7ebfe9d5a48b18fa2ca7191f7dd51718718410bfe714",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Min(13/14,14/15)",
+      "reason": "Exact cross multiplication compares195 and196."
+    },
+    "computed": "13/14",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/4/4",
+    "sourceDigest": "034533c469313b5bd3ecc128c91610eb92cd28bc15db935e73cc23d44004867f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "B(-4,3,0,1,0)",
+      "reason": "Subtract3 and divide3 yields-4<x<=3; complete integer list-3,-2,-1,0,1,2,3. Verify both inequality and enumeration."
+    },
+    "computed": "(boundedIntegers, -4, 3, 0, 1, 0)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/5/4",
+    "sourceDigest": "06f3cc83e06a8a7807dc08966b095874dfba3c015335c88279fc1670a913479d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Min(6*sqrt(2),sqrt(80))",
+      "reason": "Both positive, squared values72 and80 determine smaller6sqrt2."
+    },
+    "computed": "6*sqrt(2)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/6/1",
+    "sourceDigest": "6472d9f75f8e323c5786fb120362b84ef52464195fff22460a78b9d99c8f9572",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor(20/3)",
+      "reason": "Affordability uses floor, required minimum revenue uses ceiling; final subtract entry fee first."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/6/2",
+    "sourceDigest": "dccfe64c7c5c44f96de199cecf020d0cb16ded02516fb89343a0aa9130f45a6f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor(30/4)",
+      "reason": "Affordability uses floor, required minimum revenue uses ceiling; final subtract entry fee first."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/6/3",
+    "sourceDigest": "65e73944af5296c0c4f3fcf5488b2b40b98262e68aa5e42627463db701b7da83",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "ceiling(95/6)",
+      "reason": "Affordability uses floor, required minimum revenue uses ceiling; final subtract entry fee first."
+    },
+    "computed": "16",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/6/4",
+    "sourceDigest": "bbc9ab1d21bcca2fd6f1555dcebcefdef0048ffd76895f5bba2990be157f0705",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor((20-5)/2)",
+      "reason": "Affordability uses floor, required minimum revenue uses ceiling; final subtract entry fee first."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/7/4",
+    "sourceDigest": "8981cdd3e82c08b9b3f3bd4d2bbf703214216a5982f28fd368ce7c96b95b80f4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "B(-2,2,0,1,1)",
+      "reason": "Subtract3 then divide-5 reversing both comparisons, producing-2<x<=2; integers-1,0,1,2 give count4."
+    },
+    "computed": "(boundedIntegers, -2, 2, 0, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/8/1",
+    "sourceDigest": "89d17a1b5b07648522c4493cdc57c19236805d0adca4beeea739322f965d6e88",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor(25/2)*ceiling(25/2)",
+      "reason": "Max product at balanced integer pair; third minimum at positive endpoint1; rectangle side sum is perimeter/2=17."
+    },
+    "computed": "156",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/8/2",
+    "sourceDigest": "b8d8e868ec2a7578d3020744f32f2b072cb3786f6418d43a7331ad3709809b28",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor(31/2)*ceiling(31/2)",
+      "reason": "Max product at balanced integer pair; third minimum at positive endpoint1; rectangle side sum is perimeter/2=17."
+    },
+    "computed": "240",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/8/3",
+    "sourceDigest": "12a95cdfb7d9937bda9c636f2af8ef5756133497acd5782169bacf170c741d65",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "1*(18-1)",
+      "reason": "Max product at balanced integer pair; third minimum at positive endpoint1; rectangle side sum is perimeter/2=17."
+    },
+    "computed": "17",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/8/4",
+    "sourceDigest": "9b98c714377caa9afa5b0d5b8c31bc2d7d2e060327625cbee6da9428db9d1eb3",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor(17/2)*ceiling(17/2)",
+      "reason": "Max product at balanced integer pair; third minimum at positive endpoint1; rectangle side sum is perimeter/2=17."
+    },
+    "computed": "72",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/9/1",
+    "sourceDigest": "b4956512c233d39751ee36ab19e461ec62cd97976921b9c465fa3938c7aab8bb",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6**2-1**2",
+      "reason": "Expand product to difference of squares; positive independent intervals let endpoints maximize or minimize each term separately."
+    },
+    "computed": "35",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/9/2",
+    "sourceDigest": "eb87372435f8f5c0b802f18652e8f6d1bfaeecb2d46a3fd5076d4fc0e3b48431",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "7**2-2**2",
+      "reason": "Expand product to difference of squares; positive independent intervals let endpoints maximize or minimize each term separately."
+    },
+    "computed": "45",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/9/3",
+    "sourceDigest": "2425f2d3080f4e041d33d8abd90ca39422e90d9739485175c0be7199ea741af2",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "2**2-3**2",
+      "reason": "Expand product to difference of squares; positive independent intervals let endpoints maximize or minimize each term separately."
+    },
+    "computed": "-5",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/9/4",
+    "sourceDigest": "c6f38b04aebbaf01aea0ab3bb930dec59f61b7a7a1105e5478375236b436892c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "7**2-1**2",
+      "reason": "Expand product to difference of squares; positive independent intervals let endpoints maximize or minimize each term separately."
+    },
+    "computed": "48",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/worksheet/10/4",
+    "sourceDigest": "6dd284721cbc2cdcbc0287bef7ddfcd750841a902a3dac0395decf47e0b7c3af",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Min(sqrt(5)+sqrt(7),sqrt(23))",
+      "reason": "Square positive quantities:12+2sqrt35>23 since140>121, so sqrt23 is smaller."
+    },
+    "computed": "sqrt(23)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.3/1/4",
+    "sourceDigest": "40de509c5e440f75fa1088a0dd5181333722f1e7586658856f3a3277d440c70a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "ceiling(-3+11)",
+      "reason": "Adding11 yields m>=8, whose smallest integer is8."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.3/2/4",
+    "sourceDigest": "5147a500d5408a7d83775f5749dfb3593183fbfbc6ba42c9c48b1c6cef3630c2",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor(20/3)",
+      "reason": "Divide positive3; greatest integer at most20/3 is6."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.3/3/4",
+    "sourceDigest": "27dd3bcb7085e1e95ad01b50a3e32f34f0888cc1d755e7fb466f49ee97b86f45",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6",
+      "reason": "Division by negative4 gives x<5. Options0,-3,4 satisfy;6 alone does not."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.3/4/4",
+    "sourceDigest": "235ca3aad35d1ffa7b4639e89ad78b88ae494d15c12c092f00a4c44974e79c01",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,(1-9)/4)",
+      "reason": "Subtract9 then divide4 gives t<=-2. Other bounds reverse direction, exclude the boundary, or include invalid larger values."
+    },
+    "computed": "(position, 1, -2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.3/5/4",
+    "sourceDigest": "f8b9c4da6216ad309cef0279caf0bfc5b63d136fea9597e3b1e31c76035ef008",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4",
+      "reason": "Subtract9 then divide negative2 gives x>=4. Of0,3,4,-4 only4 qualifies."
+    },
+    "computed": "4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.3/6/4",
+    "sourceDigest": "3ebeaf1063861847d490716efe0fae720028cfb60c6984b6dcb5c094719b1480",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor((18-3)/5)",
+      "reason": "Subtract3 then divide5 gives -1<=x<=3, largest integer3."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.3/7/4",
+    "sourceDigest": "4601f7e3a1bf866326808af1523133fdd4b6f3752b8b621fb156ae66b066a8ec",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "2",
+      "reason": "Integer upper bound must include1 and exclude2, hence b=2 exactly."
+    },
+    "computed": "2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/9/9.3/9/4",
+    "sourceDigest": "53451547cc94b0dbd117716d3f8646bd86250fce71589922cebac07472b87f9a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "ceiling((5+1)/(1-1/2))",
+      "reason": "Rearrangement yields n/2>=6, so minimum integer n=12."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  }
+]

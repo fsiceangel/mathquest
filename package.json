@@ -7,7 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "validate": "node scripts/validate-content.mjs"
+    "validate": "node scripts/validate-content.mjs",
+    "audit:difficulty": "node scripts/audit/difficulty.mjs",
+    "audit:arena-answers": "node scripts/audit/verify-arena.mjs",
+    "audit:runtime": "node scripts/audit/runtime.mjs",
+    "audit:attempts": "node scripts/audit/attempts.mjs",
+    "audit:answer-entry": "node scripts/audit/answer-entry.mjs",
+    "audit:section-entry": "node scripts/audit/section-entry.mjs && node scripts/audit/remaining-entry.mjs",
+    "audit:answer-status": "node scripts/audit/answers/status.mjs",
+    "audit:answers": "node scripts/audit/answers/status.mjs --require-complete",
+    "audit:transitions": "node scripts/audit/verify-transitions.mjs && node scripts/audit/transition-runtime.mjs"
   },
   "dependencies": {
     "katex": "^0.16.11",

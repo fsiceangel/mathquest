@@ -337,6 +337,16 @@ const s72 = {
         },
       },
       {
+        problem: 'A triangle has $A(0,0)$, $B(8,0)$, and $C(4,6)$. Its circumcenter lies on the perpendicular bisector $x=4$, so write it as $O(4,y)$. Use the supplied equation $16+y^2=(6-y)^2$ to find $y$, then the radius.',
+        steps: [
+          'The equation compares squared distances: $OA^2=4^2+y^2$ by Pythagoras, while $OC^2=(6-y)^2$ because $O$ and $C$ are on the same vertical line.',
+          'Expand the square: $(6-y)^2=(6-y)(6-y)=36-12y+y^2$. The same $y^2$ appears on both sides, so subtract it to get $16=36-12y$.',
+          'Solve the remaining linear equation: $12y=20$, hence $y=5/3$. Since $5/3<6$, the radius is the vertical distance $OC=6-5/3=13/3$.',
+          'The next example asks you to build this equal-distance equation yourself. The unknown center height is not the radius.',
+        ],
+        answer: '$O(4,5/3)$ and $R=13/3$',
+      },
+      {
         problem: 'Triangle $ABC$ has vertices $A(0, 0)$, $B(6, 0)$, and $C(3, 4)$, so $CA = CB = 5$ and $AB = 6$. Find its circumcenter and circumradius.',
         steps: [
           'The circumcenter lies on the perpendicular bisector of $\\overline{AB}$, which is the vertical line $x = 3$. So the center is $O(3, y)$ for some $y$.',
@@ -610,7 +620,7 @@ const s73 = {
         steps: [
           'Area first: base $6$, height $4$, so Area $= \\frac{1}{2} \\cdot 6 \\cdot 4 = 12$. The semiperimeter is $s = \\frac{5 + 5 + 6}{2} = 8$.',
           'Then $r = \\frac{\\text{Area}}{s} = \\frac{12}{8} = 1.5$.',
-          'By symmetry the incenter is on the axis $x = 3$, at height $r$ above the base: $I(3, 1.5)$. Check against slanted side $\\overline{AC}$ (the line $4x - 3y = 0$): distance $= \\frac{|4 \\cdot 3 - 3 \\cdot 1.5|}{5} = \\frac{7.5}{5} = 1.5$. ✓',
+          'By symmetry the incenter is on the axis $x = 3$. Its perpendicular distance to the horizontal base is $r=1.5$, so its coordinates are $I(3,1.5)$. The angle-bisector property guarantees the same distance to both slanted sides.',
         ],
         answer: '$r = 1.5$, incenter $I(3, 1.5)$',
         fig: {
@@ -1552,10 +1562,10 @@ const challenge = [
     solution: 'Equidistant from all three vertices means the circumcenter. The right angle is at $B$, so the hypotenuse is $\\overline{AC}$, and the circumcenter is its midpoint: $(4, 3)$. Verify: distance to $A$ is $\\sqrt{16 + 9} = 5$, to $B$ is $\\sqrt{16 + 9} = 5$, to $C$ is $\\sqrt{16 + 9} = 5$. The distractor $\\left(\\frac{16}{3}, 2\\right)$ is the centroid, which balances area — it does not equalize distances.',
   },
   {
-    q: 'A triangle has an inscribed circle of radius $6$, and its area is $150$. What is its perimeter?',
-    choices: ['$25$', '$12.5$', '$100$', '$50$'],
+    q: 'A triangle has an inscribed circle of radius $6$, and its area is $216$. What is its perimeter?',
+    choices: ['$36$', '$18$', '$144$', '$72$'],
     answer: 3,
-    solution: 'Area $= rs$ gives $150 = 6s$, so the semiperimeter is $s = 25$ — and the PERIMETER is $2 \\cdot 25 = 50$. Stopping at $25$ answers the wrong question; the formula\'s $s$ is only half the boundary.',
+    solution: 'Area $=rs$ gives $216=6s$, so the semiperimeter is $s=36$. The perimeter is twice that: $P=72$. The formula uses half the perimeter; stopping at $36$ answers the wrong question.',
   },
   {
     q: 'A right triangle has inradius $r = 3$ and circumradius $R = 8.5$. What is its area?',
@@ -1676,9 +1686,9 @@ const worksheet = [
     solution: 'The hypotenuse is $\\sqrt{8^2 + 15^2} = \\sqrt{289} = 17$. A right triangle\'s circumcenter is the midpoint of its hypotenuse, so the circumradius is half the hypotenuse: $R = \\frac{17}{2} = 8.5$. In the figure the center $O(7.5, 4)$ is $\\sqrt{7.5^2 + 4^2} = 8.5$ from every vertex.',
   },
   {
-    q: 'A triangle has perimeter $28$ and area $42$. Find its inradius.',
+    q: 'A triangle has perimeter $36$ and area $54$. Find its inradius.',
     answer: '$r = 3$',
-    solution: 'The semiperimeter is $s = \\frac{28}{2} = 14$. From Area $= rs$: $42 = 14r$, so $r = 3$. Remember that the formula uses the SEMIperimeter — dividing by the full perimeter would give $1.5$, half the true inradius.',
+    solution: 'The semiperimeter is $s = \\frac{36}{2} = 18$. From Area $= rs$: $54 = 18r$, so $r = 3$. These measurements are possible: a $9$-$12$-$15$ right triangle has perimeter $36$ and area $54$. Remember that the formula uses the SEMIperimeter — dividing by the full perimeter would give $1.5$, half the true inradius.',
   },
   {
     q: 'A median of a triangle has length $21$. Into what two lengths does the centroid divide it? Say which piece touches the vertex.',
@@ -1773,5 +1783,3 @@ export default {
   challenge,
   worksheet,
 }
-
-

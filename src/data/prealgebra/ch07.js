@@ -333,7 +333,7 @@ const s73 = {
       q: 'On a map, $3$ cm represents $8$ km. Two villages are really $20$ km apart. How far apart are they on the map?',
       choices: ['$7.5$ cm', '$53$ cm', '$6$ cm', '$8.5$ cm'],
       answer: 0,
-      solution: 'Set up $\\frac{3 \\text{ cm}}{8 \\text{ km}} = \\frac{x \\text{ cm}}{20 \\text{ km}}$. Cross-multiply: $8x = 60$, so $x = 7.5$ cm. An answer like $53$ cm comes from flipping the scale — always check that map distances come out SMALLER than real ones.',
+      solution: 'Set up $\\frac{3 \\text{ cm}}{8 \\text{ km}} = \\frac{x \\text{ cm}}{20 \\text{ km}}$. Cross-multiply: $8x = 60$, so $x = 7.5$ cm. Check the scale: $20$ km is $2.5$ times $8$ km, so the map distance must be $2.5$ times $3$ cm.',
     },
     {
       q: 'Jade is $12$ and her mom is $36$, so their ages are in the ratio $1:3$. What will the ratio of their ages be in $12$ years?',
@@ -473,7 +473,7 @@ const s75 = {
       },
       {
         heading: 'Average speed is total over total',
-        body: 'Average speed $= \\frac{\\text{TOTAL distance}}{\\text{TOTAL time}}$ — always. It is tempting to just average two speeds, but that fails whenever the two legs take different amounts of time, because the slower leg eats up more of the trip.',
+        body: 'Average speed $= \\frac{\\text{TOTAL distance}}{\\text{TOTAL time}}$ — always. Each speed counts according to how long you travel at that speed. For two different speeds, their ordinary average works only when the two legs take equal amounts of time. If the distances are equal instead, the slower leg takes longer and counts more.',
       },
       {
         heading: 'Chases and gaps',
@@ -505,6 +505,24 @@ const s75 = {
           'Total distance $= 120$ km, total time $= 3$ hours, so average speed $= \\frac{120}{3} = 40$ km/h.',
         ],
         answer: 'Her average speed is $40$ km/h',
+      },
+      {
+        problem: 'A walker leaves at 9:00 at $4$ km/h. A cyclist follows the same route at 9:30 at $12$ km/h. When and where does the cyclist catch the walker?',
+        steps: [
+          'At 9:30 the walker is $4 \\times \\frac{1}{2} = 2$ km ahead. Start the chase clock at 9:30, not at 9:00.',
+          'Each hour the gap shrinks by $12 - 4 = 8$ km. Closing $2$ km takes $2/8 = 1/4$ hour, or $15$ minutes.',
+          'The meeting time is 9:45. The cyclist has travelled $12 \\times 1/4 = 3$ km; the walker has travelled $4 \\times 3/4 = 3$ km too.',
+        ],
+        answer: '9:45, at a point $3$ km from the start',
+      },
+      {
+        problem: 'A cyclist rides $40$ km out at $20$ km/h. What return speed gives an average of $25$ km/h over the whole $80$ km trip?',
+        steps: [
+          'Reverse the average-speed equation first: total time must be $80/25 = 16/5$ hours.',
+          'The outward leg used $40/20 = 2$ hours, leaving $16/5 - 2 = 6/5$ hours for the return.',
+          'The return speed must be $40 \\div (6/5) = 100/3$ km/h. Averaging the two speeds directly would ignore the different travel times.',
+        ],
+        answer: '$33\\frac{1}{3}$ km/h',
       },
     ],
   },
@@ -620,6 +638,24 @@ const s76 = {
           'At half a pool per hour, the whole pool takes $2$ hours — faster than either hose alone, as it should be.',
         ],
         answer: 'Together they fill the pool in $2$ hours',
+      },
+      {
+        problem: 'Two pumps fill a tank together in $4$ hours. The first pump alone takes $12$ hours. How long does the second pump alone take?',
+        steps: [
+          'Represent one full tank by $1$. The combined rate is $1/4$ tank per hour and the first rate is $1/12$.',
+          'Subtract rates, not completion times: the second rate is $1/4 - 1/12 = 1/6$ tank per hour.',
+          'At $1/6$ tank per hour, one tank takes $6$ hours. Check: $1/12 + 1/6 = 1/4$.',
+        ],
+        answer: '$6$ hours',
+      },
+      {
+        problem: 'Ava can paint a wall in $6$ hours and Ben in $3$ hours. They work together for $1$ hour, then Ben leaves. How much longer does Ava need?',
+        steps: [
+          'During the first stage their combined rate is $1/6 + 1/3 = 1/2$ wall per hour, so they finish half the wall.',
+          'The second stage has a different rate: Ava alone paints $1/6$ wall per hour. The unfinished amount is $1 - 1/2 = 1/2$.',
+          'Remaining time is remaining work divided by the new rate: $(1/2) \\div (1/6) = 3$ hours. Total elapsed time would be $4$ hours, but the question asks how much longer.',
+        ],
+        answer: '$3$ more hours',
       },
     ],
   },
@@ -796,7 +832,7 @@ const worksheet = [
   {
     q: 'A hiking trail is $6$ km each way. Noor hikes up at $3$ km/h and back down at $6$ km/h. What is her average speed for the whole hike?',
     answer: '$4$ km/h',
-    solution: 'Average speed is total distance over total time — never just the average of the two speeds. Up: $6 \\div 3 = 2$ hours. Down: $6 \\div 6 = 1$ hour. Total: $12$ km in $3$ hours, so $\\frac{12}{3} = 4$ km/h. The slow uphill leg takes twice as long, which drags the average below the midpoint of $4.5$.',
+    solution: 'Average speed is total distance over total time. The two speeds cannot be averaged directly here because the two legs take different amounts of time. Up: $6 \\div 3 = 2$ hours. Down: $6 \\div 6 = 1$ hour. Total: $12$ km in $3$ hours, so $\\frac{12}{3} = 4$ km/h. The slow uphill leg takes twice as long, which drags the average below the midpoint of $4.5$.',
   },
   {
     q: 'If $a:b = 5:6$ and $b:c = 3:4$, find $a:c$ in simplest form.',

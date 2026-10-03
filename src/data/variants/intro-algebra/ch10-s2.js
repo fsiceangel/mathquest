@@ -83,7 +83,7 @@ const s103 = [
         'Since $121 = 11^2$, this is $y^2 - 11^2$, a difference of two squares, so it factors as $(y - 11)(y + 11)$. Multiply back out: $y^2 + 11y - 11y - 121 = y^2 - 121$ ✓. (The choice $(y - 11)^2$ expands to $y^2 - 22y + 121$; the choice $(y + 11)^2$ expands to $y^2 + 22y + 121$ — a perfect square always has a middle term, and our expression has none; the choice $(y - 1)(y + 121)$ has the right constant $-121$ but expands to $y^2 + 120y - 121$.)',
     },
     {
-      q: 'Three of these expressions cannot be factored with the difference-of-squares pattern. Which one CAN?',
+      q: 'Which expression is a difference of squares of two monomials with integer coefficients?',
       choices: ['$x^2 + 25$', '$x^2 - 30$', '$x^2 - 25$', '$x^2 - 10x + 25$'],
       answer: 2,
       solution:

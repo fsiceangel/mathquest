@@ -320,7 +320,7 @@ const s86 = [
         'The card’s four equal sides earn it the rhombus bin, and its four right angles earn it the rectangle bin — it belongs in both ✓. Check a second, independent way through inherited properties: the card’s diagonals are perpendicular bisectors of each other that bisect the corner angles, all rhombus behavior, and they are also equal in length, pure rectangle behavior — no single-family shape shows both ✓. (The rhombus bin only is DENYING THE RECTANGLE SIDE ✗; the rectangle bin only is DENYING THE RHOMBUS SIDE ✗; a separate bin is ORPHANING THE SQUARE from the families whose tests it passes ✗.)',
     },
     {
-      q: 'A shape-classifying robot scans a tile and reports two facts: four equal sides, four right angles. It must list every quadrilateral family the tile belongs to. Which listing is correct?',
+      q: 'A shape-classifying robot scans a tile and reports two facts: four equal sides, four right angles. Which statement about the tile’s classification is correct?',
       choices: [
         'Rhombus only',
         'Rectangle only',

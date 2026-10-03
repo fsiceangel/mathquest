@@ -1,0 +1,68 @@
+# Independent stem calculations for every previously unresolved chapter 14 record.
+14/14.1/1	15-5+1;26-9+1;74-30+1;12+20-1	Inclusive integer interval count last-first+1; inverse last=first+count-1.
+14/14.1/2	20-8+1;39-14+1;19-6+1;41-23+1	Both endpoint pages/seats/days/exercises count once.
+14/14.1/4	30/3;48/4;91/7;85/5	Multiples from first step through stated final multiple, count final/step.
+14/14.1/5	(58-14)/2+1;(68-22)/2+1;(47-15)/2+1;(90-8)/2+1	Arithmetic progression of fixed parity, inclusive count difference/2+1.
+14/14.1/6	104-25+1;137-48+1;349-200+1;148-61+1	Consecutive inclusive label count.
+14/14.1/7	16+11-5;18+13-6;21+15-9;12+17-24	Inclusion-exclusion; inverse intersection=sum memberships-union.
+14/14.1/9	floor(100/3)+floor(100/5)-floor(100/15);60/2+60/3-60/6;80/4+80/10-80/20;90/3+floor(90/7)-floor(90/21)	Count multiples in1..N, subtract overlap at least common multiple exactly once.
+14/14.1/10	60/5+1;84/12+1;45/5+1;(9-1)*6	Endpoint posts/knots are one more than intervals; nine trees enclose eight gaps.
+14/14.2/1	2*3;3*4;5*2;3*5	Independent choices multiply.
+14/14.2/2	4*2;5*3;6*4;20/4	Product of independent clothing categories; inverse outfits/jackets.
+14/14.2/3	2*6;4*6;2*5;6*3	Ordered experiment sample-space size is product of stage possibilities.
+14/14.2/4	2**3;2**4;3**3;2**5	One independent answer/setting per labelled question or switch.
+14/14.2/5	factorial(3);factorial(3);factorial(3);factorial(3)	All three distinct objects ordered bijectively into three positions.
+14/14.2/6	factorial(4);factorial(5);factorial(4);factorial(4)	Permute each distinct object/letter once.
+14/14.2/7	10**2;5**2;10**3;10*9	Codes permit leading zero; distinct last variant excludes already chosen first digit.
+14/14.2/8	26**2*10;26*10**2;26**3;10**2*26**2	Standard26-letter alphabet and ten digits, repetitions allowed independently.
+14/14.2/9	5**4;4*5**2;5**3;3**4	Odd digits1,3,5,7,9; even first digit excludes zero but later even digits include it.
+14/14.2/10	factorial(4);factorial(3);factorial(5);factorial(4)	Fix named person's required position then permute all others.
+14/14.3/1	binomial(2,1);binomial(2,1);binomial(3,2);2**2-1	Choose head/tail positions; at least one excludes only all tails.
+14/14.3/2/2	4	Ordered sum5 pairs (1,4),(2,3),(3,2),(4,1).
+14/14.3/4/2	9	Repeated nonzero digit uniquely determines entire three-digit number.
+14/14.3/4/3	5*5	Five odd choices for both nonzero tens and units.
+14/14.3/4/4	4	Units1,2,3,4 yield tens2,4,6,8; zero units would give forbidden zero tens and units>=5 impossible.
+14/14.3/5/3	4+3	Sum5 has four ordered die pairs; sum10 has three; other multiples5 outside2..12 impossible.
+14/14.3/5/4	6	Equal pair (d,d) for each of six faces.
+14/14.3/8	(2+3)*2;(3+4)*2;2*3+3*4;(3+2)*4	Alternative main categories add then independent drink choices multiply; separate sauce/topping counts summed when menu branches differ.
+14/14.3/9/2	8+7+6+5+4+3+2+1	For nonzero tens1..8, larger units counts8..1; tens9 has zero.
+14/14.3/9/3	2+3+4+5+6+7+8+9+10	Tens1..9 admits units0..tens, thus tens+1 options.
+14/14.3/9/4	9*9	Nonzero tens nine options, units any of remaining nine digits.
+14/14.4/1	binomial(4,2);binomial(5,2);binomial(6,2);binomial(3,2)	One undirected interaction per unordered distinct pair.
+14/14.4/2	binomial(5,2);binomial(8,2);binomial(4,2);binomial(7,2)	One game per unordered team pair.
+14/14.4/3	3*5;4*7;6*4;2*9	Choose exactly one member from each distinct category.
+14/14.4/4	binomial(6,2);binomial(9,2);binomial(5,2);binomial(11,2)	Each unordered point pair yields one segment/chord; no collinear triple in line variant ensures uniqueness.
+14/14.4/5	binomial(10,2);binomial(12,2);binomial(14,2);binomial(13,2)	Each undirected handshake counted once per unordered pair.
+14/14.4/6	binomial(7,2);binomial(6,2);binomial(9,2);binomial(8,2)	Co-captains/map readers/note takers have equal roles, so pair unordered.
+14/14.4/7	binomial(12,2);binomial(15,2);binomial(16,2);binomial(20,2)	Round-robin undirected pair count.
+14/14.4/8	(1+sqrt(1+8*28))/2;(1+sqrt(1+8*15))/2;(1+sqrt(1+8*36))/2;(1+sqrt(1+8*66))/2	Solve n(n-1)/2=pair count; negative root inadmissible and positive root unique n>=2.
+14/14.4/9	4*5;5*6;7*2;4*8	Only cross-category point pairs connected, count product.
+14/14.4/10	binomial(9,2)-1;binomial(8,2)-1;binomial(11,2)-1;binomial(7,2)-2	Subtract specified omitted unordered pair(s), not all interactions of named people.
+14/14.5/1	1/2;1/4;1/5;1/10	One favourable outcome among equiprobable possibilities.
+14/14.5/2	1/6;1/12;1/8;1/20	One specified face/label among all equiprobable outcomes.
+14/14.5/3	4/(4+6);5/(5+7);7/(7+14);3/(3+12)	Favourable object count divided by complete population.
+14/14.5/4	3/6;2/6;3/12;3/9	Count faces2,4,6; faces1,2; multiples4,8,12; values7,8,9 respectively.
+14/14.5/5	5/6;4/5;4/6;11/12	Complement the specified excluded face(s)/card.
+14/14.5/6	(8-3)/8;(12-5)/12;(15-6)/15;(20-9)/20	Unmarked complement count / total.
+14/14.5/7	(1/2)**2;(1/2)**2;(1/3)**2;(1/2)*(1/6)	Independent prescribed outcomes multiply, respecting ordered penny/dime.
+14/14.5/8	(2+3)/(2+3+5);(4+3)/(4+5+3);(5+4)/(5+4+11);(6+2)/(6+2+4)	Disjoint favourable categories add over all object counts.
+14/14.5/10	1-(1/2)**3;1-(2/3)**2;1-(1/2)**4;1-(3/6)**2	At least one success complements all independent failures.
+14/challenge/1	118-37+1;133-46+1;145-68+1;164-76+1	Inclusive consecutive numbering interval.
+14/challenge/3	60/4+60/6-60/12;72/4+72/6-72/12;floor(100/6)+100/10-floor(100/30);200/8+200/10-200/40	Inclusion-exclusion of multiples using least common multiple overlap.
+14/challenge/4	26*25*10*9;26*25*24*10;26*25*10*9*8;5*4*10*9	Distinct ordered letters/digits chosen without replacement within each code category.
+14/challenge/5	9*9*8;9*9*8*7;9*8*7;4*9*8	First positive integer digit nonzero; subsequent digits exclude used ones. Last first digit2,4,6,8 then all other unused digits allowed.
+14/challenge/6	2*factorial(4);2*factorial(5);factorial(5)-2*factorial(4);2*factorial(6)	Adjacent named pair contracts into a block with two orientations; nonadjacent complement.
+14/challenge/8	3+2+1;1+2+3+4;4+3;1+2+4+6+2	Ordered dice sum multiplicities: sums10,11,12; sums2..5; sums5,10; prime sums2,3,5,7,11.
+14/challenge/9	2*binomial(10,2);3*binomial(8,2);2*binomial(12,2);(1+sqrt(1+4*110))/2	Games per pair times unordered pairs. Inverse n(n-1)=110 gives only positive n11.
+14/challenge/10	binomial(8,2)-8;binomial(10,2)-10;binomial(12,2)-binomial(3,2);binomial(7,2)-7	Diagonals exclude sides, partnership case excludes three triplet pairs only.
+14/challenge/11/4	2*5/36	Adjacent die numbers have five unordered consecutive pairs, two orders each, denominator36.
+14/challenge/12	1-(3/4)**2;1-(2/3)**2;1-(3/5)**2;1-(3/4)**3	At least one specified outcome complements repeated independent avoidance; replacement preserves probability.
+14/worksheet/1	74-18+1;88-23+1;130-45+1;201-137+1	Inclusive consecutive numbering count.
+14/worksheet/2	4*3*2;5*4*3;2*5*3;3*6*2	Independent one-from-each category choices multiply.
+14/worksheet/4	binomial(13,2);binomial(15,2);binomial(11,2);binomial(16,2)	One undirected event/segment per unordered pair.
+14/worksheet/5	4/12;5/10;2/15;4/18	Specified color count over total marble count.
+14/worksheet/7	3*5*5;2*5*5;4*5**3;4*5*5	Hundreds odd>500 may5,7,9; even<600 may2,4. Four-digit even first digit2,4,6,8. Odd>300 may3,5,7,9 since later digits nonzero force strict bound.
+14/worksheet/9	binomial(20,2);binomial(25,2);binomial(18,2);binomial(30,2)	Exchange once per pair, not twice for participants.
+14/worksheet/10/2	1-(3/6)**2	Complement both odd independent dice.
+14/worksheet/10/3	1-(4/6)**2	Complement both faces1..4.
+14/worksheet/10/4	1/2+1/6-(1/2)*(1/6)	Independent coin/die event union by inclusion-exclusion.

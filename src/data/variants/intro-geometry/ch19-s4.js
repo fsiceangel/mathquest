@@ -460,7 +460,7 @@ const challenge = [
   // double-counted square.
   [
     {
-      q: 'Every corner of the L-shaped garden bed below is a right angle, and the edge lengths are marked. How much area does the bed cover?',
+      q: 'Each pair of consecutive sides of the L-shaped garden bed below is perpendicular, and the edge lengths are marked. How much area does the bed cover?',
       fig: {
         view: [-1, -1, 11.4, 8.4],
         elems: [
@@ -480,7 +480,7 @@ const challenge = [
         'Draw one auxiliary line and the figure falls apart into rectangles. The dashed vertical cut at the inner corner leaves a $6 \\times 7$ rectangle on the left and a $4 \\times 4$ square on the right, so the area is $42 + 16 = 58$ ✓. Check a second, independent way by completing the bounding rectangle instead of cutting the figure. The smallest rectangle containing the whole shape is $10$ wide and $7$ tall, area $70$, and the piece missing from the top right corner is $4$ wide and $3$ tall, area $12$. Subtracting gives $70 - 12 = 58$ ✓. (The choice $70$ is THE WHOLE BOUNDING RECTANGLE, with the notch never removed ✗; the choice $82$ is DOUBLE COUNTING THE OVERLAP, adding a $6 \\times 7$ and a $10 \\times 4$ rectangle that share a corner block ✗; the choice $34$ is THE PERIMETER, a length answer to an area question ✗.)',
     },
     {
-      q: 'An L-shaped tile has all right angles and the dimensions marked. Find its area.',
+      q: 'Each pair of consecutive sides of an L-shaped tile is perpendicular, and its dimensions are marked. Find its area.',
       fig: {
         view: [-1, -1, 13.6, 10.6],
         elems: [

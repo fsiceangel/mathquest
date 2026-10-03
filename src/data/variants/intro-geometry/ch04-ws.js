@@ -101,7 +101,7 @@ const worksheet = [
   //          (checked coordinate by coordinate).
   [
     {
-      q: 'Each angle in the staircase shape shown is a right angle, and only the overall width and height are labeled. Find its perimeter.',
+      q: 'In the staircase shape shown, each pair of neighboring sides is perpendicular, and only the overall width and height are labeled. Find its perimeter.',
       fig: {
         view: [-2, -1.5, 18.5, 14.5],
         elems: [
@@ -129,7 +129,7 @@ const worksheet = [
         'Push each short horizontal edge up to the top and each short vertical edge out to the side: nothing overlaps and nothing is missed, so the perimeter equals that of the $15 \\times 8$ bounding rectangle, $2(15 + 8) = 46$. Second route: the boundary walk is a closed loop, so rightward travel equals leftward travel ($15$) and upward travel equals downward travel ($8$); total $2 \\cdot 15 + 2 \\cdot 8 = 46$ ✓. Five steps, three steps, one step — the count is irrelevant, only the overall frame matters. STOPPING HALFWAY gives $15 + 8 = 23$ ✗. COMPUTING THE BOUNDING AREA gives $120$ ✗, square units answering a length question.',
     },
     {
-      q: 'Every angle in the three-step staircase shown is a right angle. Only two measurements are given. Find the perimeter of the figure.',
+      q: 'In the three-step staircase shown, each pair of neighboring sides is perpendicular. Only two measurements are given. Find the perimeter of the figure.',
       fig: {
         view: [-2, -1.5, 12.5, 8.5],
         elems: [
@@ -274,7 +274,7 @@ const worksheet = [
         'Area by subtraction: the full rectangle holds $10 \\cdot 8 = 80$, the bite removes $4 \\cdot 3 = 12$, leaving $80 - 12 = 68$. Second route by splitting: a $10 \\times 5$ slab ($50$) below the cut plus a $6 \\times 3$ block ($18$) above it, $50 + 18 = 68$ ✓. Perimeter: a corner cut trades two removed edges for two new edges of the same total lengths, so the boundary equals the bounding rectangle’s, $2(10 + 8) = 36$; adding the six sides, $10 + 5 + 4 + 3 + 6 + 8 = 36$ ✓, confirms it. EXPECTING THE CUT TO SHORTEN THE BOUNDARY ✗ — it only dents inward. FORGETTING TO REMOVE THE BITE gives area $80$ ✗.',
     },
     {
-      q: 'Every angle in the shape shown is a right angle. Find its area AND its perimeter.',
+      q: 'In the shape shown, each pair of neighboring sides is perpendicular. Find its area AND its perimeter.',
       fig: {
         view: [-1.5, -1.5, 13.5, 8.5],
         elems: [
@@ -292,7 +292,7 @@ const worksheet = [
         'This L is missing its top-LEFT corner. Area by splitting with a vertical cut under the notch: a tall $7 \\times 7$ block ($49$) on the right plus a $5 \\times 4$ slab ($20$) on the left, $49 + 20 = 69$. Second route by subtraction: the bounding $12 \\times 7$ rectangle holds $84$, minus the missing $5 \\times 3$ corner, $84 - 15 = 69$ ✓. Perimeter: the corner cut leaves the boundary as long as the bounding rectangle’s, $2(12 + 7) = 38$; the six sides $12 + 7 + 7 + 3 + 5 + 4 = 38$ ✓ agree. EXPECTING THE CUT TO SHORTEN THE BOUNDARY ✗. FORGETTING TO REMOVE THE BITE gives $84$ ✗ for the area.',
     },
     {
-      q: 'An L-shaped kitchen countertop has the measurements shown, and every angle is a right angle. Find its area AND its perimeter.',
+      q: 'An L-shaped kitchen countertop has the measurements shown, and each pair of neighboring sides is perpendicular. Find its area AND its perimeter.',
       fig: {
         view: [-1.5, -1.5, 12.5, 10.5],
         elems: [

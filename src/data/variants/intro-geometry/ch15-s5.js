@@ -203,21 +203,21 @@ const challenge = [
   // Lane: three times -> 9 / five times -> 15 / seven times -> 21.
   [
     {
-      q: 'A soap bubble is blown until the number measuring its volume is exactly three times the number measuring its surface area. What is its radius?',
+      q: 'A soap bubble is blown until the number measuring its volume is exactly three times the number measuring its surface area. What is its radius? Use one consistent length unit, with its square and cubic units for area and volume.',
       choices: ['$9$', '$3$', '$12$', '$1$'],
       answer: 0,
       solution:
         'Write the condition out: $\\frac{4}{3}\\pi r^3 = 3 \\cdot 4\\pi r^2$. Divide both sides by $4\\pi r^2$, which is safe because the radius is not zero, and only $\\frac{r}{3} = 3$ survives, so $r = 9$ ✓. Check a second, independent way with the thin-cone picture: slice the ball into a swarm of skinny cones with their tips at the center and their tiny bases paving the skin, so every one of them has height $r$ and together their bases make up the whole surface, giving $V = \\frac{1}{3}Sr$. For the volume to be $3$ times the surface we need $\\frac{r}{3} = 3$, so $r = 9$; and indeed $V = \\frac{4}{3}\\pi \\cdot 729 = 972\\pi$ while $S = 4\\pi \\cdot 81 = 324\\pi$, and $972 = 3 \\times 324$ ✓. (The choice $3$ is STOPPING AT THE FAMILIAR CASE where volume and surface area are simply equal ✗; the choice $12$ is USING $\\pi r^3$ FOR THE VOLUME, dropping the $\\frac{4}{3}$ ✗; the choice $1$ is REVERSING THE CONDITION and making the surface area three times the volume ✗.)',
     },
     {
-      q: 'A ball bearing is manufactured so that the number giving its volume is five times the number giving its surface area. What is its radius?',
+      q: 'A ball bearing is manufactured so that the number giving its volume is five times the number giving its surface area. What is its radius? Use one consistent length unit, with its square and cubic units for area and volume.',
       choices: ['$5$', '$15$', '$3$', '$20$'],
       answer: 1,
       solution:
         'State the condition as an equation: $\\frac{4}{3}\\pi r^3 = 5 \\cdot 4\\pi r^2$. Dividing both sides by $4\\pi r^2$ leaves $\\frac{r}{3} = 5$, so $r = 15$ ✓. Check a second, independent way with the thin-cone picture: chop the ball into slender cones whose tips meet at the center, each of height $r$, whose little bases together tile the skin; adding their volumes gives $V = \\frac{1}{3}Sr$, so the volume beats the surface area by the factor $\\frac{r}{3}$, and $\\frac{r}{3} = 5$ gives $r = 15$. Testing it, $V = \\frac{4}{3}\\pi \\cdot 3375 = 4500\\pi$ and $S = 4\\pi \\cdot 225 = 900\\pi$, and $4500 = 5 \\times 900$ ✓. (The choice $5$ is COPYING THE MULTIPLIER AS THE RADIUS, forgetting to undo the $\\frac{1}{3}$ ✗; the choice $3$ is STOPPING AT THE FAMILIAR CASE where volume and surface area are equal ✗; the choice $20$ is USING $\\pi r^3$ FOR THE VOLUME, dropping the $\\frac{4}{3}$ ✗.)',
     },
     {
-      q: 'A model planet is built so that the number measuring its volume is seven times the number measuring its surface area. What is its radius?',
+      q: 'A model planet is built so that the number measuring its volume is seven times the number measuring its surface area. What is its radius? Use one consistent length unit, with its square and cubic units for area and volume.',
       choices: ['$7$', '$3$', '$28$', '$21$'],
       answer: 3,
       solution:
@@ -354,21 +354,21 @@ const challenge = [
   // tank 9, cone 6 by 9 -> 4/3.
   [
     {
-      q: 'A cylindrical tank of radius $4$ holds water. A solid metal cone of radius $3$ and height $8$ is lowered in until it is completely under the surface. By how much does the water level rise?',
+      q: 'A cylindrical tank of radius $4$ holds water. A solid metal cone of radius $3$ and height $8$ is lowered in until it is completely under the surface. By how much does the water level rise? No liquid spills or overflows.',
       choices: ['$\\frac{9}{2}$', '$\\frac{3}{2}$', '$\\frac{8}{3}$', '$6$'],
       answer: 1,
       solution:
         'A submerged object shoves aside exactly its own volume of water, and the cone measures $\\frac{1}{3}\\pi \\cdot 3^2 \\cdot 8 = 24\\pi$. That water spreads into a flat layer across the whole floor of the tank, whose area is $\\pi \\cdot 4^2 = 16\\pi$, so the rise is $\\frac{24\\pi}{16\\pi} = \\frac{3}{2}$ ✓. Check a second, independent way by weighing the risen layer instead: a layer of depth $\\frac{3}{2}$ sitting across a tank of radius $4$ is itself a cylinder of volume $\\pi \\cdot 16 \\cdot \\frac{3}{2} = 24\\pi$, precisely the volume the cone brought with it ✓. (The choice $\\frac{9}{2}$ is DROPPING THE $\\frac{1}{3}$ and treating the cone as a cylinder ✗; the choice $\\frac{8}{3}$ is DIVIDING BY THE CONE’S BASE AREA instead of the tank’s ✗; the choice $6$ is DIVIDING BY THE TANK’S RADIUS instead of its base area ✗.)',
     },
     {
-      q: 'A wide cylindrical vat of radius $10$ is partly full of water. A solid cone of radius $5$ and height $12$ is dropped in and sinks right under. By how much does the water level rise?',
+      q: 'A wide cylindrical vat of radius $10$ is partly full of water. A solid cone of radius $5$ and height $12$ is dropped in and sinks right under. By how much does the water level rise? No liquid spills or overflows.',
       choices: ['$3$', '$4$', '$1$', '$10$'],
       answer: 2,
       solution:
         'The cone displaces its own volume, $\\frac{1}{3}\\pi \\cdot 5^2 \\cdot 12 = 100\\pi$. That displaced water forms a thin layer over the whole floor of the vat, which has area $\\pi \\cdot 10^2 = 100\\pi$, so the level climbs $\\frac{100\\pi}{100\\pi} = 1$ ✓. Check a second, independent way by measuring the new layer: a layer $1$ deep across a floor of radius $10$ is a cylinder of volume $\\pi \\cdot 100 \\cdot 1 = 100\\pi$, matching the cone exactly ✓. (The choice $3$ is DROPPING THE $\\frac{1}{3}$ and treating the cone as a cylinder ✗; the choice $4$ is DIVIDING BY THE CONE’S BASE AREA instead of the vat’s ✗; the choice $10$ is DIVIDING BY THE VAT’S RADIUS instead of its base area ✗.)',
     },
     {
-      q: 'A cylindrical bucket of radius $9$ contains water. A solid cone of radius $6$ and height $9$ is placed inside and settles completely below the surface. By how much does the water level rise?',
+      q: 'A cylindrical bucket of radius $9$ contains water. A solid cone of radius $6$ and height $9$ is placed inside and settles completely below the surface. By how much does the water level rise? No liquid spills or overflows.',
       choices: ['$\\frac{4}{3}$', '$4$', '$3$', '$12$'],
       answer: 0,
       solution:
@@ -470,21 +470,21 @@ const challenge = [
   // scoop 4 into cone 2 -> 32.
   [
     {
-      q: 'A hemisphere of sorbet with radius $10$ sits on an empty cone whose opening also has radius $10$. The sorbet melts and fills the cone exactly to the brim, with nothing left over. How deep is the cone?',
+      q: 'A hemisphere of sorbet with radius $10$ sits on an empty cone whose opening also has radius $10$. The sorbet melts and fills the cone exactly to the brim, with nothing left over. How deep is the cone? Assume melting does not change the volume.',
       choices: ['$20$', '$40$', '$\\frac{20}{3}$', '$10$'],
       answer: 0,
       solution:
         'Melting moves the sorbet but does not change how much there is, so set the two volumes equal: $\\frac{2}{3}\\pi \\cdot 10^3 = \\frac{1}{3}\\pi \\cdot 10^2 \\cdot h$. The left side is $\\frac{2000\\pi}{3}$ and the right side is $\\frac{100\\pi}{3}h$, so $100h = 2000$ and $h = 20$ ✓. Check a second, independent way with letters instead of numbers: when the scoop and the cone share a radius $r$, the equation reads $\\frac{2}{3}\\pi r^3 = \\frac{1}{3}\\pi r^2 h$, and dividing by $\\frac{1}{3}\\pi r^2$ leaves $h = 2r$ — a cone exactly twice as deep as it is wide across the radius always holds precisely one hemisphere. With $r = 10$ that is $h = 20$, and the cone then measures $\\frac{1}{3}\\pi \\cdot 100 \\cdot 20 = \\frac{2000\\pi}{3}$, the scoop’s volume exactly ✓. (The choice $40$ is USING A WHOLE SPHERE instead of a hemisphere ✗; the choice $\\frac{20}{3}$ is FORGETTING THE CONE’S $\\frac{1}{3}$ ✗; the choice $10$ is ASSUMING THE CONE IS AS DEEP AS ITS RADIUS ✗.)',
     },
     {
-      q: 'A hemisphere-shaped scoop of ice cream with radius $6$ is balanced on a narrow empty cone whose rim has radius $4$. It melts and fills the cone exactly to the top. How tall is the cone?',
+      q: 'A hemisphere-shaped scoop of ice cream with radius $6$ is balanced on a narrow empty cone whose rim has radius $4$. It melts and fills the cone exactly to the top. How tall is the cone? Assume melting does not change the volume.',
       choices: ['$54$', '$9$', '$12$', '$27$'],
       answer: 3,
       solution:
         'Volume is conserved, so equate the two: the scoop is $\\frac{2}{3}\\pi \\cdot 6^3 = 144\\pi$ and the cone is $\\frac{1}{3}\\pi \\cdot 4^2 \\cdot h = \\frac{16\\pi}{3}h$. From $\\frac{16}{3}h = 144$ we get $h = \\frac{144 \\cdot 3}{16} = 27$ ✓. Check a second, independent way by adjusting the matching-radius case: a cone of radius $6$ would need height $2 \\cdot 6 = 12$ to swallow this scoop. Narrowing the rim from $6$ to $4$ shrinks the base area by $\\left(\\frac{4}{6}\\right)^2 = \\frac{4}{9}$, so the same volume has to stand $\\frac{9}{4}$ times as tall: $12 \\cdot \\frac{9}{4} = 27$ ✓. (The choice $54$ is USING A WHOLE SPHERE instead of a hemisphere ✗; the choice $9$ is FORGETTING THE CONE’S $\\frac{1}{3}$ ✗; the choice $12$ is USING THE SCOOP’S RADIUS FOR THE CONE instead of the rim’s ✗.)',
     },
     {
-      q: 'A hemisphere of frozen yogurt with radius $4$ rests on an empty cone whose rim has radius $2$. When it melts it fills the cone precisely to the brim. How tall is the cone?',
+      q: 'A hemisphere of frozen yogurt with radius $4$ rests on an empty cone whose rim has radius $2$. When it melts it fills the cone precisely to the brim. How tall is the cone? Assume melting does not change the volume.',
       choices: ['$64$', '$8$', '$32$', '$\\frac{32}{3}$'],
       answer: 2,
       solution:

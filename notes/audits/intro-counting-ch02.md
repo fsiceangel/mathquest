@@ -1,0 +1,9 @@
+# Counting chapter 2: full variant difficulty review
+
+2026-09-22: all 62 base stems compared with all **186 variant stems**. This completes the prior 150-stem remainder. Inspected the changed inverse-threshold, triangle, positive-distribution, modulo/divisibility, exact multiplicity, interior-adjacency and end-gap solution routes. Routine equivalent keys were not all independently recomputed.
+
+New major departures: 2.2 #7 round 3 needs nested triangle cases (L5); round 4 asks for a minimum perimeter (L5) and must not assume triangle counts increase with every perimeter. The solution correctly treats parity. Section 2.2 #6 rounds 3/4 switch to product-bound cases and an inverse piecewise threshold (L4). Section 2.5 #9 round 4 imposes an interior location while forbidding adjacency (L4). Challenge #9 rounds 2/4 add leading-zero and parity multiplicity cases (L4). Worksheet #10 variants add gap choices/end-gap complements (L4).
+
+Downward departures are also recorded: 2.3 #10 round 3 forces one pair and three single balls (L3), round 4 is a chosen missing flavor plus a complement (L3); 2.4 #9 round 4 is only L2 when the even nonzero first digit is chosen before the even last digit; 2.5 #10 round 3 has just one forbidden pair (L3); challenge #7 round 4 forces a centered three-person block (L3); worksheet #5 round 3 is a direct consonant-ending product (L1).
+
+The small nonnegative digit-sum counts in challenge #5 must be obtained by case sums at this stage. A bars/binomial alternate route appears before chapter 13; it is not a required prerequisite. A worked small-case bridge was added to section 2.2. Triangle inequality still requires prealgebra geometry; formal stars-and-bars and a quadratic formula are unnecessary. No numerical-key error was established in the inspected routes. Ratings are editorial; every solution/key has not been independently proved and printed textbook pages remain unverified.

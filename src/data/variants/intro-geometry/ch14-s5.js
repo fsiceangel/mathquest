@@ -297,21 +297,21 @@ const challenge = [
   // Lane: 16 vertices -> 28 / 25 vertices -> 46 / 30 vertices -> 56.
   [
     {
-      q: 'A cut crystal has $16$ corners, and every one of its flat faces is a triangle. How many faces does it have?',
+      q: 'A convex cut crystal has $16$ corners, and every one of its flat faces is a triangle. How many faces does it have?',
       choices: ['$32$', '$28$', '$42$', '$24$'],
       answer: 1,
       solution:
         'Triangular faces tie the edges to the faces: listing sides face by face gives $3F$, and each edge is listed by the two faces sharing it, so $E = \\frac{3F}{2}$. Feed that into $V - E + F = 2$: $16 - \\frac{3F}{2} + F = 2$ becomes $16 - \\frac{F}{2} = 2$, so $\\frac{F}{2} = 14$ and $F = 28$ ✓. Check a second, independent way by solving for the edges first: Euler rearranges to $F = 2 - V + E$, and substituting into $2E = 3F$ gives $2E = 3(2 - 16 + E) = 3E - 42$, so $E = 42$; then $F = 2 - 16 + 42 = 28$ ✓ (and $16 - 42 + 28 = 2$). (The choice $32$ is DROPPING THE $-4$ in $F = 2V - 4$ ✗; the choice $42$ is REPORTING THE EDGE COUNT ✗; the choice $24$ is SUBTRACTING BEFORE DOUBLING, computing $2(16 - 4)$ ✗.)',
     },
     {
-      q: 'A model of a virus shell is a polyhedron with $25$ vertices whose faces are all triangles. How many faces does the model have?',
+      q: 'A model of a virus shell is a convex polyhedron with $25$ vertices whose faces are all triangles. How many faces does the model have?',
       choices: ['$50$', '$69$', '$46$', '$42$'],
       answer: 2,
       solution:
         'Because every face is a triangle, counting sides face by face gives $3F$, and every edge is counted twice, so $E = \\frac{3F}{2}$. Put that into $V - E + F = 2$: $25 - \\frac{3F}{2} + F = 2$, that is $25 - \\frac{F}{2} = 2$, so $\\frac{F}{2} = 23$ and $F = 46$ ✓. Check a second, independent way by finding the edges first: Euler gives $F = 2 - V + E$, and $2E = 3F$ then reads $2E = 3(2 - 25 + E) = 3E - 69$, so $E = 69$ and $F = 2 - 25 + 69 = 46$ ✓ (and $25 - 69 + 46 = 2$). (The choice $50$ is DROPPING THE $-4$ in $F = 2V - 4$ ✗; the choice $69$ is REPORTING THE EDGE COUNT ✗; the choice $42$ is SUBTRACTING BEFORE DOUBLING, computing $2(25 - 4)$ ✗.)',
     },
     {
-      q: 'A folded paper sculpture is a polyhedron whose faces are every one a triangle, and it has $30$ vertices. How many faces does the sculpture have?',
+      q: 'A folded paper sculpture is a convex polyhedron whose faces are every one a triangle, and it has $30$ vertices. How many faces does the sculpture have?',
       choices: ['$56$', '$60$', '$84$', '$52$'],
       answer: 0,
       solution:

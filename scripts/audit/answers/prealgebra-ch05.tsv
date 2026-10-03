@@ -1,0 +1,29 @@
+5/5.1/1/4	8+15	Substitute given w into requested expression.
+5/5.1/2/4	6*8	Price per ticket times ticket count.
+5/5.1/8	P(3,2*n-5);P(0,k/2+7);P(1,2*(p+4));P(2,3*t-4)	Translate wording independently preserving order of subtraction and scope of multiplication; all four symbolic options compared.
+5/5.2/3/4	72/9	Divide total mass by crate count.
+5/5.2/5/4	(40-8)/4	Subtract fixed fee then divide by per-kilometre rate.
+5/5.2/10	P(0,3*4+2-14);P(1,2*6+5-17);P(2,2*5+3-16);P(3,4*(-3)+15-3)	Substitute given x into both sides of every offered equation; only selected equation true except third round asks uniquely false equation.
+5/5.3/7	P(1,4-9);P(0,-2-6);P(2,6-5);P(3,7-4)	Cancel identical x coefficients; remaining unequal constants give contradiction, so solution set empty in all four versions.
+5/5.3/8	P(2,2-2);P(0,-10-(-10));P(1,6-6);P(3,-12-(-12))	Expand both sides; coefficients and constants coincide, so all real numbers solve equation. Single values do not describe complete solution set.
+5/5.4/1	15-7;23-9;19-6;30-12	Undo addition by subtracting increment.
+5/5.4/2	26/2;51/3;84/6;56/8	Undo multiplication by dividing by multiplier.
+5/5.4/3	(33+2)/5;(27+9)/4;(53-5)/6;(31+4)/7	Reverse final addition/subtraction then divide by multiplier.
+5/5.4/4	(20+4)/2;(28+6)/2;(54+8)/2;(76-10)/2	Two quantities with known sum and difference: larger=(sum+difference)/2, smaller=(sum-difference)/2. Final round asks smaller.
+5/5.4/5	(45-1)/2;(59-1)/2;(73+1)/2;(95-1)/2	Consecutive numbers n,n+1; choose smaller in rounds1,2,4 and larger in round3. Page context repaired to consecutive reading rather than facing pages.
+5/5.4/6	(30-4)/2;(34-6)/2;(58-8)/2;(41-5)/2	Smaller of two quantities equals half sum minus difference.
+5/5.4/7	(40-4)/6;(60-10)/5;(66-12)/6;(52+8)/4	Remove fixed fee or restore coupon before dividing by unit cost.
+5/5.4/8	48/3+1;72/3-1;93/3+1;2*(57/3)	Mean of three consecutive integers is middle; requested endpoint differs by one, endpoint sum is twice middle.
+5/5.4/9	36/(2+1)*2;48/(3+1)*3;54/(2+1);60/(4+1)*4	Allocate total in stated ratio and select requested person/group, not always larger.
+5/5.4/10	(9+7)/(3-1);(8+12)/(5-1);(11+3)/(4-2);(24-16)/(3-1)	Collect unknown terms and constants; candle catch-up time4 leaves both candles positive at12cm.
+5/5.5/4	P(2,2*4+1);P(0,3*6-2);P(1,4*5+3);P(3,5*3-4)	Substitute every option into inequality, respecting strictness. Rounds1-3 only selected value works; round4 selected value alone fails strict inequality.
+5/5.5/8	P(3,(12+3)/5);P(0,(29-5)/4);P(1,(5+9)/2);P(2,12/(-3))	Solve inequalities preserving strictness and reversing direction for division by negative in final round; all prose alternatives compared.
+5/5.5/9	2-(-3);3-(-4);6-(-1)-1;4-(-3)+1	Count integer points with endpoints respectively open/closed, closed/open, open/open, closed/closed.
+5/challenge/5	(6+9)/(2-1);(13+5)/(4-2);(-10-4)/(3-1);(8+12)/(5-3)	Translate linear equality, collect variable terms and constants, divide by nonzero coefficient.
+5/challenge/6	54/3+2;69/3-2;(90-6)/4+3;-18/3+2	Consecutive even/odd spacing2, ordinary spacing1. Construct whole sequence and choose requested endpoint.
+5/challenge/9	(2-1)*8/(3-2);(3-1)*6/(4-3);5*(3-1)*4/(5-3);(3-1)*9/(6-3)	Younger age y obeys a*y+t=b*(y+t); third round requests older age5*y. All constructed ages positive.
+5/challenge/10	4-(-2);3-(-5);-1-(-6);5-(-4)	Each interval has exactly one included integer endpoint, so count equals endpoint difference.
+5/challenge/12	(150+12)/9;(180+24)/12;(78-12)/6;(54-12)/6	Restore coupon or subtract fixed fee; divide by per-item cost or item count as asked.
+5/worksheet/6	I('gt',2+5,-1);I('le',10-6,-1);I('ge',-3+12,-1);I('lt',5-9,-1)	Solve linear inequality; independently compare symbolic sign/bound and complete verbal description.
+5/worksheet/8	V((64-2)/2,(64+2)/2);V((86-2)/2,(86+2)/2);V(72/3-1,72/3,72/3+1);V((-24-2)/2,(-24+2)/2)	Construct all consecutive integers, verifying requested parity, spacing and sum.
+5/worksheet/10	I('le',(10+2)/3,4);I('le',(9+5)/2,7);I('lt',(4+32)/6,5);I('le',(15-3)/4,3)	Dividing negative coefficient reverses inequality; count positive integers up to bound, excluding strict upper endpoint where appropriate. Check both answer components.

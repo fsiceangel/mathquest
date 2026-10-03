@@ -129,21 +129,21 @@ const s91 = [
   // p5 — multiply an inequality by -1 and flip
   [
     {
-      q: 'Suppose $y < -6$. Which statement about $-y$ is correct?',
+      q: 'Suppose $y < -6$. Which inequality describes exactly all possible values of $-y$?',
       choices: ['$-y < 6$', '$-y < -6$', '$-y > 6$', '$-y > -6$'],
       answer: 2,
       solution:
         'Multiplying both sides by $-1$ negates each side AND flips the symbol: $y < -6$ becomes $-y > 6$. ✓ Check it forward with $y = -10$, which satisfies $y < -6$: then $-y = 10$, and $10 > 6$. Check outside with $y = 0$: it fails $y < -6$, and $-y = 0$ fails $0 > 6$ too. (The choice $-y < 6$ negates both sides but forgets to flip; $-y < -6$ negates the left side only, leaving the right untouched; $-y > -6$ flips the symbol but forgets to negate the $-6$.)',
     },
     {
-      q: 'If $-t > 5$, what must be true of $t$ itself?',
+      q: 'Which inequality describes exactly all values of $t$ satisfying $-t > 5$?',
       choices: ['$t > -5$', '$t < -5$', '$t > 5$', '$t < 5$'],
       answer: 1,
       solution:
         'Multiply both sides by $-1$, negating each side and flipping the symbol: $-t > 5$ becomes $t < -5$. ✓ Check it forward with $t = -6$: then $-t = 6$, and $6 > 5$ holds, while $-6 < -5$ holds too. Check outside with $t = 0$: $-t = 0$ fails $0 > 5$, and $0 < -5$ is false as well — the two statements agree on both tests. (The choice $t > -5$ negates without flipping; $t > 5$ flips nothing and negates nothing, just erasing the minus sign; $t < 5$ flips the symbol but forgets that the $5$ becomes $-5$.)',
     },
     {
-      q: 'The number line below shows every value $a$ is allowed to take. Which of these must be true?',
+      q: 'The number line below shows every value $a$ is allowed to take. Which inequality describes exactly all possible values of $-a$?',
       fig: {
         view: [-2, -1.5, 10, 1.5],
         elems: [
@@ -238,7 +238,7 @@ const s91 = [
   // p9 — carry a whole chain through a negative multiplier
   [
     {
-      q: 'If $-4 < x < 1$, what can you say about $-3x$?',
+      q: 'If $-4 < x < 1$, which inequality describes exactly all possible values of $-3x$?',
       choices: [
         '$-12 < -3x < 3$',
         '$3 < -3x < 12$',
@@ -250,7 +250,7 @@ const s91 = [
         'Multiply every part of the chain by $-3$ and flip BOTH symbols: $-4 < x < 1$ becomes $12 > -3x > -3$, which reads left to right as $-3 < -3x < 12$. ✓ Check it forward with $x = 0$: then $-3x = 0$, and $-3 < 0 < 12$. Check near the ends with $x = -3.9$: then $-3x = 11.7$, still under $12$. And $x = -4$ itself is excluded, which is why $12$ stays out. (The first choice multiplies by $+3$ and never flips, so both bounds land on the wrong side; the second gets the sizes right but writes the lower bound as $3$ instead of $-3$; the third has the right numbers but is the ENDPOINT trap — no endpoint was ever included, so the symbols must stay strict.)',
     },
     {
-      q: 'The number line below shows all the values $x$ can take. What can you say about $-\\frac{x}{2}$?',
+      q: 'The number line below shows all the values $x$ can take. Which inequality describes exactly all possible values of $-\\frac{x}{2}$?',
       fig: {
         view: [-2, -1.5, 10, 1.5],
         elems: [
@@ -271,7 +271,7 @@ const s91 = [
         'Both circles are hollow, so the graph says $2 < x < 6$ with neither endpoint included. Multiply every part by $-\\frac{1}{2}$ and flip both symbols: $-1 > -\\frac{x}{2} > -3$, which reads left to right as $-3 < -\\frac{x}{2} < -1$. ✓ Check it forward with $x = 4$: then $-\\frac{x}{2} = -2$, and $-3 < -2 < -1$. Check an endpoint: $x = 6$ would give $-3$, and $6$ is excluded, so $-3$ is correctly excluded too. (The first choice drops the minus signs on both bounds; the second has the right numbers but is the ENDPOINT trap, since open circles must stay strict; the fourth multiplies by $-2$ instead of dividing by $2$.)',
     },
     {
-      q: 'If $-2 < x < 4$, what can you say about $3 - x$?',
+      q: 'If $-2 < x < 4$, which inequality describes exactly all possible values of $3 - x$?',
       choices: [
         '$1 < 3 - x < 7$',
         '$-1 < 3 - x < 5$',

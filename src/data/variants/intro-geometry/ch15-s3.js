@@ -335,7 +335,7 @@ const s153 = [
   // s10 — melt several spheres, recast as one, and find the new radius.
   [
     {
-      q: 'Twenty-seven glass beads, each a sphere of radius $1$ millimeter, are melted together and blown into a single sphere. What is the radius of that sphere?',
+      q: 'Twenty-seven glass beads, each a sphere of radius $1$ millimeter, are melted together and cast into a single solid sphere. What is the radius of that sphere?',
       choices: ['$3$', '$27$', '$9$', '$6$'],
       answer: 0,
       solution:

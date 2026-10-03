@@ -13,6 +13,22 @@ const dataDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'data
 const errors = []
 const warnings = []
 
+// Inspect decoded strings, not source bytes: a misspelled JS "\times" escape
+// becomes a TAB followed by "imes", which KaTeX may accept without an error.
+function checkTextEncodingDeep(where, value) {
+  if (typeof value === 'string') {
+    const invalid = [...new Set(value.match(/[\u0000-\u001f\u007f-\u009f\ufffd]/gu) || [])]
+    if (invalid.length) {
+      const codes = invalid.map(c => `U+${c.codePointAt(0).toString(16).toUpperCase().padStart(4, '0')}`)
+      errors.push(`${where}: decoded control/replacement character ${codes.join(', ')}; check JavaScript escaping and source encoding`)
+    }
+  } else if (Array.isArray(value)) {
+    value.forEach((v, i) => checkTextEncodingDeep(`${where}[${i}]`, v))
+  } else if (value && typeof value === 'object') {
+    Object.entries(value).forEach(([key, v]) => checkTextEncodingDeep(`${where}.${key}`, v))
+  }
+}
+
 // `npm run validate -- --only=ch03` narrows the variation and arena files that
 // get checked. Base chapters are always loaded, since variations are checked
 // against them. Useful when several people are authoring at once and you only
@@ -97,6 +113,7 @@ function checkFig(where, fig) {
 }
 
 function checkProblem(where, p, { mc, nChoices = 4 }) {
+  if (p.figure) errors.push(`${where}: use fig, not figure; the UI cannot render figure`)
   if (p.fig) checkFig(where, p.fig)
   if (!p.q || typeof p.q !== 'string') errors.push(`${where}: missing q`)
   else checkMath(`${where}.q`, p.q)
@@ -131,6 +148,7 @@ const chapters = new Map()
 async function checkChapter(file) {
   const mod = await import(pathToFileURL(file).href)
   const ch = mod.default
+  checkTextEncodingDeep(file, ch)
   const id = `${ch?.book}/ch${ch?.number}`
   if (!ch || !ch.book || !ch.number || !ch.title) {
     errors.push(`${file}: missing book/number/title`)
@@ -235,6 +253,7 @@ function normQ(q) {
 
 async function checkVariants(file) {
   const v = (await import(pathToFileURL(file).href)).default
+  checkTextEncodingDeep(file, v)
   if (!v || !v.book || !v.number) {
     errors.push(`${file}: variation module missing book/number`)
     return
@@ -263,6 +282,7 @@ const ARENA_SIZE = 25
 
 async function checkArenaSet(file) {
   const set = (await import(pathToFileURL(file).href)).default
+  checkTextEncodingDeep(file, set)
   if (!set || !set.id || !set.title) {
     errors.push(`${file}: arena set missing id/title`)
     return
@@ -285,6 +305,7 @@ const CHECKPOINT_SIZE = 15
 
 async function checkCheckpoint(file) {
   const cp = (await import(pathToFileURL(file).href)).default
+  checkTextEncodingDeep(file, cp)
   if (!cp || !cp.id || !cp.book || !cp.title || !Number.isInteger(cp.number)) {
     errors.push(`${file}: checkpoint missing id/book/number/title`)
     return
@@ -463,6 +484,27 @@ for (const [chapterId, list] of chapterQuestions) {
   }
 }
 
+// Standalone transition sets have stable IDs and no rotating variants.
+const transitionFiles = ['bridges.js', 'transfer.js'].map(name => join(dataDir, 'transition', name))
+const transitionIds = new Set()
+let transitionCount = 0
+for (const file of transitionFiles) {
+  if (!wanted(file)) continue
+  const sets = (await import(pathToFileURL(file).href)).default
+  for (const set of sets) {
+    const where = `transition/${set.id}`
+    if (!set.id || transitionIds.has(set.id)) errors.push(`${where}: duplicate or missing set ID`)
+    transitionIds.add(set.id)
+    checkTextEncodingDeep(where, set)
+    if (!set.title || !Array.isArray(set.problems) || !set.problems.length) errors.push(`${where}: incomplete set`)
+    for (const [i, p] of (set.problems ?? []).entries()) {
+      checkProblem(`${where}/${i + 1}`, p, { mc: true })
+      if (!Number.isInteger(p.level) || p.level < 1 || p.level > 5 || !p.skill) errors.push(`${where}/${i + 1}: missing level or skill`)
+      transitionCount++
+    }
+  }
+}
+
 // Coverage: how much of the bank has its three variations authored yet.
 let baseCount = 0
 let variedCount = 0
@@ -489,3 +531,4 @@ console.log(
   `OK — ${files.length} chapter file(s), ${variantFiles.length} variation file(s), ${arenaFiles.length} arena set(s), ${checkpointFiles.length} checkpoint(s) valid, ${warnings.length} warning(s).`,
 )
 console.log(`Variations: ${variedCount}/${baseCount} base problems have all 3 (${pct}%).`)
+console.log(`Transition practice: ${transitionIds.size} sets, ${transitionCount} problems valid.`)

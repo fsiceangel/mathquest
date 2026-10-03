@@ -1,0 +1,8 @@
+export const sub=(a,b)=>a.map((x,i)=>x-b[i])
+export const dot=(a,b)=>a.reduce((s,x,i)=>s+x*b[i],0)
+export const cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]]
+export function prism(n){const points=Array.from({length:2*n},(_,i)=>[Math.cos(2*Math.PI*(i%n)/n),Math.sin(2*Math.PI*(i%n)/n),i<n?0:1]);const edges=[],faces=[Array.from({length:n},(_,i)=>i),Array.from({length:n},(_,i)=>i+n)];for(let i=0;i<n;i++){const j=(i+1)%n;edges.push([i,j],[i+n,j+n],[i,i+n]);faces.push([i,j,j+n,i+n])}return{points,edges,faces}}
+export function pyramid(n){const p=prism(n);p.points=p.points.slice(0,n).concat([[0,0,1]]);p.edges=[];p.faces=[Array.from({length:n},(_,i)=>i)];for(let i=0;i<n;i++){p.edges.push([i,(i+1)%n],[i,n]);p.faces.push([i,(i+1)%n,n])}return p}
+export function skewCount(s,edge=[0,1]){const[a,b]=edge.map(i=>s.points[i]),v=sub(b,a);const skew=s.edges.filter(([i,j])=>Math.abs(dot(sub(s.points[i],a),cross(v,sub(s.points[j],s.points[i]))))>1e-8);return{count:skew.length,skew,points:s.points}}
+export function fullFaceSlice(s){for(let x=-3;x<=3;x++)for(let y=-3;y<=3;y++)for(let z=-3;z<=3;z++){if(!(x||y||z))continue;const normal=[x,y,z],heights=s.points.map(p=>dot(p,normal));for(let d=-16;d<=16;d++){const offset=d/4,signs=heights.map(h=>h-offset);if(signs.some(t=>Math.abs(t)<1e-6))continue;const hit=s.faces.filter(f=>f.some(i=>signs[i]>0)&&f.some(i=>signs[i]<0));if(hit.length===s.faces.length)return{normal,offset,signs,count:hit.length,margin:Math.min(...signs.map(Math.abs))}}}throw Error('No full-face slicing witness')}
+export function painted(n,k){let count=0;for(let x=0;x<n;x++)for(let y=0;y<n;y++)for(let z=0;z<n;z++){const faces=[x,y,z].reduce((s,v)=>s+Number(v===0)+Number(v===n-1),0);if(faces===k)count++}return count}

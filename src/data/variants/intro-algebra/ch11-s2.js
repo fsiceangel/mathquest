@@ -34,7 +34,7 @@ const s113 = [
         'Check each one: $64 = 4^3$, $125 = 5^3$, and $216 = 6^3$. That leaves $100$, which is $10^2$ — a perfect square, not a cube. (The cubes on either side of $100$ are $64$ and $125$, so nothing whole cubes to $100$. Choosing $64$ is the usual slip, because $64$ is BOTH a square, $8^2$, and a cube, $4^3$ — being a square does not stop it from being a cube.)',
     },
     {
-      q: 'Which expression is a perfect cube?',
+      q: 'Which expression is the cube of a monomial with integer coefficients?',
       choices: ['$x^2$', '$9x^3$', '$8x^6$', '$16x^3$'],
       answer: 2,
       solution:

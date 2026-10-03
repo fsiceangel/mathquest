@@ -53,7 +53,7 @@ const challenge = [
       solution: 'The long side went from $9$ to $24$, so the scale factor is $\\frac{24}{9} = \\frac{8}{3}$. The short side must scale the same way: $6 \\times \\frac{8}{3} = 16$ cm. Check: $16:24 = 6:9 = 2:3$. ✓ (Adding the $15$ cm of growth to the short side gives $21$; using the factor upside down, $9 \\times 24 \\div 6$, gives $36$; leaving the short side at $6$ would stretch the picture out of shape.)',
     },
     {
-      q: 'A rectangular flag is $3$ ft by $5$ ft. A bigger flag of exactly the same shape has a short side of $12$ ft. What is the PERIMETER of the bigger flag?',
+      q: 'A rectangular flag is $3$ ft by $5$ ft. A bigger flag of exactly the same shape has a short side of $12$ ft. What is the PERIMETER of the bigger flag? Recall that a rectangle has perimeter $2(\\text{length}+\\text{width})$.',
       choices: ['$32$ ft', '$16$ ft', '$64$ ft', '$52$ ft'],
       answer: 2,
       solution: 'The short side went from $3$ to $12$, a factor of $4$, so the long side becomes $5 \\times 4 = 20$ ft. The perimeter is $2 \\times (12 + 20) = 64$ ft. ($32$ is $12 + 20$ with the doubling forgotten; $16$ is the SMALL flag\'s perimeter, $2 \\times (3 + 5)$; adding $9$ ft to both sides instead of multiplying gives a $12$ by $14$ flag and a perimeter of $52$ ft.)',
@@ -81,12 +81,12 @@ const challenge = [
     },
     {
       q: 'A water plant treats $21{,}600$ liters every hour. What is that rate in liters per second?',
-      choices: ['$360$ liters per second', '$0.1$ liters per second', '$6$ liters per second', '$1{,}296{,}000$ liters per second'],
+      choices: ['$360$ liters per second', '$0.1$ liters per second', '$6$ liters per second', '$77{,}760{,}000$ liters per second'],
       answer: 2,
-      solution: 'One hour is $3600$ seconds, so divide: $\\frac{21{,}600 \\text{ L}}{3600 \\text{ s}} = 6$ liters per second. Going to a shorter unit of time means a SMALLER number, which is a quick size check. ($360$ is the liters per MINUTE, one link short; dividing by $60$ a third time gives $0.1$; multiplying by $3600$ instead of dividing points the conversion factor the wrong way and gives the absurd $1{,}296{,}000$.)',
+      solution: 'One hour is $3600$ seconds, so divide: $\\frac{21{,}600 \\text{ L}}{3600 \\text{ s}} = 6$ liters per second. Going to a shorter unit of time means a SMALLER number, which is a quick size check. ($360$ is the liters per MINUTE, one link short; dividing by $60$ a third time gives $0.1$; multiplying by $3600$ instead of dividing points the conversion factor the wrong way and gives the absurd $77{,}760{,}000$.)',
     },
   ],
-  // 5. Average speed is total distance over total time, never the mean of the speeds.
+  // 5. Average speed is total distance over total time; unequal times need weighting.
   [
     {
       q: 'Mira jogs the $12$ km to the park at $8$ km/h and jogs home along the same road at $24$ km/h. What is her average speed for the whole trip?',
@@ -370,7 +370,7 @@ const worksheet = [
     {
       q: 'A path to a lookout is $12$ km each way. Kai climbs up at $4$ km/h and comes back down at $12$ km/h. What is his average speed for the whole walk?',
       answer: '$6$ km/h',
-      solution: 'Average speed is total distance over total time — never just the average of the two speeds. Up: $12 \\div 4 = 3$ hours. Down: $12 \\div 12 = 1$ hour. Total: $24$ km in $4$ hours, so $\\frac{24}{4} = 6$ km/h. The slow climb takes three times as long, which drags the average well below the midpoint of $8$ km/h.',
+      solution: 'Average speed is total distance over total time. The two speeds cannot be averaged directly here because the two legs take different amounts of time. Up: $12 \\div 4 = 3$ hours. Down: $12 \\div 12 = 1$ hour. Total: $24$ km in $4$ hours, so $\\frac{24}{4} = 6$ km/h. The slow climb takes three times as long, which drags the average well below the midpoint of $8$ km/h.',
     },
     {
       q: 'A bus drives $30$ km at $30$ km/h, then carries on for $90$ km at $45$ km/h. What is its average speed for the whole trip?',
@@ -380,7 +380,7 @@ const worksheet = [
     {
       q: 'Ella drives the $60$ km to a lake at $30$ km/h. Her average speed for the whole round trip turns out to be $40$ km/h. How fast did she drive home?',
       answer: '$60$ km/h',
-      solution: 'The round trip is $120$ km, and at an average of $40$ km/h it takes $120 \\div 40 = 3$ hours in all. The drive out used $60 \\div 30 = 2$ hours, leaving $1$ hour for the $60$ km home — that is $60$ km/h. Check: $\\frac{120}{2 + 1} = 40$ km/h. ✓ Notice the answer is NOT $50$ km/h: average speed is never the mean of the two speeds.',
+      solution: 'The round trip is $120$ km, and at an average of $40$ km/h it takes $120 \\div 40 = 3$ hours in all. The drive out used $60 \\div 30 = 2$ hours, leaving $1$ hour for the $60$ km home — that is $60$ km/h. Check: $\\frac{120}{2 + 1} = 40$ km/h. ✓ Notice the answer is NOT $50$ km/h: these legs take different amounts of time, so their speeds cannot be averaged directly.',
     },
   ],
   // 8. Chaining two ratios by matching the middle.

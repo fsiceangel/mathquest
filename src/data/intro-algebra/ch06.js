@@ -449,7 +449,7 @@ const s64 = {
       solution: 'No need to find $n$ at all! $4\\%$ is exactly half of $8\\%$, so $4\\%$ of $n$ is half of $14$, which is $7$. (If you prefer the long road: $0.08n = 14$ gives $n = 175$, and $0.04 \\times 175 = 7$ — same answer.)',
     },
     {
-      q: 'Suppose $a$ is $25\\%$ of $b$. Then $b$ is what percent of $a$?',
+      q: 'Suppose the positive number $a$ is $25\\%$ of $b$. Then $b$ is what percent of $a$?',
       choices: ['$25\\%$', '$400\\%$', '$75\\%$', '$125\\%$'],
       answer: 1,
       solution: 'From $a = \\frac{1}{4}b$ we get $b = 4a$, and $4 = \\frac{400}{100}$, so $b$ is $400\\%$ of $a$. Percent comparisons flip to the reciprocal, not to the same percent — try $a = 1$, $b = 4$ to see it concretely.',

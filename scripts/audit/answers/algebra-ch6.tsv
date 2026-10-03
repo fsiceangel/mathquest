@@ -1,0 +1,72 @@
+# Independent calculations from all remaining chapter6 stems. Percent results are percent numbers; R compares scale-invariant ordered ratios.
+6.1/1	30*3/5;45*3/5;36*4/9;66*4/11	Share equals total times requested ratio part divided by sum of parts.
+6.1/2	20*5/4;18*7/3;35*8/5;63*4/9	Known share determines common scale; multiply by requested part.
+6.1/3	35*4/7;56*2/7;60*5/12;88*8/11	Requested second share is total times second ratio part over total parts.
+6.1/4	21*5/(5-2);28*7/(7-3);32*5/(9-5);18*8/(8-5)	Difference determines scale; r3 asks smaller share, other rounds larger.
+6.1/5	72*3/6;80*4/8;90*2/10;84*5/14	Total determines common scale; largest,largest,smallest,middle requested respectively.
+6.1/6	14*8/2;18*11/3;16*8/2;24*14/4	Total equals given difference times sum of ratio parts divided by their difference.
+6.1/7	108*3/9;96*8/16;75*6/15;130*2/13	Select middle/largest/blue/second component precisely in listed order.
+6.1/8	84*10/4;60*14/4;75*11/5;54*11/3	Difference over difference in ratio parts gives scale; multiply by sum.
+6.1/9	R(4*33/11+3,7*33/11+3);R(3*32/8+4,5*32/8+4);R(7*54/9+6,2*54/9+6);R(2*25/5-5,3*25/5-5)	Compute both current ages from total then add/subtract common elapsed years; all resulting ages positive.
+6.1/10	5*3*(64/16)**2;7*2*(72/18)**2;5*4*(108/18)**2;8*3*(88/22)**2	Perimeter=2(a+b)k; area=ab*k^2 with positive length scale.
+6.2/1	R(2,4);R(3,8);R(4,2);R(6,10)	Middle terms already equal; retain first and last components then reduce ratio.
+6.2/2	3*5/(4-3);4*9/(7-4);7*10/(9-7);8*15/(8-3)	Added number closes initial difference; last asks second fish count, not added species.
+6.2/3	8*(5+3)/(5-3);12*(7+4)/(7-4);16*(9+5)/(9-5);25*(8+3)/(8-3)	Addition to smaller or subtraction from larger equals original difference; compute sum.
+6.2/4	3*9;6*13/3;8*10/4;20*13/5	Initial membership is common scale times sum of ratio parts; exclude joiners.
+6.2/5	2*9/(3-2);3*10/(8/2-3);4*6/(9*2/3-4);9*12/(7-5)	Unchanged second count fixes new first count; solve positive scale from added first items. Last requests second count.
+6.2/6	7*(5*6-2*6)/(5*4-2*7);9*(7*4-3*4)/(7*5-3*9);3*(2*4-4)/(7-2*3);8*(3*4-4)/(3*3-5)	Cross multiply altered counts:2(7k-6)=5(4k-6),3(9k-4)=7(5k-4),7k+4=2(3k+4),5k-4=3(3k-4). All resulting counts positive.
+6.2/7	R(9,12,14);R(8,20,15);R(15,6,14);R(12,9,5)	Match middle component using LCM of its two ratio values, preserving order.
+6.2/8	5*12/4;7*20/5;5*14/2;4*18/(6-4)	First ingredient unchanged; express new second ingredient in same first-component scale and use increase to solve k.
+6.2/9	5*6/(5-2*2);2*(3*4-4)/(7-3*2);5*(3*8-2*8)/(2*5-3*2);3*(3*4-2*4)/(2*5-3*3)	Both ages gain same years; cross-multiply future ratio, solve k, select requested present age.
+6.2/10	11*(3*12+2*12)/(2*7-3*4);8*(7*8+5*8)/(5*5-7*3);5*(2*9+5*9)/(2*4-5);7*(2*8+3*8)/(2*7-3*3)	Transfer conserves total. Equations3(4k+12)=2(7k-12),7(3k+8)=5(5k-8),2(4k-9)=5(k+9),2(7k-8)=3(3k+8); last asks original first wallet.
+6.3/1	5*100;7*10;4*1000;5/2*1000	Metric conversions m to cm,cm to mm,km to m,L to mL.
+6.3/2	3*60*60;4*24*60;3*7*24;3*24*60*60	Time units convert using60 seconds/minute,60 minutes/hour,24 hours/day,7 days/week.
+6.3/3	P(1,1/60);P(1,1/10);P(3,1000);P(0,1/1000)	Read all operation alternatives: minutes to hours divide60;mm to cm divide10;kg to g multiply1000;mL to L divide1000. Other choices have wrong scale/direction.
+6.3/4	2400/1000;750/1000;145/100;3250/1000	Divide by1000 for grams to kg or mL to L; divide100 for cm to m.
+6.3/5	54*1000/3600;36*1000/3600;9*1000/3600;126*1000/3600	km/h to m/s multiplies by1000/3600.
+6.3/6	10*3600/1000;9*3600/1000;18*3600/1000;45*3600/1000	m/s to km/h multiplies by3600/1000.
+6.3/7	5*60/100;4*60/10;3*60/1000;6*365/100	Multiply by stated duration in original time units then convert length/volume unit.
+6.3/8	3*4*6;4*5*8;6*7*3;216/(9*4)	Chain conversion factors; last reverses chips to gems.
+6.3/9	90*1000/3600*10;108*1000/3600*6;27*1000/3600*40;150/(36*1000/3600)	Distance=speed*time; final asks time so distance/speed after SI conversion.
+6.3/10	12*60*24;15*60*8;9*60*60*24;720/24	Multiply rate by elapsed time; final divides daily total by24.
+6.4/3/4	100*3/20	Percent number is100 times fraction.
+6.4/8	14*4/8;36*5/15;21*18/6;26*10/40	Scale known percentage amount by ratio of requested percent to known percent.
+6.4/9	10000/25;10000/20;10000/125;10000/40	For positive original quantities reciprocal percentage is100/(p/100).
+6.4/10	45*120/30;25*96/40;30*120/75;55*80/20	Equate percentage amounts, cancelling common factor1/100 and solve unknown number.
+6.5/1/2	140*(1+35/100)	Increase original by35 percent of original.
+6.5/1/3	250*(1+18/100)	Increase original by18 percent of original.
+6.5/1/4	64*(1+75/100)	Increase original by75 percent of original.
+6.5/2/2	180*(1-40/100)	Retain60 percent of original.
+6.5/2/3	320*(1-15/100)	Retain85 percent of original.
+6.5/2/4	95*(1-20/100)	Retain80 percent of original.
+6.5/3	63/(1-10/100);36/(1-20/100);78/(1-35/100);51/(1-25/100)	Undo discount by dividing final price by retained fraction, not multiplying by reciprocal percent change.
+6.5/4	40*(1+30/100);25*(1+60/100);18*(1+45/100);56*(1+75/100)	Markup is specified fraction of cost; selling price=cost*(1+markup).
+6.5/5	150/(1+25/100);792/(1+10/100);72/(1+60/100);8640/(1+20/100)	Undo multiplicative increase.
+6.5/6	200*(1+30/100)*(1-30/100);500*(1+40/100)*(1-25/100);800*(1+15/100)*(1-20/100);240*(1-25/100)*(1+40/100)	Successive percentage changes use successive current bases, hence multiply factors.
+6.5/7	12*30/(12+6);20*45/(20+10);8*50/(8+12);15*60/(15+5)	Solute amount conserved while total volume increases; concentration percent=old volume*old percent/new volume.
+6.5/8	180*10/(100-10);270*25/(100-25);48*20/(100-20);60*(20-8)/(100-20)	Pure solute x satisfies old solute+x=p*(old total+x); all solutions x positive.
+6.5/9	100*(1-(1-20/100)*(1-25/100));100*(1-(1-30/100)*(1-20/100));100*(1-(1-40/100)*(1-10/100));100*(1-(1-40/100)/(1-25/100))	Overall discount complements product of retained fractions; final solves unknown second retention from total retention0.60.
+6.5/10	(40*35+60*60)/100;(30*20+70*40)/100;(2*15+3*40)/5;(100*22-40*10)/60	Conserve solute mass/volume under stated ideal additive mixture model; last solves unknown ingredient percent.
+challenge/1	3*10/(8-2*3);4*5/(9-2*4);5*(7*12-4*12)/(4*5-7*2);3*(5*4-3*4)/(5*2-3*3)	Both ages advance or retreat equally; solve ratio equation. Last3(3k-4)=5(2k-4); positive present and past ages checked.
+challenge/2	142*27/(20+24+27);155*9/(9+12+10);165*28/(6+21+28);63*10/(15-6)	Match shared ratio component; ratios20:24:27,9:12:10,6:21:28,6:10:15 then determine scale from sum or difference.
+challenge/3	108*1000/3600;90*1000/3600;20*3600/1000;12*25*60/1000	Convert speeds using seconds and meters; final asks distance in km during25 minutes.
+challenge/4	60*90/45;80*45/60;25*160/50;75*96/120	Equal percentage amounts; r3 asks p percent whose numerical percent value is80.
+challenge/5	90/((1+20/100)*(1+50/100));108/((1+50/100)*(1+20/100));72/((1+20/100)*(1-25/100));100*((1+25/100)*(1+40/100)-1)	Reverse successive multipliers for original number; final converts overall growth multiplier to percent increase.
+challenge/6	(6*50+9*20)/15;(4*60+6*35)/10;100-(3*40+9*20)/12;(5*30+20*55)/25	Weighted solute concentration; r3 asks WATER so take complement.
+challenge/7	4*(6+3)/(5-4);7*(10+2)/(7-3);5*(12+6)/(8-5);11*(3+15)/(7-4)	Both changes close original difference; choose requested initial red/yellow/juniors/total respectively.
+challenge/8	60*(1+25/100)*(1-20/100);80*(1+50/100)*(1-40/100);72/((1+60/100)*(1-25/100));C(100*((1+20/100)*(1-30/100)-1))	Apply markup then discount; r3 reverse combined multiplier; r4 preserve signed percentage change and verify prose direction in every choice.
+challenge/9/3	36/(25/100*80/100)	Nested percentages multiply, undo product to recover number.
+challenge/10	5*(12-8)/(20-12);12*(15-10)/(30-15);9*(40-30)/30;20*(30-15)/(35-15)	Conserve solute. Two-concentration addition x=V*(target-old)/(new-target); pure-water dilution and fixed-total mixture solved with same linear balance. All x feasible positive and final fixed-total x<=20.
+challenge/11	36*10/3;15*15/5;30*9/2;45*19/5	Difference in ratio units determines scale; requested total,total,largest,total respectively.
+challenge/12	(40+5)/(1-10/100);36/(1-20/100)+8;(42+6)/(1-25/100);120*(1-30/100)-70	Reverse operations in reverse order; r4 asks coupon amount after percentage discount.
+worksheet/1	90*7/10;63*5/7;84*(9-5)/14;96*5/12	Common ratio scale determined by total; third asks difference, fourth shorter piece.
+worksheet/2/3	350*12/100	Green count=total*green fraction.
+worksheet/3/2	54/(60/100)	Goal is collected amount divided by fraction achieved.
+worksheet/3/3	100*21/84	Red percentage=100*red count/total count.
+worksheet/4	25*3600/1000;15*3600/1000;126*1000/3600;12/10*1000/60	Unit factors convert speed to requested units.
+worksheet/5	81*3/9;96*4/8;180*3/15;18*(2+5+6)/2	Common scale from total or given smallest share; select requested component.
+worksheet/6	56/(1-30/100);52/(1-20/100);63/(1+40/100);91/(1-35/100)	Undo stated multiplicative change.
+worksheet/7	13*10/(9*2/3-4);8*12/(8*3/4-3);7*6/(7-5);8*(3*4-2*4)/(2*5-3*3)	Solve changed ratio from initial counts ak,bk; first asks initial total,second second choir,third first crate,fourth initial total. All changed counts positive.
+worksheet/8	C(100*((1+25/100)*(1-12/100)-1));C(100*((1-20/100)*(1+45/100)-1));C(100*((1+50/100)*(1-40/100)-1));C(100*((1+60/100)*(1-25/100)-1))	Signed overall percent change=100*(product of successive factors-1); prose increase/decrease checked against sign.
+worksheet/9	4*30/12-4;6*25/10-6;240*20/(100-20);8*25/(45-25)	Conserve original solute under dilution; r3 add pure solute; r4 solve45V=25(V+8). All volumes/masses positive.
+worksheet/10	7*9/(7-4);5*12/(6*4/3-5);11*(2*2)/(2*3-4);(5+4)*7/(6-5)+7	Set A=ak,B=bk; equations6k/(4k+9)=6/7;6k/(5k+12)=3/4;4k/(3k-2)=2; (5k+7)/(4k)=3/2. Last asks NEW total9k+7.

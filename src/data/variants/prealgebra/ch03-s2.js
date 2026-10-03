@@ -221,21 +221,21 @@ const s34 = [
   // p10 — multiply up to a perfect square
   [
     {
-      q: 'What is the smallest whole number $k$ so that $50k$ is a perfect square?',
+      q: 'What is the smallest positive integer $k$ so that $50k$ is a perfect square?',
       choices: ['$2$', '$5$', '$10$', '$50$'],
       answer: 0,
       solution:
         'Factor first: $50 = 2 \\cdot 5^2$. The $5$s are already paired up, but the single $2$ is lonely, so supply one more: $k = 2$. Check: $50 \\times 2 = 100 = 10^2$. ✓ Taking $k = 50$ also works ($2500 = 50^2$) but is far from smallest, and $k = 5$ or $k = 10$ leaves an odd exponent behind.',
     },
     {
-      q: 'What is the smallest whole number $k$ so that $75k$ is a perfect square?',
+      q: 'What is the smallest positive integer $k$ so that $75k$ is a perfect square?',
       choices: ['$5$', '$3$', '$15$', '$75$'],
       answer: 1,
       solution:
         'Factor: $75 = 3 \\cdot 5^2$. The exponent on $5$ is already even; only the $3$ appears an odd number of times, so $k = 3$. Check: $75 \\times 3 = 225 = 15^2$. ✓ Multiplying by $5$ breaks the pair that already worked, and $75$ works but is much too big.',
     },
     {
-      q: 'What is the smallest whole number $k$ so that $126k$ is a perfect square?',
+      q: 'What is the smallest positive integer $k$ so that $126k$ is a perfect square?',
       choices: ['$2$', '$7$', '$21$', '$14$'],
       answer: 3,
       solution:
@@ -440,21 +440,21 @@ const s35 = [
   // p9 — LCM hiding in a shopping problem
   [
     {
-      q: 'Paper plates come in packs of $12$ and cups come in packs of $18$. What is the smallest number of plates Marisol can buy so that she ends up with exactly one cup for every plate and nothing left over?',
+      q: 'Paper plates come in packs of $12$ and cups come in packs of $18$. What is the smallest positive number of plates Marisol can buy so that she ends up with exactly one cup for every plate and nothing left over?',
       choices: ['$216$', '$36$', '$6$', '$30$'],
       answer: 1,
       solution:
         'She needs a number that is a multiple of $12$ (whole packs of plates) and of $18$ (whole packs of cups). Factor: $12 = 2^2 \\cdot 3$ and $18 = 2 \\cdot 3^2$, so the LCM is $2^2 \\cdot 3^2 = 36$. That is $3$ packs of plates and $2$ packs of cups. The product $216$ works too, but she would be buying six times what she needs.',
     },
     {
-      q: 'Beads come on strings of $15$ and clasps come in bags of $9$. What is the smallest number of beads Theo can buy so that every bead gets a clasp with none left over?',
+      q: 'Beads come on strings of $15$ and clasps come in bags of $9$. What is the smallest positive number of beads Theo can buy so that every bead gets a clasp with none left over?',
       choices: ['$135$', '$3$', '$45$', '$24$'],
       answer: 2,
       solution:
         'The total must be a multiple of both $15$ and $9$. Factor: $15 = 3 \\cdot 5$ and $9 = 3^2$, so $\\text{lcm}(15, 9) = 3^2 \\cdot 5 = 45$. That is $3$ strings of beads and $5$ bags of clasps. The product $135$ is a later match, and $3$ is the GCD.',
     },
     {
-      q: 'Tiles come in boxes of $14$ and grout packets come in boxes of $21$. Devin buys whole boxes of each so that the number of tiles exactly matches the number of grout packets, using as few as possible. How many BOXES of tiles does he buy?',
+      q: 'Tiles come in boxes of $14$ and grout packets come in boxes of $21$. Devin buys at least one whole box of each so that the number of tiles exactly matches the number of grout packets, using as few as possible. How many BOXES of tiles does he buy?',
       choices: ['$42$', '$2$', '$21$', '$3$'],
       answer: 3,
       solution:

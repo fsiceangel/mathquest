@@ -1,0 +1,569 @@
+{
+  "date": "2026-10-02",
+  "scope": "Manual review of every stem, answer option and solution in these two sections, all four versions. Numeric comparisons and radical factorizations checked independently; no rendered-figure claim.",
+  "sections": [
+    {
+      "id": "prealgebra/4/4.6",
+      "title": "Comparing Fractions",
+      "reviewedVersions": 40,
+      "decision": "add-one-reviewed-slot",
+      "reason": "Slot9 was unnecessarily excluded by a blanket Which filter; remaining slots depend on options or vary response type.",
+      "safeSlots": [
+        "prealgebra/4/4.6/9"
+      ],
+      "slots": [
+        {
+          "id": "prealgebra/4/4.6/1",
+          "verdict": "retain-choice",
+          "reason": "Same-denominator comparisons correct; round3 asks a name, round4 permits any numerator greater than9 without choices.",
+          "versions": [
+            {
+              "id": "prealgebra/4/4.6/1/1",
+              "sourceDigest": "ebed4b14078bcd7c02af9b9e00e18d8ae8d010d00b8b1ad0483fcc0baf8aa9dd",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/1/2",
+              "sourceDigest": "3dd4d9684ae32999a3f2d98a0afdcf2e9df6f894f0d45b053a6b48c23869e5b4",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/1/3",
+              "sourceDigest": "499e98ccf87c52e9a48c5f099a412ce9ce8db6ddeebc23ea89e64666bc001c27",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/1/4",
+              "sourceDigest": "127c166c605c8b1f05fb8dbc11036ed41d65f8f209e8de1bd63e3288ce2eab0c",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/4/4.6/2",
+          "verdict": "retain-choice",
+          "reason": "Same-numerator comparisons correct; round4 requires choosing a cake slice and explaining why.",
+          "versions": [
+            {
+              "id": "prealgebra/4/4.6/2/1",
+              "sourceDigest": "effa50a57065142c14459e055c28312e7e63e5cb114185b1347dd3311ef41d47",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/2/2",
+              "sourceDigest": "bac52f750d9bf98c24488a5c73c01d04a0acec20c7a90eb3d82551e30c0d1095",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/2/3",
+              "sourceDigest": "1b66ed9ab54db8a974a107b34a4f15f9bd488cb49a5ff18b041955d8359c5bbb",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/2/4",
+              "sourceDigest": "5d203662abc309f8643fa1248b7dc2a56bff0ea6ef87c0a81f7efeb8cb725e1c",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/4/4.6/3",
+          "verdict": "retain-choice",
+          "reason": "Cross-products confirm3/4,5/8,4/9; round4 asks a pair of rewritten fractions20/24 and21/24.",
+          "versions": [
+            {
+              "id": "prealgebra/4/4.6/3/1",
+              "sourceDigest": "d4974f1fba14bc7a906be9e9b3986a437604bcb63766db8cf04a8df089865921",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/3/2",
+              "sourceDigest": "552a766aca1ab9e730738cd22d80206ac45a22133a92e986ce8e97e469b5c850",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/3/3",
+              "sourceDigest": "6601975723d1015061ce31509b767e97552823760145d393883abf8c7f2c6974",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/3/4",
+              "sourceDigest": "a555c0d3659ed94411d1734d55584c96a20d6083cc9ae1b097771e8267da35e8",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/4/4.6/4",
+          "verdict": "retain-choice",
+          "reason": "Each threshold-one classification has exactly one listed answer; removing the list makes the response nonunique.",
+          "versions": [
+            {
+              "id": "prealgebra/4/4.6/4/1",
+              "sourceDigest": "4749c5245e855ed290fb00409533c3b58c2d45b2405b7a12b9b8f7ccc6303413",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/4/2",
+              "sourceDigest": "138fd316fb3ee0cb5420a6ab67d523f19b30cd3e7018f3039b02ba454e434e03",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/4/3",
+              "sourceDigest": "a6693d58d9b988d0c84e917e0ad3158b70c990d697fc0522236d9c9280128619",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/4/4",
+              "sourceDigest": "6dfd1fad406ad1983de7a930fb9c0e66112ec4a42e5831898642fd30406e773f",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/4/4.6/5",
+          "verdict": "retain-choice",
+          "reason": "Cross-products confirm4/7,5/7,5/9; round4 asks for two cross-products, not one number.",
+          "versions": [
+            {
+              "id": "prealgebra/4/4.6/5/1",
+              "sourceDigest": "022e2ef710b89aba186e5aacde7aec79d4aefc40a540b69109a624abf1ca0904",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/5/2",
+              "sourceDigest": "df3ecffb555f89ee46b6babc551f5658c9e3f3ceff47a06ad7788714de6a3368",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/5/3",
+              "sourceDigest": "b2445b1853f4394998cbf7260053deaf1b6b8869e1e6b6f3597c0b4da98ffb30",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/5/4",
+              "sourceDigest": "cb48a5185e916802bd46466d574dc9a56881d62fc39483feb812589a32bcd387",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/4/4.6/6",
+          "verdict": "retain-choice",
+          "reason": "Twice the numerator versus denominator verifies all keys; round4 asks for a reason as well as direction.",
+          "versions": [
+            {
+              "id": "prealgebra/4/4.6/6/1",
+              "sourceDigest": "2e78a26f9b837390efcdc57dfb6ef5d6114b8fda88ad845aa4badcd434202a0d",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/6/2",
+              "sourceDigest": "d7c4932da5dc054a66e606669ea0d2267a395e95b58c98cca6fa2594e11c1876",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/6/3",
+              "sourceDigest": "8a725ede2a9a16d84181fdbbab1f720d30d3cfce21f0c5ae9c92c398447d75f4",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/6/4",
+              "sourceDigest": "07a3f9937842eabff614c08a30a0a04a267ef9c13d5e81eae3aece9a11779c43",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/4/4.6/7",
+          "verdict": "retain-choice",
+          "reason": "Complements below1 verify all keys; round4 candidate fractions occur only in options.",
+          "versions": [
+            {
+              "id": "prealgebra/4/4.6/7/1",
+              "sourceDigest": "0307452454d464e9058e5e6ec9166de7af4cf9f163b9fdd1114925f668ef732e",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/7/2",
+              "sourceDigest": "8423e566542f1f3da2eaca178e466fa4df3d4c82145b750ffa5bb59ad1d0c446",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/7/3",
+              "sourceDigest": "9303e38715d8c7e6b2bd476f9b711c9c85bea8dc2e4290993e7520ff41114408",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/7/4",
+              "sourceDigest": "8fee2369cc2ec9cfc56dbc1088fbdec629d60786faa2c5eba0bfc89d96db4dd4",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/4/4.6/8",
+          "verdict": "retain-choice",
+          "reason": "Common denominators30,24,20,36 verify all orderings; response is an ordered list.",
+          "versions": [
+            {
+              "id": "prealgebra/4/4.6/8/1",
+              "sourceDigest": "ad43cd847860279f7aac8f1abf8794c38564ac88bec77a5f80e36e0dea2dc152",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/8/2",
+              "sourceDigest": "6bf973a3f5427e7862fc9a90a9a93136416db14884c77aa00f08da4ae1d14ff2",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/8/3",
+              "sourceDigest": "345ef2db6f19347ba124ff90a3adeb193b9076d0e818693ceac85a07d7dd6deb",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/8/4",
+              "sourceDigest": "1ac46db1259afbd6d3553513845c9be3636f8847c8052082b86d0c7716180bd2",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/4/4.6/9",
+          "verdict": "safe-numeric",
+          "reason": "All four candidates are explicit in each stem. Common denominators18,16,20,36 independently give5/6,13/16,3/5,11/18. Unique scalar answer in every round.",
+          "versions": [
+            {
+              "id": "prealgebra/4/4.6/9/1",
+              "sourceDigest": "7d91620581fa3fe71d8e514d0e9ee1fabcac0002918e5c42862fd75995bfc3c5",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/9/2",
+              "sourceDigest": "2b58fc93f4ed5a396b34908a45839d6655cbb0b0f2b185da4e6c4f2b2d4867c2",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/9/3",
+              "sourceDigest": "a75aba138ee4a8ca8e79252669c800491ea588dda2d04b1832e61f13f8ca7c87",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/9/4",
+              "sourceDigest": "c308ab7b766b67c4114fc19538ac7ad97b9aa8b47114f089ddaa0bdfad4a8088",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/4/4.6/10",
+          "verdict": "retain-choice",
+          "reason": "Interval comparisons verify the unique listed option in each round; infinitely many unlisted rational numbers also satisfy the open interval.",
+          "versions": [
+            {
+              "id": "prealgebra/4/4.6/10/1",
+              "sourceDigest": "75f6dbf21e2a61460b87f3579bb213695fd073390e355ee7d1db15a08c5dc9c7",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/10/2",
+              "sourceDigest": "280e0167b8ac4e8554cb7963a73672b056554b4bb1fa3bb718341428f43cbe58",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/10/3",
+              "sourceDigest": "a0977447d522bee4c237d678f0b5e62b7277213ee74b4f5c83cadeaf1d1ada8f",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/4/4.6/10/4",
+              "sourceDigest": "a1660a9821fb88f4d44d2e38eaca81669a513b672b8349007fcdd10c0fc8f30e",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prealgebra/9/9.2",
+      "title": "Square Roots of Non-square Integers",
+      "reviewedVersions": 40,
+      "decision": "retain-choice",
+      "reason": "All ten slots require radicals, paired endpoints, option-dependent approximations, or conceptual statements.",
+      "safeSlots": [],
+      "slots": [
+        {
+          "id": "prealgebra/9/9.2/1",
+          "verdict": "retain-choice",
+          "reason": "Squares bracket20,30,55,110 between(4,5),(5,6),(7,8),(10,11); answers require two endpoints.",
+          "versions": [
+            {
+              "id": "prealgebra/9/9.2/1/1",
+              "sourceDigest": "72006fec211868449d01fd1e6f650c2d19ddf1b8b1eb48b7bbd1f95100b3d596",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/1/2",
+              "sourceDigest": "50e6b35969c37d8fbd5cc14eb13e7e9f3b313185fd97c78ee7ae7fc407b578ce",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/1/3",
+              "sourceDigest": "c1ee3bbd04d40cf3cfb6723668e2fb1837711edaf6884708111e4d950e0b8fc3",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/1/4",
+              "sourceDigest": "83cc57465ad1995e63ce31842963c1b250998b39d816db312a5d3b1f5687f3f5",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/9/9.2/2",
+          "verdict": "retain-choice",
+          "reason": "Square-factor extraction yields2sqrt2,2sqrt3,3sqrt2,2sqrt11; irrational expressions.",
+          "versions": [
+            {
+              "id": "prealgebra/9/9.2/2/1",
+              "sourceDigest": "248c01accd8fd23f366f8395093d446381dd5ee0edeb41dddf3c4856a2c8c026",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/2/2",
+              "sourceDigest": "00d358294ae7aef8fdf3853dff6a29ce92abb2fec6ceef4bfd109367e8414b81",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/2/3",
+              "sourceDigest": "59d650367cafc76c1da1a05a9d1042abe3011b30b76e24b78daed2dfe819b9da",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/2/4",
+              "sourceDigest": "9cd8f3175e9c32acb53f26a794e72981ef88747e87d61f3080ab6d8266aaacac",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/9/9.2/3",
+          "verdict": "retain-choice",
+          "reason": "Square-factor extraction yields5sqrt2,7sqrt2,3sqrt6,3sqrt7; all other choices square to different radicands.",
+          "versions": [
+            {
+              "id": "prealgebra/9/9.2/3/1",
+              "sourceDigest": "03d482f3b7bb3d69344d1aef0fd1bec3f5afe5f066cb6123ffea6beb1ba2d818",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/3/2",
+              "sourceDigest": "e4b0299ef7481f3e39548385665679fff12cb6aae30be346a062a0e5dec91068",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/3/3",
+              "sourceDigest": "83b26ee875a4915fddf513d20da9988e5e95dc28206e1ba4f1a1301fafecce9e",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/3/4",
+              "sourceDigest": "ad79d4d98fcd29c4f7fbb7bc4c2cb9139f71e1890de07e3fbd7bb0e57abdfd31",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/9/9.2/4",
+          "verdict": "retain-choice",
+          "reason": "Squares bracket90,72,130,200 between(9,10),(8,9),(11,12),(14,15); paired endpoints.",
+          "versions": [
+            {
+              "id": "prealgebra/9/9.2/4/1",
+              "sourceDigest": "9e43e3e7e26fccecf0dadfa40cc2ead16a3b6617783f8c456caa967436073379",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/4/2",
+              "sourceDigest": "8ebb12fa03f890543893884c0dcb55bb2885c25bc5b8987cb1ecfe9d9a208e12",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/4/3",
+              "sourceDigest": "b0e070213b1baee81d9e488bca78cbccd52a245373afafba5af868a58373499f",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/4/4",
+              "sourceDigest": "11218a880d1f462c89ad0625793c3cae213e2fb51c799809efdaa0ec83567a83",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/9/9.2/5",
+          "verdict": "retain-choice",
+          "reason": "Largest square factors25,4,9,16 yield5sqrt3,2sqrt7,3sqrt11,4sqrt7; irrational expressions.",
+          "versions": [
+            {
+              "id": "prealgebra/9/9.2/5/1",
+              "sourceDigest": "8dd7f4e099001743311fc5194ded33c5d6a4b802c7ade7b02b62a59dbf092175",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/5/2",
+              "sourceDigest": "cb41c6d4f2c608e6ecac4945ab8c7d12fe0e06d591767f3bb98e7733ad79b60f",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/5/3",
+              "sourceDigest": "1098f79764fbf5f358652eff0c180de7dbe8b0e41ed67f4510635a7cdbe7ba41",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/5/4",
+              "sourceDigest": "ba43e3212e81082e20e9bbf6f182f14da564ee6d1e7ca5e7ed2081ad76aaa26c",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/9/9.2/6",
+          "verdict": "retain-choice",
+          "reason": "Squarefree radicands30,35,33,42 identify unique fully simplified listed radical; option-dependent and nonrational.",
+          "versions": [
+            {
+              "id": "prealgebra/9/9.2/6/1",
+              "sourceDigest": "334cc553303b7999ab37907dbadedd1f2274bf9dc4c26388a1cf794e10dadbb9",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/6/2",
+              "sourceDigest": "7c358e1b996f936bdea707ec8bbd60c7535650fd3c2a66dfeb76ac8f90093f7f",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/6/3",
+              "sourceDigest": "063fda45b9fa547b10af64566582e6688ddc03a9bdf469d1f5646caf912ef29f",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/6/4",
+              "sourceDigest": "dac8ddebf5ccb58063954cde8955684def21d65a5e05a7f46950c24961f8e52a",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/9/9.2/7",
+          "verdict": "retain-choice",
+          "reason": "Largest square factors16,16,36,49 yield4sqrt3,4sqrt5,6sqrt3,7sqrt3; nonrational expressions.",
+          "versions": [
+            {
+              "id": "prealgebra/9/9.2/7/1",
+              "sourceDigest": "f08b7ca106be3ff8a54f0ed425714edd6b01c037c19b84dde616e5ebd7a44ecd",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/7/2",
+              "sourceDigest": "226eca0c8c9d0594e7fff0a9b9701b27583c4d581d7073b672b0962561c3fe8d",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/7/3",
+              "sourceDigest": "89d661b1d348089d4fded12b3cb8e877b76d05211b67c72d8234dd2950ac9f8b",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/7/4",
+              "sourceDigest": "f58e9d51c79b8c1a3b5f56beb14c3a62339bd3b23693c3589fb89791e90071e2",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/9/9.2/8",
+          "verdict": "retain-choice",
+          "reason": "Irrationality of sqrt2,sqrt5,sqrt7,sqrt10 verifies each key; other options are rational approximations or false statements. Preserve conceptual choice.",
+          "versions": [
+            {
+              "id": "prealgebra/9/9.2/8/1",
+              "sourceDigest": "ba785d82a06dd05be20c38ba6d622494719db08f17278e0c5e4b4898f6ce5572",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/8/2",
+              "sourceDigest": "f5dca2756fcd169680942e39ffe42cf5dff09c70b7176651d7f7778e0efb9b1e",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/8/3",
+              "sourceDigest": "ff540dae644909ac824a6e79e90a0887bdd7aed665cfe8eff80e733137d8ff3b",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/8/4",
+              "sourceDigest": "8b40f0620de4732dbbee135a8d32413a8ae9315e8f7866a892fac5e1e02fe8a7",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/9/9.2/9",
+          "verdict": "retain-choice",
+          "reason": "Compare absolute distances to the four listed numbers:7.7,5.5,9.2,11.4 respectively closest. Removing options and giving no precision makes an exact decimal response unjustified.",
+          "versions": [
+            {
+              "id": "prealgebra/9/9.2/9/1",
+              "sourceDigest": "71885ea111bf3dc8d918dc4aa3093409e727d3c85dde8fda82db2fc2f0ee21f4",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/9/2",
+              "sourceDigest": "0b8179f96833bdf3848aa31fbcf773dad9d1da7344a9395152fc87a82c897cb0",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/9/3",
+              "sourceDigest": "7f4034345d3713b34ef14bfccc5a962ee7b07ce1659805fca20e0a6cd67d7f26",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/9/4",
+              "sourceDigest": "aba17dbd3c07f1a92a3d49b4fec884a903800e0e23efb1155f7ac6970db89168",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "prealgebra/9/9.2/10",
+          "verdict": "retain-choice",
+          "reason": "Largest square factors36,100,36,144 yield6sqrt5,10sqrt3,6sqrt7,12sqrt2; all distractors differ.",
+          "versions": [
+            {
+              "id": "prealgebra/9/9.2/10/1",
+              "sourceDigest": "b277bf9072296ecfb8e01d28491a9f76e1bf468748a66c8d616bc6ae1aaa2bb3",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/10/2",
+              "sourceDigest": "88ff9179ea184066efb7313bb90dd304da0b019f37d43e1f1d9957b5112df53f",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/10/3",
+              "sourceDigest": "4fb9799ec5e3384ad7e442ab9fdbfacb35ff71e4b2abad7dfd0d4638c9937b48",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            },
+            {
+              "id": "prealgebra/9/9.2/10/4",
+              "sourceDigest": "4ea66c6b1fc97ef35b5898717dd596193c56b32a6c7c9a7e278129f4ada16d5f",
+              "answerCheck": "checked-by-fraction-comparison-or-square-factor-reasoning"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "findings": []
+}

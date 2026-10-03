@@ -1498,10 +1498,10 @@ const challenge = [
     solution: 'The hypotenuse is $AB = 12.8 + 7.2 = 20$. From $\\triangle AHC \\sim \\triangle ACB$: $\\frac{AH}{AC} = \\frac{AC}{AB}$, so $AC^2 = AH \\times AB = 12.8 \\times 20 = 256$, giving $AC = 16$. Each leg is the geometric mean of the whole hypotenuse and its own adjacent piece.',
   },
   {
-    q: 'Two similar triangles have perimeters $12$ and $18$. The smaller has area $16$. What is the area of the larger?',
+    q: 'Two similar triangles have perimeters $24$ and $36$. The smaller has area $16$. What is the area of the larger?',
     choices: ['$24$', '$36$', '$32$', '$81$'],
     answer: 1,
-    solution: 'Perimeters give the side ratio directly: $\\frac{18}{12} = \\frac{3}{2}$. Areas use its square: $\\left(\\frac{3}{2}\\right)^2 = \\frac{9}{4}$, so the larger area is $16 \\times \\frac{9}{4} = 36$. One ratio, used two different ways — once for lengths, squared for areas.',
+    solution: 'The perimeter ratio is $36/24=3/2$, so the corresponding side lengths have ratio $3/2$. A triangle area scales with both its base and its height, giving area ratio $(3/2)^2=9/4$. The larger area is $16\\cdot9/4=36$.',
   },
   {
     q: 'In $\\triangle ABC$, point $D$ lies on $\\overline{AC}$ so that $\\angle ABD = \\angle ACB$ (marked $a$ in the figure). Given $AB = 6$ and $AD = 4$, find $DC$.',

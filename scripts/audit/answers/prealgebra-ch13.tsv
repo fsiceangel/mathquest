@@ -1,0 +1,53 @@
+# All four rounds independently transcribed from stems; P rows have all verbal alternatives reviewed.
+13/13.1/1	Mean(4,6,8,10);Mean(5,9,12,14);Mean(3,6,9,14);Mean(2,9,10,15)	Arithmetic mean is sum divided by number of observations.
+13/13.1/2	Median(9,2,7,3,5);Median(14,6,11,3,9);Median(20,4,15,8,12);Median(7,2,13,5,10)	Sort observations and select the middle.
+13/13.1/3	Mode(4,7,7,2,9,7,4);Mode(3,8,3,5,8,8,2);Mode(5,2,9,2,5,2,7);Mode(12,15,12,18,15,12,20)	Count occurrences and require a unique maximum frequency.
+13/13.1/4	Range(12,5,9,20,3);Range(17,4,11,25,8);Range(30,12,45,27,19);94-28	Range is maximum minus minimum.
+13/13.1/5	Median(3,8,5,11,9,12);Median(7,2,10,5,14,6);Median(11,4,9,20,6,15);Median(16,9,4,21,12,7)	Even sample median averages the two middle sorted observations.
+13/13.1/6	4*84-72-85-91;4*85-78-84-90;4*105-110-96-103;4*40-32-45-28	Missing observation equals target total minus known observations.
+13/13.1/7	20+(25-10)/5;12+(19-7)/6;30+(46-22)/8;18+(6-26)/5	Replacing one observation changes the mean by the change divided by sample size.
+13/13.1/8	Mode(6,11,4,11,8)-Median(6,11,4,11,8);Mode(9,3,7,9,5)-Median(9,3,7,9,5);Mode(12,4,8,12,6)-Median(12,4,8,12,6);Median(6,14,6,20,11)-Mode(6,14,6,20,11)	Compute mode and sorted median separately; subtraction direction follows each stem.
+13/13.1/9	6*84-5*82;5*80-4*76;7*20-6*18;9*27-8*25	Added observation is new total minus old total.
+13/13.1/10	6*15-5*14;8*24-7*22;7*8-6*9;5*32-4*30	Added observation is new total minus old total.
+13/13.2/1	52;41;60;1	The identified observation is separated from all remaining observations by a gap larger than their entire range; inspect all choices.
+13/13.2/2	Median(6,7,8,9,52);Median(4,5,6,7,63);Median(11,12,14,15,98);Median(3,3,4,5,50)	Sort all observations including the outlier before selecting median.
+13/13.2/3	P(0,Median(8,9,10,11,42));P(1,Median(12,13,15,16,84));P(2,Median(22,24,25,27,152));P(3,Median(30,32,34,35,36,38,250))	Median describes the central cluster despite the large outlier; all competing verbal choices checked.
+13/13.2/4	Mean(3,4,5,6);Mean(2,5,6,7);Mean(8,9,11,12);Mean(10,11,12,13,14)	Remove the stated outlier and recompute sum and sample size.
+13/13.2/5	Median(10,12,14,16,88);Median(5,8,11,14,95);Median(20,22,24,26,28,30,130);Median(1,12,15,18,21)	Sort observations after replacement and compute median.
+13/13.2/6	D(5,7,6,5,-1);D(5,8,7,5,-1);D(5,9,8,6,-1);D(5,12,11,9,-1)	Independently evaluate size, mean, median and unique mode of every candidate dataset.
+13/13.2/7	P(2,Range(5,20,35)-Range(18,20,22));P(0,Range(3,15,27)-Range(14,15,16));P(1,Range(30,40,50)-Range(39,40,41));P(3,Range(2,20,38)-Range(19,20,21))	Both samples are symmetric about the same center so means and medians agree; compare ranges and reject all other statements.
+13/13.2/8	P(0,Mean(2,3,3,4,38));P(1,Mean(1,2,2,3,42));P(2,Mean(60,70,80,90,2200));P(3,Mean(5,6,6,7,96))	One high outlier raises the mean above every remaining observation; alternatives checked against arithmetic and median.
+13/13.2/9	5*8-2*1-2*5;5*10-2*2-2*6;5*12-2*3-2*8;7*9-3*1-3*4	Maximize last entry by minimizing earlier sorted entries: lower half at allowed minimum, median through penultimate at median. Construction attains bound.
+13/13.2/10	P(1,Range(70,75,80,85,90)-Range(78,79,80,81,82));P(0,Range(12,14,16,18,20)-Range(15,15,16,17,17));P(2,Range(25,35,50,65,75)/Range(40,45,50,55,60));P(3,Range(10,20,40,50)/Range(28,29,31,32))	Samples are symmetric about their common mean and median; compare ranges, including factor claims. All verbal alternatives checked.
+13/13.3/1	12+8+10+14;15+11+9+18;23+17+26+14;19+27+22+14	Sum all bars; data transcribed from actual barChart figure inputs, with zero-based proportional scale.
+13/13.3/2	Mean(12,8,10,14);Mean(14,9,18,11);Mean(12,9,15,8,16);Mean(7,10,4,9,12,12)	Divide sum of graph bars by number of days, transcribed from actual figure data.
+13/13.3/3	9-4;11-6;21-13;16-9	Subtract named categories using actual figure labels and counts.
+13/13.3/4	24*25/100;32*25/100;50*40/100;60*35/100	Sector count equals total multiplied by fractional share.
+13/13.3/5	(4*70+6*80)/10;(3*60+7*90)/10;(5*12+15*20)/20;(8*15+2*30)/10	Weighted sum divided by total frequency.
+13/13.3/6	(3*0+5*1+2*2)/10;(4*0+3*1+2*2+1*3)/10;(5*0+3*2+2*4)/10;(2*1+6*2+2*5)/10	Frequency distribution mean uses values times counts, not mean of category labels.
+13/13.3/7	40*(1-40/100-35/100);60*(1-45/100-35/100);80*(1-30/100-45/100);200*(1-52/100-33/100)	Remaining category is complement of disjoint stated shares.
+13/13.3/8	24/(12+15+9+24);15/(9+14+12+15);24/(18+24+22+16);14/(12+8+14+6)	Requested fraction is selected frequency over total; percent options normalized exactly.
+13/13.3/9	(5*90+15*70)/20;(8*11+12*16)/20;(6*95+24*75)/30;(25*40+15*64)/40	Combine group totals before dividing by combined size.
+13/13.3/10	P(2,Mean(5,5,5,5,80));P(0,Mean(0,0,5,5,10,220));P(1,Mean(2,3,4,5,136));P(3,Mean(2,2,2,3,3,24))	Compute advertised mean and inspect remaining observations: one large outlier makes it unrepresentative of most recipients. All alternatives checked.
+13/challenge/1	4*25-24-31-17;4*28-18-27-35;5*30-42-19-23-30;4*90-93-84-87	Missing observation equals target total minus known sum.
+13/challenge/2	Median(15,3,8,21,10,6);Median(22,7,13,4,19,10);Median(8,27,15,3,20,11);Median(17,6,12,25,9,21)	Sort then average middle pair.
+13/challenge/3	52-9;61-11;55-3;90-15	Removing extreme changes range by distance to next extreme; both minima and maxima checked.
+13/challenge/4	(6*80+4*90)/10;(8*75+2*95)/10;(6*8+3*14+1*20)/10;(12*85+18*75)/30	Weighted group mean.
+13/challenge/5	(7*15+31)/8;(8*15+24)/9;(6*20-30)/5;(4*120+220)/5	Update both total sum and count when adding or removing an observation.
+13/challenge/6	P(1,Median(2,4,5,6,7,8,9,10,120));P(0,Median(4,9,11,15,20,23,100));P(2,Median(-27,14,15,17,18,20,21,23,25));P(3,Mean(4,6,8,11,13,14,15,17,110))	Median unchanged when an extreme stays outside middle; final round median remains 13 and mean becomes 22. All compound verbal claims checked.
+13/challenge/7	4*10-3*7;5*12-4*4;6*9-5*5;5*18-4*20	Extremize desired entry by putting all other entries at allowed endpoint; constructions meet constraints.
+13/challenge/8	60*(1-45/100-30/100);80*(1-35/100-40/100);200*(1-35/100-20/100-15/100);(250-90-85)/250	Use complement of all stated categories; final round asks fraction.
+13/challenge/9	(4*12+6*22)/10;(5*30+15*10)/20;(8*6+12*11)/20;(20*16-12*14)/8	Combine sums or subtract known group sum from total before dividing by group size.
+13/challenge/10	(1*(2+4)-4)/(2-1);(2*(3+5)-5*2)/(5-2);(7*10-5*4-5*7)/(10-7);(5*8-5*2-3*8)/(6-5)	Solve weighted mean equation for unknown frequency, retaining unknown in denominator.
+13/challenge/11	Mean(1,5,6,7,41)-Median(1,5,6,7,41);Mean(9,55,2,11,3)-Median(9,55,2,11,3);Mean(4,6,7,8,10,25)-Median(4,6,7,8,10,25);Mean(18,20,22,24,116)-Median(18,20,22,24,116)	Compute exact mean and sorted median independently then subtract.
+13/challenge/12	5*7-2*4-6-7;5*10-2*3-8-9;5*8-2*2-5-6;5*9-2*5-7-8	Unique mode below median must occupy first two positions. Fourth entry must exceed median to avoid tying modal frequency. Choose median+1; resulting last entry attains maximum and keeps unique mode.
+13/worksheet/1	Mean(9,14,6,11);Mean(13,7,18,6);Mean(23,16,31,12,18);Mean(14,9,15,10)	Compute exact arithmetic mean.
+13/worksheet/2	Median(12,5,19,8,15);Median(27,14,6,31,20);Median(30,8,17,25,11,21,14);Median(18,25,21,16,23)	Sort and select middle entry.
+13/worksheet/3	V(Mode(7,3,9,3,12,3),Range(7,3,9,3,12,3));V(Mode(8,5,12,8,4,8,15),Range(8,5,12,8,4,8,15));V(Mode(6,11,6,19,6,14,2),Range(6,11,6,19,6,14,2));V(Mode(7,9,7,11,6,7,10),Range(7,9,7,11,6,7,10))	Independently calculate both unique mode and range; check both components of answer.
+13/worksheet/4	3*9-6-10;3*12-8-15;4*15-14-9-20;4*87-88-79-95	Missing value equals total implied by mean minus known sum.
+13/worksheet/5	Mean(15,9,12,24);Mean(18,11,7,28);Mean(24,19,30,15,22);Mean(32,26,41,19,17,21)	Exact mean of all observations.
+13/worksheet/6	30*40/100;250*36/100;45*60/100;120*15/100	Multiply total by percent share.
+13/worksheet/7	(8*75+12*85)/20;(6*60+9*80)/15;(5*12+10*15+5*18)/20;(14*40+6*90)/20	Weighted mean from group totals.
+13/worksheet/8	5*16-10-21-17-12;6*13-9-20-7-15-11;4*25-18-34-21;5*96-88-104-79-110	Target total minus known sum.
+13/worksheet/9	V(Mean(5,6,7,8,34)-Mean(5,6,7,8),Mean(5,6,7,8,34),Mean(5,6,7,8));V(Mean(8,9,11,12,60)-Mean(8,9,11,12),Mean(8,9,11,12,60),Mean(8,9,11,12));V(Mean(3,4,6,7),Mean(3,4,6,7,45)-Mean(3,4,6,7));V(Mean(2,5,6,7,10,42)-Mean(2,5,6,7,10),Mean(2,5,6,7,10),Mean(2,5,6,7,10,42))	Check every numeric component: old mean, new mean and directed change, in each answer's stated order.
+13/worksheet/10	D(5,10,9,7,-1);D(5,12,10,8,-1);D(5,8,7,5,-1);D(6,9,8,-1,12)	Construction need not be unique: validate provided example against all independent stem constraints, including whole nonnegative entries.

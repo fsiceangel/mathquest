@@ -163,7 +163,7 @@ const challenge = [
         'Factor the $3$ out first: $3x^2 + 18x + m = 3(x^2 + 6x) + m = 3(x+3)^2 - 27 + m$. The lowest value is $m - 27$, reached at $x = -3$, so the condition is $m - 27 \\ge 0$, that is $m \\ge 27$, and the smallest allowed value is $m = 27$. Because the inequality is $\\ge$ and not $>$, this borderline value is genuinely allowed: with $m = 27$ the expression is $3(x+3)^2$, which is exactly $0$ at $x = -3$ and positive at every other $x$ ✓. Check by substituting $m = 27$: at $x = -3$, $27 - 54 + 27 = 0$ ✓; at $x = -4$, $48 - 72 + 27 = 3 \\ge 0$ ✓; at $x = 0$, $27 \\ge 0$ ✓. Check that a smaller $m$ fails: $m = 20$ gives $3(9) - 54 + 20 = -7 < 0$ at $x = -3$ ✗. (The choice $m = 81$ tests $18^2 - 4m \\le 0$, leaving the $a = 3$ out of $4ac$. The choice $m = 108$ tests $18^2 - 3m \\le 0$, leaving the $4$ out instead. The choice $m = 9$ completes the square without factoring the $3$ out, using $m - 9$.)',
     },
     {
-      q: 'The equation $x^2 + 14x + t = 0$ has no real solutions. What does that tell you about $t$?',
+      q: 'The equation $x^2 + 14x + t = 0$ has no real solutions. Which describes exactly all possible values of $t$?',
       choices: ['$t \\ge 49$', '$t > 49$', '$t > 7$', '$t < 49$'],
       answer: 1,
       solution:

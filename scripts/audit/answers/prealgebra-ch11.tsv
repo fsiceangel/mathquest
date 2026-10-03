@@ -1,0 +1,69 @@
+11/11.1/1/3	19-6	Distance between coordinates is absolute difference.
+11/11.1/2/3	5-(-12)	Signed elevations straddle zero, giving17 metres separation.
+11/11.1/3/4	(2+30)/2	Midpoint averages endpoints.
+11/11.1/4/3	2*(9+6)	Rectangle perimeter counts two of each side.
+11/11.1/4/4	2*(15+5)	Rectangle perimeter.
+11/11.1/5/3	32/4	Square side equals one quarter perimeter.
+11/11.1/5/4	4*11	Square perimeter.
+11/11.1/6/4	(-5+11)/2	Midpoint of signed coordinates.
+11/11.1/7/3	30/2-4	Adjacent rectangle sides sum to half perimeter.
+11/11.1/7/4	40/2-6	Adjacent sides sum to half perimeter.
+11/11.1/8	2*(10+6);2*(12+7);2*(15+9);2*(20+14)	Rectangular corner notch removes two outside segments and adds equal lengths inside; perimeter unchanged. Notches strictly smaller than outer dimensions.
+11/11.1/9	54/(2*(2+1))*2;48/(2*(3+1))*3;42/(2*(2+1));72/(2*(5+1))*5	Derive width from perimeter and aspect ratio, then return requested width/length.
+11/11.1/10	2*3-(-7);2*10-2;2*(-1)-(-9);2*6-20	Unknown endpoint is twice midpoint minus known endpoint.
+11/11.2/1/3	12*6	Rectangle area.
+11/11.2/1/4	4*11	Rectangle tile area.
+11/11.2/2/3	sqrt(49)	Positive square side from area.
+11/11.2/2/4	11**2	Square napkin area.
+11/11.2/3/3	10*9/2	Perpendicular legs serve as base and height.
+11/11.2/3/4	16*5/2	Right triangle area is half leg product.
+11/11.2/4/3	48/8	Parallelogram height equals area divided by base.
+11/11.2/4/4	15*6	Parallelogram area base times perpendicular height.
+11/11.2/5/3	14*11/2	Triangle area half base times height.
+11/11.2/5/4	2*30/5	Invert triangle area formula for base.
+11/11.2/6/4	2*60/(6+14)	Trapezoid height from twice area divided by sum of parallel bases.
+11/11.2/7	8*5+4*3;9*6+5*4;12*5+7*3;11*8-4*5	Nonoverlapping joined rectangles add areas; final notch subtracts removed rectangle.
+11/11.2/8	(20/4)**2;(16/4)**2;1*(24/2-1);(28/4)**2	For fixed side sum S, area w(S-w) maximized at equal sides; whole sides allow these squares. Minimum over positive integer sides at1 and S-1, used in round3.
+11/11.2/9	2*sqrt(2**2+4*48);2*sqrt(2**2+4*63);2*sqrt(3**2+4*40);2*(sqrt(72/2)+2*sqrt(72/2))	For length-width=d and areaA, (length+width)^2=d^2+4A; take positive square root. Final ratio2:1 gives width6, length12.
+11/11.2/10	(10+2*2)**2-10**2;(8+2*3)**2-8**2;(12+2*2)*(9+2*2)-12*9;16**2-10**2	Frame adds twice width to each dimension; subtract inner area from outer. Final directly subtract rug from floor.
+11/11.3/1/3	22/2	Radius is half diameter.
+11/11.3/1/4	2*30	Centre-to-edge distance is radius; full width is diameter.
+11/11.3/2/4	2*pi*6	Circumference equals2*pi*r.
+11/11.3/3/4	pi*10**2	Circle area equals pi*r squared.
+11/11.3/4/3	pi*24	Circumference equals pi*diameter.
+11/11.3/4/4	30*pi/pi	Diameter equals circumference divided by pi.
+11/11.3/5/4	pi*(18/2)**2	Convert diameter to radius before squaring.
+11/11.3/6/4	34*pi/(2*pi)	Radius from circumference.
+11/11.3/7/3	pi*(20/2)**2/2	Semicircle area is half full circle, with radius half diameter.
+11/11.3/7/4	pi*14**2/2	Half circle area.
+11/11.3/8/3	pi*(14/2)+14	Semicircle perimeter includes curved half-circumference and straight diameter.
+11/11.3/8/4	pi*30+2*30	Entire half-circle boundary includes straight fence diameter.
+11/11.3/9/4	2*sqrt(81*pi/pi)	Diameter twice radius derived from area.
+11/11.3/10	P(1,6**2/(2*3**2));9**2/3**2;P(2,3**2);12**2/6**2	Area scales with radius squared; first compares one large to two small, third verbal multiplier9 and all alternative multipliers inspected.
+11/challenge/1/2	(84/2-18)*18	Recover other side from perimeter then multiply for area.
+11/challenge/1/3	(72/2-25)*25	Recover width then area.
+11/challenge/1/4	2*(18+216/18)	Recover width from area then perimeter.
+11/challenge/2	(-12+18)/2;(-20+14)/2;(-7+25)/2;2*4-(-5)	First three ask midpoint average; final asks missing endpoint.
+11/challenge/3/3	2*60/15	Triangle height from twice area over base.
+11/challenge/3/4	2*108/12	Triangle base from twice area over height.
+11/challenge/4/4	(5+11)*12/2	Trapezoid area equals average bases times perpendicular separation.
+11/challenge/5/3	(52/4)**2	Square side from perimeter, then square it.
+11/challenge/5/4	4*sqrt(100)	Ribbon covers four sides of square.
+11/challenge/6	pi*(20/2)**2;pi*(14/2)**2;pi*(18/2)**2;pi*(26/2)**2	Exact circle areas from half specified diameter.
+11/challenge/7	12*9-4*3;15*10-6*4;9*4+6*5;20*12-5*5	Subtract rectangular corner in rounds1,2,4; add nonoverlapping rectangles in round3.
+11/challenge/8	pi*(12/2)**2/2;pi*(20/2)**2/2;pi*(8/2)**2/2;pi*(14/2)**2/2	Semicircle area from diameter:pi*d squared/8.
+11/challenge/9	2*(4+9)-2*(6+6);2*(3+16)-2*(6+8);10*10-4*16;2*(2+30)-2*(5+12)	Compute both perimeter or area values and subtract in requested order; shared-area/perimeter premises independently checked.
+11/challenge/10	2*pi*5;pi*26;3*2*pi*12;30*pi/(2*pi)	Rolling without slipping covers circumference per turn; third three turns, fourth invert for radius.
+11/challenge/11	3*(64/(2*(3+1)))**2;4*(70/(2*(4+1)))**2;2*(48/(2*(2+1)))**2;2*(1+2)*sqrt(98/2)	Aspect ratio and perimeter determine width then area; final area and ratio determine width then perimeter.
+11/challenge/12/3	pi*(30*pi/(2*pi))**2	Circumference determines radius15 then circle area.
+11/worksheet/2/3	2*(23+14)	Fence is rectangle perimeter.
+11/worksheet/2/4	58/2-11	Unknown side from half perimeter.
+11/worksheet/3/3	7*10/2	Triangle area.
+11/worksheet/4/3	pi*22	Circumference from diameter.
+11/worksheet/4/4	2*pi*7	Padding length is full circumference.
+11/worksheet/6/4	2*7-(-1)	Unknown endpoint twice midpoint minus known endpoint.
+11/worksheet/7	V(14*8-5*3,2*(14+8));V(16*9-6*4,2*(16+9));V(12*7-4*2,2*(12+7));V(20*11-7*5,2*(20+11))	Corner notch subtracts area while preserving perimeter; verify both answer components and all corner sizes strictly fit outer rectangles.
+11/worksheet/8/4	2*72/8-5	Invert trapezoid area formula for missing parallel side.
+11/worksheet/9/3	pi*(18/2)+18	Entire semicircle boundary is half circumference plus diameter.
+11/worksheet/9/4	pi*12+2*12	Trim includes straight diameter as well as curved boundary.
+11/worksheet/10	2;2*5;2*3;4	Nondegenerate circle pi*r^2=k*2*pi*r gives r=2k; square s^2=4s gives positive s4. Zero excluded by genuine geometric object.

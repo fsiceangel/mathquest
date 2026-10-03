@@ -512,7 +512,7 @@ const s88 = [
       choices: ['$100\\sqrt{3}$', '$50\\sqrt{3}$', '$100$', '$25\\sqrt{3}$'],
       answer: 1,
       solution:
-        'The angles are $120^\\circ$ and $60^\\circ$. The height on a $10$ base is $10 \\sin 60^\\circ = 5\\sqrt{3}$, so Area $=$ base $\\times$ height $= 10 \\times 5\\sqrt{3} = 50\\sqrt{3}$ square centimeters ✓. Check a second, independent way with a cut: the short diagonal joins the two $120^\\circ$ corners and, with two sides, closes an equilateral triangle at each $60^\\circ$ corner — two equilateral triangles of side $10$, each of area $\\frac{\\sqrt{3}}{4} \\times 100 = 25\\sqrt{3}$, totaling $50\\sqrt{3}$ again ✓. (The choice $100\\sqrt{3}$ is FORGETTING THE HALF in the diagonal product $10 \\times 10\\sqrt{3}$ ✗; $100$ is IGNORING THE TILT, squaring the side as if the rhombus were a square ✗; $25\\sqrt{3}$ is HALVING LIKE A TRIANGLE, keeping only one of the two equilateral halves ✗.)',
+        'The angles are $120^\\circ$ and $60^\\circ$. The height on a $10$ base is $\\frac{10\\sqrt{3}}{2} = 5\\sqrt{3}$, so Area $=$ base $\\times$ height $= 10 \\times 5\\sqrt{3} = 50\\sqrt{3}$ square centimeters ✓. Check a second, independent way with a cut: the short diagonal joins the two $120^\\circ$ corners and, with two sides, closes an equilateral triangle at each $60^\\circ$ corner — two equilateral triangles of side $10$, each of area $\\frac{\\sqrt{3}}{4} \\times 100 = 25\\sqrt{3}$, totaling $50\\sqrt{3}$ again ✓. (The choice $100\\sqrt{3}$ is FORGETTING THE HALF in the diagonal product $10 \\times 10\\sqrt{3}$ ✗; $100$ is IGNORING THE TILT, squaring the side as if the rhombus were a square ✗; $25\\sqrt{3}$ is HALVING LIKE A TRIANGLE, keeping only one of the two equilateral halves ✗.)',
     },
     {
       q: 'A charm on a bracelet is a small rhombus with sides of $6$ mm and a largest angle of $120^\\circ$. Find the area of the charm.',
@@ -531,7 +531,7 @@ const s88 = [
       choices: ['$36\\sqrt{3}$', '$36$', '$18\\sqrt{3}$', '$9\\sqrt{3}$'],
       answer: 2,
       solution:
-        'With angles of $120^\\circ$ and $60^\\circ$, the height on a $6$ base is $6 \\sin 60^\\circ = 3\\sqrt{3}$, so Area $= 6 \\times 3\\sqrt{3} = 18\\sqrt{3}$ square millimeters ✓. Check a second, independent way by cutting along the short diagonal, which connects the two $120^\\circ$ corners: it produces two equilateral triangles of side $6$, each of area $\\frac{\\sqrt{3}}{4} \\times 36 = 9\\sqrt{3}$, and $2 \\times 9\\sqrt{3} = 18\\sqrt{3}$ again ✓. (The choice $36\\sqrt{3}$ is FORGETTING THE HALF in $\\frac{d_1 d_2}{2}$, multiplying $6 \\times 6\\sqrt{3}$ ✗; $36$ is IGNORING THE TILT and squaring the side ✗; $9\\sqrt{3}$ is HALVING LIKE A TRIANGLE, one equilateral piece instead of two ✗.)',
+        'With angles of $120^\\circ$ and $60^\\circ$, the height on a $6$ base is $\\frac{6\\sqrt{3}}{2} = 3\\sqrt{3}$, so Area $= 6 \\times 3\\sqrt{3} = 18\\sqrt{3}$ square millimeters ✓. Check a second, independent way by cutting along the short diagonal, which connects the two $120^\\circ$ corners: it produces two equilateral triangles of side $6$, each of area $\\frac{\\sqrt{3}}{4} \\times 36 = 9\\sqrt{3}$, and $2 \\times 9\\sqrt{3} = 18\\sqrt{3}$ again ✓. (The choice $36\\sqrt{3}$ is FORGETTING THE HALF in $\\frac{d_1 d_2}{2}$, multiplying $6 \\times 6\\sqrt{3}$ ✗; $36$ is IGNORING THE TILT and squaring the side ✗; $9\\sqrt{3}$ is HALVING LIKE A TRIANGLE, one equilateral piece instead of two ✗.)',
     },
     {
       q: 'A decorative garden paver is a rhombus with $14$ in sides, and its obtuse angles each measure $120^\\circ$. How many square inches does one paver cover?',
@@ -550,7 +550,7 @@ const s88 = [
       choices: ['$98\\sqrt{3}$', '$196\\sqrt{3}$', '$196$', '$49\\sqrt{3}$'],
       answer: 0,
       solution:
-        'The height on a $14$ base is $14 \\sin 60^\\circ = 7\\sqrt{3}$, so Area $= 14 \\times 7\\sqrt{3} = 98\\sqrt{3}$ square inches ✓. Check a second, independent way with the short diagonal: it joins the two $120^\\circ$ corners and splits the paver into two equilateral triangles of side $14$, each of area $\\frac{\\sqrt{3}}{4} \\times 196 = 49\\sqrt{3}$, so the paver covers $2 \\times 49\\sqrt{3} = 98\\sqrt{3}$ again ✓. (The choice $196\\sqrt{3}$ is FORGETTING THE HALF in the diagonal product $14 \\times 14\\sqrt{3}$ ✗; $196$ is IGNORING THE TILT — a tilted square loses area ✗; $49\\sqrt{3}$ is HALVING LIKE A TRIANGLE, stopping at one equilateral half ✗.)',
+        'The height on a $14$ base is $\\frac{14\\sqrt{3}}{2} = 7\\sqrt{3}$, so Area $= 14 \\times 7\\sqrt{3} = 98\\sqrt{3}$ square inches ✓. Check a second, independent way with the short diagonal: it joins the two $120^\\circ$ corners and splits the paver into two equilateral triangles of side $14$, each of area $\\frac{\\sqrt{3}}{4} \\times 196 = 49\\sqrt{3}$, so the paver covers $2 \\times 49\\sqrt{3} = 98\\sqrt{3}$ again ✓. (The choice $196\\sqrt{3}$ is FORGETTING THE HALF in the diagonal product $14 \\times 14\\sqrt{3}$ ✗; $196$ is IGNORING THE TILT — a tilted square loses area ✗; $49\\sqrt{3}$ is HALVING LIKE A TRIANGLE, stopping at one equilateral half ✗.)',
     },
   ],
   // s10 — isosceles trapezoid: midsegment, leg, and height to the longer base.

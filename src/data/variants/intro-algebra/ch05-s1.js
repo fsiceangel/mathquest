@@ -565,7 +565,7 @@ const s53 = [
         'Both equations contain exactly $5x$, so subtracting removes it: $(5x + 2y) - (5x - 3y) = 26 - 11$ gives $5y = 15$, so $y = 3$ and then $5x = 20$, $x = 4$. Check BOTH: $5(4) + 2(3) = 26$ ✓ and $5(4) - 3(3) = 11$ ✓. Adding would give $10x - y = 37$, with both variables still alive. Scaling first only makes the $x$ terms mismatch.',
     },
     {
-      q: 'Which single move eliminates $y$ from the system $4x + 3y = 26$ and $x + y = 8$?',
+      q: 'Which procedure eliminates $y$ from the system $4x + 3y = 26$ and $x + y = 8$?',
       choices: [
         'Add the two equations as they are',
         'Subtract the second equation from the first',
@@ -577,7 +577,7 @@ const s53 = [
         'The $y$ terms are $3y$ and $y$, which do not match yet. Tripling the second equation gives $3x + 3y = 24$; subtracting that from the first leaves $x = 2$, and then $y = 6$. Check BOTH: $4(2) + 3(6) = 8 + 18 = 26$ ✓ and $2 + 6 = 8$ ✓. Subtracting as they are leaves $3x + 2y = 18$. Tripling the FIRST equation makes the $y$ terms $9y$ and $y$ — further apart than before.',
     },
     {
-      q: 'Which single move eliminates $x$ from the system $2x + 7y = 28$ and $x - 3y = 1$?',
+      q: 'Which procedure eliminates $x$ from the system $2x + 7y = 28$ and $x - 3y = 1$?',
       choices: [
         'Add the two equations',
         'Subtract the second equation from the first',

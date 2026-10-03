@@ -262,7 +262,7 @@ const s72 = [
         'Total parts: $1 + 3 + 7 = 11$. Even though the smallest share is a single part, that part still has to be counted. Answering $3$ counts the shares, $7$ names only the biggest share, and $21$ multiplies $1 \\times 3 \\times 7$ instead of adding.',
     },
     {
-      q: 'Three friends share a pizza in the ratio $2:2:5$. Into how many equal slices must the pizza be cut?',
+      q: 'Three friends share a pizza in the ratio $2:2:5$, and each friend must receive a whole number of equal slices. What is the smallest number of slices the pizza can be cut into?',
       choices: ['$3$', '$5$', '$9$', '$20$'],
       answer: 2,
       solution:
@@ -478,7 +478,7 @@ const s72 = [
         'Read which two shares are being compared: largest minus MIDDLE is $9 - 4 = 5$ parts, and that gap is $\\$45$, so one part is $\\$45 \\div 5 = \\$9$. The total is $3 + 4 + 9 = 16$ parts: $16 \\times \\$9 = \\$144$. Check: $\\$27$, $\\$36$, $\\$81$, and $\\$81 - \\$36 = \\$45$. ✓ Using the largest-minus-smallest gap of $6$ parts instead would give $\\$120$; $\\$81$ is just the biggest scholarship and $\\$9$ is one part.',
     },
     {
-      q: 'Three fields have areas in the ratio $1:4:6$ hectares. The middle field is $18$ hectares larger than the smallest. What is the total area of the three fields?',
+      q: 'Three fields have areas in the ratio $1:4:6$. The middle field is $18$ hectares larger than the smallest. What is the total area of the three fields?',
       choices: ['$24$ hectares', '$99$ hectares', '$66$ hectares', '$6$ hectares'],
       answer: 2,
       solution:

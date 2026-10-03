@@ -27,15 +27,26 @@ export function getResult(id) {
   return load().results?.[id] ?? null
 }
 
-export function saveResult(id, correct, total) {
+export function saveResult(id, correct, total, { attemptId, advanceRound = false } = {}) {
   const data = load()
   data.results ??= {}
+  // Results may remount after navigation, refresh, or React StrictMode. A
+  // completed draft records its score and advances its version exactly once.
+  if (attemptId && data.completedAttempts?.[id] === attemptId) return data.results[id] ?? null
   const pct = Math.round((correct / total) * 100)
   const prev = data.results[id]
   if (!prev || pct >= prev.pct) data.results[id] = { correct, total, pct, at: Date.now() }
   data.attempts ??= []
   data.attempts.push({ itemId: id, correct, total, pct, at: Date.now() })
   if (data.attempts.length > ATTEMPT_QUEUE_CAP) data.attempts.splice(0, data.attempts.length - ATTEMPT_QUEUE_CAP)
+  if (attemptId) {
+    data.completedAttempts ??= {}
+    data.completedAttempts[id] = attemptId
+  }
+  if (advanceRound) {
+    data.rounds ??= {}
+    data.rounds[id] = (data.rounds[id] ?? 0) + 1
+  }
   persist(data)
   progressChanged()
   return data.results[id]

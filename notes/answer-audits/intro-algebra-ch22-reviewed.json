@@ -1,0 +1,1650 @@
+[
+  {
+    "id": "intro-algebra/22/22.1/3/1",
+    "sourceDigest": "4c5e871445495d627e43da162318d655561a1c8e2494f979c2efbc4fca7bc6a8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-1)",
+      "reason": "Substitute both candidates into original radicals: negative candidate fails nonnegative RHS in rounds1,2; only3 works in round3; sqrt4=2 andsqrt9=3 both work in round4, so neither extraneous."
+    },
+    "computed": "(position, 1, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.1/3/2",
+    "sourceDigest": "65097165f2dae2410ab0f07c1073bcebbdc0697425445528360e9bf5266aaa24",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,-7)",
+      "reason": "Substitute both candidates into original radicals: negative candidate fails nonnegative RHS in rounds1,2; only3 works in round3; sqrt4=2 andsqrt9=3 both work in round4, so neither extraneous."
+    },
+    "computed": "(position, 0, -7)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.1/3/3",
+    "sourceDigest": "2656cc8f10cafa49b620af15bd606007d6a949b424fb9611469bc49154b55ac2",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,3)",
+      "reason": "Substitute both candidates into original radicals: negative candidate fails nonnegative RHS in rounds1,2; only3 works in round3; sqrt4=2 andsqrt9=3 both work in round4, so neither extraneous."
+    },
+    "computed": "(position, 2, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.1/3/4",
+    "sourceDigest": "585052184b2c3f561645fa7cf6f65703c72142944d35544fbfeed34baae14264",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,FiniteSet(2,3))",
+      "reason": "Substitute both candidates into original radicals: negative candidate fails nonnegative RHS in rounds1,2; only3 works in round3; sqrt4=2 andsqrt9=3 both work in round4, so neither extraneous."
+    },
+    "computed": "(position, 3, {2, 3})",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/1/1",
+    "sourceDigest": "b5b5682cf08a705880912f5db39065243ca42782ea84e65f8dc3bdea108f1ded",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*12))/2",
+      "reason": "Finite positive nested radicals start at0 and iterate t->sqrt(c+t), increasing and bounded by positive rootL ofL^2=c+L; monotone convergence and continuity give that root, excluding negative solution."
+    },
+    "computed": "4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/1/2",
+    "sourceDigest": "588409a94617503f11782146220f705cc4d979ca017e7c7045f27eabc06bc1b7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*56))/2",
+      "reason": "Finite positive nested radicals start at0 and iterate t->sqrt(c+t), increasing and bounded by positive rootL ofL^2=c+L; monotone convergence and continuity give that root, excluding negative solution."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/1/3",
+    "sourceDigest": "766d1fdfe8876302175ad449c9f55282ce940e33449701cc164bfe87335e543a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*72))/2",
+      "reason": "Finite positive nested radicals start at0 and iterate t->sqrt(c+t), increasing and bounded by positive rootL ofL^2=c+L; monotone convergence and continuity give that root, excluding negative solution."
+    },
+    "computed": "9",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/1/4",
+    "sourceDigest": "822f08e08497e6bbc2df870aaf7cef431e71e273824491b2b3b797d53f380dc7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*90))/2",
+      "reason": "Finite positive nested radicals start at0 and iterate t->sqrt(c+t), increasing and bounded by positive rootL ofL^2=c+L; monotone convergence and continuity give that root, excluding negative solution."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/2/1",
+    "sourceDigest": "2d9faad5964c7fb55af41299e63f180b3ffa89eea1e8a60cfa82afefe0113fb3",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*20))/2",
+      "reason": "Same monotone bounded square-root recurrence, selecting unique positive fixed point."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/2/2",
+    "sourceDigest": "a3358d6c44a0b1ab4b1ca7ef32d926adbf3f7242ca05dafe03ea0bc59e25fef4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*110))/2",
+      "reason": "Same monotone bounded square-root recurrence, selecting unique positive fixed point."
+    },
+    "computed": "11",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/2/3",
+    "sourceDigest": "acbc25d73f13599377e4c235c1c49b80726b36eeee49a5e7e89a85fec63a4c86",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*132))/2",
+      "reason": "Same monotone bounded square-root recurrence, selecting unique positive fixed point."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/2/4",
+    "sourceDigest": "d8821891bc604f8740abceb14403db99622bcbce22cc32f238c0df95b7c2f8d6",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*156))/2",
+      "reason": "Same monotone bounded square-root recurrence, selecting unique positive fixed point."
+    },
+    "computed": "13",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/3/1",
+    "sourceDigest": "aca107d2fd34558a346a8b93b0676df3f936d5af5a14a991be698cf2213274bc",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,30)",
+      "reason": "Tail equals entire convergent expression, hence x=sqrt(c+x), so x^2=c+x; other equations use wrong operator/sign. Positive-radical convergence follows monotone bounded iteration."
+    },
+    "computed": "(position, 0, 30)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/3/2",
+    "sourceDigest": "67e79f09e3874c70ca7e18e1f90997b2752b89f16198de6c855489e172a4a016",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,14)",
+      "reason": "Tail equals entire convergent expression, hence x=sqrt(c+x), so x^2=c+x; other equations use wrong operator/sign. Positive-radical convergence follows monotone bounded iteration."
+    },
+    "computed": "(position, 1, 14)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/3/3",
+    "sourceDigest": "0c62df7b4f9f18fb0968e9017b49101fba88a476c02c61f6e90fe42936b26a13",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,24)",
+      "reason": "Tail equals entire convergent expression, hence x=sqrt(c+x), so x^2=c+x; other equations use wrong operator/sign. Positive-radical convergence follows monotone bounded iteration."
+    },
+    "computed": "(position, 2, 24)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/3/4",
+    "sourceDigest": "6cc4af373d01cf75eb454ff335fafde325dd52cc0377ab0f9a5589935566fb86",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,40)",
+      "reason": "Tail equals entire convergent expression, hence x=sqrt(c+x), so x^2=c+x; other equations use wrong operator/sign. Positive-radical convergence follows monotone bounded iteration."
+    },
+    "computed": "(position, 3, 40)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/4/1",
+    "sourceDigest": "e7cfc3e309b5f94a42d7dbe11b3286d4c4bcb134d37878eb8519de337c945ddf",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1**2+4))/2",
+      "reason": "For a+1/t iteration positive truncations remain in[a,a+1/a]. Two-step map derivative1/(a*t+1)^2<1 there, proving convergence; limit solves t^2-a*t-1=0 and positive root is unique."
+    },
+    "computed": "1/2 + sqrt(5)/2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/4/2",
+    "sourceDigest": "7877d8b7b527be0aa202f5b51d0cfd9e34b994f88d151380c8cbdda5235f0e2f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(6+sqrt(6**2+4))/2",
+      "reason": "For a+1/t iteration positive truncations remain in[a,a+1/a]. Two-step map derivative1/(a*t+1)^2<1 there, proving convergence; limit solves t^2-a*t-1=0 and positive root is unique."
+    },
+    "computed": "3 + sqrt(10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/4/3",
+    "sourceDigest": "e56573d4ef89c234e5f95ab520263763aeb413b36246b737131e4f26b814b7b0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(7+sqrt(7**2+4))/2",
+      "reason": "For a+1/t iteration positive truncations remain in[a,a+1/a]. Two-step map derivative1/(a*t+1)^2<1 there, proving convergence; limit solves t^2-a*t-1=0 and positive root is unique."
+    },
+    "computed": "7/2 + sqrt(53)/2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/4/4",
+    "sourceDigest": "1a473b47137faac72b18bfffbc8cc3b564d358d2ed53010035e911e18c7e2978",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(8+sqrt(8**2+4))/2",
+      "reason": "For a+1/t iteration positive truncations remain in[a,a+1/a]. Two-step map derivative1/(a*t+1)^2<1 there, proving convergence; limit solves t^2-a*t-1=0 and positive root is unique."
+    },
+    "computed": "4 + sqrt(17)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/5/1",
+    "sourceDigest": "06c2a670015007011fea3f66a4119efaa292ed72341792bb6e5d74cd89e4d2fa",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*2))/2",
+      "reason": "Base square radical converges monotonically to2. Cube recurrences t->(c+t)^(1/3) start0 and increase bounded by3,4,5 since c24,60,120=L^3-L; factorizations leave positive quadratic factors, proving unique nonnegative fixed points."
+    },
+    "computed": "2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/5/2",
+    "sourceDigest": "bd7277c2d3471c375a282bb8fddcccd571741d2d904ddee2afc0d06eb7a50f00",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3",
+      "reason": "Base square radical converges monotonically to2. Cube recurrences t->(c+t)^(1/3) start0 and increase bounded by3,4,5 since c24,60,120=L^3-L; factorizations leave positive quadratic factors, proving unique nonnegative fixed points."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/5/3",
+    "sourceDigest": "57306486c2921283d39cd56f703bcdf4d4d6106410d21cf3c8f127ed53792502",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4",
+      "reason": "Base square radical converges monotonically to2. Cube recurrences t->(c+t)^(1/3) start0 and increase bounded by3,4,5 since c24,60,120=L^3-L; factorizations leave positive quadratic factors, proving unique nonnegative fixed points."
+    },
+    "computed": "4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/5/4",
+    "sourceDigest": "000c93632d55912fc24042cafed655d6fe813263976bad32b8f5dcedbaac414c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5",
+      "reason": "Base square radical converges monotonically to2. Cube recurrences t->(c+t)^(1/3) start0 and increase bounded by3,4,5 since c24,60,120=L^3-L; factorizations leave positive quadratic factors, proving unique nonnegative fixed points."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/6/1",
+    "sourceDigest": "7ab90bc19b61e6c78d67059fce06d948a062bf8a51186ba42b6034ee169ad20c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(-1+sqrt(1+4*6))/2",
+      "reason": "Minus radical recurrence maps[0,sqrt(c)] to itself for c>=6; derivative magnitude bounded by1/(2sqrt(c-sqrt(c)))<1, so converges to unique nonnegative solutionL^2+L-c=0."
+    },
+    "computed": "2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/6/2",
+    "sourceDigest": "7238526d7dae5efa97c4a7ec335317b424e3419e19782ea67985e73c72fda57c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(-1+sqrt(1+4*42))/2",
+      "reason": "Minus radical recurrence maps[0,sqrt(c)] to itself for c>=6; derivative magnitude bounded by1/(2sqrt(c-sqrt(c)))<1, so converges to unique nonnegative solutionL^2+L-c=0."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/6/3",
+    "sourceDigest": "ee151696dcd5038378621cf536f23ff8d049e2cd4f797e8966e96cc59bf975f9",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(-1+sqrt(1+4*56))/2",
+      "reason": "Minus radical recurrence maps[0,sqrt(c)] to itself for c>=6; derivative magnitude bounded by1/(2sqrt(c-sqrt(c)))<1, so converges to unique nonnegative solutionL^2+L-c=0."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/6/4",
+    "sourceDigest": "55c329572940e2981783e99330f064915b4b206abbb58c9f865c62d6f2036151",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(-1+sqrt(1+4*72))/2",
+      "reason": "Minus radical recurrence maps[0,sqrt(c)] to itself for c>=6; derivative magnitude bounded by1/(2sqrt(c-sqrt(c)))<1, so converges to unique nonnegative solutionL^2+L-c=0."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/7/1",
+    "sourceDigest": "eb961a180dbaf2e61d4cdaad0b743a94e9881ba3dc533ab2301455f2e92c33e7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(3+sqrt(3**2+4))/2",
+      "reason": "Positive continued fraction fixed point solves t=a+1/t. Positive truncations converge by two-step contraction on[a,a+1/a]; select positive quadratic root."
+    },
+    "computed": "3/2 + sqrt(13)/2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/7/2",
+    "sourceDigest": "049092123094b4230ef07758220eec3951ea2d28c3abdf80fbb885aeda4350fa",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(9+sqrt(9**2+4))/2",
+      "reason": "Positive continued fraction fixed point solves t=a+1/t. Positive truncations converge by two-step contraction on[a,a+1/a]; select positive quadratic root."
+    },
+    "computed": "9/2 + sqrt(85)/2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/7/3",
+    "sourceDigest": "f6e04c74edff96a2ce8facb2ef2ddb2ff90bf3712109704362176ccf5dd7f9f4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(10+sqrt(10**2+4))/2",
+      "reason": "Positive continued fraction fixed point solves t=a+1/t. Positive truncations converge by two-step contraction on[a,a+1/a]; select positive quadratic root."
+    },
+    "computed": "5 + sqrt(26)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/7/4",
+    "sourceDigest": "97e0b4f2b3aa5190d85677ed371812f4b99353cfe247fa4a82751dfd1daaf47f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(11+sqrt(11**2+4))/2",
+      "reason": "Positive continued fraction fixed point solves t=a+1/t. Positive truncations converge by two-step contraction on[a,a+1/a]; select positive quadratic root."
+    },
+    "computed": "11/2 + 5*sqrt(5)/2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/8/1",
+    "sourceDigest": "3911f66a95a0b9051617801588e3c849fc84eb6c6fd953bc3dd9974f2e42b369",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6**2-6",
+      "reason": "For required positive limitL, k=L^2-L; all resulting k positive and radical truncations converge monotonically toL."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/8/2",
+    "sourceDigest": "1ee9100a8c3f8c8f245b3c34a6ae24d9b21821f5004b29440b6e6bb46e59727b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "14**2-14",
+      "reason": "For required positive limitL, k=L^2-L; all resulting k positive and radical truncations converge monotonically toL."
+    },
+    "computed": "182",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/8/3",
+    "sourceDigest": "8828d865b3984d3b2349ac1e3482c4d87f17c492937e346c4c91c7b158fea83e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "15**2-15",
+      "reason": "For required positive limitL, k=L^2-L; all resulting k positive and radical truncations converge monotonically toL."
+    },
+    "computed": "210",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/8/4",
+    "sourceDigest": "935f05eaf7b588e9530561c2539e3e6803384725a35128275ed4b7089c0f6bb4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "16**2-16",
+      "reason": "For required positive limitL, k=L^2-L; all resulting k positive and radical truncations converge monotonically toL."
+    },
+    "computed": "240",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/9/1",
+    "sourceDigest": "864f5663ed773e22c05bf33a1398db394c56573e8799dfb9cff2f813a8c53e9c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "12",
+      "reason": "Finite multiplicative radical with n layers equals c^(1-2^-n), from exponent geometric sum. Limit c for all listed c>1; zero fixed point ofL^2=cL is not limit of these positive truncations."
+    },
+    "computed": "12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/9/2",
+    "sourceDigest": "2bffa24a120eb1c019243a4d7a2916f57a6bd1223964d231326df1fd6b4cf890",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "18",
+      "reason": "Finite multiplicative radical with n layers equals c^(1-2^-n), from exponent geometric sum. Limit c for all listed c>1; zero fixed point ofL^2=cL is not limit of these positive truncations."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/9/3",
+    "sourceDigest": "693c594d6c5ef6ecb23481005d7d56da39912e4fb94375db8a6c086547daa1a5",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "25",
+      "reason": "Finite multiplicative radical with n layers equals c^(1-2^-n), from exponent geometric sum. Limit c for all listed c>1; zero fixed point ofL^2=cL is not limit of these positive truncations."
+    },
+    "computed": "25",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/9/4",
+    "sourceDigest": "e686287d28d12f822d1841f6afb936b10fa240c5cf27790c8de5000684b5d743",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "40",
+      "reason": "Finite multiplicative radical with n layers equals c^(1-2^-n), from exponent geometric sum. Limit c for all listed c>1; zero fixed point ofL^2=cL is not limit of these positive truncations."
+    },
+    "computed": "40",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/10/1",
+    "sourceDigest": "b56b31f3a1a6cbc0187fac05e7ca9c20718afd02858121f442e41ade2e21efbb",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(-2+sqrt(2**2+4))/2",
+      "reason": "Whole fraction t=1/(a+t), so t^2+a*t-1=0; iteration on[0,1/a] is a contraction for a>=2, selecting positive root."
+    },
+    "computed": "-1 + sqrt(2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/10/2",
+    "sourceDigest": "539f00cc9d704d20bfba4357d8c4a80abc430e300ff97f85b57203afc9c38d2f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(-4+sqrt(4**2+4))/2",
+      "reason": "Whole fraction t=1/(a+t), so t^2+a*t-1=0; iteration on[0,1/a] is a contraction for a>=2, selecting positive root."
+    },
+    "computed": "-2 + sqrt(5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/10/3",
+    "sourceDigest": "b616d65a6af042279b153f05b2c4369366e2995140f4e774005115d49f25d658",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(-5+sqrt(5**2+4))/2",
+      "reason": "Whole fraction t=1/(a+t), so t^2+a*t-1=0; iteration on[0,1/a] is a contraction for a>=2, selecting positive root."
+    },
+    "computed": "-5/2 + sqrt(29)/2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.2/10/4",
+    "sourceDigest": "565a49e0768d5b6f72d2f55020cef9329b2fd275c1c74c6de6dfa0b45892e076",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(-6+sqrt(6**2+4))/2",
+      "reason": "Whole fraction t=1/(a+t), so t^2+a*t-1=0; iteration on[0,1/a] is a contraction for a>=2, selecting positive root."
+    },
+    "computed": "-3 + sqrt(10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/2/1",
+    "sourceDigest": "3628aba7d1fd0f408af3ca0e9105ef39e257ffd537d58834fdd8dd9781e858ff",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "V(2,6)",
+      "reason": "Solve t^2-S*t+P=0: roots2,6;4,9;6,10;7,12. Every candidate pair independently checked for both sum and product."
+    },
+    "computed": "(values, 2, 6)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/2/2",
+    "sourceDigest": "e227876f66fd14dfe089858b7fb3d7a34e92ad5ca61c194526d1e3303883b5c8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "V(4,9)",
+      "reason": "Solve t^2-S*t+P=0: roots2,6;4,9;6,10;7,12. Every candidate pair independently checked for both sum and product."
+    },
+    "computed": "(values, 4, 9)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/2/3",
+    "sourceDigest": "d76cd35a5951480e46d8e0aeb80e052792395d3787665ffbc3593fd741726b1f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "V(6,10)",
+      "reason": "Solve t^2-S*t+P=0: roots2,6;4,9;6,10;7,12. Every candidate pair independently checked for both sum and product."
+    },
+    "computed": "(values, 6, 10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/2/4",
+    "sourceDigest": "bb755c2fc9e773f25720490bb91bab8ac54df692fc7016aef76bbee5b7a5e51f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "V(7,12)",
+      "reason": "Solve t^2-S*t+P=0: roots2,6;4,9;6,10;7,12. Every candidate pair independently checked for both sum and product."
+    },
+    "computed": "(values, 7, 12)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/4/1",
+    "sourceDigest": "72f8d75f37c7c41bcf2d56446c4690a14dbc9d4967a36c2809ed6e6d87b08311",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,x)",
+      "reason": "Nonsymmetric options x-y,x^2-y^2,x/y,2x+y change as functions under swap. Other sums/products, reciprocal symmetric sums, squared/absolute differences invariant on symmetric natural domains; counterexample x1,y2 distinguishes every selected option."
+    },
+    "computed": "(position, 3, x)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/4/2",
+    "sourceDigest": "eb2dc258dfb4467618c53c9d2f42becd3d25fed5b233a5e66781b649a816e84f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,x**2)",
+      "reason": "Nonsymmetric options x-y,x^2-y^2,x/y,2x+y change as functions under swap. Other sums/products, reciprocal symmetric sums, squared/absolute differences invariant on symmetric natural domains; counterexample x1,y2 distinguishes every selected option."
+    },
+    "computed": "(position, 0, x**2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/4/3",
+    "sourceDigest": "6712f34c77364b0817b15c1e513b6b313fdd3ad4ace22d662ddd4cf16780e1a4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,x)",
+      "reason": "Nonsymmetric options x-y,x^2-y^2,x/y,2x+y change as functions under swap. Other sums/products, reciprocal symmetric sums, squared/absolute differences invariant on symmetric natural domains; counterexample x1,y2 distinguishes every selected option."
+    },
+    "computed": "(position, 1, x)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/4/4",
+    "sourceDigest": "04e0eb031b7a3d64416df05664c0b0ea15943b21dafd633b768253d2d5e67622",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,2*x)",
+      "reason": "Nonsymmetric options x-y,x^2-y^2,x/y,2x+y change as functions under swap. Other sums/products, reciprocal symmetric sums, squared/absolute differences invariant on symmetric natural domains; counterexample x1,y2 distinguishes every selected option."
+    },
+    "computed": "(position, 2, 2*x)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/5/1",
+    "sourceDigest": "13414094ee3427d7b550c6a1b6c7f6fcf91962784163c7a93480c2925b361c29",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6**2-2*2",
+      "reason": "Vieta S=-b/a,P=c/a; sum of root squares=S^2-2P."
+    },
+    "computed": "32",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/5/2",
+    "sourceDigest": "0cc5d7d0dfd407cee44ad27012b0b172688b665255902eb00f3d5f6bec0ebe3e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "16**2-2*5",
+      "reason": "Vieta S=-b/a,P=c/a; sum of root squares=S^2-2P."
+    },
+    "computed": "246",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/5/3",
+    "sourceDigest": "55a5cc26f1fad5cd5ee289e0e891a7dd1ba3927a49b7efebf8f24551bf811682",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "18**2-2*7",
+      "reason": "Vieta S=-b/a,P=c/a; sum of root squares=S^2-2P."
+    },
+    "computed": "310",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/5/4",
+    "sourceDigest": "9b8b498623587cd36a6b5111aeca04170476a98898b2eb241df51fa52f07dde3",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "11**2-2*3",
+      "reason": "Vieta S=-b/a,P=c/a; sum of root squares=S^2-2P."
+    },
+    "computed": "115",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/8/1",
+    "sourceDigest": "3733455cea41627544f4dc759aea6c0fdd80a0b257fc3b2dd47ca2630e28cad3",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4+2*7+2**2",
+      "reason": "Expand(r+k)(s+k)=P+kS+k^2, with k-2 in third round."
+    },
+    "computed": "22",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/8/2",
+    "sourceDigest": "5a949faa02ff0ffa09381d7199a43f613a6d40a269713a3800088bb0a2f57fe6",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5+3*18+3**2",
+      "reason": "Expand(r+k)(s+k)=P+kS+k^2, with k-2 in third round."
+    },
+    "computed": "68",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/8/3",
+    "sourceDigest": "d6466180a80457dae8d508000cb643c1530bbe49024f19fb36e3c2ab68199c1f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6-2*11+(-2)**2",
+      "reason": "Expand(r+k)(s+k)=P+kS+k^2, with k-2 in third round."
+    },
+    "computed": "-12",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/8/4",
+    "sourceDigest": "55765e0ab31c92c1d5fe6f8d657cda79116b0c8a8ec18b37a01220cb287fdf29",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3+1*14+1**2",
+      "reason": "Expand(r+k)(s+k)=P+kS+k^2, with k-2 in third round."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/10/1",
+    "sourceDigest": "ebeddfc2cfe20ef6826ab539507f0a1945511b7add9c34efa88ac577db0c0237",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(3**2-2*1)/1",
+      "reason": "First two ratio sums=(S^2-2P)/P; third inverse-square sum=(S^2-2P)/P^2; fourth(r^3+s^3)/P=(S^3-3PS)/P. Every P nonzero."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/10/2",
+    "sourceDigest": "ba0235a3a3fea79186fcba75e052de45c4e27698ab7e71774e0dfedd4a618c46",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(19**2-2*1)/1",
+      "reason": "First two ratio sums=(S^2-2P)/P; third inverse-square sum=(S^2-2P)/P^2; fourth(r^3+s^3)/P=(S^3-3PS)/P. Every P nonzero."
+    },
+    "computed": "359",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/10/3",
+    "sourceDigest": "c8fe31dfb0fbf3f8db9834d6f6fda4596e9a802e4ed2e7008ea071b6d12d01e0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(20**2-2*2)/2**2",
+      "reason": "First two ratio sums=(S^2-2P)/P; third inverse-square sum=(S^2-2P)/P^2; fourth(r^3+s^3)/P=(S^3-3PS)/P. Every P nonzero."
+    },
+    "computed": "99",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/22.3/10/4",
+    "sourceDigest": "ff87a65a4411142582243bde313a41a50a6b013977aacafc11ef6e28beb02d34",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(17**3-3*17*17)/17",
+      "reason": "First two ratio sums=(S^2-2P)/P; third inverse-square sum=(S^2-2P)/P^2; fourth(r^3+s^3)/P=(S^3-3PS)/P. Every P nonzero."
+    },
+    "computed": "238",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/3/1",
+    "sourceDigest": "287639f43c4c59b1ed08cef7d345d15100a995452ca1e36e41baf811ad10891e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*42))/2",
+      "reason": "Square-root positive truncations increase bounded by unique positive fixed point; no unproved fixed-point selection."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/3/2",
+    "sourceDigest": "e56796a5ffc6c8ad051c1c6b999edeffa3b99c4d74e303a6288bbd538933e6f0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*272))/2",
+      "reason": "Square-root positive truncations increase bounded by unique positive fixed point; no unproved fixed-point selection."
+    },
+    "computed": "17",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/3/3",
+    "sourceDigest": "3d3e86b92d6fb0edd92bdb3a8106b3dbeb2a342227b8ef1aeb117c052986426a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*306))/2",
+      "reason": "Square-root positive truncations increase bounded by unique positive fixed point; no unproved fixed-point selection."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/3/4",
+    "sourceDigest": "db4c52816b5a6f9682e0e166ec015a568862c19639011451e4763662c52ead61",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*342))/2",
+      "reason": "Square-root positive truncations increase bounded by unique positive fixed point; no unproved fixed-point selection."
+    },
+    "computed": "19",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/4/1",
+    "sourceDigest": "4c07f08fd0e3564f312f182a1749b8398199930913dd656a8a5a76a5c303a34a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(4+sqrt(4**2+4))/2",
+      "reason": "Convergent continued fraction t=a+1/t gives positive root of t^2-at-1."
+    },
+    "computed": "2 + sqrt(5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/4/2",
+    "sourceDigest": "ff5d09c534f2ac1b2798ef2dee19808e87fca18f0679d9d90b811612245326fc",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(12+sqrt(12**2+4))/2",
+      "reason": "Convergent continued fraction t=a+1/t gives positive root of t^2-at-1."
+    },
+    "computed": "6 + sqrt(37)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/4/3",
+    "sourceDigest": "231ca14ee65fc85f0301d675fb8d520cbe3f9bcbbaba8d5df81b61432bf5fb82",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(16+sqrt(16**2+4))/2",
+      "reason": "Convergent continued fraction t=a+1/t gives positive root of t^2-at-1."
+    },
+    "computed": "8 + sqrt(65)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/4/4",
+    "sourceDigest": "456415d1c0aa56eefde072c008655d1c348c703d163003b687b143f5a5f6729b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(20+sqrt(20**2+4))/2",
+      "reason": "Convergent continued fraction t=a+1/t gives positive root of t^2-at-1."
+    },
+    "computed": "10 + sqrt(101)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/6/1",
+    "sourceDigest": "82457a372474b77af2c99280bb654c57259d23ee8a140499606149795f80de14",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(8/2)**2-2*(3/2)",
+      "reason": "Use nonmonic Vieta ratios before S^2-2P; do not use raw coefficients as sum/product."
+    },
+    "computed": "13",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/6/2",
+    "sourceDigest": "b36162d0c6329a9ef2872f164af3a636e99b77c6cfba46a70a0bfb8a801f7065",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(15/3)**2-2*(6/3)",
+      "reason": "Use nonmonic Vieta ratios before S^2-2P; do not use raw coefficients as sum/product."
+    },
+    "computed": "21",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/6/3",
+    "sourceDigest": "db9ba1df0467694d678d57a936539c8254f29e3a031ba1b625ac84104840adac",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(20/5)**2-2*(15/5)",
+      "reason": "Use nonmonic Vieta ratios before S^2-2P; do not use raw coefficients as sum/product."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/6/4",
+    "sourceDigest": "81bb16c975829e3e72dc9c42a11ec909e48dc452acb19cb830807bad639f85d2",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(24/4)**2-2*(8/4)",
+      "reason": "Use nonmonic Vieta ratios before S^2-2P; do not use raw coefficients as sum/product."
+    },
+    "computed": "32",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/9/1",
+    "sourceDigest": "8a07955265890e4579fb33aaf891a90aa52cdad55bb602f2e5731d1d38ea69be",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "2**(1/2)",
+      "reason": "Convergent positive tower limitL obeys L=x^L. L2 gives x=sqrt2;L1/2 gives x1/4;L3/2 gives x^3=(3/2)^2. Third recurrence starts sqrt2, increases within[sqrt2,2], hence limit2, never alternate fixed point4; contraction derivative at most ln2<1 on interval."
+    },
+    "computed": "sqrt(2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/9/2",
+    "sourceDigest": "114a3086639a9d4604772998964ca942dcae238a7b00a39673005327612c90c2",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1/2)**2",
+      "reason": "Convergent positive tower limitL obeys L=x^L. L2 gives x=sqrt2;L1/2 gives x1/4;L3/2 gives x^3=(3/2)^2. Third recurrence starts sqrt2, increases within[sqrt2,2], hence limit2, never alternate fixed point4; contraction derivative at most ln2<1 on interval."
+    },
+    "computed": "1/4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/9/3",
+    "sourceDigest": "18cc79634b62dbffb3b8d01c1d9a1c2cb975bac9741ba70572ca1ee349f105e4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,2)",
+      "reason": "Convergent positive tower limitL obeys L=x^L. L2 gives x=sqrt2;L1/2 gives x1/4;L3/2 gives x^3=(3/2)^2. Third recurrence starts sqrt2, increases within[sqrt2,2], hence limit2, never alternate fixed point4; contraction derivative at most ln2<1 on interval."
+    },
+    "computed": "(position, 0, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/9/4",
+    "sourceDigest": "18156050315e3227a321caf0ee6ffa52f3c60b8ae5c2a671bda4704f644121f1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(3/2)**2",
+      "reason": "Convergent positive tower limitL obeys L=x^L. L2 gives x=sqrt2;L1/2 gives x1/4;L3/2 gives x^3=(3/2)^2. Third recurrence starts sqrt2, increases within[sqrt2,2], hence limit2, never alternate fixed point4; contraction derivative at most ln2<1 on interval."
+    },
+    "computed": "9/4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/12/1",
+    "sourceDigest": "4d331b4a9522d3e679ca0963d4d28298ee24260f655f6bb67b5039d33ffbb7dc",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4**3-3*2*4",
+      "reason": "Root cube sum S^3-3PS by expansion and Vieta."
+    },
+    "computed": "40",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/12/2",
+    "sourceDigest": "3c59a6ac04e178256d0c704b9c6e1f9cc5a9a5ce74674aacdbe9d47a643bb94c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "9**3-3*5*9",
+      "reason": "Root cube sum S^3-3PS by expansion and Vieta."
+    },
+    "computed": "594",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/12/3",
+    "sourceDigest": "b9244495af6cab8e5aaed97d132dea6accf03c06e28968d3d8120f1e99548987",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "11**3-3*3*11",
+      "reason": "Root cube sum S^3-3PS by expansion and Vieta."
+    },
+    "computed": "1232",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/challenge/12/4",
+    "sourceDigest": "154be39c2ec2b99a26f537d75ebdda0243e7b3cc9772015c905e30d5f89e6652",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "13**3-3*4*13",
+      "reason": "Root cube sum S^3-3PS by expansion and Vieta."
+    },
+    "computed": "2041",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/2/1",
+    "sourceDigest": "0e5cf97a008e20c8bffa7c434f3a202631eb40cab569452227d50714d7c31d3a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*30))/2",
+      "reason": "Monotone bounded positive radical truncations converge to positive solution ofL^2-L-c=0."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/2/2",
+    "sourceDigest": "8a50f3190ea40bff8d91f30e37b781e4be1cef3e0d7ec2748008d5e746e3127a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*380))/2",
+      "reason": "Monotone bounded positive radical truncations converge to positive solution ofL^2-L-c=0."
+    },
+    "computed": "20",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/2/3",
+    "sourceDigest": "5762ff206c7271dc8bc341e27cfbb65ed55fa5257ba7569c8fd27542227e070e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*420))/2",
+      "reason": "Monotone bounded positive radical truncations converge to positive solution ofL^2-L-c=0."
+    },
+    "computed": "21",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/2/4",
+    "sourceDigest": "ddb657ef1153d5740aee4d4944f8bd24ad7d1e97dd8f297513b8c6071d6c0407",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(1+sqrt(1+4*462))/2",
+      "reason": "Monotone bounded positive radical truncations converge to positive solution ofL^2-L-c=0."
+    },
+    "computed": "22",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/3/3",
+    "sourceDigest": "ae602d7927fd3c7bf5aa385c8662e7a81162c536be227bc33d6c291d1eefe99f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "12**2-2",
+      "reason": "Square x+1/x and subtract cross term2; premise implies x nonzero."
+    },
+    "computed": "142",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/3/4",
+    "sourceDigest": "64dd4adbfbef77b099833a539807d23b1fdcd4f147a210c77497f17aba65b64e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "13**2-2",
+      "reason": "Square known reciprocal sum and subtract2."
+    },
+    "computed": "167",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/4/3",
+    "sourceDigest": "305c7f2d5261094e39d8e23c920e55d9a6269f89696c3c1d8f9ee9b81632bc97",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "28**2-2*96",
+      "reason": "Sum of squares from sum and product."
+    },
+    "computed": "592",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/4/4",
+    "sourceDigest": "9118a1a41160f4839d92ee29cad3d06e961f2aa60e7f4460a5e21a37f0b98e0b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "29**2-2*54",
+      "reason": "Sum of squares S^2-2P."
+    },
+    "computed": "733",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/6/1",
+    "sourceDigest": "18ae3a882c0675f9f3cd7615881049bca570c455089ad470467fc19298982049",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(5+sqrt(5**2+4))/2",
+      "reason": "Continued fraction converges by positive two-step contraction, then positive fixed point of t=a+1/t."
+    },
+    "computed": "5/2 + sqrt(29)/2",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/6/2",
+    "sourceDigest": "48587d94f775fe03f8dd8161b19baa98249b1a6721b4e201a76a5db32d74c33b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(13+sqrt(13**2+4))/2",
+      "reason": "Continued fraction converges by positive two-step contraction, then positive fixed point of t=a+1/t."
+    },
+    "computed": "13/2 + sqrt(173)/2",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/6/3",
+    "sourceDigest": "990db55971db7df1ae4e091fef961d2bce8a8ef2b4715d342f8331aa1ed8817c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(15+sqrt(15**2+4))/2",
+      "reason": "Continued fraction converges by positive two-step contraction, then positive fixed point of t=a+1/t."
+    },
+    "computed": "15/2 + sqrt(229)/2",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/6/4",
+    "sourceDigest": "cb879830e2b403909aa4e1e28e7d8cc5efcdf182b7255d092293729f6a1fbd3f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(17+sqrt(17**2+4))/2",
+      "reason": "Continued fraction converges by positive two-step contraction, then positive fixed point of t=a+1/t."
+    },
+    "computed": "17/2 + sqrt(293)/2",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/7/3",
+    "sourceDigest": "bbcb4ea8cd6876da57849ddb0dd439378c69905570dee5e3456daf5a2cf10055",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "31**3-3*2*31",
+      "reason": "Sum of cubes S^3-3PS."
+    },
+    "computed": "29605",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/7/4",
+    "sourceDigest": "75199a1b1b47530a34d21e0eceb795cdb5dc59deea4746ae9c6d0d5e89edabe9",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "32**3-3*5*32",
+      "reason": "Sum of cubes S^3-3PS."
+    },
+    "computed": "32288",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/9/1",
+    "sourceDigest": "c63e382b9074357c8b659dc2192c1d660a4f75890a52d471a1c3c7c207d02d80",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5-9+1",
+      "reason": "Expand(r+k)(s+k)=P+kS+k^2 using Vieta; offsets-1,-1,+2,-2 respectively."
+    },
+    "computed": "-3",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/9/2",
+    "sourceDigest": "9a64445156e3b5288c83262b5b5a479ce55e934ea69307f858fbfb7cff91a065",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4-15+1",
+      "reason": "Expand(r+k)(s+k)=P+kS+k^2 using Vieta; offsets-1,-1,+2,-2 respectively."
+    },
+    "computed": "-10",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/9/3",
+    "sourceDigest": "57bde2a26f24c6827278d06aee1721eb771a2c57f63ec0e8add84886029d0cd9",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6+2*17+4",
+      "reason": "Expand(r+k)(s+k)=P+kS+k^2 using Vieta; offsets-1,-1,+2,-2 respectively."
+    },
+    "computed": "44",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/9/4",
+    "sourceDigest": "4d4ce3be1066eb85a18b2c96d614ca341747f487a9fa5634b2d931ee52582cde",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3-2*19+4",
+      "reason": "Expand(r+k)(s+k)=P+kS+k^2 using Vieta; offsets-1,-1,+2,-2 respectively."
+    },
+    "computed": "-31",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/22/worksheet/10/4",
+    "sourceDigest": "4ce69969135fdb08378feba985280a8c170eae888fa4b05ed139f195584efd9b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(10**2-2)**2-2",
+      "reason": "First x^2+x^-2=S^2-2=98, then square again and subtract2 to get fourth-power sum9602."
+    },
+    "computed": "9602",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  }
+]

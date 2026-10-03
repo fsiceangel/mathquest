@@ -404,7 +404,7 @@ const s82 = [
         'One link at a time. Picture books: $0.25 \\times 400 = 100$. Animal picture books: $20\\%$ of those $100$, which is $20$. Stopping at $100$ answers the first step only; $0.2 \\times 400 = 80$ applies the second percent to the whole library instead of to the picture books; and adding the percents to get $45\\%$ of $400$ gives $180$.',
     },
     {
-      q: 'A camp has $200$ campers. $40\\%$ of them are in the swimming group, and $30\\%$ of the swimmers can dive. How many campers can dive?',
+      q: 'A camp has $200$ campers. $40\\%$ of them are in the swimming group, and $30\\%$ of the swimmers can dive. How many swimmers can dive?',
       choices: ['$80$', '$24$', '$60$', '$140$'],
       answer: 1,
       solution:

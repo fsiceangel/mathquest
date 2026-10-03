@@ -827,7 +827,7 @@ const challenge = [
     solution: 'Law of Cosines: $c^2 = 9 + 2 - 2 \\cdot 3 \\cdot \\sqrt{2} \\cdot \\cos 45^\\circ = 11 - 6\\sqrt{2} \\cdot \\frac{\\sqrt{2}}{2} = 11 - 6 = 5$, so $c = \\sqrt{5}$. The $\\sqrt{2}$ side is chosen kindly: it cancels the $\\sqrt{2}$ hiding in $\\cos 45^\\circ$, and the answer collapses to a clean radical. Forgetting the correction term leaves $\\sqrt{11}$, and a sign slip gives $\\sqrt{17}$.',
   },
   {
-    q: 'The point $P = \\left(-\\frac{1}{2}, y\\right)$ lies on the unit circle with $y > 0$, at angle $\\theta$ measured counterclockwise from the positive $x$-axis. What is $\\theta$?',
+    q: 'The point $P = \\left(-\\frac{1}{2}, y\\right)$ lies on the unit circle with $y > 0$, at angle $\\theta$ measured counterclockwise from the positive $x$-axis. For $0^\\circ \\le \\theta < 360^\\circ$, what is $\\theta$?',
     fig: {
       view: [-1.7, -1.7, 1.7, 1.7],
       grid: true,

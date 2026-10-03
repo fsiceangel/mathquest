@@ -10,6 +10,8 @@
 // gets the same version twice in a row, and a printed worksheet can be
 // reproduced later by asking for the same version number.
 
+import { inDifficultyOrder } from '../data/calibration/index.js'
+
 export function versionCount(problems) {
   if (!problems?.length) return 1
   return problems.reduce((n, p) => Math.min(n, 1 + (p.variants?.length ?? 0)), Infinity)
@@ -24,6 +26,5 @@ export function versionOf(problem, round) {
 // The `round`-th version of a whole problem set. Problems without variations
 // simply repeat, so a partially authored chapter still works.
 export function versionSet(problems, round) {
-  if (!round) return problems
-  return problems.map((p) => versionOf(p, round))
+  return inDifficultyOrder(problems.map((p) => versionOf(p, round)))
 }

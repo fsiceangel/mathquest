@@ -114,11 +114,11 @@ const s73 = [
   // s3 — area and perimeter given, inradius wanted.
   [
     {
-      q: 'A triangular garden plot has area $99$ square meters and perimeter $44$ meters. The gardener wants a circular flower bed inscribed in the plot, touching all three edges. What is the radius of the bed, in meters?',
-      choices: ['$4.5$', '$2.25$', '$9$', '$22$'],
+      q: 'A triangular garden plot has area $88$ square meters and perimeter $44$ meters. The gardener wants a circular flower bed inscribed in the plot, touching all three edges. What is the radius of the bed, in meters?',
+      choices: ['$4$', '$2$', '$8$', '$22$'],
       answer: 0,
       solution:
-        'The semiperimeter is $s = \\frac{44}{2} = 22$, and the inscribed circle’s radius obeys Area $= rs$, so $99 = 22r$ and $r = 4.5$ ✓. Check a second, independent way with the sliver decomposition that proves the formula: joining the incenter to the three corners cuts the plot into three triangles of common height $r$ whose bases add up to the whole perimeter, so $\\frac{1}{2} \\cdot 44 \\cdot r = 99$ and $r = \\frac{198}{44} = 4.5$ ✓. (The choice $2.25$ is USING THE PERIMETER INSTEAD OF THE SEMIPERIMETER, $\\frac{99}{44}$ ✗; $9$ is SNEAKING IN AN EXTRA HALF, solving $99 = \\frac{1}{2}rs$ as though the halving were not already inside $s$ ✗; $22$ is ANSWERING THE SEMIPERIMETER itself ✗.)',
+        'The semiperimeter is $s=44/2=22$. Since Area $=rs$, we get $r=88/22=4$. To check, connect the incenter to the three vertices: the three small triangles have height $4$, and their bases total $44$, so their combined area is $\\frac12\\cdot44\\cdot4=88$. Dividing by the full perimeter would give $2$, half the correct radius.',
     },
     {
       q: 'A triangular traffic island encloses $84$ square feet of pavement inside $48$ feet of curb. A signpost stands at the island’s incenter. How far, in feet, is the signpost from the nearest curb?',
@@ -229,25 +229,25 @@ const s73 = [
   // s6 — inradius and semiperimeter given, area wanted.
   [
     {
-      q: 'A triangular plate holds an inscribed circular gasket of radius $5$, and the plate’s semiperimeter is $18$. What is the area of the plate?',
-      choices: ['$90$', '$180$', '$45$', '$23$'],
+      q: 'A triangular plate holds an inscribed circular gasket of radius $5$, and the plate’s semiperimeter is $30$. What is the area of the plate?',
+      choices: ['$150$', '$300$', '$75$', '$35$'],
       answer: 0,
       solution:
-        'The inscribed gasket’s radius is the inradius, so Area $= rs = 5 \\cdot 18 = 90$ ✓. Check a second, independent way with the sliver decomposition: joining the incenter to the three corners makes three triangles of height $5$ whose bases sum to the perimeter $36$, for a total of $\\frac{1}{2} \\cdot 36 \\cdot 5 = 90$ ✓. (The choice $180$ is USING THE PERIMETER INSTEAD OF THE SEMIPERIMETER, $5 \\cdot 36$ ✗; $45$ is SNEAKING IN AN EXTRA HALF, computing $\\frac{1}{2}rs$ when the halving already lives inside $s$ ✗; $23$ is ADDING INSTEAD OF MULTIPLYING, $5 + 18$ ✗.)',
+        'The inradius is $r=5$ and the semiperimeter is $s=30$. Therefore Area $=rs=5\\cdot30=150$. Connecting the incenter to the vertices gives the same result: the three small triangles have height $5$ and bases totaling $60$, so their total area is $\\frac12\\cdot60\\cdot5=150$. Use the semiperimeter once; no additional halving is needed.',
     },
     {
-      q: 'A triangle has perimeter $32$, and its incircle has radius $6$. Find the triangle’s area.',
-      choices: ['$192$', '$48$', '$96$', '$22$'],
+      q: 'A triangle has perimeter $72$, and its incircle has radius $6$. Find the triangle’s area.',
+      choices: ['$432$', '$108$', '$216$', '$42$'],
       answer: 2,
       solution:
-        'The formula wants the SEMIperimeter: $s = \\frac{32}{2} = 16$, so Area $= rs = 6 \\cdot 16 = 96$ ✓. Check a second, independent way through the slivers: the incenter cuts the triangle into three pieces of height $6$ standing on bases that total $32$, so the area is $\\frac{1}{2} \\cdot 32 \\cdot 6 = 96$ ✓ — the sliver sum halves the perimeter for you, which is exactly where $s$ comes from. (The choice $192$ is USING THE PERIMETER INSTEAD OF THE SEMIPERIMETER, $6 \\cdot 32$ ✗; $48$ is SNEAKING IN AN EXTRA HALF, $\\frac{1}{2} \\cdot 6 \\cdot 16$ ✗; $22$ is ADDING INSTEAD OF MULTIPLYING, $6 + 16$ ✗.)',
+        'The inradius is $r=6$ and the semiperimeter is $s=36$ (half the perimeter $72$). Therefore Area $=rs=6\\cdot36=216$. Connecting the incenter to the vertices gives the same result: the three small triangles have height $6$ and bases totaling $72$, so their total area is $\\frac12\\cdot72\\cdot6=216$. Use the semiperimeter once; no additional halving is needed.',
     },
     {
-      q: 'The incenter of a triangular field sits exactly $7$ meters from each of the three fences, and the field’s semiperimeter is $15$ meters. How many square meters does the field cover?',
-      choices: ['$210$', '$105$', '$52.5$', '$22$'],
+      q: 'The incenter of a triangular field sits exactly $7$ meters from each of the three fences, and the field’s semiperimeter is $42$ meters. How many square meters does the field cover?',
+      choices: ['$588$', '$294$', '$147$', '$49$'],
       answer: 1,
       solution:
-        'A point $7$ meters from all three fences is the incenter with inradius $r = 7$, so Area $= rs = 7 \\cdot 15 = 105$ ✓. Check a second, independent way with the sliver decomposition: the three triangles formed by joining the incenter to the corners have height $7$ and bases summing to the full perimeter $30$, giving $\\frac{1}{2} \\cdot 30 \\cdot 7 = 105$ ✓. (The choice $210$ is USING THE PERIMETER INSTEAD OF THE SEMIPERIMETER, $7 \\cdot 30$ ✗; $52.5$ is SNEAKING IN AN EXTRA HALF, $\\frac{1}{2} \\cdot 7 \\cdot 15$ ✗; $22$ is ADDING INSTEAD OF MULTIPLYING, $7 + 15$ ✗.)',
+        'The inradius is $r=7$ and the semiperimeter is $s=42$. Therefore Area $=rs=7\\cdot42=294$. Connecting the incenter to the vertices gives the same result: the three small triangles have height $7$ and bases totaling $84$, so their total area is $\\frac12\\cdot84\\cdot7=294$. Use the semiperimeter once; no additional halving is needed.',
     },
   ],
   // s7 — isosceles triangle with area given, inradius wanted.
@@ -334,7 +334,7 @@ const s73 = [
       choices: ['$8$', '$26$', '$8\\sqrt{2}$', '$16$'],
       answer: 2,
       solution:
-        'The hypotenuse is $\\sqrt{20^2 + 48^2} = \\sqrt{2704} = 52$, so the inradius is $r = \\frac{20 + 48 - 52}{2} = 8$. With the right angle at the origin and legs along the axes, the incenter must be $8$ from both legs, landing at $(8, 8)$ — so $AI = \\sqrt{8^2 + 8^2} = 8\\sqrt{2}$, the diagonal of an $8 \\times 8$ square ✓. Check a second, independent way through the area: $\\frac{1}{2} \\cdot 20 \\cdot 48 = 480$ and $s = \\frac{20 + 48 + 52}{2} = 60$, so $r = \\frac{480}{60} = 8$ again, and the bisector from a right angle makes a $45^\\circ$ angle with each leg, stretching the side-distance $8$ into a vertex-distance of $\\frac{8}{\\sin 45^\\circ} = 8\\sqrt{2}$ ✓. Guard: a vertex is farther than a side, and $8\\sqrt{2} > 8$ ✓. (The choice $8$ is ANSWERING THE INRADIUS, the distance to a side rather than to the vertex ✗; $26$ is ANSWERING THE CIRCUMRADIUS, half the hypotenuse ✗; $16$ is DOUBLING THE INRADIUS instead of multiplying by $\\sqrt{2}$ ✗.)',
+        'The hypotenuse is $\\sqrt{20^2+48^2}=52$. The area is $\\frac12\\cdot20\\cdot48=480$ and the semiperimeter is $(20+48+52)/2=60$. Thus $r=\\text{Area}/s=8$. Drop perpendiculars from the incenter to the two legs. Together with the right-angle vertex they form a square of side $8$, so the requested distance is its diagonal, $8\\sqrt2$. The radius measures distance to a side; the diagonal measures distance to the vertex.',
     },
     {
       q: 'The corner brace in the figure is a $15$-$20$-$25$ right triangle, and a pin is driven at its incenter $I$. How far is the pin from the right-angle corner $C$?',
@@ -355,7 +355,7 @@ const s73 = [
       choices: ['$5\\sqrt{2}$', '$5$', '$12.5$', '$10$'],
       answer: 0,
       solution:
-        'The inradius is $r = \\frac{15 + 20 - 25}{2} = 5$, so with the right angle at the origin the incenter sits at $(5, 5)$, and the pin-to-corner distance is $\\sqrt{5^2 + 5^2} = 5\\sqrt{2}$ ✓. Check a second, independent way through Area $= rs$: the area is $\\frac{1}{2} \\cdot 15 \\cdot 20 = 150$ and $s = \\frac{15 + 20 + 25}{2} = 30$, so $r = \\frac{150}{30} = 5$ again; the incenter rides the bisector of the right angle, a $45^\\circ$ ray, so its vertex distance is $5\\sqrt{2}$ — the hypotenuse of a tiny $45$-$45$-$90$ triangle with legs $5$ ✓. Guard: $5\\sqrt{2} \\approx 7.07$ lies between the side-distance $5$ and the far tangent points, as it must ✓. (The choice $5$ is ANSWERING THE INRADIUS — the incenter promises equal distances to SIDES, not to corners ✗; $12.5$ is ANSWERING THE CIRCUMRADIUS ✗; $10$ is DOUBLING THE INRADIUS ✗.)',
+        'The hypotenuse is $\\sqrt{15^2+20^2}=25$. The area is $\\frac12\\cdot15\\cdot20=150$ and the semiperimeter is $(15+20+25)/2=30$. Thus $r=\\text{Area}/s=5$. Drop perpendiculars from the incenter to the two legs. Together with the right-angle vertex they form a square of side $5$, so the requested distance is its diagonal, $5\\sqrt2$. The radius measures distance to a side; the diagonal measures distance to the vertex.',
     },
     {
       q: 'In a right triangle with legs $30$ and $40$, the angle bisector from the right-angle vertex $V$ is followed until it reaches the incenter $I$. How long is that walk from $V$ to $I$?',
@@ -375,7 +375,7 @@ const s73 = [
       choices: ['$10$', '$25$', '$20$', '$10\\sqrt{2}$'],
       answer: 3,
       solution:
-        'The hypotenuse is $\\sqrt{30^2 + 40^2} = 50$, so the inradius is $r = \\frac{30 + 40 - 50}{2} = 10$, and with the right angle at the origin the incenter is at $(10, 10)$; the walk measures $\\sqrt{10^2 + 10^2} = 10\\sqrt{2}$ ✓. Check a second, independent way through the area: $\\frac{1}{2} \\cdot 30 \\cdot 40 = 600$ and $s = \\frac{30 + 40 + 50}{2} = 60$, so $r = \\frac{600}{60} = 10$ again; the bisector leaves $V$ at $45^\\circ$ to each leg, so reaching a point $10$ from both legs takes $\\frac{10}{\\sin 45^\\circ} = 10\\sqrt{2}$ of walking ✓. Guard: the walk must beat the straight drop to a side, and $10\\sqrt{2} > 10$ ✓. (The choice $10$ is ANSWERING THE INRADIUS, the side distance rather than the vertex distance ✗; $25$ is ANSWERING THE CIRCUMRADIUS ✗; $20$ is DOUBLING THE INRADIUS ✗.)',
+        'The hypotenuse is $\\sqrt{30^2+40^2}=50$. The area is $\\frac12\\cdot30\\cdot40=600$ and the semiperimeter is $(30+40+50)/2=60$. Thus $r=\\text{Area}/s=10$. Drop perpendiculars from the incenter to the two legs. Together with the right-angle vertex they form a square of side $10$, so the requested distance is its diagonal, $10\\sqrt2$. The radius measures distance to a side; the diagonal measures distance to the vertex.',
     },
   ],
   // s9 — scalene triangle with area given, inradius wanted (figure).
@@ -399,7 +399,7 @@ const s73 = [
       choices: ['$1$', '$2$', '$4$', '$18$'],
       answer: 1,
       solution:
-        'The tangent circle is the incircle, so its radius is $r = \\frac{\\text{Area}}{s}$ with $s = \\frac{9 + 10 + 17}{2} = 18$: $r = \\frac{36}{18} = 2$ ✓. Check a second, independent way with coordinates: taking $A(0, 0)$, $B(10, 0)$, and $C(-5.4, 7.2)$ (so $CA = 9$ and $CB = 17$), the incenter lands at $(1, 2)$ — height $2$ above side $\\overline{AB}$ — and its distance to line $AC$ ($7.2x + 5.4y = 0$, norm $9$) is $\\frac{|7.2 + 10.8|}{9} = 2$ ✓. Guard with Heron: $\\sqrt{18 \\cdot 9 \\cdot 8 \\cdot 1} = \\sqrt{1296} = 36$ ✓, so the stated area is honest. (The choice $1$ is USING THE PERIMETER INSTEAD OF THE SEMIPERIMETER, $\\frac{36}{36}$ ✗; $4$ is SNEAKING IN AN EXTRA HALF, solving $36 = \\frac{1}{2}rs$ ✗; $18$ is ANSWERING THE SEMIPERIMETER ✗.)',
+        'The tangent circle is the incircle, so its radius is $r = \\frac{\\text{Area}}{s}$ with $s = \\frac{9 + 10 + 17}{2} = 18$: $r = \\frac{36}{18} = 2$ ✓.',
     },
     {
       q: 'A climbing wall panel is a triangle with sides $17$, $25$, and $28$, enclosing $210$ square feet. The builders bolt a circular practice wheel into the panel, as large as the panel allows, touching all three edges. What is the wheel’s radius, in feet?',
@@ -420,7 +420,7 @@ const s73 = [
       choices: ['$3$', '$12$', '$6$', '$35$'],
       answer: 2,
       solution:
-        'The wheel is the incircle. With $s = \\frac{17 + 25 + 28}{2} = 35$, its radius is $r = \\frac{210}{35} = 6$ ✓. Check a second, independent way with coordinates: taking $A(0, 0)$, $B(28, 0)$, $C(8, 15)$ (so $CA = \\sqrt{64 + 225} = 17$ and $CB = \\sqrt{400 + 225} = 25$), the incenter lands at $(10, 6)$ — height $6$ above $\\overline{AB}$ — and its distance to line $AC$ ($15x - 8y = 0$, norm $17$) is $\\frac{|150 - 48|}{17} = 6$ ✓. Guard with Heron: $\\sqrt{35 \\cdot 18 \\cdot 10 \\cdot 7} = \\sqrt{44100} = 210$ ✓. (The choice $3$ is USING THE PERIMETER INSTEAD OF THE SEMIPERIMETER, $\\frac{210}{70}$ ✗; $12$ is SNEAKING IN AN EXTRA HALF, doubling the true radius ✗; $35$ is ANSWERING THE SEMIPERIMETER ✗.)',
+        'The wheel is the incircle. With $s = \\frac{17 + 25 + 28}{2} = 35$, its radius is $r = \\frac{210}{35} = 6$ ✓.',
     },
     {
       q: 'Triangle $ABC$ in the figure has $AB = 48$, $CA = 29$, and $CB = 35$, with area $504$. Find the distance from its incenter $I$ to side $\\overline{AB}$.',
@@ -443,7 +443,7 @@ const s73 = [
       choices: ['$9$', '$4.5$', '$18$', '$56$'],
       answer: 0,
       solution:
-        'The distance from the incenter to any side is the inradius. With $s = \\frac{29 + 35 + 48}{2} = 56$, it is $r = \\frac{504}{56} = 9$ ✓. Check a second, independent way with coordinates: taking $A(0, 0)$, $B(48, 0)$, $C(20, 21)$ (so $CA = \\sqrt{400 + 441} = 29$ and $CB = \\sqrt{784 + 441} = 35$), the incenter lands at $(21, 9)$ — height $9$ above $\\overline{AB}$ — and its distance to line $AC$ ($21x - 20y = 0$, norm $29$) is $\\frac{|441 - 180|}{29} = \\frac{261}{29} = 9$ ✓. Guard with Heron: $\\sqrt{56 \\cdot 27 \\cdot 21 \\cdot 8} = \\sqrt{254016} = 504$ ✓. (The choice $4.5$ is USING THE PERIMETER INSTEAD OF THE SEMIPERIMETER, $\\frac{504}{112}$ ✗; $18$ is SNEAKING IN AN EXTRA HALF, twice the true distance ✗; $56$ is ANSWERING THE SEMIPERIMETER ✗.)',
+        'The distance from the incenter to any side is the inradius. With $s = \\frac{29 + 35 + 48}{2} = 56$, it is $r = \\frac{504}{56} = 9$ ✓.',
     },
   ],
   // s10 — big right-triangle legs given, inradius wanted.

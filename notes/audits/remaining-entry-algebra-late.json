@@ -1,0 +1,2419 @@
+{
+  "reviewedAt": "2026-10-02",
+  "reviewer": "remaining_algebra_late",
+  "reviewedVersions": 280,
+  "receiptFormat": "SHA256(JSON.stringify([q,choices,answer,solution,fig]))",
+  "sections": [
+    {
+      "id": "intro-algebra/9/9.1",
+      "reviewedVersions": 40,
+      "decision": "retain-multiple-choice",
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed.",
+      "safeSlots": [],
+      "slots": [
+        {
+          "id": "intro-algebra/9/9.1/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "Comparison-symbol answers; v3 asks to select a statement.",
+          "independentCheck": "Negative ordering gives >,<,<,> respectively.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.1/1/1",
+              "sha256": "7582f06b1010d732c3fa32d317405bf3473ab28ffc1614050bde5529f484a3a7",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/1/2",
+              "sha256": "6534461e71c5f2f30ccc70992b1168a4931756a6dc78cfa4bf8cfab1084fae96",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/1/3",
+              "sha256": "5c98eded49b9133c742b900e9493c6cbbb3688ccf58547dbc29c9713f5f6b4a1",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/1/4",
+              "sha256": "f1e0968044dfe6d279ff77d4ddfc8ac52dcd753faa4c2450b91a39e09b47bd57",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.1/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "Meaning of inequalities and an option-selected non-solution (v4); infinitely many non-solutions without options.",
+          "independentCheck": "Endpoints included for >= and <=; at least 12 is >=12; only -4 among listed values fails n>=-3.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.1/2/1",
+              "sha256": "9cf98fbfab7ac331549bd5fe7b1f0e5226d5c54ce064fef81e05221929157dfc",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/2/2",
+              "sha256": "7a0685e483aacebb78af2e9211b2d1d5bfe41d6579cae99b84c297a52d7eae91",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/2/3",
+              "sha256": "828b9e586772b1fae0699942154c7171271c6f98395c9ac2d3860c0bb21b851e",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/2/4",
+              "sha256": "56ee6e419ca3c50247c20dfd15e6a0173c15ab94f6cbf10035b2a058d5ddb1b7",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.1/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Answers are relations between variables, not scalars.",
+          "independentCheck": "Addition/subtraction preserve order; multiplying by positive 3 preserves order.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.1/3/1",
+              "sha256": "030f37f3ad854b9906686b956448b11962a25e63163d938e11376722d030b505",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/3/2",
+              "sha256": "513993d2aeb11ff6b8bac20a0a17756cc509c22991ed7787e18c002133456000",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/3/3",
+              "sha256": "64fdc217ca55f4b560f412e1abc73ed3493c6068823e7720e409db7ed2953216",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/3/4",
+              "sha256": "dafd8a42ef77a2b497782c28f8f7b2461f51fa09a9ec25e3b411f79a86413765",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.1/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Answer must be the transformed inequality, including its operator.",
+          "independentCheck": "Subtract5 yields x-5<-2; add9 yields y+9>5; subtract7 yields w-7<=-9; add6 yields 3<k+6.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.1/4/1",
+              "sha256": "b5e92c6519468a5dcf0c9f4452933ea8a9a3f102f6eb3a7c26d5234defc27397",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/4/2",
+              "sha256": "ca4ddef833bebb86f240a66f9131efc9461a8f48dc2f8e8449ca33e5c7110b94",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/4/3",
+              "sha256": "c3b5cc5fbe112161ad820c27792cf358a3b2a03f9eeaac614042ba874086f39d",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/4/4",
+              "sha256": "4726680dca2470d915d810cdce09322285b3b3534d5c9a299e417a695cbb5f56",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.1/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Complete inequalities required; entering only an endpoint would omit reversal and inclusion.",
+          "independentCheck": "Negation yields -x<-2, -y>6, t<-5, and -a<=-4; figure v4 starts with a>=4.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.1/5/1",
+              "sha256": "7ba35a45a5e4df01487719ab76cf16f7ce9091e0d241ef0d0e987f5af5ac57cf",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/5/2",
+              "sha256": "09513445bed29d57b0eb2975dcfe54f1029a8620d68d4ec9bf48c4feba227927",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/5/3",
+              "sha256": "05462c25858d53d0fcb8d1d8af8da40e15b4ac3cebcf37adfc424c169274cd6e",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/5/4",
+              "sha256": "27f68850b38e3515b3851d660f1436abba85a755abb8e4405055c448081184ec",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.1/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "Whole solution ray required, not its numeric endpoint.",
+          "independentCheck": "Divide by negative coefficient and reverse: x<-5; x>-7; x<=7; x<4.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.1/6/1",
+              "sha256": "2a6c8b08a3423673f42f02d44f57c671d4029bdb942b018b9416f9ca40e20ab1",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/6/2",
+              "sha256": "0d5964adf7a09daf6961e4aa579eebb986fd4afab274237be60f0777a3c85b0a",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/6/3",
+              "sha256": "37bfbc326bccfb46e3908e9beb49e4714365ad7c759f986d4c0056059fb41efb",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/6/4",
+              "sha256": "92e1ebf928d970fe0f172c44544a98879afdc16c59e10c23d833117e3c5a79ea",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.1/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Whole solution ray required, including strict versus inclusive endpoint.",
+          "independentCheck": "Positive division/multiplication gives x<=7; x>=-7; x<24; x<=-4.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.1/7/1",
+              "sha256": "fb9979e3dfb754b82ec056cdacf424fc0ba022a6561b2910b859c0034d2fa64f",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/7/2",
+              "sha256": "c2c171592dec05c46d14086f7b9319505101abf08183ddf8648bf504159aedd6",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/7/3",
+              "sha256": "b88d1626cb2a297355f7f700c524f3702c79f4a8449de18f9e70838859157ace",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/7/4",
+              "sha256": "4b392155e1c4a41c657d2a8d1cdbdc8ff1b7c33ab21ee194f3d4a1724211237e",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.1/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Transitivity statements, not numeric answers.",
+          "independentCheck": "a<c; r>t; honey heavier than mustard; x<=z (strictness cannot be guaranteed).",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.1/8/1",
+              "sha256": "12996648ef15ce5762d5c936951c4c7d3ddb4d7bb740033975a87427b8c4e7bc",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/8/2",
+              "sha256": "6dcba9d10d9342f43520eaedf82696f2d7af7310e62bbfff12008b431d295e69",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/8/3",
+              "sha256": "e43d0c36f8da15dbd34515dcca684c027189a6f665d29fddfe6aeb543f603076",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/8/4",
+              "sha256": "1565e1a7bb0a27c3384174f47d9ba547ded1f8b4d086dace7fa1197ef7946122",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.1/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "Intervals and both boundary operators required.",
+          "independentCheck": "Affine endpoint images: (-6,2),(-3,12),(-3,-1),(-1,5), all open; v3 figure is (2,6).",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.1/9/1",
+              "sha256": "a08288a8b6d72a6468d86fd05b4b8e51719f2feb5105d059649c2961528fe303",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/9/2",
+              "sha256": "d17d47f585a8b48af45539c5a48b574bd105219588c518b775ab84997edbd2d0",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/9/3",
+              "sha256": "013dc718bfe9fc35ca5b0311f43876cd35c98ff4407539b973896e95df9f04cf",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/9/4",
+              "sha256": "c2405e39d9a1f2b0f3f7a32a90f7239c4fafd6f9a2f0b32e707df9d479df3432",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.1/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "Select a universally valid or invalid statement, not a unique number.",
+          "independentCheck": "Counterexamples: a=-2,b=-1 defeats square ordering; p=-1,q=1 defeats reciprocal ordering; c=-1 reverses uc<vc; h-g>0 is always true.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.1/10/1",
+              "sha256": "fe65bad4fcf794b71aacad1906bd5e42811a71a1b20fd28a7c106a92e0689426",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/10/2",
+              "sha256": "a9a5d79250a422f11544d64aa87f68862221ff40551c3b2b1dd3a1ff0943dd78",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/10/3",
+              "sha256": "cd103474553ad9b32d09df894e89882541ebe692c1ec4685fa8fd06d1c657250",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.1/10/4",
+              "sha256": "82b7f8d6bfaf0c1c1840740404b504e7e37a6396d4e090151a8fc1daf230eaa8",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-algebra/9/9.4",
+      "reviewedVersions": 40,
+      "decision": "enable-reviewed-numeric-slots",
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed.",
+      "safeSlots": [
+        "intro-algebra/9/9.4/9"
+      ],
+      "slots": [
+        {
+          "id": "intro-algebra/9/9.4/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "Graph conventions and inequality recognition, not scalar output.",
+          "independentCheck": ">=4 closed right; <-2 open left; >7 alone open; >-5 open right.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.4/1/1",
+              "sha256": "64798065b49b56a4c1547a001b774b62e2c61e8eea9577c67b1bf6498e9746ec",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/1/2",
+              "sha256": "c5933be8f5524cac177feacdb8124b191814553e79ec0591a01ff4b7a205fbeb",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/1/3",
+              "sha256": "9f69336bfe20bfc740b61e8a613e642d0ba44640009e1982364fce6b92a96e81",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/1/4",
+              "sha256": "01363ef04b300bc40b23fd8b19ed192c8f9296dad90f00e4b51478740f65a71b",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.4/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "v1-v3 require inequalities; v4 selects one of infinitely many excluded values.",
+          "independentCheck": "Figures show x>-1,x<3,x>=-4,x>2; only listed 2 fails last condition.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.4/2/1",
+              "sha256": "528f891331a8a008fcb01a6804e72c45a7daa0678a3e58f9976d7f2ffac4fcda",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/2/2",
+              "sha256": "3905c86f1367225a6ea2f8bc18dbc75f56756062c300b7bc68632397e9b76c41",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/2/3",
+              "sha256": "19856aa71a7b6f2b2a81f42be66e064d38e7c208bf4b8b414b97e2d2ba5b7436",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/2/4",
+              "sha256": "4ae9ad20fd997ee0739910f0af07d40216dc7e9ce93c5b82b98d6be0788af9f4",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.4/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Boundary-line style and justification must be selected.",
+          "independentCheck": "Strict inequalities dashed, inclusive inequalities solid; v4 only y>4x strict.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.4/3/1",
+              "sha256": "e21fbab2b16773fb6e591e99d957ce51a3c361fff8c37647974834280c1901f3",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/3/2",
+              "sha256": "4e283b5e1f4dcca7d6aef3c6c0c60a4cfeb5516f88bdb326ad7e1180319a4657",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/3/3",
+              "sha256": "0f41099d046e30edae490fa9a0ffec0db4fc1c47a96b759810c6a9790c6382ea",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/3/4",
+              "sha256": "b687f75a0dd25cfdd44613a8bead8df5f633d5b6e1a42792491f5f9b8b8d5974",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.4/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Test-point reasoning and region selection are the target.",
+          "independentCheck": "0<=3 true; 0>-5 true; 0<-2 false; origin lies on y=x and cannot distinguish its two half-planes.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.4/4/1",
+              "sha256": "7cf2d26052ffd47dd50f2a3814c02e0b75ccbc6712ad8b97535c379beef458bc",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/4/2",
+              "sha256": "d3cb8efe433172fd85cfb8f1f9adfff2e707e4064c490c46186eaf4a9fd8632c",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/4/3",
+              "sha256": "59ef9eb15e03913127eca62a996e9625ab8b518944c3f596d555e16e3632f8e3",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/4/4",
+              "sha256": "518abac1d83139787f0108bb5c122d0ef0beb2ef849041e61eb4232817169996",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.4/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Solution sets or endpoint claims, not single numbers.",
+          "independentCheck": "Figures show x<=-4, x<=5, -2<=x<3, x<=4 with maximum4.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.4/5/1",
+              "sha256": "b6c30f620c6600990fa06ba682e10b54cfba83381aee2984a29db8d26fba660d",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/5/2",
+              "sha256": "adbf5f060b58dba26416825d95501f4fb494596fa3c91cae6b01a5235f876738",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/5/3",
+              "sha256": "695861b7654a8e7dd44030cfa780ce36dd29c0aa7b56da42cff2fc4944c3013e",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/5/4",
+              "sha256": "2efdcc829f1750535baab5b5d00240f83c1c40888c951a75b4db71138102a9c0",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.4/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "Ordered pairs selected from options; infinitely many pairs satisfy each region.",
+          "independentCheck": "Substitution yields only (3,1), (1,5), (5,1) respectively; only (0,0) violates y>=-x+1 among v4 choices.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.4/6/1",
+              "sha256": "5c0625bfb8b8b16fce497dd82b33726413859311591f0c55b1a59c37b7c790de",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/6/2",
+              "sha256": "af6bf92527fbc81467dc9d7f8de6cb82e54b2820d682d6c9f8f22e43f4fc67e1",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/6/3",
+              "sha256": "ba4cd03526861c6dc313b6ef2e56f527c20ece35f67b75d8d9d6676b5e30aed1",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/6/4",
+              "sha256": "b16bfad7635da4ec2154844297216deadb56beb44df525ab38a06c32026bc4f9",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.4/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Two endpoint styles and a shaded segment required.",
+          "independentCheck": "(-2,3],[-5,1),(0,7),[-2,3) respectively; divide v4 chain by positive2.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.4/7/1",
+              "sha256": "dddf4a82bb38c6f7a32335d5d0207e62efd951dce7db36b343e992e03e3c5fcd",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/7/2",
+              "sha256": "3968a0ebf4ca338be975808921485ab27f849836ae4215c8f66f762ba68500fb",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/7/3",
+              "sha256": "34133ef194f5f2bd4b71efc8ef78b64e5d8c6d61a3fb17d30d3fecd0b6a842de",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/7/4",
+              "sha256": "30f13b76d0e12f93db2b5bb68b786af0a5195f66fa9e9cdbc4b92ce2116ae972",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.4/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Region/style reasoning or an option-selected point, not scalar.",
+          "independentCheck": "Origin excluded in all; v2 boundary solid; v4 only (5,5) passes y>=-3x+9.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.4/8/1",
+              "sha256": "b766ed9326f64dc16d51070d03e5338498530e83bc0e547560a2295d2a3368ec",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/8/2",
+              "sha256": "5265406130f25607386a7829449b4f77bee19f62094612e2923bab2742c9f5cf",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/8/3",
+              "sha256": "de5e51358325b819e25a70c9587d51992836c4b134cc030a6717d36062f630ab",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/8/4",
+              "sha256": "9fec3f6ec997c029c69a3b34a452d480dda0fc649b00a0054f7341f5394622ed",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.4/9",
+          "verdict": "safe-numeric-entry",
+          "reason": "All four prompts determine one integer without relying on the options.",
+          "independentCheck": "Integer counts for [-3,1],(-2,4],(-1,5) are 5,6,5; minimum integer in [-3,2) is -3.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.4/9/1",
+              "sha256": "a7aba063368432dc30098853f4f28742a815d36f5ec251e318956f1801579b7e",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "5"
+              }
+            },
+            {
+              "id": "intro-algebra/9/9.4/9/2",
+              "sha256": "420afb1909680414875fc0f3f08a1a22b72e7f0fcc65077847bc9f0b5183e9af",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "6"
+              }
+            },
+            {
+              "id": "intro-algebra/9/9.4/9/3",
+              "sha256": "8dd893f24f3de84c261b4b35fe4a31efda03116bee5850ce7e714d1393b64032",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "5"
+              }
+            },
+            {
+              "id": "intro-algebra/9/9.4/9/4",
+              "sha256": "4a4cba79512bec72a9435510a241543f190eae723f1b9b0b6185cb7f2de559dc",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "-3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/9/9.4/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "Equivalent inequalities or number-line descriptions required.",
+          "independentCheck": "x<3; x>=-4; x>3; x<=-3 with closed endpoint and left shading.",
+          "versions": [
+            {
+              "id": "intro-algebra/9/9.4/10/1",
+              "sha256": "71e72cff588afbeba2bb893450a9b40f9d2630b0cce8e208fb62ff6194f08feb",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/10/2",
+              "sha256": "73db6876e70d596adea59e6a5e6bd4ecdab04d39ab3c84ed6ab0a2a9ccf79b3b",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/10/3",
+              "sha256": "01ef4af4db3ecf794dda76407722ba7d4d4cac129303ff20363decf2e90fbcc8",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/9/9.4/10/4",
+              "sha256": "8484d7a06fa28149109428d27482b8d29a89674716881c12bdd7f76c820a50f1",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-algebra/10/10.1",
+      "reviewedVersions": 40,
+      "decision": "retain-multiple-choice",
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed.",
+      "safeSlots": [],
+      "slots": [
+        {
+          "id": "intro-algebra/10/10.1/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "Recognizing quadratic equations depends on the list of expressions.",
+          "independentCheck": "Degrees select 3x^2-x+2=0; x^2-4x=9; nonquadratic2x+7=11; 6y^2=7-y.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.1/1/1",
+              "sha256": "c2c297e08dcfba2d307bab02065938ab878c221490f9f851a5aacd6018925332",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/1/2",
+              "sha256": "3d997002d9a70b8c2959704285d23bd70d8c859d9d6d2985c2fe662ec331cf0d",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/1/3",
+              "sha256": "2d3a744cbef6953e996b5ccf629108cdbd1223b4a4b00c5ea7370b2685a4e48d",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/1/4",
+              "sha256": "228cb0dd573037384662aeba2565eb41c78d45c015a5baec56b5dbda583b82a5",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.1/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "Two-root sets in v1-v3; equation identification in v4.",
+          "independentCheck": "Roots +/-8,+/-10,+/-12; roots +/-9 correspond to x^2=81.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.1/2/1",
+              "sha256": "4f5f72bbbf175149a9f6e612ee9f45cfbc8c0386acca32f15c59650ed66d9aa3",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/2/2",
+              "sha256": "3aa45cac8b345971ac92cf6fc819d7cb9df76c1b1b3c38d9b963216c2eb1bbd3",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/2/3",
+              "sha256": "5005c4735b7dbce1aad1b945e81c940c1ce812cd0f32efc72ac7f9f4e7a9b472",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/2/4",
+              "sha256": "821e75985fd0d9f9d90d47c905d9eb2394ecc0aba470a60f30a9e08e46c2e349",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.1/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "v3 asks to select an equation; v4 asks a parameter range.",
+          "independentCheck": "Negative square targets have zero real roots; x^2+4=0 has none; x^2=k has none exactly when k<0.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.1/3/1",
+              "sha256": "5e74a714f80f5b7837e0825eb21e4da2e0e99db6e6a6cbe8da08dc0a8280df87",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/3/2",
+              "sha256": "00f4b6252eaead9733f7bc04b66f3ef6b5407cb35a3d4045a82e508fc15a7c5f",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/3/3",
+              "sha256": "7e97721d7085fc5f42edd7d69120e688dbcffdfa8b40e3e0fe415a4765bbf7b6",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/3/4",
+              "sha256": "1fcc06e5e00041c60962eb47caadcb76ef6ffe6b5eda9aec15db9140c2fbc9c2",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.1/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Two-root sets or factored expression, not one rational number.",
+          "independentCheck": "Roots {6,-2},{4,-9},{-3,8}; desired product (x-5)(x+2).",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.1/4/1",
+              "sha256": "d38bcbe1d0b09df87a67edf5051a84b3b7f49da001950ec268727350e5f7084b",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/4/2",
+              "sha256": "adf15e0b7aa171185283d525c94db9389d7cef5164a04fe9497847251a861f53",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/4/3",
+              "sha256": "cc74ebb3f096fe87ccb572a72e4f235f8087a894e764af8be8c89e50eb4679e0",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/4/4",
+              "sha256": "6240ba0e7f61c69a0017d5c211e1e55a584e3533efbfa91a989987100b8d11d7",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.1/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Each version has two distinct real roots.",
+          "independentCheck": "Unsquaring gives {8,-2},{9,-5},{5,-7},{3,7}.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.1/5/1",
+              "sha256": "c0c20aa4ff8c7c539520224bef6170f33669c5b1ad83ebc76f8de75a1c0ac4ed",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/5/2",
+              "sha256": "1d194d53e36e2ca3ee15907d7c4bb6827e2d84aea730ce230141d36d769856de",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/5/3",
+              "sha256": "70ea5efd9e82dd9e2abe195980506352eb6a1e6cb5afde62dcdb8bedf7e42c5e",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/5/4",
+              "sha256": "543d2443052f7f87ad7e6e59053feb5e6d73b12786f495441626a34683d6563b",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.1/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "v1-v3 require both roots; only v4 has scalar k.",
+          "independentCheck": "Roots +/-5,+/-5,+/-6; k=3*36=108.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.1/6/1",
+              "sha256": "e1102e551752e70b4957cf38b2cc6cdfec8f91bfce151bc111b0c27a7d4c61c4",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/6/2",
+              "sha256": "e5ff5dd27e51ff43987d21d79a582a15a8b7b9439f9223caf69a6e7ccf7df153",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/6/3",
+              "sha256": "05685045ff0be33b234b690138192a8c3c4decf0c430a28c70026d2d3dc8280b",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/6/4",
+              "sha256": "2f83bdfb96a22b95a29c1b851816d450c7fb235cc34fdb8e927728fb2ce0130b",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.1/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "v3 explicitly asks both number of solutions and their values; cannot silently grade only one scalar.",
+          "independentCheck": "Repeated roots -4,7,-5 respectively; exactly one root in v4 requires c=0.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.1/7/1",
+              "sha256": "839ca09cfafadd226f7b166507021e1b4dce41b08fdf570a1dca846f11ab0fd2",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/7/2",
+              "sha256": "693f5277172a1894c3aa2c9633a6c98670862b88b5f59cdff44861501211f2ce",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/7/3",
+              "sha256": "816c1390b50ec9ba01afd2c0565c81f40d110bea78c276bb210dcfabd21e2897",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/7/4",
+              "sha256": "9eb7f4b1895cd4aaa48f79f081192e3f565e7d4bcc578f1d86fea74a146ebc23",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.1/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Two-root sets or equation selection.",
+          "independentCheck": "Zero product gives {0,7},{0,-6},{0,4}; only x(x-5)=0 admits0 in v4.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.1/8/1",
+              "sha256": "dbd36657aa6f598b1ad77b190bbbcd6b7a8d0a48d5db2c633798f380e85c49e6",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/8/2",
+              "sha256": "8e894f4d0d85f1b8b29aef79d0026faaeace2efb59fc3871a2d203d8b21746b4",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/8/3",
+              "sha256": "03bfb7c92d664c4903c6a2ccc72ed2154c80477c94449be385137b078f29aefd",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/8/4",
+              "sha256": "82816da98cd5248d68a0d76397bdbe09cc7b007f13ae0d9ce43f02ce05088884",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.1/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "Each version has two distinct roots.",
+          "independentCheck": "Linear factors give {1/2,-3},{2/3,-5},{-5/2,4},{3/4,-1/2}.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.1/9/1",
+              "sha256": "5d096b5d32a8bb891d57c5c2560fac5340c11b79f4d104fe6b5bf72d02297d81",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/9/2",
+              "sha256": "e3dc71b3a30db85be8590c602ae5682280bc78e1e4dc1f9ceb0a7355f11a2758",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/9/3",
+              "sha256": "64fbfe1a08be8078aa6aedd51fb7968e524911b1345d1503ed11c638f988d3a6",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/9/4",
+              "sha256": "05956523df66535584daf0cc7d38830f2d627da9450c6f1b050e1a6959405dfd",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.1/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "v1-v3 require root pairs, though v4 parameter is scalar.",
+          "independentCheck": "Difference of squares gives +/-3,+/-4,+/-5; v4 k=25-1=24.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.1/10/1",
+              "sha256": "b185f3de18d1664a658899af92a00d7c5516921a017c1552aa18a748b9ac7670",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/10/2",
+              "sha256": "e210e3c797f69e5d777b021c67e758ee72edae32ab254f0683a9d2550845f657",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/10/3",
+              "sha256": "56f9bf93e92e8024d93785ee6a434bb51ea76527e68298087ac57c5c66efb445",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.1/10/4",
+              "sha256": "c405c9ab11bce196633d082b11cdddc691550f4a371abaa733569bcbc85608e4",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-algebra/10/10.3",
+      "reviewedVersions": 40,
+      "decision": "enable-reviewed-numeric-slots",
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed.",
+      "safeSlots": [
+        "intro-algebra/10/10.3/10"
+      ],
+      "slots": [
+        {
+          "id": "intro-algebra/10/10.3/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "Factored algebraic expressions required.",
+          "independentCheck": "GCFs yield5x(x-4),6x(x-4),2y(2y+7),3x(3x-5); expanding checks every coefficient.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.3/1/1",
+              "sha256": "45bf41f2fd9e0fff00dda4ba195cffdd74796fc4349b2e38d4ac42d573e5c61c",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/1/2",
+              "sha256": "a61097ecddf90071096c3ef1ddc4c40fa4403816eabc84a5c0d5517301ac1c44",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/1/3",
+              "sha256": "7c309ac3511a9228983c4e654ae8a83f5c0d36cf049af22ec2473f6efc1333ab",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/1/4",
+              "sha256": "f0fe32aa5001ef8653b4ed55f8e5976168c4b3a99a456a7aca5982823cf96f97",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.3/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "v1-v3 have two solutions; v4 alone scalar.",
+          "independentCheck": "Roots {0,9},{0,7},{0,-3}; substituting5 into3x^2=kx gives k15.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.3/2/1",
+              "sha256": "1ede6f90ef79927daaadebff25831b8de63777dc534bdf77a7a4d467fc90d389",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/2/2",
+              "sha256": "900677d3ffc6e23dcf4e1bcc820aff65871ef9d4b64cfdc2ad04d24729286903",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/2/3",
+              "sha256": "cd3ec4e1df1e6aecf7ca87a3345deab6d01ba01df42739a88950ef31439ca009",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/2/4",
+              "sha256": "1822a515614f4d9f7c1f8dfe89ddf8d40e006c896631f446b9d69fb4d0f2801a",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.3/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Factors or selection of a polynomial identity required.",
+          "independentCheck": "Difference-of-squares factors use7,8,11; only x^2-25 is difference of squares of integer-coefficient monomials.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.3/3/1",
+              "sha256": "69511f4b01eb7c9f2ad5610eb5de668b5a7241d1291a28eb25ae2fecadc7f670",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/3/2",
+              "sha256": "23a47d469b2c0078c24389a7705124d583aad873e381918299d970165387b605",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/3/3",
+              "sha256": "e068b284b8b27b0748a48b00eed4b5606f57536597599d9d9f8c0333785786d4",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/3/4",
+              "sha256": "44eb6273a908f59354122a7fabafd31caad4f16cb0ddddebcb7c456506503174",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.3/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Factored or expanded polynomial, not scalar.",
+          "independentCheck": "(2x-3)(2x+3);(3x-4)(3x+4);(5x-2)(5x+2);36x^2-25.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.3/4/1",
+              "sha256": "0ea7b3725db794547884277a52e27a0c95e6c5043ab52fda9f44e2c40c779d2c",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/4/2",
+              "sha256": "d650fb58c75d07eae09caa01c36b9061aa10281e837d671db4258d19a1b06da6",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/4/3",
+              "sha256": "a98f044fa27900fd68e90110dbc7a8efce4243489515df0d02ea5f3b66026917",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/4/4",
+              "sha256": "2cc029872ba71401ecdd62f3ce7b212da9632a94a83e8a5984bf5cac585e525b",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.3/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Factoring polynomials is the task; numeric entry would lose the expression.",
+          "independentCheck": "Expand keyed factors: coefficients(2,5,2),(3,8,4),(2,7,6),(5,11,2).",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.3/5/1",
+              "sha256": "f98397818d856bb1ec4ec5cc0a7f05318beccb708ed3aff46cae378580898821",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/5/2",
+              "sha256": "ae6ba589a05923e953d0f0d89f61fbed19e04f08f5cfe31488eeb0e5d2ac0293",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/5/3",
+              "sha256": "ae1509180bf24c4ce5704fa9ecdce2734f92598c04428b899098bcd812010621",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/5/4",
+              "sha256": "41543654eadec9854ae99a22c57c6c66e86053b96e35fb16edd89bd07345c2f1",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.3/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "v1-v3 expression answers; only v4 a numeric factor sum.",
+          "independentCheck": "Expand keyed factors: (3,-10,8),(2,-11,12),(3,-14,8); v4 p=-2,q=-3 uniquely and p+q=-5.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.3/6/1",
+              "sha256": "19f224df5e3b516060a72f1694e56d295ddf5afcb55f1e76de79c205ae204be8",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/6/2",
+              "sha256": "cdebb6add0bbd084e84f88a138729398a4e7bcd5dfb5b2bc205b346b0039d721",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/6/3",
+              "sha256": "155a0779c57ad47004c3596a23d0a8c0d4e570aab28fb970ff1cf6f291c30522",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/6/4",
+              "sha256": "7fc9747144b24615a51933f0c3ff30ac7c55973106963c26ac98ddc726fbefa1",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.3/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Paired roots or selection of equation.",
+          "independentCheck": "Roots +/-2,+/-3,+/-5; v4 exactly +/-7 for2x^2-98=0.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.3/7/1",
+              "sha256": "039d541ba8dad90204c146ff4b669eef389c9bdda697129ac0438d7d9052982d",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/7/2",
+              "sha256": "c97060431bca1d13e261ec9d7ecbe154dffca68a838e60897ecfa55667d24a09",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/7/3",
+              "sha256": "c2e78538b0e0407ffb6120cef25f4c2b2df9e3218226e68704f8603037c5d00c",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/7/4",
+              "sha256": "2191b09346d71551b2ad07a19a8bf602605d626fe48c9b828f290d2e06cd9a2e",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.3/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "v1-v3 paired roots, v4 one remaining root.",
+          "independentCheck": "Roots {-1/3,-2},{-1/2,-4},{-1/3,2}; v4 remaining root1/2 from(2x-1)(x-3).",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.3/8/1",
+              "sha256": "a029d49d512e9b53bae95aa3501df8d361e381b9aaf0a6d522be49607a74ffb7",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/8/2",
+              "sha256": "e6172fab6e71220e809966551fdbad3201aa8f9e508db686606785e329d2b555",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/8/3",
+              "sha256": "13a1416dbfdbbae771ec20a5d764095d9153e966b568e986f37759a9c3836851",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/8/4",
+              "sha256": "8000d4d55efde3551d7721e9f3681b64f7ac0a47d677bf6ac05a98b3eb3d7ab4",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.3/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "Complete factorizations, including common numeric factor.",
+          "independentCheck": "2(x-3)(x+3);3(x-5)(x+5);5(x-2)(x+2);3(2x-3)(2x+3).",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.3/9/1",
+              "sha256": "e1bf936ba4b4920b3a3479ae9298d0d1df93d4092d37ab41677ce874980a319a",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/9/2",
+              "sha256": "7bae3414ac04a2dea7aaf33e1f248116f7eaf68d48c3e83119b9f38cf4255d5f",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/9/3",
+              "sha256": "aafd3bdb12383c4ec6ef4f5170d1b61d133f9574822e4e718eb4070344524d6a",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/10/10.3/9/4",
+              "sha256": "fcd176d7af66995ac24cb14f291842b5e41d15c0f7e1790cedb83faf7b2bb213",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/10/10.3/10",
+          "verdict": "safe-numeric-entry",
+          "reason": "Every version asks for one unique rational value; repeated-root prompts do not need a root pair.",
+          "independentCheck": "Perfect squares(2x-3)^2,(3x-5)^2,(5x+2)^2 give3/2,5/3,-2/5; discriminant576-64c=0 gives c9.",
+          "versions": [
+            {
+              "id": "intro-algebra/10/10.3/10/1",
+              "sha256": "f24403409ef84b2ef080432762cfca5a0ff11c1e325476647970bfcc67742ead",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "3/2",
+                "label": "x"
+              }
+            },
+            {
+              "id": "intro-algebra/10/10.3/10/2",
+              "sha256": "f4d2c496dee12434dab785da52a3bed0e88f807c9e594a31d52a5ac32da05e35",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "5/3",
+                "label": "x"
+              }
+            },
+            {
+              "id": "intro-algebra/10/10.3/10/3",
+              "sha256": "0b93b52a49d819a715769e4b043d630e559d27d4820ffe04d2b386bdf13c114f",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "-2/5",
+                "label": "x"
+              }
+            },
+            {
+              "id": "intro-algebra/10/10.3/10/4",
+              "sha256": "b8a95c689f998715da536f3b2d77c0a715dcae023f3206a3c12693b912a8adc4",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "9",
+                "label": "c"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-algebra/12/12.1",
+      "reviewedVersions": 40,
+      "decision": "enable-reviewed-numeric-slots",
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed.",
+      "safeSlots": [
+        "intro-algebra/12/12.1/2"
+      ],
+      "slots": [
+        {
+          "id": "intro-algebra/12/12.1/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "Number classifications or equation selection, not one scalar.",
+          "independentCheck": "-4 and -7 require negatives; 6x=15 has noninteger5/2; c7/2 rational noninteger.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.1/1/1",
+              "sha256": "8dd0c6120a6b12ea7e631fe6ae4b56b14d41345bd82bd135ae9564e2ad2b794d",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/1/2",
+              "sha256": "0fe7c86e870e78a043a2f5481120486080ba9eb429de6ec5e87067c855dcfb94",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/1/3",
+              "sha256": "62a43abcf41455f660b31d038f5f9e1ecff4b571307c1fa314fc1478dec02857",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/1/4",
+              "sha256": "0185c7490c025dfb61b481ee5fb5b2fc4b851ac6b9ea3d9daa326174591791e0",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.1/2",
+          "verdict": "safe-numeric-entry",
+          "reason": "Each equation or substitution uniquely determines one rational value.",
+          "independentCheck": "6/4=3/2;9/6=3/2;8*(5/4)=10;w=8/3 kilograms.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.1/2/1",
+              "sha256": "48e8a05078ebe27e06d5940e75a1f68a8f4063c9493e91fbccd33201fc6fc31e",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "3/2",
+                "label": "x"
+              }
+            },
+            {
+              "id": "intro-algebra/12/12.1/2/2",
+              "sha256": "7a548a38fedd32d0d806efaaa5423acebaaaaa2ec4614fc0479bc2b7ae21694b",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "3/2",
+                "label": "x"
+              }
+            },
+            {
+              "id": "intro-algebra/12/12.1/2/3",
+              "sha256": "f54d6c169e74898f78fc2cef37c5c7fde4858e427aa77d8c7dfc4798d73d0322",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "10"
+              }
+            },
+            {
+              "id": "intro-algebra/12/12.1/2/4",
+              "sha256": "68c0aa337a9dd1d1d272d31dc6e069dc6f9a04c9866978a2ac6e38d3db974976",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "8/3",
+                "label": "w"
+              }
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.1/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Option-based number classification; v3 irrational and v4 a statement.",
+          "independentCheck": "-5 integer not natural;4/5 rational noninteger;sqrt10 irrational;sqrt144=12 integer hence rational.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.1/3/1",
+              "sha256": "1e8ddd12d02c5eacb5e2e4c6379d69e26e7f9722ebf5c6264ff70302c9cb86a3",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/3/2",
+              "sha256": "3e73cff8b49aa6eb5832de761cc1f94264f481b9d31f473f499cf9cae055ac5a",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/3/3",
+              "sha256": "55b1f453fec236003a978ef445e671bae5066ed34245b3dad956613b06f61ece",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/3/4",
+              "sha256": "619a767b8d055aa325332cda8d1f67b78c95063f0bd976f06ae4b673def37dc2",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.1/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Option-selected numbers/pairs; radical and irrational answers cannot be represented by rational entry.",
+          "independentCheck": "sqrt9=3;sqrt100=10;sqrt15 irrational;sqrt5+(6-sqrt5)=6 whereas other listed sums irrational.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.1/4/1",
+              "sha256": "8c2d0274eb45f5b7733a4bf507e374856501cb2177b58b7437dc0e1b579160e9",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/4/2",
+              "sha256": "41d02a51426a48f9168e95f75448eae3cff348b553bf2422c4671b2269c4e828",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/4/3",
+              "sha256": "7ed98b9493a2592c5db7b3fb316a0e3e98805dc0fa44b94a48f8853415ada56c",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/4/4",
+              "sha256": "e50b44768b705ca0dc040a04bebb5ccfef5c487a53a4269c5cf5dd494d1b9a51",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.1/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Classifications or a parameter selected from infinitely many possible values.",
+          "independentCheck": "sqrt5 and sqrt18 irrational; among supplied c only81 gives positive integer root; +/-sqrt40 both irrational.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.1/5/1",
+              "sha256": "36a3bae67eaecba2f1fb4583e948f032bd67bcfe460c8cf9e70d936bba4b435a",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/5/2",
+              "sha256": "e5055eb0d59d06b9ab123b55920c3db5114bb99bb61a4d84284e965da2871dfb",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/5/3",
+              "sha256": "2ba85eae01e2079be8a63eb8ddec3b1faf0fb44b6f43d353be6dfbbc6727808d",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/5/4",
+              "sha256": "78c5b3e97c50aa6a4756eacbfc07a84ed5980b06d0c507649ee8ba067809e195",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.1/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "Equations/ranges/count claims; not numeric-only responses across versions.",
+          "independentCheck": "x^2=-4,-36 no real roots; x^2-25=0 does; exactly one real root for c0.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.1/6/1",
+              "sha256": "cf1e34333879dcb8271b730dab47245abe03e92d843037972f8724a370463b0c",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/6/2",
+              "sha256": "d93274c8ba431a15b91ae03b977b51a2d0bb6cb346449e7b2a3165878ed6d64f",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/6/3",
+              "sha256": "ec7b0be693644652a40aa787c36027e8d94933422b813dbc23ba1bf243f51c52",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/6/4",
+              "sha256": "fd65b4cd07234dfebe73f522cf51362b307d93f04933dc06fb4098d0d7c0a9a1",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.1/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Classifications or option-selected irrational value.",
+          "independentCheck": "0.75=3/4,-2.4=-12/5 rational;18/6=3 integer;sqrt50 irrational.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.1/7/1",
+              "sha256": "6d1393f28326f01d963c460897f8a62e3a11a390fb901f1d6efa656fda140e3f",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/7/2",
+              "sha256": "15855d3ee3fbb32b59c487968acd69be5948bf5b78aae8f420f7831df26607da",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/7/3",
+              "sha256": "37dafdb8d4055f79c769de06cc6ea86785533c7b5a62480ca76dda1a1ea071e1",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/7/4",
+              "sha256": "c71e3bc4d58ba7ff712f9a18b08d4bb1d0b2f5dd39b474c87ce16d39637003b0",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.1/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Logical classification claims; v4 counterexample originally needed an explicit real-number domain.",
+          "independentCheck": "Integers are rational; naturals rational; not every real rational; after domain fix only3/4 is real, noninteger, and not irrational.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.1/8/1",
+              "sha256": "25debfa7c9540d8b66232e19f5b35418362d967ec5bc27984a7195ed39000a1c",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/8/2",
+              "sha256": "22d76a815cf6959c6485a7efdb236cba8127d22454bd9ad497e6752ae809378d",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/8/3",
+              "sha256": "cf31e9a60e2c99ec5d5fb6ba7a4c66cf89db35da6aa23a0e6dbee59be815f9af",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/8/4",
+              "sha256": "e34a99192b1206534669d579cc0a36929d6a4723d6fd55d825b4cf504d9af1b5",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.1/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "Prompts request classification plus value or select a pair, not one scalar.",
+          "independentCheck": "Cancellation gives5 rational and4 rational; sqrt6*sqrt6=6 while other products irrational; irrational+rational always irrational by subtraction contradiction.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.1/9/1",
+              "sha256": "d9f184623b19f79cc5c3f6bf55dee06b6138dc20041f621c144b49c1e9f41740",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/9/2",
+              "sha256": "06b7996558cce4e6ab95b43deb091b5e8567490c70299a26787429fd6877cf78",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/9/3",
+              "sha256": "e931120fc8b18bc8ab6578a4254b48ce699dcdc06cca050d17eb63d1cd788964",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/9/4",
+              "sha256": "79d068a45fc25f268a2396fad611517a4066ec9b08e4a701a203296abd034622",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.1/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "Number-system names or equation selection.",
+          "independentCheck": "-5/2 minimally rational; x+11=4 has integer-7;3/4 minimally rational;+/-8 require integers.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.1/10/1",
+              "sha256": "72c1534b7c786e82667ce003b345c438d3771a3d007f441186147934290ad78e",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/10/2",
+              "sha256": "09e8d81c1f91d78d10b10e323ea831dd254bb159ef43304ed3e0d2b602351d0a",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/10/3",
+              "sha256": "e03b6ab4adf4d292b70d73acc5e8456df4403a99b151009a01da742e0765632e",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.1/10/4",
+              "sha256": "3714632903a8c8c43dd6025f86a3213aedea73951460a244c0921d5c5a7b48ea",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-algebra/12/12.2",
+      "reviewedVersions": 40,
+      "decision": "enable-reviewed-numeric-slots",
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed.",
+      "safeSlots": [
+        "intro-algebra/12/12.2/6",
+        "intro-algebra/12/12.2/10"
+      ],
+      "slots": [
+        {
+          "id": "intro-algebra/12/12.2/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "v2 asks an equation defining i, although others have numeric answers.",
+          "independentCheck": "i^2=-1;(-i)^2=-1; only exponent2 among1..4 yields-1.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.2/1/1",
+              "sha256": "03c31aadbcfee5be3e8e883a274d78c59e7cc9e332619b32e6bc246b7f5b2f22",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/1/2",
+              "sha256": "f13b3af04b7caa432b5ba1db8eb7c1ac03bf123e4967e9493a7504ece492d830",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/1/3",
+              "sha256": "dce283f15e3b8ff50416481596e35fd578aa9a89e64ca892f36681ca5ed2df3c",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/1/4",
+              "sha256": "b672639fae583038385b4610a543ce6109e502a4edd067f7dc1efef315fda8e0",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.2/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "Imaginary values in v1,v2,v4, despite scalar k in v3.",
+          "independentCheck": "Principal roots5i,9i,11i; squaring12i gives-144 so k144.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.2/2/1",
+              "sha256": "c6e78dcb0b25b29b9026746a756d25b1845dfbea42111fbe0dd7e3d90f03eb32",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/2/2",
+              "sha256": "8a88eefb50f6d0a223812920a407cb41bd29a443acc4c7dbf24c2761801e78b5",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/2/3",
+              "sha256": "9bd8c9e3981eaf2157b98be07c33e5be260ea629681c5074def6084ac67077c3",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/2/4",
+              "sha256": "c4bfc252e20984a4c8420316f1151757701a4991e352fb6db402a2ac254f45b5",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.2/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Imaginary outputs and option-based exponent expression recognition.",
+          "independentCheck": "Cycle mod4 gives-i,i,-i; only i^11=-i among fourth options.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.2/3/1",
+              "sha256": "0bd29c4cb9a562724bd2ccb193d762d7a067e29223207dc135f168f080eba226",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/3/2",
+              "sha256": "efbb751b1711cc70b1d952d0ce91704735970c8f1ba20633a6beb7128a29c79b",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/3/3",
+              "sha256": "bfe0bb18048964752a0e0dae5a7d40e717b43c8a4bbb01b3867e6250c96a0fdf",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/3/4",
+              "sha256": "a6536395d390b033b098c25908d2b113c462bef57a44dd7622fcf69ba3d86a1f",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.2/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "v3 selects a power expression, so whole slot is not scalar-response compatible.",
+          "independentCheck": "i^4=i^8=1; onlyi^16 among supplied powers equals1; quotienti^2=-1.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.2/4/1",
+              "sha256": "e6389db9596f352b909c41ba997859709fa10cde375b23eac5656dd1ecfff005",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/4/2",
+              "sha256": "b132740eadf898df66477d8658b208459431ef6cac5d8246d78c074cd637af4a",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/4/3",
+              "sha256": "773cc1b9fb4d296dbed484e8ae008dbc0dcdc83414c8e378f8a6531ad9f6a6e1",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/4/4",
+              "sha256": "b0bfe8b95b217d58e71312b2849aec7f06478e9bbdb7b0711d45f3700bc7a47b",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.2/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "All outputs are imaginary, unsupported by rational input.",
+          "independentCheck": "Add coefficients:8i,5i,6i,-5i.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.2/5/1",
+              "sha256": "a4aa4dcb813ef70cd94ed39c9223a18f24d8ec505cad6883c0c6ef29866dd233",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/5/2",
+              "sha256": "d0f903360462577736144340e8d670bab1ba04d6d8fa1a85221824e5d634e006",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/5/3",
+              "sha256": "d18877715cef65f52a49371d29133542891488a89e3efa517fb39fb17cb8c931",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/5/4",
+              "sha256": "588171db369be522b4158b370dc55536d7ece402fcbad5e70298694ed6f245a0",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.2/6",
+          "verdict": "safe-numeric-entry",
+          "reason": "All four uniquely determine real rational numbers.",
+          "independentCheck": "i^2=-1 gives-10,-24,21; -5b=35 gives b=-7.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.2/6/1",
+              "sha256": "95ddb791c6f1b80e304f40032e3415999b8862d824b62b9167002b33570932bc",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "-10"
+              }
+            },
+            {
+              "id": "intro-algebra/12/12.2/6/2",
+              "sha256": "ac0f3b5a9e43f56f8d211a45638b7b513356df1701bcda838889256292cfe8eb",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "-24"
+              }
+            },
+            {
+              "id": "intro-algebra/12/12.2/6/3",
+              "sha256": "b63db301b87143382efffadc6e84c16e5c56b9ba610896d74f2153817fa0b094",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "21"
+              }
+            },
+            {
+              "id": "intro-algebra/12/12.2/6/4",
+              "sha256": "75e6eb5eb7a351d6bcb40798efbd6130b39b9bb04e1b08fb44e89285935483c8",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "-7"
+              }
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.2/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Mixed imaginary/real outputs and integer exponent across versions.",
+          "independentCheck": "Remainders3,2,3 give-i,-1,-i; unique multiple4 strictly between50and56 is52.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.2/7/1",
+              "sha256": "ba2759fb4f8d52c651b7ad2a8db15e4b59a4bfe92429c327f56f649b7f2f546e",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/7/2",
+              "sha256": "4938c471d36969687ab1252925a9f1a58384948373bff1e820944e2e013c1026",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/7/3",
+              "sha256": "cea85ca93a6ce7c273dcb440bf6c4d94991a18680c76b848d584b33791c1ce64",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/7/4",
+              "sha256": "8e301783aa68ee4a4e24b59edf0e5d7c7fc4b41119a3b7727bc5febe4c201277",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.2/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Complex root pairs in v1,v2,v4; only v3 asks scalar parameter.",
+          "independentCheck": "Roots +/-7i,+/-6i; c=-121;2x^2=-50 gives +/-5i.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.2/8/1",
+              "sha256": "0c1b9c918d4c7386a8accbf8160fc160c5930379b07bf48697f20006e88dc40f",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/8/2",
+              "sha256": "315ccdab762140cf1133320d827ff0f4e49c5c65f8bb4d8bfd4d371a450bfa73",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/8/3",
+              "sha256": "2fa3047c247d0e527e88379e5b66c39930128c19f5b59077fd191e163613711e",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/8/4",
+              "sha256": "14db02a90bf3405de2d421b1c3260d632bcf277e0bec8254fcabdc44a05ce350",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.2/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "v3 answer is imaginary, so rational-only input cannot cover all versions.",
+          "independentCheck": "Remainders2,0,3,2 give-1,1,-i,-2.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.2/9/1",
+              "sha256": "a165fee5420ba0ab141b6fca79e027fe76c5a50697ad5397b5c280dabfc1beeb",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/9/2",
+              "sha256": "c4f06018ca92cd4d213e9aae08bafa818d9f05de852dc3b98b25349e626049fa",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/9/3",
+              "sha256": "a755b8c46eee3c617e23011b7099ebce6f0f4adffa38b8721efd6e89f568f1cd",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/12/12.2/9/4",
+              "sha256": "1bb558d984e0c5106afd737aec6cdb5a94155d7ed9281ab13c36d4729fa55710",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/12/12.2/10",
+          "verdict": "safe-numeric-entry",
+          "reason": "Every version has one unique rational answer; positive restriction in v4 eliminates negative root.",
+          "independentCheck": "-9-4=-13;-25-16=-41;-36-(-4)=-32;-b^2-9=-34 and b>0 give5.",
+          "versions": [
+            {
+              "id": "intro-algebra/12/12.2/10/1",
+              "sha256": "e52342f77e3c4e277cafee7d0763fbd8adaf6dabb4c7bea9ea5fe99019c0a0e7",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "-13"
+              }
+            },
+            {
+              "id": "intro-algebra/12/12.2/10/2",
+              "sha256": "4f3ffdb3392b04ddf61e9b3f4e5432eb0a46a61d24e8ba913c82226fc13ce219",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "-41"
+              }
+            },
+            {
+              "id": "intro-algebra/12/12.2/10/3",
+              "sha256": "2fdc8e77fe470c0e7e409b04ff171109d2cc68bef788ff9d07b75a0a1aa54896",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "-32"
+              }
+            },
+            {
+              "id": "intro-algebra/12/12.2/10/4",
+              "sha256": "efb8e8c1c7eef127a91e04d92d724d5705d13bc2999bdbe61043d460dea22a24",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified",
+              "entry": {
+                "kind": "rational",
+                "expected": "5",
+                "label": "b"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-algebra/14/14.2",
+      "reviewedVersions": 40,
+      "decision": "retain-multiple-choice",
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed.",
+      "safeSlots": [],
+      "slots": [
+        {
+          "id": "intro-algebra/14/14.2/1",
+          "verdict": "retain-multiple-choice",
+          "reason": "v4 requires exact irrational radius5sqrt2; rational-only input would be insufficient.",
+          "independentCheck": "Positive square roots of49,144,121,50 give7,12,11,5sqrt2.",
+          "versions": [
+            {
+              "id": "intro-algebra/14/14.2/1/1",
+              "sha256": "3ee549f0de3e6856635ae8920d921c7c8771e66ffb40a8d18af2a2f55028e4b7",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/1/2",
+              "sha256": "b440a06ff963382769f28f486e2a547c5af19b4f2e5582c7e1cd96af7925292d",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/1/3",
+              "sha256": "126504b6bcbd6d7812d359acbcca77dc38320041adfff6fceb218a0b18db061a",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/1/4",
+              "sha256": "9ef63b827ec63f40075bf2fa0c9ddfcf89e59458a4a5e40d1c730bf8408d6e5f",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/14/14.2/2",
+          "verdict": "retain-multiple-choice",
+          "reason": "Coordinate pair or circle equation required.",
+          "independentCheck": "Centers(2,-5),(-4,7),(-5,3),(0,-9); signs reversed from squared terms.",
+          "versions": [
+            {
+              "id": "intro-algebra/14/14.2/2/1",
+              "sha256": "1375e98106b559883592d904fcf41c83f159c2b913b565594ee0232f61955f18",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/2/2",
+              "sha256": "63b6bc49e9a205d95b71017d0dfff6c0ac2107ca76b4812f06542e0081024353",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/2/3",
+              "sha256": "db140733149019d6488e519f66274704cb1bb28fb3bb52772e69759f0b803e23",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/2/4",
+              "sha256": "9a8dd8f431c6fda1c414b128df1125021b6fdf81c8eadf4b4b2cb93bf5feb330",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/14/14.2/3",
+          "verdict": "retain-multiple-choice",
+          "reason": "Circle equations in all versions, not scalar answers.",
+          "independentCheck": "Radius squares36,121,25,49; each is x^2+y^2=that value.",
+          "versions": [
+            {
+              "id": "intro-algebra/14/14.2/3/1",
+              "sha256": "a35ea1e3ac37bd78c5726f784b04c8245f1d0b054dc09057b1b3e7e89cdc0fa9",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/3/2",
+              "sha256": "90148e05b2ebcfde9446404145662cbfe7f6549c619c127f5fd28a779742fed6",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/3/3",
+              "sha256": "9b81bb283e2531079704e5cac13b97b6894308859a60030b69f886180cb3bf78",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/3/4",
+              "sha256": "fe029287939a25595d1d17ed48536139afedf6f22e26402a2d0aff9e362ea014",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/14/14.2/4",
+          "verdict": "retain-multiple-choice",
+          "reason": "Inside/on/outside classification using supplied figure data.",
+          "independentCheck": "Compare d^2 withr^2:25=25,13<16,13>9,25=25 giving on,inside,outside,on.",
+          "versions": [
+            {
+              "id": "intro-algebra/14/14.2/4/1",
+              "sha256": "5c552ff0eea8e41422d3b47dbe7c625960a785666ea08d963548d606c715230e",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/4/2",
+              "sha256": "765a36deb6cc1d5d9cc32b8e7e218d725fb147c6412214c9984960a1285f9eae",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/4/3",
+              "sha256": "2a37da09459fe8bcf7cc105a772c4a8d8a6ccc643f086e9ec56d43530042c4ba",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/4/4",
+              "sha256": "6813ace4d5e9178cf9d766aa1dd95379b9320503e20d6ae0f379a09f9271b83f",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/14/14.2/5",
+          "verdict": "retain-multiple-choice",
+          "reason": "Equations or option-selected ordered pair required.",
+          "independentCheck": "Figures give center/radius(2,1)/3,(-2,3)/2,(3,-2)/4; last only(4,6) has squared distance25 from(1,2).",
+          "versions": [
+            {
+              "id": "intro-algebra/14/14.2/5/1",
+              "sha256": "22f1290e934ea5a3b7f671f4956859885ca5cb3f03a972cbab03dae024b124fa",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/5/2",
+              "sha256": "a57f9b7c968f0f478d224d155643b3dc54bf62af851b8a4699e383ff30654011",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/5/3",
+              "sha256": "ed1c19546f9a957b3087a255d8a1fd423aa46773cececd534055dec5510d07a5",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/5/4",
+              "sha256": "f16d6a163c6093d47d00937f09d282d81d6aa754851ec052e48e8918fd728ac7",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/14/14.2/6",
+          "verdict": "retain-multiple-choice",
+          "reason": "v1-v3 ask circle equation; v4 alone radius.",
+          "independentCheck": "Centers(-3,4),(5,-2),(1,4) with r^2=25,29,25; final distance sqrt(4^2+(-3)^2)=5.",
+          "versions": [
+            {
+              "id": "intro-algebra/14/14.2/6/1",
+              "sha256": "89f29a0a0f2c6d634a04a9ccb44971ae4125ec7d7d8c3462aa26f6f7c298879b",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/6/2",
+              "sha256": "9dac36ea72384ae1c9aa04b8fb508d8440a6a55b9ffec60e3c58ebb30ed52124",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/6/3",
+              "sha256": "0e0afd72803efd4f689e17c979706176bb5054af24d3d8bb2953bf6633f480ec",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/6/4",
+              "sha256": "804ce92706fc773d2a75fddc59dcf8f1cebe9ae7fad75b8d3726821f7a5bc4cb",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/14/14.2/7",
+          "verdict": "retain-multiple-choice",
+          "reason": "Classifications or selection of circle equation.",
+          "independentCheck": "16<20 inside;16=16 on;25>20 outside; v4 comparisons17>16,29=29,13<16,32>9 select third circle.",
+          "versions": [
+            {
+              "id": "intro-algebra/14/14.2/7/1",
+              "sha256": "9ff85900daee140cc6fdc1c632ebd31fc5b9242935b895648c5606dab7351c85",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/7/2",
+              "sha256": "ec356966cb70b40208ffe1489c0f94e577224ac2848620e5b914a34c3a5aede2",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/7/3",
+              "sha256": "ff00b9ed1946256b58739b5c185ab4ba6b5c0c3705a0eafac57fb40dcea1dd95",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/7/4",
+              "sha256": "f31d4f8e39fb42cfa0bf0ca83e4e83152ceb0cae9493113a568de92e6ad84ef8",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/14/14.2/8",
+          "verdict": "retain-multiple-choice",
+          "reason": "Center-and-radius tuples in v1-v3; scalar coefficient only in v4.",
+          "independentCheck": "Complete squares yields(2,-3),r3;(-3,5),r5;(6,1),r4; final r^2=29-c=36 so c=-7.",
+          "versions": [
+            {
+              "id": "intro-algebra/14/14.2/8/1",
+              "sha256": "dbc5a2fe41b9a94da6ccc7d0cd19d41eb9ebd5861c3ca75513d6bb3f709c65ec",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/8/2",
+              "sha256": "9ab6da38c7d4da2a5b0e2998470ff4c2f7e20893fc282d9ff73f0d6fc853b370",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/8/3",
+              "sha256": "2e165fda546e3e79c91fbcfc568f65089cd1d59f1998807d9661343f3b91ec08",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/8/4",
+              "sha256": "d799312537fb373eb3a74973209a5f02d80b1f23ba4b6daa0b02e5a65ea6e606",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/14/14.2/9",
+          "verdict": "retain-multiple-choice",
+          "reason": "Axis intersection pairs or no-intersection statement in first3 versions.",
+          "independentCheck": "y0 givesx3,-1;x0 givesy3,-5; third requires square=-27 impossible; final x roots8,-2 separated10.",
+          "versions": [
+            {
+              "id": "intro-algebra/14/14.2/9/1",
+              "sha256": "18527ba4134d1f7fb488cae1dc18f81f85665c7b33b0da60525714bbf248de22",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/9/2",
+              "sha256": "c2569bd77a6fe34ddfcb8530e6320a4335610389c69f12caaafd73f028f3cd32",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/9/3",
+              "sha256": "ff9a162f35ba2aab4832fcef7ecca987c4aa069ecc9512712d7500439142da7f",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/9/4",
+              "sha256": "fa49d11de7ae02b53c6d931b05e8ecc7e1fc21c36af5de86c922810ca5383a10",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        },
+        {
+          "id": "intro-algebra/14/14.2/10",
+          "verdict": "retain-multiple-choice",
+          "reason": "Equations or endpoint-plus-radius tuples in first3 versions.",
+          "independentCheck": "Midpoints(2,6),(5,1) eachr5; reflected endpoint(7,10),r5; last diameter sqrt(12^2+5^2)=13 givesr13/2.",
+          "versions": [
+            {
+              "id": "intro-algebra/14/14.2/10/1",
+              "sha256": "92d131cfa6a079b5195841e0ad69d5b65116df6aac10592c76cb6d123a9cb865",
+              "key": 0,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/10/2",
+              "sha256": "2f1e0d56a252e813dc38648d1dc483195eb0129a9f8bcc4cdd3088f2ec315f75",
+              "key": 1,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/10/3",
+              "sha256": "8b7edaca6ff028d699ac8cfb30c58be784f9f5d1d61c97e4ef4de73d74ba7762",
+              "key": 2,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            },
+            {
+              "id": "intro-algebra/14/14.2/10/4",
+              "sha256": "05067545ccee44a7312531921ef53c7923cee5566d52d5ce68f71c818912e312",
+              "key": 3,
+              "verdict": "mathematical-key-and-uniqueness-verified"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "intro-algebra/12/12.1/8/4",
+      "severity": "answer-uniqueness",
+      "status": "fixed",
+      "source": "src/data/variants/intro-algebra/ch12-s1.js",
+      "issue": "The unrestricted assertion admitted both 3/4 and i as counterexamples. The explanation incorrectly dismissed classification of i as inapplicable.",
+      "fix": "Restricted the claim and requested counterexample explicitly to real numbers. Explanation now excludes i by the real domain. Key 0 remains uniquely correct.",
+      "verification": "3/4 is real/noninteger/rational; sqrt2 is irrational; -6 fails the antecedent; i is outside the real domain."
+    }
+  ]
+}

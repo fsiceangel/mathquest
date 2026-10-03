@@ -1,0 +1,9 @@
+# Counting chapter 6: full variant difficulty review
+
+2026-09-22: compared all 32 base stems and **96 variant stems**, completing the prior 93-stem remainder. For figure-dependent variants the relevant point/edge coordinates were read from the solution routes. Nontrivial comparisons, periodic allocations, overlapping circular restrictions, constrained gaps and compound digit conditions were inspected in their solutions.
+
+This mixed-problem chapter still has no introductory level sequence. Do not use its position as evidence of prerequisite readiness. New L4 variants include 6.2 #1 rounds 2/3 (ranked digits plus parity/zero), #2 rounds 3/4 (reachable-point overlap/third obstacle), #3 rounds 2/3 (bounded allocations), #6 rounds 2–4 (multiple block constraints). Section #5 round 4 has two strict cookie comparisons and tie intersections (L5). Worksheet #6 rounds 3/4 introduce factor-of-four and modulo-three classification (L4); #8 round 4 permits any number of separated heads and needs a sum or recurrence (L4); #10 round 4 adds a buffer beside an endpoint person (L5).
+
+Downward and route changes are explicit: challenge #8 round 2 is one repeated-pair complement after fixing endpoints (L3 bridge), round 3 is a two-event block inclusion-exclusion (L4 bridge); neither should inherit the base's extension exclusion. Challenge #11 round 2 forbids only two couples (L4 bridge) while the three-couple variants retain extension. Section 6.2 #10 round 3 is a two-letter exclusive occurrence count (L3). Worksheet #5 round 4 forces alternating special seats and an opposite partner (L3).
+
+No definite key error was established in the inspected routes. Routine keys were not independently recomputed, printed textbook alignment remains unverified, and these editorial demand judgments are not student solve-time or success-rate measurements.

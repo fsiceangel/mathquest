@@ -1,0 +1,21 @@
+{
+  "book": "prealgebra",
+  "reviewedAt": "2026-10-01",
+  "scope": "Reviewed all 980 selected numeric-entry candidate versions (245 slots across 82 section/challenge groups) in tmp/entry-candidates.json for standalone prompts, answer uniqueness, estimation precision, and representational requirements. This suitability review does not replace or rerun the existing mathematical answer audit.",
+  "excludeSlots": [
+    {
+      "id": "prealgebra/6/6.2/7",
+      "reason": "Version 4 asks to round to a friendly whole number and asks roughly what the answer should be, without a unique rounding rule or tolerance. Sixty is the intended estimate, but exact-equality input should not reject another reasonable estimate. Keep the whole slot multiple choice until this wording specifies rounding each factor to the nearest whole number. Versions 1-3 already specify that rule and are individually safe."
+    }
+  ],
+  "includeSlots": [],
+  "notes": [
+    "All reviewed selected prompts are understandable without seeing their options; graph-reading 13.3/1 relies on its existing figure, which must remain visible.",
+    "Explicit fraction, improper-fraction, and simplest-form requests remain eligible only with the planned representation validation. In particular 4.8/1 versions 1-3 ask for improper fractions, while version 4 asks for an integer count; do not impose a slot-wide fraction rule on that fourth version.",
+    "Simplification prompts in 4.5 and 4/challenge must require reduced fractions where appropriate, but prompts asking for n in a fraction identity must accept the scalar n rather than require fraction notation.",
+    "Round-to-hundredth output such as 1.00 has the same numerical value as 1; these prompts do not explicitly ask for a fixed number of decimal places, so accepting 1 is reasonable.",
+    "Percentage answers must retain the percent marker outside the entry box, and angle answers must retain the degree marker. The underlying typed expected values are the displayed percent or degree quantities, not decimal probabilities or radians.",
+    "14/challenge/4 uses the conventional 26-letter alphabet and ten decimal digits, as its existing keyed choices do. Any future internationalization should make that alphabet explicit.",
+    "Arithmetic-pattern questions in 15.1 assume continuation of the displayed constant-difference pattern, matching the existing elementary lesson convention. No option-dependent candidate was found in these slots."
+  ]
+}

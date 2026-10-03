@@ -454,7 +454,7 @@ const s63 = [
         'All three sides divide by $3$: $21 \\div 3 = 7$, $72 \\div 3 = 24$, $75 \\div 3 = 25$ — the $7$-$24$-$25$ family ✓. Rebuild to confirm: $3 \\times (7$-$24$-$25)$ gives back $21$-$72$-$75$ exactly ✓. (Choosing $3$-$4$-$5$ is CONFUSING THE SCALE FACTOR WITH THE FAMILY — the common factor is $3$, but what remains after dividing is $7$-$24$-$25$ ✗; $5$-$12$-$13$ is SPOTTING THE $5$ at the end of $75$ and stopping there ✗; $8$-$15$-$17$ is GRABBING A FACTOR OF ONE SIDE — $72$ is a multiple of $8$, but $21$ and $75$ are not ✗.)',
     },
     {
-      q: 'The sides $32$, $60$, $68$ make a right triangle. Scaling which triple family produces these sides?',
+      q: 'The sides $32$, $60$, $68$ make a right triangle. Which primitive triple family (with no common factor greater than $1$) scales to produce these sides?',
       choices: ['$8$-$15$-$17$', '$16$-$30$-$34$', '$5$-$12$-$13$', '$3$-$4$-$5$'],
       answer: 0,
       solution:

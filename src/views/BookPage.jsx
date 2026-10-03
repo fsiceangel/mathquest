@@ -4,6 +4,7 @@ import { checkpointsFor } from '../data/checkpoints/index.js'
 import { getResult, starsFor } from '../lib/storage.js'
 import { Lock, ArrowRight, Swords } from '../components/icons.jsx'
 import { BackLink } from '../components/ui.jsx'
+import { calibrations, scopeLabels } from '../data/calibration/index.js'
 
 function chapterStars(bookId, content) {
   if (!content) return { earned: 0, possible: 0 }
@@ -20,12 +21,15 @@ function ChapterCard({ book, chapter }) {
   const content = available ? getChapterContent(book.id, chapter.number) : null
   const stars = chapterStars(book.id, content)
   const sectionCount = chapter.sections?.length
+  const scopes = Object.values(calibrations[book.id]?.chapters[chapter.number]?.sections ?? {}).map(s => s.scope)
+  const label = scopes.every(s => s === 'extension') ? 'Optional extension' : scopes.includes('extension') ? 'Core / bridge with optional extensions' : 'Core / contest bridge'
 
   const inner = (
     <>
       <span className="ch-num">{chapter.number}</span>
       <span className="ch-info">
         <span className="ch-title">{chapter.title}</span>
+        <span className="scope-note">{label}</span>
         {sectionCount && <span className="ch-sub">{sectionCount} section{sectionCount === 1 ? '' : 's'}</span>}
       </span>
       {available ? (
@@ -72,6 +76,7 @@ function CheckpointCard({ book, cp }) {
         <span className="ch-title">{cp.title}</span>
         <span className="ch-sub">
           {cp.problems.length} problems · {cp.minutes ?? 25} minutes · timed
+          {' · '}{scopeLabels[calibrations[book.id]?.checkpoints[cp.number]?.scope]}
         </span>
       </span>
       <span className="ch-side">
@@ -91,6 +96,9 @@ export default function BookPage({ book }) {
         <h1>{book.title}</h1>
         <p className="lede">{book.subtitle}</p>
       </header>
+      <p className="learning-note">{book.id === 'prealgebra'
+        ? 'After Beast Academy, use familiar sections as a quick check and spend more time on explanations and word problems. Try checkpoints without a timer first.'
+        : 'Start after Prealgebra. You can study these Introduction books in parallel; finishing every book is not a prerequisite for contest practice. Optional extensions remain available for your textbook work.'}</p>
       <div className="chapter-list">
         {book.chapters.map((c) => (
           <Fragment key={c.number}>

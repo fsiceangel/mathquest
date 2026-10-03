@@ -148,22 +148,22 @@ const worksheet = [
   //          P = 44, A = 143 -> 6.5.
   [
     {
-      q: 'A triangular basin has perimeter $48$, and the water surface inside it has area $132$. Find the radius of the basin’s inscribed circle.',
-      answer: '$r = 5.5$',
+      q: 'A triangular basin has perimeter $48$, and the water surface inside it has area $84$. Find the radius of the basin’s inscribed circle.',
+      answer: '$r = 3.5$',
       solution:
-        'The formula Area $= rs$ wants the SEMIperimeter: $s = \\frac{48}{2} = 24$, so $132 = 24r$ and $r = \\frac{132}{24} = 5.5$. Second route rebuilds the formula instead of quoting it: joining the incenter to the three vertices cuts the triangle into three slivers whose bases are the three sides and whose common height is $r$, so the total area is $\\frac{r}{2}(\\text{sum of the sides}) = \\frac{r}{2} \\cdot 48 = 24r$; setting $24r = 132$ lands on $r = 5.5$ ✓ — the same equation, derived from scratch. Reverse check: $rs = 5.5 \\times 24 = 132$ ✓. USING THE FULL PERIMETER divides $132$ by $48$ and reports $2.75$ ✗, exactly half the truth — the halving is already built into $s$. FLIPPING THE FRACTION computes $\\frac{24}{132}$ ✗; the area rides on top, because a bigger triangle with the same boundary needs a fatter circle.',
+        'The semiperimeter is $s=48/2=24$. Using Area $=rs$, the inradius is $r=84/24=3.5$. Check by joining the incenter to the vertices: the three triangles have common height $3.5$ and bases totaling $48$, so their combined area is $\\frac12\\cdot48\\cdot3.5=84$. Dividing by the full perimeter would give only half the correct radius.',
     },
     {
-      q: 'The three sides of a triangular banner add up to $40$, and the banner’s area is $90$. What is the banner’s inradius?',
-      answer: '$r = 4.5$',
+      q: 'The three sides of a triangular banner add up to $40$, and the banner’s area is $60$. What is the banner’s inradius?',
+      answer: '$r = 3$',
       solution:
-        'The side sum is the perimeter, so the semiperimeter is $s = \\frac{40}{2} = 20$, and Area $= rs$ gives $90 = 20r$, so $r = \\frac{90}{20} = 4.5$. Second route through the sliver decomposition: the incenter is the one interior point at the same perpendicular distance $r$ from every side, so slicing from it to the vertices makes three triangles of areas $\\frac{r}{2}$ times each side; the areas total $\\frac{r}{2} \\cdot 40 = 20r$, and matching that to $90$ returns $r = 4.5$ ✓ — the identity is nothing more than this bookkeeping. Reverse check: $4.5 \\times 20 = 90$ ✓. USING THE FULL PERIMETER reports $\\frac{90}{40} = 2.25$ ✗, a circle half the right size. FLIPPING THE FRACTION computes $\\frac{20}{90}$ ✗ and produces a “radius” smaller than $1$ for a banner that plainly holds a bigger circle.',
+        'The semiperimeter is $s=40/2=20$. Using Area $=rs$, the inradius is $r=60/20=3$. Check by joining the incenter to the vertices: the three triangles have common height $3$ and bases totaling $40$, so their combined area is $\\frac12\\cdot40\\cdot3=60$. Dividing by the full perimeter would give only half the correct radius.',
     },
     {
-      q: 'A triangle has perimeter $44$. Its incircle touches all three sides, and the triangle’s area is $143$. Find the incircle’s radius.',
-      answer: '$r = 6.5$',
+      q: 'A triangle has perimeter $44$. Its incircle touches all three sides, and the triangle’s area is $66$. Find the incircle’s radius.',
+      answer: '$r = 3$',
       solution:
-        'Semiperimeter first: $s = \\frac{44}{2} = 22$. Then Area $= rs$ gives $143 = 22r$, so $r = \\frac{143}{22} = 6.5$. Second route re-derives the equation: connect the incenter to the three vertices; each of the three resulting triangles has a side of the big triangle as base and the SAME height $r$ (the incircle’s radius reaches every side perpendicularly), so the areas add to $\\frac{r}{2} \\cdot 44 = 22r$, and $22r = 143$ forces $r = 6.5$ ✓ — quoting nothing, just adding slivers. Reverse check: $6.5 \\times 22 = 143$ ✓. USING THE FULL PERIMETER computes $\\frac{143}{44} = 3.25$ ✗, half the answer — the most common slip in this entire section. FLIPPING THE FRACTION offers $\\frac{22}{143}$ ✗; dimensional sense alone rejects it, since dividing a length by an area cannot produce a length.',
+        'The semiperimeter is $s=44/2=22$. Using Area $=rs$, the inradius is $r=66/22=3$. Check by joining the incenter to the vertices: the three triangles have common height $3$ and bases totaling $44$, so their combined area is $\\frac12\\cdot44\\cdot3=66$. Dividing by the full perimeter would give only half the correct radius.',
     },
   ],
 

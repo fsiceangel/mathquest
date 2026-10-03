@@ -504,7 +504,7 @@ const s15 = {
       solution: 'Postulates are the starting assumptions of geometry — we accept them without proof and build everything else on top. Theorems must be proved, definitions just explain what words mean, and a counterexample is a case that disproves a claim.',
     },
     {
-      q: 'Jamal checks a claim for $100$ different numbers, and it works every single time. Has he proved the claim?',
+      q: 'Jamal tests a claim about every whole number on $100$ different whole numbers, and it works every single time. Has this testing alone proved the claim?',
       choices: ['No — a proof must cover every possible case', 'Yes — $100$ examples is plenty', 'Yes — since he found no counterexample, none exists', 'Only if the $100$ numbers were chosen randomly'],
       answer: 0,
       solution: 'Examples only cover the cases you actually check, and there are infinitely many numbers left over. Case number $101$ — or $101$ trillion — could still fail. To prove a claim, you need a logical argument that works for every case at once, not a pile of examples.',
@@ -675,7 +675,7 @@ const challenge = [
   },
   {
     q: 'Which of these true statements has a converse that is ALSO true?',
-    choices: ['If a number is a multiple of $10$, then it is even', 'If a shape is a square, then it has four sides', 'If a number is even, then it is $2$ times some whole number', 'If a segment is a diameter of a circle, then it is a chord of that circle'],
+    choices: ['If a number is a multiple of $10$, then it is even', 'If a shape is a square, then it has four sides', 'If a whole number is even, then it is $2$ times some whole number', 'If a segment is a diameter of a circle, then it is a chord of that circle'],
     answer: 2,
     solution: 'Take the converses one at a time. "Even $\\Rightarrow$ multiple of $10$" fails ($4$ is even). "Four sides $\\Rightarrow$ square" fails (a long rectangle). "Chord $\\Rightarrow$ diameter" fails (a short chord misses the center). But "$2$ times a whole number $\\Rightarrow$ even" is exactly the definition of even — definitions work in both directions, so that converse is true.',
   },

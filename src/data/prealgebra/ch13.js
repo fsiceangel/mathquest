@@ -1,6 +1,8 @@
 // Prealgebra — Chapter 13: Data and Statistics
 // All problems, explanations, and examples are original MathQuest content.
 
+import { barChart } from '../figures/bar-chart.js'
+
 const s131 = {
   id: '13.1',
   title: 'Basic Statistics',
@@ -166,6 +168,26 @@ const s132 = {
         ],
         answer: 'Both means are $10$, but the ranges are $2$ and $20$',
       },
+      {
+        problem: 'Build four whole numbers with mean $7$, median $6$, and range $10$.',
+        steps: [
+          'Use four sorted boxes. The total is $4 \\times 7 = 28$. The two middle boxes must add to $2 \\times 6 = 12$.',
+          'The two end boxes therefore add to $28 - 12 = 16$. They differ by $10$, so they are $3$ and $13$.',
+          'Choose two middle values between those ends that add to $12$: $5$ and $7$ work.',
+          'Check all three requirements: total $28$, middle average $6$, and end difference $10$. Other middle pairs may work too.',
+        ],
+        answer: 'One example is $3, 5, 7, 13$',
+      },
+      {
+        problem: 'Now build six whole numbers with mean $8$, median $7$, and range $10$.',
+        steps: [
+          'The total must be $48$. The third and fourth boxes must add to $14$; try $6$ and $8$.',
+          'Choose endpoints $4$ and $14$, which differ by $10$. The remaining second and fifth boxes must total $48 - (4+6+8+14)=16$.',
+          'Keep the boxes sorted: the second must be between $4$ and $6$, and the fifth between $8$ and $14$. Choosing $5$ and $11$ meets both restrictions.',
+          'Check the finished list. If a choice breaks the order, revise it; finding one valid example is enough.',
+        ],
+        answer: 'One example is $4, 5, 6, 8, 11, 14$',
+      },
     ],
   },
   problems: [
@@ -239,7 +261,7 @@ const s133 = {
     concepts: [
       {
         heading: 'A table is just an organized list',
-        body: 'Data often arrives day by day or category by category: "Monday $12$, Tuesday $8$, Wednesday $15$." Everything you know about statistics still applies — add the values for a total, divide by the number of categories for a mean, and compare entries to find the biggest or smallest.',
+        body: 'Read the labels and the scale before calculating. In a bar chart, the category is below each bar and its value is the height read from the vertical axis; a tick may stand for more than one item. In a table, match each row label to its value. Add values for a total, divide by the number of categories for a mean, and subtract to compare.',
       },
       {
         heading: 'Frequencies: counting how many of each',
@@ -286,19 +308,22 @@ const s133 = {
   },
   problems: [
     {
-      q: 'The craft club sold bracelets: Monday $12$, Tuesday $8$, Wednesday $10$, Thursday $14$. How many bracelets did they sell in all?',
+      q: 'The bar chart shows how many bracelets the craft club sold each day. The vertical axis counts bracelets. How many did they sell in all?',
+      fig: barChart(['Mon','Tue','Wed','Thu'], [12,8,10,14]),
       choices: ['$44$', '$40$', '$46$', '$34$'],
       answer: 0,
       solution: 'Add the four days: $12 + 8 + 10 + 14 = 44$ bracelets. Pairing helps: $12 + 8 = 20$ and $10 + 14 = 24$, so $20 + 24 = 44$.',
     },
     {
-      q: 'Using the same sales — Monday $12$, Tuesday $8$, Wednesday $10$, Thursday $14$ — what was the mean number of bracelets sold per day?',
+      q: 'The bar chart shows bracelet sales over four days. The vertical axis counts bracelets. What was the mean number sold per day?',
+      fig: barChart(['Mon','Tue','Wed','Thu'], [12,8,10,14]),
       choices: ['$12$', '$44$', '$11$', '$10$'],
       answer: 2,
       solution: 'The total is $44$ bracelets over $4$ days, so the mean is $\\frac{44}{4} = 11$ per day. (The total $44$ by itself is not a "per day" number — the division finishes the job.)',
     },
     {
-      q: 'A pet survey found: cats $7$, dogs $9$, fish $4$. How many more students chose dogs than fish?',
+      q: 'The bar chart shows the results of a pet survey. The vertical axis counts students. How many more students chose dogs than fish?',
+      fig: barChart(['Cats','Dogs','Fish'], [7,9,4], 1),
       choices: ['$2$', '$13$', '$4$', '$5$'],
       answer: 3,
       solution: 'Compare the two categories with subtraction: $9 - 4 = 5$ more students chose dogs than fish. (Adding $9 + 4 = 13$ would answer a different question — how many chose dogs or fish.)',
@@ -319,7 +344,7 @@ const s133 = {
       q: 'In a survey, $3$ students have $0$ siblings, $5$ students have $1$ sibling, and $2$ students have $2$ siblings. What is the mean number of siblings per student?',
       choices: ['$1$', '$1.5$', '$3$', '$0.9$'],
       answer: 3,
-      solution: 'Total siblings: $3 \\times 0 + 5 \\times 1 + 2 \\times 2 = 0 + 5 + 4 = 9$. Total students: $3 + 5 + 2 = 10$. Mean: $\\frac{9}{10} = 0.9$ siblings per student. Dividing by the $3$ different values instead of the $10$ students would give the wrong answer of $1$.',
+      solution: 'Total siblings: $3 \\times 0 + 5 \\times 1 + 2 \\times 2 = 0 + 5 + 4 = 9$. Total students: $3 + 5 + 2 = 10$. Mean: $\\frac{9}{10} = 0.9$ siblings per student. Averaging the $3$ different values without their frequencies gives $(0 + 1 + 2)/3 = 1$, which ignores how many students gave each answer.',
     },
     {
       q: 'The class cast $40$ votes for lunch: $40\\%$ chose pizza, $35\\%$ chose burgers, and the rest chose salad. How many votes did salad get?',
@@ -416,7 +441,7 @@ const challenge = [
     solution: 'The total is $1 + 5 + 6 + 7 + 41 = 60$, so the mean is $\\frac{60}{5} = 12$. The sorted middle value is $6$, the median. The gap is $12 - 6 = 6$ — a big gap like this is a clue that an outlier (here, $41$) is tugging on the mean.',
   },
   {
-    q: 'A set of five whole numbers has mode $4$, median $6$, and mean $7$. What is the largest possible value in the set?',
+    q: 'A set of five whole numbers has unique mode $4$, median $6$, and mean $7$. What is the largest possible value in the set?',
     choices: ['$13$', '$21$', '$15$', '$14$'],
     answer: 3,
     solution: 'The sorted set looks like $4, 4, 6, a, b$: two $4$s secure the mode, and $6$ is the median. The total must be $5 \\times 7 = 35$, so $a + b = 35 - 14 = 21$. To keep $4$ as the only mode, $a$ cannot equal $6$ (that would create a second pair), so $a$ is at least $7$, making $b$ at most $21 - 7 = 14$. The set $4, 4, 6, 7, 14$ checks out.',

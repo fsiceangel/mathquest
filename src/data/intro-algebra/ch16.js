@@ -293,7 +293,7 @@ const s163 = {
       q: 'If $f(x) = x + 3$ and $g(x) = 2x$, what is $g(f(2))$?',
       choices: ['$10$', '$7$', '$4$', '$12$'],
       answer: 0,
-      solution: 'This time $f$ runs first: $f(2) = 5$. Then $g(5) = 10$. Compare with the previous problem — same machines, different order, different answer.',
+      solution: 'This time $f$ runs first: $f(2) = 5$. Then $g(5) = 10$. Reversing the order would give a different answer: composition is not generally commutative.',
     },
     {
       q: 'If $f(x) = 3x$ and $g(x) = x + 2$, what is $f(g(x))$?',
@@ -639,7 +639,7 @@ const s166 = {
       q: 'With $a \\diamond b = 2a + b^2$, what is $2 \\diamond 3$?',
       choices: ['$10$', '$36$', '$13$', '$25$'],
       answer: 2,
-      solution: 'Now $2$ is on the left (doubled) and $3$ is on the right (squared): $2(2) + 3^2 = 4 + 9 = 13$. Compare with the previous problem: the order matters.',
+      solution: 'Now $2$ is on the left (doubled) and $3$ is on the right (squared): $2(2) + 3^2 = 4 + 9 = 13$. The definition treats its left and right inputs differently, so their order matters.',
     },
     {
       q: 'Define $a \\triangle b = ab - a$. What is $5 \\triangle 4$?',
@@ -718,7 +718,7 @@ const challenge = [
     solution: 'The output doubles at each step: $f(2) = 6$, $f(3) = 12$, $f(4) = 24$, $f(5) = 48$. That is four doublings: $3 \\times 2^4 = 48$.',
   },
   {
-    q: 'If $f(x) = x - 3$ and $(f \\cdot g)(x) = x^2 - 9$, what is $g(x)$?',
+    q: 'If $f(x) = x - 3$, $g$ is a linear function, and $(f \\cdot g)(x) = x^2 - 9$, what is $g(x)$?',
     choices: ['$g(x) = x + 3$', '$g(x) = x - 3$', '$g(x) = x^2 - 3$', '$g(x) = x^2 + 3$'],
     answer: 0,
     solution: 'We need $(x - 3) \\cdot g(x) = x^2 - 9$. Recognize the difference of squares: $x^2 - 9 = (x - 3)(x + 3)$. So $g(x) = x + 3$.',

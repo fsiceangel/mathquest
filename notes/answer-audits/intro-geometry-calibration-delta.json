@@ -1,0 +1,1009 @@
+{
+  "review": "Post-answer-audit geometry changes versus existing difficulty source snapshot. Every current stem, answer/options, and effective rating read; diagram angle placements additionally inspected where changed. This is editorial burden review, not empirical learner calibration.",
+  "changed": 125,
+  "retain": 125,
+  "changeLevel": 0,
+  "changeScope": 0,
+  "items": [
+    {
+      "id": "intro-geometry/1/1.5/3/1",
+      "sourceDigest16": "01a7e00daf5f0555",
+      "level": 1,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Quantifier/converse wording fixes logical validity. Same counterexample or converse recognition; no new theorem or calculation."
+    },
+    {
+      "id": "intro-geometry/1/challenge/9/1",
+      "sourceDigest16": "3a3d871937544293",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Quantifier/converse wording fixes logical validity. Same counterexample or converse recognition; no new theorem or calculation."
+    },
+    {
+      "id": "intro-geometry/2/worksheet/1/1",
+      "sourceDigest16": "32bbd99809198a7c",
+      "level": 1,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Betweenness makes opposite rays explicit; one subtraction180-given remains level1."
+    },
+    {
+      "id": "intro-geometry/3/3.5/4/1",
+      "sourceDigest16": "dd9b24dcd75c132e",
+      "level": 1,
+      "scope": "extension",
+      "decision": "retain",
+      "reason": "SSA ambiguity/HL wording removes a false universal statement or second valid option. Required HL recognition or Pythagorean remaining-leg calculation unchanged; existing extension scope correctly protects prerequisite gap."
+    },
+    {
+      "id": "intro-geometry/4/4.1/5/1",
+      "sourceDigest16": "274a4d94ae8ea15f",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/4.1/10/1",
+      "sourceDigest16": "35f1a56eb7685e11",
+      "level": 3,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/4.2/5/1",
+      "sourceDigest16": "6a957524b2c9f7d3",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/challenge/8/1",
+      "sourceDigest16": "4a85113fbce63179",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/worksheet/3/1",
+      "sourceDigest16": "ccbadc794003c2ac",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/worksheet/7/1",
+      "sourceDigest16": "0037359e39afb23e",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/7/worksheet/3/1",
+      "sourceDigest16": "0a4bf8c4e9d3e9a9",
+      "level": 2,
+      "scope": "extension",
+      "decision": "retain",
+      "reason": "Feasible9-12-15 measurements replace impossible perimeter/area pair. Learner still computes semiperimeter36/2 then54/18; no need to prove feasibility. Same level2 extension inradius formula."
+    },
+    {
+      "id": "intro-geometry/8/8.5/2/1",
+      "sourceDigest16": "8a667b1b6b71830d",
+      "level": 1,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Classification/distractor wording restores a unique statement without changing tested facts. Right-angle parallelogram or square recognition stays level1; combining diagonal bisection with equal/perpendicular conditions stays level2 bridge."
+    },
+    {
+      "id": "intro-geometry/8/8.7/9/1",
+      "sourceDigest16": "0ccf254710f64646",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Classification/distractor wording restores a unique statement without changing tested facts. Right-angle parallelogram or square recognition stays level1; combining diagonal bisection with equal/perpendicular conditions stays level2 bridge."
+    },
+    {
+      "id": "intro-geometry/8/8.7/10/1",
+      "sourceDigest16": "ce8cf99acc91ac8d",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Classification/distractor wording restores a unique statement without changing tested facts. Right-angle parallelogram or square recognition stays level1; combining diagonal bisection with equal/perpendicular conditions stays level2 bridge."
+    },
+    {
+      "id": "intro-geometry/10/10.3/10/1",
+      "sourceDigest16": "7712c9f09920c339",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Adjustable sides/noncollinearity explicitly permit the intended strict triangle inequality. Same bounds abs(a-b)<c<a+b and integer count, or route-saving transformation. No equality case split added; retain existing level2/3 and scope."
+    },
+    {
+      "id": "intro-geometry/10/worksheet/9/1",
+      "sourceDigest16": "e4213275491aea88",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Adjustable sides/noncollinearity explicitly permit the intended strict triangle inequality. Same bounds abs(a-b)<c<a+b and integer count, or route-saving transformation. No equality case split added; retain existing level2/3 and scope."
+    },
+    {
+      "id": "intro-geometry/14/14.3/5/1",
+      "sourceDigest16": "afb1df7de4d3fc38",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/6/1",
+      "sourceDigest16": "7d059f98f9efeb7a",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/7/1",
+      "sourceDigest16": "cb536f0efe88ddd9",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/8/1",
+      "sourceDigest16": "f7cf6ecb7827dbe2",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/worksheet/4/1",
+      "sourceDigest16": "1a7a0d5974d6cc52",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/15/15.1/5/1",
+      "sourceDigest16": "97c6d7fc3f589ca8",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.1/9/1",
+      "sourceDigest16": "a5d69dadfa121c35",
+      "level": 3,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.4/6/1",
+      "sourceDigest16": "8ff21f797fda2d82",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.4/7/1",
+      "sourceDigest16": "e0279f8c50c77991",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.4/10/1",
+      "sourceDigest16": "547eecfe75bcf8c2",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/challenge/3/1",
+      "sourceDigest16": "aa1db7df9e0dbb73",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Consistent length unit makes comparison of numerical volume/surface measures well-defined; same algebraic cancellation yielding r/3, level3 bridge."
+    },
+    {
+      "id": "intro-geometry/15/challenge/8/1",
+      "sourceDigest16": "08f8ae8eed3ebaca",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/challenge/12/1",
+      "sourceDigest16": "5146bea61061c32e",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Volume-preserving melt assumption justifies the intended hemisphere-to-cone equality. Same formula combination/radius ratio, level3 bridge."
+    },
+    {
+      "id": "intro-geometry/15/worksheet/4/1",
+      "sourceDigest16": "e966ea204f3b02c7",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/worksheet/9/1",
+      "sourceDigest16": "4f62279436915804",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/17/challenge/8/1",
+      "sourceDigest16": "30acc1a9f540116c",
+      "level": 2,
+      "scope": "extension",
+      "decision": "retain",
+      "reason": "a>0,c>0 guarantees nondegenerate triangle and makes requested length a instead of abs(a). Midpoint subtraction or midsegment theorem unchanged; level2 extension retained."
+    },
+    {
+      "id": "intro-geometry/19/challenge/7/1",
+      "sourceDigest16": "903e448c34117689",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Neighboring-side perpendicularity repairs impossible all-interior-right-angle premise. Same single auxiliary line and rectangle area decomposition; level2 bridge."
+    },
+    {
+      "id": "intro-geometry/2/2.4/6/3",
+      "sourceDigest16": "90e9962033fa47cf",
+      "level": 1,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Correct angle arcs require supplementary-angle subtraction180-given; still direct parallel-line recognition at level1."
+    },
+    {
+      "id": "intro-geometry/2/2.4/6/4",
+      "sourceDigest16": "4102f3f2cb33f778",
+      "level": 1,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Correct angle arcs require supplementary-angle subtraction180-given; still direct parallel-line recognition at level1."
+    },
+    {
+      "id": "intro-geometry/2/worksheet/1/2",
+      "sourceDigest16": "10eed2ee6cb878df",
+      "level": 1,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Betweenness makes opposite rays explicit; one subtraction180-given remains level1."
+    },
+    {
+      "id": "intro-geometry/2/worksheet/8/4",
+      "sourceDigest16": "4dd837939abbc5db",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Specifying both endpoints to the right fixes the intended bend; draw the same parallel through P and add29+45. Two linked angle relations remain level2."
+    },
+    {
+      "id": "intro-geometry/3/3.2/8/4",
+      "sourceDigest16": "edf3a5200e492706",
+      "level": 1,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Restricting response to the second triangle removes self-angle distractor; same direct SSS vertex correspondence, level1 bridge."
+    },
+    {
+      "id": "intro-geometry/3/3.5/1/2",
+      "sourceDigest16": "df80fd1f422bc9a9",
+      "level": 2,
+      "scope": "extension",
+      "decision": "retain",
+      "reason": "SSA ambiguity/HL wording removes a false universal statement or second valid option. Required HL recognition or Pythagorean remaining-leg calculation unchanged; existing extension scope correctly protects prerequisite gap."
+    },
+    {
+      "id": "intro-geometry/3/3.5/1/3",
+      "sourceDigest16": "9c5b2e410ea03178",
+      "level": 2,
+      "scope": "extension",
+      "decision": "retain",
+      "reason": "SSA ambiguity/HL wording removes a false universal statement or second valid option. Required HL recognition or Pythagorean remaining-leg calculation unchanged; existing extension scope correctly protects prerequisite gap."
+    },
+    {
+      "id": "intro-geometry/3/3.5/2/4",
+      "sourceDigest16": "f7ab078518356ce1",
+      "level": 1,
+      "scope": "extension",
+      "decision": "retain",
+      "reason": "SSA ambiguity/HL wording removes a false universal statement or second valid option. Required HL recognition or Pythagorean remaining-leg calculation unchanged; existing extension scope correctly protects prerequisite gap."
+    },
+    {
+      "id": "intro-geometry/3/3.5/5/3",
+      "sourceDigest16": "5efec7eb4fb4dbf2",
+      "level": 2,
+      "scope": "extension",
+      "decision": "retain",
+      "reason": "SSA ambiguity/HL wording removes a false universal statement or second valid option. Required HL recognition or Pythagorean remaining-leg calculation unchanged; existing extension scope correctly protects prerequisite gap."
+    },
+    {
+      "id": "intro-geometry/4/4.1/5/2",
+      "sourceDigest16": "7d360621a439f24b",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/4.1/5/4",
+      "sourceDigest16": "ca36926067df0f29",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/4.1/10/2",
+      "sourceDigest16": "0104eb4bd5588ad1",
+      "level": 3,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/4.1/10/3",
+      "sourceDigest16": "d9b994185ac9bbbf",
+      "level": 3,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/4.1/10/4",
+      "sourceDigest16": "d707a54501918b3d",
+      "level": 3,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/4.2/5/2",
+      "sourceDigest16": "486d145afe59bc18",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/4.2/5/3",
+      "sourceDigest16": "e9f60029ab32280c",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/4.2/5/4",
+      "sourceDigest16": "6fbc924709e7d513",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/challenge/8/2",
+      "sourceDigest16": "4f23504c5ac16e15",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/challenge/8/3",
+      "sourceDigest16": "b394458da3c3ee5e",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/challenge/8/4",
+      "sourceDigest16": "02ffa0fb696cbdbc",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/worksheet/3/2",
+      "sourceDigest16": "6b8615d89a80e382",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/worksheet/3/4",
+      "sourceDigest16": "9b6fdafcffc01689",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/worksheet/7/3",
+      "sourceDigest16": "a6c931f20c34ec6b",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/4/worksheet/7/4",
+      "sourceDigest16": "ecd79b9da0e99978",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Replacing all interior angles right with neighboring sides perpendicular makes concave shape possible. Same rectilinear closure, decomposition, or area-plus-perimeter task and same numerical labels; no added theorem or operation."
+    },
+    {
+      "id": "intro-geometry/5/5.1/1/2",
+      "sourceDigest16": "028363793692eb8a",
+      "level": 1,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Distractor repaired to avoid an equivalent similarity criterion; direct equal-angle/proportional-side definition remains level1 core."
+    },
+    {
+      "id": "intro-geometry/6/6.3/9/3",
+      "sourceDigest16": "c2ae1b54384f64f9",
+      "level": 1,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Primitive explicitly defined as no common factor greater than1. Divide32,60,68 by4 and recognize8,15,17; this resolves two scale-family choices using existing common-factor arithmetic, level1 core."
+    },
+    {
+      "id": "intro-geometry/8/8.6/6/4",
+      "sourceDigest16": "1bb9574c0df9e9a6",
+      "level": 1,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Classification/distractor wording restores a unique statement without changing tested facts. Right-angle parallelogram or square recognition stays level1; combining diagonal bisection with equal/perpendicular conditions stays level2 bridge."
+    },
+    {
+      "id": "intro-geometry/8/8.7/9/2",
+      "sourceDigest16": "e3d9fc2e0a821dfc",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Classification/distractor wording restores a unique statement without changing tested facts. Right-angle parallelogram or square recognition stays level1; combining diagonal bisection with equal/perpendicular conditions stays level2 bridge."
+    },
+    {
+      "id": "intro-geometry/8/8.7/9/3",
+      "sourceDigest16": "c3458b0c7c9cc23a",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Classification/distractor wording restores a unique statement without changing tested facts. Right-angle parallelogram or square recognition stays level1; combining diagonal bisection with equal/perpendicular conditions stays level2 bridge."
+    },
+    {
+      "id": "intro-geometry/8/8.7/9/4",
+      "sourceDigest16": "7a82b73399d63df1",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Classification/distractor wording restores a unique statement without changing tested facts. Right-angle parallelogram or square recognition stays level1; combining diagonal bisection with equal/perpendicular conditions stays level2 bridge."
+    },
+    {
+      "id": "intro-geometry/8/8.7/10/2",
+      "sourceDigest16": "3f2ef774abb4dc0e",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Classification/distractor wording restores a unique statement without changing tested facts. Right-angle parallelogram or square recognition stays level1; combining diagonal bisection with equal/perpendicular conditions stays level2 bridge."
+    },
+    {
+      "id": "intro-geometry/8/8.7/10/3",
+      "sourceDigest16": "a9384aa8ce0d0b1b",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Classification/distractor wording restores a unique statement without changing tested facts. Right-angle parallelogram or square recognition stays level1; combining diagonal bisection with equal/perpendicular conditions stays level2 bridge."
+    },
+    {
+      "id": "intro-geometry/8/8.7/10/4",
+      "sourceDigest16": "3d96e31878f9e3ec",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Classification/distractor wording restores a unique statement without changing tested facts. Right-angle parallelogram or square recognition stays level1; combining diagonal bisection with equal/perpendicular conditions stays level2 bridge."
+    },
+    {
+      "id": "intro-geometry/10/10.3/5/2",
+      "sourceDigest16": "fd95d9ae14d7e280",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Adjustable sides/noncollinearity explicitly permit the intended strict triangle inequality. Same bounds abs(a-b)<c<a+b and integer count, or route-saving transformation. No equality case split added; retain existing level2/3 and scope."
+    },
+    {
+      "id": "intro-geometry/10/10.3/5/4",
+      "sourceDigest16": "e7aa4f23dfc5cc52",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Adjustable sides/noncollinearity explicitly permit the intended strict triangle inequality. Same bounds abs(a-b)<c<a+b and integer count, or route-saving transformation. No equality case split added; retain existing level2/3 and scope."
+    },
+    {
+      "id": "intro-geometry/10/10.3/10/2",
+      "sourceDigest16": "6ef3d771dd8403d4",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Adjustable sides/noncollinearity explicitly permit the intended strict triangle inequality. Same bounds abs(a-b)<c<a+b and integer count, or route-saving transformation. No equality case split added; retain existing level2/3 and scope."
+    },
+    {
+      "id": "intro-geometry/10/10.3/10/3",
+      "sourceDigest16": "2e97d3b2a8b3f564",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Adjustable sides/noncollinearity explicitly permit the intended strict triangle inequality. Same bounds abs(a-b)<c<a+b and integer count, or route-saving transformation. No equality case split added; retain existing level2/3 and scope."
+    },
+    {
+      "id": "intro-geometry/10/10.3/10/4",
+      "sourceDigest16": "7073f8081de35031",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "Adjustable sides/noncollinearity explicitly permit the intended strict triangle inequality. Same bounds abs(a-b)<c<a+b and integer count, or route-saving transformation. No equality case split added; retain existing level2/3 and scope."
+    },
+    {
+      "id": "intro-geometry/13/worksheet/5/3",
+      "sourceDigest16": "dca46720f9127ee9",
+      "level": 2,
+      "scope": "extension",
+      "decision": "retain",
+      "reason": "Tangent-secant setup has coherent point order and measurements. Same PT=sqrt(PA*(PA+AB))=sqrt(24*54)=36; extension prerequisite and level2 unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/5/2",
+      "sourceDigest16": "5ecdd3ad3d8262c4",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/5/3",
+      "sourceDigest16": "bb09e3d452eb65e8",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/5/4",
+      "sourceDigest16": "057a55513bb272ce",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/6/2",
+      "sourceDigest16": "35c93232b9c641d7",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/6/3",
+      "sourceDigest16": "938b2e7b8d2e05b2",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/6/4",
+      "sourceDigest16": "9346e46a0a5c3811",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/7/2",
+      "sourceDigest16": "3a730c159c3f0f47",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/7/3",
+      "sourceDigest16": "19a2b1f380f32d12",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/7/4",
+      "sourceDigest16": "70b8b21d78491b2a",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/8/2",
+      "sourceDigest16": "6f3dd79f8c96d008",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/8/3",
+      "sourceDigest16": "a421c4d9fe7c17b0",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.3/8/4",
+      "sourceDigest16": "8f125f5fc63a7226",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/14.4/3/2",
+      "sourceDigest16": "c634ed1cb5b5fd9d",
+      "level": 1,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Convexity closes applicability of Platonic-solid/Euler facts. Name recognition remains level1; worksheet requires same incidence counting plus Euler system at level4. No new case or prerequisite."
+    },
+    {
+      "id": "intro-geometry/14/14.4/3/3",
+      "sourceDigest16": "5bd599b04d28d982",
+      "level": 1,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Convexity closes applicability of Platonic-solid/Euler facts. Name recognition remains level1; worksheet requires same incidence counting plus Euler system at level4. No new case or prerequisite."
+    },
+    {
+      "id": "intro-geometry/14/14.4/3/4",
+      "sourceDigest16": "ae83ce0129383eb1",
+      "level": 1,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Convexity closes applicability of Platonic-solid/Euler facts. Name recognition remains level1; worksheet requires same incidence counting plus Euler system at level4. No new case or prerequisite."
+    },
+    {
+      "id": "intro-geometry/14/worksheet/4/2",
+      "sourceDigest16": "6d85ee664d8e41db",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/worksheet/4/3",
+      "sourceDigest16": "aa2012490ea17ab9",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/worksheet/4/4",
+      "sourceDigest16": "9422407ba308ac56",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Apex above center makes the previously intended right pyramid explicit. Same half-base right triangle and Pythagoras, face-area sum, or subsequent volume. Level2 single setup and level3 combined computations unchanged."
+    },
+    {
+      "id": "intro-geometry/14/worksheet/10/2",
+      "sourceDigest16": "7e316fdcb0096dad",
+      "level": 4,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Convexity closes applicability of Platonic-solid/Euler facts. Name recognition remains level1; worksheet requires same incidence counting plus Euler system at level4. No new case or prerequisite."
+    },
+    {
+      "id": "intro-geometry/14/worksheet/10/3",
+      "sourceDigest16": "02cdce02db756d77",
+      "level": 4,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Convexity closes applicability of Platonic-solid/Euler facts. Name recognition remains level1; worksheet requires same incidence counting plus Euler system at level4. No new case or prerequisite."
+    },
+    {
+      "id": "intro-geometry/14/worksheet/10/4",
+      "sourceDigest16": "5d8dc698b0220871",
+      "level": 4,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Convexity closes applicability of Platonic-solid/Euler facts. Name recognition remains level1; worksheet requires same incidence counting plus Euler system at level4. No new case or prerequisite."
+    },
+    {
+      "id": "intro-geometry/15/15.1/2/4",
+      "sourceDigest16": "b17fca91bd0a5f46",
+      "level": 2,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.1/9/2",
+      "sourceDigest16": "5497140122036c8e",
+      "level": 3,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.1/9/3",
+      "sourceDigest16": "de9aa18b9876c1c0",
+      "level": 3,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.1/9/4",
+      "sourceDigest16": "a45a0d7ae4cb7a53",
+      "level": 3,
+      "scope": "core",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.4/6/2",
+      "sourceDigest16": "294c239792a619ba",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.4/6/3",
+      "sourceDigest16": "23f80c9151f49bb7",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.4/6/4",
+      "sourceDigest16": "b9aa448d2db61c51",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.4/7/2",
+      "sourceDigest16": "1e81509c713c8177",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.4/7/3",
+      "sourceDigest16": "d7b3cdd5c6750614",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.4/7/4",
+      "sourceDigest16": "8ddb2bba233e440f",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.4/10/2",
+      "sourceDigest16": "51341d0c92c5b473",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.4/10/3",
+      "sourceDigest16": "a1f44e9633055f76",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/15.4/10/4",
+      "sourceDigest16": "a539d46630b95c68",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/challenge/3/2",
+      "sourceDigest16": "6c126a76298bb295",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Consistent length unit makes comparison of numerical volume/surface measures well-defined; same algebraic cancellation yielding r/3, level3 bridge."
+    },
+    {
+      "id": "intro-geometry/15/challenge/3/3",
+      "sourceDigest16": "3b656d3892106015",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Consistent length unit makes comparison of numerical volume/surface measures well-defined; same algebraic cancellation yielding r/3, level3 bridge."
+    },
+    {
+      "id": "intro-geometry/15/challenge/3/4",
+      "sourceDigest16": "9ca1ed4e1d49c321",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Consistent length unit makes comparison of numerical volume/surface measures well-defined; same algebraic cancellation yielding r/3, level3 bridge."
+    },
+    {
+      "id": "intro-geometry/15/challenge/8/2",
+      "sourceDigest16": "94800e5e75944c07",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/challenge/8/3",
+      "sourceDigest16": "c24af8492e924d5c",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/challenge/8/4",
+      "sourceDigest16": "75b305e512b61349",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/challenge/12/2",
+      "sourceDigest16": "729c38bece6dfaea",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Volume-preserving melt assumption justifies the intended hemisphere-to-cone equality. Same formula combination/radius ratio, level3 bridge."
+    },
+    {
+      "id": "intro-geometry/15/challenge/12/3",
+      "sourceDigest16": "137b15462cc0dac6",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Volume-preserving melt assumption justifies the intended hemisphere-to-cone equality. Same formula combination/radius ratio, level3 bridge."
+    },
+    {
+      "id": "intro-geometry/15/challenge/12/4",
+      "sourceDigest16": "c92df33a4f6a5a55",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Volume-preserving melt assumption justifies the intended hemisphere-to-cone equality. Same formula combination/radius ratio, level3 bridge."
+    },
+    {
+      "id": "intro-geometry/15/worksheet/3/3",
+      "sourceDigest16": "4d38f4e6c6c4d9a0",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Inner diameter specifies the measured cavity; still halve30 then apply4*pi*r^3/3, level2 bridge."
+    },
+    {
+      "id": "intro-geometry/15/worksheet/4/3",
+      "sourceDigest16": "5bb63f8281021e81",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/worksheet/9/2",
+      "sourceDigest16": "637079c636082ead",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/worksheet/9/3",
+      "sourceDigest16": "4717d5850246bb9b",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/15/worksheet/9/4",
+      "sourceDigest16": "4f27874b5b19850b",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "No-overlap/no-slip/no-overflow and full immersion conditions justify the intended lateral-area or volume-conservation model. Same formulas, numerical work, and number of reasoning steps; retain existing level2 or3 and core/bridge scope."
+    },
+    {
+      "id": "intro-geometry/19/19.1/5/3",
+      "sourceDigest16": "d4084faf031d2c9b",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Convexity excludes subtractive concave case. Same diagonal Pythagoras, recognition of8-15-17, and addition of two areas; level3 bridge."
+    },
+    {
+      "id": "intro-geometry/19/challenge/7/2",
+      "sourceDigest16": "9bd416b19cb5e1e5",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Neighboring-side perpendicularity repairs impossible all-interior-right-angle premise. Same single auxiliary line and rectangle area decomposition; level2 bridge."
+    },
+    {
+      "id": "intro-geometry/19/challenge/7/3",
+      "sourceDigest16": "41507f1a11c75397",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Neighboring-side perpendicularity repairs impossible all-interior-right-angle premise. Same single auxiliary line and rectangle area decomposition; level2 bridge."
+    },
+    {
+      "id": "intro-geometry/checkpoint/5/1",
+      "sourceDigest16": "cb0086e810e3d5a2",
+      "level": 2,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Naming right prism and pyramid makes volume rule applicable. Same shared-base/shared-height recognition and2700/3; level2 bridge retained."
+    },
+    {
+      "id": "intro-geometry/checkpoint/6/6",
+      "sourceDigest16": "9118496afb31470f",
+      "level": 3,
+      "scope": "bridge",
+      "decision": "retain",
+      "reason": "Consecutive sides perpendicular repairs concavity wording. Same auxiliary right triangle with horizontal9,vertical12 then Pythagoras15; level3 bridge retained."
+    }
+  ]
+}

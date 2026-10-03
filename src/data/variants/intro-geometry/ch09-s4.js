@@ -198,7 +198,7 @@ const s94 = [
       choices: ['$60^\\circ$', '$30^\\circ$', '$120^\\circ$', '$36^\\circ$'],
       answer: 0,
       solution:
-        'Each tip of this star IS a corner of one of the two overlapping equilateral triangles, so the angle at $A$ is $60^\\circ$ ✓. Check a second, independent way with the inscribed-angle theorem: the six points sit on a circle at $60^\\circ$ spacing, and the two edges at $A$ reach the points two steps away on each side, so the far arc between them spans $2 \\times 60^\\circ = 120^\\circ$; an inscribed angle is half its arc, $\\frac{120^\\circ}{2} = 60^\\circ$ ✓. (The choice $30^\\circ$ SPLITS $180^\\circ$ AMONG THE SIX TIPS, carrying over the five-pointed star’s tip sum ✗; $120^\\circ$ REPORTS THE TURN at the tip, $180^\\circ - 60^\\circ$ ✗; $36^\\circ$ BORROWS THE FIVE-POINTED STAR’S TIP ✗.)',
+        'Each tip of this star IS a corner of one of the two overlapping equilateral triangles, so the angle at $A$ is $60^\\circ$ ✓. ',
     },
     {
       q: 'The compass ornament shown is a regular eight-pointed star: eight points equally spaced on a circle, each joined to the point three steps away around the circle. Find the tip angle at $A$.',
@@ -220,7 +220,7 @@ const s94 = [
       choices: ['$90^\\circ$', '$135^\\circ$', '$22.5^\\circ$', '$45^\\circ$'],
       answer: 3,
       solution:
-        'Walk once around the star’s outline: skipping three points at a time brings you back after exactly THREE full spins, so the turning totals $3 \\cdot 360^\\circ = 1080^\\circ$. Each of the $8$ tips turns you $180^\\circ$ minus the tip angle, so $8 \\cdot 180^\\circ - 8t = 1080^\\circ$, which gives $8t = 1440^\\circ - 1080^\\circ = 360^\\circ$ and $t = 45^\\circ$ ✓. Check a second, independent way with the inscribed-angle theorem: the two edges at $A$ reach the points three steps away on each side, so the far arc between them spans only $8 - 6 = 2$ steps of $45^\\circ$, an arc of $90^\\circ$; the inscribed angle is half of that, $45^\\circ$ ✓. (The choice $90^\\circ$ FORGETS TO HALVE the intercepted arc ✗; $135^\\circ$ REPORTS THE TURNING ANGLE at each tip, $\\frac{3 \\cdot 360^\\circ}{8}$ ✗; $22.5^\\circ$ SPLITS $180^\\circ$ AMONG THE EIGHT TIPS, borrowing the five-pointed star’s tip sum ✗.)',
+        'Walk once around the star’s outline: advancing three positions at a time brings you back after exactly THREE full spins, so the turning totals $3 \\cdot 360^\\circ = 1080^\\circ$. Each of the $8$ tips turns you $180^\\circ$ minus the tip angle, so $8 \\cdot 180^\\circ - 8t = 1080^\\circ$, which gives $8t = 1440^\\circ - 1080^\\circ = 360^\\circ$ and $t = 45^\\circ$ ✓. ',
     },
     {
       q: 'A clockmaker engraves the regular twelve-pointed star shown: twelve points equally spaced on a circle, each joined to the point five steps away around the circle. What is the measure of the tip angle at $A$?',
@@ -246,7 +246,7 @@ const s94 = [
       choices: ['$60^\\circ$', '$15^\\circ$', '$30^\\circ$', '$150^\\circ$'],
       answer: 2,
       solution:
-        'Walk once around the star’s outline: skipping five points at a time closes the path after exactly FIVE full spins, so the turning totals $5 \\cdot 360^\\circ = 1800^\\circ$. Each of the $12$ tips turns you $180^\\circ$ minus the tip angle, so $12 \\cdot 180^\\circ - 12t = 1800^\\circ$, giving $12t = 2160^\\circ - 1800^\\circ = 360^\\circ$ and $t = 30^\\circ$ ✓. Check a second, independent way with the inscribed-angle theorem: the edges at $A$ reach the points five steps away on each side, so the far arc between them spans only $12 - 10 = 2$ steps of $30^\\circ$, an arc of $60^\\circ$; the inscribed angle is half of that, $30^\\circ$ ✓. (The choice $60^\\circ$ FORGETS TO HALVE the intercepted arc ✗; $15^\\circ$ SPLITS $180^\\circ$ AMONG THE TWELVE TIPS ✗; $150^\\circ$ REPORTS THE TURNING ANGLE at each tip, $\\frac{5 \\cdot 360^\\circ}{12}$ ✗.)',
+        'Walk once around the star’s outline: advancing five positions at a time closes the path after exactly FIVE full spins, so the turning totals $5 \\cdot 360^\\circ = 1800^\\circ$. Each of the $12$ tips turns you $180^\\circ$ minus the tip angle, so $12 \\cdot 180^\\circ - 12t = 1800^\\circ$, giving $12t = 2160^\\circ - 1800^\\circ = 360^\\circ$ and $t = 30^\\circ$ ✓. ',
     },
   ],
   // s6 — five exterior angles of a hexagon given, find the sixth.

@@ -1,0 +1,66 @@
+9.1/1	P(1,-3-(-7));P(1,-9-(-4));P(2,-6-(-1));P(3,-1-(-10))	Compare signed integers by subtraction or number-line position; offered symbol or statement uniquely correct.
+9.1/2	P(1,5);P(0,-2);P(2,12);-4	Inclusive inequality permits boundary plus values on indicated side; final only-4 fails n>=-3.
+9.1/3	P(0,10);P(0,-8);P(1,3);P(3,-5)	Adding/subtracting same constant preserves strict order; multiplying by positive3 preserves it. Equality, reversed signs, or negative-multiplier distractors false.
+9.1/4	P(3,3-5);P(0,-4+9);P(1,-2-7);P(2,-3+6)	Apply specified identical addition/subtraction to both sides, preserve relation and orientation; endpoints -2,5,-9,3.
+9.1/5	P(2,-2);P(2,6);P(1,-5);P(3,-4)	Negation reverses inequality. Correct exact sets -x<-2,-y>6,t<-5,-a<=-4. Last figure is closed4 right ray. Variants2-4 clarified to require exact range, excluding weaker implications that were also true.
+9.1/8	P(2,1);P(2,1);P(0,1);P(1,0)	Transitivity of strict order in first three, non-strict in final. Equality allowed in final prevents concluding x<z.
+9.1/9	P(0,Interval(-6,2,True,True));P(3,Interval(-3,12,True,True));P(2,Interval(-3,-1,True,True));P(1,Interval(-1,5,True,True))	Affine transformations with negative slope reverse endpoints; all source intervals open. Third figure endpoints2,6 both open. All four stems repaired to ask exact possible range because closed supersets were also true implications.
+9.1/10	P(3,(-2)**2-(-1)**2);P(2,1/(-1)-1/1);P(3,0);P(0,1)	Counterexamples to NOT statements: a-2,b-1 reverses square order;p-1,q1 reverses claimed reciprocal comparison; multiplier c0 destroys strictness. Final h-g>0 follows premise, other claims fail at g-2,h-1 or reverse positive division.
+9.2/1	P(0,Max(3/4,2/3));P(3,Max(5/7,7/10));P(1,Max(3/8,4/11));P(0,Min(8/15,7/13))	Exact positive-denominator cross products compare fractions; final asks smaller. All equal/incomparability claims false.
+9.2/2	P(1,4/10);P(1,-17/10);P(2,1);P(0,1)	Sign of difference determines order uniquely: a>b,m<n,q>p,h-k>0.
+9.2/3	P(1,Max(5/8,7/12));P(1,Max(7/10,11/15));P(3,Max(5/12,3/8));P(2,Max(3/4,7/9))	Compare rational values exactly, or numerators27 versus28 over36 in final round.
+9.2/4	P(2,40-6**2);P(0,6**2-30);P(3,55-7**2);V(8,9)	Nonnegative quantities compare by squaring; final64<68<81 bounds sqrt68 between8 and9.
+9.2/5	P(1,112-117);P(0,72-77);P(3,99-98);P(1,84-84)	Denominators positive, so cross-product difference preserves fraction comparison; equal cross products imply equal fractions.
+9.2/6	P(3,3**20-2**30);P(2,5**20-2**40);P(1,9**15-27**10);P(0,3**24-9**11)	Use common powers:8^10<9^10;4^20<5^20;both3^30;3^24>3^22. Every alternative checked including equality.
+9.2/7	P(0,50-49);P(2,81-80);P(3,108-100);P(1,Max(18,20,16))	Compare squares of positive candidates. Last largest square20 belongs to2sqrt5.
+9.2/8	P(2,Max(15/16,16/17));P(3,Max(9/10,10/11));P(2,Max(20/21,23/24));P(0,Min(12/11,13/12))	Compare distances from1 or exact rational values; final both exceed1 and13/12 is smaller.
+9.2/9	P(1,Max(3/5,5/8,8/13));P(1,Max(4/9,5/11,7/16));P(0,Min(5/7,7/10,9/13));P(3,Max(2/3,5/8,9/14))	Exact rational comparisons of all three listed fractions, with third round minimum.
+9.2/10	P(3,10-(5+2*sqrt(6)));P(0,8+2*sqrt(15)-15);P(2,17-(9+2*sqrt(14)));P(1,2*sqrt(6)-sqrt(24))	Squaring nonnegative candidates: first2sqrt6<5;second2sqrt15>7;third2sqrt14<8;last exact equality2sqrt6=sqrt24. Compare squared residuals24<25,60>49,56<64.
+9.3/8	3*90-84-92;3*140-126-138;3*60-52-61;4*12-14-9-11	Total target less completed scores/distances gives tight threshold94,156,67 and maximum14 respectively; direction follows at-least versus at-most.
+9.4/1	P(1,4);P(0,-2);P(1,7);P(3,-5)	Closed dot for included endpoint, open dot for strict inequality; shade right for greater and left for less. Only strict>7 option uses open endpoint in round3.
+9.4/2	P(2,-1);P(1,3);P(2,-4);2	Read figures: open-1 right ray;open3 left ray;closed-4 right ray;open2 right ray. Final only2 is excluded among2,2.5,4,6.
+9.4/3	P(1,0);P(2,1);P(1,0);P(3,0)	Strict planar inequality excludes line and uses dashed boundary; <=/>= includes line and uses solid. Slope/numeric coefficient irrelevant.
+9.4/4	P(0,0-3);P(0,0-(-5));P(2,0-(-2));P(3,0-0)	Origin test succeeds0<=3 and0>-5, fails0<-2; final origin on boundary y=x so cannot choose between open halfplanes, though itself included.
+9.4/5	P(3,-4);P(1,5);P(0,Interval(-2,3,False,True));P(3,4)	Figure shaded closed left rays end-4,5; third closed-2/open3 bounded segment; final closed left ray end4 has maximum4, no minimum.
+9.4/6	P(1,1-2*3);P(2,5-3*1);P(0,1-(5-3));P(1,0-(-0+1))	Substitute ordered(x,y) from every option, preserving strict/non-strict boundary. Only(3,1),(1,5),(5,1) satisfy respective first three; last only(0,0) fails.
+9.4/7	P(0,Interval(-2,3,True,False));P(2,Interval(-5,1,False,True));P(3,Interval(0,7,True,True));P(1,Interval(-2,3,False,True))	Translate each endpoint inclusion into dot fill; final divide entire chain by positive2 before graphing.
+9.4/8	P(1,0-2);P(3,0-(-6));P(2,0-(-4));P(0,5-(-3*5+9))	Failed origin tests mean shade opposite side; second nonstrict<= requires solid boundary. Final evaluate every point: only(5,5) satisfies y>=-3x+9.
+9.4/9	1-(-3)+1;P(1,4-(-2));5-(-1)-1;-3	Read figures:closed[-3,1] gives5 integers;(-2,4] gives6;(-1,5) gives5;[-3,2) has minimum integer-3.
+9.4/10	P(2,3);P(1,-4);P(2,3);P(0,-3)	Solve affine inequalities, reverse when dividing negative: x<3,x>=-4,x>3,x<=-3. Final graph filled-3 left ray.
+9.5/1	6+3;3+5;2-6;-2+10	Increasing affine expression takes maximum at upper endpoint, minimum at lower; select requested extremum.
+9.5/2	4*2;5*8;4/4;7*2	Positive scaling preserves order; substitute corresponding interval endpoint.
+9.5/3	10-2*0;20-3*1;6-5*4;8-4*(-3)	Negative slope reverses endpoint choice; all intervals closed so bounds attained.
+9.5/4	Max((-2)**2,3**2);Max((-5)**2,2**2);0;(-1)**2	Square maximum at greatest magnitude endpoint; minimum0 if interval contains0, otherwise at nearest endpoint.
+9.5/5	floor(12/2)*ceiling(12/2);floor(18/2)*ceiling(18/2);(28/4)**2;V(15,15)	At fixed integer side sum/product, squared difference minimized by equal or closest integers. Rectangle side sum half perimeter14.
+9.5/6	4*7;5*9;3*2;6/2	Products of independent positive variables monotone in both; positive quotient maximized with greatest numerator and smallest denominator.
+9.5/7	3-4;4-10;7-1;1-2	Difference minimized by minimum minuend and maximum subtrahend; third maximizes x-y with opposite endpoints.
+9.5/8	(8/2)**2;(12/2)**2;20/2;((1+9)/2)**2	Complete square: x(S-x)=S^2/4-(x-S/2)^2; shifted final factors sum10 and attain5 each at x4. Third asks maximizing variable10, not product100.
+9.5/9	floor(15/2)*ceiling(15/2);V(10,11);floor(27/2)*ceiling(27/2);floor(19/2)*ceiling(19/2)	Whole-number products at fixed sum maximize with closest integer pair, avoiding unattainable half-integer pair.
+9.5/10	Max(9*2,6*4,3*6);Max(15*2,12*4,9*6,6*8,3*10);Max(1*25,2*20,3*15,4*10,5*5);2	Enumerate all positive integer solutions of each linear constraint. Final y1,2,3 gives xy18,24,18, unique optimizer y2.
+challenge/1/4	P(1,(12+13)/5)	Solve12-5w>=-13 gives w<=5 after sign reversal.
+challenge/3	Max(6/11,5/9,1/2,4/7);Max(5/12,3/7,2/5,4/9);Min(7/9,5/7,8/11,3/4);Max(9/16,7/13,5/9,11/20)	Compare every listed rational exactly; third asks smallest and fourth last in ascending order means maximum.
+challenge/4	P(0,10+2*sqrt(21)-19);P(0,7+2*sqrt(10)-13);P(2,26-(13+2*sqrt(42)));P(1,1-(sqrt(10)-sqrt(6)))	For positive sums compare squared values via84>81,40>36,168<169. Last sqrt10<1+sqrt6 since3<2sqrt6 (9<24), so root difference below1.
+challenge/5	P(2,-1);P(1,-1);P(3,-1);P(2,-3)	Multiplying/dividing strict inequality by negative reverses it. Final -3a<-3b is false while shifts, positive division and adding b preserve given order.
+challenge/6	5-2*4;4-3*(-3);10-4*7;P(2,Interval(7-3*3,7-3*(-2)))	Decreasing affine functions attain minimum at upper and maximum at lower endpoint; final complete closed range[-2,13].
+challenge/7	P(3,Interval(-1,4,False,True));P(0,Interval(-3,4,True,False));P(1,Interval(-3,2,False,True));5-(-4)	Intersect solved inequalities: [-1,4),(-3,4],[-3,2),(-4,5]. Last integers-3 through5 count9.
+challenge/8	10*10-1*19;8*8-1*15;6*7-1*12;2*17	Fixed positive integer sum gives largest balanced product and smallest endpoint1*(S-1); final entries>1 so minimum2*(19-2).
+challenge/9	20-2*4;30-4*4;5*0+12;(40-3*2)-(40-3*8)	Respect integer and strict endpoints before affine extrema; allowed minimizing/maximizing inputs4,4,0 and2/8.
+challenge/10	P(2,2-(2*3-3));P(3,5-(3*1+1));P(0,-3-(-2*3+4));P(2,0-(6-5))	Substitute all ordered points, including boundary equality. Unique failing/satisfying points(3,2),(1,5),(3,-3),(6,0) as requested.
+challenge/11	4*85-80-88-84;4*85-88-76-94;5*40-52-31-44-38;(6*80-4*78)/2	Target total minus completed total determines exact minimum final score, maximum spending, or minimum two-game mean; last divide needed168 total by2.
+challenge/12	P(1,3);P(0,5);P(2,1);P(1,1)	Compute shifted-ratio difference k*(b-a)/(b*(b+k)): positive when a<b, negative when a>b. Subtracting1 with1<m<n decreases ratio because difference(m-n)/(n*(n-1))<0. All denominators positive.
+worksheet/3/4	Min(13/14,14/15)	Exact cross multiplication compares195 and196.
+worksheet/4/4	B(-4,3,0,1,0)	Subtract3 and divide3 yields-4<x<=3; complete integer list-3,-2,-1,0,1,2,3. Verify both inequality and enumeration.
+worksheet/5/4	Min(6*sqrt(2),sqrt(80))	Both positive, squared values72 and80 determine smaller6sqrt2.
+worksheet/6	floor(20/3);floor(30/4);ceiling(95/6);floor((20-5)/2)	Affordability uses floor, required minimum revenue uses ceiling; final subtract entry fee first.
+worksheet/7/4	B(-2,2,0,1,1)	Subtract3 then divide-5 reversing both comparisons, producing-2<x<=2; integers-1,0,1,2 give count4.
+worksheet/8	floor(25/2)*ceiling(25/2);floor(31/2)*ceiling(31/2);1*(18-1);floor(17/2)*ceiling(17/2)	Max product at balanced integer pair; third minimum at positive endpoint1; rectangle side sum is perimeter/2=17.
+worksheet/9	6**2-1**2;7**2-2**2;2**2-3**2;7**2-1**2	Expand product to difference of squares; positive independent intervals let endpoints maximize or minimize each term separately.
+worksheet/10/4	Min(sqrt(5)+sqrt(7),sqrt(23))	Square positive quantities:12+2sqrt35>23 since140>121, so sqrt23 is smaller.
+9.3/1/4	ceiling(-3+11)	Adding11 yields m>=8, whose smallest integer is8.
+9.3/2/4	floor(20/3)	Divide positive3; greatest integer at most20/3 is6.
+9.3/3/4	6	Division by negative4 gives x<5. Options0,-3,4 satisfy;6 alone does not.
+9.3/4/4	P(1,(1-9)/4)	Subtract9 then divide4 gives t<=-2. Other bounds reverse direction, exclude the boundary, or include invalid larger values.
+9.3/5/4	4	Subtract9 then divide negative2 gives x>=4. Of0,3,4,-4 only4 qualifies.
+9.3/6/4	floor((18-3)/5)	Subtract3 then divide5 gives -1<=x<=3, largest integer3.
+9.3/7/4	2	Integer upper bound must include1 and exclude2, hence b=2 exactly.
+9.3/9/4	ceiling((5+1)/(1-1/2))	Rearrangement yields n/2>=6, so minimum integer n=12.

@@ -165,7 +165,7 @@ const s143 = [
   // s5 — base edge and height give the slant height: l^2 = h^2 + (b/2)^2.
   [
     {
-      q: 'A circus tent is a square pyramid of canvas. Its base edge is $30$ meters and its center pole rises $8$ meters. A seam runs from the peak straight down the middle of one canvas panel to the midpoint of a base edge. How long is that seam?',
+      q: 'A circus tent is a square pyramid of canvas. Its base edge is $30$ meters and its center pole rises $8$ meters. A seam runs from the peak straight down the middle of one canvas panel to the midpoint of a base edge. How long is that seam? The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 6.6, 3.4],
         elems: [
@@ -192,7 +192,7 @@ const s143 = [
         'Route one, the slant-height triangle: the pole, the seam, and the stretch of ground from the center of the base to the midpoint of a base edge form a right triangle. That ground leg is half the base edge, $\\frac{30}{2} = 15$, so the seam is $\\ell = \\sqrt{8^2 + 15^2} = \\sqrt{64 + 225} = \\sqrt{289} = 17$ meters ✓. Check a second, independent way, with coordinates and a reverse test: set the center of the base at the origin, the peak at $(0, 0, 8)$, and the midpoint of a base edge at $(15, 0, 0)$. The distance between them is $\\sqrt{15^2 + 8^2}$, and to test the value $17$ run the subtraction instead of the addition: $17^2 - 15^2 = (17 - 15)(17 + 15) = 2 \\times 32 = 64$, which is exactly $8^2$ ✓. (The choice $\\sqrt{964}$ is USING THE WHOLE BASE EDGE $30$ as the leg when the seam only reaches the midpoint, half an edge from the center ✗; the choice $23$ is ADDING THE TWO LEGS, $15 + 8$, instead of adding their squares ✗; the choice $38$ is ADDING THE FULL EDGE AND THE HEIGHT, $30 + 8$ ✗.)',
     },
     {
-      q: 'A lighthouse is capped by a square pyramid of copper. The cap’s base edge is $48$ feet and it rises $7$ feet from base to tip. A ridge runs from the tip down the middle of one face to the midpoint of a base edge. How long is that ridge?',
+      q: 'A lighthouse is capped by a square pyramid of copper. The cap’s base edge is $48$ feet and it rises $7$ feet from base to tip. A ridge runs from the tip down the middle of one face to the midpoint of a base edge. How long is that ridge? The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 7, 3.3],
         elems: [
@@ -219,7 +219,7 @@ const s143 = [
         'Route one, the slant-height triangle: the ridge is the hypotenuse of a right triangle whose legs are the height $7$ and half the base edge, $\\frac{48}{2} = 24$. So $\\ell = \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25$ feet ✓. Check a second, independent way, with coordinates and a reverse test: put the center of the cap’s base at the origin, the tip at $(0, 0, 7)$, and the midpoint of a base edge at $(24, 0, 0)$. Testing the value $25$ by subtraction, $25^2 - 24^2 = (25 - 24)(25 + 24) = 1 \\times 49 = 49 = 7^2$ ✓. (The choice $\\sqrt{2353}$ is USING THE WHOLE BASE EDGE $48$ where only the half-edge $24$ belongs ✗; the choice $31$ is ADDING THE LEGS, $24 + 7$, rather than their squares ✗; the choice $\\sqrt{527}$ is SUBTRACTING THE SQUARES when the unknown here is the hypotenuse, which must come out longer than either leg ✗.)',
     },
     {
-      q: 'A stone finial on a gatepost is a square pyramid. Its base edge is $12$ centimeters and it rises $8$ centimeters to a point. A chisel groove runs from that point down the middle of one face to the midpoint of a base edge. How long is the groove?',
+      q: 'A stone finial on a gatepost is a square pyramid. Its base edge is $12$ centimeters and it rises $8$ centimeters to a point. A chisel groove runs from that point down the middle of one face to the midpoint of a base edge. How long is the groove? The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 6.8, 3.6],
         elems: [
@@ -249,7 +249,7 @@ const s143 = [
   // s6 — base edge and slant height give the total surface area: b^2 + 2bl.
   [
     {
-      q: 'A gift box is a square pyramid with base edge $6$ inches and slant height $5$ inches. Wrapping paper must cover all four triangular faces and the square bottom. How many square inches of paper does the box need?',
+      q: 'A gift box is a square pyramid with base edge $6$ inches and slant height $5$ inches. Wrapping paper must cover all four triangular faces and the square bottom. How many square inches of paper does the box need? The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 6.6, 4],
         elems: [
@@ -272,7 +272,7 @@ const s143 = [
         'Route one, face by face: the square bottom contributes $6^2 = 36$ square inches. Each of the four triangular faces has base $6$ and height equal to the slant height $5$, so each covers $\\frac{1}{2} \\times 6 \\times 5 = 15$, and four of them cover $4 \\times 15 = 60$. Altogether $36 + 60 = 96$ square inches ✓. Check a second, independent way, by unfolding the net and using the base perimeter: the four triangles laid flat form one long strip whose total area is $\\frac{1}{2} \\times (\\text{base perimeter}) \\times \\ell = \\frac{1}{2} \\times 24 \\times 5 = 60$, and adding the square bottom gives $60 + 36 = 96$ ✓. (The choice $60$ is STOPPING AT THE FOUR TRIANGLES and forgetting the square bottom ✗; the choice $156$ is TREATING EACH FACE AS A FULL $6 \\times 5$ RECTANGLE, which doubles every triangle ✗; the choice $36$ is REPORTING ONLY THE BOTTOM SQUARE ✗.)',
     },
     {
-      q: 'A monument is a square pyramid of stone with base edge $12$ meters and slant height $10$ meters. The four faces and the square footprint are all to be clad in copper sheet. How many square meters of sheet are needed?',
+      q: 'A monument is a square pyramid of stone with base edge $12$ meters and slant height $10$ meters. The four faces and the square footprint are all to be clad in copper sheet. How many square meters of sheet are needed? The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 7, 4.1],
         elems: [
@@ -295,7 +295,7 @@ const s143 = [
         'Route one, face by face: the square footprint contributes $12^2 = 144$ square meters. Each triangular face has base $12$ and height $10$, the slant height, so each covers $\\frac{1}{2} \\times 12 \\times 10 = 60$, and the four together cover $240$. The total is $144 + 240 = 384$ square meters ✓. Check a second, independent way, by unfolding the net and using the base perimeter: the lateral surface is $\\frac{1}{2} \\times (\\text{base perimeter}) \\times \\ell = \\frac{1}{2} \\times 48 \\times 10 = 240$, and with the footprint the total is $240 + 144 = 384$ ✓. (The choice $240$ is STOPPING AT THE LATERAL FACES and leaving the footprint uncovered ✗; the choice $624$ is TREATING EACH FACE AS A FULL $12 \\times 10$ RECTANGLE ✗; the choice $144$ is REPORTING ONLY THE FOOTPRINT ✗.)',
     },
     {
-      q: 'A paper lantern is a square pyramid with base edge $16$ centimeters and slant height $17$ centimeters. Both the four sloping faces and the square base panel are papered. What is the total papered area?',
+      q: 'A paper lantern is a square pyramid with base edge $16$ centimeters and slant height $17$ centimeters. Both the four sloping faces and the square base panel are papered. What is the total papered area? The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 6.6, 4.8],
         elems: [
@@ -321,21 +321,21 @@ const s143 = [
   // s7 — base edge and slant height give the height: h^2 = l^2 - (b/2)^2.
   [
     {
-      q: 'A pavilion roof is a square pyramid with base edge $40$ feet. A rafter runs from the peak down the middle of one face to the midpoint of a base edge, and it measures $29$ feet. How far is the peak above the base?',
+      q: 'A pavilion roof is a square pyramid with base edge $40$ feet. A rafter runs from the peak down the middle of one face to the midpoint of a base edge, and it measures $29$ feet. How far is the peak above the base? The apex lies directly above the center of the square base.',
       choices: ['$\\sqrt{1241}$', '$9$', '$21$', '$29$'],
       answer: 2,
       solution:
         'Route one, the slant-height triangle read backwards: the rafter is the hypotenuse and half the base edge, $\\frac{40}{2} = 20$, is one leg, so the height is the other leg: $h = \\sqrt{29^2 - 20^2} = \\sqrt{841 - 400} = \\sqrt{441} = 21$ feet ✓. Check a second, independent way, by factoring the difference of squares and then testing forward: $29^2 - 20^2 = (29 - 20)(29 + 20) = 9 \\times 49 = 441$, whose square root is $21$; running it forward, $21^2 + 20^2 = 441 + 400 = 841 = 29^2$ ✓. (The choice $\\sqrt{1241}$ is ADDING THE SQUARES when the hypotenuse is already known and a leg is wanted ✗; the choice $9$ is SUBTRACTING THE LENGTHS, $29 - 20$, instead of their squares ✗; the choice $29$ is COPYING THE RAFTER, but the straight drop is always shorter than the slanted path ✗.)',
     },
     {
-      q: 'A clock tower is topped by a square pyramid spire with base edge $18$ meters. A seam runs from the tip down the middle of one face to the midpoint of a base edge and measures $41$ meters. How tall is the spire?',
+      q: 'A clock tower is topped by a square pyramid spire with base edge $18$ meters. A seam runs from the tip down the middle of one face to the midpoint of a base edge and measures $41$ meters. How tall is the spire? The apex lies directly above the center of the square base.',
       choices: ['$\\sqrt{1357}$', '$40$', '$32$', '$\\sqrt{1762}$'],
       answer: 1,
       solution:
         'Route one, the slant-height triangle read backwards: the seam of $41$ is the hypotenuse and half the base edge, $\\frac{18}{2} = 9$, is a leg, so $h = \\sqrt{41^2 - 9^2} = \\sqrt{1681 - 81} = \\sqrt{1600} = 40$ meters ✓. Check a second, independent way, by factoring the difference of squares and testing forward: $41^2 - 9^2 = (41 - 9)(41 + 9) = 32 \\times 50 = 1600$, so $h = 40$; forward, $40^2 + 9^2 = 1600 + 81 = 1681 = 41^2$ ✓. (The choice $\\sqrt{1357}$ is SUBTRACTING THE SQUARE OF THE WHOLE EDGE $18$ where only the half-edge $9$ belongs ✗; the choice $32$ is SUBTRACTING THE LENGTHS, $41 - 9$, rather than the squares ✗; the choice $\\sqrt{1762}$ is ADDING THE SQUARES, which would make the height longer than the seam ✗.)',
     },
     {
-      q: 'A museum display case is covered by a square pyramid of glass with base edge $60$ centimeters. A metal strip runs from the apex down the middle of one glass panel to the midpoint of a base edge and measures $34$ centimeters. How tall is the cover?',
+      q: 'A museum display case is covered by a square pyramid of glass with base edge $60$ centimeters. A metal strip runs from the apex down the middle of one glass panel to the midpoint of a base edge and measures $34$ centimeters. How tall is the cover? The apex lies directly above the center of the square base.',
       choices: ['$\\sqrt{2056}$', '$4$', '$34$', '$16$'],
       answer: 3,
       solution:
@@ -345,7 +345,7 @@ const s143 = [
   // s8 — base edge and slant height give the volume, by way of the height.
   [
     {
-      q: 'A candle is cast in a square pyramid mold with base edge $16$ centimeters and slant height $17$ centimeters. How much wax does the mold hold?',
+      q: 'A candle is cast in a square pyramid mold with base edge $16$ centimeters and slant height $17$ centimeters. How much wax does the mold hold? The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 6.6, 4.7],
         elems: [
@@ -372,7 +372,7 @@ const s143 = [
         'Route one, height first, then the volume formula: the volume needs the straight drop, not the slanted one, so $h = \\sqrt{17^2 - 8^2} = \\sqrt{289 - 64} = \\sqrt{225} = 15$, using half the base edge, $8$. Then $V = \\frac{1}{3} \\times 16^2 \\times 15 = \\frac{1}{3} \\times 256 \\times 15 = 256 \\times 5 = 1280$ cubic centimeters ✓. Check a second, independent way, by factoring the height out and going through the matching box: $17^2 - 8^2 = (17 - 8)(17 + 8) = 9 \\times 25 = 225$, so $h = 15$; the square prism on the same base and height holds $256 \\times 15 = 3840$ cubic centimeters, and the mold holds one third of that, $3840 \\div 3 = 1280$ ✓. (The choice $3840$ is REPORTING THE MATCHING PRISM without the third ✗; the choice $1920$ is HALVING THE PRISM instead of thirding it ✗; the choice $4352$ is USING THE SLANT HEIGHT AS THE HEIGHT AND SKIPPING THE THIRD, $256 \\times 17$ ✗.)',
     },
     {
-      q: 'An ice sculpture is carved as a square pyramid with base edge $24$ inches and slant height $15$ inches. What is the volume of the ice?',
+      q: 'An ice sculpture is carved as a square pyramid with base edge $24$ inches and slant height $15$ inches. What is the volume of the ice? The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 7, 3.6],
         elems: [
@@ -399,7 +399,7 @@ const s143 = [
         'Route one, height first, then the volume formula: half the base edge is $12$, so $h = \\sqrt{15^2 - 12^2} = \\sqrt{225 - 144} = \\sqrt{81} = 9$ inches. Then $V = \\frac{1}{3} \\times 24^2 \\times 9 = \\frac{1}{3} \\times 576 \\times 9 = 576 \\times 3 = 1728$ cubic inches ✓. Check a second, independent way, by factoring the height out and going through the matching box: $15^2 - 12^2 = (15 - 12)(15 + 12) = 3 \\times 27 = 81$, so $h = 9$; a prism on the same base and height holds $576 \\times 9 = 5184$ cubic inches, and the sculpture holds one third, $5184 \\div 3 = 1728$ ✓. (The choice $2880$ is USING THE SLANT HEIGHT IN PLACE OF THE HEIGHT, $\\frac{1}{3} \\times 576 \\times 15$ ✗; the choice $5184$ is REPORTING THE MATCHING PRISM without the third ✗; the choice $2592$ is HALVING THE PRISM instead of thirding it ✗.)',
     },
     {
-      q: 'A celebration cake is baked as a square pyramid with base edge $24$ centimeters and slant height $13$ centimeters. What is the volume of the cake?',
+      q: 'A celebration cake is baked as a square pyramid with base edge $24$ centimeters and slant height $13$ centimeters. What is the volume of the cake? The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 6.6, 3.4],
         elems: [

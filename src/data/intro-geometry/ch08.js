@@ -1208,7 +1208,7 @@ const s85 = {
       choices: [
         'All four of its angles are right angles, because consecutive angles are supplementary',
         'Only the opposite angle must also be $90^\\circ$; the other two can vary',
-        'The other three angles just need to add up to $270^\\circ$',
+        'The other three angles can be any angles whose sum is $270^\\circ$',
         'It must have four equal sides',
       ],
       answer: 0,
@@ -1880,7 +1880,7 @@ const s87 = {
       choices: [
         'a square',
         'a rectangle',
-        'a rhombus (but not necessarily a square)',
+        'a rhombus that is not a square',
         'a kite that is not a parallelogram',
       ],
       answer: 2,
@@ -1905,7 +1905,7 @@ const s87 = {
         ],
       },
       choices: [
-        'a rectangle (but not necessarily a square)',
+        'a rectangle that is not a square',
         'a square',
         'a rhombus',
         'an isosceles trapezoid',

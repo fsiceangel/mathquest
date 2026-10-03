@@ -524,7 +524,7 @@ const s32 = [
         'The middle letter of $\\angle ZXY$ is $X$, so that angle sits at vertex $X$. Reading the congruence backwards, $X \\leftrightarrow G$, so the matching angle sits at $G$, with its sides running to the partners of $Z$ and $Y$, which are $K$ and $H$. With the vertex in the middle that is $\\angle HGK$ ✓. Check a second, independent way by the sides meeting at the vertex. At $X$ the two sides are $\\overline{XY}$ (one tick) and $\\overline{XZ}$ (three ticks); the one-tick and three-tick sides of the other triangle are $\\overline{GH}$ and $\\overline{GK}$, and they meet at $G$ ✓. (Choosing $\\angle HKG$ places the vertex at $K$, the partner of $Z$, which is MISPLACING THE VERTEX LETTER by grabbing the first letter of the given name ✗; $\\angle GHK$ places it at $H$, the partner of $Y$, which is grabbing the last letter instead ✗; $\\angle YZX$ is ANSWERING IN THE WRONG TRIANGLE, since the question asks for an angle of $\\triangle GHK$ ✗.)',
     },
     {
-      q: 'SSS shows $\\triangle MNP \\cong \\triangle STU$ in the figure. Which angle must equal $\\angle NPM$?',
+      q: 'SSS shows $\\triangle MNP \\cong \\triangle STU$ in the figure. Which angle of $\\triangle STU$ must equal $\\angle NPM$?',
       fig: {
         view: [-1, -1, 11.4, 4],
         elems: [

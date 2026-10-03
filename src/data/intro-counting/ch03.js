@@ -52,6 +52,27 @@ const s32 = {
         ],
         answer: 'In $96$ arrangements the $G$’s are not all together.',
       },
+      {
+        problem: 'Arrange $A,A,B,B,C,D$ in a row. How many rows have neither adjacent $A$’s nor adjacent $B$’s?',
+        steps: [
+          'Count all repeated-letter arrangements: $6!/(2!2!)=180$.',
+          'Glue the $A$ pair into one block to count its forbidden adjacency: $5!/2!=60$. The $B$ pair has the same count.',
+          'Rows with both forbidden pairs were removed twice. Glue both pairs: the four distinct objects $AA,BB,C,D$ have $4!=24$ orders.',
+          'Restore that overlap once: $180-60-60+24=84$. This is the next step after a single forbidden pair: list both bad events and their intersection before subtracting.',
+          'Longer forbidden runs can overlap in additional ways. Revisit this two-event example before the optional long-run variations of the final exercise.',
+        ],
+        answer: '$84$ rows.',
+      },
+      {
+        problem: 'Arrange $A, A, B, C$ in a row so the two $A$’s do not touch. How can gaps count the arrangements?',
+        steps: [
+          'Arrange the different letters $B, C$ first: $BC$ or $CB$, giving $2$ orders.',
+          'Each order has three gaps: before, between, and after its letters. Put the identical $A$’s in two different gaps.',
+          'There are $3$ choices for the unused gap, so there are $2 \\times 3 = 6$ rows. Do not order the two identical $A$’s again.',
+          'Check by subtraction: all $4!/2! = 12$ rows, minus $3! = 6$ rows with the block $AA$, also gives $6$. With three repeated letters, keeping all three from forming a block would still allow two to touch; distinct gaps prevent every adjacent pair.',
+        ],
+        answer: 'There are $6$ rows. Distinct gaps enforce pairwise separation.',
+      },
     ],
   },
   problems: [
@@ -253,7 +274,7 @@ const s34 = {
       },
       {
         heading: 'When dividing fails',
-        body: 'Paint each corner of a square red or blue: $2^4 = 16$ labeled colorings, but $\\frac{16}{4}$ is not even a whole number. The problem is the all-red square: rotating it gives the same labeled coloring back, so its group has size $1$, not $4$. Whenever some arrangement is unchanged by a symmetry, the groups have different sizes and plain division breaks. Then count by cases instead: by number of red corners, $0, 1, 2, 3, 4$ give $1, 1, 2, 1, 1$ colorings (the two reds are adjacent or opposite), for $6$ in all.',
+        body: 'Paint each corner of a square red or blue: $2^4 = 16$ labeled colorings. Dividing by $4$ gives the whole number $4$, but it is still wrong. The all-red square has only one different labeled version under rotation; an alternating red-blue square has two; a square with just one red corner has four. Plain division needs every group to have the same size. Count by cases instead: by number of red corners, $0, 1, 2, 3, 4$ give $1, 1, 2, 1, 1$ colorings (the two reds are adjacent or opposite), for $6$ in all. An integer quotient alone does not justify division.',
       },
     ],
     examples: [
@@ -284,6 +305,35 @@ const s34 = {
           'Sanity check: fix the red corner at the top; the other three colors fill the remaining corners in $3! = 6$ ways.',
         ],
         answer: 'There are $6$ paintings.',
+      },
+      {
+        problem: 'Bridge: paint the corners of a triangle red or blue, allowing repeats. Rotations match; flips do not. How many paintings are there?',
+        steps: [
+          'With corners numbered there are $2^3 = 8$ paintings.',
+          'The all-red and all-blue paintings each form a group of size $1$. The remaining $6$ paintings each have three different rotations, so form $6/3 = 2$ groups.',
+          'The total is $2 + 2 = 4$. Check by the number of red corners: zero, one, two, or three gives one painting each.',
+          'For more colors the same split works: with $c$ colors, there are $c$ solid paintings and $(c^3-c)/3$ nonsolid groups. Three different colors have two clockwise orders; a flip merges those two, so allowing flips changes the count.',
+        ],
+        answer: 'There are $4$ paintings. Separate short rotation groups before dividing.',
+      },
+      {
+        problem: 'Optional extension bridge: a square has two red and two blue corners. Compare counting with rotations only to counting with both rotations and flips.',
+        steps: [
+          'There are $4!/(2!2!) = 6$ numbered paintings. The four with adjacent red corners form one rotation group; the two with opposite red corners form another. Thus rotations give $2$ paintings.',
+          'Reflect either pattern: adjacent reds stay adjacent and opposite reds stay opposite. Each of the two rotation groups matches itself, so flips leave the count at $2$. Dividing that count by two would be wrong.',
+          'For larger repeated-color loops, first classify the rotation groups. A mirror can fix a whole group or pair it with a different group. Pair only the distinct groups that actually match.',
+        ],
+        answer: 'Both rules give $2$ paintings; a flip need not halve the count.',
+      },
+      {
+        problem: 'Optional extension bridge: six beads in a loop consist of three red and three blue beads. Rotations match. How do gaps record all the red patterns?',
+        steps: [
+          'Starting at a red bead and walking clockwise, record the numbers of steps to the next red, then the next, then back to the start. The three positive gaps add to $6$.',
+          'The unordered gap types are $1,1,4$, $1,2,3$, and $2,2,2$. A different starting red only cyclically shifts a gap list.',
+          'The repeated-gap types each give one rotation group. The all-different type gives two: $1,2,3$ and $1,3,2$ are not cyclic shifts. Hence there are $1+2+1=4$ rotation groups.',
+          'A flip reverses the gap list, pairing those last two groups. If flips are allowed there are $3$ groups. For four or more red beads, gap size alone is not enough: even after allowing flips, different cyclic orders of the same gap multiset can remain different.',
+        ],
+        answer: 'There are $4$ rotation classes, or $3$ if flips are also allowed.',
       },
     ],
   },
@@ -422,7 +472,7 @@ const challenge = [
     q: 'A bracelet is strung from $6$ beads: $2$ identical red, $2$ identical blue, and $2$ identical green. Two bracelets are the same if one can be rotated or flipped over to match the other. How many different bracelets are there?',
     choices: ['$16$', '$15$', '$11$', '$8$'],
     answer: 2,
-    solution: 'There are $\\frac{6!}{2!\\,2!\\,2!} = 90$ labeled strings, but some bracelets are unchanged by a flip or a half-turn, so division by $12$ fails ($90 \\div 12$ is not whole). Count by how far apart the two reds are. Reds adjacent: the other four beads sit in a row between them, and flipping the bracelet reverses that row; placing the two blues in the row gives $6$ choices, of which $BB\\_\\_$ and $\\_\\_BB$ match, $B\\_B\\_$ and $\\_B\\_B$ match, and $B\\_\\_B$ and $\\_BB\\_$ are each their own mirror image, so $4$ bracelets. Reds one apart: the flip through the two reds fixes the bead between them and the bead opposite it while swapping the other two, and checking the $6$ blue placements the same way gives $4$. Reds opposite: the remaining four beads form two pairs of neighbors on the two sides; the blues are on the same side, or split with the blues adjacent-across, or split diagonally, and every other placement is a rotation or flip of one of these, so $3$. Total $4 + 4 + 3 = 11$. Answering $16$ counts rotations only and forgets flips; $15$ is $\\frac{90}{6}$, and $8$ is $\\frac{90}{12}$ rounded.',
+    solution: 'There are $\\frac{6!}{2!\\,2!\\,2!} = 90$ labeled strings, but some bracelets are unchanged by a flip or a half-turn, so division by $12$ fails ($90 \\div 12$ is not whole). Count by how far apart the two reds are. Reds adjacent: the other four beads sit in a row between them, and flipping the bracelet reverses that row; placing the two blues in the row gives $6$ choices, of which $BB\\_\\_$ and $\\_\\_BB$ match, $B\\_B\\_$ and $\\_B\\_B$ match, and $B\\_\\_B$ and $\\_BB\\_$ are each their own mirror image, so $4$ bracelets. Reds one apart: the reflection exchanging the two reds fixes the bead between them and the bead opposite it while swapping the other two, and checking the $6$ blue placements the same way gives $4$. Reds opposite: the remaining four beads form two pairs of neighbors on the two sides; the blues are on the same side, or split with the blues adjacent-across, or split diagonally, and every other placement is a rotation or flip of one of these, so $3$. Total $4 + 4 + 3 = 11$. Answering $16$ counts rotations only and forgets flips; $15$ is $\\frac{90}{6}$, and $8$ is $\\frac{90}{12}$ rounded.',
   },
 ]
 

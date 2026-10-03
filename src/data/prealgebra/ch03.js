@@ -96,7 +96,7 @@ const s31 = {
       solution: 'The multiples of $8$ are $8 \\times 1, 8 \\times 2, \\ldots$ The biggest one that fits under $100$ is $8 \\times 12 = 96$, since $8 \\times 13 = 104$ is too big. So there are $12$ multiples.',
     },
     {
-      q: 'What is the smallest number that is a multiple of both $6$ and $8$?',
+      q: 'What is the smallest positive integer that is a multiple of both $6$ and $8$?',
       choices: ['$48$', '$24$', '$14$', '$12$'],
       answer: 1,
       solution: 'List multiples of $8$ and stop at the first one that is also a multiple of $6$: $8$ (no), $16$ (no), $24$ (yes — $24 = 6 \\times 4$). So $24$ is the smallest. Note that $48$ works too, but it is not the smallest, and $6 \\times 8 = 48$ is not always the first common multiple!',
@@ -465,7 +465,7 @@ const s34 = {
       solution: 'To keep the number small, use the three smallest primes, each once: $2 \\cdot 3 \\cdot 5 = 30$. Note that $8 = 2^3$ uses only one prime (three times), $60 = 2^2 \\cdot 3 \\cdot 5$ uses three primes but is bigger, and $105 = 3 \\cdot 5 \\cdot 7$ skips the smallest prime, $2$.',
     },
     {
-      q: 'What is the smallest whole number $k$ so that $60k$ is a perfect square?',
+      q: 'What is the smallest positive integer $k$ so that $60k$ is a perfect square?',
       choices: ['$3$', '$5$', '$15$', '$30$'],
       answer: 2,
       solution: 'Factor first: $60 = 2^2 \\cdot 3 \\cdot 5$. A perfect square needs every exponent even. The exponent of $2$ is already even, but $3$ and $5$ each appear an odd number of times — so multiply by one more of each: $k = 3 \\times 5 = 15$. Check: $60 \\times 15 = 900 = 30^2$. ✓',
@@ -574,7 +574,7 @@ const s35 = {
       solution: 'The same highest-power rule works for three numbers. Factor: $4 = 2^2$, $5 = 5$, $6 = 2 \\cdot 3$. Highest powers: $2^2 \\cdot 3 \\cdot 5 = 60$. Check: $60 \\div 4 = 15$, $60 \\div 5 = 12$, $60 \\div 6 = 10$ — all whole. ✓',
     },
     {
-      q: 'Hot dogs come in packs of $10$ and buns come in packs of $8$. What is the smallest number of hot dogs Kenji can buy so that every hot dog gets a bun with nothing left over?',
+      q: 'Hot dogs come in packs of $10$ and buns come in packs of $8$. What is the smallest positive number of hot dogs Kenji can buy so that every hot dog gets a bun with nothing left over?',
       choices: ['$40$', '$80$', '$18$', '$20$'],
       answer: 0,
       solution: 'Kenji needs a number that is a multiple of $10$ (whole packs of hot dogs) and of $8$ (whole packs of buns). Factor: $10 = 2 \\cdot 5$ and $8 = 2^3$, so $\\text{lcm}(10, 8) = 2^3 \\cdot 5 = 40$. That is $4$ packs of hot dogs and $5$ packs of buns.',
@@ -853,7 +853,7 @@ export default {
       solution: 'A number has an odd number of divisors exactly when it is a perfect square (one divisor is its own buddy). The perfect squares from $1$ to $100$ are $1^2, 2^2, \\ldots, 10^2$ — that is $10$ numbers.',
     },
     {
-      q: 'What is the smallest number that is divisible by every whole number from $1$ to $6$?',
+      q: 'What is the smallest positive integer that is divisible by every whole number from $1$ to $6$?',
       choices: ['$720$', '$120$', '$60$', '$30$'],
       answer: 2,
       solution: 'Take the highest prime powers needed: $4 = 2^2$ demands $2^2$, $3$ demands $3$, and $5$ demands $5$ (the numbers $1$, $2$, and $6 = 2 \\cdot 3$ are then covered automatically). So the answer is $2^2 \\cdot 3 \\cdot 5 = 60$. Multiplying all six numbers gives $720$, which works but is far from smallest.',
@@ -948,7 +948,7 @@ export default {
       solution: 'Use the identity $\\gcd(a, b) \\cdot \\text{lcm}(a, b) = a \\cdot b$: we get $8 \\cdot \\text{lcm}(a, b) = 960$, so $\\text{lcm}(a, b) = 960 \\div 8 = 120$. (One such pair is $24$ and $40$.)',
     },
     {
-      q: 'What is the smallest perfect square that is a multiple of $12$?',
+      q: 'What is the smallest positive perfect square that is a multiple of $12$?',
       answer: '$36$',
       solution: 'Factor: $12 = 2^2 \\cdot 3$. A perfect square needs every exponent even, so the factor $3$ needs a partner: multiply by $3$ to get $2^2 \\cdot 3^2 = 36 = 6^2$. ✓ The smaller multiples $12$ and $24$ are not perfect squares.',
     },

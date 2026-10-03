@@ -310,14 +310,14 @@ const s112 = [
   // p3 — decide whether the pattern applies at all
   [
     {
-      q: 'Which of these expressions CANNOT be factored as a difference of squares?',
+      q: 'Which of these expressions is NOT a difference of squares of two monomials with integer coefficients?',
       choices: ['$9x^2 - 1$', '$x^2 - 100$', '$4x^2 + 25$', '$x^4 - 1$'],
       answer: 2,
       solution:
         'The pattern needs one square MINUS another square. $4x^2 + 25$ is a SUM of squares, and there is no factoring formula for that, so it is the odd one out. (The choice $9x^2 - 1$ is $(3x)^2 - 1^2 = (3x+1)(3x-1)$; the choice $x^2 - 100$ is $(x+10)(x-10)$; the choice $x^4 - 1$ is $(x^2)^2 - 1^2 = (x^2+1)(x^2-1)$, and it even splits a second time into $(x^2+1)(x+1)(x-1)$. Only the plus sign blocks the formula.)',
     },
     {
-      q: 'Which of these can be written as $a^2 - b^2$ for some expressions $a$ and $b$?',
+      q: 'Which of these is a difference of squares of two monomials with integer coefficients?',
       choices: ['$16x^2 - 40$', '$16x^2 + 49$', '$16x^3 - 49$', '$16x^2 - 49$'],
       answer: 3,
       solution:

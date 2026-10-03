@@ -1,0 +1,207 @@
+{
+  "reviewedAt": "2026-10-02",
+  "sections": 24,
+  "slots": 240,
+  "versions": 960,
+  "convertedSlots": 10,
+  "convertedVersions": 40,
+  "findings": [
+    {
+      "id": "intro-algebra/12/12.1/8/4",
+      "severity": "answer-uniqueness",
+      "status": "fixed",
+      "source": "src/data/variants/intro-algebra/ch12-s1.js",
+      "issue": "The unrestricted assertion admitted both 3/4 and i as counterexamples. The explanation incorrectly dismissed classification of i as inapplicable.",
+      "fix": "Restricted the claim and requested counterexample explicitly to real numbers. Explanation now excludes i by the real domain. Key 0 remains uniquely correct.",
+      "verification": "3/4 is real/noninteger/rational; sqrt2 is irrational; -6 fails the antecedent; i is outside the real domain."
+    },
+    {
+      "id": "intro-geometry/19/19.3/3/3",
+      "status": "fixed",
+      "source": "src/data/variants/intro-geometry/ch19-s3.js",
+      "before": "Required congruence on immediately previous line.",
+      "after": "Requires congruence already established, with the two angles corresponding.",
+      "reason": "CPCTC can cite any previously established congruence. Answer index0 unchanged and uniquely supplies required premise."
+    },
+    {
+      "id": "intro-geometry/19/19.3/9/3",
+      "status": "fixed",
+      "source": "src/data/variants/intro-geometry/ch19-s3.js",
+      "before": "Solution denied converse parallelogram tests, using a kite as if its equal sides were opposite.",
+      "after": "Distinguishes named forward theorems from valid converse theorems; definition directly supplies given parallel sides.",
+      "reason": "Both opposite-side pairs equal and diagonals bisecting are sufficient parallelogram conditions; answer index2 remains unique direct reason among named choices."
+    },
+    {
+      "id": "intro-geometry/17/17.4/1/1",
+      "status": "fixed",
+      "source": "src/data/intro-geometry/ch17.js",
+      "reason": "Only choice2 satisfies all requirements; other lists omit origin or do not form arbitrary rectangles. Answer index2 unchanged.",
+      "before": "Subjective standard smart choice allowed an also-valid translated rectangle.",
+      "after": "Explicitly requires origin vertex, adjacent sides on axes, and arbitrary positive width and height."
+    }
+  ],
+  "calibrationReview": "The four corrections clarify domain, required premises and direct proof reasons. They introduce no new prerequisite or solving step; existing level and scope retained.",
+  "limitations": "Mathematical and conversion-suitability review. No new textbook-page comparison, rendered-figure audit or student performance calibration is claimed.",
+  "sectionDecisions": [
+    {
+      "id": "prealgebra/4/4.6",
+      "reviewedVersions": 40,
+      "safeSlots": [
+        "prealgebra/4/4.6/9"
+      ],
+      "reason": "Slot9 was unnecessarily excluded by a blanket Which filter; remaining slots depend on options or vary response type."
+    },
+    {
+      "id": "prealgebra/9/9.2",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "All ten slots require radicals, paired endpoints, option-dependent approximations, or conceptual statements."
+    },
+    {
+      "id": "intro-algebra/2/2.2",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change."
+    },
+    {
+      "id": "intro-algebra/2/2.3",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change."
+    },
+    {
+      "id": "intro-algebra/2/2.4",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change."
+    },
+    {
+      "id": "intro-algebra/4/4.2",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change."
+    },
+    {
+      "id": "intro-algebra/4/4.4",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change."
+    },
+    {
+      "id": "intro-algebra/4/4.5",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change."
+    },
+    {
+      "id": "intro-algebra/8/8.4",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "No unchanged slot has a unique plain rational answer in all four versions. See per-slot reasons; a future coefficient/template prompt would be a new authoring change."
+    },
+    {
+      "id": "intro-algebra/9/9.2",
+      "reviewedVersions": 40,
+      "safeSlots": [
+        "intro-algebra/9/9.2/1",
+        "intro-algebra/9/9.2/3",
+        "intro-algebra/9/9.2/8",
+        "intro-algebra/9/9.2/9"
+      ],
+      "reason": "Four fraction-comparison slots have numeric answers in all four variants; remaining slots require statements or expressions."
+    },
+    {
+      "id": "intro-algebra/9/9.1",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed."
+    },
+    {
+      "id": "intro-algebra/9/9.4",
+      "reviewedVersions": 40,
+      "safeSlots": [
+        "intro-algebra/9/9.4/9"
+      ],
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed."
+    },
+    {
+      "id": "intro-algebra/10/10.1",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed."
+    },
+    {
+      "id": "intro-algebra/10/10.3",
+      "reviewedVersions": 40,
+      "safeSlots": [
+        "intro-algebra/10/10.3/10"
+      ],
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed."
+    },
+    {
+      "id": "intro-algebra/12/12.1",
+      "reviewedVersions": 40,
+      "safeSlots": [
+        "intro-algebra/12/12.1/2"
+      ],
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed."
+    },
+    {
+      "id": "intro-algebra/12/12.2",
+      "reviewedVersions": 40,
+      "safeSlots": [
+        "intro-algebra/12/12.2/6",
+        "intro-algebra/12/12.2/10"
+      ],
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed."
+    },
+    {
+      "id": "intro-algebra/14/14.2",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "Reviewed each prompt, every option, keyed result and supplied figure data for all four versions; per-slot independent mathematical checks below. No rendered-figure audit is claimed."
+    },
+    {
+      "id": "intro-geometry/1/1.5",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "Logic and proof vocabulary; numerical counterexamples generally nonunique."
+    },
+    {
+      "id": "intro-geometry/8/8.7",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "Classification and conditional statements."
+    },
+    {
+      "id": "intro-geometry/10/10.1",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "Named sides, named angles and symbolic ordering."
+    },
+    {
+      "id": "intro-geometry/11/11.3",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "Exact pi/radical area answers need a symbolic input grader or deliberately rewritten coefficient questions."
+    },
+    {
+      "id": "intro-geometry/16/16.1",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "Ordered pairs and transformation rules require a coordinate input grader."
+    },
+    {
+      "id": "intro-geometry/17/17.4",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "Symbolic coordinate expressions and proof strategies."
+    },
+    {
+      "id": "intro-geometry/19/19.3",
+      "reviewedVersions": 40,
+      "safeSlots": [],
+      "reason": "Proof criteria and justification statements."
+    }
+  ]
+}

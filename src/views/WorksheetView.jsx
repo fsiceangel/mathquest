@@ -4,6 +4,7 @@ import { BackLink } from '../components/ui.jsx'
 import { Printer } from '../components/icons.jsx'
 import { Fig } from '../components/Fig.jsx'
 import { versionCount, versionSet } from '../lib/variants.js'
+import BridgeReview from '../components/BridgeReview.jsx'
 
 export default function WorksheetView({ book, chapter }) {
   const [showKey, setShowKey] = useState(false)
@@ -38,7 +39,7 @@ export default function WorksheetView({ book, chapter }) {
                 {i + 1}
               </button>
             ))}
-            <span className="ws-versions-hint">Same skills, different numbers — print a new one each week.</span>
+            <span className="ws-versions-hint">Fresh practice with the chapter’s ideas; some versions ask you to use them in a new way.</span>
           </div>
         )}
         <div className="ws-toolbar">
@@ -52,6 +53,8 @@ export default function WorksheetView({ book, chapter }) {
           </button>
         </div>
       </div>
+
+      <BridgeReview book={book.id} chapter={chapter.number} group="worksheet" />
 
       <div className="sheet">
         <header className="sheet-head">
@@ -70,6 +73,7 @@ export default function WorksheetView({ book, chapter }) {
           {worksheet.map((p, i) => (
             <li key={i} className="ws-problem">
               <p className="ws-q">
+                {p.calibration?.scope === 'extension' && <small className="scope-note">Optional extension</small>}
                 <M>{p.q}</M>
               </p>
               {p.fig && <Fig fig={p.fig} />}

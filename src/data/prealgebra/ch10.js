@@ -223,10 +223,10 @@ const s102 = {
       solution: 'Alternate interior angles are equal, so $5x - 20 = 3x + 40$. Subtracting $3x$ and adding $20$ gives $2x = 60$, so $x = 30$. The angle is $5(30) - 20 = 130^\\circ$. Check: $3(30) + 40 = 130^\\circ$. ✓ (Remember, $x = 30$ is a step, not the final answer.)',
     },
     {
-      q: 'Lines $m$ and $n$ are parallel. A path starts on line $m$, goes to a point $P$ between the two lines, turns, and continues to line $n$. The first part of the path makes a $35^\\circ$ angle with line $m$, and the second part makes a $45^\\circ$ angle with line $n$. What is the angle of the turn at $P$ (the angle between the two parts of the path)?',
+      q: 'Lines $m$ and $n$ are horizontal and parallel, with $m$ above $n$. Point $A$ is on $m$, point $B$ is on $n$, and $P$ is between the lines and to the right of both $A$ and $B$. Segments $AP$ and $BP$ make acute angles of $35^\\circ$ and $45^\\circ$ with their respective lines. What is $\\angle APB$?',
       choices: ['$80^\\circ$', '$100^\\circ$', '$90^\\circ$', '$70^\\circ$'],
       answer: 0,
-      solution: 'Draw a helper line through $P$ parallel to both $m$ and $n$. It splits the angle at $P$ into two pieces. Each piece is an alternate interior angle with one of the path angles: one piece is $35^\\circ$ (matching line $m$) and the other is $45^\\circ$ (matching line $n$). So the turn at $P$ measures $35^\\circ + 45^\\circ = 80^\\circ$.',
+      solution: 'Draw a helper line through $P$ parallel to both $m$ and $n$. It splits the angle at $P$ into two pieces. Each piece is an alternate interior angle with one of the path angles: one piece is $35^\\circ$ (matching line $m$) and the other is $45^\\circ$ (matching line $n$). So the angle between rays $PA$ and $PB$ measures $35^\\circ + 45^\\circ = 80^\\circ$.',
     },
   ],
 }

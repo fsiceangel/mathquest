@@ -201,14 +201,14 @@ const s192 = [
   // p8 — the tie in year one, and where the tie breaks.
   [
     {
-      q: 'Two savings accounts start with the same deposit and pay the same rate: the first pays simple interest, the second compounds annually. After exactly $2$ years, how do the balances compare?',
+      q: 'Two savings accounts start with the same positive deposit and pay the same positive annual rate: the first pays simple interest, the second compounds annually. After exactly $2$ years, how do the balances compare?',
       choices: ['They are equal', 'The compounding account is larger', 'The simple-interest account is larger', 'It depends on the principal'],
       answer: 1,
       solution:
         'Both accounts end year one at $P(1 + r)$, since there is no earned interest yet for anything extra to grow on. In year two the simple account pays $P \\cdot r$ again, while the compounding account pays $r$ times the LARGER balance $P(1+r)$ — the same $P \\cdot r$ plus an additional $r$ times the first year’s interest. So the compounding account is ahead. Check a second, independent way with numbers: at $P = \\$100$ and $r = 10\\%$, the simple account holds $\\$120$ and the compounding account holds $\\$110$ then $\\$121$, and $\\$121 > \\$120$ ✓. (The choice "They are equal" is true after one year only; the choice "The simple-interest account is larger" has the comparison backwards; the choice "It depends on the principal" misses that both balances are the same multiple of $P$, so $P$ cancels out of the comparison.)',
     },
     {
-      q: 'Two accounts get the same deposit at the same rate — one simple, one compounded annually. At the end of which year do their balances FIRST differ?',
+      q: 'Two accounts get the same positive deposit at the same positive annual rate — one simple, one compounded annually. At the end of which year do their balances FIRST differ?',
       choices: ['Year $1$', 'Year $3$', 'Year $2$', 'They never differ'],
       answer: 2,
       solution:

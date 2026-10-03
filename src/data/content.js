@@ -5,6 +5,8 @@
 // Problem variations (src/data/variants/**) are merged on top of the base
 // chapters here, so views never have to know where a problem came from: every
 // problem simply carries a `variants` array of alternates when one exists.
+import { problemCalibration } from './calibration/index.js'
+
 const modules = {
   ...import.meta.glob('./prealgebra/ch*.js', { eager: true }),
   ...import.meta.glob('./intro-algebra/ch*.js', { eager: true }),
@@ -24,6 +26,9 @@ for (const [path, mod] of Object.entries(modules)) {
     continue
   }
   registry[`${ch.book}/${ch.number}`] = ch
+  for (const [group, problems] of [...ch.sections.map(s => [s.id, s.problems]), ['challenge', ch.challenge], ['worksheet', ch.worksheet]]) {
+    problems?.forEach((p, i) => { p.calibration = problemCalibration(ch.book, ch.number, group, i) })
+  }
 }
 
 // Attach `variants` to the matching base problems. A variation file may cover
@@ -36,7 +41,10 @@ function attach(problems, table, where) {
       console.warn(`Duplicate variations for ${where}[${i}] — keeping the first`)
       return
     }
-    problems[i].variants = vs
+    problems[i].variants = vs.map((p, r) => {
+      const baseId = problems[i].calibration?.id.split('/')
+      return baseId ? { ...p, calibration: problemCalibration(baseId[0], Number(baseId[1]), baseId[2], i, r + 2) } : p
+    })
   })
 }
 

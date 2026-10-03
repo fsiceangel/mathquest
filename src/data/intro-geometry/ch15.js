@@ -278,7 +278,7 @@ const s151 = {
       solution: 'The diameter is $10$, so the radius is $5$ — always convert first! Then $V = \\pi \\cdot 5^2 \\cdot 4 = 100\\pi$. Plugging the full diameter into $\\pi r^2 h$ gives $400\\pi$, four times too big, because the radius got doubled and then squared.',
     },
     {
-      q: 'A paper label wraps exactly once around a can of radius $3$ and height $11$, with no overlap. What is the area of the label?',
+      q: 'A paper label wraps exactly once around a can of radius $3$ and height $11$, covering the whole curved side with no overlap. What is the area of the label?',
       fig: cylFig(3, 11, 'r = 3', 'h = 11', [], 260),
       choices: ['$33\\pi$', '$18\\pi$', '$84\\pi$', '$66\\pi$'],
       answer: 3,
@@ -305,7 +305,7 @@ const s151 = {
       solution: 'The water itself forms a cylinder with the same radius $6$ but only half the height, $5$. So its volume is $\\pi \\cdot 36 \\cdot 5 = 180\\pi$. Equivalently, take half of the full tank\'s $360\\pi$. Halving the height halves the volume — the base circle is unchanged.',
     },
     {
-      q: 'A cylinder of radius $2$ is full of water to a height of $9$. All the water is poured into an empty cylinder of radius $3$. How deep is the water in the new cylinder?',
+      q: 'A cylinder of radius $2$ is full of water to a height of $9$. All the water is poured into an empty cylinder of radius $3$. How deep is the water in the new cylinder? The receiving container holds all the liquid without overflowing.',
       choices: ['$6$', '$9$', '$3$', '$4$'],
       answer: 3,
       solution: 'The amount of water never changes: $V = \\pi \\cdot 2^2 \\cdot 9 = 36\\pi$. In the new cylinder the base area is $\\pi \\cdot 3^2 = 9\\pi$, so the depth is $36\\pi \\div 9\\pi = 4$. The tempting answer $6$ scales the height by $\\frac{2}{3}$, but depth scales by the ratio of base AREAS, which is $\\frac{4}{9}$.',
@@ -685,14 +685,14 @@ const s154 = {
       solution: 'Cylinder volume: $\\pi \\cdot 36 \\cdot 4 = 144\\pi$. Each sphere: $\\frac{4}{3}\\pi \\cdot 27 = 36\\pi$. Number of spheres: $144\\pi \\div 36\\pi = 4$. Everything divides out cleanly — a good sign we set up volumes, not surface areas.',
     },
     {
-      q: 'A cylindrical tank of radius $4$ contains water. A solid metal ball of radius $2$ is dropped in and sinks completely below the surface. By how much does the water level rise?',
+      q: 'A cylindrical tank of radius $4$ contains water. A solid metal ball of radius $2$ is dropped in and sinks completely below the surface. By how much does the water level rise? No liquid spills or overflows.',
       fig: tankBallFig(4, 8, 2, 2, 'r = 4', '2'),
       choices: ['$\\frac{1}{3}$', '$\\frac{2}{3}$', '$2$', '$\\frac{1}{2}$'],
       answer: 1,
       solution: 'The ball displaces its own volume: $\\frac{4}{3}\\pi \\cdot 8 = \\frac{32\\pi}{3}$. Spread over the tank\'s base area $\\pi \\cdot 16 = 16\\pi$, the rise is $\\frac{32\\pi}{3} \\div 16\\pi = \\frac{2}{3}$. Displaced volume $\\div$ base area — the ball\'s shape never enters the calculation.',
     },
     {
-      q: 'A cone-shaped cup with radius $3$ and height $9$ is full of juice. All the juice is poured into an empty cylindrical glass, also of radius $3$. How deep is the juice in the glass?',
+      q: 'A cone-shaped cup with radius $3$ and height $9$ is full of juice. All the juice is poured into an empty cylindrical glass, also of radius $3$. How deep is the juice in the glass? The receiving container holds all the liquid without overflowing.',
       fig: cupFig(3, 9, 'r = 3', 'h = 9'),
       choices: ['$9$', '$6$', '$4.5$', '$3$'],
       answer: 3,
@@ -717,7 +717,7 @@ const s154 = {
       solution: 'Cone: $\\frac{1}{3}\\pi \\cdot 16 \\cdot 8 = \\frac{128\\pi}{3}$. Hemisphere: $\\frac{2}{3}\\pi \\cdot 64 = \\frac{128\\pi}{3}$. A perfect tie! This always happens when the cone\'s height is double the shared radius: $\\frac{1}{3}\\pi r^2(2r) = \\frac{2}{3}\\pi r^3$, exactly the hemisphere formula.',
     },
     {
-      q: 'A cylindrical glass of radius $3$ holds water $4$ deep. Three solid glass marbles, each of radius $1$, are dropped in and sink to the bottom. What is the new depth of the water?',
+      q: 'A cylindrical glass of radius $3$ holds water $4$ deep. Three solid glass marbles, each of radius $1$, are dropped in and sink to the bottom. What is the new depth of the water? No liquid spills or overflows.',
       choices: ['$\\frac{4}{9}$', '$5$', '$\\frac{40}{9}$', '$\\frac{40}{3}$'],
       answer: 2,
       solution: 'The marbles together displace $3 \\cdot \\frac{4}{3}\\pi \\cdot 1^3 = 4\\pi$. Over the base area $9\\pi$, the level rises $\\frac{4\\pi}{9\\pi} = \\frac{4}{9}$. New depth: $4 + \\frac{4}{9} = \\frac{40}{9}$. The choice $\\frac{4}{9}$ is only the rise — the question asks for the final depth.',
@@ -740,7 +740,7 @@ const challenge = [
     solution: 'From $\\pi r \\ell = 136\\pi$ with $r = 8$, the slant is $\\ell = 17$. The height comes from the right triangle: $h = \\sqrt{17^2 - 8^2} = \\sqrt{225} = 15$. Then $V = \\frac{1}{3}\\pi \\cdot 64 \\cdot 15 = 320\\pi$. The choice $\\frac{1088\\pi}{3}$ plugs the slant $17$ in as the height — volume always wants the vertical height.',
   },
   {
-    q: 'For what radius are a sphere\'s volume and surface area equal as numbers?',
+    q: 'For what radius are a sphere\'s volume and surface area equal as numbers? Use one consistent length unit, with its square and cubic units for area and volume.',
     choices: ['$1$', '$4$', '$3$', '$6$'],
     answer: 2,
     solution: 'Set $\\frac{4}{3}\\pi r^3 = 4\\pi r^2$. Divide both sides by $4\\pi r^2$: $\\frac{r}{3} = 1$, so $r = 3$. Check: volume $36\\pi$ and surface $36\\pi$. ✓ For $r < 3$ the surface number is bigger; for $r > 3$ the volume number wins — cubes eventually beat squares.',
@@ -772,7 +772,7 @@ const challenge = [
     solution: 'The tube: $2\\pi \\cdot 3 \\cdot 10 = 60\\pi$. The two hemisphere caps together make one full sphere\'s skin: $4\\pi \\cdot 9 = 36\\pi$. Total: $96\\pi$. Notice there are NO flat disks anywhere — every flat face is glued to another and disappears. The choice $114\\pi$ adds two phantom disks of $9\\pi$ each.',
   },
   {
-    q: 'A cylindrical tank of radius $6$ holds water. A solid metal cone of radius $3$ and height $4$ is dropped in and sinks completely. By how much does the water level rise?',
+    q: 'A cylindrical tank of radius $6$ holds water. A solid metal cone of radius $3$ and height $4$ is dropped in and sinks completely. By how much does the water level rise? No liquid spills or overflows.',
     choices: ['$3$', '$\\frac{1}{2}$', '$\\frac{1}{4}$', '$\\frac{1}{3}$'],
     answer: 3,
     solution: 'The cone displaces its volume: $\\frac{1}{3}\\pi \\cdot 9 \\cdot 4 = 12\\pi$. Over the tank\'s base area $\\pi \\cdot 36 = 36\\pi$, the rise is $\\frac{12\\pi}{36\\pi} = \\frac{1}{3}$. Even though the sunken object is a cone, the displaced water forms a flat cylindrical layer — always divide by the TANK\'s base area.',
@@ -798,7 +798,7 @@ const challenge = [
     solution: 'The sphere is limited by the cylinder\'s radius: $r = 4$ (its diameter $8$ fits under the height $10$ with room to spare). Sphere: $\\frac{4}{3}\\pi \\cdot 64 = \\frac{256\\pi}{3}$. Cylinder: $\\pi \\cdot 16 \\cdot 10 = 160\\pi$. Fraction: $\\frac{256}{3 \\cdot 160} = \\frac{8}{15}$. The famous $\\frac{2}{3}$ only applies when the fit is snug ($h = 2r$) — here extra height dilutes the fraction.',
   },
   {
-    q: 'A hemisphere scoop of ice cream with radius $3$ sits on top of an empty cone with radius $3$. When the ice cream melts, it fills the cone exactly to the brim. What is the height of the cone?',
+    q: 'A hemisphere scoop of ice cream with radius $3$ sits on top of an empty cone with radius $3$. When the ice cream melts, it fills the cone exactly to the brim. What is the height of the cone? Assume melting does not change the volume.',
     choices: ['$3$', '$6$', '$9$', '$2$'],
     answer: 1,
     solution: 'Melting conserves volume: $\\frac{2}{3}\\pi \\cdot 27 = \\frac{1}{3}\\pi \\cdot 9 \\cdot h$, so $18\\pi = 3\\pi h$ and $h = 6$. Neatly, $h = 2r$: a cone exactly twice as tall as its radius always holds precisely one hemisphere\'s worth.',
@@ -825,7 +825,7 @@ const worksheet = [
     solution: 'Convert to the radius first: $r = 9$. Then $V = \\frac{4}{3}\\pi \\cdot 9^3 = \\frac{4}{3} \\cdot 729\\pi = 972\\pi$. Using the diameter by mistake would be $8$ times too big, since the radius gets cubed.',
   },
   {
-    q: 'A rectangular label wraps exactly once around a cylindrical jar of radius $4$ and height $9$, with no overlap. Find the area of the label.',
+    q: 'A rectangular label wraps exactly once around a cylindrical jar of radius $4$ and height $9$, covering the whole curved side with no overlap. Find the area of the label.',
     answer: '$72\\pi$',
     solution: 'Unrolled, the label is a rectangle: height $9$, width equal to the circumference $2\\pi \\cdot 4 = 8\\pi$. Area: $8\\pi \\cdot 9 = 72\\pi$. No lids — a label only covers the side.',
   },
@@ -865,7 +865,7 @@ const worksheet = [
     solution: 'Cylinder: $\\pi \\cdot 9 \\cdot 10 = 90\\pi$. Cone roof: $\\frac{1}{3}\\pi \\cdot 9 \\cdot 4 = 12\\pi$. Total: $90\\pi + 12\\pi = 102\\pi$. Composite solids are just familiar pieces added together.',
   },
   {
-    q: 'A cylindrical tank of radius $10$ contains water. A solid sphere of radius $5$ is lowered in until it is completely submerged. By how much does the water level rise?',
+    q: 'A cylindrical tank of radius $10$ contains water. A solid sphere of radius $5$ is lowered in until it is completely submerged. By how much does the water level rise? No liquid spills or overflows.',
     fig: tankBallFig(10, 12, 5, 5, 'r = 10', '5'),
     answer: '$\\frac{5}{3}$',
     solution: 'The sphere displaces its own volume: $\\frac{4}{3}\\pi \\cdot 125 = \\frac{500\\pi}{3}$. That spreads over the tank\'s base area $\\pi \\cdot 100 = 100\\pi$, so the rise is $\\frac{500\\pi}{3} \\div 100\\pi = \\frac{5}{3}$.',

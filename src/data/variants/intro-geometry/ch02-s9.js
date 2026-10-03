@@ -53,7 +53,7 @@ const worksheet = [
   //      just read the lesson would recall the answer instead of finding it.
   [
     {
-      q: 'Points $D$, $O$, and $E$ lie on a line, and a ray $\\overrightarrow{OF}$ is drawn from $O$. If $\\angle DOF = 127^\\circ$, find $\\angle FOE$.',
+      q: 'Points $D$, $O$, and $E$ lie on a line with $O$ between $D$ and $E$, and a ray $\\overrightarrow{OF}$ is drawn from $O$. If $\\angle DOF = 127^\\circ$, find $\\angle FOE$.',
       answer: '$53^\\circ$',
       solution:
         'The two angles sit side by side along line $DE$, so they form a linear pair and add to a straight angle: $\\angle FOE = 180^\\circ - 127^\\circ = 53^\\circ$. Second route through a perpendicular, which never uses $180$ at all. Stand a ray $\\overrightarrow{OG}$ at $O$ perpendicular to the line, on the same side as $F$. Then $\\angle DOG = 90^\\circ$, so $\\overrightarrow{OF}$ has swung $127^\\circ - 90^\\circ = 37^\\circ$ past the upright. The upright also makes a $90^\\circ$ angle with $\\overrightarrow{OE}$, and $\\overrightarrow{OF}$ has eaten $37^\\circ$ of it, leaving $\\angle FOE = 90^\\circ - 37^\\circ = 53^\\circ$ ✓. Rebuild to be sure: $127 + 53 = 180$ ✓. SUBTRACTING FROM 360 INSTEAD OF 180 gives $233^\\circ$ ✗, which is the reflex angle that swings the long way round. ADDING INSTEAD OF SUBTRACTING gives $307^\\circ$ ✗, larger than the straight angle the two pieces are supposed to fill.',
@@ -310,7 +310,7 @@ const worksheet = [
         'Run a helper line through $P$ parallel to $\\ell$ and $m$. It cuts $\\angle APB$ into an upper piece and a lower piece. The upper piece is alternate interior with the $52^\\circ$ angle at $A$, so it is $52^\\circ$; the lower piece is alternate interior with the $66^\\circ$ angle at $B$, so it is $66^\\circ$. Therefore $\\angle APB = 52^\\circ + 66^\\circ = 118^\\circ$. Second route with a triangle. Extend $\\overline{BP}$ upward past $P$ until it meets $\\ell$ at a point $Q$, to the right of $A$. Line $BQ$ is a transversal of the parallels, so the angle at $Q$ between $\\overrightarrow{QP}$ and $\\overrightarrow{QA}$ is alternate interior to the $66^\\circ$ angle at $B$ and measures $66^\\circ$. In triangle $PAQ$ the angle at $A$ is the given $52^\\circ$. Because $B$, $P$, $Q$ are collinear with $P$ between $B$ and $Q$, the angle $\\angle APB$ is the exterior angle of triangle $PAQ$ at $P$, so it equals $66^\\circ + 52^\\circ = 118^\\circ$ ✓. A shape check: the bend is obtuse in the picture, and $118^\\circ$ is obtuse ✓. SUBTRACTING THE TWO GIVEN ANGLES gives $14^\\circ$ ✗. TAKING 180 MINUS THE SUM gives $62^\\circ$ ✗, which would make the drawn bend look acute.',
     },
     {
-      q: 'Lines $\\ell$ and $m$ are parallel. A path leaves $A$ on $\\ell$, bends at $P$, and finishes at $B$ on $m$, opening to the left as shown. It makes a $29^\\circ$ angle with $\\ell$ at $A$ and a $45^\\circ$ angle with $m$ at $B$. Find the bend angle $\\angle APB$.',
+      q: 'Lines $\\ell$ and $m$ are parallel. A path leaves $A$ on $\\ell$, bends at $P$, and finishes at $B$ on $m$, with both $A$ and $B$ to the right of $P$ as shown. It makes a $29^\\circ$ angle with $\\ell$ at $A$ and a $45^\\circ$ angle with $m$ at $B$. Find the bend angle $\\angle APB$.',
       fig: {
         view: [-3.4, -0.9, 3.6, 3.9],
         elems: [

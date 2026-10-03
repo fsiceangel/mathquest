@@ -207,7 +207,7 @@ const challenge = [
   // slot 9 — equal or proportional binomial coefficients
   [
     {
-      q: 'In the expansion of $(1+x)^n$, the coefficient of $x^4$ is exactly five times the coefficient of $x^3$. What is $n$?',
+      q: 'For an integer $n \\ge 4$, in the expansion of $(1+x)^n$, the coefficient of $x^4$ is exactly five times the coefficient of $x^3$. What is $n$?',
       choices: ['$23$', '$20$', '$24$', '$28$'],
       answer: 0,
       solution:
@@ -221,7 +221,7 @@ const challenge = [
         'Route one, symmetry. $\\binom{n}{k} = \\binom{n}{n-k}$, and two distinct lower indices give equal nonzero entries exactly when $n - 5 = 8$, so $n = 13$; indeed $\\binom{13}{5} = 1287 = \\binom{13}{8}$ ✓. Route two, the shape of a row. Row $n$ rises to its middle and then falls, so equal entries at the distinct indices $5$ and $8$ must sit symmetrically about the center: $\\frac{n}{2} = \\frac{5+8}{2}$, giving $n = 13$ ✓. (The choice $40$ MULTIPLIES $5\\cdot 8$ instead of adding ✗; $12$ USES $n - 5 = 8 - 1$, an off-by-one in the symmetry rule ✗; $14$ ADDS AN EXTRA $1$ to $5 + 8$ ✗.)',
     },
     {
-      q: 'In the expansion of $(1+x)^n$, the coefficient of $x^2$ is exactly $13$ times the coefficient of $x$. What is $n$?',
+      q: 'For an integer $n \\ge 2$, in the expansion of $(1+x)^n$, the coefficient of $x^2$ is exactly $13$ times the coefficient of $x$. What is $n$?',
       choices: ['$26$', '$27$', '$25$', '$14$'],
       answer: 1,
       solution:

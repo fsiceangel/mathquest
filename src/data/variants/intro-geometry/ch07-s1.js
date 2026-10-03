@@ -483,7 +483,7 @@ const s71 = [
       choices: ['$7\\sqrt{3}$', '$14$', '$7$', '$7\\sqrt{2}$'],
       answer: 2,
       solution:
-        'The bisector makes a $30^\\circ$ angle with each taxiway, so the perpendicular from $P$ closes a $30$-$60$-$90$ triangle with hypotenuse $OP = 14$; the side opposite the $30^\\circ$ angle is half the hypotenuse, $\\frac{14}{2} = 7$ m, to each side alike ✓. Check a second, independent way with coordinates: put one taxiway on the $x$-axis, so $P = (14\\cos 30^\\circ, 14\\sin 30^\\circ) = (7\\sqrt{3}, 7)$; the distance to the $x$-axis is the $y$-coordinate, $7$, and the distance to the other taxiway, the line $y = \\sqrt{3}x$, is $\\frac{|\\sqrt{3} \\cdot 7\\sqrt{3} - 7|}{2} = \\frac{21 - 7}{2} = 7$ as well ✓. (The choice $7\\sqrt{3}$ is ANSWERING THE FOOT DISTANCE, the run from $O$ to the perpendicular’s foot ✗; $14$ is HANDING BACK $OP$ ✗; $7\\sqrt{2}$ is TRUSTING THE 45-DEGREE DEFAULT in a $30$-$60$-$90$ setting ✗.)',
+        'The bisector splits the $60^\\circ$ angle into two $30^\\circ$ angles. Drop a perpendicular from $P$ to either taxiway. The resulting $30$-$60$-$90$ triangle has hypotenuse $14$, so its short leg is $14/2=7$ meters. This short leg is the perpendicular distance to the taxiway. The angle-bisector property gives the same distance to the other taxiway.',
     },
     {
       q: 'A rectangular field has a corner post at $O$, and a drone hovers over point $P$ on the ray that bisects the $90^\\circ$ corner, with $OP = 12$ m along the ground. What is the perpendicular distance from $P$ to each fence at that corner?',

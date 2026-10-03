@@ -154,7 +154,7 @@ const challenge = [
         'Opposite angles of a cyclic quadrilateral add to $180^\\circ$, so $(5x + 13^\\circ) + (3x - 9^\\circ) = 180^\\circ$, that is $8x + 4^\\circ = 180^\\circ$, so $8x = 176^\\circ$ and $x = 22^\\circ$; the angle at $C$ is $3(22^\\circ) - 9^\\circ = 57^\\circ$ ✓. Check a second, independent way by testing the answer: if the angle at $C$ is $57^\\circ$, then $3x - 9^\\circ = 57^\\circ$ forces $x = 22^\\circ$, and the angle at $A$ becomes $5(22^\\circ) + 13^\\circ = 123^\\circ$ — and $57^\\circ + 123^\\circ = 180^\\circ$ ✓. (The choice $123^\\circ$ is ANSWERING FOR THE WRONG CORNER ✗; the choice $22^\\circ$ is REPORTING $x$ INSTEAD OF THE ANGLE ✗; the choice $60^\\circ$ is ADDING THE $4^\\circ$ INSTEAD OF SUBTRACTING IT, giving $x = 23^\\circ$ ✗.)',
     },
     {
-      q: 'Four marker buoys $A$, $B$, $C$, $D$ float in that order on a circular racecourse, and straight ropes join them in a loop. The ropes turn at $A$ through an angle of $(2x + 53)^\\circ$ and at $C$ through an angle of $(4x - 17)^\\circ$. What is the angle at $C$?',
+      q: 'Four marker buoys $A$, $B$, $C$, $D$ float in that order on a circular racecourse, and straight ropes join them in a loop. The ropes form an interior angle at $A$ of $(2x + 53)^\\circ$ and at $C$ of $(4x - 17)^\\circ$. What is the angle at $C$?',
       fig: {
         view: [-4.7, -4.7, 4.7, 4.7],
         alt: 'Cyclic quadrilateral ABCD with the angle at A marked 2x plus 53 and the angle at C marked 4x minus 17',

@@ -19,7 +19,7 @@ const s44 = [
         'A quarter of a quarter is a sixteenth: $\\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{16}$. Doubling the bottom gives $\\frac{1}{8}$ and doubling the whole fraction gives $\\frac{1}{2}$ — neither is squaring.',
     },
     {
-      q: 'Which fraction, when squared, gives $\\frac{1}{64}$?',
+      q: 'Which positive fraction, when squared, gives $\\frac{1}{64}$?',
       choices: ['$\\frac{1}{32}$', '$\\frac{1}{64}$', '$\\frac{1}{16}$', '$\\frac{1}{8}$'],
       answer: 3,
       solution:

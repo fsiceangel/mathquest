@@ -1,0 +1,1858 @@
+[
+  {
+    "id": "intro-algebra/20/20.2/1/4",
+    "sourceDigest": "de8123fb1b45b8cbb71db40bcd0b96210c30732d593e62ce8f948f1c801759e6",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "Abs(-44)",
+      "reason": "Distance from zero is absolute value."
+    },
+    "computed": "44",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.2/4/4",
+    "sourceDigest": "c309c5187ba0be7528dcf49838e31c08389961955f3eb9fcc0aa3800e476547c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,FiniteSet(-8+24,-8-24))",
+      "reason": "Step24 in both directions from-8, yielding16,-32. Only fourth option contains both and no extraneous values."
+    },
+    "computed": "(position, 3, {-32, 16})",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.2/6/1",
+    "sourceDigest": "4c600c6957e464a9d70f0057539dca089fa0bbd098555c30fc6fc09eb5e38384",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,6)",
+      "reason": "Distance from centre c is |x-c|; compare each equation's centre and radius. Centres2,9,-4,28 and distances6,12,16,12."
+    },
+    "computed": "(position, 2, 6)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.2/6/2",
+    "sourceDigest": "332856b252f23350aaf7330943ee9c0d2efce4966e68d4ed759e54d87b243c57",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,12)",
+      "reason": "Distance from centre c is |x-c|; compare each equation's centre and radius. Centres2,9,-4,28 and distances6,12,16,12."
+    },
+    "computed": "(position, 0, 12)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.2/6/3",
+    "sourceDigest": "6336778fc9d68f8aebf960592dbbaa6d2b48a141ce3e6df03d1fe43f70b5d8bb",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,16)",
+      "reason": "Distance from centre c is |x-c|; compare each equation's centre and radius. Centres2,9,-4,28 and distances6,12,16,12."
+    },
+    "computed": "(position, 1, 16)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.2/6/4",
+    "sourceDigest": "483c7036b20bbdd4f6b680e4c0072ce627d0aa11a35d9a07aaaa50944e195d27",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,12)",
+      "reason": "Distance from centre c is |x-c|; compare each equation's centre and radius. Centres2,9,-4,28 and distances6,12,16,12."
+    },
+    "computed": "(position, 3, 12)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.2/7/4",
+    "sourceDigest": "ba39beb0c464b291020507d1aa3d4a45c5515198de5b1d7dcac8f17a4e40f03f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,24)",
+      "reason": "Symmetric strict interval(-24,24) is exactly |x|<24; non-strict or reversed alternatives differ at boundary or outside."
+    },
+    "computed": "(position, 3, 24)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.2/9/4",
+    "sourceDigest": "8f5209a1d59190fcf43d444bdce2d32d4c032a218c4e5d41f3dcac49de2bd812",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,(16+44)/2)",
+      "reason": "Unique equidistant real point is midpoint30; other numeric points and nonexistence alternative false."
+    },
+    "computed": "(position, 2, 30)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.3/7/1",
+    "sourceDigest": "a5127b278ebb555c9ba9af17cd5420d7b8941f450265ee299e67def90705882f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,Interval(5,6,False,True))",
+      "reason": "Floor m means m<=x<m+1; ceiling m means m-1<x<=m. Check all endpoint inclusions explicitly."
+    },
+    "computed": "(position, 2, Interval.Ropen(5, 6))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.3/7/2",
+    "sourceDigest": "490a83731fb7cdf2e8c1ceb50a726b5e6cd5ef5842a0e0887042484ce256dca4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Interval(9,10,False,True))",
+      "reason": "Floor m means m<=x<m+1; ceiling m means m-1<x<=m. Check all endpoint inclusions explicitly."
+    },
+    "computed": "(position, 1, Interval.Ropen(9, 10))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.3/7/3",
+    "sourceDigest": "b9af7e94aed97cf5bdb01879a86f74ef8ebac20e451ebada13cc201fd93297fd",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,Interval(6,7,True,False))",
+      "reason": "Floor m means m<=x<m+1; ceiling m means m-1<x<=m. Check all endpoint inclusions explicitly."
+    },
+    "computed": "(position, 3, Interval.Lopen(6, 7))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.3/7/4",
+    "sourceDigest": "7832571234fbf7c613e440e524ea96116b48193d849fc29e86e7c863aea0e6c6",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,Interval(-4,-3,False,True))",
+      "reason": "Floor m means m<=x<m+1; ceiling m means m-1<x<=m. Check all endpoint inclusions explicitly."
+    },
+    "computed": "(position, 0, Interval.Ropen(-4, -3))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.3/9/1",
+    "sourceDigest": "ae1abcf95695738cb5dbdc39417d75c8e884e70f7453814262e66bc985ba3670",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4*ceiling(63/10)",
+      "reason": "Each started billing unit incurs full charge, so multiply rate by exact ceiling of use."
+    },
+    "computed": "28",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.3/9/2",
+    "sourceDigest": "cf36465116653910a2db02d52681f99318cb957f421e562fb1e5d061d658a22c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6*ceiling(34/10)",
+      "reason": "Each started billing unit incurs full charge, so multiply rate by exact ceiling of use."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.3/9/3",
+    "sourceDigest": "543e645e3a51ecc43a5d1148ecf276aee5f54f12eee20ad9b85308e26a26a4eb",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "8*ceiling(56/10)",
+      "reason": "Each started billing unit incurs full charge, so multiply rate by exact ceiling of use."
+    },
+    "computed": "48",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.3/9/4",
+    "sourceDigest": "a197e6ba2a50da38215c544c8abd1129f34514ba017d4cf212740a7dc7ad60ce",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "9*ceiling(26/10)",
+      "reason": "Each started billing unit incurs full charge, so multiply rate by exact ceiling of use."
+    },
+    "computed": "27",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.3/10/1",
+    "sourceDigest": "30311551d3a58163b81b346c6577f69541fa762059967ab20babf3b4e00605f3",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,2)",
+      "reason": "Integer solution intervals are6..7,10..14,17..24,-18..-10; finite counts2,5,8,9. Ceiling/floor endpoint distinctions preserved."
+    },
+    "computed": "(position, 0, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.3/10/2",
+    "sourceDigest": "80b3dd42106ff23bbb0d37807ec411d0cf44dd6c5355662a3b6c0d28652a654e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,5)",
+      "reason": "Integer solution intervals are6..7,10..14,17..24,-18..-10; finite counts2,5,8,9. Ceiling/floor endpoint distinctions preserved."
+    },
+    "computed": "(position, 1, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.3/10/3",
+    "sourceDigest": "136d02fa878e69171ca64011a7d1cc2da7c7f3100ef4c7808c7dc21261114288",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,8)",
+      "reason": "Integer solution intervals are6..7,10..14,17..24,-18..-10; finite counts2,5,8,9. Ceiling/floor endpoint distinctions preserved."
+    },
+    "computed": "(position, 2, 8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.3/10/4",
+    "sourceDigest": "530bf331f97836e7c0c934944717409c66205b83214f768095d830b435cea59d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,9)",
+      "reason": "Integer solution intervals are6..7,10..14,17..24,-18..-10; finite counts2,5,8,9. Ceiling/floor endpoint distinctions preserved."
+    },
+    "computed": "(position, 3, 9)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/4/1",
+    "sourceDigest": "20c10a47e91857d92d5d8ec98faf6e7840322587663ea844d15c000ea7fff7e8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "12/3",
+      "reason": "Exclude unique zero of original denominator; numerator zero is not a restriction."
+    },
+    "computed": "4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/4/2",
+    "sourceDigest": "715c3543ea93696f8c77fd10480a30459abc314d32d9e353f91ed0aea98429c4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "-28/4",
+      "reason": "Exclude unique zero of original denominator; numerator zero is not a restriction."
+    },
+    "computed": "-7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/4/3",
+    "sourceDigest": "8067f1ef401e57a1986659b64dba989d164ee202815d3bc419ba081c147dd189",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "22/2",
+      "reason": "Exclude unique zero of original denominator; numerator zero is not a restriction."
+    },
+    "computed": "11",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/4/4",
+    "sourceDigest": "70fc4f737d46207b68db4a6d913ec54a573149fb1a156f50a5274e3684e1e2a4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "-30/5",
+      "reason": "Exclude unique zero of original denominator; numerator zero is not a restriction."
+    },
+    "computed": "-6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/5/1",
+    "sourceDigest": "d33b815638fde6921685479fa194e3712a98242d876d8de241f12d183b3f11c2",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "x+2",
+      "reason": "Factor difference of squares and cancel permitted nonzero factor; explicit excluded value in stem retained."
+    },
+    "computed": "x + 2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/5/2",
+    "sourceDigest": "a7c485895b8708b24c6467278b707adbc3f8f58a6a9facba65d43716103c2d2d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "x+6",
+      "reason": "Factor difference of squares and cancel permitted nonzero factor; explicit excluded value in stem retained."
+    },
+    "computed": "x + 6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/5/3",
+    "sourceDigest": "1d81de2854ad674688388e83d5364f77c6824451d1263a2b8495f6b90c063e36",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "x-3",
+      "reason": "Factor difference of squares and cancel permitted nonzero factor; explicit excluded value in stem retained."
+    },
+    "computed": "x - 3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/5/4",
+    "sourceDigest": "73448287cf737ade8d3a31a1bff80b320ad7f1ecd3e7c6d5102f43ccf9b5e603",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "x-7",
+      "reason": "Factor difference of squares and cancel permitted nonzero factor; explicit excluded value in stem retained."
+    },
+    "computed": "x - 7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/6/1",
+    "sourceDigest": "034b9e8fd9baa02ad3c8aca82646a2df32512d4505644dd1d53cc5ffe00a0d03",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,x+3)",
+      "reason": "Cancel factor only on original domain, excluding3,11,-6,-9 respectively. Other statements incorrectly restore hole or assign value there."
+    },
+    "computed": "(position, 0, x + 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/6/2",
+    "sourceDigest": "28de17b8ee6f371604c7e5511967c97e8475ce28e11220303cd4dea358ec945d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,x+11)",
+      "reason": "Cancel factor only on original domain, excluding3,11,-6,-9 respectively. Other statements incorrectly restore hole or assign value there."
+    },
+    "computed": "(position, 2, x + 11)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/6/3",
+    "sourceDigest": "ace3727d47db63d3a6fc6dd33fedc7b21e3923adbe37903dde087c57acda4a3d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,x)",
+      "reason": "Cancel factor only on original domain, excluding3,11,-6,-9 respectively. Other statements incorrectly restore hole or assign value there."
+    },
+    "computed": "(position, 1, x)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/6/4",
+    "sourceDigest": "a3e8aab72c9ffe3b2968347f4c5573b2d8ba504ff4796d322fba28ca7113ea8c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,2)",
+      "reason": "Cancel factor only on original domain, excluding3,11,-6,-9 respectively. Other statements incorrectly restore hole or assign value there."
+    },
+    "computed": "(position, 3, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/8/1",
+    "sourceDigest": "e126e5f41b8a2054318a5460718e478ddc311e3d516832051a52247539a70d1b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,6/(2001/1000-2))",
+      "reason": "Outputs at named nearby points6000,-10000,9000 give signs. Last magnitude30/|x+6| diverges on either side as distance to-6 tends0; no two-sided signed limit claimed."
+    },
+    "computed": "(position, 0, 6000)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/8/2",
+    "sourceDigest": "2b94264d1979bba7e1add6bfd4788bf8339ec46159be44683ae3cab1ea88bde0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,10/(5999/1000-6))",
+      "reason": "Outputs at named nearby points6000,-10000,9000 give signs. Last magnitude30/|x+6| diverges on either side as distance to-6 tends0; no two-sided signed limit claimed."
+    },
+    "computed": "(position, 1, -10000)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/8/3",
+    "sourceDigest": "36cc3cd1c823d7f58b715d4eb13b0e714fff341e019f02a4bfdba3252af70e08",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,9/(-2999/1000+3))",
+      "reason": "Outputs at named nearby points6000,-10000,9000 give signs. Last magnitude30/|x+6| diverges on either side as distance to-6 tends0; no two-sided signed limit claimed."
+    },
+    "computed": "(position, 2, 9000)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.4/8/4",
+    "sourceDigest": "95170e140e9d77f927f497ceee45d3c2a68f16f6382953ca6a94f5af3959bd6f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,30)",
+      "reason": "Outputs at named nearby points6000,-10000,9000 give signs. Last magnitude30/|x+6| diverges on either side as distance to-6 tends0; no two-sided signed limit claimed."
+    },
+    "computed": "(position, 3, 30)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/1/1",
+    "sourceDigest": "db02d4cbdb0fa5288a88988fd26f499539951d52888651364d189c562610d92d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "1+2",
+      "reason": "Inputs lie strictly in first branch; substitute only into that branch."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/1/2",
+    "sourceDigest": "d6f9a51c81381cf45d409deeb192974e507af4789370b0a21ffda77beecd64a8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "2+6",
+      "reason": "Inputs lie strictly in first branch; substitute only into that branch."
+    },
+    "computed": "8",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/1/3",
+    "sourceDigest": "45a1562a1784939d8f3ddc7ed07e8a46874a6e6a9d10bd80fbd87c8170b6491c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3*(-5)+4",
+      "reason": "Inputs lie strictly in first branch; substitute only into that branch."
+    },
+    "computed": "-11",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/1/4",
+    "sourceDigest": "26528fdd226aa07733f9376576ae1e06bc00e7c38ff8f6569014c3c6f77f84e1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "10-5",
+      "reason": "Inputs lie strictly in first branch; substitute only into that branch."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/2/1",
+    "sourceDigest": "36f5673a8d7d7a7a197834c995dbb8dd5df4f154117db1a1e93a1799ce47544a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3*3-2",
+      "reason": "Input equals split boundary, belonging to >= second branch in each version."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/2/2",
+    "sourceDigest": "4a04e7e856230f7aadd58878ac140d8cc9ac7b619b20341fe34c453a238b231e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4*5-3",
+      "reason": "Input equals split boundary, belonging to >= second branch in each version."
+    },
+    "computed": "17",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/2/3",
+    "sourceDigest": "59d0ed5f1613d0d9e789a666123966e4e5ae544695728a9b75988b157407cb30",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(-2)**2+1",
+      "reason": "Input equals split boundary, belonging to >= second branch in each version."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/2/4",
+    "sourceDigest": "d371f2c414753f8446c1d2f5eaa333b4f7ac026bcca4326a1c4138800203c79b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "2*8",
+      "reason": "Input equals split boundary, belonging to >= second branch in each version."
+    },
+    "computed": "16",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/3/1",
+    "sourceDigest": "bcba1ca8eaeb82870d07b42c0b5abec72c4b5fde85fbf1ab01a6fda2c4693bde",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3*5-2",
+      "reason": "Inputs are above boundary and use second branch."
+    },
+    "computed": "13",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/3/2",
+    "sourceDigest": "f8d5fb7e1d5308b81646c1849eb5912de2b38ee6f9b99a764ef490aa7251f0a5",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "4*8-3",
+      "reason": "Inputs are above boundary and use second branch."
+    },
+    "computed": "29",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/3/3",
+    "sourceDigest": "52fd730d6753e3b3d87df48176bbb2e59381d0602405f296f9a64d8630c7de50",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3**2+1",
+      "reason": "Inputs are above boundary and use second branch."
+    },
+    "computed": "10",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/3/4",
+    "sourceDigest": "2526a5d8975b3a806667aa21f620ad565f5ccd5ef41be223c2cedcaf66e0029b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "2*11",
+      "reason": "Inputs are above boundary and use second branch."
+    },
+    "computed": "22",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/4/1",
+    "sourceDigest": "f696055ca31bcc324e36e75f3ea6e190f797ae2695fe64f39d667bcda8e8c6f7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,Abs(x))",
+      "reason": "Positive inner expression retained, negative one negated; correct breakpoints0,5,-2,0. All other rules fail at a test point within wrong-sign interval."
+    },
+    "computed": "(position, 3, Abs(x))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/4/2",
+    "sourceDigest": "04d2148cd2eddf160e9fb959c18a52e50592cda062e33f4bbfdd247a2edbb88d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,Abs(x-5))",
+      "reason": "Positive inner expression retained, negative one negated; correct breakpoints0,5,-2,0. All other rules fail at a test point within wrong-sign interval."
+    },
+    "computed": "(position, 2, Abs(x - 5))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/4/3",
+    "sourceDigest": "c21acf5fe6e295825000f2a7cf9a01f5c87f0d4a41df9ae8860535acbee888ac",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,Abs(x+2))",
+      "reason": "Positive inner expression retained, negative one negated; correct breakpoints0,5,-2,0. All other rules fail at a test point within wrong-sign interval."
+    },
+    "computed": "(position, 0, Abs(x + 2))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/4/4",
+    "sourceDigest": "2860b9ab99bec8218f1835dd23b2abb47a5d16dc4bf9e4aa709b7e1b8eef69f9",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Abs(3*x))",
+      "reason": "Positive inner expression retained, negative one negated; correct breakpoints0,5,-2,0. All other rules fail at a test point within wrong-sign interval."
+    },
+    "computed": "(position, 1, 3*Abs(x))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/5/1",
+    "sourceDigest": "b8534e81b6507736a3b3719043f8d999168cae57b5dc41471a145b355bd06f3a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "2**2",
+      "reason": "Equality belongs to first <= branch; substitute there, not other branch."
+    },
+    "computed": "4",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/5/2",
+    "sourceDigest": "00ca81681282b92d3cb60a64b5800a1c6469478ad82e038264f312de1ddc8e83",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5**2-1",
+      "reason": "Equality belongs to first <= branch; substitute there, not other branch."
+    },
+    "computed": "24",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/5/3",
+    "sourceDigest": "59be514f91562432e918eb4ad231c6b50225028eb7a40cea517ffe702600d6fc",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(-2)**2+2",
+      "reason": "Equality belongs to first <= branch; substitute there, not other branch."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/5/4",
+    "sourceDigest": "4f21381b826ae6bc7e80dc8b4c9b2564530f75bd4da523160df3934f83c06e49",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3*(-5)+1",
+      "reason": "Equality belongs to first <= branch; substitute there, not other branch."
+    },
+    "computed": "-14",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/6/1",
+    "sourceDigest": "723a51b8b125fde3de64298604a9baf0a8d1d13b31e98ef9ef6de1f477c7dbf5",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "7",
+      "reason": "Read threshold inclusions: age10 uses>=10 rate7; age12 uses<=12 rate5; age8 uses>=8 rate11; mass2 uses<=2 rate6."
+    },
+    "computed": "7",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/6/2",
+    "sourceDigest": "2b3b6efa2d8a33cf8d480dc4d96cda3fcdb59e4dcc168fa9a733935f7e61a872",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5",
+      "reason": "Read threshold inclusions: age10 uses>=10 rate7; age12 uses<=12 rate5; age8 uses>=8 rate11; mass2 uses<=2 rate6."
+    },
+    "computed": "5",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/6/3",
+    "sourceDigest": "c3a57d21f108196f9d87f3d9357e1ccde28fb679215f4d80491d0fa21d2f7b2a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "11",
+      "reason": "Read threshold inclusions: age10 uses>=10 rate7; age12 uses<=12 rate5; age8 uses>=8 rate11; mass2 uses<=2 rate6."
+    },
+    "computed": "11",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/6/4",
+    "sourceDigest": "8eea115af142e98cde10264251c9988424ba8d990f669d167c65d636d394514a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6",
+      "reason": "Read threshold inclusions: age10 uses>=10 rate7; age12 uses<=12 rate5; age8 uses>=8 rate11; mass2 uses<=2 rate6."
+    },
+    "computed": "6",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/7/1",
+    "sourceDigest": "2b64409cfa9fdd2e1b68875d41b9a02a588645dcf594b10a022eecb8d8a61355",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,FiniteSet(4))",
+      "reason": "Solve branches and filter: roots(5 rejected,4 accepted),(5 rejected,7 accepted),(-6 accepted,-5 rejected),(-1 and2 both accepted). Include exact boundary only where branch allows."
+    },
+    "computed": "(position, 2, {4})",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/7/2",
+    "sourceDigest": "45190d90a0d8837cf37aa96724e630293d2277ea6214efb5c7a71ec9f9e98a5c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,FiniteSet(7))",
+      "reason": "Solve branches and filter: roots(5 rejected,4 accepted),(5 rejected,7 accepted),(-6 accepted,-5 rejected),(-1 and2 both accepted). Include exact boundary only where branch allows."
+    },
+    "computed": "(position, 1, {7})",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/7/3",
+    "sourceDigest": "36ad965271131ea4dd056a7a10306f6d328e1b53b81ab4d7736c35072fd1f943",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,FiniteSet(-6))",
+      "reason": "Solve branches and filter: roots(5 rejected,4 accepted),(5 rejected,7 accepted),(-6 accepted,-5 rejected),(-1 and2 both accepted). Include exact boundary only where branch allows."
+    },
+    "computed": "(position, 3, {-6})",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/7/4",
+    "sourceDigest": "0fc06ea7809c30696eaca578d4ce3f7447ee20ff445f020ac2a1978930d6e150",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,FiniteSet(-1,2))",
+      "reason": "Solve branches and filter: roots(5 rejected,4 accepted),(5 rejected,7 accepted),(-6 accepted,-5 rejected),(-1 and2 both accepted). Include exact boundary only where branch allows."
+    },
+    "computed": "(position, 0, {-1, 2})",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/8/1",
+    "sourceDigest": "cbbba77fffe34ea109c188f892225d61a4e25f6b71d81512d5cac15991bd7561",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "25/10+(5-1)*15/10",
+      "reason": "Initial allowance charged once, subsequent units alone incur additional rate."
+    },
+    "computed": "17/2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/8/2",
+    "sourceDigest": "75ee27fd095bf40dcd04e539642ed6aae92fbf376599850d49f47d6df4c3b31d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "7+(5-1)*4",
+      "reason": "Initial allowance charged once, subsequent units alone incur additional rate."
+    },
+    "computed": "23",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/8/3",
+    "sourceDigest": "9c2d320dbe252e967f47e839ccc51616804d9c3b2eae1bac75ced09ee20a751f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6+(6-2)*3",
+      "reason": "Initial allowance charged once, subsequent units alone incur additional rate."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/8/4",
+    "sourceDigest": "f40b74cb3d123fe92b3db69a9de6d2507b6c5ccbdbd73f0f6f3705e3f6b6320a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "12+(180-100)*20/100",
+      "reason": "Initial allowance charged once, subsequent units alone incur additional rate."
+    },
+    "computed": "28",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/9/1",
+    "sourceDigest": "79136788f7eb2824a9bd7b7a1ffd7a0a5306961ae59b533bede35cbf673ab097",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,FiniteSet(3))",
+      "reason": "Branch-filtered solutions:4 rejected and+3 retained;54 rejected and+8 retained;-5 and20 retained with+5 rejected;both +/-4 fail<=-8 while-6 passes>-8."
+    },
+    "computed": "(position, 3, {3})",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/9/2",
+    "sourceDigest": "cfdf7f377e14b8df906dc2ef6dd29e3c0423334b30682d3898f9ee8b70660024",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,FiniteSet(8))",
+      "reason": "Branch-filtered solutions:4 rejected and+3 retained;54 rejected and+8 retained;-5 and20 retained with+5 rejected;both +/-4 fail<=-8 while-6 passes>-8."
+    },
+    "computed": "(position, 1, {8})",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/9/3",
+    "sourceDigest": "be2ca1250c5836245e9f994af976bbe36c4624a071faf53fffc6167779d20d34",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,FiniteSet(-5,20))",
+      "reason": "Branch-filtered solutions:4 rejected and+3 retained;54 rejected and+8 retained;-5 and20 retained with+5 rejected;both +/-4 fail<=-8 while-6 passes>-8."
+    },
+    "computed": "(position, 0, {-5, 20})",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/9/4",
+    "sourceDigest": "95e577d8831189c3ac68a3f95b7a390a88e0b0bcd0d7ac9f6db1ad8c26a557a1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,FiniteSet(-6))",
+      "reason": "Branch-filtered solutions:4 rejected and+3 retained;54 rejected and+8 retained;-5 and20 retained with+5 rejected;both +/-4 fail<=-8 while-6 passes>-8."
+    },
+    "computed": "(position, 2, {-6})",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/10/1",
+    "sourceDigest": "54646963ed5e23a9dacf736abcb7ab4c070e8190eac5e260f4e3a36c6467b7c2",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "2",
+      "reason": "Complete branch candidate sets: base{-sqrt2,2};r2{-sqrt3,+sqrt3,3};r3{1} since both square roots fail<=-2;r4 empty since +/-2 fail x<-2 and-3 fails x>=-2."
+    },
+    "computed": "2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/10/2",
+    "sourceDigest": "59b871d5622077fb3b52d2826b84b27623413a004132b8e68c8fd8ab06260ffd",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "3",
+      "reason": "Complete branch candidate sets: base{-sqrt2,2};r2{-sqrt3,+sqrt3,3};r3{1} since both square roots fail<=-2;r4 empty since +/-2 fail x<-2 and-3 fails x>=-2."
+    },
+    "computed": "3",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/10/3",
+    "sourceDigest": "13b5310552d1719ec1742982014afd7cd209110ffa54ac9c15baaaa321182a02",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "1",
+      "reason": "Complete branch candidate sets: base{-sqrt2,2};r2{-sqrt3,+sqrt3,3};r3{1} since both square roots fail<=-2;r4 empty since +/-2 fail x<-2 and-3 fails x>=-2."
+    },
+    "computed": "1",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/20.5/10/4",
+    "sourceDigest": "975623d5d3d109e6bd1f1464929f6935cbafa6eea847d3e62b7f044570be44cf",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "0",
+      "reason": "Complete branch candidate sets: base{-sqrt2,2};r2{-sqrt3,+sqrt3,3};r3{1} since both square roots fail<=-2;r4 empty since +/-2 fail x<-2 and-3 fails x>=-2."
+    },
+    "computed": "0",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/2/1",
+    "sourceDigest": "e7a5a47e80b0c2aad018a2ab12dd1caddb1330922119578d87fed2292d604f4c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,3)",
+      "reason": "|u|=-u iff u<=0, |u|=u iff u>=0. Resulting complete sets x<=3,x>=10,x<=-40,x<=25."
+    },
+    "computed": "(position, 1, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/2/2",
+    "sourceDigest": "02d1329d06fa26049521d4f7b36aa95b8da67ff733d98f0b55e0827124611cea",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,10)",
+      "reason": "|u|=-u iff u<=0, |u|=u iff u>=0. Resulting complete sets x<=3,x>=10,x<=-40,x<=25."
+    },
+    "computed": "(position, 2, 10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/2/3",
+    "sourceDigest": "cbf16a5c1412881c4be71567f613328f0a05b9814bd24e3e3bafa2fd5b1d8755",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,-40)",
+      "reason": "|u|=-u iff u<=0, |u|=u iff u>=0. Resulting complete sets x<=3,x>=10,x<=-40,x<=25."
+    },
+    "computed": "(position, 0, -40)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/2/4",
+    "sourceDigest": "e4ee597459b38bcdd965661342e0079015652cfff7a4fddb78b7f0b4cd4df46e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,25)",
+      "reason": "|u|=-u iff u<=0, |u|=u iff u>=0. Resulting complete sets x<=3,x>=10,x<=-40,x<=25."
+    },
+    "computed": "(position, 3, 25)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/3/1",
+    "sourceDigest": "eaa8a5b89b98c82431e081d8a695b2ffbdce15a56c87bf63acbf5d52de09f713",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,Interval(-4,-3,False,True))",
+      "reason": "Apply floor/ceiling interval definitions even for negative values; all boundary exclusions checked."
+    },
+    "computed": "(position, 0, Interval.Ropen(-4, -3))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/3/2",
+    "sourceDigest": "c688c5c7b88fb70c28193c0061dc6aabea78b010f60b5a1fb285ff93629ae9ec",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,Interval(-7,-6,False,True))",
+      "reason": "Apply floor/ceiling interval definitions even for negative values; all boundary exclusions checked."
+    },
+    "computed": "(position, 3, Interval.Ropen(-7, -6))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/3/3",
+    "sourceDigest": "16e0538c758cbd69c67229f08859252fab3d1f70afabacb9d7d1e0a138b50f50",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Interval(-6,-5,True,False))",
+      "reason": "Apply floor/ceiling interval definitions even for negative values; all boundary exclusions checked."
+    },
+    "computed": "(position, 1, Interval.Lopen(-6, -5))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/3/4",
+    "sourceDigest": "69693b0ef842c318ff4b804e1f6860fb2d2aca1445221e403645307526575460",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,Interval(-1,0,True,False))",
+      "reason": "Apply floor/ceiling interval definitions even for negative values; all boundary exclusions checked."
+    },
+    "computed": "(position, 2, Interval.Lopen(-1, 0))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/7/1",
+    "sourceDigest": "8ca20bebcc5cfdf38fb4b13d164d20f09f69686b087947006b880d4d4465c341",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,3+1)",
+      "reason": "Factored expressions evaluate to4,25,20,23 at given valid inputs, while original denominators vanish at1,5,-10,3/2. All compound statements checked."
+    },
+    "computed": "(position, 2, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/7/2",
+    "sourceDigest": "529266d0fc0d1f011b30ad729eedece58ce742bc4aaa9bb434c8acd2811d8279",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,20+5)",
+      "reason": "Factored expressions evaluate to4,25,20,23 at given valid inputs, while original denominators vanish at1,5,-10,3/2. All compound statements checked."
+    },
+    "computed": "(position, 0, 25)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/7/3",
+    "sourceDigest": "171166d53febdbfb6b1d1fa6fb20eb4f069fac0d0b9ad251de75671b720c99ff",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,30-10)",
+      "reason": "Factored expressions evaluate to4,25,20,23 at given valid inputs, while original denominators vanish at1,5,-10,3/2. All compound statements checked."
+    },
+    "computed": "(position, 3, 20)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/7/4",
+    "sourceDigest": "1f57d07860706c8e1c29f04f377ccf3ee79ab42322b7d2329e131f941dc39a45",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,2*10+3)",
+      "reason": "Factored expressions evaluate to4,25,20,23 at given valid inputs, while original denominators vanish at1,5,-10,3/2. All compound statements checked."
+    },
+    "computed": "(position, 1, 23)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/8/1",
+    "sourceDigest": "4f1dd3145eb02e940877a9074529acb78acc11823b97ac8510b89663fef0f106",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5*ceiling(2+20/60)",
+      "reason": "Convert durations to billing units then round upward; final units are20 minutes, not hours."
+    },
+    "computed": "15",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/8/2",
+    "sourceDigest": "5692845cbcbc39deeb0e2b32a9011b8521e50f3dda40d42c947144e1bd182039",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "20*ceiling(4+10/60)",
+      "reason": "Convert durations to billing units then round upward; final units are20 minutes, not hours."
+    },
+    "computed": "100",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/8/3",
+    "sourceDigest": "359382add7eacce41fdc36d1d7c17e6b4050d62d5f0c3fda6565e980886757d4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "6*ceiling(50/24)",
+      "reason": "Convert durations to billing units then round upward; final units are20 minutes, not hours."
+    },
+    "computed": "18",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/8/4",
+    "sourceDigest": "0a4de5ca3aed8144718d197d7b46cac01fdad46ef1d7646ae0f355dfdb0141b4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "5*ceiling((60+50)/20)",
+      "reason": "Convert durations to billing units then round upward; final units are20 minutes, not hours."
+    },
+    "computed": "30",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/9/1",
+    "sourceDigest": "003c0e9486525548dd624842eb0d0e8c9212e382e178f2f430b8560388861f63",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,Interval(7/2,8/2,False,True))",
+      "reason": "Undo positive scaling on floor/ceiling intervals while preserving inclusion of correct endpoint."
+    },
+    "computed": "(position, 1, Interval.Ropen(7/2, 4))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/9/2",
+    "sourceDigest": "d5d3b0b14c4a95807e2673d19c72c330f0e3ac2b3b00603d5ddb12d36ee0513b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,Interval(30/4,31/4,False,True))",
+      "reason": "Undo positive scaling on floor/ceiling intervals while preserving inclusion of correct endpoint."
+    },
+    "computed": "(position, 0, Interval.Ropen(15/2, 31/4))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/9/3",
+    "sourceDigest": "503673d424f6abe2c1f626007003fdbe15f337ff694be00842adb6d996105ab6",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,Interval(6*5,7*5,False,True))",
+      "reason": "Undo positive scaling on floor/ceiling intervals while preserving inclusion of correct endpoint."
+    },
+    "computed": "(position, 3, Interval.Ropen(30, 35))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/9/4",
+    "sourceDigest": "188c02ee453a5436ff7bce7bdc7a25c5a8087ae8ef644d40fd724a0650a07fc2",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,Interval(14/2,15/2,True,False))",
+      "reason": "Undo positive scaling on floor/ceiling intervals while preserving inclusion of correct endpoint."
+    },
+    "computed": "(position, 2, Interval.Lopen(7, 15/2))",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/12/1",
+    "sourceDigest": "d950ecf33c92247659dcae6114dd1a7e67dd35c94c2818c448ae194d3dba1c84",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(2*(-3)+1)+sqrt(9)",
+      "reason": "Select branches independently for both inputs, preserving equality condition and outer addition/subtraction."
+    },
+    "computed": "-2",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/12/2",
+    "sourceDigest": "9e6ff84a97e22fc823417401c74be82691212eccf7024da64b69ceb16b580278",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(Abs(-20)+10)+floor(15/2)",
+      "reason": "Select branches independently for both inputs, preserving equality condition and outer addition/subtraction."
+    },
+    "computed": "37",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/12/3",
+    "sourceDigest": "c09e180dd15f94eac04df8ebc9b1ffe5386842c430358a8b2a73361a60c450ed",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "sqrt(4+60)+(2*40+5)",
+      "reason": "Select branches independently for both inputs, preserving equality condition and outer addition/subtraction."
+    },
+    "computed": "93",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/challenge/12/4",
+    "sourceDigest": "a9e718db9e9ef33811f1fd1f516dd1de420d33a0a96cd5209df7b3510c3e7d61",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(5-4*(-5))-ceiling(-15/10)",
+      "reason": "Select branches independently for both inputs, preserving equality condition and outer addition/subtraction."
+    },
+    "computed": "26",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/1/3",
+    "sourceDigest": "89b53d85ec9513451fb5c9bd3dd90f41d29250f4b71b744784cc4a84b0d6b26b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "I('le',98/7)",
+      "reason": "Real square root requires98-7t>=0, hence t<=14; negative divisor reverses sign."
+    },
+    "computed": "(inequality, le, 14)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/1/4",
+    "sourceDigest": "a596d6cc08362a76243d2afc8b5fd746ecc20b08a797375dd73282ab8d41828f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "I('ge',-26/4)",
+      "reason": "Real square root requires4x+26>=0, hence x>=-13/2."
+    },
+    "computed": "(inequality, ge, -13/2)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/2/3",
+    "sourceDigest": "9a491890fbfebf6e89c7641439c9130cc56e270c9066c93bf7db41494ea46769",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "A(13,35,22,-48)",
+      "reason": "Equation|x-(-13)|=35; both values-13+35 and-13-35 satisfy it. Answer repaired to include equation as requested, in addition to both solutions."
+    },
+    "computed": "(absoluteEquation, 13, 35, 22, -48)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/3/3",
+    "sourceDigest": "bbd6a50b533df356f49f677f6694af404630fb0c78c190f4893cc4a4a7d1cd65",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "floor(-126/10)+ceiling(-126/10)",
+      "reason": "Floor-13 and ceiling-12 sum-25."
+    },
+    "computed": "-25",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/4/3",
+    "sourceDigest": "551b5e88fe02f4c90b6496935a9b764f609fbd35ba3243bcce94f232ca8faca8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(13+26)/(13-7)",
+      "reason": "Substitute13, confirm nonzero denominator6, quotient39/6."
+    },
+    "computed": "13/2",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/5/1",
+    "sourceDigest": "d48b8b4ec73d79adaaa9475e1824a99bcfa4dae29c506ec2e3944510aa9fa7ea",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "V(2+7,4*(-1))",
+      "reason": "Validate both outputs in specified order; boundary inputs select inclusive branch and group pricing uses per-person rates plus fixed fee only where stated."
+    },
+    "computed": "(values, 9, -4)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/5/2",
+    "sourceDigest": "a50128d5b9ea2670cc3df859b08bf3dbdc899c0cc0734905903163bea725450f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "V(7**2,5*3-1)",
+      "reason": "Validate both outputs in specified order; boundary inputs select inclusive branch and group pricing uses per-person rates plus fixed fee only where stated."
+    },
+    "computed": "(values, 49, 14)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/5/3",
+    "sourceDigest": "49b31b6a0c6dffad609d636f40995dd775bf3a65a154dce2cf2a31c424934424",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "V(5*11+21,3*14)",
+      "reason": "Validate both outputs in specified order; boundary inputs select inclusive branch and group pricing uses per-person rates plus fixed fee only where stated."
+    },
+    "computed": "(values, 76, 42)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/5/4",
+    "sourceDigest": "da86d98595d6b846fd73d3d0488209fb4b508ecbe5d7a5268a0be19e1015ee3c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "V((-3)**2+7,2*7+13)",
+      "reason": "Validate both outputs in specified order; boundary inputs select inclusive branch and group pricing uses per-person rates plus fixed fee only where stated."
+    },
+    "computed": "(values, 16, 27)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/6/3",
+    "sourceDigest": "c1ed136ac00ba9264ace5898f05b81031ef2f80b7df3a41b0cf6ba612b9938c1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "(13**2+7)/2",
+      "reason": "Square r13 gives2p-7=169, so pressure88; radicand nonnegative and positive root13."
+    },
+    "computed": "88",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/7/4",
+    "sourceDigest": "156d41e676b0b74fda6c8ad272f4cdde686ce86f4060e1348a54e0eeaeae756e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "16",
+      "reason": "Equation sqrt(x+84)=x-6 requires x>=6; squaring gives(x-16)(x+3)=0, only16 survives. Direct substitution10=10."
+    },
+    "computed": "16",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/8/3",
+    "sourceDigest": "a60bdf18b6dd77ea895e988cac02eb563156116a16a04c7ce0db91bca1014236",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "V(11,-6)",
+      "reason": "Solve3n+1=n+23 and-(3n+1)=n+23 with sign constraints. Solutions11 and-6 give nonnegative RHS34 and17 and satisfy original absolute-value equation."
+    },
+    "computed": "(values, 11, -6)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/9/1",
+    "sourceDigest": "3f261a78a47cb2362d00e73d2f526c51797e634d5dba5376e685e926c82e9247",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "F(3,6,8)",
+      "reason": "Floor x/d=m yields dm<=x<d(m+1); ceiling x/18=5 yields72<x<=90. Check count and every endpoint of displayed integer enumeration."
+    },
+    "computed": "(integerList, 3, 6, 8)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/9/2",
+    "sourceDigest": "431c0da009928cf75e63b2aef9f3929937677d6c774adc02e50c50203c7d97aa",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "F(12,84,95)",
+      "reason": "Floor x/d=m yields dm<=x<d(m+1); ceiling x/18=5 yields72<x<=90. Check count and every endpoint of displayed integer enumeration."
+    },
+    "computed": "(integerList, 12, 84, 95)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/9/3",
+    "sourceDigest": "b3f3b5abb0747a387746aaea382b1fa4f7e7ce43929094916aa707b1c39916d0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "F(14,-28,-15)",
+      "reason": "Floor x/d=m yields dm<=x<d(m+1); ceiling x/18=5 yields72<x<=90. Check count and every endpoint of displayed integer enumeration."
+    },
+    "computed": "(integerList, 14, -28, -15)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/20/worksheet/9/4",
+    "sourceDigest": "20fe966e29316e90c4fb95ce97fc75201a704792505483752c413d3ac70b36b2",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "F(18,73,90)",
+      "reason": "Floor x/d=m yields dm<=x<d(m+1); ceiling x/18=5 yields72<x<=90. Check count and every endpoint of displayed integer enumeration."
+    },
+    "computed": "(integerList, 18, 73, 90)",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  }
+]

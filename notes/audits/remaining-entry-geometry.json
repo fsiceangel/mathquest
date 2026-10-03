@@ -1,0 +1,2553 @@
+{
+  "reviewedAt": "2026-10-02",
+  "scope": "All70slots/all280versions; independent prompt/options mathematical review plus explanation issues identified. No visual render review claimed.",
+  "hashFormat": "SHA256(JSON.stringify([q,choices,answer,solution,fig]))",
+  "sections": [
+    {
+      "id": "intro-geometry/1/1.5",
+      "title": "The Burden of Proof",
+      "reviewedVersions": 40,
+      "decision": "retain-choice",
+      "reason": "Logic and proof vocabulary; numerical counterexamples generally nonunique.",
+      "safeSlots": [],
+      "slots": [
+        {
+          "id": "intro-geometry/1/1.5/1",
+          "verdict": "retain-choice",
+          "reason": "Single counterexample suffices; fourth version asks how many MORE (zero). Numeric meaning but several keyed choices are prose, requiring an authored conversion.",
+          "versions": [
+            {
+              "id": "intro-geometry/1/1.5/1/1",
+              "answer": 1,
+              "key": "just one",
+              "numericChoiceSupported": false,
+              "sha256": "0d87147bc2db56b914477d4682c91725b90858c4a6d877b5595e63b34a5d9845"
+            },
+            {
+              "id": "intro-geometry/1/1.5/1/2",
+              "answer": 0,
+              "key": "just one",
+              "numericChoiceSupported": false,
+              "sha256": "fa1fc582f0b437f48150dfaa4a0d724e1b5cecd72fa3088ade4487fad5abffd2"
+            },
+            {
+              "id": "intro-geometry/1/1.5/1/3",
+              "answer": 2,
+              "key": "$1$",
+              "numericChoiceSupported": true,
+              "sha256": "a89646c27d5ad077169b37a22b44756081e1fa951695fc801a2eed03f8c56000"
+            },
+            {
+              "id": "intro-geometry/1/1.5/1/4",
+              "answer": 3,
+              "key": "none — February already finished the job",
+              "numericChoiceSupported": false,
+              "sha256": "3faaaf1c3327b5d87ad22180c916d887ba82ce3176e2facedfd6b0ca2df40887"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/1/1.5/2",
+          "verdict": "retain-choice",
+          "reason": "Postulate/theorem/definition/counterexample vocabulary, not a number.",
+          "versions": [
+            {
+              "id": "intro-geometry/1/1.5/2/1",
+              "answer": 3,
+              "key": "a postulate",
+              "numericChoiceSupported": false,
+              "sha256": "b7fbee625cdc86262448d04d6a6af68eda06e9bbf3c05a060d588f7896f77247"
+            },
+            {
+              "id": "intro-geometry/1/1.5/2/2",
+              "answer": 0,
+              "key": "a theorem",
+              "numericChoiceSupported": false,
+              "sha256": "fc8b6f3386793ce71f6af135ab1a0e773afc37758c3f64e95f88b01abc6b5e17"
+            },
+            {
+              "id": "intro-geometry/1/1.5/2/3",
+              "answer": 1,
+              "key": "a definition",
+              "numericChoiceSupported": false,
+              "sha256": "d1ee6979ac34de72e4b3c0682857998223d04ad555769e6fb138d2e53ad1e628"
+            },
+            {
+              "id": "intro-geometry/1/1.5/2/4",
+              "answer": 2,
+              "key": "a counterexample",
+              "numericChoiceSupported": false,
+              "sha256": "1242b2044039cb30a7809b20b72be482a81de39aff839eedc077838fe35fecd2"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/1/1.5/3",
+          "verdict": "retain-choice",
+          "reason": "Finite samples do not establish an infinite universal claim. Logical verdict, not number.",
+          "versions": [
+            {
+              "id": "intro-geometry/1/1.5/3/1",
+              "answer": 0,
+              "key": "No — a proof must cover every possible case",
+              "numericChoiceSupported": false,
+              "sha256": "41cd748ebafa00e7b3c50a5c5748cd3bd69fa599529d32ab9fad9f48603da001"
+            },
+            {
+              "id": "intro-geometry/1/1.5/3/2",
+              "answer": 1,
+              "key": "No — a million cases still leaves infinitely many untested",
+              "numericChoiceSupported": false,
+              "sha256": "dffa58668551584b49bfb7261a4070e41048df2a2a291af204a5e8e052357ec5"
+            },
+            {
+              "id": "intro-geometry/1/1.5/3/3",
+              "answer": 2,
+              "key": "No — measuring thirty drawings cannot cover every triangle there is",
+              "numericChoiceSupported": false,
+              "sha256": "77c2cc823b6910c73d6b8214d6a277d981efbf58209e4d22af13050c87fd1a72"
+            },
+            {
+              "id": "intro-geometry/1/1.5/3/4",
+              "answer": 3,
+              "key": "It might still be false for some number she did not check",
+              "numericChoiceSupported": false,
+              "sha256": "032a1eb78ae261ad6137bfce646e46b185aa1c775697d4d4fbd12f138ccc6d6a"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/1/1.5/4",
+          "verdict": "retain-choice",
+          "reason": "Converse exchanges hypothesis and conclusion; answers are statements.",
+          "versions": [
+            {
+              "id": "intro-geometry/1/1.5/4/1",
+              "answer": 2,
+              "key": "If the ground is wet, then it is raining",
+              "numericChoiceSupported": false,
+              "sha256": "97c2de11f2ff8d0fd823947364dbdd21e9a8fe149cc844cd6e64d39ba2b09b29"
+            },
+            {
+              "id": "intro-geometry/1/1.5/4/2",
+              "answer": 0,
+              "key": "If a number is even, then it is a multiple of $6$",
+              "numericChoiceSupported": false,
+              "sha256": "b73cd9bbdcdee4f7f2768d46f983d1db644c07592ef9189210bd45e742270b80"
+            },
+            {
+              "id": "intro-geometry/1/1.5/4/3",
+              "answer": 1,
+              "key": "If a whole number is a multiple of $10$, then it ends in the digit $0$",
+              "numericChoiceSupported": false,
+              "sha256": "df6ae8e836e1bea12c86b9cc73159008e2acbbca7456c9c6007fa5378611124a"
+            },
+            {
+              "id": "intro-geometry/1/1.5/4/4",
+              "answer": 3,
+              "key": "If Ines is wearing goggles, then she is at swim practice",
+              "numericChoiceSupported": false,
+              "sha256": "61f327020134680566afbc782b18becc7f8ea890bef8f98c585756722449aba0"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/1/1.5/5",
+          "verdict": "retain-choice",
+          "reason": "Keys 2,9,25,12 each uniquely refute the respective claim AMONG choices; versions 2-4 have many valid numerical counterexamples outside choices.",
+          "versions": [
+            {
+              "id": "intro-geometry/1/1.5/5/1",
+              "answer": 0,
+              "key": "$2$",
+              "numericChoiceSupported": true,
+              "sha256": "2682cd5dbe7b215f7b8d2552d821ccb02573188e9430f8725a1a91d62f9a5705"
+            },
+            {
+              "id": "intro-geometry/1/1.5/5/2",
+              "answer": 1,
+              "key": "$9$",
+              "numericChoiceSupported": true,
+              "sha256": "23c924c1f2159e64a144cb5b413f1ebc2caccdee3172313ee3108ac4e303b33e"
+            },
+            {
+              "id": "intro-geometry/1/1.5/5/3",
+              "answer": 2,
+              "key": "$25$",
+              "numericChoiceSupported": true,
+              "sha256": "3a9cffff3f49eb901e5c92bb92692ef112228033942212ae58198197e828aa16"
+            },
+            {
+              "id": "intro-geometry/1/1.5/5/4",
+              "answer": 3,
+              "key": "$12$",
+              "numericChoiceSupported": true,
+              "sha256": "3f8252ddc282d76dfb505141dca5f500f5841881eb8a755aab52e70e3a5e2515"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/1/1.5/6",
+          "verdict": "retain-choice",
+          "reason": "Non-square rectangles refute equal-angle-implies-square claims; statement selection.",
+          "versions": [
+            {
+              "id": "intro-geometry/1/1.5/6/1",
+              "answer": 3,
+              "key": "Every figure with four right angles is a square",
+              "numericChoiceSupported": false,
+              "sha256": "d3f0e493d1c9dea981fddb16f0d983e665575717bcaaf15d971e89aa9640bc49"
+            },
+            {
+              "id": "intro-geometry/1/1.5/6/2",
+              "answer": 1,
+              "key": "Every rectangle is a square",
+              "numericChoiceSupported": false,
+              "sha256": "6c8079b2cce63416e7ca66de4f5a1212ab37cac56ffd6c7972795c1380bfc063"
+            },
+            {
+              "id": "intro-geometry/1/1.5/6/3",
+              "answer": 0,
+              "key": "A figure with four right angles must have all four sides the same length",
+              "numericChoiceSupported": false,
+              "sha256": "957996391ccf1a16a26a99af8bdbbc5dad4deee6622bb3b8d18ba12c23cf8c7e"
+            },
+            {
+              "id": "intro-geometry/1/1.5/6/4",
+              "answer": 2,
+              "key": "A quadrilateral whose angles are all $90^\\circ$ must be a square",
+              "numericChoiceSupported": false,
+              "sha256": "70e055b5c680aa338aa1846fe80cce8be56611083b0b2213629add39ecb2f3a7"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/1/1.5/7",
+          "verdict": "retain-choice",
+          "reason": "Noncentral chords refute diameter/equal-arc claims; fourth central chord refutes no-chord-through-center. Statement answers.",
+          "versions": [
+            {
+              "id": "intro-geometry/1/1.5/7/1",
+              "answer": 1,
+              "key": "Every chord of a circle is a diameter",
+              "numericChoiceSupported": false,
+              "sha256": "267adeffbd54cbb7e61e62edc29da0c67df7dabb8f979934b5ce2d58db893507"
+            },
+            {
+              "id": "intro-geometry/1/1.5/7/2",
+              "answer": 0,
+              "key": "Every chord of a circle passes through the center",
+              "numericChoiceSupported": false,
+              "sha256": "3afe17d9e4159f7067094d2c5c2f424090b0138969bd064bb8d0168e3f9c7b39"
+            },
+            {
+              "id": "intro-geometry/1/1.5/7/3",
+              "answer": 2,
+              "key": "Every chord of a circle cuts the circle into two arcs of equal size",
+              "numericChoiceSupported": false,
+              "sha256": "5c09cf36e77699926f798078c94fac56f3dfec17eed699089e867cfe9599a9a8"
+            },
+            {
+              "id": "intro-geometry/1/1.5/7/4",
+              "answer": 3,
+              "key": "No chord of a circle passes through the center",
+              "numericChoiceSupported": false,
+              "sha256": "9037e99cfe0033630b9c29886e136f8210f8f3c48d4b337d4ea2abe4fd4dac35"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/1/1.5/8",
+          "verdict": "retain-choice",
+          "reason": "Forward inclusion chaining establishes memberships; reverse membership does not.",
+          "versions": [
+            {
+              "id": "intro-geometry/1/1.5/8/1",
+              "answer": 2,
+              "key": "Tam is both a quork and a flim",
+              "numericChoiceSupported": false,
+              "sha256": "b648aacaedfa88a8ef9ad3c219bcd5e7ef577aed34a3889db8f590d52b84b884"
+            },
+            {
+              "id": "intro-geometry/1/1.5/8/2",
+              "answer": 0,
+              "key": "It is both a quen and a snik",
+              "numericChoiceSupported": false,
+              "sha256": "40522411d25348cf0f7282450c0e03f9527ab222ff186704f93c82fafadc9dd6"
+            },
+            {
+              "id": "intro-geometry/1/1.5/8/3",
+              "answer": 1,
+              "key": "The glimf is a dratt, and it is also an obbo",
+              "numericChoiceSupported": false,
+              "sha256": "a4fbd4987e1c121957ddf33942fcf1979824bb0b7dd0f7089aa1e2b80c41efaf"
+            },
+            {
+              "id": "intro-geometry/1/1.5/8/4",
+              "answer": 3,
+              "key": "Nothing — the chain only runs the other way",
+              "numericChoiceSupported": false,
+              "sha256": "0718c44adaf225d16729168a5923aab2d27261dd3a8a0f9d9d2497d142b4a00b"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/1/1.5/9",
+          "verdict": "retain-choice",
+          "reason": "Evaluate polynomials: counterexamples yield 121,25,21,289 respectively; many other n values work, so not unique open numerical answers.",
+          "versions": [
+            {
+              "id": "intro-geometry/1/1.5/9/1",
+              "answer": 3,
+              "key": "$n = 10$",
+              "numericChoiceSupported": true,
+              "sha256": "3b8485b3ac071f9532e426d9f2e63a311ba4969f0854891b07587def8b2bce11"
+            },
+            {
+              "id": "intro-geometry/1/1.5/9/2",
+              "answer": 0,
+              "key": "$n = 4$",
+              "numericChoiceSupported": true,
+              "sha256": "b15c25a1f177674c339f020ab9980b734b06f7c8e48018b0d9af432f0f6739da"
+            },
+            {
+              "id": "intro-geometry/1/1.5/9/3",
+              "answer": 1,
+              "key": "$n = 3$",
+              "numericChoiceSupported": true,
+              "sha256": "cc60380edbd38bb5dbd46f2c6270ebe4aac338f182bb0a1b698b4b24fc17654b"
+            },
+            {
+              "id": "intro-geometry/1/1.5/9/4",
+              "answer": 2,
+              "key": "$n = 17$",
+              "numericChoiceSupported": true,
+              "sha256": "6496192b8576f0cd9f44901b299fac9b0a565f45bcf5549a38e60c1817e7e066"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/1/1.5/10",
+          "verdict": "retain-choice",
+          "reason": "Affirming consequent invalid; four-corner/striped/heavy objects need not belong to named class.",
+          "versions": [
+            {
+              "id": "intro-geometry/1/1.5/10/1",
+              "answer": 1,
+              "key": "No — that reasoning uses the converse, which is not automatic",
+              "numericChoiceSupported": false,
+              "sha256": "22bc9355f953f69b3908cb96c6c1e51e0c238c376d09d4423259ad387a4be1ad"
+            },
+            {
+              "id": "intro-geometry/1/1.5/10/2",
+              "answer": 0,
+              "key": "Not necessarily — that argument runs the fact backward",
+              "numericChoiceSupported": false,
+              "sha256": "efab49f5a0fe71686c5bc06ee81872aa88bca7435e3d3b37f48ee23e29373ffd"
+            },
+            {
+              "id": "intro-geometry/1/1.5/10/3",
+              "answer": 2,
+              "key": "No — the fact runs from wibbo to striped, not back again",
+              "numericChoiceSupported": false,
+              "sha256": "e94647d2c3f36632b7095848be150f48a7080c05ba5d38279586d3a6c3517e3b"
+            },
+            {
+              "id": "intro-geometry/1/1.5/10/4",
+              "answer": 3,
+              "key": "It may or may not be a nusk — the fact does not decide",
+              "numericChoiceSupported": false,
+              "sha256": "575490b3f0c1595fe2071894833d4ffb578ceb0ed8d31291f15ec077d303ebd6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-geometry/8/8.7",
+      "title": "If and Only If",
+      "reviewedVersions": 40,
+      "decision": "retain-choice",
+      "reason": "Classification and conditional statements.",
+      "safeSlots": [],
+      "slots": [
+        {
+          "id": "intro-geometry/8/8.7/1",
+          "verdict": "retain-choice",
+          "reason": "Square implies rhombus/rectangle; rhombus and rectangle imply parallelogram. Classification statements.",
+          "versions": [
+            {
+              "id": "intro-geometry/8/8.7/1/1",
+              "answer": 1,
+              "key": "Every square is a rhombus",
+              "numericChoiceSupported": false,
+              "sha256": "901bb02945227f8f0a8e1f593e0f48d18fa5e1d72a54893b041ada79ee044f6f"
+            },
+            {
+              "id": "intro-geometry/8/8.7/1/2",
+              "answer": 2,
+              "key": "Every square is a rectangle",
+              "numericChoiceSupported": false,
+              "sha256": "4af89f6a88bf5f6b78609a7bade62d6ed27d6ec000d9a62a4f0d616a619b7fd6"
+            },
+            {
+              "id": "intro-geometry/8/8.7/1/3",
+              "answer": 0,
+              "key": "Every rhombus is a parallelogram",
+              "numericChoiceSupported": false,
+              "sha256": "542d3434e9d8fb757a94b7e0c5f96544f81c8674cb6b25a04a01584277619923"
+            },
+            {
+              "id": "intro-geometry/8/8.7/1/4",
+              "answer": 3,
+              "key": "Every rectangle is a parallelogram",
+              "numericChoiceSupported": false,
+              "sha256": "07443092468a9c05892c26c0e82b6f0cd198e0d2aff0abe3dfed3a8d9e021078"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/8/8.7/2",
+          "verdict": "retain-choice",
+          "reason": "Swap exactly if/then halves; do not negate or replace with biconditional.",
+          "versions": [
+            {
+              "id": "intro-geometry/8/8.7/2/1",
+              "answer": 2,
+              "key": "If the diagonals of a quadrilateral are equal, then it is a rectangle.",
+              "numericChoiceSupported": false,
+              "sha256": "f1f100b76eeaadf3311f520614a178ad001ad1c4e3c9eeab4e9beccb33beb649"
+            },
+            {
+              "id": "intro-geometry/8/8.7/2/2",
+              "answer": 1,
+              "key": "If a quadrilateral is a parallelogram, then it is a rhombus.",
+              "numericChoiceSupported": false,
+              "sha256": "e71b0000e07c3bd40e35a856d2fb3d3736e11813d39e53fc93476891445d1f38"
+            },
+            {
+              "id": "intro-geometry/8/8.7/2/3",
+              "answer": 3,
+              "key": "If a quadrilateral has four equal sides, then it is a square.",
+              "numericChoiceSupported": false,
+              "sha256": "ce7d4405b8fa3f83468612746874392fad6133de59002ea4527cb6666cb6bcc5"
+            },
+            {
+              "id": "intro-geometry/8/8.7/2/4",
+              "answer": 0,
+              "key": "If the opposite angles of a quadrilateral are equal, then it is a parallelogram.",
+              "numericChoiceSupported": false,
+              "sha256": "35896ca5bfef3c5ada28660f8417a0dbb3e9dbeb361d003e77239ac8ba88c12c"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/8/8.7/3",
+          "verdict": "retain-choice",
+          "reason": "Nonrectangular isosceles trapezoid; non-square rhombus; unequal-side kite; kite axial dissection give valid counterexamples.",
+          "versions": [
+            {
+              "id": "intro-geometry/8/8.7/3/1",
+              "answer": 1,
+              "key": "an isosceles trapezoid that is not a rectangle",
+              "numericChoiceSupported": false,
+              "sha256": "d62ad5670a92ca925336a90727139e45da150088d1b806814e694b1032d1ab4d"
+            },
+            {
+              "id": "intro-geometry/8/8.7/3/2",
+              "answer": 0,
+              "key": "a rhombus with a $70^\\circ$ angle",
+              "numericChoiceSupported": false,
+              "sha256": "df8a2687230be3881a6b0b2b5073d431b9b5aa0bdc9e3f0c13c5b3ad653977ff"
+            },
+            {
+              "id": "intro-geometry/8/8.7/3/3",
+              "answer": 2,
+              "key": "a kite with two short sides and two long sides",
+              "numericChoiceSupported": false,
+              "sha256": "7f1c09221ac4d639f053d0d76f6b5fa595f3aef4ccf7448916989d6fae46a2f3"
+            },
+            {
+              "id": "intro-geometry/8/8.7/3/4",
+              "answer": 1,
+              "key": "a kite that is not a rhombus, cut along its axis of symmetry",
+              "numericChoiceSupported": false,
+              "sha256": "7260d2573fc1f30a3f3f4e52ad40912371ca2fb3273c24d4a6ecbfd604b8b98b"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/8/8.7/4",
+          "verdict": "retain-choice",
+          "reason": "Sometimes/always/sometimes/never; inclusive trapezoid definition explicit.",
+          "versions": [
+            {
+              "id": "intro-geometry/8/8.7/4/1",
+              "answer": 2,
+              "key": "Sometimes — exactly when it also has a right angle",
+              "numericChoiceSupported": false,
+              "sha256": "02048ab125807db5af15ef1791ba212ecfce20e70d15921cf77b62270b9f4943"
+            },
+            {
+              "id": "intro-geometry/8/8.7/4/2",
+              "answer": 2,
+              "key": "Always",
+              "numericChoiceSupported": false,
+              "sha256": "ee5e47bcf823f02f532a6a5e0a9c946406d2dd888d537e22dc8661fa9247bd68"
+            },
+            {
+              "id": "intro-geometry/8/8.7/4/3",
+              "answer": 0,
+              "key": "Sometimes — a rectangle counts as a trapezoid, but most trapezoids are not rectangles",
+              "numericChoiceSupported": false,
+              "sha256": "c4ea3170e4601899f93867755ec9d9bad5502bc3a6aadd44a68f0c1a40ee07b5"
+            },
+            {
+              "id": "intro-geometry/8/8.7/4/4",
+              "answer": 1,
+              "key": "Never",
+              "numericChoiceSupported": false,
+              "sha256": "4b90c8ffaece54131aa0a3e1c2cf262ff0c4e1fffc450bf61ee4ddd17715413d"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/8/8.7/5",
+          "verdict": "retain-choice",
+          "reason": "Equal adjacent sides, perpendicular diagonals, bisected vertex angle, equal adjacent sides upgrade parallelogram to rhombus.",
+          "versions": [
+            {
+              "id": "intro-geometry/8/8.7/5/1",
+              "answer": 3,
+              "key": "Two adjacent sides are equal",
+              "numericChoiceSupported": false,
+              "sha256": "a44afcd23f9aa65c77dfedc2ccd653ae40c1da0199ce4485ce08af503be1b173"
+            },
+            {
+              "id": "intro-geometry/8/8.7/5/2",
+              "answer": 3,
+              "key": "Its diagonals cross at right angles",
+              "numericChoiceSupported": false,
+              "sha256": "534b17bbb506d6ae71fab804b2f480e8e32eece854934ded2396dd14db175f22"
+            },
+            {
+              "id": "intro-geometry/8/8.7/5/3",
+              "answer": 1,
+              "key": "Diagonal $\\overline{PR}$ bisects angle $P$",
+              "numericChoiceSupported": false,
+              "sha256": "5b4cc016feb1564f0a041c3c73523deff5db7112f1f27a93272a0f04c5ad9163"
+            },
+            {
+              "id": "intro-geometry/8/8.7/5/4",
+              "answer": 2,
+              "key": "Two sides that meet at a corner have equal length",
+              "numericChoiceSupported": false,
+              "sha256": "501e7f80c3f41b2123660df7284b7f29e1663157fa6ae581e9a237df3cbb5edd"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/8/8.7/6",
+          "verdict": "retain-choice",
+          "reason": "Right angle/equal diagonals/right angle/equal diagonals upgrade rhombus to square.",
+          "versions": [
+            {
+              "id": "intro-geometry/8/8.7/6/1",
+              "answer": 0,
+              "key": "One of its angles is a right angle",
+              "numericChoiceSupported": false,
+              "sha256": "d3601ab900695b16ff064f60bd68ef3efe4228ae7695a3bd33a56203a36ef0d9"
+            },
+            {
+              "id": "intro-geometry/8/8.7/6/2",
+              "answer": 0,
+              "key": "Its diagonals have equal lengths",
+              "numericChoiceSupported": false,
+              "sha256": "7d1b3ce258f2f5c49ffb09a30cae99a69b39a9d1e3ae898f4fed4020cf0e9ae0"
+            },
+            {
+              "id": "intro-geometry/8/8.7/6/3",
+              "answer": 2,
+              "key": "One of its angles measures $90^\\circ$",
+              "numericChoiceSupported": false,
+              "sha256": "894efc3353fe7a4559b1842097ff78e840fc5bf269bd7e471d8bfca3b8509c5d"
+            },
+            {
+              "id": "intro-geometry/8/8.7/6/4",
+              "answer": 3,
+              "key": "Its two diagonals are congruent",
+              "numericChoiceSupported": false,
+              "sha256": "cf929330a62d6526278dfca09dbe89ed905ef90c39a5b8501f646ca3f4040bef"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/8/8.7/7",
+          "verdict": "retain-choice",
+          "reason": "Both diagonal bisections; rhombus equal diagonals; parallelogram perpendicular diagonals; rectangle adjacent equal sides are valid biconditionals.",
+          "versions": [
+            {
+              "id": "intro-geometry/8/8.7/7/1",
+              "answer": 3,
+              "key": "$Q$ is a parallelogram if and only if its diagonals bisect each other.",
+              "numericChoiceSupported": false,
+              "sha256": "194ca930bff41c95911ebdc92be617be5be04d31e281cf16eeb0c514d87f904b"
+            },
+            {
+              "id": "intro-geometry/8/8.7/7/2",
+              "answer": 1,
+              "key": "A rhombus is a square if and only if its diagonals are congruent.",
+              "numericChoiceSupported": false,
+              "sha256": "59f71d75afdad75f365650e89d6fbfe427b3646806539a71361f1bf856a7d27b"
+            },
+            {
+              "id": "intro-geometry/8/8.7/7/3",
+              "answer": 3,
+              "key": "A parallelogram is a rhombus if and only if its diagonals are perpendicular.",
+              "numericChoiceSupported": false,
+              "sha256": "9ecc68242a013a59aadd58030cbb89b9cfe88d7d2dde641355b890afd1994d33"
+            },
+            {
+              "id": "intro-geometry/8/8.7/7/4",
+              "answer": 0,
+              "key": "A rectangle is a square if and only if two adjacent sides are congruent.",
+              "numericChoiceSupported": false,
+              "sha256": "7ee76e4c218b01f32fd6b423f9ddea884cebb227fa8ba733636d5a73865e0f18"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/8/8.7/8",
+          "verdict": "retain-choice",
+          "reason": "Inclusive trapezoid gives sometimes/always/always/sometimes.",
+          "versions": [
+            {
+              "id": "intro-geometry/8/8.7/8/1",
+              "answer": 2,
+              "key": "Sometimes — a parallelogram counts as a trapezoid, but many trapezoids are not parallelograms",
+              "numericChoiceSupported": false,
+              "sha256": "ae2e7bf7126d93e90e03b31bc692e999f1ee810524eaecbc633fc7d782e3d6a5"
+            },
+            {
+              "id": "intro-geometry/8/8.7/8/2",
+              "answer": 0,
+              "key": "Always — a parallelogram’s parallel sides already satisfy the trapezoid requirement",
+              "numericChoiceSupported": false,
+              "sha256": "d2581cc4a7172d1c1c687388c42ca69d0914ea4f6fd373bd6e5f8dbf1cd0b7fa"
+            },
+            {
+              "id": "intro-geometry/8/8.7/8/3",
+              "answer": 2,
+              "key": "Always — its two pairs of parallel sides more than cover the requirement",
+              "numericChoiceSupported": false,
+              "sha256": "e7c992ffc40e3fccf524699c052e38a9467afdf56342a66746dedf35378f2d19"
+            },
+            {
+              "id": "intro-geometry/8/8.7/8/4",
+              "answer": 3,
+              "key": "Sometimes — every rhombus counts as a trapezoid, but most trapezoids do not have four equal sides",
+              "numericChoiceSupported": false,
+              "sha256": "59bea4d6a8e4b06bfc4149296e55d250e087df0cd2e4e16b5759854c89cef76f"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/8/8.7/9",
+          "verdict": "retain-choice",
+          "reason": "Bisecting perpendicular unequal diagonals uniquely force non-square rhombus.",
+          "versions": [
+            {
+              "id": "intro-geometry/8/8.7/9/1",
+              "answer": 2,
+              "key": "a rhombus that is not a square",
+              "numericChoiceSupported": false,
+              "sha256": "46faef831273fa33b14d13ea72c4f5c8478d5e67bfd1cfda12d3fdd100e1188d"
+            },
+            {
+              "id": "intro-geometry/8/8.7/9/2",
+              "answer": 2,
+              "key": "a rhombus that is not a square",
+              "numericChoiceSupported": false,
+              "sha256": "f7a279a54095a49be744ab003cfaffa8042b5cd68dc9fbf7b86d198f14a81555"
+            },
+            {
+              "id": "intro-geometry/8/8.7/9/3",
+              "answer": 1,
+              "key": "a rhombus that is not a square",
+              "numericChoiceSupported": false,
+              "sha256": "6a72db5442464ad0dc01476b57087d7b62fa583541903827d3c7ebc07c67e96e"
+            },
+            {
+              "id": "intro-geometry/8/8.7/9/4",
+              "answer": 0,
+              "key": "a rhombus that is not a square",
+              "numericChoiceSupported": false,
+              "sha256": "47941ba7e8280d50b2a4902babda9db4429d6d8b7af516310c2173c6d666a869"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/8/8.7/10",
+          "verdict": "retain-choice",
+          "reason": "Bisecting equal nonperpendicular diagonals force non-square rectangle; most-specific wording excludes broader trapezoid label.",
+          "versions": [
+            {
+              "id": "intro-geometry/8/8.7/10/1",
+              "answer": 0,
+              "key": "a rectangle that is not a square",
+              "numericChoiceSupported": false,
+              "sha256": "c182eadb98a2b889f4cd24aa5221ada4c836e3aadf3cf3510764d5f60c2a216a"
+            },
+            {
+              "id": "intro-geometry/8/8.7/10/2",
+              "answer": 3,
+              "key": "a rectangle that is not a square",
+              "numericChoiceSupported": false,
+              "sha256": "af1cdcafbe9c92fd002ec63c0f36657e90cd0d8e56d055ba160fcc4ca75bc0d2"
+            },
+            {
+              "id": "intro-geometry/8/8.7/10/3",
+              "answer": 0,
+              "key": "a rectangle that is not a square",
+              "numericChoiceSupported": false,
+              "sha256": "10b5b59cdafc03a0eeaa250cc21e1a8df68eaf4428ae998bb3fa9c0b1276e3ba"
+            },
+            {
+              "id": "intro-geometry/8/8.7/10/4",
+              "answer": 2,
+              "key": "a rectangle that is not a square",
+              "numericChoiceSupported": false,
+              "sha256": "3759a5c76bb360f8b5e414cf31a848ad90422715525c70016ff115cc63ef9b90"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-geometry/10/10.1",
+      "title": "Sides and Angles of a Triangle",
+      "reviewedVersions": 40,
+      "decision": "retain-choice",
+      "reason": "Named sides, named angles and symbolic ordering.",
+      "safeSlots": [],
+      "slots": [
+        {
+          "id": "intro-geometry/10/10.1/1",
+          "verdict": "retain-choice",
+          "reason": "Largest angles A,A,B,A face BC,BC,AC,BC; symbolic side answers.",
+          "versions": [
+            {
+              "id": "intro-geometry/10/10.1/1/1",
+              "answer": 1,
+              "key": "$\\overline{BC}$",
+              "numericChoiceSupported": false,
+              "sha256": "b1eec7481933372b0f80eb2b21131e5fd3d0cae2d9b21fc6a3d8e6745de18ac2"
+            },
+            {
+              "id": "intro-geometry/10/10.1/1/2",
+              "answer": 2,
+              "key": "$\\overline{BC}$",
+              "numericChoiceSupported": false,
+              "sha256": "d8f3949e2564c9ddf15c657c345bbc77e8f0f9656fec84afbf58db6663a384b6"
+            },
+            {
+              "id": "intro-geometry/10/10.1/1/3",
+              "answer": 0,
+              "key": "$\\overline{AC}$",
+              "numericChoiceSupported": false,
+              "sha256": "18e49daa9623badd584f90eb9a4d87b98930349412453ece6968d3b4af2f2f01"
+            },
+            {
+              "id": "intro-geometry/10/10.1/1/4",
+              "answer": 1,
+              "key": "$\\overline{BC}$",
+              "numericChoiceSupported": false,
+              "sha256": "c125c9c40ac59103b7f4eb06c26b927b2b20530929f96f389089d823b77bca36"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/10/10.1/2",
+          "verdict": "retain-choice",
+          "reason": "Longest sides EF,DE,DE,EF face D,F,F,D; angle names.",
+          "versions": [
+            {
+              "id": "intro-geometry/10/10.1/2/1",
+              "answer": 0,
+              "key": "$\\angle D$",
+              "numericChoiceSupported": false,
+              "sha256": "fe4f2e527449655be57b446cd82ebde01a3302c9cebef82f47dbd705c6f163bf"
+            },
+            {
+              "id": "intro-geometry/10/10.1/2/2",
+              "answer": 2,
+              "key": "$\\angle F$",
+              "numericChoiceSupported": false,
+              "sha256": "bc525ee2b408b132e488ce451edacffd50820cde545e53679afc4a1b321f05e9"
+            },
+            {
+              "id": "intro-geometry/10/10.1/2/3",
+              "answer": 0,
+              "key": "$\\angle F$",
+              "numericChoiceSupported": false,
+              "sha256": "58f87f47394dee557477dc961c705baa508c3f04a1d2c42d1475452a6b1c70ee"
+            },
+            {
+              "id": "intro-geometry/10/10.1/2/4",
+              "answer": 3,
+              "key": "$\\angle D$",
+              "numericChoiceSupported": false,
+              "sha256": "caca7a34cfbb6501ba7a477c4ffe697fe16aafe029bb8b8f394e16baaf587b30"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/10/10.1/3",
+          "verdict": "retain-choice",
+          "reason": "Equal angles imply opposite equal sides AB=AC, QR=PR, KL=KM, RS=ST.",
+          "versions": [
+            {
+              "id": "intro-geometry/10/10.1/3/1",
+              "answer": 2,
+              "key": "$AB = AC$",
+              "numericChoiceSupported": false,
+              "sha256": "30ec80df5beb1e1c8f5a9dbc764e3afa17c0a92819fbe8c228b58932be0c3a06"
+            },
+            {
+              "id": "intro-geometry/10/10.1/3/2",
+              "answer": 1,
+              "key": "$QR = PR$",
+              "numericChoiceSupported": false,
+              "sha256": "22fb8cc80030ecbd1d48e284ba7c2a152b3e585b3a391bb8f329b292d6647393"
+            },
+            {
+              "id": "intro-geometry/10/10.1/3/3",
+              "answer": 0,
+              "key": "$KL = KM$",
+              "numericChoiceSupported": false,
+              "sha256": "14715f05d0a48fe5d7673b684eac1b70183a26b8471f69e757a89be3aa45da8d"
+            },
+            {
+              "id": "intro-geometry/10/10.1/3/4",
+              "answer": 2,
+              "key": "$RS = ST$",
+              "numericChoiceSupported": false,
+              "sha256": "2daacafd2375639aca44989a9d6e0b6e33b0691a52a493400de7fb76b40b488d"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/10/10.1/4",
+          "verdict": "retain-choice",
+          "reason": "Ascending opposing angles give BC<AB<AC, BC<AB<AC, AC<AB<BC, BC<AC<AB.",
+          "versions": [
+            {
+              "id": "intro-geometry/10/10.1/4/1",
+              "answer": 3,
+              "key": "$BC < AB < AC$",
+              "numericChoiceSupported": false,
+              "sha256": "a80d34f2651b1f83d43dc2855c8271ec8ca1821f9feb5386b817bbb917d02a6c"
+            },
+            {
+              "id": "intro-geometry/10/10.1/4/2",
+              "answer": 0,
+              "key": "$BC < AB < AC$",
+              "numericChoiceSupported": false,
+              "sha256": "32ae3f0080e99fabd53dce9fd81cf6b6c8b6229ca51a61113c50383d8310b4b7"
+            },
+            {
+              "id": "intro-geometry/10/10.1/4/3",
+              "answer": 3,
+              "key": "$AC < AB < BC$",
+              "numericChoiceSupported": false,
+              "sha256": "5883ab1416c31636b7c1d6bfbfd539d1b3e0875580ad9a6c0685807293f9a9ca"
+            },
+            {
+              "id": "intro-geometry/10/10.1/4/4",
+              "answer": 1,
+              "key": "$BC < AC < AB$",
+              "numericChoiceSupported": false,
+              "sha256": "cf98841f5595059cd06ab0c248a56fe67c1c7ee40daac18d8280afe984633df6"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/10/10.1/5",
+          "verdict": "retain-choice",
+          "reason": "Complete angle sum: shortest face Q,Q,P,R; PR,PR,QR,PQ.",
+          "versions": [
+            {
+              "id": "intro-geometry/10/10.1/5/1",
+              "answer": 2,
+              "key": "$\\overline{PR}$",
+              "numericChoiceSupported": false,
+              "sha256": "e927aa1f1c289fa4023cae0ce38142a8f8d5486496755b99ce346cb35d422db4"
+            },
+            {
+              "id": "intro-geometry/10/10.1/5/2",
+              "answer": 2,
+              "key": "$\\overline{PR}$",
+              "numericChoiceSupported": false,
+              "sha256": "aaba08682f4f76340b4877b1dc713fe03f79e98ea48c0ca6e996711002982063"
+            },
+            {
+              "id": "intro-geometry/10/10.1/5/3",
+              "answer": 1,
+              "key": "$\\overline{QR}$",
+              "numericChoiceSupported": false,
+              "sha256": "2e1b7e3ea316b086c1af4e6eac3876fe67bb179d020970fe2715ea47e71525d6"
+            },
+            {
+              "id": "intro-geometry/10/10.1/5/4",
+              "answer": 0,
+              "key": "$\\overline{PQ}$",
+              "numericChoiceSupported": false,
+              "sha256": "0e489de750a2450d3ff32b063aadf1a4aef6190483047b5352fa3cd1d618e27e"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/10/10.1/6",
+          "verdict": "retain-choice",
+          "reason": "Ascending opposing sides give X<Y<Z,Z<Y<X,Y<Z<X,X<Y<Z.",
+          "versions": [
+            {
+              "id": "intro-geometry/10/10.1/6/1",
+              "answer": 1,
+              "key": "$\\angle X < \\angle Y < \\angle Z$",
+              "numericChoiceSupported": false,
+              "sha256": "d2e893c6f9a047727a8369c4cc2b11c4c7bf3696759ebf0cf068c62adec5c2b2"
+            },
+            {
+              "id": "intro-geometry/10/10.1/6/2",
+              "answer": 3,
+              "key": "$\\angle Z < \\angle Y < \\angle X$",
+              "numericChoiceSupported": false,
+              "sha256": "92f6a0fd8b183147d2ba35ebc6f6ffb64e648c4ac92bebc47b087888868fc978"
+            },
+            {
+              "id": "intro-geometry/10/10.1/6/3",
+              "answer": 0,
+              "key": "$\\angle Y < \\angle Z < \\angle X$",
+              "numericChoiceSupported": false,
+              "sha256": "c87fd8ea5ca772ca497fbdb089d647be3778470b22f5a5cbe20b6f469f90a57e"
+            },
+            {
+              "id": "intro-geometry/10/10.1/6/4",
+              "answer": 2,
+              "key": "$\\angle X < \\angle Y < \\angle Z$",
+              "numericChoiceSupported": false,
+              "sha256": "77e41eb9fea6cf20f031b93f3add68eb849e86d301963d004084aa59c7cefd5e"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/10/10.1/7",
+          "verdict": "retain-choice",
+          "reason": "Unique largest angle faces AB,DE,QR,JL.",
+          "versions": [
+            {
+              "id": "intro-geometry/10/10.1/7/1",
+              "answer": 2,
+              "key": "$\\overline{AB}$",
+              "numericChoiceSupported": false,
+              "sha256": "4a4ed09d75ce7c16f7b3e62ac243a8e4de3114a2bea7dbef8581f2fc0cc37753"
+            },
+            {
+              "id": "intro-geometry/10/10.1/7/2",
+              "answer": 2,
+              "key": "$\\overline{DE}$",
+              "numericChoiceSupported": false,
+              "sha256": "29e9df9e1f1800704634a57d4284a8aca5a816adaf8b903f0ba30796f9ba9265"
+            },
+            {
+              "id": "intro-geometry/10/10.1/7/3",
+              "answer": 0,
+              "key": "$\\overline{QR}$",
+              "numericChoiceSupported": false,
+              "sha256": "e7950e80820f292ae98d154b3e35d7eead8fabc0ca9f58e041c249ca286ea7b6"
+            },
+            {
+              "id": "intro-geometry/10/10.1/7/4",
+              "answer": 1,
+              "key": "$\\overline{JL}$",
+              "numericChoiceSupported": false,
+              "sha256": "36740d53ee8125572a2e57b3bd18e39429d80c184b1cb5082edeb99719d942c7"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/10/10.1/8",
+          "verdict": "retain-choice",
+          "reason": "Compare angles B,C to compare AC,AB: farther B,B,C,B.",
+          "versions": [
+            {
+              "id": "intro-geometry/10/10.1/8/1",
+              "answer": 0,
+              "key": "$B$, because $\\overline{AB}$ faces the $70^\\circ$ angle at $C$",
+              "numericChoiceSupported": false,
+              "sha256": "27512cf16026391e824f535b27e194a5f93188e834fc776c8ee09d236778d6b9"
+            },
+            {
+              "id": "intro-geometry/10/10.1/8/2",
+              "answer": 1,
+              "key": "$B$, because $\\overline{AB}$ faces the $71^\\circ$ angle at $C$",
+              "numericChoiceSupported": false,
+              "sha256": "6ca9765e274a62bdd84e1b1aadfe6e03f02c4514491bf1707440dfae38146059"
+            },
+            {
+              "id": "intro-geometry/10/10.1/8/3",
+              "answer": 0,
+              "key": "$C$, because $\\overline{AC}$ faces the $74^\\circ$ angle at $B$",
+              "numericChoiceSupported": false,
+              "sha256": "fd712a055caec48815b62f9c92b0798cd47e88177bd119836d6240299bcfd716"
+            },
+            {
+              "id": "intro-geometry/10/10.1/8/4",
+              "answer": 3,
+              "key": "$B$, because $\\overline{AB}$ faces the $72^\\circ$ angle at $C$",
+              "numericChoiceSupported": false,
+              "sha256": "c61cba5bad29dc0aced342bb15d5fbb3360bf3d44420a9744558ff97dd4cae42"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/10/10.1/9",
+          "verdict": "retain-choice",
+          "reason": "Positive ratio maximum faces AB,AB,BC,AC.",
+          "versions": [
+            {
+              "id": "intro-geometry/10/10.1/9/1",
+              "answer": 3,
+              "key": "$\\overline{AB}$",
+              "numericChoiceSupported": false,
+              "sha256": "3bc4e8412530ed6a5be22002c360838064b62dee56886eb016a0ef7e075ca00b"
+            },
+            {
+              "id": "intro-geometry/10/10.1/9/2",
+              "answer": 3,
+              "key": "$\\overline{AB}$",
+              "numericChoiceSupported": false,
+              "sha256": "240b022add0eab76917a7fee3217ce7f40b194162c5440331d60b965f952d4b1"
+            },
+            {
+              "id": "intro-geometry/10/10.1/9/3",
+              "answer": 1,
+              "key": "$\\overline{BC}$",
+              "numericChoiceSupported": false,
+              "sha256": "617af0deae0899045e3d3d78c261d5d467551021ffb15851370ecfae7436e971"
+            },
+            {
+              "id": "intro-geometry/10/10.1/9/4",
+              "answer": 0,
+              "key": "$\\overline{AC}$",
+              "numericChoiceSupported": false,
+              "sha256": "0ae21169a295fd0ddb580fc204216027e1cdc63d8b28ed1fc58f0f44083e5ec2"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/10/10.1/10",
+          "verdict": "retain-choice",
+          "reason": "Base angles (180-A)/2 give apex 40/52 shorter base; 76 longer base; 60 all equal.",
+          "versions": [
+            {
+              "id": "intro-geometry/10/10.1/10/1",
+              "answer": 0,
+              "key": "$BC < AB = AC$",
+              "numericChoiceSupported": false,
+              "sha256": "273c8ccfed611b991a10304a8bb2c4a3b0327888647f9eb141af8b858065294f"
+            },
+            {
+              "id": "intro-geometry/10/10.1/10/2",
+              "answer": 1,
+              "key": "$BC < AB = AC$",
+              "numericChoiceSupported": false,
+              "sha256": "6dfff00f64826cedb14d469527c078468fdd45f91213352275ce25d347cd8060"
+            },
+            {
+              "id": "intro-geometry/10/10.1/10/3",
+              "answer": 2,
+              "key": "$AB = AC < BC$",
+              "numericChoiceSupported": false,
+              "sha256": "c59bb5a66ec13ebb5db3827c6119aaa6aec86696789f2370c253ac7f0f876006"
+            },
+            {
+              "id": "intro-geometry/10/10.1/10/4",
+              "answer": 0,
+              "key": "$AB = AC = BC$",
+              "numericChoiceSupported": false,
+              "sha256": "6b78095829a1e478ac5a1702f1a82fc7093ceb7fb7cb81227ed8ab7a45bf8ff7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-geometry/11/11.3",
+      "title": "Funky Areas",
+      "reviewedVersions": 40,
+      "decision": "retain-choice",
+      "reason": "Exact pi/radical area answers need a symbolic input grader or deliberately rewritten coefficient questions.",
+      "safeSlots": [],
+      "slots": [
+        {
+          "id": "intro-geometry/11/11.3/1",
+          "verdict": "retain-choice",
+          "reason": "Annulus pi(R²-r²): coefficients 12,28,51,45; exact pi unsupported by rational entry.",
+          "versions": [
+            {
+              "id": "intro-geometry/11/11.3/1/1",
+              "answer": 1,
+              "key": "$12\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "ff2a2383e5f6df83cdc0ce8de76776d67f060cd335cc1f34299a9f2864029e01"
+            },
+            {
+              "id": "intro-geometry/11/11.3/1/2",
+              "answer": 2,
+              "key": "$28\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "74a0649ac29c03b0822bc6fb2d06c0f8824ad4c6828267182df468be908f2cf0"
+            },
+            {
+              "id": "intro-geometry/11/11.3/1/3",
+              "answer": 0,
+              "key": "$51\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "a6e2c6f27135681febce2eb541f6f7488f7e23f0d914d352812f8af66cc4c857"
+            },
+            {
+              "id": "intro-geometry/11/11.3/1/4",
+              "answer": 3,
+              "key": "$45\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "428793c620d85c68c16e0731b18ca749113991b31345376065cd41f23c450077"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/11/11.3/2",
+          "verdict": "retain-choice",
+          "reason": "Square minus inscribed disk gives 36-9pi,64-16pi,196-49pi,324-81pi; symbolic.",
+          "versions": [
+            {
+              "id": "intro-geometry/11/11.3/2/1",
+              "answer": 0,
+              "key": "$36 - 9\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "5cce441fb36f453c17d6eb4ca0a17cbc0ea41cb0b7314a69587793513b392c4d"
+            },
+            {
+              "id": "intro-geometry/11/11.3/2/2",
+              "answer": 1,
+              "key": "$64 - 16\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "ee3332cbe154ab2b159cfc4916fd454aa39540f41d647eff554d45c5523127eb"
+            },
+            {
+              "id": "intro-geometry/11/11.3/2/3",
+              "answer": 3,
+              "key": "$196 - 49\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "ff494549f847ef93e51c8379a4b3cba1d2fe7ca380a1c2dfe47a5a21c9a39e98"
+            },
+            {
+              "id": "intro-geometry/11/11.3/2/4",
+              "answer": 0,
+              "key": "$324 - 81\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "6e8c6aa53e1a050800dc23573db6c40aba1a683d836b681dd4a34e68d8d6dfb0"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/11/11.3/3",
+          "verdict": "retain-choice",
+          "reason": "Quarter disk pi r²/4 gives 25pi,36pi,100pi,64pi.",
+          "versions": [
+            {
+              "id": "intro-geometry/11/11.3/3/1",
+              "answer": 2,
+              "key": "$25\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "865a3a2a1977c5b8979a6b3afac30ee3237c4e087e5128f1bcf26e971e9243c5"
+            },
+            {
+              "id": "intro-geometry/11/11.3/3/2",
+              "answer": 3,
+              "key": "$36\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "a08c1f470b7e926eb0e8e00b683504f86e73828e17f16c52748652d11ff6f5ef"
+            },
+            {
+              "id": "intro-geometry/11/11.3/3/3",
+              "answer": 1,
+              "key": "$100\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "70d3d53efcb596a8916527c36da857f616ea1391aafba9121ce2941ff4e76450"
+            },
+            {
+              "id": "intro-geometry/11/11.3/3/4",
+              "answer": 2,
+              "key": "$64\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "7084fee78f9f8fa87603c447577bf38f780f19c34ac411dd2801df17bffc38dc"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/11/11.3/4",
+          "verdict": "retain-choice",
+          "reason": "Semicircle pi d²/8 gives 8pi,18pi,32pi,50pi.",
+          "versions": [
+            {
+              "id": "intro-geometry/11/11.3/4/1",
+              "answer": 3,
+              "key": "$8\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "aabdbfbad2bbe80732295f8ba55a9049131aba981170d6bf58c24b8daff939aa"
+            },
+            {
+              "id": "intro-geometry/11/11.3/4/2",
+              "answer": 0,
+              "key": "$18\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "817e3f8c2bb8c2f3937485c4932d06a4cd0c3064592b39ae814c9d2651396987"
+            },
+            {
+              "id": "intro-geometry/11/11.3/4/3",
+              "answer": 2,
+              "key": "$32\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "340d7dbdab90fe5dda6da8f15350813b9215e2e83cd779bf327229772cdb5efd"
+            },
+            {
+              "id": "intro-geometry/11/11.3/4/4",
+              "answer": 1,
+              "key": "$50\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "edbd0689b7b6fb5667b9c35aae8d0db195414004bf451e14913c05ff0556b057"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/11/11.3/5",
+          "verdict": "retain-choice",
+          "reason": "Right circular segment r²(pi/4-1/2): 4pi-8,49pi-98,121pi-242,100pi-200.",
+          "versions": [
+            {
+              "id": "intro-geometry/11/11.3/5/1",
+              "answer": 0,
+              "key": "$4\\pi - 8$",
+              "numericChoiceSupported": false,
+              "sha256": "bddb968154aa27ff6c38439df2a4a2f315b5292b0ae4d18ba6e5f7f0c103b455"
+            },
+            {
+              "id": "intro-geometry/11/11.3/5/2",
+              "answer": 1,
+              "key": "$49\\pi - 98$",
+              "numericChoiceSupported": false,
+              "sha256": "3c02a115a5eb9d78dcbc31aebcd83f0be794dc3985ec9e6fb4da6621ac0ef3d1"
+            },
+            {
+              "id": "intro-geometry/11/11.3/5/3",
+              "answer": 0,
+              "key": "$121\\pi - 242$",
+              "numericChoiceSupported": false,
+              "sha256": "93fac00300a9cdbaa3dea3499878becccc6af277e7333bdfc55709a600a6b80e"
+            },
+            {
+              "id": "intro-geometry/11/11.3/5/4",
+              "answer": 2,
+              "key": "$100\\pi - 200$",
+              "numericChoiceSupported": false,
+              "sha256": "6739ff6b987e66bd2c477ac884850a79a0a57a581c9214d03ef5e08ac8ed10a4"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/11/11.3/6",
+          "verdict": "retain-choice",
+          "reason": "Inscribed square area 2r², subtract from pi r²: 25pi-50,64pi-128,144pi-288,225pi-450.",
+          "versions": [
+            {
+              "id": "intro-geometry/11/11.3/6/1",
+              "answer": 2,
+              "key": "$25\\pi - 50$",
+              "numericChoiceSupported": false,
+              "sha256": "e83dc9774fb6f42f802e2fd9e735a726399d0421bac60645aa1b16bb56a1a0ee"
+            },
+            {
+              "id": "intro-geometry/11/11.3/6/2",
+              "answer": 3,
+              "key": "$64\\pi - 128$",
+              "numericChoiceSupported": false,
+              "sha256": "3f915dd10e556db0297e91ea42560ef6db706e9223e4e3dd64f1081f9e417235"
+            },
+            {
+              "id": "intro-geometry/11/11.3/6/3",
+              "answer": 2,
+              "key": "$144\\pi - 288$",
+              "numericChoiceSupported": false,
+              "sha256": "de005e7f9494209e75c8db265dfe7afda39fca67f336ade1b1323b5c90e8dc36"
+            },
+            {
+              "id": "intro-geometry/11/11.3/6/4",
+              "answer": 0,
+              "key": "$225\\pi - 450$",
+              "numericChoiceSupported": false,
+              "sha256": "89c51327bc95961372ea3737fa4632cf8480de2558ff271ead7f83a14d712724"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/11/11.3/7",
+          "verdict": "retain-choice",
+          "reason": "Sector minus triangle:6pi-9sqrt3,12pi-9sqrt3,48pi-36sqrt3,60pi-36.",
+          "versions": [
+            {
+              "id": "intro-geometry/11/11.3/7/1",
+              "answer": 1,
+              "key": "$6\\pi - 9\\sqrt{3}$",
+              "numericChoiceSupported": false,
+              "sha256": "43f2ed17e1abf49c94c67d929ce080b0977ac069bcaa725d56095d389b74949e"
+            },
+            {
+              "id": "intro-geometry/11/11.3/7/2",
+              "answer": 0,
+              "key": "$12\\pi - 9\\sqrt{3}$",
+              "numericChoiceSupported": false,
+              "sha256": "f3bdd314f8c236833fde8d4de708dfdb5f4fdcdb6afbf617a4bf113f8d513753"
+            },
+            {
+              "id": "intro-geometry/11/11.3/7/3",
+              "answer": 3,
+              "key": "$48\\pi - 36\\sqrt{3}$",
+              "numericChoiceSupported": false,
+              "sha256": "856606c0edae04c1ece067839dcb66a574a67fa491b958bd96f00f042aefd10d"
+            },
+            {
+              "id": "intro-geometry/11/11.3/7/4",
+              "answer": 1,
+              "key": "$60\\pi - 36$",
+              "numericChoiceSupported": false,
+              "sha256": "5950915f0ad5b4e1d5f9672f45e744384a1d647c9f38fbd2f06b397cebc9bf15"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/11/11.3/8",
+          "verdict": "retain-choice",
+          "reason": "Radius from circumference then annulus coefficients64,39,95,105.",
+          "versions": [
+            {
+              "id": "intro-geometry/11/11.3/8/1",
+              "answer": 3,
+              "key": "$64\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "2b4d4bac29fa305a01321f8b63b15f2ffc81df363594a05137a24dcf2fad4e3b"
+            },
+            {
+              "id": "intro-geometry/11/11.3/8/2",
+              "answer": 2,
+              "key": "$39\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "1a198f4af6edf0d25426d88ea0bc74662258ba3c473988473409eb6c3d894878"
+            },
+            {
+              "id": "intro-geometry/11/11.3/8/3",
+              "answer": 3,
+              "key": "$95\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "2bad27fe32d47536e8fbb4b779b1b4fe127391b11df9a459a2124877b0365863"
+            },
+            {
+              "id": "intro-geometry/11/11.3/8/4",
+              "answer": 1,
+              "key": "$105\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "998aff77d804fc39e0fcdc22fe6a4fd4b7ae4bc6806f1fa621f849d16e90c535"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/11/11.3/9",
+          "verdict": "retain-choice",
+          "reason": "Two quarter disks cover square; overlap s²(pi/2-1):8pi-16,18pi-36,32pi-64,50pi-100.",
+          "versions": [
+            {
+              "id": "intro-geometry/11/11.3/9/1",
+              "answer": 1,
+              "key": "$8\\pi - 16$",
+              "numericChoiceSupported": false,
+              "sha256": "b4dcbfc5ba80604b755286fa1fc39fed4370b119b353536a91c22fbddc038c15"
+            },
+            {
+              "id": "intro-geometry/11/11.3/9/2",
+              "answer": 1,
+              "key": "$18\\pi - 36$",
+              "numericChoiceSupported": false,
+              "sha256": "702068c4af34dab04d1265206c35f2b7cb472619be9e59c8336d629ed8ac8c0b"
+            },
+            {
+              "id": "intro-geometry/11/11.3/9/3",
+              "answer": 2,
+              "key": "$32\\pi - 64$",
+              "numericChoiceSupported": false,
+              "sha256": "e0b308e94948c884d312ed01ff47fa58445094cb88edc8804808542fabda2ee9"
+            },
+            {
+              "id": "intro-geometry/11/11.3/9/4",
+              "answer": 0,
+              "key": "$50\\pi - 100$",
+              "numericChoiceSupported": false,
+              "sha256": "75f2e90cf469a07914f14bccc14adedd96117b2b063f892d9af6ef043c1f16a3"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/11/11.3/10",
+          "verdict": "retain-choice",
+          "reason": "Subtract two half-radius disks: coefficients18,32,50,72.",
+          "versions": [
+            {
+              "id": "intro-geometry/11/11.3/10/1",
+              "answer": 2,
+              "key": "$18\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "4e1337d8f2b2910a15a1c40191626b631f75131aeb2b0ef0a11457ab6984248a"
+            },
+            {
+              "id": "intro-geometry/11/11.3/10/2",
+              "answer": 0,
+              "key": "$32\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "1dfe71a8fbe994574439ace7fc1f0e73df1e80985dd6744d8de9a9a2058b469e"
+            },
+            {
+              "id": "intro-geometry/11/11.3/10/3",
+              "answer": 1,
+              "key": "$50\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "b7a7fe69866ff833de996b0ceba3147d54abcc8cd16bcdcda69d58fa048bc609"
+            },
+            {
+              "id": "intro-geometry/11/11.3/10/4",
+              "answer": 3,
+              "key": "$72\\pi$",
+              "numericChoiceSupported": false,
+              "sha256": "7c45d09873035c4febd230190f8825151d00a46506f5cd705b2983cce4a9a036"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-geometry/16/16.1",
+      "title": "Translations",
+      "reviewedVersions": 40,
+      "decision": "retain-choice",
+      "reason": "Ordered pairs and transformation rules require a coordinate input grader.",
+      "safeSlots": [],
+      "slots": [
+        {
+          "id": "intro-geometry/16/16.1/1",
+          "verdict": "retain-choice",
+          "reason": "Coordinate vector addition yields(6,2),(4,-4),(-3,-2),(-5,7); pairs unsupported.",
+          "versions": [
+            {
+              "id": "intro-geometry/16/16.1/1/1",
+              "answer": 2,
+              "key": "$(6, 2)$",
+              "numericChoiceSupported": false,
+              "sha256": "9a3b8559260dc3b50912562b71daaa4dfcca1f84dfd71d169701d4dda5ca8e60"
+            },
+            {
+              "id": "intro-geometry/16/16.1/1/2",
+              "answer": 0,
+              "key": "$(4, -4)$",
+              "numericChoiceSupported": false,
+              "sha256": "038e92c1a85d9afa0137fa7333638726e48f0f51f13a417e673626fea7763c94"
+            },
+            {
+              "id": "intro-geometry/16/16.1/1/3",
+              "answer": 3,
+              "key": "$(-3, -2)$",
+              "numericChoiceSupported": false,
+              "sha256": "945634dc749a4e928b7e4cd0921d84e38625a16904c175b2f365113f08e9285c"
+            },
+            {
+              "id": "intro-geometry/16/16.1/1/4",
+              "answer": 1,
+              "key": "$(-5, 7)$",
+              "numericChoiceSupported": false,
+              "sha256": "ea7e9bdf73c8b90e95089808bf323b1bb418588451d34c4050a2c070cbd985d6"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/16/16.1/2",
+          "verdict": "retain-choice",
+          "reason": "Direction vectors(-5,2),(3,-6),(-7,4),(9,2); coordinate rules unsupported.",
+          "versions": [
+            {
+              "id": "intro-geometry/16/16.1/2/1",
+              "answer": 0,
+              "key": "$(x, y) \\to (x - 5, y + 2)$",
+              "numericChoiceSupported": false,
+              "sha256": "b0ee88fd17f2b682f9f7ab1fc444d245493ce2f57fe3b44c785b4ded98daf3e9"
+            },
+            {
+              "id": "intro-geometry/16/16.1/2/2",
+              "answer": 1,
+              "key": "$(x, y) \\to (x + 3, y - 6)$",
+              "numericChoiceSupported": false,
+              "sha256": "92e865ae6273883c3d658568b053fcba830a0c03adf2109cd8622393af6e970b"
+            },
+            {
+              "id": "intro-geometry/16/16.1/2/3",
+              "answer": 2,
+              "key": "$(x, y) \\to (x - 7, y + 4)$",
+              "numericChoiceSupported": false,
+              "sha256": "440e1d360b59224eaaca55559e73a72dc6fac8847ee420c247b548688c7b9e30"
+            },
+            {
+              "id": "intro-geometry/16/16.1/2/4",
+              "answer": 3,
+              "key": "$(x, y) \\to (x + 9, y + 2)$",
+              "numericChoiceSupported": false,
+              "sha256": "a597519132fe9d3272ad4be914edef2ccc526411d1fb419027b2d6e203c69dc7"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/16/16.1/3",
+          "verdict": "retain-choice",
+          "reason": "Corresponding vertex differences(4,1),(-3,2),(6,-4),(-8,-3).",
+          "versions": [
+            {
+              "id": "intro-geometry/16/16.1/3/1",
+              "answer": 1,
+              "key": "$(x, y) \\to (x + 4, y + 1)$",
+              "numericChoiceSupported": false,
+              "sha256": "d3b71757bb801fa4c48deb6fb39f4472343df81c4267ee1a9edf915e4dda2d44"
+            },
+            {
+              "id": "intro-geometry/16/16.1/3/2",
+              "answer": 3,
+              "key": "$(x, y) \\to (x - 3, y + 2)$",
+              "numericChoiceSupported": false,
+              "sha256": "60884255065e724d77f675791ca40ae35b0451b4d380e2273de23b84714fc629"
+            },
+            {
+              "id": "intro-geometry/16/16.1/3/3",
+              "answer": 0,
+              "key": "$(x, y) \\to (x + 6, y - 4)$",
+              "numericChoiceSupported": false,
+              "sha256": "cc020503fdc0b57456b36bd9d07add39260b0bdb97a6e2d38e934fe437f327da"
+            },
+            {
+              "id": "intro-geometry/16/16.1/3/4",
+              "answer": 2,
+              "key": "$(x, y) \\to (x - 8, y - 3)$",
+              "numericChoiceSupported": false,
+              "sha256": "47a3da9646f6a27b58fdf7bf17756d1f75fac7296e5db50d4cef3b05ca6b8e52"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/16/16.1/4",
+          "verdict": "retain-choice",
+          "reason": "Subtract displacement from image:(2,2),(5,4),(-5,8),(8,-5).",
+          "versions": [
+            {
+              "id": "intro-geometry/16/16.1/4/1",
+              "answer": 3,
+              "key": "$(2, 2)$",
+              "numericChoiceSupported": false,
+              "sha256": "de9da79843cbd6564bfe18afba85de07ac13ac8c423be9b8bc90b364e54de9b2"
+            },
+            {
+              "id": "intro-geometry/16/16.1/4/2",
+              "answer": 0,
+              "key": "$(5, 4)$",
+              "numericChoiceSupported": false,
+              "sha256": "75bb4adfbc6e8b26dbeea8bc34c6adb5aae50b272e62fd7192f7fb9152730dba"
+            },
+            {
+              "id": "intro-geometry/16/16.1/4/3",
+              "answer": 2,
+              "key": "$(-5, 8)$",
+              "numericChoiceSupported": false,
+              "sha256": "e72942f0a11ca156a8237cdf8b2b95ee69b8363d9b6ac9ae93e86c500fff7ea5"
+            },
+            {
+              "id": "intro-geometry/16/16.1/4/4",
+              "answer": 1,
+              "key": "$(8, -5)$",
+              "numericChoiceSupported": false,
+              "sha256": "e8b6654a274ac494cface4b0959ad4a7ff6a566f7c2a2b22dff0b088ba00cf34"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/16/16.1/5",
+          "verdict": "retain-choice",
+          "reason": "Apply vector to requested endpoint:(3,7),(7,-2),(1,-8),(7,8).",
+          "versions": [
+            {
+              "id": "intro-geometry/16/16.1/5/1",
+              "answer": 0,
+              "key": "$(3, 7)$",
+              "numericChoiceSupported": false,
+              "sha256": "acaf0cc711932b10475c2386ec17e0f8bc6d3af4f72832b93c8f8b9f3ce1772e"
+            },
+            {
+              "id": "intro-geometry/16/16.1/5/2",
+              "answer": 2,
+              "key": "$(7, -2)$",
+              "numericChoiceSupported": false,
+              "sha256": "e64cb5c740de9e2bba221d0b7f07e2d6b32202ac06e79fde9e69a697cd34c11d"
+            },
+            {
+              "id": "intro-geometry/16/16.1/5/3",
+              "answer": 1,
+              "key": "$(1, -8)$",
+              "numericChoiceSupported": false,
+              "sha256": "46626a5cbc781d99175fb186feb805a120e418901b5b2ce70615304c0487508d"
+            },
+            {
+              "id": "intro-geometry/16/16.1/5/4",
+              "answer": 3,
+              "key": "$(7, 8)$",
+              "numericChoiceSupported": false,
+              "sha256": "72ccbaadf570dfdb50eb4cb33717373e4ec5b9c03d38bade42b92d9288052c1c"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/16/16.1/6",
+          "verdict": "retain-choice",
+          "reason": "Composition adds vectors:(2,5),(5,-5),(8,6),(-9,-9).",
+          "versions": [
+            {
+              "id": "intro-geometry/16/16.1/6/1",
+              "answer": 2,
+              "key": "$(x, y) \\to (x + 2, y + 5)$",
+              "numericChoiceSupported": false,
+              "sha256": "4e64f33ebdd5f1b8f6f8f77a7da23662dc758976fed381e2b79ceff329f0783a"
+            },
+            {
+              "id": "intro-geometry/16/16.1/6/2",
+              "answer": 1,
+              "key": "$(x, y) \\to (x + 5, y - 5)$",
+              "numericChoiceSupported": false,
+              "sha256": "3bbd4a61a8755ea63260f3d969c23bd3eac763c0b7ac9ed5d58942baabbe4490"
+            },
+            {
+              "id": "intro-geometry/16/16.1/6/3",
+              "answer": 3,
+              "key": "$(x, y) \\to (x + 8, y + 6)$",
+              "numericChoiceSupported": false,
+              "sha256": "bdab18fb23042ec06a8b7a88aa5f15bb7e37f79808f6d0801f5a98543a9af953"
+            },
+            {
+              "id": "intro-geometry/16/16.1/6/4",
+              "answer": 0,
+              "key": "$(x, y) \\to (x - 9, y - 9)$",
+              "numericChoiceSupported": false,
+              "sha256": "2a8064c4a734f2aaba48c5022a5fa329869afa8e825df1df066bd6a941b7fe02"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/16/16.1/7",
+          "verdict": "retain-choice",
+          "reason": "Common displacement yields(1,4),(1,1),(10,1),(1,9).",
+          "versions": [
+            {
+              "id": "intro-geometry/16/16.1/7/1",
+              "answer": 1,
+              "key": "$(1, 4)$",
+              "numericChoiceSupported": false,
+              "sha256": "92727a09335ef74efc21168a16008a993e98f582cf94e029bdd878cb980217d8"
+            },
+            {
+              "id": "intro-geometry/16/16.1/7/2",
+              "answer": 2,
+              "key": "$(1, 1)$",
+              "numericChoiceSupported": false,
+              "sha256": "06ef0a72b791974ce7511f7006f92fc0c30677b207ca2133813407b8be459c2f"
+            },
+            {
+              "id": "intro-geometry/16/16.1/7/3",
+              "answer": 0,
+              "key": "$(10, 1)$",
+              "numericChoiceSupported": false,
+              "sha256": "f556730deeccd24d8520a1901af758abd173a66a425b27cc5558735c9e158a46"
+            },
+            {
+              "id": "intro-geometry/16/16.1/7/4",
+              "answer": 3,
+              "key": "$(1, 9)$",
+              "numericChoiceSupported": false,
+              "sha256": "b8312826d031172b3f401cd32ed43954f30297f1ee9e5911eb6ccc4b54ddf45e"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/16/16.1/8",
+          "verdict": "retain-choice",
+          "reason": "Translation preserves size,shape,orientation, changes position; categorical.",
+          "versions": [
+            {
+              "id": "intro-geometry/16/16.1/8/1",
+              "answer": 3,
+              "key": "size, shape, and orientation",
+              "numericChoiceSupported": false,
+              "sha256": "a6f56b89d6d524c2b01ce3a59e10443c4d07be4adbed025043b81a60b0020918"
+            },
+            {
+              "id": "intro-geometry/16/16.1/8/2",
+              "answer": 1,
+              "key": "the image is congruent to the original and faces the same way",
+              "numericChoiceSupported": false,
+              "sha256": "3f01ae6feaf5d9bde6f980add0c8bd06b95ab64c66d623fc07cec7dea98b4d23"
+            },
+            {
+              "id": "intro-geometry/16/16.1/8/3",
+              "answer": 0,
+              "key": "its position, and nothing else",
+              "numericChoiceSupported": false,
+              "sha256": "80e824b090811ccd9f321f0e3be801525ccc92fd0817a67f17da29dc08cb94ae"
+            },
+            {
+              "id": "intro-geometry/16/16.1/8/4",
+              "answer": 2,
+              "key": "only the coordinates of its vertices",
+              "numericChoiceSupported": false,
+              "sha256": "9f8d13457096c58856e88ab149893e49bddfb43e50f5b89190567c12cc18ff8a"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/16/16.1/9",
+          "verdict": "retain-choice",
+          "reason": "Image B = B + (Aimage-A):(-1,6),(11,-2),(-10,1),(10,-1).",
+          "versions": [
+            {
+              "id": "intro-geometry/16/16.1/9/1",
+              "answer": 0,
+              "key": "$(-1, 6)$",
+              "numericChoiceSupported": false,
+              "sha256": "aaefa9831a10ca5a6333e69febe32aa2e6c53c25e761b05c4f906c6d74d79094"
+            },
+            {
+              "id": "intro-geometry/16/16.1/9/2",
+              "answer": 3,
+              "key": "$(11, -2)$",
+              "numericChoiceSupported": false,
+              "sha256": "c86aa5dce52bbf16d8f063dc3312e97cb4a46f4379121e8978ba60fb3370e2e1"
+            },
+            {
+              "id": "intro-geometry/16/16.1/9/3",
+              "answer": 1,
+              "key": "$(-10, 1)$",
+              "numericChoiceSupported": false,
+              "sha256": "25d4d1188bfca7446b292bfba4097367becab34008843eeaf13edd126faaa255"
+            },
+            {
+              "id": "intro-geometry/16/16.1/9/4",
+              "answer": 2,
+              "key": "$(10, -1)$",
+              "numericChoiceSupported": false,
+              "sha256": "24296a95c18e8fb22001ec49da475d6952afc04b6e33d68c97d3fa68719200cd"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/16/16.1/10",
+          "verdict": "retain-choice",
+          "reason": "Starting point plus3vector gives(10,10),(5,5),(5,6),(3,-1).",
+          "versions": [
+            {
+              "id": "intro-geometry/16/16.1/10/1",
+              "answer": 2,
+              "key": "$(10, 10)$",
+              "numericChoiceSupported": false,
+              "sha256": "4c7bb12f9ad87ced0595c05be41e801df16aeda216504359a8adeebf75270239"
+            },
+            {
+              "id": "intro-geometry/16/16.1/10/2",
+              "answer": 0,
+              "key": "$(5, 5)$",
+              "numericChoiceSupported": false,
+              "sha256": "22e849102c4ba30876a030b98af18825e60ffbc4c07c5dd84cd56f52786ddfd9"
+            },
+            {
+              "id": "intro-geometry/16/16.1/10/3",
+              "answer": 3,
+              "key": "$(5, 6)$",
+              "numericChoiceSupported": false,
+              "sha256": "955eec957f8faca275639f8b561774c0d770e67ddabb346350150ff44864511f"
+            },
+            {
+              "id": "intro-geometry/16/16.1/10/4",
+              "answer": 1,
+              "key": "$(3, -1)$",
+              "numericChoiceSupported": false,
+              "sha256": "1b3cbc9c4895375c241549a0168976ff5ad68218b23bfa97c08edea81266610c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-geometry/17/17.4",
+      "title": "Proofs with Analytic Geometry",
+      "reviewedVersions": 40,
+      "decision": "retain-choice",
+      "reason": "Symbolic coordinate expressions and proof strategies.",
+      "safeSlots": [],
+      "slots": [
+        {
+          "id": "intro-geometry/17/17.4/1",
+          "verdict": "retain-choice",
+          "reason": "Origin/axes rectangle permits arbitrary positive width and height (explicit requirements added to version1); square placement uses equal axis lengths; right triangle uses independent axis lengths; doubled rectangle avoids midpoint fractions. Coordinate lists, not scalar.",
+          "versions": [
+            {
+              "id": "intro-geometry/17/17.4/1/1",
+              "answer": 2,
+              "key": "$(0, 0)$, $(a, 0)$, $(a, b)$, $(0, b)$",
+              "numericChoiceSupported": false,
+              "sha256": "6deac598c1da5999c32b070b3047fefee5ef253d8319de49f412700f44fb698a"
+            },
+            {
+              "id": "intro-geometry/17/17.4/1/2",
+              "answer": 3,
+              "key": "$(0, 0)$, $(a, 0)$, $(a, a)$, $(0, a)$",
+              "numericChoiceSupported": false,
+              "sha256": "07421ddd19287744365f84a85c18c22d30e74e2b18806854da6adbae6ef94a82"
+            },
+            {
+              "id": "intro-geometry/17/17.4/1/3",
+              "answer": 1,
+              "key": "$(0, 0)$, $(a, 0)$, $(0, b)$",
+              "numericChoiceSupported": false,
+              "sha256": "08b074c49ff79a1ac82c427b2cd2cb70d28f899df499549077957673afa2dd53"
+            },
+            {
+              "id": "intro-geometry/17/17.4/1/4",
+              "answer": 0,
+              "key": "$(0, 0)$, $(2a, 0)$, $(2a, 2b)$, $(0, 2b)$",
+              "numericChoiceSupported": false,
+              "sha256": "6a9a38f17a45ca2e3a9d5708d8ae1187aca6cf8ab578d95ba81b342aeedec1b2"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/17/17.4/2",
+          "verdict": "retain-choice",
+          "reason": "Pythagorean diagonal expressions sqrt(a²+b²),a sqrt2,2sqrt(a²+b²),sqrt(4a²+9b²); symbolic.",
+          "versions": [
+            {
+              "id": "intro-geometry/17/17.4/2/1",
+              "answer": 1,
+              "key": "$\\sqrt{a^2 + b^2}$",
+              "numericChoiceSupported": false,
+              "sha256": "8cc36dc03f1b8b23fbc1e47f3cff066c8703937e86777a40ee4bb8adcf076ad6"
+            },
+            {
+              "id": "intro-geometry/17/17.4/2/2",
+              "answer": 2,
+              "key": "$a\\sqrt{2}$",
+              "numericChoiceSupported": false,
+              "sha256": "2253d1dd1c1feb77da81e6bc8ee77cab3321820ec58c95f45c1a9da86205d03d"
+            },
+            {
+              "id": "intro-geometry/17/17.4/2/3",
+              "answer": 0,
+              "key": "$2\\sqrt{a^2 + b^2}$",
+              "numericChoiceSupported": false,
+              "sha256": "6ac4a26e5ffd8a223ecf0b9372c4e08c213492d343db9fa163243fcb2e393e65"
+            },
+            {
+              "id": "intro-geometry/17/17.4/2/4",
+              "answer": 3,
+              "key": "$\\sqrt{4a^2 + 9b^2}$",
+              "numericChoiceSupported": false,
+              "sha256": "6d40d46ebd000cac1187a7eb491bf896d97375e8e30b0d59ddf8e8f5921b048e"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/17/17.4/3",
+          "verdict": "retain-choice",
+          "reason": "Doubled coordinates simplify midpoints; origin simplifies subtraction; horizontal side simplifies length; rigid motion preserves generality.",
+          "versions": [
+            {
+              "id": "intro-geometry/17/17.4/3/1",
+              "answer": 0,
+              "key": "So the midpoints have coordinates without fractions",
+              "numericChoiceSupported": false,
+              "sha256": "0db1f4322ba5bd115598e1bb3d30fe57317ca7fe9064c7abdf309c6e32317252"
+            },
+            {
+              "id": "intro-geometry/17/17.4/3/2",
+              "answer": 1,
+              "key": "Because a vertex at $(0, 0)$ makes every distance from it a distance formula with nothing to subtract",
+              "numericChoiceSupported": false,
+              "sha256": "f48570b9db160268abd0e078fdaea8f89eaa31e1c88f7ef19f938f3ac795d19d"
+            },
+            {
+              "id": "intro-geometry/17/17.4/3/3",
+              "answer": 3,
+              "key": "Because a side along the $x$-axis makes that side’s length just the difference of two $x$-coordinates",
+              "numericChoiceSupported": false,
+              "sha256": "e54462b87808dbdea2eecca3644355bbd3f64ac0e2479444638a9e5fc6ac7df1"
+            },
+            {
+              "id": "intro-geometry/17/17.4/3/4",
+              "answer": 2,
+              "key": "Because every rectangle can be slid and turned onto that position without any length changing",
+              "numericChoiceSupported": false,
+              "sha256": "b9ec87a0675f928af37549d78c194310d0509f99e433ae6f587671518dd9ec15"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/17/17.4/4",
+          "verdict": "retain-choice",
+          "reason": "Distances sqrt(a²+b²),b,sqrt(a²+b²),sqrt(a²+b²)/2; symbolic.",
+          "versions": [
+            {
+              "id": "intro-geometry/17/17.4/4/1",
+              "answer": 3,
+              "key": "$\\sqrt{a^2 + b^2}$",
+              "numericChoiceSupported": false,
+              "sha256": "031abdc5556bfbf5161b7e14ba9ecafc40dc5f7d49774083f99430a5677dae98"
+            },
+            {
+              "id": "intro-geometry/17/17.4/4/2",
+              "answer": 0,
+              "key": "$b$",
+              "numericChoiceSupported": false,
+              "sha256": "67a4502ae0d05ad213c7be50d1d730e2a48121c21e626d3afac8cc050a3a070d"
+            },
+            {
+              "id": "intro-geometry/17/17.4/4/3",
+              "answer": 2,
+              "key": "$\\sqrt{a^2 + b^2}$",
+              "numericChoiceSupported": false,
+              "sha256": "b8c15fafda967de2d9f870c35d78985348b492bd2ade1353ee8115048f77dbe3"
+            },
+            {
+              "id": "intro-geometry/17/17.4/4/4",
+              "answer": 1,
+              "key": "$\\frac{\\sqrt{a^2 + b^2}}{2}$",
+              "numericChoiceSupported": false,
+              "sha256": "d7180499ea2da51371f56842431205fac8fcb179ba3fe439197f6bb95e20b65b"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/17/17.4/5",
+          "verdict": "retain-choice",
+          "reason": "Vector parallelogram rule gives(a+b,c),(b-a,c),(2a+2b,2c),(b,c).",
+          "versions": [
+            {
+              "id": "intro-geometry/17/17.4/5/1",
+              "answer": 1,
+              "key": "$(a + b, c)$",
+              "numericChoiceSupported": false,
+              "sha256": "1c1207a99a43906d7ed49c1160abe01fae63302ef455a2c8c4e4aca2b4b8a113"
+            },
+            {
+              "id": "intro-geometry/17/17.4/5/2",
+              "answer": 2,
+              "key": "$(b - a, c)$",
+              "numericChoiceSupported": false,
+              "sha256": "2642807b3c27841ddcdbc0c5de269e9b534f4100f7e35fa630b69db845dd9f9d"
+            },
+            {
+              "id": "intro-geometry/17/17.4/5/3",
+              "answer": 0,
+              "key": "$(2a + 2b, 2c)$",
+              "numericChoiceSupported": false,
+              "sha256": "68c96e4f6308186fd0165e00ce5b32e8852360d98071f1694563c876978e1faa"
+            },
+            {
+              "id": "intro-geometry/17/17.4/5/4",
+              "answer": 3,
+              "key": "$(b, c)$",
+              "numericChoiceSupported": false,
+              "sha256": "55dcc3bda104b773c999adb080da2c5390f24c54940b34f6bb35a95f8009b34b"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/17/17.4/6",
+          "verdict": "retain-choice",
+          "reason": "Symmetric isosceles, equilateral height a sqrt3, equal axis legs, rhombus axis diagonals; coordinate placements.",
+          "versions": [
+            {
+              "id": "intro-geometry/17/17.4/6/1",
+              "answer": 0,
+              "key": "Base vertices $(-a, 0)$ and $(a, 0)$, apex $(0, b)$",
+              "numericChoiceSupported": false,
+              "sha256": "82a74e09917324f6b7300147faefe035f533a20b0ba0377294ba447765e99264"
+            },
+            {
+              "id": "intro-geometry/17/17.4/6/2",
+              "answer": 1,
+              "key": "Base vertices $(-a, 0)$ and $(a, 0)$, apex $(0, a\\sqrt{3})$",
+              "numericChoiceSupported": false,
+              "sha256": "9899cd1680dd3088bdfb4a7ca9407c83bb35158f697b5401819415ea9f888ad5"
+            },
+            {
+              "id": "intro-geometry/17/17.4/6/3",
+              "answer": 3,
+              "key": "Legs on the axes: $(0, 0)$, $(a, 0)$, $(0, a)$",
+              "numericChoiceSupported": false,
+              "sha256": "96b403f7a705219c9ea27716041848376cce6600644f14fe752f851b7ee17399"
+            },
+            {
+              "id": "intro-geometry/17/17.4/6/4",
+              "answer": 2,
+              "key": "Diagonals on the axes: $(\\pm a, 0)$ and $(0, \\pm b)$",
+              "numericChoiceSupported": false,
+              "sha256": "da49a7510cbb1725a1e6bd3910989ec87b3088527cbff902b17b0b24fe45d6e8"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/17/17.4/7",
+          "verdict": "retain-choice",
+          "reason": "Varignon parallelogram; rectangle midpoints rhombus; rhombus midpoints rectangle; square midpoints square.",
+          "versions": [
+            {
+              "id": "intro-geometry/17/17.4/7/1",
+              "answer": 2,
+              "key": "parallelogram",
+              "numericChoiceSupported": false,
+              "sha256": "9a3edd3f6e7dcd326ee50165afc4720c80fd6e23eb8bc9ac3bf5f9d9d22715a0"
+            },
+            {
+              "id": "intro-geometry/17/17.4/7/2",
+              "answer": 3,
+              "key": "rhombus",
+              "numericChoiceSupported": false,
+              "sha256": "315d7383d53010d76204171a3767e77eaff1a94305554eb73b8bcb963da1b411"
+            },
+            {
+              "id": "intro-geometry/17/17.4/7/3",
+              "answer": 1,
+              "key": "rectangle",
+              "numericChoiceSupported": false,
+              "sha256": "c8413c2951b7244e8e8d9b75caaa1735b070d04f97c112de48e50c29b0b58037"
+            },
+            {
+              "id": "intro-geometry/17/17.4/7/4",
+              "answer": 0,
+              "key": "square",
+              "numericChoiceSupported": false,
+              "sha256": "593367f1dfb78c4023779239c2c77140ae9c07c8154a7a7e3a7e4c958a09c4b8"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/17/17.4/8",
+          "verdict": "retain-choice",
+          "reason": "Compute lengths/slopes/midpoints/slope respectively for stated proof goals.",
+          "versions": [
+            {
+              "id": "intro-geometry/17/17.4/8/1",
+              "answer": 3,
+              "key": "The lengths of both diagonals, showing each equals $\\sqrt{a^2 + b^2}$",
+              "numericChoiceSupported": false,
+              "sha256": "fec95188c4319374297660b00821d559171a4beb3c9b7f1e7dd58a90cffff54b"
+            },
+            {
+              "id": "intro-geometry/17/17.4/8/2",
+              "answer": 0,
+              "key": "The slopes of both diagonals, showing their product is $-1$",
+              "numericChoiceSupported": false,
+              "sha256": "6c2ef9bc45bcd281ba9a68904a3c7bbe23a7e9bed40fbbd5c9ef4a863cb8f020"
+            },
+            {
+              "id": "intro-geometry/17/17.4/8/3",
+              "answer": 2,
+              "key": "The midpoint of each diagonal, showing both equal $\\left(\\frac{a + b}{2}, \\frac{c}{2}\\right)$",
+              "numericChoiceSupported": false,
+              "sha256": "b65d6836748cfc514eb4c3f8d5475f5ee612bbf7100813d1a85af72fca3cefa1"
+            },
+            {
+              "id": "intro-geometry/17/17.4/8/4",
+              "answer": 1,
+              "key": "The slope of the midsegment, showing it equals $0$ just as both bases do",
+              "numericChoiceSupported": false,
+              "sha256": "cd516a11bc907b34aeb8c32d0ca362e641ecfb408896b5020ef52cd624e87b73"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/17/17.4/9",
+          "verdict": "retain-choice",
+          "reason": "Midpoint coordinate averages yield(a+b,c),(b,c),(a,0),(2a+b,2c).",
+          "versions": [
+            {
+              "id": "intro-geometry/17/17.4/9/1",
+              "answer": 1,
+              "key": "$(a + b, c)$",
+              "numericChoiceSupported": false,
+              "sha256": "ec9d1447f615a43a532094f134976ee1600a4acd824ffd1e7e58a2aa3dfda300"
+            },
+            {
+              "id": "intro-geometry/17/17.4/9/2",
+              "answer": 2,
+              "key": "$(b, c)$",
+              "numericChoiceSupported": false,
+              "sha256": "9b221820d58f5b15827224543c51e99adb1ffe7535ca4fc53451729dcaad5e82"
+            },
+            {
+              "id": "intro-geometry/17/17.4/9/3",
+              "answer": 0,
+              "key": "$(a, 0)$",
+              "numericChoiceSupported": false,
+              "sha256": "20bc7716b1c962961f86a3f9d92bb45444c95522c828010bb5386d0181fb6a1d"
+            },
+            {
+              "id": "intro-geometry/17/17.4/9/4",
+              "answer": 3,
+              "key": "$(2a + b, 2c)$",
+              "numericChoiceSupported": false,
+              "sha256": "f3f40b116e5c42360845212e0fb3070d810e58a2aee4bfbbcd232f5e870d1d7d"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/17/17.4/10",
+          "verdict": "retain-choice",
+          "reason": "Diagonal midpoint averages yield((a+b)/2,c/2),(a/2,b/2),(a,a),(a+b,c).",
+          "versions": [
+            {
+              "id": "intro-geometry/17/17.4/10/1",
+              "answer": 0,
+              "key": "$\\left(\\dfrac{a + b}{2}, \\dfrac{c}{2}\\right)$",
+              "numericChoiceSupported": false,
+              "sha256": "022b476354f7b4d559c343656ca7da1b34745d0ff78fcfb99bbc3f4515a77ede"
+            },
+            {
+              "id": "intro-geometry/17/17.4/10/2",
+              "answer": 1,
+              "key": "$\\left(\\frac{a}{2}, \\frac{b}{2}\\right)$",
+              "numericChoiceSupported": false,
+              "sha256": "f0cd8e2e4611d41f542efdf45d3ae854cb1e37e0f0e40e6a2413503142258cbf"
+            },
+            {
+              "id": "intro-geometry/17/17.4/10/3",
+              "answer": 3,
+              "key": "$(a, a)$",
+              "numericChoiceSupported": false,
+              "sha256": "97b9a3629cdafc26e615a481e6252343ca6d1d8c217f2247136d57446ce8086e"
+            },
+            {
+              "id": "intro-geometry/17/17.4/10/4",
+              "answer": 2,
+              "key": "$(a + b, c)$",
+              "numericChoiceSupported": false,
+              "sha256": "59235d8e60980cd7a5d37664a49498c1eab6d2ddfafe25af3aac69802a6b6f24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-geometry/19/19.3",
+      "title": "Proofs",
+      "reviewedVersions": 40,
+      "decision": "retain-choice",
+      "reason": "Proof criteria and justification statements.",
+      "safeSlots": [],
+      "slots": [
+        {
+          "id": "intro-geometry/19/19.3/1",
+          "verdict": "retain-choice",
+          "reason": "SSA ambiguous; AAA fixes shape not scale; HL valid for right triangles; arbitrary SSA insufficient.",
+          "versions": [
+            {
+              "id": "intro-geometry/19/19.3/1/1",
+              "answer": 2,
+              "key": "SSA",
+              "numericChoiceSupported": false,
+              "sha256": "6f96119f3ca0edc27c7d0eb86c34d7ffcc43f0590960acb1eacc93986510fa98"
+            },
+            {
+              "id": "intro-geometry/19/19.3/1/2",
+              "answer": 3,
+              "key": "AAA — all three pairs of angles equal",
+              "numericChoiceSupported": false,
+              "sha256": "85c1d24cefcabcdd986677f71d3e241aade2fcd09081fba9efef950a45892fe7"
+            },
+            {
+              "id": "intro-geometry/19/19.3/1/3",
+              "answer": 1,
+              "key": "HL, the right-triangle criterion built from a hypotenuse and a leg",
+              "numericChoiceSupported": false,
+              "sha256": "a8491d42b3ec154d950007cd74534707510b5fae622235f88073278e4c3e2735"
+            },
+            {
+              "id": "intro-geometry/19/19.3/1/4",
+              "answer": 0,
+              "key": "Nothing yet — that arrangement can produce two different triangles",
+              "numericChoiceSupported": false,
+              "sha256": "f0a824207b777452829c5d4593253d225af3357c33b1eb2afd96238b50f763a3"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/19/19.3/2",
+          "verdict": "retain-choice",
+          "reason": "Vertical angles; alternate interior angles; reflexive shared side; definition of midpoint.",
+          "versions": [
+            {
+              "id": "intro-geometry/19/19.3/2/1",
+              "answer": 0,
+              "key": "Vertical angles are congruent",
+              "numericChoiceSupported": false,
+              "sha256": "26957348cacda7915fa3ce8f46e8fa0446200f7ee15f35d33cc179f598659dcb"
+            },
+            {
+              "id": "intro-geometry/19/19.3/2/2",
+              "answer": 1,
+              "key": "Alternate interior angles formed by parallel lines are congruent",
+              "numericChoiceSupported": false,
+              "sha256": "e739617dff7306598749c3fc5c87b39f9bf1ec53652ee6b42ade26ff4d194348"
+            },
+            {
+              "id": "intro-geometry/19/19.3/2/3",
+              "answer": 3,
+              "key": "The reflexive property",
+              "numericChoiceSupported": false,
+              "sha256": "7867016b411c92aaba8e44292f5dbf1eba7d2ba3f820ee0dd41c3de38d729c54"
+            },
+            {
+              "id": "intro-geometry/19/19.3/2/4",
+              "answer": 2,
+              "key": "The definition of a midpoint",
+              "numericChoiceSupported": false,
+              "sha256": "391d0e75d5bcf773fded2613d1ba5af68625631e8bcb99136cf30b8824044b5c"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/19/19.3/3",
+          "verdict": "retain-choice",
+          "reason": "Identify givens/goal; every step justified; CPCTC requires previously established congruence with corresponding angles; auxiliary construction. Corrected immediate-predecessor restriction.",
+          "versions": [
+            {
+              "id": "intro-geometry/19/19.3/3/1",
+              "answer": 1,
+              "key": "write down exactly what is given and exactly what must be proved",
+              "numericChoiceSupported": false,
+              "sha256": "a570dbf94c0577a5f9b4a6d7badfb5984fe4764c67ad13e5db7afe38c8731ccc"
+            },
+            {
+              "id": "intro-geometry/19/19.3/3/2",
+              "answer": 2,
+              "key": "a reason: a definition, a postulate, a previously proved theorem, or one of the givens",
+              "numericChoiceSupported": false,
+              "sha256": "6bc6842b9c9cb59c1e14253a851a9865eb5d756eb6090fe11274f1d7f16455dc"
+            },
+            {
+              "id": "intro-geometry/19/19.3/3/3",
+              "answer": 0,
+              "key": "that two triangles are congruent, with those angles as corresponding parts",
+              "numericChoiceSupported": false,
+              "sha256": "7933247f7f2d7e674be9f9c4cc33223af1003e392690d7de765ca62a166199fa"
+            },
+            {
+              "id": "intro-geometry/19/19.3/3/4",
+              "answer": 3,
+              "key": "draw an auxiliary segment so that each of the two lengths sits inside a triangle",
+              "numericChoiceSupported": false,
+              "sha256": "c61bc4445efaf18033e5564c35ce679fd09767bb50446c40faf8f86ca250c752"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/19/19.3/4",
+          "verdict": "retain-choice",
+          "reason": "Circular assertion; missing HL right angles; unproved visual angle; mismatched correspondence AB vs DE.",
+          "versions": [
+            {
+              "id": "intro-geometry/19/19.3/4/1",
+              "answer": 3,
+              "key": "Step 2 assumes exactly the statement that is being proved",
+              "numericChoiceSupported": false,
+              "sha256": "c977419e6fd2bd87848ea29c6e633f926959b12f511c68b3152d6841499d935b"
+            },
+            {
+              "id": "intro-geometry/19/19.3/4/2",
+              "answer": 0,
+              "key": "HL applies only to right triangles, and the proof never shows that either triangle has a right angle",
+              "numericChoiceSupported": false,
+              "sha256": "c46c1e3dd18bf79246ad3d66c6caf17e01415482e9b90412f951a216a6e38fb0"
+            },
+            {
+              "id": "intro-geometry/19/19.3/4/3",
+              "answer": 2,
+              "key": "How a figure looks is not a reason, and the right angle was never given",
+              "numericChoiceSupported": false,
+              "sha256": "3aa40f601b9493bc91d22263007f9e602eac3382fd8d47c25e193e3994f67235"
+            },
+            {
+              "id": "intro-geometry/19/19.3/4/4",
+              "answer": 1,
+              "key": "The congruence statement pairs $\\overline{AB}$ with $\\overline{DE}$, not with $\\overline{EF}$",
+              "numericChoiceSupported": false,
+              "sha256": "e4c3ad69edf494de7d471e5f8a8349293687def79aac8b011e503ef10ff15956"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/19/19.3/5",
+          "verdict": "retain-choice",
+          "reason": "ASA shared included diagonal; SSS kite; SAS included E angle; AAS nonincluded side.",
+          "versions": [
+            {
+              "id": "intro-geometry/19/19.3/5/1",
+              "answer": 0,
+              "key": "ASA",
+              "numericChoiceSupported": false,
+              "sha256": "ab093dbbdeb5e25fd315d162f0acd25ce85f5a32b84299fe66c9f303edccc130"
+            },
+            {
+              "id": "intro-geometry/19/19.3/5/2",
+              "answer": 1,
+              "key": "SSS",
+              "numericChoiceSupported": false,
+              "sha256": "077777c87ab16f8c394abcbde30bbdad297bedb1f85cb37c2e2b8b54a27b5b0d"
+            },
+            {
+              "id": "intro-geometry/19/19.3/5/3",
+              "answer": 3,
+              "key": "SAS",
+              "numericChoiceSupported": false,
+              "sha256": "6d8d614f41b70b1a8ca259569a7d8b447b756f282a961b070845c9e44f62686a"
+            },
+            {
+              "id": "intro-geometry/19/19.3/5/4",
+              "answer": 2,
+              "key": "AAS",
+              "numericChoiceSupported": false,
+              "sha256": "dd5eb8953e4db81303ea87a36771b8c3108268482bed7b8beb4e94d85b62bd75"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/19/19.3/6",
+          "verdict": "retain-choice",
+          "reason": "Tangent-radius perpendicularity; inscribed semicircle; same intercepted arc; perpendicular radius bisects chord.",
+          "versions": [
+            {
+              "id": "intro-geometry/19/19.3/6/1",
+              "answer": 2,
+              "key": "A tangent line is perpendicular to the radius drawn to the point of tangency",
+              "numericChoiceSupported": false,
+              "sha256": "8c8e9af5d706b1ec69d559eac0d242acffc6870f2fc1843535c23d79e80983aa"
+            },
+            {
+              "id": "intro-geometry/19/19.3/6/2",
+              "answer": 3,
+              "key": "An angle inscribed in a semicircle is a right angle",
+              "numericChoiceSupported": false,
+              "sha256": "c3721d64cbe3039f102ca01b572a460646aff749fdfef75be4a846bdc46e4e07"
+            },
+            {
+              "id": "intro-geometry/19/19.3/6/3",
+              "answer": 1,
+              "key": "Inscribed angles that intercept the same arc are congruent",
+              "numericChoiceSupported": false,
+              "sha256": "a9cdd2adc6fb678a5440b7921ac5b335843608c251349f5c5e8d30c1139e2bdf"
+            },
+            {
+              "id": "intro-geometry/19/19.3/6/4",
+              "answer": 0,
+              "key": "A radius perpendicular to a chord bisects that chord",
+              "numericChoiceSupported": false,
+              "sha256": "9a9eb42570df4740b19f77868a90deb6601e62e83adf5348287be0e38e1bb05e"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/19/19.3/7",
+          "verdict": "retain-choice",
+          "reason": "Counterexamples to converse: nonrectangular isosceles trapezoid, non-square rhombus, isosceles base angles,5-5-8 triangle.",
+          "versions": [
+            {
+              "id": "intro-geometry/19/19.3/7/1",
+              "answer": 1,
+              "key": "It uses the converse of the rectangle theorem, and the isosceles trapezoid shown refutes that converse",
+              "numericChoiceSupported": false,
+              "sha256": "235a58a4828a32e844e06c3476d849416cc84daf4d0453186770b60aa4243064"
+            },
+            {
+              "id": "intro-geometry/19/19.3/7/2",
+              "answer": 2,
+              "key": "It reverses a true statement, and a rhombus with $60^\\circ$ angles is a counterexample",
+              "numericChoiceSupported": false,
+              "sha256": "8514b1a495a991cd930b8a03cd827ea5606455da2358ac0a94148192bfa63969"
+            },
+            {
+              "id": "intro-geometry/19/19.3/7/3",
+              "answer": 0,
+              "key": "It uses the converse, and the base angles of an isosceles triangle are equal without being vertical",
+              "numericChoiceSupported": false,
+              "sha256": "3337f77d070b237f87a033c5c77534559958c5cf6ddea44cc747b04af545cae3"
+            },
+            {
+              "id": "intro-geometry/19/19.3/7/4",
+              "answer": 3,
+              "key": "No — sides $5$, $5$, $8$ give a triangle that is isosceles but not equilateral",
+              "numericChoiceSupported": false,
+              "sha256": "a27a16eb1132c4471a927fc4fc065730ee5acd85e306ecaa7bcd53b931d9ed35"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/19/19.3/8",
+          "verdict": "retain-choice",
+          "reason": "SAS shared MF; AAS shared BM; SSS shared PR; ASA shared RS included between known angles.",
+          "versions": [
+            {
+              "id": "intro-geometry/19/19.3/8/1",
+              "answer": 0,
+              "key": "SAS: legs $FA = FB$, right angles at $F$, and shared side $\\overline{MF}$",
+              "numericChoiceSupported": false,
+              "sha256": "7aa930417b76b3a0fe8d24ae633cbf43733e8f06a5bdd9047003bd16e2aa7468"
+            },
+            {
+              "id": "intro-geometry/19/19.3/8/2",
+              "answer": 1,
+              "key": "AAS: the right angles at $P$ and $Q$, the two halves of the bisected angle at $B$, and the shared side $\\overline{BM}$",
+              "numericChoiceSupported": false,
+              "sha256": "d2b7ff57b82837208dcb1ad3ce4b8398a21942d0ec32cf98f967d400b3f33648"
+            },
+            {
+              "id": "intro-geometry/19/19.3/8/3",
+              "answer": 3,
+              "key": "SSS: both pairs of opposite sides and the shared diagonal",
+              "numericChoiceSupported": false,
+              "sha256": "dde91d22045b420bb0018a018a2c015b8f3fe569ba9c5b689eb42f4e3dd264d1"
+            },
+            {
+              "id": "intro-geometry/19/19.3/8/4",
+              "answer": 2,
+              "key": "ASA: the two pairs of equal angles and the shared side between them",
+              "numericChoiceSupported": false,
+              "sha256": "646b486ef981d2d5fcc63316dc6a76416b470873c8463d4429b9a257cd9658e4"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/19/19.3/9",
+          "verdict": "retain-choice",
+          "reason": "Earlier opposite-sides theorem; same-side supplementary angles; definition of parallelogram; triangulation angle sum. Corrected false assertion about converse parallelogram tests.",
+          "versions": [
+            {
+              "id": "intro-geometry/19/19.3/9/1",
+              "answer": 3,
+              "key": "the theorem, proved earlier, that opposite sides of a parallelogram are congruent",
+              "numericChoiceSupported": false,
+              "sha256": "b385319b342bdb59e363da791c0899b20511975d9f612600281c1546c68af318"
+            },
+            {
+              "id": "intro-geometry/19/19.3/9/2",
+              "answer": 0,
+              "key": "the theorem that same-side interior angles between parallel lines are supplementary",
+              "numericChoiceSupported": false,
+              "sha256": "5cd358a209ae999be25396762c452e68e9f21678e4dc55d220762f6549712cdf"
+            },
+            {
+              "id": "intro-geometry/19/19.3/9/3",
+              "answer": 2,
+              "key": "the definition of a parallelogram",
+              "numericChoiceSupported": false,
+              "sha256": "071ecfd6fb4cea6a1b29c3fa1aa970a3f148665dac1a8a538a2f2618b96f4b6e"
+            },
+            {
+              "id": "intro-geometry/19/19.3/9/4",
+              "answer": 1,
+              "key": "a diagonal splits the quadrilateral into two triangles, and each triangle contributes $180^\\circ$",
+              "numericChoiceSupported": false,
+              "sha256": "aa45d666cee73459172cdbf6b2439b034d2ba77e0a6d3ee52b728d96aa181783"
+            }
+          ]
+        },
+        {
+          "id": "intro-geometry/19/19.3/10",
+          "verdict": "retain-choice",
+          "reason": "General symbolic triangle/rectangle valid by rigid motion; fixed numerical triangle not general; symmetric variable isosceles valid.",
+          "versions": [
+            {
+              "id": "intro-geometry/19/19.3/10/1",
+              "answer": 1,
+              "key": "Yes — any triangle can be moved onto such a position by rigid motions, which change no lengths or angles",
+              "numericChoiceSupported": false,
+              "sha256": "50ab273623659b395f0aaacc58e8893ff88729eb0ef120ba8d57ca9295723a4f"
+            },
+            {
+              "id": "intro-geometry/19/19.3/10/2",
+              "answer": 2,
+              "key": "Yes — a rigid motion carries any rectangle onto that position, and rigid motions preserve lengths and angles",
+              "numericChoiceSupported": false,
+              "sha256": "56e686c86b6ff0074f48ddd36aa78f85abde3ee3ef190343b00f85965a96b2a7"
+            },
+            {
+              "id": "intro-geometry/19/19.3/10/3",
+              "answer": 0,
+              "key": "No — those coordinates pin down one particular triangle, so nothing general is proved",
+              "numericChoiceSupported": false,
+              "sha256": "e7294645e298b40b91e93ee350f9e2ae268f7d0c6d90e3334b35f97d3cbcd5b3"
+            },
+            {
+              "id": "intro-geometry/19/19.3/10/4",
+              "answer": 3,
+              "key": "Yes — those three points always form an isosceles triangle, and every isosceles triangle can be carried onto that position",
+              "numericChoiceSupported": false,
+              "sha256": "359fbdba0eb9feceff5a6f956f605f50759faf30910bf2ee984afd39d9eaf1fd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "intro-geometry/19/19.3/3/3",
+      "status": "fixed",
+      "source": "src/data/variants/intro-geometry/ch19-s3.js",
+      "before": "Required congruence on immediately previous line.",
+      "after": "Requires congruence already established, with the two angles corresponding.",
+      "reason": "CPCTC can cite any previously established congruence. Answer index0 unchanged and uniquely supplies required premise."
+    },
+    {
+      "id": "intro-geometry/19/19.3/9/3",
+      "status": "fixed",
+      "source": "src/data/variants/intro-geometry/ch19-s3.js",
+      "before": "Solution denied converse parallelogram tests, using a kite as if its equal sides were opposite.",
+      "after": "Distinguishes named forward theorems from valid converse theorems; definition directly supplies given parallel sides.",
+      "reason": "Both opposite-side pairs equal and diagonals bisecting are sufficient parallelogram conditions; answer index2 remains unique direct reason among named choices."
+    },
+    {
+      "id": "intro-geometry/17/17.4/1/1",
+      "status": "fixed",
+      "source": "src/data/intro-geometry/ch17.js",
+      "reason": "Only choice2 satisfies all requirements; other lists omit origin or do not form arbitrary rectangles. Answer index2 unchanged.",
+      "before": "Subjective standard smart choice allowed an also-valid translated rectangle.",
+      "after": "Explicitly requires origin vertex, adjacent sides on axes, and arbitrary positive width and height."
+    }
+  ]
+}

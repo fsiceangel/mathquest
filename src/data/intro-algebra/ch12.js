@@ -268,6 +268,10 @@ const s123 = {
         heading: 'The conjugate: a mirror with a superpower',
         body: 'The conjugate of $a + bi$ is $a - bi$ — same real part, flipped sign on the imaginary part. The magic: $(a + bi)(a - bi) = a^2 + b^2$, always a real number! To divide by a complex number, multiply top and bottom by the conjugate of the bottom, and the $i$ vanishes from the denominator.',
       },
+      {
+        heading: 'Build a square before taking a root',
+        body: 'The identity $(x + h)^2 = x^2 + 2hx + h^2$ from chapter 11 lets us turn some equations into a square. For $x^2 + 6x$, choose $h = 3$, half of $6$, and add $3^2 = 9$ to make $(x + 3)^2$. Add the same $9$ to the other side to keep the equation balanced. This is called completing the square; the next chapter develops the general method. Here it lets us use complex square roots in the example below.',
+      },
     ],
     examples: [
       {
@@ -292,7 +296,8 @@ const s123 = {
       {
         problem: 'Solve $x^2 + 6x + 13 = 0$.',
         steps: [
-          'Complete the square: $x^2 + 6x + 9 = -13 + 9$, so $(x + 3)^2 = -4$.',
+          'Move the constant: $x^2 + 6x = -13$. Half of $6$ is $3$, so add $3^2 = 9$ to both sides: $x^2 + 6x + 9 = -13 + 9$.',
+          'The left side is $(x + 3)^2$ by the square identity, giving $(x + 3)^2 = -4$.',
           'A square equal to a negative number? Complex numbers to the rescue: $x + 3 = 2i$ or $x + 3 = -2i$.',
           'Solve each: $x = -3 + 2i$ or $x = -3 - 2i$. The two roots are conjugates of each other — that always happens for quadratics with real coefficients.',
         ],

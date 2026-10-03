@@ -345,7 +345,7 @@ const challenge = [
         'Because both lines have slope $-3$ they fall in lockstep, so the gap between them never changes. Subtract the heights at the same $x$: $(-3x + 7) - (-3x - 2) = 7 + 2 = 9$. The $x$-terms cancel, which is exactly why the answer does not depend on where you look. Check it forward at two places: at $x = 0$ the heights are $7$ and $-2$, a gap of $9$ ✓; at $x = 2$ they are $1$ and $-8$, again a gap of $9$ ✓. (The choice $-3$ reports the shared SLOPE instead of the gap; the choice $5$ computes $7 - 2$, forgetting that the second intercept is negative; the choice $-9$ subtracts in the wrong order, and a line cannot be a negative amount higher than another when it is genuinely above it.)',
     },
     {
-      q: 'The line $y = \\frac{1}{2}x + c$ is parallel to $y = \\frac{1}{2}x - 4$ and lies $6$ units below it. What is $c$?',
+      q: 'The line $y = \\frac{1}{2}x + c$ is parallel to $y = \\frac{1}{2}x - 4$ and lies $6$ units vertically below it at every $x$-value. What is $c$?',
       choices: ['$2$', '$-10$', '$-6$', '$-2$'],
       answer: 1,
       solution:

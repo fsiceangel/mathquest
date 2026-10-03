@@ -218,7 +218,7 @@ const worksheet = [
   //          base 18, height 12, slant 15 -> 1296, 864.
   [
     {
-      q: 'A canvas sunshade is stretched into a square pyramid with base edge $24$ and height $5$. Find its volume and its total surface area.',
+      q: 'A canvas sunshade is stretched into a square pyramid with base edge $24$ and height $5$. Find its volume and its total surface area. The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 6.4, 3],
         elems: [
@@ -243,7 +243,7 @@ const worksheet = [
         'Volume by the one-third rule: $V = \\frac{1}{3} \\times 24^2 \\times 5 = \\frac{1}{3} \\times 576 \\times 5 = 960$ cubic units. For the surface, first find the slant height from the right triangle whose legs are the height $5$ and half the base $12$: $\\ell = \\sqrt{25 + 144} = \\sqrt{169} = 13$. Each of the four faces is a triangle of base $24$ and height $13$, so $SA = 576 + 4 \\times \\frac{1}{2} \\times 24 \\times 13 = 576 + 624 = 1200$ square units ✓. Second route, comparing solids and then unrolling the net: a prism on the same $24 \\times 24$ square with the same height $5$ holds $576 \\times 5 = 2880$, and three copies of this pyramid fill that prism exactly, so one pyramid is $2880 \\div 3 = 960$ cubic units. For the outside, the four triangles laid flat form a fan whose total area is half the way around the base times the slant height: $\\frac{1}{2} \\times (4 \\times 24) \\times 13 = \\frac{1}{2} \\times 96 \\times 13 = 624$, and the square floor adds $576$, giving $1200$ square units ✓.',
     },
     {
-      q: 'A glass display case is built as a square pyramid with base edge $30$ and height $20$. Find its volume and its total surface area.',
+      q: 'A glass display case is built as a square pyramid with base edge $30$ and height $20$. Find its volume and its total surface area. The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 6.2, 4.4],
         elems: [
@@ -268,7 +268,7 @@ const worksheet = [
         'Volume by the one-third rule: $V = \\frac{1}{3} \\times 30^2 \\times 20 = \\frac{1}{3} \\times 900 \\times 20 = 6000$ cubic units. The slant height comes from the right triangle with legs $20$ and half the base $15$: $\\ell = \\sqrt{400 + 225} = \\sqrt{625} = 25$. The four glass faces are triangles of base $30$ and height $25$, so $SA = 900 + 4 \\times \\frac{1}{2} \\times 30 \\times 25 = 900 + 1500 = 2400$ square units ✓. Second route, comparing solids and then unrolling the net: a prism on the same $30 \\times 30$ base with the same height holds $900 \\times 20 = 18000$, and three of these pyramids fill it, so one is $18000 \\div 3 = 6000$ cubic units. Laid flat, the four triangles cover half the base perimeter times the slant height: $\\frac{1}{2} \\times 120 \\times 25 = 1500$, and with the $900$ of the floor the total is $2400$ square units ✓.',
     },
     {
-      q: 'A sandcastle tower is packed into a mold shaped like a square pyramid with base edge $18$ and height $12$. Find its volume and its total surface area.',
+      q: 'A sandcastle tower is packed into a mold shaped like a square pyramid with base edge $18$ and height $12$. Find its volume and its total surface area. The apex lies directly above the center of the square base.',
       fig: {
         view: [-1, -1.5, 6.6, 4.3],
         elems: [
@@ -298,19 +298,19 @@ const worksheet = [
   //          Lanes: F 18, V 16 -> 32; F 15, V 26 -> 39; F 20, V 30 -> 48.
   [
     {
-      q: 'A mineral crystal is a polyhedron with $18$ faces and $16$ vertices. How many edges does it have?',
+      q: 'A mineral crystal is a convex polyhedron with $18$ faces and $16$ vertices. How many edges does it have?',
       answer: '$32$',
       solution:
-        'Euler’s formula says $V - E + F = 2$ for every polyhedron, so rearranging gives $E = V + F - 2 = 16 + 18 - 2 = 32$ ✓. Second route, rebuilding the count instead of quoting the formula: imagine removing one face and stretching the rest of the surface flat, so the crystal becomes a map with the same $16$ corners and the same edges, and with $18$ regions once the outside counts as the missing face. Start by drawing just enough edges to link all $16$ corners without ever closing a loop; that skeleton takes $15$ edges and leaves the map in one single region. Every edge added after that closes exactly one new loop and so splits one region in two, so to reach $18$ regions we need $17$ more edges: $E = 15 + 17 = 32$ ✓. A solid with these counts really is buildable — an octagonal antiprism has two octagons and sixteen triangles ($18$ faces), sixteen corners, and $8 + 8 + 16 = 32$ edges.',
+        'Euler’s formula says $V - E + F = 2$ for every convex polyhedron, so rearranging gives $E = V + F - 2 = 16 + 18 - 2 = 32$ ✓. Second route, rebuilding the count instead of quoting the formula: imagine removing one face and stretching the rest of the surface flat, so the crystal becomes a map with the same $16$ corners and the same edges, and with $18$ regions once the outside counts as the missing face. Start by drawing just enough edges to link all $16$ corners without ever closing a loop; that skeleton takes $15$ edges and leaves the map in one single region. Every edge added after that closes exactly one new loop and so splits one region in two, so to reach $18$ regions we need $17$ more edges: $E = 15 + 17 = 32$ ✓. A solid with these counts really is buildable — an octagonal antiprism has two octagons and sixteen triangles ($18$ faces), sixteen corners, and $8 + 8 + 16 = 32$ edges.',
     },
     {
-      q: 'A wooden puzzle block is carved as a polyhedron with $15$ faces and $26$ vertices. How many edges does it have?',
+      q: 'A wooden puzzle block is carved as a convex polyhedron with $15$ faces and $26$ vertices. How many edges does it have?',
       answer: '$39$',
       solution:
         'Euler’s formula $V - E + F = 2$ rearranges to $E = V + F - 2 = 26 + 15 - 2 = 39$ ✓. Second route, rebuilding the count instead of quoting the formula: remove one face and press the surface flat into a map with $26$ corners and $15$ regions, the outside region standing in for the removed face. A skeleton that reaches all $26$ corners without closing a loop uses $25$ edges and leaves one region; each further edge closes one loop and adds one region, so $14$ more edges are needed for $15$ regions: $E = 25 + 14 = 39$ ✓. Such a block exists: a prism whose two bases are $13$-gons has $13$ rectangles plus $2$ bases ($15$ faces), $13 + 13 = 26$ corners, and $13 + 13 + 13 = 39$ edges.',
     },
     {
-      q: 'A gemstone is cut as a polyhedron with $20$ faces and $30$ vertices. How many edges does it have?',
+      q: 'A gemstone is cut as a convex polyhedron with $20$ faces and $30$ vertices. How many edges does it have?',
       answer: '$48$',
       solution:
         'Euler’s formula $V - E + F = 2$ gives $E = V + F - 2 = 30 + 20 - 2 = 48$ ✓. Second route, rebuilding the count instead of quoting the formula: take one face away and flatten the surface into a map carrying all $30$ corners, where the outer region replaces the missing face, so the map shows $20$ regions. Linking all $30$ corners without closing a loop costs $29$ edges and leaves the map in one region; after that each edge closes exactly one loop and cuts one region into two, so $19$ extra edges give the $20$ regions: $E = 29 + 19 = 48$ ✓. As a sanity check on the shape, $2E = 96$ counts every edge from both ends, and spreading $96$ ends over $30$ corners averages $3.2$ edges per corner — comfortably above the three that every corner of a solid needs.',
@@ -321,19 +321,19 @@ const worksheet = [
   //          Lanes: F 24 -> 36, 14; F 44 -> 66, 24; F 48 -> 72, 26.
   [
     {
-      q: 'A polyhedron has $24$ faces, every one of them a triangle. Count its edges using the shared-edge trick, then use Euler’s formula to count its vertices.',
+      q: 'A convex polyhedron has $24$ faces, every one of them a triangle. Count its edges using the shared-edge trick, then use Euler’s formula to count its vertices.',
       answer: '$E = 36$ and $V = 14$',
       solution:
         'Sides listed face by face: $24 \\times 3 = 72$. Every edge of the solid was listed twice, once from each of the two faces that share it, so $E = \\frac{72}{2} = 36$. Then Euler: $V = 2 + E - F = 2 + 36 - 24 = 14$ vertices ✓. Second route, building a solid with $24$ triangular faces and counting its parts directly: glue a square pyramid onto each face of a cube. The six square faces disappear inside, leaving $6 \\times 4 = 24$ triangles; the corners are the cube’s $8$ plus one apex per pyramid, $8 + 6 = 14$; and the edges are the cube’s $12$ plus the four slanted edges of each pyramid, $12 + 24 = 36$ ✓. Both counts land in the same place, and Euler agrees: $14 - 36 + 24 = 2$ ✓.',
     },
     {
-      q: 'A polyhedron has $44$ faces, and every face is a triangle. Count its edges using the shared-edge trick, then use Euler’s formula to count its vertices.',
+      q: 'A convex polyhedron has $44$ faces, and every face is a triangle. Count its edges using the shared-edge trick, then use Euler’s formula to count its vertices.',
       answer: '$E = 66$ and $V = 24$',
       solution:
         'Sides listed face by face: $44 \\times 3 = 132$. Each edge belongs to two faces and so was counted twice, giving $E = \\frac{132}{2} = 66$. Euler then supplies the corners: $V = 2 + E - F = 2 + 66 - 44 = 24$ vertices ✓. Second route, building a solid with $44$ triangular faces and counting its parts directly: take a flat $22$-sided polygon and raise a point above its center and another below, joining both to every corner of the polygon. That double pyramid has $22$ triangles on top and $22$ underneath, $44$ in all; its corners are the $22$ around the rim plus the two tips, $24$; and its edges are the $22$ around the rim plus $22$ up and $22$ down, $66$ ✓. Euler confirms: $24 - 66 + 44 = 2$ ✓.',
     },
     {
-      q: 'A polyhedron is built entirely from triangles, $48$ of them. Count its edges using the shared-edge trick, then use Euler’s formula to count its vertices.',
+      q: 'A convex polyhedron is built entirely from triangles, $48$ of them. Count its edges using the shared-edge trick, then use Euler’s formula to count its vertices.',
       answer: '$E = 72$ and $V = 26$',
       solution:
         'Sides listed face by face: $48 \\times 3 = 144$. Two faces share each edge, so every edge appeared twice and $E = \\frac{144}{2} = 72$. Euler gives the corners: $V = 2 + E - F = 2 + 72 - 48 = 26$ vertices ✓. Second route, building a solid with $48$ triangular faces and counting its parts directly: start from a $24$-sided polygon and place one point above its center and one below, joined to all $24$ corners. The result carries $24$ triangles above and $24$ below, $48$ faces; its corners are the $24$ on the rim plus the two tips, $26$; and its edges are $24$ around the rim, $24$ climbing to the top tip, and $24$ dropping to the bottom one, $72$ ✓. Euler agrees: $26 - 72 + 48 = 2$ ✓.',
@@ -472,19 +472,19 @@ const worksheet = [
   //           triangles 5 per vertex -> 20, 30, 12; pentagons again -> 12, 30, 20.
   [
     {
-      q: 'A craft kit comes with a pile of identical regular pentagon patches to be stitched into a closed ball, with exactly $3$ patches meeting at every corner. Use Euler’s formula to find how many faces, edges, and vertices the finished ball must have — and name the solid.',
+      q: 'A craft kit comes with a pile of identical regular pentagon patches to be stitched into a closed ball, with exactly $3$ patches meeting at every corner. Use Euler’s formula to find how many faces, edges, and vertices the finished ball must have — and name the solid. Assume the solid is convex.',
       answer: '$F = 12$, $E = 30$, $V = 20$: the dodecahedron',
       solution:
         'Let $F$ be the number of patches. Pentagon sides listed patch by patch: $5F$, and each seam joins two patches, so $E = \\frac{5F}{2}$. Pentagon corners listed the same way: $5F$, and each corner of the ball gathers $3$ of them, so $V = \\frac{5F}{3}$. Euler demands $V - E + F = 2$: $\\frac{5F}{3} - \\frac{5F}{2} + F = 2$. Multiplying by $6$ gives $10F - 15F + 6F = 12$, so $F = 12$, and then $E = 30$ and $V = 20$ — the dodecahedron ✓. Second route, solving for the corners first instead: at each corner $3$ seams meet, and each seam has $2$ ends, so $E = \\frac{3V}{2}$; at each corner $3$ patches meet, and each patch has $5$ corners, so $F = \\frac{3V}{5}$. Euler now reads $V - \\frac{3V}{2} + \\frac{3V}{5} = 2$; multiplying by $10$ gives $10V - 15V + 6V = 20$, so $V = 20$, and from there $E = 30$ and $F = 12$ ✓. The counts are forced — no other ball of regular pentagons three-to-a-corner is even arithmetically possible.',
     },
     {
-      q: 'A paper lantern is folded from identical equilateral triangles, with exactly $5$ triangles meeting at every corner. Use Euler’s formula to find how many faces, edges, and vertices the lantern must have — and name the solid.',
+      q: 'A paper lantern is folded from identical equilateral triangles, with exactly $5$ triangles meeting at every corner. Use Euler’s formula to find how many faces, edges, and vertices the lantern must have — and name the solid. Assume the solid is convex.',
       answer: '$F = 20$, $E = 30$, $V = 12$: the icosahedron',
       solution:
         'Let $F$ be the number of triangles. Triangle sides listed face by face: $3F$, and each fold joins two triangles, so $E = \\frac{3F}{2}$. Triangle corners listed the same way: $3F$, and each corner of the lantern gathers $5$ of them, so $V = \\frac{3F}{5}$. Euler demands $V - E + F = 2$: $\\frac{3F}{5} - \\frac{3F}{2} + F = 2$. Multiplying by $10$ gives $6F - 15F + 10F = 20$, so $F = 20$, and then $E = 30$ and $V = 12$ — the icosahedron ✓. Second route, solving for the corners first instead: $5$ folds meet at each corner and every fold has $2$ ends, so $E = \\frac{5V}{2}$; $5$ triangles meet at each corner and every triangle has $3$ corners, so $F = \\frac{5V}{3}$. Euler now reads $V - \\frac{5V}{2} + \\frac{5V}{3} = 2$; multiplying by $6$ gives $6V - 15V + 10V = 12$, so $V = 12$, and from there $E = 30$ and $F = 20$ ✓. Nothing was chosen along the way: the shape of the lantern was decided the moment the triangles were told to meet five at a corner.',
     },
     {
-      q: 'A game shop wants a die whose faces are all regular pentagons, with exactly $3$ faces meeting at each corner. Use Euler’s formula to find how many faces, edges, and vertices such a die must have — and name the solid.',
+      q: 'A game shop wants a die whose faces are all regular pentagons, with exactly $3$ faces meeting at each corner. Use Euler’s formula to find how many faces, edges, and vertices such a die must have — and name the solid. Assume the solid is convex.',
       answer: '$F = 12$, $E = 30$, $V = 20$: the dodecahedron',
       solution:
         'Let $F$ be the number of faces. Counting pentagon sides face by face gives $5F$, and each edge of the die is shared by two faces, so $E = \\frac{5F}{2}$. Counting pentagon corners gives $5F$ as well, and each corner of the die is where $3$ of them meet, so $V = \\frac{5F}{3}$. Euler requires $V - E + F = 2$: $\\frac{5F}{3} - \\frac{5F}{2} + F = 2$, and multiplying by $6$ turns that into $10F - 15F + 6F = 12$, so $F = 12$; then $E = 30$ and $V = 20$ — the dodecahedron ✓. Second route, chasing the corners first instead: $3$ edges leave each corner and each edge has $2$ ends, so $E = \\frac{3V}{2}$; $3$ pentagons meet at each corner and each pentagon has $5$ corners, so $F = \\frac{3V}{5}$. Euler becomes $V - \\frac{3V}{2} + \\frac{3V}{5} = 2$, and multiplying by $10$ gives $10V - 15V + 6V = 20$, so $V = 20$, hence $E = 30$ and $F = 12$ ✓. The shop has exactly one die to choose from: a twelve-sided one.',

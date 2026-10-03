@@ -9,6 +9,8 @@
 //  - Every mean is an exact quotient of integers; nothing is rounded.
 //  - Weighted averages are computed from totals, never by averaging averages.
 
+import { barChart } from '../../figures/bar-chart.js'
+
 const s131 = [
   // p1 — mean of a short list
   [
@@ -499,21 +501,24 @@ const s133 = [
   // p1 — total from a table
   [
     {
-      q: 'A book club sold raffle tickets: Monday $15$, Tuesday $11$, Wednesday $9$, Thursday $18$. How many tickets did the club sell in all?',
+      q: 'The graph shows raffle tickets sold each day. How many tickets did the club sell in all?',
+      fig: barChart(['Mon','Tue','Wed','Thu'], [15,11,9,18], 3),
       choices: ['$44$', '$53$', '$35$', '$42$'],
       answer: 1,
       solution:
-        'Add all four days: $15 + 11 + 9 + 18 = 53$ tickets. Pairing makes it easy: $15 + 11 = 26$ and $9 + 18 = 27$, and $26 + 27 = 53$. The other choices each leave a day out: $44$ skips Wednesday\'s $9$, $35$ skips Thursday\'s $18$, and $42$ skips Tuesday\'s $11$. Always tick off each row of the table as you add it.',
+        'Add all four days: $15 + 11 + 9 + 18 = 53$ tickets. Pairing makes it easy: $15 + 11 = 26$ and $9 + 18 = 27$, and $26 + 27 = 53$. The other choices each leave a day out: $44$ skips Wednesday\'s $9$, $35$ skips Thursday\'s $18$, and $42$ skips Tuesday\'s $11$. Always tick off each bar of the graph as you add it.',
     },
     {
-      q: 'A school garden harvested carrots: Week 1: $23$, Week 2: $17$, Week 3: $26$, Week 4: $14$. How many carrots were harvested altogether?',
+      q: 'The graph shows carrots harvested each week. How many carrots were harvested altogether?',
+      fig: barChart(['W1','W2','W3','W4'], [23,17,26,14], 5),
       choices: ['$63$', '$20$', '$80$', '$66$'],
       answer: 2,
       solution:
-        '"Altogether" means add every row: $23 + 17 + 26 + 14 = 80$ carrots. Grouping helps: $23 + 17 = 40$ and $26 + 14 = 40$, so the total is $80$. The choice $63$ leaves out Week 2\'s $17$ and $66$ leaves out Week 4\'s $14$. The choice $20$ is the MEAN per week, $\\frac{80}{4}$ — a per-week number, not a total.',
+        '"Altogether" means add every bar: $23 + 17 + 26 + 14 = 80$ carrots. Grouping helps: $23 + 17 = 40$ and $26 + 14 = 40$, so the total is $80$. The choice $63$ leaves out Week 2\'s $17$ and $66$ leaves out Week 4\'s $14$. The choice $20$ is the MEAN per week, $\\frac{80}{4}$ — a per-week number, not a total.',
     },
     {
-      q: 'A juice stand sold cups on four days: Friday $19$, Saturday $27$, Sunday $22$, Monday $14$. How many cups did it sell in total?',
+      q: 'The graph shows cups of juice sold each day. How many cups were sold in total?',
+      fig: barChart(['Fri','Sat','Sun','Mon'], [19,27,22,14], 5),
       choices: ['$68$', '$20.5$', '$63$', '$82$'],
       answer: 3,
       solution:
@@ -523,21 +528,24 @@ const s133 = [
   // p2 — mean per day from a table
   [
     {
-      q: 'A café sold muffins: Monday $14$, Tuesday $9$, Wednesday $18$, Thursday $11$. What was the mean number of muffins sold per day?',
+      q: 'The graph shows muffins sold each day. What was the mean number sold per day?',
+      fig: barChart(['Mon','Tue','Wed','Thu'], [14,9,18,11], 3),
       choices: ['$13$', '$52$', '$12.5$', '$9$'],
       answer: 0,
       solution:
         'First the total: $14 + 9 + 18 + 11 = 52$ muffins. Then divide by the $4$ days: $\\frac{52}{4} = 13$ muffins per day. Sense check: $13$ lands between the best day, $18$, and the worst, $9$, as a mean always must. The choice $52$ is the total, which is not a per-day figure. The choice $12.5$ is the median: sorted, the middle pair is $11$ and $14$, and $\\frac{11 + 14}{2} = 12.5$. The choice $9$ is the range, $18 - 9$.',
     },
     {
-      q: 'Over five days a bike shop rented out $12, 9, 15, 8$, and $16$ bikes. What was the mean number of bikes rented per day?',
+      q: 'The graph shows the number of bikes rented each day. What was the mean number rented per day?',
+      fig: barChart(['Mon','Tue','Wed','Thu','Fri'], [12,9,15,8,16], 2),
       choices: ['$60$', '$12$', '$15$', '$8$'],
       answer: 1,
       solution:
         'The total is $12 + 9 + 15 + 8 + 16 = 60$ bikes, spread over $5$ days: $\\frac{60}{5} = 12$ bikes per day. The choice $60$ is the total, one division short. The choice $15$ divides by $4$ instead of $5$ — count the days, not the gaps between them. The choice $8$ is the range, $16 - 8$, which measures spread rather than a typical day.',
     },
     {
-      q: 'A flower stall sold $7, 10, 4, 9, 12$, and $12$ bunches on six days. What was the mean number of bunches sold per day?',
+      q: 'The graph shows bunches of flowers sold each day. What was the mean number sold per day?',
+      fig: barChart(['Mon','Tue','Wed','Thu','Fri','Sat'], [7,10,4,9,12,12], 2),
       choices: ['$54$', '$10.8$', '$9.5$', '$9$'],
       answer: 3,
       solution:
@@ -547,21 +555,24 @@ const s133 = [
   // p3 — comparing two categories
   [
     {
-      q: 'A snack survey found: popcorn $11$, pretzels $6$, apples $8$. How many more students chose popcorn than pretzels?',
+      q: 'The graph shows how many students chose each snack. How many more chose popcorn than pretzels?',
+      fig: barChart(['Popcorn','Pretzels','Apples'], [11,6,8], 2),
       choices: ['$5$', '$17$', '$3$', '$25$'],
       answer: 0,
       solution:
         '"How many more" is a subtraction between the two named categories: $11 - 6 = 5$ students. The choice $17$ adds the two categories, which answers "how many chose popcorn or pretzels". The choice $3$ compares the wrong pair, $11 - 8$ (popcorn against apples). The choice $25$ is the grand total of all three categories.',
     },
     {
-      q: 'A class tally shows how students get to school: walk $13$, bus $21$, bike $5$. How many more students take the bus than walk?',
+      q: 'The graph shows how many students use each way of getting to school. How many more take the bus than walk?',
+      fig: barChart(['Walk','Bus','Bike'], [13,21,5], 5),
       choices: ['$34$', '$8$', '$16$', '$39$'],
       answer: 1,
       solution:
         'Subtract the two categories the question names: $21 - 13 = 8$ students. The choice $34$ adds them instead. The choice $16$ compares bus against bike, $21 - 5$, which is the wrong pair. The choice $39$ is the total number of students, $13 + 21 + 5$.',
     },
     {
-      q: 'A library log shows books borrowed: mysteries $24$, poetry $9$, comics $16$. How many fewer poetry books than comics were borrowed?',
+      q: 'The graph shows books borrowed in three categories. How many fewer poetry books than comics were borrowed?',
+      fig: barChart(['Mystery','Poetry','Comics'], [24,9,16], 4),
       choices: ['$25$', '$15$', '$7$', '$49$'],
       answer: 2,
       solution:

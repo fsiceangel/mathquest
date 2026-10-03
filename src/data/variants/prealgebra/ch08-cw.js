@@ -404,7 +404,7 @@ const worksheet = [
   // 9. A percent of a percent, counting heads at the end of the chain.
   [
     {
-      q: 'A gym has $160$ members. $60\\%$ of them swim, and $25\\%$ of the swimmers also dive. How many members dive?',
+      q: 'A gym has $160$ members. $60\\%$ of them swim, and $25\\%$ of the swimmers also dive. How many swimming members also dive?',
       answer: '$24$ members',
       solution: 'Swimmers: $0.6 \\times 160 = 96$. Divers: $25\\%$ of those $96$, which is $0.25 \\times 96 = 24$. The $25\\%$ acts on the swimmers, not on the whole gym.',
     },

@@ -46,7 +46,7 @@ const s193 = [
         'Monthly compounding means $12$ periods in a year, so each month earns $\\frac{24\\%}{12} = 2\\%$. Check a second, independent way with a concrete dollar: on $\\$100$, a whole year of simple $24\\%$ growth would be $\\$24$, and splitting that evenly over $12$ months gives $\\$2$ a month — and $\\$2$ is $2\\%$ of $\\$100$ ✓. (The choice $24\\%$ is USING THE ANNUAL RATE AS THE PERIODIC RATE, which would make the account grow far faster than advertised; the choice $12\\%$ divides by $2$ instead of by $12$; the choice $288\\%$ multiplies by $12$ instead of dividing.)',
     },
     {
-      q: 'Each quarter, an account adds $4\\%$ interest to whatever balance it holds. What is the annual rate this account advertises?',
+      q: 'Each quarter, an account adds $4\\%$ interest to whatever balance it holds. What is its nominal annual rate?',
       choices: ['$4\\%$', '$1\\%$', '$8\\%$', '$16\\%$'],
       answer: 3,
       solution:
@@ -212,7 +212,7 @@ const s193 = [
   // p8 — compare two accounts by comparing growth factors per dollar.
   [
     {
-      q: 'Bank A pays an $8\\%$ annual rate compounded semiannually. Bank B pays an $8\\%$ annual rate compounded quarterly. Which deal is better for a saver?',
+      q: 'Bank A pays an $8\\%$ annual rate compounded semiannually. Bank B pays an $8\\%$ annual rate compounded quarterly. Which deal is better for a saver after one year?',
       choices: ['Bank B', 'Bank A', 'They are exactly the same', 'It depends on how long the money stays in'],
       answer: 0,
       solution:
@@ -223,14 +223,14 @@ const s193 = [
       choices: ['Bank B', 'Bank A', 'They are exactly the same', 'It depends on how much you deposit'],
       answer: 1,
       solution:
-        'Frequency is not the only thing that matters — the rate matters too, so compare the actual factors. Bank A multiplies each dollar by $1.1$ in a year. Bank B earns $\\frac{8\\%}{4} = 2\\%$ per quarter for $4$ quarters, giving $(1.02)^4 = 1.08243216$. Since $1.1 > 1.08243216$, Bank A wins. Check a second, independent way with $\\$10{,}000$ and an upper bound for Bank B: even if Bank B could pay its whole $8\\%$ four separate times at simple interest, that would be $\\$800$ of growth plus the small extra from interest on interest, and Bank A hands over $\\$1000$ of growth outright ✓ — Bank B never catches a rate two full percentage points higher. (Bank B is the trap of ASSUMING MORE FREQUENT COMPOUNDING ALWAYS WINS, which is only true when the annual rates match; "exactly the same" ignores the different rates; and both are plain multipliers, so the size of the deposit cannot change the winner.)',
+        'Frequency is not the only thing that matters — the rate matters too, so compare the actual factors. Bank A multiplies each dollar by $1.1$ in a year. Bank B earns $\\frac{8\\%}{4} = 2\\%$ per quarter for $4$ quarters, giving $(1.02)^4 = 1.08243216$. Since $1.1 > 1.08243216$, Bank A wins. Check with a bound: $(1.02)^2 = 1.0404 < 1.045$, so Bank B’s annual factor is less than $1.045^2 = 1.092025 < 1.1$ ✓. (Bank B is the trap of assuming that more frequent compounding always wins even when nominal rates differ; "exactly the same" ignores the different factors; and the size of the deposit cannot change which multiplier is greater.)',
     },
     {
       q: 'Bank A pays a $20\\%$ annual rate compounded semiannually. Bank B pays a $21\\%$ annual rate compounded annually. Which deal is better for a saver after one year?',
       choices: ['Bank A', 'Bank B', 'It depends on how much you deposit', 'They are exactly the same'],
       answer: 3,
       solution:
-        'Bank A earns $\\frac{20\\%}{2} = 10\\%$ per half-year for $2$ periods, so a year multiplies by $\\left(\\frac{11}{10}\\right)^2 = \\frac{121}{100} = 1.21$. Bank B multiplies by $1.21$ in one step. The factors are identical, so the two accounts tie — and since they tie every year, they tie forever. Check a second, independent way with $\\$100$ in each: Bank A goes $\\$100 \\to \\$110 \\to \\$121$, and Bank B goes $\\$100 \\to \\$121$ ✓, the same dollars by two different roads. (Bank A alone is the trap of ASSUMING MORE FREQUENT COMPOUNDING ALWAYS WINS; Bank B alone is the trap of assuming the bigger advertised rate always wins; and because both accounts are just multipliers, the deposit size cannot tip the scale.)',
+        'Bank A earns $\\frac{20\\%}{2} = 10\\%$ per half-year for $2$ periods, so a year multiplies by $\\left(\\frac{11}{10}\\right)^2 = \\frac{121}{100} = 1.21$. Bank B multiplies by $1.21$ in one step. The factors are identical, so the accounts tie at each whole-year endpoint. Check a second, independent way with $\\$100$ in each: Bank A goes $\\$100 \\to \\$110 \\to \\$121$, and Bank B goes $\\$100 \\to \\$121$ ✓, the same dollars by two different roads. (Bank A alone is the trap of ASSUMING MORE FREQUENT COMPOUNDING ALWAYS WINS; Bank B alone is the trap of assuming the bigger advertised rate always wins; and because both accounts are just multipliers, the deposit size cannot tip the scale.)',
     },
   ],
   // p9 — part-year balances, where the period count is smaller than a year.

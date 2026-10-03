@@ -644,7 +644,7 @@ const s174 = {
   },
   problems: [
     {
-      q: 'You want to prove a fact about all rectangles. Which placement of the vertices is the standard smart choice?',
+      q: 'You want to prove a fact about all rectangles. Which placement puts one vertex at the origin and its two adjacent sides on the coordinate axes, while allowing any positive width and height? Assume $a$ and $b$ are positive.',
       fig: {
         view: [-1, -1, 6, 4],
         grid: true,
@@ -689,7 +689,7 @@ const s174 = {
       solution: 'Distance from $(a, b)$ to $(0, 0)$ is $\\sqrt{a^2 + b^2}$. Here is the beautiful part: the distance from $M$ to $(2a, 0)$ is $\\sqrt{(2a - a)^2 + b^2} = \\sqrt{a^2 + b^2}$ too, and likewise to $(0, 2b)$. The midpoint of the hypotenuse is equidistant from ALL THREE vertices — it is the center of the circle through them.',
     },
     {
-      q: 'A parallelogram has three vertices at $(0, 0)$, $(a, 0)$, and $(b, c)$, with $(b, c)$ opposite neither of them. Which point completes the parallelogram as the vertex opposite $(0, 0)$... that is, adjacent to both $(a, 0)$ and $(b, c)$?',
+      q: 'In a parallelogram, the vertex $(0, 0)$ is adjacent to both $(a, 0)$ and $(b, c)$, where $a>0$ and $c>0$. Which point is the vertex opposite $(0, 0)$?',
       choices: ['$(a - b, c)$', '$(a + b, c)$', '$(a + c, b)$', '$(b - a, c)$'],
       answer: 1,
       solution: 'In a parallelogram, the fourth vertex is reached from $(a, 0)$ by the same shift that goes from $(0, 0)$ to $(b, c)$ — a move of $(b, c)$. So the fourth vertex is $(a + b, c)$. Check: the top side from $(b, c)$ to $(a + b, c)$ is horizontal with length $a$, matching the bottom side exactly.',
@@ -1192,7 +1192,7 @@ const challenge = [
     solution: 'The equidistant points form the perpendicular bisector of the segment: midpoint $(2, 1)$, segment slope $\\frac{1}{2}$, so the bisector is $y - 1 = -2(x - 2)$, or $y = -2x + 5$. At $x = 3$: $y = -1$, giving $(3, -1)$. Check squared distances: to $(0,0)$: $9 + 1 = 10$; to $(4, 2)$: $1 + 9 = 10$. ✓',
   },
   {
-    q: 'A triangle has vertices $(0, 0)$, $(2a, 0)$, and $(2b, 2c)$. The midsegment connects the midpoints of the two sides that meet at $(2b, 2c)$. What is the length of the midsegment?',
+    q: 'A triangle has vertices $(0, 0)$, $(2a, 0)$, and $(2b, 2c)$, where $a > 0$ and $c > 0$. The midsegment connects the midpoints of the two sides that meet at $(2b, 2c)$. What is the length of the midsegment?',
     choices: ['$2a$', '$\\dfrac{a}{2}$', '$a + b$', '$a$'],
     answer: 3,
     solution: 'The midpoints are $(b, c)$ and $(a + b, c)$. Both have height $c$, so the midsegment is horizontal, and its length is $(a + b) - b = a$ — exactly half the base $2a$, in line with the Midsegment Theorem. The letters do all the work: no matter what $a$, $b$, $c$ are, the ratio is locked at one half.',

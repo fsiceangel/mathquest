@@ -173,21 +173,21 @@ const s31 = [
   // p8 — smallest number that is a multiple of both
   [
     {
-      q: 'What is the smallest number that is a multiple of both $4$ and $10$?',
+      q: 'What is the smallest positive integer that is a multiple of both $4$ and $10$?',
       choices: ['$20$', '$40$', '$14$', '$10$'],
       answer: 0,
       solution:
         'Walk up the multiples of $10$ and stop at the first one that is also a multiple of $4$: $10$ (no), $20$ (yes, $20 = 4 \\times 5$). So the answer is $20$. The product $4 \\times 10 = 40$ is a common multiple but not the smallest, $14$ is the sum, and $10$ alone is not a multiple of $4$.',
     },
     {
-      q: 'What is the smallest number that is a multiple of both $9$ and $12$?',
+      q: 'What is the smallest positive integer that is a multiple of both $9$ and $12$?',
       choices: ['$108$', '$3$', '$36$', '$21$'],
       answer: 2,
       solution:
         'March up the multiples of $12$: $12$ (not a multiple of $9$), $24$ (no), $36$ (yes — $36 = 9 \\times 4$). So $36$ is the smallest. The product $9 \\times 12 = 108$ is a common multiple but far from the least, $3$ is the biggest shared DIVISOR, and $21$ is the sum.',
     },
     {
-      q: 'A number is a multiple of $6$ and also a multiple of $15$. What is the smallest it could be?',
+      q: 'A positive integer is a multiple of $6$ and also a multiple of $15$. What is the smallest it could be?',
       choices: ['$90$', '$45$', '$3$', '$30$'],
       answer: 3,
       solution:
@@ -228,7 +228,7 @@ const s31 = [
         'Both sound on beats that are multiples of $4$ AND of $6$ — that is, multiples of $12$. The largest one that fits is $12 \\times 16 = 192$, so there are $16$ shared beats. Using the product $24$ instead of $12$ gives only $8$; the lonely counts are $33$ bell beats and $50$ cymbal beats.',
     },
     {
-      q: 'Lights at a rink flash red every $5$ seconds and blue every $8$ seconds, starting together. In the first $300$ seconds, how many times do they flash together?',
+      q: 'Lights at a rink flash red every $5$ seconds and blue every $8$ seconds, starting together. Not counting that starting flash, how many times do they flash together during the next $300$ seconds?',
       choices: ['$8$', '$7$', '$37$', '$60$'],
       answer: 1,
       solution:

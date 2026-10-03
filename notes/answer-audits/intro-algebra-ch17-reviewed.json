@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "intro-algebra/17/17.1/1/1",
+    "sourceDigest": "b9259afe9a8e17ca48a3f6dd49e9978e8de9935725a14136164cfe03c2a781d7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,8)",
+      "reason": "A graph point has input first/output second: f(3)=8,g(7)=2,h(-4)=6; last requires point(5,12), not swapped/added coordinates."
+    },
+    "computed": "(position, 1, 8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/1/2",
+    "sourceDigest": "9e63c5e20e9f616f1f228336d67fdb77b52866ec6c0b970f12fef5b441766706",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,2)",
+      "reason": "A graph point has input first/output second: f(3)=8,g(7)=2,h(-4)=6; last requires point(5,12), not swapped/added coordinates."
+    },
+    "computed": "(position, 0, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/1/3",
+    "sourceDigest": "2e354d877a68e8f4af68b4e406b4b055425b5edba921393a5a89b21d807c1e31",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,6)",
+      "reason": "A graph point has input first/output second: f(3)=8,g(7)=2,h(-4)=6; last requires point(5,12), not swapped/added coordinates."
+    },
+    "computed": "(position, 2, 6)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/1/4",
+    "sourceDigest": "328f5ce6e042e1c1e50db9843c95f425f904e3eca2985c8f28057b4aa25159a4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,512)",
+      "reason": "A graph point has input first/output second: f(3)=8,g(7)=2,h(-4)=6; last requires point(5,12), not swapped/added coordinates."
+    },
+    "computed": "(position, 3, 512)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/2/4",
+    "sourceDigest": "e1ba419beacf783a076c2154f98b77f0ffab04b076eccdb06089f031da8d3507",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,3)",
+      "reason": "The drawn polyline has vertex(0,3); the y-axis has x=0, so only(0,3)."
+    },
+    "computed": "(position, 3, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/3/1",
+    "sourceDigest": "7abc00fb521de796a9df3edef50586f9e7a4d8efdbb0a9eedd97a46d0fd47eaf",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,2*2-3)",
+      "reason": "Substitute both coordinates in every candidate. Only(2,1),(4,7),(3,-1) work respectively; final four functions at2 give -5,11,10,9, so only5x-1."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/3/2",
+    "sourceDigest": "e035639f47515b902a55ec681940482f439e73be0781c6827a25fb2959a058e4",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,3*4-5)",
+      "reason": "Substitute both coordinates in every candidate. Only(2,1),(4,7),(3,-1) work respectively; final four functions at2 give -5,11,10,9, so only5x-1."
+    },
+    "computed": "(position, 1, 7)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/3/3",
+    "sourceDigest": "4881f88991657d118472984aeb9837fcd25344af5a6c661eb296f532effdbd25",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,5-2*3)",
+      "reason": "Substitute both coordinates in every candidate. Only(2,1),(4,7),(3,-1) work respectively; final four functions at2 give -5,11,10,9, so only5x-1."
+    },
+    "computed": "(position, 2, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/3/4",
+    "sourceDigest": "6517fae2ddf8b785dbc4e89197229c70b50d3c0e10902f5312c1cb08a5560e06",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,5*2-1)",
+      "reason": "Substitute both coordinates in every candidate. Only(2,1),(4,7),(3,-1) work respectively; final four functions at2 give -5,11,10,9, so only5x-1."
+    },
+    "computed": "(position, 3, 9)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/4/1",
+    "sourceDigest": "da61e60a52f096e46c21bd244ac5d71c7693f098da7b7432d51fb1acdb41f985",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Vertical-line test: circle fails whereas upward parabola,V,nonvertical line pass; only horizontal line passes among vertical/circle/sideways parabola; sideways parabola fails among three valid functions; points(4,2),(4,-5) force two outputs at4."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/4/2",
+    "sourceDigest": "88c8bf8e5947034fbe95925f2176606cd60f17a5698e4133eb38e89e09429b8f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Vertical-line test: circle fails whereas upward parabola,V,nonvertical line pass; only horizontal line passes among vertical/circle/sideways parabola; sideways parabola fails among three valid functions; points(4,2),(4,-5) force two outputs at4."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/4/3",
+    "sourceDigest": "aec5c7e015001fd033a11a1cc36d9d319bbe1396d64b0a88b9d605ebea377967",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Vertical-line test: circle fails whereas upward parabola,V,nonvertical line pass; only horizontal line passes among vertical/circle/sideways parabola; sideways parabola fails among three valid functions; points(4,2),(4,-5) force two outputs at4."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/4/4",
+    "sourceDigest": "40cde3ce7c4184107f97770cf366ed1fb885ee6679c2bad8a79fc323bce583bd",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Vertical-line test: circle fails whereas upward parabola,V,nonvertical line pass; only horizontal line passes among vertical/circle/sideways parabola; sideways parabola fails among three valid functions; points(4,2),(4,-5) force two outputs at4."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/6/1",
+    "sourceDigest": "14c251feacf2e3d0f6d081d129456aed9a8c3f6f58a1ffd77ac0cca9e445c853",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,-9)",
+      "reason": "Set x=0 for y-intercepts(0,-9),(0,-12),(0,5). Round2 solve x²=36: both(6,0),(-6,0) required, excludes single root and swapped axes."
+    },
+    "computed": "(position, 3, -9)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/6/2",
+    "sourceDigest": "64cfdd8cdf9b3997148aaa0dfef7bf973b44a04872074808b1e56c359a50a75b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,36)",
+      "reason": "Set x=0 for y-intercepts(0,-9),(0,-12),(0,5). Round2 solve x²=36: both(6,0),(-6,0) required, excludes single root and swapped axes."
+    },
+    "computed": "(position, 0, 36)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/6/3",
+    "sourceDigest": "7ae62bdf6cb40c1d08e98beb7b478f968b215305299093360c188c4356d20ab0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-12)",
+      "reason": "Set x=0 for y-intercepts(0,-9),(0,-12),(0,5). Round2 solve x²=36: both(6,0),(-6,0) required, excludes single root and swapped axes."
+    },
+    "computed": "(position, 1, -12)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/6/4",
+    "sourceDigest": "b616dd536a1d3d5288ff754d45e6ff2ff6cb1a7f2e4cdc79982482b9f1f3ed50",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,5)",
+      "reason": "Set x=0 for y-intercepts(0,-9),(0,-12),(0,5). Round2 solve x²=36: both(6,0),(-6,0) required, excludes single root and swapped axes."
+    },
+    "computed": "(position, 2, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/7/3",
+    "sourceDigest": "bc338449b63689e4ca1a6798531472a68d164d547cd01a906821d1f9d9aade0c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,7)",
+      "reason": "Polyline x coordinates run continuously from-2 to5, inclusive endpoints. Domain[-2,5], not y-range[-3,4] or[-1,4]."
+    },
+    "computed": "(position, 2, 7)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/8/1",
+    "sourceDigest": "84e917280ea9d2447db81fdd5e4d9919bbd0b6c7d60547bb3208ca8de4db7072",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,3)",
+      "reason": "Each distinct horizontal crossing has a distinct input solving f(x)=height. Thus3 solutions at2;5 at-4;2 intersections with y=6;2 zeros exactly mean2 x-intercepts. Other choices confuse input/output, axes, or vertical-line test."
+    },
+    "computed": "(position, 1, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/8/2",
+    "sourceDigest": "17dbdb297c1033c55e3a31f620d55f99e74d4ffe92350096278683104a9b3ca1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,5)",
+      "reason": "Each distinct horizontal crossing has a distinct input solving f(x)=height. Thus3 solutions at2;5 at-4;2 intersections with y=6;2 zeros exactly mean2 x-intercepts. Other choices confuse input/output, axes, or vertical-line test."
+    },
+    "computed": "(position, 0, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/8/3",
+    "sourceDigest": "f0ac7a9452c1a56da7ba9944040a6c92fbcafb786fc37c999eb656da52df2e75",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,2)",
+      "reason": "Each distinct horizontal crossing has a distinct input solving f(x)=height. Thus3 solutions at2;5 at-4;2 intersections with y=6;2 zeros exactly mean2 x-intercepts. Other choices confuse input/output, axes, or vertical-line test."
+    },
+    "computed": "(position, 2, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/8/4",
+    "sourceDigest": "9de8f6c04a4a7f8a77a9296ce4b3462c99c034c47304c8f6bb7d83a8de887e1e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,2)",
+      "reason": "Each distinct horizontal crossing has a distinct input solving f(x)=height. Thus3 solutions at2;5 at-4;2 intersections with y=6;2 zeros exactly mean2 x-intercepts. Other choices confuse input/output, axes, or vertical-line test."
+    },
+    "computed": "(position, 3, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/9/1",
+    "sourceDigest": "612737f484bcc2cfbb3df8035d85b0ba6704aa0ec6ac318ca70b2e7bee76d46d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,4-(-2))",
+      "reason": "Factor roots(-2,4) distance6;(-3,7) distance10;(-5,3) midpoint-1;(-5,4) farther point(-5,0) with positive distance5. All numeric/sign alternatives excluded."
+    },
+    "computed": "(position, 3, 6)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/9/2",
+    "sourceDigest": "b60f58b11ddc81b824f82b918b0ca3c458eb2570f63ed64a39c47c002e21db2d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,7-(-3))",
+      "reason": "Factor roots(-2,4) distance6;(-3,7) distance10;(-5,3) midpoint-1;(-5,4) farther point(-5,0) with positive distance5. All numeric/sign alternatives excluded."
+    },
+    "computed": "(position, 0, 10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/9/3",
+    "sourceDigest": "86d0851eea741e999ba85601a6c120bb5961c2f32de4f0b4b670104b48010bc9",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,(-5+3)/2)",
+      "reason": "Factor roots(-2,4) distance6;(-3,7) distance10;(-5,3) midpoint-1;(-5,4) farther point(-5,0) with positive distance5. All numeric/sign alternatives excluded."
+    },
+    "computed": "(position, 1, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/9/4",
+    "sourceDigest": "0df3fc01edd71abc7b4101c5c81afcb2157436b4309db1bf77184a1929ee0ba5",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,5)",
+      "reason": "Factor roots(-2,4) distance6;(-3,7) distance10;(-5,3) midpoint-1;(-5,4) farther point(-5,0) with positive distance5. All numeric/sign alternatives excluded."
+    },
+    "computed": "(position, 2, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/10/1",
+    "sourceDigest": "843e1373e1309323da360174b9a2eaa159c82a569a368367cc2d1d50294ee16d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "A repeated input cannot have different outputs: forbidden(2,7),(-1,0),h(5)=3. Last first3 lists repeat inputs2,0,3 with conflicting outputs; last inputs1,4,9 are distinct despite equal outputs."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/10/2",
+    "sourceDigest": "fc8763bddcb1b5e1432501c72c1d41ab6f976152bdb58c1114c254e1344280fa",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "A repeated input cannot have different outputs: forbidden(2,7),(-1,0),h(5)=3. Last first3 lists repeat inputs2,0,3 with conflicting outputs; last inputs1,4,9 are distinct despite equal outputs."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/10/3",
+    "sourceDigest": "1d9d8698e35de937ed9c51a6db17eb5b01f62323ec6f29dc1fa3621eec872141",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "A repeated input cannot have different outputs: forbidden(2,7),(-1,0),h(5)=3. Last first3 lists repeat inputs2,0,3 with conflicting outputs; last inputs1,4,9 are distinct despite equal outputs."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.1/10/4",
+    "sourceDigest": "291d56c18a6a94772d6eb70da19a3932e105fbb91e9e7d3fb40404c4b72d498d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "A repeated input cannot have different outputs: forbidden(2,7),(-1,0),h(5)=3. Last first3 lists repeat inputs2,0,3 with conflicting outputs; last inputs1,4,9 are distinct despite equal outputs."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/1/1",
+    "sourceDigest": "5eddef03079284831fae20223e5025df64bd536be9a7805186ba0429a41b1a5c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,5)",
+      "reason": "Adding outside f shifts vertically: up5,down6,up9 means f(x)+9; point(4,-1) becomes(4,6). Horizontal or opposite shifts do not work generally."
+    },
+    "computed": "(position, 0, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/1/2",
+    "sourceDigest": "242f82bab5c7eca5de52b36c3f333b908b03673da18535f9aa71ef3e32f478e6",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-6)",
+      "reason": "Adding outside f shifts vertically: up5,down6,up9 means f(x)+9; point(4,-1) becomes(4,6). Horizontal or opposite shifts do not work generally."
+    },
+    "computed": "(position, 1, -6)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/1/3",
+    "sourceDigest": "3cf089e149f5816045e6b68d6f765fad0cb811a4ce1cd391aa845deb660d2495",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,9)",
+      "reason": "Adding outside f shifts vertically: up5,down6,up9 means f(x)+9; point(4,-1) becomes(4,6). Horizontal or opposite shifts do not work generally."
+    },
+    "computed": "(position, 2, 9)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/1/4",
+    "sourceDigest": "9a49be38d1123064147848889ed08ee351e1c25b487902c5d9c9f49fa2f78fb5",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,-1+7)",
+      "reason": "Adding outside f shifts vertically: up5,down6,up9 means f(x)+9; point(4,-1) becomes(4,6). Horizontal or opposite shifts do not work generally."
+    },
+    "computed": "(position, 3, 6)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/2/1",
+    "sourceDigest": "20c6b47b2e58d3aa1a7d6834816b1b44339d1c87408a82cf425446d9f419d78b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,3)",
+      "reason": "Solve new input inside f=old input: f(x-3) shifts right3,f(x+6) left6,right8 means f(x-8); |x-7| vertex(7,0). Other directions/vertical shifts differ."
+    },
+    "computed": "(position, 3, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/2/2",
+    "sourceDigest": "93855d527b315a4a8722218668c222ba0c772cb47f9c25ab409b78743fcc333c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,-6)",
+      "reason": "Solve new input inside f=old input: f(x-3) shifts right3,f(x+6) left6,right8 means f(x-8); |x-7| vertex(7,0). Other directions/vertical shifts differ."
+    },
+    "computed": "(position, 2, -6)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/2/3",
+    "sourceDigest": "a6ba42b2f847b9a614de33327deca619c00542d237937988e5836a365a85f727",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,8)",
+      "reason": "Solve new input inside f=old input: f(x-3) shifts right3,f(x+6) left6,right8 means f(x-8); |x-7| vertex(7,0). Other directions/vertical shifts differ."
+    },
+    "computed": "(position, 0, 8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/2/4",
+    "sourceDigest": "aece11ae632994bce48b355531d598ef9b8da6f311b218fd754450929e9da808",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,7)",
+      "reason": "Solve new input inside f=old input: f(x-3) shifts right3,f(x+6) left6,right8 means f(x-8); |x-7| vertex(7,0). Other directions/vertical shifts differ."
+    },
+    "computed": "(position, 1, 7)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/3/1",
+    "sourceDigest": "13b7423e6479aa487bf713f8502015b2575b93370b02ddfa44551f70c86179f7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-7)",
+      "reason": "Negate only output: (2,-7),(-3,-5),pair(0,-3),(2,1). Final -f(5)=-2 implies f(5)=2. Other coordinate/sign choices fail."
+    },
+    "computed": "(position, 1, -7)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/3/2",
+    "sourceDigest": "0044cf0ef54f3b06a9595acd9e0e260aa71b00269d1eaa0e9e3419aa6a8d79cb",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,-5)",
+      "reason": "Negate only output: (2,-7),(-3,-5),pair(0,-3),(2,1). Final -f(5)=-2 implies f(5)=2. Other coordinate/sign choices fail."
+    },
+    "computed": "(position, 3, -5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/3/3",
+    "sourceDigest": "93ecce3da39d9dd1c7181a9bb69099b4a9e4e5850420a00e13f73ba4f58306d0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Negate only output: (2,-7),(-3,-5),pair(0,-3),(2,1). Final -f(5)=-2 implies f(5)=2. Other coordinate/sign choices fail."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/3/4",
+    "sourceDigest": "2b1f486b59f7deb57fc58f5f665980874be11c78567728f2794fdfe1d63feeff",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,2)",
+      "reason": "Negate only output: (2,-7),(-3,-5),pair(0,-3),(2,1). Final -f(5)=-2 implies f(5)=2. Other coordinate/sign choices fail."
+    },
+    "computed": "(position, 2, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/4/1",
+    "sourceDigest": "5ebbbc6e6063d13ed1224e2b367668adba3d463bc947b0f75c9327607830e6fa",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "f(-x) reflects across y-axis; -f(x) across x-axis; y-reflection is f(-x); invariance about y-axis means f(-x)=f(x). Other identities would impose oddness,zero,or identity without support."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/4/2",
+    "sourceDigest": "89f10b2199cafc4324ee10e8dd828558c33931ec0e368093c3d64e86e1e88208",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "f(-x) reflects across y-axis; -f(x) across x-axis; y-reflection is f(-x); invariance about y-axis means f(-x)=f(x). Other identities would impose oddness,zero,or identity without support."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/4/3",
+    "sourceDigest": "3fc0b9f899f8bda5e7b65967987b90a209ba9b73dc3a8a6f2ce546276b0dd633",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "f(-x) reflects across y-axis; -f(x) across x-axis; y-reflection is f(-x); invariance about y-axis means f(-x)=f(x). Other identities would impose oddness,zero,or identity without support."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/4/4",
+    "sourceDigest": "b29f04f62ee298fb02ec936993c2d2dbc437f4f2be7d956e4873c74515fb7d14",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "f(-x) reflects across y-axis; -f(x) across x-axis; y-reflection is f(-x); invariance about y-axis means f(-x)=f(x). Other identities would impose oddness,zero,or identity without support."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/5/1",
+    "sourceDigest": "bd66e2f19f2af11bb4adcb4ae385dcdb0430ced4ac543fcb7fa339a56692b0b2",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,6-4)",
+      "reason": "Coordinates: f(x+4) at(2,-2); f(x-5) at(4,8); reverse f(x+7) gives original(10,4); root9 moves to7 under f(x+2). Output unchanged, so other choices fail."
+    },
+    "computed": "(position, 0, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/5/2",
+    "sourceDigest": "6fbad71a5b5477300fdcb7a034fcdf8488faf95cef38b1131a45683573c9c5a7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,-1+5)",
+      "reason": "Coordinates: f(x+4) at(2,-2); f(x-5) at(4,8); reverse f(x+7) gives original(10,4); root9 moves to7 under f(x+2). Output unchanged, so other choices fail."
+    },
+    "computed": "(position, 2, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/5/3",
+    "sourceDigest": "d1fc4380343b0d9d913ad9cf6cafa8bf9ff1beb78c2a8380e7ac9c5c94e2b78a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,3+7)",
+      "reason": "Coordinates: f(x+4) at(2,-2); f(x-5) at(4,8); reverse f(x+7) gives original(10,4); root9 moves to7 under f(x+2). Output unchanged, so other choices fail."
+    },
+    "computed": "(position, 3, 10)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/5/4",
+    "sourceDigest": "9ab85461684e5a40156f5cfe505e61edb55fa6073b8a2d66ce95020bc9349b5f",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,9-2)",
+      "reason": "Coordinates: f(x+4) at(2,-2); f(x-5) at(4,8); reverse f(x+7) gives original(10,4); root9 moves to7 under f(x+2). Output unchanged, so other choices fail."
+    },
+    "computed": "(position, 1, 7)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/6/1",
+    "sourceDigest": "46dd9d37b1343f611ff1e75f8d6a0132e6da6358c00248377f682526e1367a53",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,2)",
+      "reason": "Inspect every plotted vertex/slope: invertedV vertex(0,2) gives -|x|+2; invertedV vertex(0,-1) gives -|x|-1; uprightV vertex(3,0) gives |x-3|; vertex0 slopes±2 gives2|x|. Other options disagree in vertex or orientation/slope."
+    },
+    "computed": "(position, 3, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/6/2",
+    "sourceDigest": "a21afb32be46d523fa203f8d302f3dcf29a0c071e6a7c2f527a629bf1d89143e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-1)",
+      "reason": "Inspect every plotted vertex/slope: invertedV vertex(0,2) gives -|x|+2; invertedV vertex(0,-1) gives -|x|-1; uprightV vertex(3,0) gives |x-3|; vertex0 slopes±2 gives2|x|. Other options disagree in vertex or orientation/slope."
+    },
+    "computed": "(position, 1, -1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/6/3",
+    "sourceDigest": "a7395b22ddc97e646d9fdb313a36407a75407c32882246b0b2597619360aac59",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,3)",
+      "reason": "Inspect every plotted vertex/slope: invertedV vertex(0,2) gives -|x|+2; invertedV vertex(0,-1) gives -|x|-1; uprightV vertex(3,0) gives |x-3|; vertex0 slopes±2 gives2|x|. Other options disagree in vertex or orientation/slope."
+    },
+    "computed": "(position, 2, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/6/4",
+    "sourceDigest": "71210ed8d317c42c1f3c0e25f95c3affc446447f6dae0913c1a3bc5e5a091b98",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,2)",
+      "reason": "Inspect every plotted vertex/slope: invertedV vertex(0,2) gives -|x|+2; invertedV vertex(0,-1) gives -|x|-1; uprightV vertex(3,0) gives |x-3|; vertex0 slopes±2 gives2|x|. Other options disagree in vertex or orientation/slope."
+    },
+    "computed": "(position, 0, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/7/1",
+    "sourceDigest": "93e39cf80da38c9d042e734b283364e85c0bc0930d22a4dc400922e3b555224e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Input shift/output arithmetic gives(3,-1),(-3,9); reverse g(6)=-2=f(2)+1 gives f(2)=-3; vertical scaling sends(5,4) to(5,5). Check both coordinates excludes alternatives."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/7/2",
+    "sourceDigest": "1123fd9b17ce4fbe47f442fb96ac42c89891bb9e54179cae20800ca777b3eb20",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Input shift/output arithmetic gives(3,-1),(-3,9); reverse g(6)=-2=f(2)+1 gives f(2)=-3; vertical scaling sends(5,4) to(5,5). Check both coordinates excludes alternatives."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/7/3",
+    "sourceDigest": "1688eef578343d6616a709b116de18e186cd0834d38c801d3a284ea19eb800c0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Input shift/output arithmetic gives(3,-1),(-3,9); reverse g(6)=-2=f(2)+1 gives f(2)=-3; vertical scaling sends(5,4) to(5,5). Check both coordinates excludes alternatives."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/7/4",
+    "sourceDigest": "8db99e203d0eeb0fe838fdf118900bc6ae2d33edd3490af5ecc4b1f40b0a721d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,2*4-3)",
+      "reason": "Input shift/output arithmetic gives(3,-1),(-3,9); reverse g(6)=-2=f(2)+1 gives f(2)=-3; vertical scaling sends(5,4) to(5,5). Check both coordinates excludes alternatives."
+    },
+    "computed": "(position, 1, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/8/1",
+    "sourceDigest": "510c76c8e83f60973f5ab8f702a1081329d6c3f0bc219fc892224bf4b2dfccea",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,0)",
+      "reason": "Multiplication by a nonzero scalar preserves zeros exactly; nonzero heights change. Thus x-intercepts stay; root6 stays; roots-2,7 stay; point(4,0) stays. Neither horizontal scaling nor all-points invariance follows."
+    },
+    "computed": "(position, 1, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/8/2",
+    "sourceDigest": "2217e393351a267094305f31613c2c7ce0ae912d30aa4b304cca22afa154d355",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,0)",
+      "reason": "Multiplication by a nonzero scalar preserves zeros exactly; nonzero heights change. Thus x-intercepts stay; root6 stays; roots-2,7 stay; point(4,0) stays. Neither horizontal scaling nor all-points invariance follows."
+    },
+    "computed": "(position, 2, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/8/3",
+    "sourceDigest": "735baa2c6d575338231b33072c778d7e39fbc83c58a6c3fb756bd0d0f883270d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,0)",
+      "reason": "Multiplication by a nonzero scalar preserves zeros exactly; nonzero heights change. Thus x-intercepts stay; root6 stays; roots-2,7 stay; point(4,0) stays. Neither horizontal scaling nor all-points invariance follows."
+    },
+    "computed": "(position, 0, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/8/4",
+    "sourceDigest": "9271130248a6009ccb68f03589f66d36ccdc1c7cbf76a84c48a9122781b449fc",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,0)",
+      "reason": "Multiplication by a nonzero scalar preserves zeros exactly; nonzero heights change. Thus x-intercepts stay; root6 stays; roots-2,7 stay; point(4,0) stays. Neither horizontal scaling nor all-points invariance follows."
+    },
+    "computed": "(position, 3, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/10/1",
+    "sourceDigest": "0aac5174f232ca2a198ab6e44449c8eb8af513d8b68416b8f5785693514e075b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Vertex of (x-h)²+k is(h,k): (-3,-4),(5,2); vertex(-2,6) means(x+2)²+6; f(x+h)+k vertex(-h,k)=(3,-5) means h=-3,k=-5. Other signs excluded."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/10/2",
+    "sourceDigest": "93d438d2fd6c640be26c93aa06328289b5ca7d2a898fc2070f841ef134308d78",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Vertex of (x-h)²+k is(h,k): (-3,-4),(5,2); vertex(-2,6) means(x+2)²+6; f(x+h)+k vertex(-h,k)=(3,-5) means h=-3,k=-5. Other signs excluded."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/10/3",
+    "sourceDigest": "4625ffcc0086777a924836135adf65008b3b7e798ef06effdb0382bd2c0916fe",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Vertex of (x-h)²+k is(h,k): (-3,-4),(5,2); vertex(-2,6) means(x+2)²+6; f(x+h)+k vertex(-h,k)=(3,-5) means h=-3,k=-5. Other signs excluded."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.2/10/4",
+    "sourceDigest": "303d0364c4a70c6e6f9fa7c38a4c873ec72eebb6c441891e28e348955feaafe8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Vertex of (x-h)²+k is(h,k): (-3,-4),(5,2); vertex(-2,6) means(x+2)²+6; f(x+h)+k vertex(-h,k)=(3,-5) means h=-3,k=-5. Other signs excluded."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/1/1",
+    "sourceDigest": "e4a93ada81b9f28772ae2a929bc5fe48070f68f732b8a716cbb17b1f2079c8c3",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Inverse swaps coordinates: (11,3),(-4,6),(9,-2),(-1,5); signs unchanged, so other options fail."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/1/2",
+    "sourceDigest": "b75da7c87af359c574c174a2fdd790c48de16bdec6e3efd6c957c7d173f264a8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Inverse swaps coordinates: (11,3),(-4,6),(9,-2),(-1,5); signs unchanged, so other options fail."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/1/3",
+    "sourceDigest": "59acc1834c42cfe0538f98127b1451a1354b11d7bb85021b1476ffafa2fdc9ac",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Inverse swaps coordinates: (11,3),(-4,6),(9,-2),(-1,5); signs unchanged, so other options fail."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/1/4",
+    "sourceDigest": "f685af921534ec3499c80de502792c116dea0ea671f7942fbfe84d009440b4be",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Inverse swaps coordinates: (11,3),(-4,6),(9,-2),(-1,5); signs unchanged, so other options fail."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/2/1",
+    "sourceDigest": "aeb30442a811067a526e36b59819e11b81d10c6dbe72c1306bf3898915382afe",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Inverse interchanges input and output, mapping(a,b) to(b,a); reflection in y=x. Neither axis-reflection nor origin rotation implements this swap in general."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/2/2",
+    "sourceDigest": "4067de4c7d356d17f7d3f439fbb3516b7d5ab4d8fa2f7f5f0d157a40dd9684b0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Inverse interchanges input and output, mapping(a,b) to(b,a); reflection in y=x. Neither axis-reflection nor origin rotation implements this swap in general."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/2/3",
+    "sourceDigest": "a794550dc64bbd1ab72c810e1360fb855ca665f661f728f7171f4b04ff3ddff0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Inverse interchanges input and output, mapping(a,b) to(b,a); reflection in y=x. Neither axis-reflection nor origin rotation implements this swap in general."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/2/4",
+    "sourceDigest": "f8aef66ddb170640115b0bbd82d13f14c713157fdb295b54327760de6d7f323e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Inverse interchanges input and output, mapping(a,b) to(b,a); reflection in y=x. Neither axis-reflection nor origin rotation implements this swap in general."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/3/3",
+    "sourceDigest": "4580dd8cb813c5112737fd665d95756d5a3aac1eb80245ccf2059f6ca43953c9",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,5)",
+      "reason": "h inverse at5 equals12 means h(12)=5, not12,1/5,60."
+    },
+    "computed": "(position, 2, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/3/4",
+    "sourceDigest": "a92f65f8c0bee0d75b9b72726a77e1bde9f0235e99ffd347396294d2acd594e1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,18)",
+      "reason": "f maps18 to45, so inverse maps45 back to18, not45,1/45,63."
+    },
+    "computed": "(position, 3, 18)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/4/1",
+    "sourceDigest": "85e523a50bd896f47fa965314f098fd8b2344ed168936fdc3e9e48319db937ad",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Nonzero-slope linear function injective; square/absolute/constant not. Cube strictly increasing and injective, others not. Fourth power repeats at±1 unlike3 increasing lines. Last slope-2 line injective; horizontal/downward parabola not; circle not even a function."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/4/2",
+    "sourceDigest": "7baa5b2b45ba8b12ab7d7b12c80f34885ba811b2edbf599896404fc496f0966e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Nonzero-slope linear function injective; square/absolute/constant not. Cube strictly increasing and injective, others not. Fourth power repeats at±1 unlike3 increasing lines. Last slope-2 line injective; horizontal/downward parabola not; circle not even a function."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/4/3",
+    "sourceDigest": "aa37be07688c46be0684d96aa20e47f1ebb1840de70f26cd51cdd47c0a3a260a",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Nonzero-slope linear function injective; square/absolute/constant not. Cube strictly increasing and injective, others not. Fourth power repeats at±1 unlike3 increasing lines. Last slope-2 line injective; horizontal/downward parabola not; circle not even a function."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/4/4",
+    "sourceDigest": "4ff1eba4c30ce1d49ff1c107ba63affcdb582b3cd81dd6cd293c52a0391c91a3",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Nonzero-slope linear function injective; square/absolute/constant not. Cube strictly increasing and injective, others not. Fourth power repeats at±1 unlike3 increasing lines. Last slope-2 line injective; horizontal/downward parabola not; circle not even a function."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/6/1",
+    "sourceDigest": "2e8b6a019a122fe498c3c784cfbb52bd824cbec9c4d4ef38948c414a5963e49c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Compose candidate with itself:10-(10-x)=x, whereas shifts/scales/square fail; 6/(6/x)=x on nonzero domain; -(-x+4)+4=x versus slopes9 or1/16 for other options. f∘f=id implies graph symmetric under coordinate swap, not necessarily a line or y-axis symmetric."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/6/2",
+    "sourceDigest": "22b314320c4ee43bfd264ebba87be0362800a50dd80488ce93beded78412a57d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Compose candidate with itself:10-(10-x)=x, whereas shifts/scales/square fail; 6/(6/x)=x on nonzero domain; -(-x+4)+4=x versus slopes9 or1/16 for other options. f∘f=id implies graph symmetric under coordinate swap, not necessarily a line or y-axis symmetric."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/6/3",
+    "sourceDigest": "19ff84a0cd63599a846ca3311fa7b8e48d82a0d5afcd5c0f348708013eafcd56",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Compose candidate with itself:10-(10-x)=x, whereas shifts/scales/square fail; 6/(6/x)=x on nonzero domain; -(-x+4)+4=x versus slopes9 or1/16 for other options. f∘f=id implies graph symmetric under coordinate swap, not necessarily a line or y-axis symmetric."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/6/4",
+    "sourceDigest": "2c712634af520e6dcd820b78ce76413e756ccf640f1540a115f463c4e4bf01ba",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Compose candidate with itself:10-(10-x)=x, whereas shifts/scales/square fail; 6/(6/x)=x on nonzero domain; -(-x+4)+4=x versus slopes9 or1/16 for other options. f∘f=id implies graph symmetric under coordinate swap, not necessarily a line or y-axis symmetric."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/7/1",
+    "sourceDigest": "51a710519f0c9f256c894f11b61126ee7003feb360d359acfcd0f783a2bc1242",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Horizontal-line failure means distinct inputs share output and inverse is not single-valued; horizontal-line success gives injectivity; points(1,6),(9,6) preclude inverse but preserve functionhood; vertical-line failure means not a function and says nothing necessary about horizontal-line failure."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/7/2",
+    "sourceDigest": "860423352dcbc5c83c3ad5198468cd4b6bf83465bd7e019e27f3fbaec970a55b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Horizontal-line failure means distinct inputs share output and inverse is not single-valued; horizontal-line success gives injectivity; points(1,6),(9,6) preclude inverse but preserve functionhood; vertical-line failure means not a function and says nothing necessary about horizontal-line failure."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/7/3",
+    "sourceDigest": "f50ec0bc712880ea59d4c65f6eb09147408a9d9232179f152e388f151d220e58",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Horizontal-line failure means distinct inputs share output and inverse is not single-valued; horizontal-line success gives injectivity; points(1,6),(9,6) preclude inverse but preserve functionhood; vertical-line failure means not a function and says nothing necessary about horizontal-line failure."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/7/4",
+    "sourceDigest": "09fab99fae95e959897b3b2c852f6655f41fa59811cfaca409d3173ac7a1f501",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Horizontal-line failure means distinct inputs share output and inverse is not single-valued; horizontal-line success gives injectivity; points(1,6),(9,6) preclude inverse but preserve functionhood; vertical-line failure means not a function and says nothing necessary about horizontal-line failure."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/9/1",
+    "sourceDigest": "d62f568a4c5d772fa9a9dc2512702604bd268849700cebf00363642dd8eacab1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,8/(3-1))",
+      "reason": "Increasing affine f and inverse meet only at fixed point f(x)=x; coordinates respectively(4,4),(3,3),(8,8),(2,2). Final inverse(x+10)/6 implies f=6x-10. All alternatives disagree."
+    },
+    "computed": "(position, 0, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/9/2",
+    "sourceDigest": "f33bbaa6bc406348420eee3ef4c3c748a40adb3756400928c7b0f1985408e539",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,12/(5-1))",
+      "reason": "Increasing affine f and inverse meet only at fixed point f(x)=x; coordinates respectively(4,4),(3,3),(8,8),(2,2). Final inverse(x+10)/6 implies f=6x-10. All alternatives disagree."
+    },
+    "computed": "(position, 1, 3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/9/3",
+    "sourceDigest": "79bc40b60cdb11a5473f21eadee73389570dd5d07bb0e52ff5f94e4e72d23b2c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,4/(1-1/2))",
+      "reason": "Increasing affine f and inverse meet only at fixed point f(x)=x; coordinates respectively(4,4),(3,3),(8,8),(2,2). Final inverse(x+10)/6 implies f=6x-10. All alternatives disagree."
+    },
+    "computed": "(position, 2, 8)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/9/4",
+    "sourceDigest": "542dda0cf1ab98d5d48a23b4c161c1b11c33162a73c97ed14eaa52c8977ed1a8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,10/(6-1))",
+      "reason": "Increasing affine f and inverse meet only at fixed point f(x)=x; coordinates respectively(4,4),(3,3),(8,8),(2,2). Final inverse(x+10)/6 implies f=6x-10. All alternatives disagree."
+    },
+    "computed": "(position, 3, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/10/1",
+    "sourceDigest": "25623d15a94eb695cee65df2b0f574ec85c2d2fa24664a2ef73f747fcc484929",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Keep a single monotone arm: |x|-1 with x>=0; (x-4)² with x>=4; |x+3| with x<=-3. Other proposed restrictions retain symmetric equal-output inputs. Last domain[-3,3] still contains±2 both mapping9; restricted relation remains a function, not invertible."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/10/2",
+    "sourceDigest": "f335056b13c3281662f6101f6099bdb242529f93d5cd4faac3fdeb4b7ec690ca",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Keep a single monotone arm: |x|-1 with x>=0; (x-4)² with x>=4; |x+3| with x<=-3. Other proposed restrictions retain symmetric equal-output inputs. Last domain[-3,3] still contains±2 both mapping9; restricted relation remains a function, not invertible."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/10/3",
+    "sourceDigest": "1ae278fd7348698fe7601a13d7e0dd9f18c4baf0edacbb1e70940394af961ba7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Keep a single monotone arm: |x|-1 with x>=0; (x-4)² with x>=4; |x+3| with x<=-3. Other proposed restrictions retain symmetric equal-output inputs. Last domain[-3,3] still contains±2 both mapping9; restricted relation remains a function, not invertible."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/17.3/10/4",
+    "sourceDigest": "8c078354c56e37b634de1c444f60853e146c516e2fbb8a2c179659acfdd1e745",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Keep a single monotone arm: |x|-1 with x>=0; (x-4)² with x>=4; |x+3| with x<=-3. Other proposed restrictions retain symmetric equal-output inputs. Last domain[-3,3] still contains±2 both mapping9; restricted relation remains a function, not invertible."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/1/1",
+    "sourceDigest": "4bc1dcb0c84414b212d5eb9579e916d645b378577e06be19f31bec6021f762b7",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Coordinate transformations yield(-2+3,5+1)=(1,6);(-7-4,6-9)=(-11,-3); reverse(2-6,-5-8)=(-4,-13);(5+4,-(-3)+1)=(9,4). Other choices have wrong sign/direction/output."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/1/2",
+    "sourceDigest": "bddb6a4a9351cfdc425b9bbae567c410042ff9a8225b2f13c7359e5c1a4277b3",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Coordinate transformations yield(-2+3,5+1)=(1,6);(-7-4,6-9)=(-11,-3); reverse(2-6,-5-8)=(-4,-13);(5+4,-(-3)+1)=(9,4). Other choices have wrong sign/direction/output."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/1/3",
+    "sourceDigest": "c7e48c762c18e8913810bbeacbeb2da1481ccf8be8d705bb1beddce214e30116",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Coordinate transformations yield(-2+3,5+1)=(1,6);(-7-4,6-9)=(-11,-3); reverse(2-6,-5-8)=(-4,-13);(5+4,-(-3)+1)=(9,4). Other choices have wrong sign/direction/output."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/1/4",
+    "sourceDigest": "3276c20483a1ff27b0eb74a472600d2a2b89c9220e526d70e19c60f464b0212b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Coordinate transformations yield(-2+3,5+1)=(1,6);(-7-4,6-9)=(-11,-3); reverse(2-6,-5-8)=(-4,-13);(5+4,-(-3)+1)=(9,4). Other choices have wrong sign/direction/output."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/2/1",
+    "sourceDigest": "e2d5db6f79bf468fec733c07342f0a35c275f4b916ca3ecc51ed737e55d4fad1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Input reflection gives(-3,7); reflect and add6 gives(8,9); reverse at x=-4 gives original(4,12+5)=(4,17); solve -x+2=5 gives x=-3,y=8. Other options fail these equations."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/2/2",
+    "sourceDigest": "8b50bd9b69cf2077e15078f196bb1fa2fe8c0b42decba9e49cf93d7b29c607ba",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Input reflection gives(-3,7); reflect and add6 gives(8,9); reverse at x=-4 gives original(4,12+5)=(4,17); solve -x+2=5 gives x=-3,y=8. Other options fail these equations."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/2/3",
+    "sourceDigest": "a94a16498d179865d9cda39074258063d3c5081c689071c52a36a2e4ad2019c6",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Input reflection gives(-3,7); reflect and add6 gives(8,9); reverse at x=-4 gives original(4,12+5)=(4,17); solve -x+2=5 gives x=-3,y=8. Other options fail these equations."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/2/4",
+    "sourceDigest": "f8069f839e06ff0010280d3e65ede3ad83532b9b2bf79d4507b530b62523eb46",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Input reflection gives(-3,7); reflect and add6 gives(8,9); reverse at x=-4 gives original(4,12+5)=(4,17); solve -x+2=5 gives x=-3,y=8. Other options fail these equations."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/3/1",
+    "sourceDigest": "4b3880ae9114ee0be0d94f4c79e74697ae91ebca0887f21d195c76642feac51e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "|x|=0 has exactly one solution0; neither0 nor2 norinfinitely many."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/3/2",
+    "sourceDigest": "e3553565e70bd0a9fa2ad649c7a1ce0446126489339a2115c32ccb35710c7939",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,0)",
+      "reason": "|x+3|=-2 impossible, so0 solutions."
+    },
+    "computed": "(position, 0, 0)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/3/4",
+    "sourceDigest": "0420d47ddd804ba9e8d2d74d1df42d25367d7ce5f27e1556a31daa56613b7225",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,-4)",
+      "reason": "Horizontal level intersects |x|-4 exactly once only at minimum-4; higher levels twice, lower none."
+    },
+    "computed": "(position, 2, -4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/4/1",
+    "sourceDigest": "7b945a497bfcc5709039eace5cbca9fa6e7140fe53888107134d698ba808aa3e",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Negative quadratic coefficient opens down: vertex(2,5),then(-6,-4); substitution -1=4a+7 gives a=-2; -(x-7)²-2<=-2 with equality only x=7. All vertex/orientation alternatives checked."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/4/2",
+    "sourceDigest": "c11878648e5397859f906bc0ff84d8894a448b3839e395073ae06a61d00d1ba1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Negative quadratic coefficient opens down: vertex(2,5),then(-6,-4); substitution -1=4a+7 gives a=-2; -(x-7)²-2<=-2 with equality only x=7. All vertex/orientation alternatives checked."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/4/3",
+    "sourceDigest": "7911f880482fc78df31b18787a6b3491500b201f3d5121d46a0f0c1e07ba804c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,(-1-7)/(5-3)**2)",
+      "reason": "Negative quadratic coefficient opens down: vertex(2,5),then(-6,-4); substitution -1=4a+7 gives a=-2; -(x-7)²-2<=-2 with equality only x=7. All vertex/orientation alternatives checked."
+    },
+    "computed": "(position, 3, -2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/4/4",
+    "sourceDigest": "35488f763c44cc91fb1779d29848d35fafbf2f95ea0012e29bbec6199264069c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "Negative quadratic coefficient opens down: vertex(2,5),then(-6,-4); substitution -1=4a+7 gives a=-2; -(x-7)²-2<=-2 with equality only x=7. All vertex/orientation alternatives checked."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/5/4",
+    "sourceDigest": "a86b4ab24bd94a3ce09ce87c7c0f2095db377225d3eaff837d95116a180bb815",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Range sqrt(x)+3 is[3,infinity). Inverse solves u=(y-3)² with y>=3. Other choices have wrong algebra or erroneously extend inverse domain to all reals."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/6/1",
+    "sourceDigest": "45518c77b6b2188af2de2e8acbe8781232956d0a26fba6bf9e66b1c13c245a74",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Vertical transforms preserve input: (4,2*2-3)=(4,1);(-3,4*5-11)=(-3,9); reverse(-2,(13-4)/3)=(-2,3);g(9)=5f(1)-2=28. Other coordinates or values fail."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/6/2",
+    "sourceDigest": "937b76cae33f752089af1bdb9121a580b059a593a05aafdaba7209e866a607b1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Vertical transforms preserve input: (4,2*2-3)=(4,1);(-3,4*5-11)=(-3,9); reverse(-2,(13-4)/3)=(-2,3);g(9)=5f(1)-2=28. Other coordinates or values fail."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/6/3",
+    "sourceDigest": "d6f7bf23dac096f740180ab7b62daaa1bd0a39c530917a03339d4e3c2031650d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Vertical transforms preserve input: (4,2*2-3)=(4,1);(-3,4*5-11)=(-3,9); reverse(-2,(13-4)/3)=(-2,3);g(9)=5f(1)-2=28. Other coordinates or values fail."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/6/4",
+    "sourceDigest": "ad86c89bd386eab7c50869882b78f8862b9f4f8971654bb41c1edbb75f8a1cfe",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,5*6-2)",
+      "reason": "Vertical transforms preserve input: (4,2*2-3)=(4,1);(-3,4*5-11)=(-3,9); reverse(-2,(13-4)/3)=(-2,3);g(9)=5f(1)-2=28. Other coordinates or values fail."
+    },
+    "computed": "(position, 0, 28)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/7/1",
+    "sourceDigest": "05eca8b91328fc818f452886407766dd6f66675bfe1bc484c5ed704272fc2ce0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Repeated outputs9,4 forbid inverse, not functionhood. Vertical +7 preserves collision g(2)=g(-5)=6. Last duplicate output3 at-4,2: removing2 repairs; removing-1 or5 does not; no-removal fails."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/7/2",
+    "sourceDigest": "0c2e515a4a3727c5ca92889fd5e5000f8ec890cfcf71522bae1fbc0c6b7879bd",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Repeated outputs9,4 forbid inverse, not functionhood. Vertical +7 preserves collision g(2)=g(-5)=6. Last duplicate output3 at-4,2: removing2 repairs; removing-1 or5 does not; no-removal fails."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/7/3",
+    "sourceDigest": "036cc463be86b4cc91648247f0089e5f7d12dfd5980110300a10a657672c1422",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Repeated outputs9,4 forbid inverse, not functionhood. Vertical +7 preserves collision g(2)=g(-5)=6. Last duplicate output3 at-4,2: removing2 repairs; removing-1 or5 does not; no-removal fails."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/7/4",
+    "sourceDigest": "ddef793f5270398c88e9b68a2a8853aaab5b64db15ecaa0c81d6d561e7b587b0",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Repeated outputs9,4 forbid inverse, not functionhood. Vertical +7 preserves collision g(2)=g(-5)=6. Last duplicate output3 at-4,2: removing2 repairs; removing-1 or5 does not; no-removal fails."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/8/1",
+    "sourceDigest": "fec529c08b61462d24ef6dc07e8963be2f28382773c89df462b12e69e2862cb8",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "At x=0 outputs are-1+4=3; f(3)-2=-10; (16-1)/3=5; f(0)-4=-13. Every y-intercept must have x-coordinate0, and other outputs differ."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/8/2",
+    "sourceDigest": "09afe711a3033a4487b586bc73701d6522549cb2943973455a85d1d550555b0c",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "At x=0 outputs are-1+4=3; f(3)-2=-10; (16-1)/3=5; f(0)-4=-13. Every y-intercept must have x-coordinate0, and other outputs differ."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/8/3",
+    "sourceDigest": "3c8ab6a93a4ac94b579b47be50269bcb040e555069afed22e60b1ec3d7a5dbb5",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,1)",
+      "reason": "At x=0 outputs are-1+4=3; f(3)-2=-10; (16-1)/3=5; f(0)-4=-13. Every y-intercept must have x-coordinate0, and other outputs differ."
+    },
+    "computed": "(position, 0, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/8/4",
+    "sourceDigest": "b5bd8e79fa2c3ae1fcc0945b06550004bced6f16d7a8e1dae4152b5b1119a997",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "At x=0 outputs are-1+4=3; f(3)-2=-10; (16-1)/3=5; f(0)-4=-13. Every y-intercept must have x-coordinate0, and other outputs differ."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/9/1",
+    "sourceDigest": "7cbf8217e7f2de6075bbc5eb024cc880bf97b77035e996ec50c208ebde4bc0b5",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Nonzero vertical factor preserves roots-1,5. Shift right5 sends-8,3 to-3,8. Factor-5 preserves roots2,-9 and multiplies y-intercept-4 to20. Only -6f(x) guarantees same zero set for arbitrary f, not vertical/horizontal shifts or input scaling."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/9/2",
+    "sourceDigest": "115b29adf17625473896bc796f8e4ec5ba9f219478607b9a616c19597098706b",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,1)",
+      "reason": "Nonzero vertical factor preserves roots-1,5. Shift right5 sends-8,3 to-3,8. Factor-5 preserves roots2,-9 and multiplies y-intercept-4 to20. Only -6f(x) guarantees same zero set for arbitrary f, not vertical/horizontal shifts or input scaling."
+    },
+    "computed": "(position, 1, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/9/3",
+    "sourceDigest": "a9e23dc2085615bf76db9040f73c6d2408253f4e0f241166d8dbf62b5ba969bc",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "Nonzero vertical factor preserves roots-1,5. Shift right5 sends-8,3 to-3,8. Factor-5 preserves roots2,-9 and multiplies y-intercept-4 to20. Only -6f(x) guarantees same zero set for arbitrary f, not vertical/horizontal shifts or input scaling."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/9/4",
+    "sourceDigest": "0edae2c6d6b7ab0d93ff6c843b97e9ff77e16e741fcbc2ef4c020c3de9c79fb3",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "Nonzero vertical factor preserves roots-1,5. Shift right5 sends-8,3 to-3,8. Factor-5 preserves roots2,-9 and multiplies y-intercept-4 to20. Only -6f(x) guarantees same zero set for arbitrary f, not vertical/horizontal shifts or input scaling."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/10/1",
+    "sourceDigest": "481e5f6576c745a043968b8b844f3b0d478a4c8f5b5e0b87b3b491c754f7f7f1",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(0,5)",
+      "reason": "Solve g(input)=target: f(5)+2=10; f(-3)-7=5; target4 requires f=0 at2; f inverse7=-2 and inputshift6 means g inverse7=4. Other values fail."
+    },
+    "computed": "(position, 0, 5)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/10/2",
+    "sourceDigest": "3d80436e741743d9f61f06288c474481ec9086ac8b17fe97182deaa56a114103",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(1,-3)",
+      "reason": "Solve g(input)=target: f(5)+2=10; f(-3)-7=5; target4 requires f=0 at2; f inverse7=-2 and inputshift6 means g inverse7=4. Other values fail."
+    },
+    "computed": "(position, 1, -3)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/10/3",
+    "sourceDigest": "38a57770e5b29e486d5208e059ff4d9c745469c5a2325942d8b14f7fc86de17d",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,2)",
+      "reason": "Solve g(input)=target: f(5)+2=10; f(-3)-7=5; target4 requires f=0 at2; f inverse7=-2 and inputshift6 means g inverse7=4. Other values fail."
+    },
+    "computed": "(position, 2, 2)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/10/4",
+    "sourceDigest": "801a890b7a8bddf40e20d729bc7856afea190cd5fc72bdb22bf7b63b75d701a5",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,-2+6)",
+      "reason": "Solve g(input)=target: f(5)+2=10; f(-3)-7=5; target4 requires f=0 at2; f inverse7=-2 and inputshift6 means g inverse7=4. Other values fail."
+    },
+    "computed": "(position, 3, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/11/3",
+    "sourceDigest": "a2a2363ff4fc8d0bc6ed12f74751ee9e8bc0bd8a4e5faf0f040af1f2cca70a41",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,4)",
+      "reason": "Polyline heights3,-3,3,-3,0 straddle-1 on all4 consecutive segments, no vertex equals-1. Exactly4 crossings, excludes2,3,5."
+    },
+    "computed": "(position, 2, 4)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/12/2",
+    "sourceDigest": "afe2949159c4a5f8805ae3c33d7365395f40b9dbe106ee3053dd1e86366ef375",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(3,1)",
+      "reason": "From y=12/x obtain x=12/y with both nonzero. Inverse12/x, not x/12,12x,-12/x."
+    },
+    "computed": "(position, 3, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/challenge/12/3",
+    "sourceDigest": "1d85d523f1b3ce29d44515e6c3b9ed5a947d24eefe110756e57833959ffab382",
+    "status": "verified",
+    "method": "Independent exact calculation and complete pinned option proof",
+    "evidence": {
+      "expression": "P(2,1)",
+      "reason": "f(f(x))=8-(8-x)=x; inverse is same full line8-x, so infinitely many shared points, not only fixed point(4,4)."
+    },
+    "computed": "(position, 2, 1)",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "limitations": [
+      "Source-pinned manual semantic proofs; explanatory prose not fully sentence-by-sentence audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/1/1",
+    "sourceDigest": "569bc4940d2d5074e766633334477bacfef6ceccaa343789d646dadc81a70daa",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$f(4) = 9$",
+      "proof": "Point definition: output at4 is9."
+    },
+    "computed": "$f(4) = 9$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/1/2",
+    "sourceDigest": "0283663e357bccdc35130d40cfd1c38092703446256839e80afa67d2a698cb67",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$h(6) = -5$",
+      "proof": "Point definition: input6 has output-5."
+    },
+    "computed": "$h(6) = -5$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/1/3",
+    "sourceDigest": "e953da80eace29931236993bfe27bb773abed05dc1bc72fcc4e4c9fe7c6bae83",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(-7, 12)$",
+      "proof": "Input is first coordinate, output second."
+    },
+    "computed": "$(-7, 12)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/1/4",
+    "sourceDigest": "fb51e3b170a0a8d81d7659118f44bfb71da1538a2d9e3292f28d5f174c999b0c",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "An $x$-intercept; $q(-8) = 0$",
+      "proof": "Output0 means on horizontal axis; x=-8 is nonzero so not y-axis."
+    },
+    "computed": "An $x$-intercept; $q(-8) = 0$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/2/1",
+    "sourceDigest": "e4e1ef95de5142f4a3300940358ed0c1535a84f33d1a2d5bef47110770f775ea",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(1, 4)$",
+      "proof": "Vertical translation preserves1 and sends-2 to-2+6=4."
+    },
+    "computed": "$(1, 4)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/2/2",
+    "sourceDigest": "772fe5c287bedf15c3efd37e0e206aa612b46af20aeef26dc13e7ff72716cec7",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(-6, 2)$",
+      "proof": "Vertical translation preserves-6 and sends11 to11-9=2."
+    },
+    "computed": "$(-6, 2)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/2/3",
+    "sourceDigest": "8f42efef237fe760160184e3cc2339ca76416ce762447917c05c86ff9d3749d6",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(4, -11)$",
+      "proof": "Undo added8: f(4)=-3-8=-11."
+    },
+    "computed": "$(4, -11)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/2/4",
+    "sourceDigest": "3832c4b285ac542e71c1054f09737bea97f378384317342afcd0123c5dbe8fa6",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$k = 13$",
+      "proof": "-7+k=6 implies k=13."
+    },
+    "computed": "$k = 13$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/3/1",
+    "sourceDigest": "ced64855f6c8446bf59d943c3c75b990826331b7ba6c543b2ae7fde1365ff409",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(7, 3)$",
+      "proof": "Solve new input-2=5, giving7; output3 unchanged."
+    },
+    "computed": "$(7, 3)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/3/2",
+    "sourceDigest": "96c90c8720ed9711d289e2e5ec4ca0e72ef35b3391ecd8819454877cf8a6101e",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(1, 7)$",
+      "proof": "New input-5=-4 gives1; output7 unchanged."
+    },
+    "computed": "$(1, 7)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/3/3",
+    "sourceDigest": "9c579d3f3069042c3b801e402a605bbecfe4fe98fc79583e5e139a8ba3f33174",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(3, -6)$",
+      "proof": "New input+7=10 gives3; output-6 unchanged."
+    },
+    "computed": "$(3, -6)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/3/4",
+    "sourceDigest": "8b275c20647aff3952642c9aa5c8b0d74910683686540194bd3ed751e3d45287",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$h = 7$; the graph slid right $7$",
+      "proof": "Unique preimage of4 is2, so9-h=2 and h=7. Subtract inside means right7."
+    },
+    "computed": "$h = 7$; the graph slid right $7$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/4/1",
+    "sourceDigest": "0509daf50a6b5299c4de216b7adddf242619b9c9bd889047c2d3c0517f904839",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(4, 0)$ and $(-4, 0)$",
+      "proof": "Solve x²=16 gives both±4; roots yield y=0."
+    },
+    "computed": "$(4, 0)$ and $(-4, 0)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/4/2",
+    "sourceDigest": "8647210e09a54cbed41a6977525a23da66d5061fd01fa4c14bcb92d26c311806",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(0, 0)$ and $(7, 0)$",
+      "proof": "Factor x(x-7)=0 gives exactly0,7."
+    },
+    "computed": "$(0, 0)$ and $(7, 0)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/4/3",
+    "sourceDigest": "1083243b1d3c7990cd5fa5b6c467718dca2cd74d073c0b05ffd6d3975d135aa7",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$y$-intercept $(0, -10)$; $x$-intercepts $(5, 0)$ and $(-2, 0)$",
+      "proof": "f(0)=-10; factor(x-5)(x+2)=0 gives5,-2 and neither other roots."
+    },
+    "computed": "$y$-intercept $(0, -10)$; $x$-intercepts $(5, 0)$ and $(-2, 0)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/4/4",
+    "sourceDigest": "ca606d4a80795583ef9f1cace762be07c538852c316dd209b89a6d51046e5d91",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "No $x$-intercepts; the $y$-intercept is $(0, 9)$",
+      "proof": "x²+9>=9>0, hence no zero; at0 height9."
+    },
+    "computed": "No $x$-intercepts; the $y$-intercept is $(0, 9)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/5/1",
+    "sourceDigest": "145db9e92670493a5e2c0afe4213340abda21afc136c54f55d51b051f6f5e0b1",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(8, 3)$",
+      "proof": "Inverse swaps(3,8) to(8,3)."
+    },
+    "computed": "$(8, 3)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/5/2",
+    "sourceDigest": "ba105c16c12597f511215d8a7e2ecd50fe981585957ef4204d4ba07769355b82",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(13, -6)$",
+      "proof": "Inverse swaps(-6,13) to(13,-6)."
+    },
+    "computed": "$(13, -6)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/5/3",
+    "sourceDigest": "cf3d03f8179a2f6b0bd31fc250ec32001fcdd6d876aa24461d2dc3dc6fb1e9e6",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$m^{-1}(-4) = 11$, giving the point $(-4, 11)$",
+      "proof": "m(11)=-4 implies inverse(-4)=11; ordered pair starts with inverse input-4."
+    },
+    "computed": "$m^{-1}(-4) = 11$, giving the point $(-4, 11)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/5/4",
+    "sourceDigest": "2f4f1be1df5d005da2622fde1935ed01bae5574e226c60eb34fae148544c5bf3",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(-1, 8)$",
+      "proof": "Inverse graph point(8,-1) reverses to original(-1,8)."
+    },
+    "computed": "$(-1, 8)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/6/1",
+    "sourceDigest": "91bd0f525662a3f4660e5fb84efb316341e03421e830a2e049a4dca6c508c765",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(-2, -5)$",
+      "proof": "Reflect both input and output: (2,5) becomes(-2,-5)."
+    },
+    "computed": "$(-2, -5)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/6/2",
+    "sourceDigest": "f22fe10c2975eb503351b4287e461d73faa634bec53b7b780d3bfa7432c05bb7",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(3, -8)$",
+      "proof": "Reflect both coordinates of(-3,8), giving(3,-8)."
+    },
+    "computed": "$(3, -8)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/6/3",
+    "sourceDigest": "6e250d265da2083c012468b4e09968b4e052e323dbcdf771a8128e73004465e5",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(5, 2)$ on $y = -f(x)$, and $(-5, -2)$ on $y = f(-x)$",
+      "proof": "First negate output only; second input only. From(5,-2) obtain(5,2),(-5,-2) in requested order."
+    },
+    "computed": "$(5, 2)$ on $y = -f(x)$, and $(-5, -2)$ on $y = f(-x)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/6/4",
+    "sourceDigest": "7eaf59cf331c957b34da255fe046981e9220bc707224a2d207c142f81d14e28c",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(4, 11)$",
+      "proof": "Given -f(4)=-11, deduce f(4)=11."
+    },
+    "computed": "$(4, 11)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/7/1",
+    "sourceDigest": "f167948e8ed22bb834d6f83baa30e0c79e952562216e3ddf7e43727a01c1c92c",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$g(x) = |x - 3| - 2$; $x$-intercepts at $x = 1$ and $x = 5$",
+      "proof": "Right3/down2 yields |x-3|-2; zero iff x-3=±2, hence1,5."
+    },
+    "computed": "$g(x) = |x - 3| - 2$; $x$-intercepts at $x = 1$ and $x = 5$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/7/2",
+    "sourceDigest": "c6eba64f4819ace6fa49c28114c4f66ceffe33687ffc1ea01bd6103631cbc72d",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$g(x) = |x + 4| - 6$; $x$-intercepts at $x = 2$ and $x = -10$",
+      "proof": "Left4/down6 yields |x+4|-6; zero iff x+4=±6, hence2,-10."
+    },
+    "computed": "$g(x) = |x + 4| - 6$; $x$-intercepts at $x = 2$ and $x = -10$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/7/3",
+    "sourceDigest": "4c279ec9ad191933864577e346609e93839e3db6b9379ec58ae0978cdb67207e",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$h(x) = -|x| + 7$; $x$-intercepts at $x = 7$ and $x = -7$; peak at $(0, 7)$",
+      "proof": "Negate then add7; zeros±7; maximum7 achieved only at0."
+    },
+    "computed": "$h(x) = -|x| + 7$; $x$-intercepts at $x = 7$ and $x = -7$; peak at $(0, 7)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/7/4",
+    "sourceDigest": "d2be258709ac7f68243aa6101650ccfa6ea060e0a79100eed886892b3ba70d73",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$k(x) = |x - 5| + 1$; the graph has no $x$-intercepts",
+      "proof": "Right5/up1; all outputs>=1, hence no zero."
+    },
+    "computed": "$k(x) = |x - 5| + 1$; the graph has no $x$-intercepts",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/8/1",
+    "sourceDigest": "d3f0ed203bf6d2af21aa54e3119c6a454052a280f37700a5eb622f683e914e36",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(7, 7)$",
+      "proof": "Increasing affine inverse intersection lies on y=x; 2x-7=x gives7."
+    },
+    "computed": "$(7, 7)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/8/2",
+    "sourceDigest": "23022392de81813878f414e413c9061b4ec22f669c840b65d1c9404b050423f4",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(11, 11)$",
+      "proof": "3x-22=x gives11; slope3 positive excludes off-diagonal inverse intersections."
+    },
+    "computed": "$(11, 11)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/8/3",
+    "sourceDigest": "bf6c8b3b1c3e325b1a22e52ef9310bbbc8f7087483e8d49fbcd0f86d1679a0f6",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$f^{-1}(x) = 4x - 36$; the graphs cross at $(12, 12)$",
+      "proof": "Solve y=x/4+9 for input:4y-36. Fixed point x/4+9=x gives12; unique linear intersection."
+    },
+    "computed": "$f^{-1}(x) = 4x - 36$; the graphs cross at $(12, 12)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/8/4",
+    "sourceDigest": "c3dd71e5dd109db91aa8215b925f8ded7bf405de473879426b4b97ac3b491051",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(-12, -12)$ — $f$ is increasing, so its graph can meet its mirror image only on the mirror line $y = x$",
+      "proof": "x/3-8=x gives-12. If increasing f had f(a)=b and f(b)=a for a<b, monotonicity would force b<a, contradiction; thus intersections must be diagonal."
+    },
+    "computed": "$(-12, -12)$ — $f$ is increasing, so its graph can meet its mirror image only on the mirror line $y = x$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/9/1",
+    "sourceDigest": "fc9828fc8177438b6c2d9d385e34f9ac8da227b1f537ec14983be3c72c63e16d",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "No — the horizontal line $y = 4$ crosses the graph twice, so $f$ has no inverse",
+      "proof": "Distinct inputs1,3 have same output4, so inverse is not single-valued on the range."
+    },
+    "computed": "No — the horizontal line $y = 4$ crosses the graph twice, so $f$ has no inverse",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/9/2",
+    "sourceDigest": "8c20e840b5e247383db7fd3f0df918d8def449f9c7ad7fda5738e922f62bca81",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "No — the horizontal line $y = 9$ meets the graph at both $(-2, 9)$ and $(6, 9)$, so two different inputs share one output and $p$ has no inverse",
+      "proof": "Distinct inputs-2,6 both give9, proving horizontal-line failure."
+    },
+    "computed": "No — the horizontal line $y = 9$ meets the graph at both $(-2, 9)$ and $(6, 9)$, so two different inputs share one output and $p$ has no inverse",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/9/3",
+    "sourceDigest": "219d791942bdb4777eb9bc56c6390fa84d96652612dda484c4ed690c019502d9",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "Yes — the outputs $8$, $5$, $0$ and $-6$ are all different, so no horizontal line meets the graph twice and $q$ has an inverse",
+      "proof": "Complete finite domain1,2,3,4 has pairwise distinct outputs8,5,0,-6, so injective."
+    },
+    "computed": "Yes — the outputs $8$, $5$, $0$ and $-6$ are all different, so no horizontal line meets the graph twice and $q$ has an inverse",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/9/4",
+    "sourceDigest": "0c1309e6055d71395035a0611d74a4d3fdaacdabb2c1981585be7a84b29bfcba",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "The student is wrong — $r$ is a function, since repeated outputs are allowed. What fails is the horizontal line test: $y = 5$ meets the graph at $(5, 5)$ and $(-5, 5)$, so $r$ has no inverse",
+      "proof": "Premise says function; equal outputs at distinct inputs permitted. Collision5 at±5 forbids inverse, not functionhood."
+    },
+    "computed": "The student is wrong — $r$ is a function, since repeated outputs are allowed. What fails is the horizontal line test: $y = 5$ meets the graph at $(5, 5)$ and $(-5, 5)$, so $r$ has no inverse",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/10/1",
+    "sourceDigest": "8e80641ff4b8edbb46ef3b5eb020d2ff2d7ec8f66960810e3a7497e9be1e7cf7",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(1, -1)$",
+      "proof": "2f(2-1)+5=3 implies f(1)=-1."
+    },
+    "computed": "$(1, -1)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/10/2",
+    "sourceDigest": "62432ad20b7ad33f806215f279eea727977c1d0f8ada3909992498db84f7aa60",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(2, 1)$",
+      "proof": "4f(-3+5)+3=7 implies f(2)=1."
+    },
+    "computed": "$(2, 1)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/10/3",
+    "sourceDigest": "282b8cb841133d599ba04be9b305621b336130b0e3f73660c54dde15eb01ccfd",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$(4, -3)$",
+      "proof": "-2f(1+3)+4=10 implies f(4)=-3."
+    },
+    "computed": "$(4, -3)$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  },
+  {
+    "id": "intro-algebra/17/worksheet/10/4",
+    "sourceDigest": "deb94a51577db51b9ed98586866181782e96c36be5737d29941a9669c732a2d8",
+    "status": "verified",
+    "method": "Independent complete worksheet derivation and pinned semantic comparison",
+    "evidence": {
+      "derivedAnswer": "$c = 21$",
+      "proof": "5f(8-2)+c=1 and f(6)=-4 gives-20+c=1, hence21."
+    },
+    "computed": "$c = 21$",
+    "keyMatch": true,
+    "uniqueChoice": null,
+    "limitations": [
+      "Manual symbolic and verbal proof; full solution prose and visual rendering not comprehensively audited."
+    ]
+  }
+]

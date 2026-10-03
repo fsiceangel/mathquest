@@ -310,7 +310,7 @@ const s191 = [
   // s5 — a quadrilateral with a right angle, split by its diagonal.
   [
     {
-      q: 'In quadrilateral $ABCD$, $\\angle B = 90^\\circ$, $AB = 15$, $BC = 20$, $CD = 7$, and $DA = 24$. What is the area of $ABCD$?',
+      q: 'In convex quadrilateral $ABCD$, $\\angle B = 90^\\circ$, $AB = 15$, $BC = 20$, $CD = 7$, and $DA = 24$. What is the area of $ABCD$?',
       fig: {
         view: [-3, -3, 26, 18],
         elems: [
@@ -333,7 +333,7 @@ const s191 = [
         'Route one, draw the diagonal. The dashed diagonal $\\overline{AC}$ splits $ABCD$ into two triangles. Triangle $ABC$ has the right angle at $B$, so its legs are $15$ and $20$, its area is $\\frac{1}{2} \\cdot 15 \\cdot 20 = 150$, and $AC = \\sqrt{225 + 400} = \\sqrt{625} = 25$. In triangle $ACD$ the sides are $25$, $7$, $24$, and $7^2 + 24^2 = 49 + 576 = 625 = 25^2$, so it too is right-angled, at $D$, with area $\\frac{1}{2} \\cdot 7 \\cdot 24 = 84$. Total: $150 + 84 = 234$ ✓. Route two, the same diagonal but no right angles at all. Use the three-sides area formula on each piece. For triangle $ABC$ the semiperimeter is $\\frac{15 + 20 + 25}{2} = 30$, and the area is $\\sqrt{30 \\cdot 15 \\cdot 10 \\cdot 5} = \\sqrt{22500} = 150$. For triangle $ACD$ the semiperimeter is $\\frac{25 + 7 + 24}{2} = 28$, and the area is $\\sqrt{28 \\cdot 3 \\cdot 21 \\cdot 4} = \\sqrt{7056} = 84$. The two areas add to $234$ ✓. (The choice $150$ is FORGETTING TRIANGLE $ACD$ and handing back only the right triangle at $B$ ✗; the choice $318$ is FORGETTING TO HALVE, adding the whole product $7 \\cdot 24$ to $150$ ✗; the choice $450$ is USING $24$ AND $25$ AS THE LEGS of the second triangle, though $25$ is its longest side and lies opposite the right angle ✗.)',
     },
     {
-      q: 'Quadrilateral $ABCD$ has a right angle at $B$, with $AB = 9$, $BC = 12$, $CD = 8$, and $DA = 17$. Find its area.',
+      q: 'Convex quadrilateral $ABCD$ has a right angle at $B$, with $AB = 9$, $BC = 12$, $CD = 8$, and $DA = 17$. Find its area.',
       fig: {
         view: [-2.5, -2.5, 19, 11.5],
         elems: [

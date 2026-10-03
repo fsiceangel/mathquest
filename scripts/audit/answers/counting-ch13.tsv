@@ -1,0 +1,63 @@
+# DP models use labelled occupancies and exact sums, independently of stars-and-bars solutions.
+13.2	1	D(8,2,1)|D(12,2,1)|D(9,2,1)|21	Positive ordered pairs are exactly x=1,...,N-1, so the inverse N-1=20 gives 21 uniquely.
+13.2	2	D(3,2)|D(4,2)|D(6,2)|9	Fix the specified first occupancy and convolve the two freely chosen nonnegative occupancies. Inverse remaining total+1=n-1=8 gives n=9.
+13.2	3	D(3,4)-4|D(3,5)-5|D(4,3)-3|invC(2,36)-2	A sorted string is uniquely determined by each letter's multiplicity; remove constant strings when required. Inverse C(n+2,2)=36 is strictly increasing.
+13.2	4	D(7,3,1,step=2)|D(9,3,1,step=2)|D(11,3,1,step=2)|2*(invC(2,21)-2)+3	Convolve positive odd allowed values. For inverse write a=2u+1 etc.; C((N-3)/2+2,2)=21 gives N=13, while even N permits none.
+13.2	5	D(5,2,[2,0])|D(9,2,[4,0])|D(17,2,[3,2])|8	Explicit occupancy bounds. Inverse count is 12-m=4 because first occupancy ranges m through 11 inclusive.
+13.2	6	T(4,lambda a,b,c:a>b)|T(5,lambda a,b,c:a>b)|T(7,lambda a,b,c:a<b)|T(9,lambda a,b,c:a>=b)	Exhaustively enumerate ordered nonnegative triples and directly test the comparison predicate.
+13.2	7	T(4,lambda a,b,c:a%2==0)|T(6,lambda a,b,c:a%2==0)|T(8,lambda a,b,c:a%2==1)|T(14,lambda a,b,c:a%2==0 and b%2==0)	Exhaustively enumerate ordered triples and test parity, including zero as even.
+13.2	8	T(7,lambda a,b,c:(a==0)+(b==0)+(c==0)==1)|T(9,lambda a,b,c:(a==0)+(b==0)+(c==0)==1)|T(8,lambda a,b,c:(a==0)+(b==0)+(c==0)==1)|11	Exactly one zero means three choices of empty recipient and N-1 positive splits to the others; 3(N-1)=30 gives N=11.
+13.2	9	D(5,3,[0,1,0])|D(6,3,[0,1,0])|D(7,3,[0,1,0])|D(5,3,[1,0,1])	Sorted strings correspond bijectively to multiplicities. Convolve exact lower bounds for the required symbols.
+13.2	10	D(4,2)*D(2,2)|D(6,2)*D(3,2)|D(3,3)*D(2,3)|6	Occupancy vectors for two colors/types are independent; inverse (5+1)(blue+1)=42 gives blue=6.
+13.3	1	D(4,4)|D(4,5)|D(5,4)|invC(3,455)-3	DP convolves all nonnegative occupancies. Inverse C(n+3,3)=455 gives n=12 uniquely.
+13.3	2	D(9,3,hi=[2,9,9])|D(12,3,hi=[3,12,12])|D(11,3,hi=[11,11,4])|D(9,3,[3,0,0])	Convolve the labelled occupancies with the exact individual upper/lower bound.
+13.3	3	D(5,5)|D(11,5,hi=3)|T(15,lambda a,b,c:a%2==0)|D(5,6)	Exact occupancy DP; parity variant exhaustively enumerates triples and retains even a.
+13.3	4	D(10,3,1,[3,10,10])|D(12,3,1,[4,12,12])|D(13,3,1,[5,13,13])|D(10,3,[4,1,1])	DP respects positivity for every component, plus the first-component restriction.
+13.3	5	D(8,3,2)|D(15,4,3)|D(13,3,[2,3,1])|invC(2,45)-2+6	Convolve exact component lower bounds. Inverse after assigning six mandatory candies gives C(N-4,2)=45, so N=14 uniquely.
+13.3	6	D(5,4,hi=[5,5,5,1])|D(6,4,hi=[6,6,6,2])|D(8,4,hi=[8,8,8,1])|D(5,4,[0,0,0,2])	Exact four-component occupancy DP with a single bounded component.
+13.3	7	T(10,lambda a,b,c:a%2==0)|T(12,lambda a,b,c:a%2==0)|T(9,lambda a,b,c:a%2==1)|T(10,lambda a,b,c:a%3==0)	Exhaustively enumerate triples and apply the stated residue condition.
+13.3	8	D(8,3,hi=4)|D(11,3,hi=6)|D(6,4,hi=3)|D(8,3,hi=5)	Bounded occupancy convolution counts every legal vector once, without inclusion-exclusion assumptions.
+13.3	9	T(9,lambda a,b,c:(a+b)%2==1)|T(11,lambda a,b,c:(a+b)%2==0)|T(12,lambda a,b,c:(a+b)%2==0)|T(9,lambda a,b,c:(a+b)%2==0)	Enumerate all labelled triples and test the parity of the pair sum itself.
+13.3	10	D(15,3,hi=7)|D(14,3,hi=6)|D(18,3,hi=9)|T(15,lambda a,b,c:max(a,b,c)>7)	Bounded occupancy DP; complement variant directly tests whether any component exceeds seven.
+13.4	1	D(9,4)|D(8,5)|D(9,5)|D(9,4,1)	Convolve the stated number of labelled occupancy variables, with zero or one lower bounds exactly as specified.
+13.4	2	D(12,4)|D(6,5)|D(14,4)|5	Counts of kinds are occupancy coordinates. Inverse D(12,5)=1820; adding a kind strictly increases counts because old solutions with new coordinate zero persist and new positive-coordinate solutions exist.
+13.4	3	D(12,5,1)|D(15,4,1)|D(16,5,1)|D(20,5,2)	Exact occupancy convolution with each required positive/lower-bound value.
+13.4	4	D(20,3,3)|D(25,4,4)|D(30,3,5)|4	Direct bounded DP. Inverse count C(22-3m,2)=45 implies 22-3m=10, m=4; increasing m strictly decreases nonzero counts.
+13.4	5	D(12,3,[2,0,0])|D(14,3,[3,0,0])|D(16,3,[4,0,0])|D(15,4,[3,2,0,0])	Fix exact first occupancy by removing it; for at-least first occupancy retain all four variables and their individual bounds.
+13.4	6	D(7,4,1)|D(8,5,1)|D(10,4,1)|D(10,5,1,[3,10,10,10,10])	All kinds positive; fixed first occupancy removed, capped first occupancy retained with the cap.
+13.4	7	D(12,3,hi=[4,12,12])|D(14,3,hi=[5,14,14])|D(18,4,hi=[6,18,18,18])|D(12,3,hi=[4,6,12])	Exact occupancy convolution enforces simultaneous individual caps, counting overlaps correctly.
+13.4	8	sum(D(n,3) for n in range(11))|sum(D(n,4) for n in range(8))|sum(D(n,3) for n in range(10))|sum(D(n,3) for n in range(5,11))	Partition by total occupancy; totals are disjoint and run over precisely the permitted interval.
+13.4	9	D(14,4,1,step=2)|D(16,4,0,step=2)|D(25,3,1,step=2)|2*(invC(3,220)-3)+4	DP directly uses odd/even allowed occupancies. Inverse subtracts four mandatory ones then halves: C((N-4)/2+3,3)=220, giving N=22 uniquely on even totals.
+13.4	10	D(12,4,hi=5)|D(14,4,hi=6)|D(13,4,hi=5)|D(12,4)-D(12,4,hi=5)	Bounded convolution enumerates legal vectors. At least one violation is the complement of every occupancy <=5.
+13.5	1	sum(C(n,3) for n in range(3,9))|sum(C(n,4) for n in range(4,13))|sum(C(n,5) for n in range(5,10))|invC(4,3060)-1	Direct finite exact sums; telescoping Pascal differences yield inverse C(n+1,4)=3060, uniquely monotone.
+13.5	2	sum(R(i*(i+1),2) for i in range(1,12))|sum(R(i*(i+1),2) for i in range(1,14))|sum(C(i+2,3) for i in range(1,9))|invC(3,2300)-2	Direct triangular/tetrahedral sums. Inverse triangular total is C(n+2,3), strictly increasing, giving n=23.
+13.5	3	sum(C(n,4) for n in range(4,10))|sum(C(n,5) for n in range(5,12))|sum(C(n,6) for n in range(6,12))|invC(5,6188)-1	Direct finite sums; inverse by telescoping Pascal differences is C(n+1,5)=6188.
+13.5	4	sum(C(n,2) for n in range(6,13))|sum(C(n,3) for n in range(5,14))|sum(C(n,2) for n in range(4,16))|sum(C(n,2) for n in range(13,21))	Sum every displayed index, including nonstandard lower limits; no missing initial terms.
+13.5	5	C(12,4)|C(11,5)|C(9,4)|C(11,3)	An upper bound on maximum restricts all elements to that prefix; minimum>=6 leaves 6 through 14 (nine elements); exact maximum 12 is mandatory and remaining three lie below it.
+13.5	6	sum(i*(i+1) for i in range(1,15))|sum(i*(i+1) for i in range(1,11))|sum(i*(i+1)*(i+2) for i in range(1,9))|sum(i*(i+1) for i in range(1,21))	Direct exact integer summation of the stated products.
+13.5	7	sum(R(i*(i+1),2) for i in range(1,13))|sum(R(i*(i+1),2) for i in range(1,16))|sum(R(i*(i+1),2) for i in range(1,15))|invC(3,1330)-2	Direct triangular-layer summation. Inverse total C(n+2,3)=1330 is strictly increasing and gives n=19.
+13.5	8	D(3,10)|D(3,14)|D(4,9)|invC(3,1140)-2	A weakly increasing tuple corresponds bijectively to the multiplicities of its values. Inverse C(n+2,3)=1140 gives n=18 uniquely.
+13.5	9	sum(i*(10-i) for i in range(1,10))|sum(i*(12-i) for i in range(1,12))|sum(i*(13-i) for i in range(1,13))|sum(i*(14-i) for i in range(1,14))	Direct exact integer sums over the specified endpoints.
+13.5	10	sum(max(s) for s in combinations(range(1,9),3))|sum(max(s) for s in combinations(range(1,11),3))|sum(min(s) for s in combinations(range(1,10),2))|sum(min(s) for s in combinations(range(1,9),3))	Exhaustively enumerate actual subsets and sum their extremal elements, independently of the weighted binomial identity.
+challenge	1	Q(11,lambda a,b,c,d:(a+b)%2==0)|Q(13,lambda a,b,c,d:(a+b)%2==0)|Q(12,lambda a,b,c,d:(a+b)%2==1)|Q(11,lambda a,b,c,d:a%2==0 and b%2==0)	Exhaustive ordered quadruple enumeration with the actual joint parity predicate.
+challenge	2	Q(10,lambda a,b,c,d:a==b,1)|Q(12,lambda a,b,c,d:a==b,1)|Q(15,lambda a,b,c,d:c==d,1)|24	Enumerate strictly positive quadruples with the equality constraint. Inverse count at N=24 is sum(23-2a,a=1..11)=121. Counts strictly increase with N>=4: increase c by one injects old solutions and new c=1 solutions exist. This covers odd and even candidate totals.
+challenge	3	sum(C(n,3) for n in range(6,14))|sum(C(n,4) for n in range(7,15))|sum(C(n,2) for n in range(8,21))|sum(C(n,3) for n in range(6,21))	Direct finite exact sums preserve the stated lower/upper endpoints.
+challenge	4	D(4,6)|D(5,6)|D(5,7)|D(4,6)-6	Sorted strings and unordered purchases correspond bijectively to multiplicity vectors; last stem excludes six constant strings.
+challenge	5	D(9,3,[2,3,0])|D(17,3,[4,5,0])|D(20,3,[6,4,0])|D(14,3,[2,3,0])	Exact convolution of occupancy sets with the specified separate minima.
+challenge	6	Q(7,lambda a,b,c,d:a+b==3)|Q(11,lambda a,b,c,d:a+b==6)|Q(9,lambda a,b,c,d:a+b==5)|Q(7,lambda a,b,c,d:a+b>=5)	Exhaustively enumerate quadruples and directly test the pair-total equality or inequality.
+challenge	7	sum(D(n,4) for n in range(7))|sum(D(n,5) for n in range(8))|sum(D(n,3) for n in range(13))|sum(D(n,4) for n in range(3,7))	Sum independently computed occupancy counts over precisely the allowed totals.
+challenge	8	T(10,lambda a,b,c:a>b+c)|Q(12,lambda a,b,c,d:a>b+c+d)|Q(9,lambda a,b,c,d:a>=b+c+d)|T(10,lambda a,b,c:a<b+c)	Direct exhaustive comparison with the sum of the other occupancies handles strict versus non-strict boundaries.
+challenge	9	D(12,3,2,6)|D(16,3,3,8)|D(11,4,1,4)|D(12,4,1,5)	Exact convolution of each allowed bounded occupancy interval.
+challenge	10	D(4,10)-1|D(5,10)-1|D(3,9)|D(4,9)	Non-increasing positive numeral is determined by digit multiplicities; only all-zero is disallowed. Non-decreasing positive numeral cannot contain zero at all. No-zero variant uses nine digit types.
+challenge	11	sum(min(s) for s in combinations(range(1,11),4))|sum(min(s) for s in combinations(range(1,13),3))|sum(max(s) for s in combinations(range(1,12),5))|sum(max(s) for s in combinations(range(1,11),4))	Enumerate every subset independently and sum its actual smallest/largest element.
+challenge	12	D(20,4,hi=8)|D(18,4,hi=7)|D(22,5,hi=6)|D(20,4)-D(20,4,hi=8)	Bounded occupancy convolution; final complement subtracts exactly the all-capped vectors.
+worksheet	1	D(8,4)|D(11,5)|D(5,6)|D(10,4,1)	Exact occupancy convolution with the number of labelled variables and minimum specified.
+worksheet	2	D(21,4,2)|D(20,5,2)|D(25,3,4)|invC(3,2024)-3+8	Direct convolution. Inverse subtracts eight mandatory cards, leaving C(N-5,3)=2024 and hence N=29 uniquely.
+worksheet	3	sum(C(n,3) for n in range(3,12))|sum(C(n,2) for n in range(2,19))|sum(C(n,5) for n in range(5,13))|sum(C(n,3) for n in range(12,21))	Direct finite sum with exact displayed limits.
+worksheet	4	D(3,10)|D(5,10)|D(6,7)|D(3,10)-10	Digit strings allow leading zeros, so all ten types are available. Remove exactly ten constant strings in the last variant.
+worksheet	5	D(11,4,[1,0,0,0],step=[2,1,1,1])|D(15,4,[1,0,0,0],step=[2,1,1,1])|D(9,4,step=[2,1,1,1])|D(11,4,step=[2,1,1,1])	DP uses an odd/even allowed set for the first occupancy while retaining every nonnegative value for the other three.
+worksheet	6	sum(R(i*(i+1),2) for i in range(1,21))|sum(R(i*(i+1),2) for i in range(1,17))|sum(C(i+2,3) for i in range(1,12))|sum(R(i*(i+1),2) for i in range(21,31))	Direct triangular/tetrahedral finite sums; final interval begins at 21, not one.
+worksheet	7	D(15,3,hi=6)|D(14,4,hi=5)|D(11,4,hi=4)|D(15,3,hi=9)	Exact bounded occupancy convolution counts overlaps without approximations.
+worksheet	8	sum(max(s) for s in combinations(range(1,13),2))|sum(max(s) for s in combinations(range(1,16),2))|sum(max(s) for s in combinations(range(1,10),3))|sum(min(s) for s in combinations(range(1,14),2))	Exhaustively enumerate each subset and sum its actual extremal element.
+worksheet	9	D(15,4,hi=[4,15,15,15])|D(12,5,hi=[3,12,12,12,12])|D(20,3,hi=[7,20,20])|D(15,4,hi=[4,4,15,15])	Exact convolution enforces the individually capped variables and leaves the others unrestricted up to the total.
+worksheet	10	Q(9,lambda a,b,c,d:a<=b)|Q(11,lambda a,b,c,d:a<=b)|T(14,lambda a,b,c:a<=b)|Q(9,lambda a,b,c,d:a<b)	Enumerate all ordered tuples and directly test the required comparison; equality is retained or removed as specified.

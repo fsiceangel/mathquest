@@ -457,7 +457,7 @@ const s84 = [
       choices: ['$4.5$', '$9\\sqrt{3}$', '$18$', '$9$'],
       answer: 3,
       solution:
-        'The shorter diagonal $\\overline{FH}$ joins the two obtuse ($120^\\circ$) vertices, so it faces the $60^\\circ$ angle at $E$. In triangle $EFH$, $EF = EH = 9$ with a $60^\\circ$ angle between them, so the two base angles share $\\frac{180^\\circ - 60^\\circ}{2} = 60^\\circ$ apiece — every angle is $60^\\circ$, the triangle is equilateral, and $FH = 9$ ✓. Check a second, independent way through the half-diagonals: diagonal $\\overline{EG}$ bisects the $60^\\circ$ angle into $30^\\circ$ halves, so half of $FH$ is $9 \\sin 30^\\circ = 4.5$, and $FH = 2 \\times 4.5 = 9$ ✓. (The choice $4.5$ is STOPPING AT THE HALF-DIAGONAL ✗; $9\\sqrt{3}$ is ANSWERING THE LONGER DIAGONAL, $2 \\times 9\\cos 30^\\circ$ ✗; $18$ is DOUBLING THE SIDE with no supporting geometry ✗.)',
+        'The shorter diagonal $\\overline{FH}$ joins the two obtuse ($120^\\circ$) vertices, so it faces the $60^\\circ$ angle at $E$. In triangle $EFH$, $EF = EH = 9$ with a $60^\\circ$ angle between them, so the two base angles share $\\frac{180^\\circ - 60^\\circ}{2} = 60^\\circ$ apiece — every angle is $60^\\circ$, the triangle is equilateral, and $FH = 9$ ✓.',
     },
     {
       q: 'A rhombus $JKLM$ with side length $14$ has a $60^\\circ$ angle at $J$, as shown. How long is its shorter diagonal $\\overline{KM}$?',
@@ -478,7 +478,7 @@ const s84 = [
       choices: ['$7$', '$14$', '$14\\sqrt{3}$', '$28$'],
       answer: 1,
       solution:
-        'Diagonal $\\overline{KM}$ connects the two $120^\\circ$ vertices, so it spans the $60^\\circ$ angle at $J$. Triangle $JKM$ has $JK = JM = 14$ with a $60^\\circ$ apex, forcing base angles of $\\frac{180^\\circ - 60^\\circ}{2} = 60^\\circ$ each — an equilateral triangle, so $KM = 14$ ✓. Check a second, independent way with the half-diagonals: diagonal $\\overline{JL}$ splits the $60^\\circ$ into $30^\\circ$ halves, making half of $KM$ equal to $14 \\sin 30^\\circ = 7$, so $KM = 14$ ✓. (The choice $7$ is STOPPING AT THE HALF-DIAGONAL ✗; $14\\sqrt{3}$ is ANSWERING THE LONGER DIAGONAL ✗; $28$ is DOUBLING THE SIDE ✗.)',
+        'Diagonal $\\overline{KM}$ connects the two $120^\\circ$ vertices, so it spans the $60^\\circ$ angle at $J$. Triangle $JKM$ has $JK = JM = 14$ with a $60^\\circ$ apex, forcing base angles of $\\frac{180^\\circ - 60^\\circ}{2} = 60^\\circ$ each — an equilateral triangle, so $KM = 14$ ✓.',
     },
     {
       q: 'A garden trellis cell is a rhombus $TUVW$ with $21$-cm sides and a $60^\\circ$ angle at $T$, as shown. What is the length of the shorter diagonal $\\overline{UW}$?',
@@ -499,7 +499,7 @@ const s84 = [
       choices: ['$42$', '$10.5$', '$21$', '$21\\sqrt{3}$'],
       answer: 2,
       solution:
-        'The shorter diagonal $\\overline{UW}$ runs between the two obtuse vertices and faces the $60^\\circ$ angle at $T$. In triangle $TUW$, $TU = TW = 21$ with the $60^\\circ$ angle between them, so the base angles are $\\frac{180^\\circ - 60^\\circ}{2} = 60^\\circ$ each — all three angles equal, the triangle is equilateral, and $UW = 21$ ✓. Check a second, independent way via the half-diagonals: diagonal $\\overline{TV}$ bisects the $60^\\circ$ into $30^\\circ$, so half of $UW$ is $21 \\sin 30^\\circ = 10.5$, and $UW = 21$ ✓. (The choice $42$ is DOUBLING THE SIDE ✗; $10.5$ is STOPPING AT THE HALF-DIAGONAL ✗; $21\\sqrt{3}$ is ANSWERING THE LONGER DIAGONAL ✗.)',
+        'The shorter diagonal $\\overline{UW}$ runs between the two obtuse vertices and faces the $60^\\circ$ angle at $T$. In triangle $TUW$, $TU = TW = 21$ with the $60^\\circ$ angle between them, so the base angles are $\\frac{180^\\circ - 60^\\circ}{2} = 60^\\circ$ each — all three angles equal, the triangle is equilateral, and $UW = 21$ ✓.',
     },
   ],
   // s9 — side and one diagonal → area (figure).

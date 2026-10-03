@@ -1,0 +1,1787 @@
+[
+  {
+    "id": "intro-algebra/checkpoint/1/1",
+    "sourceDigest": "bf2f6696656366cf8bb93d9a3204a51a01a01e2369d07f349a74557f6f4d043b",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "240",
+    "evidence": "Let B+S=1480 and B+S/2=860. Subtraction gives S=1240 and B=240.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/2",
+    "sourceDigest": "7e35b68b8515bf88c119b15cdb2f16635a9456b88b0e83042890d8d548d0c3a2",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "3 \\cdot 2^{11}",
+    "evidence": "The figure labels a cube. Its side is (2^15)^(1/3)=32 and six faces give 6*32^2=6144=3*2^11.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/3",
+    "sourceDigest": "bbcc443b38f1f78f80204b81f9814234188985026f4baefb98adbfab4b9e2c57",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "280",
+    "evidence": "The figure labels adjacent rectangle sides 3x-4 and x+6. Perimeter equation 2(4x+2)=68 gives x=8, positive sides 20 and 14, area 280.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/4",
+    "sourceDigest": "85ed5c1f60a2f89a33d73d1b9d798600cb93654f190b03829ac3f57d79a3ffa5",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "54",
+    "evidence": "For arbitrary real n: 6*((4n+24)/4+3-n)=6*9=54.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/5",
+    "sourceDigest": "53615db3500bfd441cf88ce3f4b4393bbaa2b208904c8facf00a67b87645d6c1",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "40",
+    "evidence": "Remaining heights before either burns out: 30-15t and 24-6t, t in hours. Equality gives t=2/3, inside [0,2], hence 40 minutes.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/6",
+    "sourceDigest": "09d1a781fbc47bc4500ab09f7bb75ae2550ed47f40aee0731cbf4ea23f3fa70c",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "84",
+    "evidence": "If tens a and units b: a+b=12 and 9(a-b)=36. Thus a=8,b=4, both valid digits, code 84.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/7",
+    "sourceDigest": "999998c69d99f5045c6e60a4dc8e9ae99ce6508097ab368c1f2190f6de363991",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "87",
+    "evidence": "Pieces a,2a+3,4a-1 sum to 7a+2=156. Hence a=22 and lengths 22,47,87; longest 87.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/8",
+    "sourceDigest": "39ba1fffb12b4e63fd2ae6052f22301de538e29758f7d09224f05ce6c8b04e29",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "7",
+    "evidence": "(S+94)-(S+70)=(80-77)(n+1), so n+1=8 and n=7. S=546 satisfies both proposed averages.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/9",
+    "sourceDigest": "10710338e362dc92e3afb6f61a69e409f17c3e48ffef1fb7c8cd1715b29685a3",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "Q, R, P",
+    "evidence": "Use common exponent 30: P=128^30,Q=81^30,R=125^30. Positive bases satisfy 81<125<128.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/10",
+    "sourceDigest": "7c0fedbe596d5a83f11b59dcb4d4cd2265fffbec2322f6051a3187692ed25146",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "270",
+    "evidence": "Daily charge (170-90)/(7-3)=20; fee=90-3*20=30; 12 days cost 30+240=270.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/11",
+    "sourceDigest": "06979238b96aeeb69fe072458f309cf8307dbe5d460462906910459d74b5120d",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "4{:}00",
+    "evidence": "Figure specification has the long hand at 12 and short hand at 3, so shown time is 3 pm. Nine indicated hours at rate 54/60 require ten real hours after 6 am: 4 pm. Figure specification inspected; no pixel render claim.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/12",
+    "sourceDigest": "1467ce24c1a232bf4734cdd19612fcad480b1fa948ce3c9395fc52369152142f",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "17",
+    "evidence": "Same row count r gives students N=8r+5=9(r-1)+2=9r-7. Hence r=12,N=101; seven per row seats 84, leaving 17.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/13",
+    "sourceDigest": "be1e0a90c45873228c9c874a914aed9df5861bef97ee1456cc032bfd8bbbf336",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "-3",
+    "evidence": "Identity coefficients require a+b=7 and 4a-b=3; a=2,b=5, so a-b=-3.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/14",
+    "sourceDigest": "7784cbb59169560589bf6529875e8e4937c7418c29a7e8385575337d27066da2",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "14",
+    "evidence": "Equal shares C require C=2+(N-2)/8 and C=4+(N-C-4)/8. Subtract equations to get C=14. Then N=98; seven heirs each get14, and at heir k the remainder after the initial 2k is112-16k, whose eighth plus2k is14, ending at k=7.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/1/15",
+    "sourceDigest": "17a17e851d0c7ce2df9b3be6811d24a689cd1aa7a42e7b0156fb31dfe823f3f0",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "34",
+    "evidence": "Distinct powers have distinct binary sums. Days1..8 give C(8,2)=28 totals, all at most384. A day9 win adds512 and can pair with days1..6 (other power <=88), giving6 more. Days>=10 alone exceed600. Total34.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/1",
+    "sourceDigest": "e9dcb2110dbe0e229c7998b5cbf1e7afeef66b7de3ea583425ca8cba2398a7c1",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "1260",
+    "evidence": "Stock = (3 cups/8 servings)*14 servings*240 ml/cup=1260 ml.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/2",
+    "sourceDigest": "5c16e97ca0c2d0094c8258f1c522695c79ebb499c8655762635b3383d3468182",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "80",
+    "evidence": "Original P satisfies P*(7/10)*(11/10)=61.60, giving P=80 exactly.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/3",
+    "sourceDigest": "61184283515b108d95cada84a34f30f888ab778bf10ac62728459799d9c4df4f",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "128",
+    "evidence": "Figure places21 and35 across the top and27 below21. Common rectangle widths give missing area35*27/21=45. Whole=21+35+27+45=128.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/4",
+    "sourceDigest": "74b9d19aa6390e75432095162bb52698f261e8f598ec24fbb9fce6c6d31cce81",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "18",
+    "evidence": "C+W=28, 5C-2W=70, so7C=126 and C=18,W=10; all counts valid.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/5",
+    "sourceDigest": "a01ace65fc2bb8781ddef7b177613418a0d7a9bbf59ca22156b13e8ccae56483",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "30",
+    "evidence": "(7k-15)/(2k+15)=4/5 gives k=5 and conserved total45. At final ratio1:2 second jar holds30; the second transfer is five marbles, feasible.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/6",
+    "sourceDigest": "91bdc25776e8124d8c5312c391847279d80cba09de31ab4456075e8a009ac57e",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "60",
+    "evidence": "(1+x/100)(1-x/100)=0.64 implies x^2=3600. The stated rise makes x positive, so x=60.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/7",
+    "sourceDigest": "e10adb1bac4aedb92a38ec6764c4f095741c9a3622aaea719f97f43779e6b1c0",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "2{:}54",
+    "evidence": "81=3^4, so the dish was1/81 full four tripling periods, 48minutes, before3:42pm:2:54pm.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/8",
+    "sourceDigest": "77a9d22f6f96c504956f1f77d7e58ef18ff9c4a1d997156c5a57a4939c73a81e",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "38",
+    "evidence": "Three times (2m+3t+s=17) minus (m+t+3s=13) gives 5m+8t=38. The third price is twice the second plus the first, consistent; the requested total is fixed despite dependent equations.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/9",
+    "sourceDigest": "d4e059b11607780afb6b1df3fdd0b27d48e14895d697284e063aac5b45ec0995",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "28",
+    "evidence": "Ben/Asha=90/100 and Chen/Ben=80/100. When Asha covers100, Chen covers100*(9/10)*(4/5)=72, so margin28.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/10",
+    "sourceDigest": "6d434fc792e4ca9c2a904e9b3375e6e963a2d323edb0f4c639837fb79f59fa87",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "32",
+    "evidence": "Area preservation gives5W-2L=10 and L-W=4. Therefore W=6,L=10, all altered widths/lengths positive, perimeter32. Figure increments5 and2 match the stem.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/11",
+    "sourceDigest": "a88b7b8688c111003ddf3aeb9996ba010357f4ba3f0e2ef994508b3738b7db9c",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "54",
+    "evidence": "Enumerated all10 contiguous intervals containing at least2 of5 numbers for one inserted pair: results23,47,23,23,17,-7,18,23,13,3. Difference47-(-7)=54.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/12",
+    "sourceDigest": "65bbb1949221583b3a01ba5d8b532c91e3a5dbf007f297c609a042f56deccab6",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "60",
+    "evidence": "Let current ages L>T. At L-T years ago Tam was2T-L, so L=2(2T-L), i.e.3L=4T. With L+T=105, L=60,T=45; earlier ages45 and30 satisfy the story.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/13",
+    "sourceDigest": "2e657235843c56965ddb38b9b38a595f9509502373202b3e8b3d34ce4cf07223",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "23",
+    "evidence": "For a<b<c<d, a+b=14,c+d=39,a+c=21,b+d=32. The remaining a+d,b+c are25,28. Assignment b+c=28 yields half-integer a=3.5, forbidden. Assignment b+c=25 yields a=5,b=9,c=16,d=23; all six pair sums match.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/14",
+    "sourceDigest": "ee5e387e98916c9691745edca85d219595e15875ef0b33c1b5c58c20490c350f",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "6",
+    "evidence": "In cents, solve2p+r+3n=1005+10d,3p+4r+n=890,p+2r+2n=745. Solutions p=(1395+60d)/13,r=(1080-50d)/13,n=(3065+20d)/13. Enumerating d=0..9 gives integers only at d=6: p135,r60,n245, all positive.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/2/15",
+    "sourceDigest": "d8e5a3153048a7f006f1c5dfb570d69a14f21ef520e552659c6924c11d28246e",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "32\\frac{8}{11}",
+    "evidence": "Relative angle starts90deg and changes by5.5deg/min. Next right angle after time0 requires a180deg relative change, so t=180/(11/2)=360/11=32+8/11 minutes.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/1",
+    "sourceDigest": "1adcaffacbcd888a39042ff516fa7ed5c274bd2c9403feb4899afc697a91718a",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "10",
+    "evidence": "The two supplied and plotted points give slope -3/4. Thus y=6-(3/4)(x-2); y=0 gives x=10. Figure segments and dashed extension have this slope.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/2",
+    "sourceDigest": "9f8fde030c4f0447ae0d4eb695df7e1a6aab8d4bf8500f14ebaae37a19b1e853",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "14",
+    "evidence": "3.50+1.80k<=30 gives k<=265/18=14+13/18. Whole-kilometer billing gives14; costs28.70 versus30.50 for15.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/3",
+    "sourceDigest": "9f6748286a061380bd33c0c0af11cfb59275f91dacf12ca4cc98af040a206e60",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "16\\sqrt{7}",
+    "evidence": "Positive side sqrt112=4sqrt7, hence four sides total16sqrt7.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/4",
+    "sourceDigest": "4c13a1b1fa359b0bd5cf6a7aceb6ecb17f17771c31385c6cc3b9306f6893247e",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "6",
+    "evidence": "Total144 painter-days. First4days complete36; remaining108 take18days with6painters. Total22days, six beyond16.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/5",
+    "sourceDigest": "6ac19a0e87b3b474ca0cf471c5659151f908bcbcc4626b78ee475a3c92554f7d",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "90",
+    "evidence": "Intercepts are(12,0),(0,15), matching figure. Right triangle area12*15/2=90.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/6",
+    "sourceDigest": "3a7bc68c65c15a6a19ad56a23a6cf3f6972c1491e8f7338c740d14ea3464cd79",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "20",
+    "evidence": "Drop-in minus pass cost is9v-(60+4v)=40; 5v=100 and v=20.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/7",
+    "sourceDigest": "a5d608e98e47d66e09011e97afd681419e27e94dd7c3de727c780434f8df90e7",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "300",
+    "evidence": "New area factor(3/2)*(4/5)=6/5, so proportional price250*(6/5)=300.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/8",
+    "sourceDigest": "713a96caa40111f73975392710182ddb162927718fcc6790b862945ed021f2aa",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "351",
+    "evidence": "Let two fenced widths be b and the long side53-2b. For integers1<=b<=26, area b(53-2b)=-2(b-13.25)^2+351.125. Nearest integer13 gives351, next14 gives350, all others smaller.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/9",
+    "sourceDigest": "4edaa20f896487fee8165a9ba294ec1eaa10d8d34a971f1d9a892e41d78a7e73",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "572",
+    "evidence": "Digits a,b,c obey a+b+c=14,b=a+c,99(a-c)=297. Therefore b=7,a+c=7,a-c=3, yielding a5,c2 and code572.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/10",
+    "sourceDigest": "78cfcc606840d33f7bbb6aa59370b404325af321b67d9421e4e70023e4eab043",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "72",
+    "evidence": "Let normal speed v>6 and time t. From vt=(v+6)(t-1) obtain v=6t-6; from vt=(v-6)(t+2), v=3t+6. Hence t4,v18,D72; altered times3and6 verify.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/11",
+    "sourceDigest": "2c3615299cdbfd70a2962f8947ea664e7c445ff76e4979f3947f95c0770ae1a5",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "10",
+    "evidence": "Diagonal C-A=(0,5). Projection onto side direction(1,2) is(2,4), and perpendicular remainder(-2,1); lengths sqrt20 andsqrt5 give area10. Fig lines throughA have these directions and C=(1,8).",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/12",
+    "sourceDigest": "66288c7d84936eac3abd519eb8512afd037fd421d43c03c85937c1a0c2247455",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "118",
+    "evidence": "For each integer planter p=0..12, best lantern count=min(floor((500-40p)/25),floor((50-2p)/5)). Profits in order70,72,81,83,92,101,103,112,114,116,118,113,108. Maximum118 atp10,l4; cost500,space40.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/13",
+    "sourceDigest": "71475b2e9a78877abf18a373ff5f4ad8491ce6c69f4c5cfdb6de861dd7a1f626",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "18",
+    "evidence": "If maximum M, sum of ten distinct positives is at most M+(M-1)+...+(M-9)=10M-45. Reaching130 requires M>=18. The set{4,10,11,12,13,14,15,16,17,18} sums130, proving attainability.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/14",
+    "sourceDigest": "53d1935cbc8cc0e12c5a0512fb22b62c530617a448693133aa75f3917612419c",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "59",
+    "evidence": "Strict interior means x>=1,y>=1,4x+9y<=71. For y=1..7, x counts are15,13,11,8,6,4,2, totaling59. Figure vertices(0,0),(18,0),(0,8) match the line.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/3/15",
+    "sourceDigest": "679b18f7524f3112add637039cd7f10c31afb2d8339441d14370b05af359edb8",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "54",
+    "evidence": "If walking rate w and escalator rate e, visible length N=18(1+e/w)=27(1+e/(2w)). Hence e/w=2 and N54.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/1",
+    "sourceDigest": "d9b6664c6a1d7fd9dcfa57b991a3157d70a3362c73cf68613763289fed611078",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "(1, -2)",
+    "evidence": "A quarter-turn sends(x,y) to(-y,x). Since1235 mod4=3, the starting(2,1) goes(-1,2),(-2,-1),(1,-2).",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/2",
+    "sourceDigest": "a9dacee5bf93632220fa37d2c9f99357cac40ec116a9e2ee3d226b0253d7801a",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "48",
+    "evidence": "Combined area44*52+4*4=2304=48^2; side positive48.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/3",
+    "sourceDigest": "50798f7c90e59d460e1f1a6da214b0841dd1ed243857da8ff00705e37382d16f",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "58",
+    "evidence": "Widthw obeys w(w+9)=190; (w-10)(w+19)=0. Positive width10,length19, perimeter58.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/4",
+    "sourceDigest": "dd352b9574247582714b6e4abe44976a40a8aa7f354026f1ca4335892ac18ab1",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "17",
+    "evidence": "Squared count difference=(a+b)^2-4ab=31^2-4*168=289. Positive difference17, counts24and7.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/5",
+    "sourceDigest": "7b9f23260cc0dcf35be7d5d5d5bbf39c6f3f09e7a95417999b87e6ddd4e2ffb7",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "100",
+    "evidence": "0.3P=0.5R and P+R=160 imply R=3P/5, so8P/5=160,P100.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/6",
+    "sourceDigest": "6ffd02a557852741b97a32c05b4bfd66090bd57c9bdb3fb77df6b9d26c3b59d1",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "10",
+    "evidence": "Area multiplier1.96=(7/5)^2. New side25*(7/5)=35, increase10 tiles.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/7",
+    "sourceDigest": "792390707a80ffec7201d69cb868b15be05a8c5a21ca898d257e1b04d1817b3f",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "5",
+    "evidence": "Expand(3-2i)(x+yi): real3x+2y=12, imaginary-2x+3y=5. Unique x2,y3, valid whole numbers, sum5.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/8",
+    "sourceDigest": "d7866869de706aaf7da02ba8d61022413ff6356ddfc4314a5fa0cf977a9127de",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "1596",
+    "evidence": "Red bands have outer sides2,4,...,56. Sum overj1..28 of(2j)^2-(2j-1)^2 is sum(4j-1)=4*406-28=1596. Center1x1 is white as stated.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/9",
+    "sourceDigest": "1e48decba229e040c33114c6514c5abf8111a89033bfa10aeb475e9576316277",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "2",
+    "evidence": "Border area equals96, so full card area192. (12+2b)(8+2b)=192 reduces b^2+10b-24=0. Roots2,-12; only positive border b2 is feasible.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/10",
+    "sourceDigest": "58e3e1478e3f64753fdf8892256148533de7c990f516d8af775f5ff314c35bff",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "2",
+    "evidence": "With0<=c<14,48/(14+c)+48/(14-c)=7 gives1344=7(196-c^2), hence c^2=4 and current speed2.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/11",
+    "sourceDigest": "70f97794679627c50da53e08532f5209f253fe639df616a74075037d554ba0a8",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "\\sqrt{2}",
+    "evidence": "Four unit left-turn steps return to the origin. 1010 mod4=2 leaves displacement(1,1), distance sqrt2.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/12",
+    "sourceDigest": "6d6c1c58fd000162de49fe7b56ebcec2ed782eedbc2600db41a1f0acb47ed9c0",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "21",
+    "evidence": "Positive integer fill times r,b satisfy1/r+1/b=1/24, equivalently(r-24)(b-24)=576. Each exceeds24. Since576=2^6*3^2, there are(6+1)(2+1)=21 ordered divisor pairs, preserving red/blue order.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/13",
+    "sourceDigest": "a7ad40c16f32eff6c66d528b8ee3c7032dda3a3caac04aaca2eda83a20d11eeb",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "207",
+    "evidence": "Distinct positive integer root pairs of product100 are(1,100),(2,50),(4,25),(5,20); k sums101,52,29,25. Pair(10,10) is excluded. Sum207.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/14",
+    "sourceDigest": "2b15e7ad4a35343dfa7fb13f5d30e71e4308a3d7703278eaa11dc6ab91a89aab",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "8",
+    "evidence": "Real/imaginary parts give a^2-b^2=16,ab=15. With a>0, b>0; positive factor pairs show only(a,b)=(5,3) has square difference16. Sum8.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/4/15",
+    "sourceDigest": "067769657554e1c2ff34699789fd71708c096202e27b099eabc14b48c514e411",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "43",
+    "evidence": "Losing count6^6-1=(216-1)(216+1)=215*217=5*43*7*31. Prime bundle sizes divide this number, and the largest prime factor is43.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/1",
+    "sourceDigest": "0c1ef66a884aca08761072a4b1c938bcfa789d24c6c8bc3974214355beca412a",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "A",
+    "evidence": "Squared distances fromS(2,1) toA..E are20,29,26,32,26. Only20<=25, soA alone is watered. Figure point coordinates match the stem.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/2",
+    "sourceDigest": "09fb18321a2aae0ab129541a44806d02161418992c21d56a1972d5c60137d492",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "10",
+    "evidence": "Height=4+v^2/20-5(t-v/10)^2. A positive launch speed and maximum9 require v^2/20=5,v10; vertex time1 is positive.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/3",
+    "sourceDigest": "767ebbd63986ec842b95f63b5c0b074f678565830ce888e31045f82f7a3393be",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "13",
+    "evidence": "Profit=-n^2+36n-275=-(n-11)(n-25)>0 exactly when11<n<25. Whole counts12..24 give13.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/4",
+    "sourceDigest": "3a6427cc213f8e9ecc723e1f27572df673597a1a5119c3567c6c6bb7db87c14d",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "10",
+    "evidence": "Arch y=a*x*(24-x), maximum atx12 gives144a=18,a1/8. Atx4 height4*20/8=10. Figure parabola coefficients and point(4,10) agree.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/5",
+    "sourceDigest": "9f70d3d9ba846479debbfcc55c724ead877f5fb9c1355a148a3e2630c9f1ba9a",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "18 - 2\\sqrt{3}",
+    "evidence": "Short side12/(3+sqrt3)=6-2sqrt3>0 and smaller than the given side. Perimeter2*(9-sqrt3)=18-2sqrt3.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/6",
+    "sourceDigest": "399459a65de9bfeae8aca7aa7df38f8d4ad3d2a9fc7dd17e7be5f6f7aea1f399",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "9",
+    "evidence": "Magnitude aftert seconds is3*(sqrt2)^t. Need2^t>400; 2^8=256 and2^9=512, so first integer time9.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/7",
+    "sourceDigest": "33bf22bfd9ac359a9162bc8393f8d4ab4160debd7068700a473f24c0a5abb88a",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "1",
+    "evidence": "Complete squares: (x+3)^2+(y-4)^2=0. Both nonnegative force x=-3,y4, giving code1 and uniqueness.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/8",
+    "sourceDigest": "1cafeacaab0842b3e83c5befcf5783ad35a256d71c2140e7791769a3a6c76778",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "13",
+    "evidence": "Positive ages a,a+3 have product40. a^2+3a-40=(a-5)(a+8)=0; ages5,8 give k13.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/9",
+    "sourceDigest": "5297d20527c5a8b22f39adc9d2d3729c2e6f7a35f34f7143e16ad57865bf1359",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "5",
+    "evidence": "Equating curves gives x^2-15x+54=0, sox6or9. Heights14and18 give distance sqrt(3^2+4^2)=5. Figure points and line match these intersections.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/10",
+    "sourceDigest": "35138f3bd50445faef62b875e065a6e28aee38541b40228914d6365c2d0174ae",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "60",
+    "evidence": "20*(v/40)^2<=45 withv>=0 gives v<=60. Equality attained at60.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/11",
+    "sourceDigest": "e5709226dc8a67c54663d4d1df90113f8440b697e21d52bee0fc1f881e68c187",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "12",
+    "evidence": "Complete squares: (x+4)^2+(y-1)^2=25. Integer offset pairs are(+-5,0),(0,+-5),(+-3,+-4),(+-4,+-3):4+4+4=12.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/12",
+    "sourceDigest": "3c24171a97ec8f3ca078e7f4bae859cefb981f22c9ec767ca7afc3a0bc555573",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "4000",
+    "evidence": "Positive speedv gives total(200/v)*(v^2/2+200)=100v+40000/v>=2sqrt(4,000,000)=4000, attained whenv20.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/13",
+    "sourceDigest": "2e1dfc98d35173224156382f90591ee83443eba3c1840bb95f924c6789c58bed",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "6",
+    "evidence": "Letm>=0 be the square root. Then(m-(n+3))*(m+(n+3))=45. The positive factor pairs(1,45),(3,15),(5,9), in both orders, give n=19,-25,3,-9,-1,-5; six distinct integers. Exhaustive because45 has only these positive factor pairs.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/14",
+    "sourceDigest": "2fc8d689be2707aa78e417eeb97c7ab1228f70a8cdccc6b55af6ee8a9d8962d7",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "194\\pi",
+    "evidence": "Tangency to both positive axes gives center(r,r),r>0. Point(8,1) requires(8-r)^2+(1-r)^2=r^2, so(r-5)(r-13)=0. Figure shows exactly these centers/radii. Sum areas(25+169)pi=194pi.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/5/15",
+    "sourceDigest": "5df2a3f69bba6dd6e5a33c0f1fdfad8d2c624d59c3e2d36992ef8d258003e8ad",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "2",
+    "evidence": "Vieta gives r^2+s^2=k^2-6k+10=(k-3)^2+1. Real roots require discriminant(k-2)(k-10)>=0, hence k<=2 or k>=10. The closest allowed k to3 is2, unique minimizer; equal roots1 are permitted.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/1",
+    "sourceDigest": "6df2d63b6bea855d25cfb33354629f07b9420385435a43a69da557637d88cdc4",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "-2",
+    "evidence": "Equality of operations gives x^2+5=(x+5)^2, so10x=-20,x=-2.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/2",
+    "sourceDigest": "e3892c4f755c840abafb4ac8b11e032f73e33ddc280eee8f4c5ab27755936776",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "17",
+    "evidence": "(3x+4)(2x-1)=6x^2+5x-4. Multiplying by(x+2), the x^2 coefficient is12+5=17. x>1 ensures physical dimensions positive and does not alter coefficients.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/3",
+    "sourceDigest": "9e463c1f8f340ff752adf839d6245e172579dde3156b68864ce42ffaab6d94ee",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "-3",
+    "evidence": "Figure corners explicitly give f(3)=-2 andf(-1)=1, so difference-3. No interpolation or extrapolation is needed.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/4",
+    "sourceDigest": "4ab02a55ab45af032471e9c5221bc8c4271f3905ae45d259ac60f340f60b61b0",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "16\\%",
+    "evidence": "Price multiplier(3/4)*(7/5)*(4/5)=21/25=0.84. Fraction below original4/25=16%.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/5",
+    "sourceDigest": "e8748099c079e3dffc468f363455d58d34b80f8b9675567ffac6d5887f305b47",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "2049",
+    "evidence": "RecurrenceN1=5,Nnext=2N-1 givesNn-1=4*2^(n-1). ThusN10=1+2048=2049.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/6",
+    "sourceDigest": "517f5d9fdb1457084db7890cfc105cd0d8934d8d801fff140b02b4eb29536e67",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "(4, 5)",
+    "evidence": "Figure maximum is uniquely(1,3). In g(x)=f(x-3)+2, each point shifts right3,up2, so maximum(4,5).",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/7",
+    "sourceDigest": "a33af31953a9713fca7c7c535b40d4bb51cfd14b82f0a2580ad1d189222278f9",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "53",
+    "evidence": "Stage0 givesc3; stages1and2 givea+b2,4a+2b8, hencea2,b0. Stage5=2*25+3=53.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/8",
+    "sourceDigest": "0ec0c41186443abffb169477f62499e789c93483a0f2d7c15f7b54f46b14f120",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "-2",
+    "evidence": "Atx3: A+3B=24. Atx1/3: B+3A=8/3. Three times second minus first yields8A=-16, soM(3)=-2. Reciprocal inputs are both allowed.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/9",
+    "sourceDigest": "a63d3f20660d99ce86262e7962c7dcad05e205b32d0ea193fa39ae6e5b80d0bb",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "46",
+    "evidence": "Expand first block1+6x+9x^2. To makex^3 with1+3x+3x^2+x^3, contributions1+6*3+9*3=46.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/10",
+    "sourceDigest": "41a8b1ffbd623279dbd671e6bdd7a9f4148e3bfd5c2ca692033aa093fdc8f43c",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "4",
+    "evidence": "Figure vertex values of f(x)-x are4,-1,2,2,-1,1. Each segment is linear, with one zero exactly on sign-changing segments1,2,4,5; none at vertices or on segment3. Roots-17/5,-7/3,3,5 are distinct:4.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/11",
+    "sourceDigest": "3ebcc55bd3b0e9feec78a5599f435426d6f35694129a5d90b2aa0ced35b55b25",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "1",
+    "evidence": "For inputs1,2,3,4, f(g(x)) is4,1,2,3, whileg(f(x)) is3,1,4,2. Only input2 is stable.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/12",
+    "sourceDigest": "d2c0cb728fc802c945e1fe9d2a1e8b22e8a0a3cfe6d1d82bda5a301e812b835a",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "35",
+    "evidence": "Sincep(2)=7,p(5)=13, p(x)-(2x+3) has integer roots2,5 and integer coefficients, so it equals(x-2)(x-5)q(x) with integer-coefficientq. Thereforep(9)=21+28q(9). Among choices only35 is not21mod28; each other choice is attained by a constant integerq.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/13",
+    "sourceDigest": "3fe1c43b627c575124e19ef2915cd1ba579cd96757162e3c26db0dfbe71e8617",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "23",
+    "evidence": "s(12)=s(6)+s(2) givess(2)=4. Then48=12*2*2 gives15+4+4=23.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/14",
+    "sourceDigest": "8078159db52abc77b8c4f18176ca5a5c33b215f9b737699493bde8ee5b05b7e7",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "4",
+    "evidence": "Figure zeros of f are-4,-2,6, while its range is[-4,4]. Thus inner output6 impossible. f(x)=-4 only atx=-3; f(x)=-2 atx=-7/2,-5/2,8. Four distinct inputs, all in domain[-5,8], give defined outer input and final0.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/6/15",
+    "sourceDigest": "02af77ad1e74683a9445972cde51b2b5d7b6b86065e3612b65ab0641e83b56b3",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "8",
+    "evidence": "Coefficient comparison givesc=-a,bd16,b+d-a^2=4,a(d-b)=0. Ifa0, b+d4 andbd16 have no real solution. Hence d=b,so b=+-4. b=-4 wouldgivea^2=-12; b4 givesa=+-2,c=-a. Thereforea+b+c+d=8 in both possible integer factorizations.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/1",
+    "sourceDigest": "98d63d15432cb5cb9af0cb089b7b2d60fad89413c72872af19babefc91c91bf0",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "7.5",
+    "evidence": "Distinct floor/ceiling arem,m+1 andsum15 givesm7. Thus7<x<8; only7.5 is listed.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/2",
+    "sourceDigest": "372e84260925529eaf32c3f4735c479a0af4c2319a9dc055e01f538398deb32f",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "6",
+    "evidence": "At5hours4*3^5=972; at6hours4*3^6=2916. Counts strictly increase, so first exceeding2000 is6.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/3",
+    "sourceDigest": "f2961265dbecba24d0b3a5f2395cdef463750d0d4c22258453cf6b2e16cedb11",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "\\sqrt{19}",
+    "evidence": "Sides a,b havea+b5,ab3. Diagonal squared=a^2+b^2=25-6=19, hence positive lengthsqrt19.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/4",
+    "sourceDigest": "e2ed53232820280f61982c45e9bbf11351a26bc619ae2de84d946a311abd97ba",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "25",
+    "evidence": "16^5*125^9=2^20*5^27=5^7*10^20=78125*10^20, five digits followed by20zeros, hence25digits.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/5",
+    "sourceDigest": "d82ff384a766567ecc583f9035f8d88250064879444f85231bc4ff507171bf58",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "\\frac{24}{55}",
+    "evidence": "Forx=0.4363636..., 1000x-10x=436.3636...-4.3636...=432. Thusx432/990=24/55.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      1
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/6",
+    "sourceDigest": "f2c05ccf89af83a717578e9d614bb80836bbb72a72c284aa4e385535bb0101b5",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "49",
+    "evidence": "Vertex(1,-2); aty5,|x-1|7 gives intersections(-6,5),(8,5). Triangle base14,height7,area49.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/7",
+    "sourceDigest": "834a672eebedb4c8dea5a95986396fb26cc2fccb53511a43de712cbd73a7f3aa",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "8",
+    "evidence": "(3n+2)/(n-2)=3+8/(n-2). Nonzero integern-2 must divide8: +-1,+-2,+-4,+-8, giving exactly8 different valid integersn.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/8",
+    "sourceDigest": "8d00a4ea52883337aadde7b69c390b0dbf23fdc6538ab9b52cad5a9659df0180",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "48",
+    "evidence": "Painted disjoint squares have areas36,9,9/4,...; geometric ratio1/4. Infinite sum36/(1-1/4)=48, with remainder tending0.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/9",
+    "sourceDigest": "3b40f4daf93d0f530f74d3ead284580bbd683ddc014715a9de2cb89de9639918",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "72.25",
+    "evidence": "For larger sides, s^2-(s-2)^2=30 gives4s-4=30,s17/2. Larger area289/4=72.25, smaller positive side13/2.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/10",
+    "sourceDigest": "9823c86f550b62dee9d493de3fecf3281b7c2999f52ca7810214fa25c64660a5",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "241",
+    "evidence": "Rows1..15 contain15*16/2=120seats, so next is the121st odd number,2*121-1=241.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/11",
+    "sourceDigest": "ac689a7aafb618f4223eefabd1f96c7e7c6c79cdc712254d1847f2234f049e3f",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "155",
+    "evidence": "s=floor(sqrt(day)). For s1..5 the counts are3,5,7,9,11days; s6 occurs on36..40,5days. Weighted total1*3+2*5+3*7+4*9+5*11+6*5=155.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/12",
+    "sourceDigest": "62c1ac5be0337345e3ac3ec930b75051bfd761e5fac0b213ee5878d8ed6ad0f1",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "23",
+    "evidence": "Let elementary sumse1=2,e3=-1. Sincep2=e1^2-2e2=10,e2=-3. Cube sum e1^3-3e1e2+3e3=8+18-3=23.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      4
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/13",
+    "sourceDigest": "595f49654b49001f9a67217099eb93b6e68fc64270488e51b2af55c9259c5f51",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "73812",
+    "evidence": "Eight daily amounts are3,18,81,324,1215,4374,15309,52488. Their exact sum is73812.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      3
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/14",
+    "sourceDigest": "f12a91e9c304536723a3e6995aea987b3812b9fd574b3b4e0bc594274ac0e296",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "54",
+    "evidence": "Count marker7 three times: ordered12 destinations have middle locations6and7. Pairing opposite ordered destinations shows any depot in[6,7] minimizes absolute-distance sum. At6 the one-way total5+4+3+2+1+0+3+2+3+4=27; round trips54.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      2
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  },
+  {
+    "id": "intro-algebra/checkpoint/7/15",
+    "sourceDigest": "080656413c02f22de67a1d6526482693676fca5a55ab01ba4eb4b1cc7d3f55d6",
+    "status": "verified",
+    "method": "Independent manual algebra / exhaustive finite casework",
+    "computed": "16",
+    "evidence": "A positive steady integer m satisfiesm^2=k+m,so k=m(m-1). Range1<=k<=300 corresponds m2..17 because17*16=272 and18*17=306. These16 choices are attained: iteration from0 is increasing and bounded bym, hence converges to its unique positive fixed pointm.",
+    "keyMatch": true,
+    "uniqueChoice": true,
+    "matchingChoices": [
+      0
+    ],
+    "conditions": "Checked positive lengths/counts, distinct cases and stated integer restrictions as detailed in evidence.",
+    "limitations": [
+      "Authored prose explanation not exhaustively checked; numeric explanation fragments are screened separately."
+    ]
+  }
+]

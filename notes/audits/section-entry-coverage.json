@@ -1,0 +1,2623 @@
+{
+  "books": {
+    "prealgebra": {
+      "sections": 67,
+      "sectionsWithFillIn": 66,
+      "sectionsWithAtLeastTwo": 62,
+      "slots": 245,
+      "versions": 980
+    },
+    "intro-algebra": {
+      "sections": 98,
+      "sectionsWithFillIn": 88,
+      "sectionsWithAtLeastTwo": 74,
+      "slots": 299,
+      "versions": 1196
+    },
+    "intro-counting": {
+      "sections": 45,
+      "sectionsWithFillIn": 45,
+      "sectionsWithAtLeastTwo": 45,
+      "slots": 195,
+      "versions": 780
+    },
+    "intro-geometry": {
+      "sections": 83,
+      "sectionsWithFillIn": 76,
+      "sectionsWithAtLeastTwo": 74,
+      "slots": 286,
+      "versions": 1144
+    }
+  },
+  "groups": [
+    {
+      "id": "prealgebra/1/1.2",
+      "title": "Addition",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/1/1.3",
+      "title": "Multiplication",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/1/1.4",
+      "title": "Negation",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/1/1.5",
+      "title": "Subtraction",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/1/1.6",
+      "title": "Reciprocals",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/1/1.7",
+      "title": "Division",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/1/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/2/2.1",
+      "title": "Squares",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/2/2.2",
+      "title": "Higher Exponents",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "prealgebra/2/2.3",
+      "title": "Zero as an Exponent",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/2/2.4",
+      "title": "Negative Exponents",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/2/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/3/3.1",
+      "title": "Multiples",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/3/3.2",
+      "title": "Divisibility Tests",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/3/3.3",
+      "title": "Prime Numbers",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/3/3.4",
+      "title": "Prime Factorization",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "prealgebra/3/3.5",
+      "title": "Least Common Multiple",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/3/3.6",
+      "title": "Divisors",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/3/3.7",
+      "title": "Greatest Common Divisor",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/3/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/4/4.1",
+      "title": "What is a Fraction?",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/4/4.2",
+      "title": "Multiplying Fractions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/4/4.3",
+      "title": "Dividing by a Fraction",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/4/4.4",
+      "title": "Raising Fractions to Powers",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/4/4.5",
+      "title": "Simplest Form of a Fraction",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/4/4.6",
+      "title": "Comparing Fractions",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "prealgebra/4/4.7",
+      "title": "Adding and Subtracting Fractions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/4/4.8",
+      "title": "Mixed Numbers",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "prealgebra/4/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/5/5.1",
+      "title": "Expressions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/5/5.2",
+      "title": "Solving Linear Equations I",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/5/5.3",
+      "title": "Solving Linear Equations II",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/5/5.4",
+      "title": "Word Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/5/5.5",
+      "title": "Inequalities",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "prealgebra/5/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/6/6.1",
+      "title": "Arithmetic with Decimals",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/6/6.2",
+      "title": "Rounding",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "prealgebra/6/6.3",
+      "title": "Decimals and Fractions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/6/6.4",
+      "title": "Repeating Decimals",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "prealgebra/6/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/7/7.1",
+      "title": "What is a Ratio?",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/7/7.2",
+      "title": "Multi-way Ratios",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "prealgebra/7/7.3",
+      "title": "Proportions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/7/7.4",
+      "title": "Conversions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/7/7.5",
+      "title": "Speed",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/7/7.6",
+      "title": "Other Rates",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/7/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/8/8.1",
+      "title": "What is a Percent?",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/8/8.2",
+      "title": "Word Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/8/8.3",
+      "title": "Percent Increase and Decrease",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/8/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/9/9.1",
+      "title": "From Squares to Square Roots",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/9/9.2",
+      "title": "Square Roots of Non-square Integers",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "prealgebra/9/9.3",
+      "title": "Arithmetic with Square Roots",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/9/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/10/10.1",
+      "title": "Measuring Angles",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/10/10.2",
+      "title": "Parallel Lines",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/10/10.3",
+      "title": "Angles in Polygons",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/10/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/11/11.1",
+      "title": "Measuring Segments",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/11/11.2",
+      "title": "Area",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/11/11.3",
+      "title": "Circles",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "prealgebra/11/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/12/12.1",
+      "title": "The Pythagorean Theorem",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/12/12.2",
+      "title": "Some Special Triangles",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/12/12.3",
+      "title": "Types of Quadrilaterals",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/12/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/13/13.1",
+      "title": "Basic Statistics",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/13/13.2",
+      "title": "Limits of Basic Statistics",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/13/13.3",
+      "title": "Tables, Graphs, and Charts",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/13/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/14/14.1",
+      "title": "Counting with Addition and Subtraction",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/14/14.2",
+      "title": "The Multiplication Principle",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/14/14.3",
+      "title": "Casework",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/14/14.4",
+      "title": "Counting Pairs",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/14/14.5",
+      "title": "Probability",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/14/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "prealgebra/15/15.1",
+      "title": "Find a Pattern",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/15/15.2",
+      "title": "Make a List",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/15/15.3",
+      "title": "Draw a Picture",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/15/15.4",
+      "title": "Work Backwards",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "prealgebra/15/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/1/1.1",
+      "title": "Numbers",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/1/1.2",
+      "title": "Order of Operations",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/1/1.3",
+      "title": "When Does Order Matter?",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/1/1.4",
+      "title": "Distribution and Factoring",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/1/1.5",
+      "title": "Equations",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/1/1.6",
+      "title": "Exponents (MathQuest supplement)",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/1/1.7",
+      "title": "Fractional Exponents (MathQuest supplement)",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/1/1.8",
+      "title": "Radicals (MathQuest supplement)",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/1/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/2/2.1",
+      "title": "Expressions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/2/2.2",
+      "title": "Arithmetic with Expressions",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/2/2.3",
+      "title": "Distribution, Subtraction, and Factoring",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/2/2.4",
+      "title": "Fractions",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/2/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/3/3.1",
+      "title": "Solving Linear Equations I",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/3/3.2",
+      "title": "Solving Linear Equations II",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/3/3.3",
+      "title": "Word Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/3/3.4",
+      "title": "Linear Equations in Disguise",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/3/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/4/4.1",
+      "title": "Evaluating Multi-Variable Expressions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/4/4.2",
+      "title": "Still More Arithmetic",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/4/4.3",
+      "title": "Distribution and Factoring",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/4/4.4",
+      "title": "Fractions",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/4/4.5",
+      "title": "Equations",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/4/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/5/5.1",
+      "title": "Introduction to Two-Variable Linear Equations",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/5/5.2",
+      "title": "Substitution",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/5/5.3",
+      "title": "Elimination",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/5/5.4",
+      "title": "Word Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/5/5.5",
+      "title": "More Linear Equations in Disguise",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/5/5.6",
+      "title": "More Variables",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/5/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/6/6.1",
+      "title": "Basic Ratio Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/6/6.2",
+      "title": "More Challenging Ratio Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/6/6.3",
+      "title": "Conversion Factors",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/6/6.4",
+      "title": "Percent",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/6/6.5",
+      "title": "Percentage Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/6/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/7/7.1",
+      "title": "Direct Proportion",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/7/7.2",
+      "title": "Inverse Proportion",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/7/7.3",
+      "title": "Joint Proportion",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/7/7.4",
+      "title": "Rate Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/7/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/8/8.1",
+      "title": "The Number Line and the Cartesian Plane",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/8/8.2",
+      "title": "Introduction to Graphing Linear Equations",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/8/8.3",
+      "title": "Using Slope in Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/8/8.4",
+      "title": "Find the Equation",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/8/8.5",
+      "title": "Slope and Intercepts",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/8/8.6",
+      "title": "Comparing Lines",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/8/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/9/9.1",
+      "title": "The Basics",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/9/9.2",
+      "title": "Which Is Greater?",
+      "total": 10,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/9/9.3",
+      "title": "Linear Inequalities",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/9/9.4",
+      "title": "Graphing Inequalities",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/9/9.5",
+      "title": "Optimization",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/9/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/10/10.1",
+      "title": "Getting Started With Quadratics",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/10/10.2",
+      "title": "Factoring Quadratics I",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/10/10.3",
+      "title": "Factoring Quadratics II",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/10/10.4",
+      "title": "Sums and Products of Roots",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/10/10.5",
+      "title": "Extensions and Applications",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/10/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/11/11.1",
+      "title": "Squares of Binomials",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/11/11.2",
+      "title": "Difference of Squares",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/11/11.3",
+      "title": "Sum and Difference of Cubes",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/11/11.4",
+      "title": "Rationalizing Denominators",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/11/11.5",
+      "title": "Simon's Favorite Factoring Trick",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/11/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/12/12.1",
+      "title": "Numbers, Numbers, and More Numbers!",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/12/12.2",
+      "title": "Imaginary Numbers",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/12/12.3",
+      "title": "Complex Numbers",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/12/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/13/13.1",
+      "title": "Squares of Binomials Revisited",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/13/13.2",
+      "title": "Completing the Square",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/13/13.3",
+      "title": "The Quadratic Formula",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/13/13.4",
+      "title": "Applications and Extensions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/13/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/14/14.1",
+      "title": "Parabolas",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/14/14.2",
+      "title": "Circles",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/14/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/15/15.1",
+      "title": "Quadratic Inequalities",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/15/15.2",
+      "title": "Beyond Quadratics",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/15/15.3",
+      "title": "The Trivial Inequality",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/15/15.4",
+      "title": "Quadratic Optimization",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/15/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/16/16.1",
+      "title": "The Machine",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/16/16.2",
+      "title": "Combining Functions",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/16/16.3",
+      "title": "Composition",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/16/16.4",
+      "title": "Inverse Functions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/16/16.5",
+      "title": "Problem Solving with Functions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/16/16.6",
+      "title": "Operations",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/16/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/17/17.1",
+      "title": "Basics",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/17/17.2",
+      "title": "Transformations",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/17/17.3",
+      "title": "Inverse Functions Revisited",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-algebra/17/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/18/18.1",
+      "title": "Addition and Subtraction",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/18/18.2",
+      "title": "Multiplication",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/18/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/19/19.1",
+      "title": "Exponential Functions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/19/19.2",
+      "title": "Show Me the Money",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/19/19.3",
+      "title": "Interest-ing Problems",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-algebra/19/19.4",
+      "title": "What is a Logarithm?",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/19/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/20/20.1",
+      "title": "Radicals",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/20/20.2",
+      "title": "Absolute Value",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/20/20.3",
+      "title": "Floor and Ceiling",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/20/20.4",
+      "title": "Rational Functions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/20/20.5",
+      "title": "Piecewise Defined Functions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/20/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-algebra/21/21.1",
+      "title": "Arithmetic Sequences",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/21/21.2",
+      "title": "Arithmetic Series",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/21/21.3",
+      "title": "Geometric Sequences",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/21/21.4",
+      "title": "Geometric Series",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/21/21.5",
+      "title": "Telescoping",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/21/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/22/22.1",
+      "title": "Raising Equations to Powers",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/22/22.2",
+      "title": "Self-similarity",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/22/22.3",
+      "title": "Symmetry",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-algebra/22/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/1/1.2",
+      "title": "Points, Lines, and Planes",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-geometry/1/1.3",
+      "title": "Round and Round",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/1/1.5",
+      "title": "The Burden of Proof",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-geometry/1/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/2/2.1",
+      "title": "What is an Angle?",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/2/2.2",
+      "title": "Measuring Angles",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/2/2.3",
+      "title": "Straight and Vertical Angles",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/2/2.4",
+      "title": "Parallel Lines",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/2/2.5",
+      "title": "Angles in a Triangle",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/2/2.6",
+      "title": "Exterior Angles",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/2/2.7",
+      "title": "Parallel Lines Revisited",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/2/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/3/3.2",
+      "title": "SSS Congruence",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/3/3.3",
+      "title": "SAS Congruence",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/3/3.4",
+      "title": "ASA and AAS Congruence",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-geometry/3/3.5",
+      "title": "SSA Not-Necessarily Congruence",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-geometry/3/3.6",
+      "title": "Isosceles and Equilateral Triangles",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/3/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/4/4.1",
+      "title": "Perimeter",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/4/4.2",
+      "title": "Area",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/4/4.3",
+      "title": "Same Base/Same Altitude",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/4/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/5/5.1",
+      "title": "What is Similarity?",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/5/5.2",
+      "title": "AA Similarity",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/5/5.3",
+      "title": "SAS Similarity",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/5/5.4",
+      "title": "SSS Similarity",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/5/5.5",
+      "title": "Using Similarity in Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/5/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/6/6.1",
+      "title": "Pythagorean Theorem",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/6/6.2",
+      "title": "Two Special Right Triangles",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-geometry/6/6.3",
+      "title": "Pythagorean Triples",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/6/6.4",
+      "title": "Congruence and Similarity Revisited",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/6/6.5",
+      "title": "Heron's Formula",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/6/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/7/7.1",
+      "title": "Bisectors",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/7/7.2",
+      "title": "Perpendicular Bisectors of a Triangle",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/7/7.3",
+      "title": "Angle Bisectors of a Triangle",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/7/7.4",
+      "title": "Medians",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/7/7.5",
+      "title": "Altitudes",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/7/7.6",
+      "title": "Challenging Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/7/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/8/8.1",
+      "title": "Quadrilateral Basics",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/8/8.2",
+      "title": "Trapezoids",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/8/8.3",
+      "title": "Parallelograms",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/8/8.4",
+      "title": "Rhombi",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/8/8.5",
+      "title": "Rectangles",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/8/8.6",
+      "title": "Squares",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/8/8.7",
+      "title": "If and Only If",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-geometry/8/8.8",
+      "title": "Quadrilateral Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/8/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/9/9.1",
+      "title": "Introduction to Polygons",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/9/9.2",
+      "title": "Angles in a Polygon",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/9/9.3",
+      "title": "Polygon Area",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-geometry/9/9.4",
+      "title": "Polygon Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/9/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/10/10.1",
+      "title": "Sides and Angles of a Triangle",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-geometry/10/10.2",
+      "title": "Pythagoras — Not Just For Right Triangles",
+      "total": 10,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/10/10.3",
+      "title": "The Triangle Inequality",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/10/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/11/11.1",
+      "title": "Arc Measure, Arc Length, and Circumference",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/11/11.2",
+      "title": "Area",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/11/11.3",
+      "title": "Funky Areas",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-geometry/11/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/12/12.1",
+      "title": "Inscribed Angles",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/12/12.2",
+      "title": "Angles Inside and Outside Circles",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/12/12.3",
+      "title": "Tangents",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/12/12.4",
+      "title": "Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/12/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/13/13.1",
+      "title": "What is Power of a Point?",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/13/13.2",
+      "title": "Power of a Point Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/13/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/14/14.1",
+      "title": "Planes",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/14/14.2",
+      "title": "Prisms",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/14/14.3",
+      "title": "Pyramids",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/14/14.4",
+      "title": "Regular Polyhedra",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/14/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/15/15.1",
+      "title": "Cylinders",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/15/15.2",
+      "title": "Cones",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/15/15.3",
+      "title": "Spheres",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/15/15.4",
+      "title": "Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/15/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/16/16.1",
+      "title": "Translations",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-geometry/16/16.2",
+      "title": "Rotations",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-geometry/16/16.3",
+      "title": "Reflections",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-geometry/16/16.4",
+      "title": "Dilation",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/16/16.5",
+      "title": "Changing the Question",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-geometry/16/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-geometry/17/17.1",
+      "title": "Lines",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/17/17.2",
+      "title": "Circles",
+      "total": 10,
+      "fillIn": 1,
+      "versions": 4,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-geometry/17/17.3",
+      "title": "Basic Analytic Geometry Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/17/17.4",
+      "title": "Proofs with Analytic Geometry",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-geometry/17/17.5",
+      "title": "Distance Between a Point and a Line",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/17/17.6",
+      "title": "Advanced Analytic Geometry Problems",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-geometry/17/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-geometry/18/18.1",
+      "title": "Trigonometry and Right Triangles",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-geometry/18/18.2",
+      "title": "Not Just For Right Triangles",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-geometry/18/18.3",
+      "title": "Law of Sines and Law of Cosines",
+      "total": 10,
+      "fillIn": 2,
+      "versions": 8
+    },
+    {
+      "id": "intro-geometry/18/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/19/19.1",
+      "title": "The Extra Line",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/19/19.2",
+      "title": "Assigning Variables",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-geometry/19/19.3",
+      "title": "Proofs",
+      "total": 10,
+      "fillIn": 0,
+      "versions": 0,
+      "note": "Other slots include non-scalar answers, option-dependent prompts, approximation ambiguity, or incompatible alternate versions; retained as choices."
+    },
+    {
+      "id": "intro-geometry/19/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/1/1.2",
+      "title": "Counting Lists of Numbers",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/1/1.3",
+      "title": "Counting with Addition and Subtraction",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/1/1.4",
+      "title": "Counting Multiple Events",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/1/1.5",
+      "title": "Permutations",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/1/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/2/2.2",
+      "title": "Casework",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/2/2.3",
+      "title": "Complementary Counting",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/2/2.4",
+      "title": "Constructive Counting",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/2/2.5",
+      "title": "Counting with Restrictions",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/2/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/3/3.2",
+      "title": "Permutations with Repeated Elements",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/3/3.3",
+      "title": "Counting Pairs of Items",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/3/3.4",
+      "title": "Counting with Symmetries",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/3/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/4/4.2",
+      "title": "Committee Forming",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/4/4.3",
+      "title": "How to Compute Combinations",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/4/4.4",
+      "title": "Our First Combinatorial Identity",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/4/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/5/5.2",
+      "title": "Paths on a Grid",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/5/5.3",
+      "title": "More Committee-type Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/5/5.4",
+      "title": "Distinguishability",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/5/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/6/6.2",
+      "title": "Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/6/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/7/7.2",
+      "title": "Basic Probability",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/7/7.3",
+      "title": "Equally Likely Outcomes",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/7/7.4",
+      "title": "Counting Techniques in Probability Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/7/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/8/8.2",
+      "title": "Probability and Addition",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/8/8.3",
+      "title": "Complementary Probabilities",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/8/8.4",
+      "title": "Probability and Multiplication",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/8/8.5",
+      "title": "Probability with Dependent Events",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/8/8.6",
+      "title": "Shooting Stars — a Hard Problem",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/8/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/9/9.2",
+      "title": "Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/9/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/10/10.2",
+      "title": "Probability Using Lengths",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/10/10.3",
+      "title": "Probability Using Areas",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/10/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/11/11.2",
+      "title": "Definition of Expected Value",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/11/11.3",
+      "title": "Expected Value Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/11/11.4",
+      "title": "A Funky Game",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/11/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/12/12.2",
+      "title": "Constructing Pascal’s Triangle",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/12/12.3",
+      "title": "Those Numbers Look Familiar!",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/12/12.4",
+      "title": "An Interesting Combinatorial Identity",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/12/12.5",
+      "title": "Another Interesting Combinatorial Identity",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/12/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/13/13.2",
+      "title": "The Problem",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/13/13.3",
+      "title": "A Step-by-Step Solution",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/13/13.4",
+      "title": "A Clever Solution",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/13/13.5",
+      "title": "The Identity",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/13/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/14/14.2",
+      "title": "A Little Algebra",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/14/14.3",
+      "title": "The Theorem",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/14/14.4",
+      "title": "Applications of the Binomial Theorem",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/14/14.5",
+      "title": "Using the Binomial Theorem in Identities",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/14/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    },
+    {
+      "id": "intro-counting/15/15.2",
+      "title": "Problems",
+      "total": 10,
+      "fillIn": 3,
+      "versions": 12
+    },
+    {
+      "id": "intro-counting/15/challenge",
+      "title": "Chapter challenge",
+      "total": 12,
+      "fillIn": 4,
+      "versions": 16
+    }
+  ]
+}
