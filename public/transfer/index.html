@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Move your MathQuest and Chess Puzzle Training progress safely between browsers and the learning centre.">
+  <title>Save files · Sorapinkice Learning</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./page.mjs"></script>
+</head>
+<body>
+  <main>
+    <nav aria-label="Navigation"><a href="../">Back</a><a data-learning-home href="../">Learning home</a></nav>
+    <header><p class="eyebrow">KEEP YOUR PROGRESS</p><h1>Save files</h1><p class="intro">Your learning, ready to come with you.</p></header>
+    <aside class="migration" aria-label="Moving to the learning centre">
+      <h2>Moving from an older address?</h2>
+      <p>Open this transfer page at the address where you used to play, in the same browser. Export there, then open <a href="https://learn.sorapinkice.top/saves/">the new learning centre</a> and import your file. Repeat for Math and Chess if they used different addresses.</p>
+      <p>Used the online MathQuest? Open <a href="https://fsiceangel.github.io/mathquest/transfer/">old online Math · transfer saves</a>. If you used a local address, use that same local address and its transfer page instead; different ports keep separate saves.</p>
+      <p>Old progress is left in place. This page can only read saves from <strong id="origin">this address</strong>. No save data is sent to a server.</p>
+    </aside>
+    <div class="panels">
+      <section class="panel" aria-labelledby="export-title">
+        <p class="step">BACK UP</p><h2 id="export-title">Export a save</h2>
+        <p>Includes Math scores and unfinished rounds, plus Chess progress, companions, purchases and room settings.</p>
+        <div id="available" class="choices"></div>
+        <button id="export" type="button" disabled>Export .sav</button>
+        <p class="note">Family Sync credentials are excluded. Set up Family Sync separately on the new address.</p>
+      </section>
+      <section class="panel" aria-labelledby="import-title">
+        <p class="step">BRING IT BACK</p><h2 id="import-title">Import a save</h2>
+        <p>Choose a learning save or an existing Chess <code>.sav</code> / <code>.json</code> backup. Review it before replacing anything.</p>
+        <label class="file-label" for="file">Choose save file</label>
+        <input id="file" type="file" accept=".sav,.json,application/json,application/octet-stream">
+        <div id="preview" hidden>
+          <h3 id="filename"></h3>
+          <div id="incoming" class="choices"></div>
+          <p class="warning">Only checked applications will be replaced. Math includes both scores and unfinished rounds; it is imported as one complete save.</p>
+          <label class="acknowledge"><input id="confirm" type="checkbox"> I want to replace the selected saves on this address.</label>
+          <button id="import" type="button" disabled>Import selected saves</button>
+        </div>
+      </section>
+    </div>
+    <p id="status" role="status" aria-live="polite"></p>
+    <section class="panel recovery" id="recovery" hidden aria-labelledby="recovery-title">
+      <h2 id="recovery-title">Previous save</h2>
+      <p>A local recovery copy is kept before each import. It contains only the applications replaced by that import. Restoring it replaces those applications again, including any progress made since importing.</p>
+      <div class="actions"><button id="download-recovery" type="button" class="secondary">Download recovery copy</button><button id="restore" type="button" class="secondary">Restore previous save</button></div>
+    </section>
+    <div id="done" class="actions" hidden><a class="button" data-learning-home href="../">Continue learning</a><button id="reload" type="button" class="secondary">Reload this page</button></div>
+    <footer>Keep a downloaded copy somewhere safe. Clearing browser data also removes local saves and recovery copies.</footer>
+  </main>
+</body>
+</html>
