@@ -1,4 +1,4 @@
-import { APP_KEYS, FORMAT, MAX_BYTES, snapshot, availableApps, createBackup, parseBackup, describe, importBackup, recoveryBackup, restoreRecovery } from './backup.mjs'
+import { APP_KEYS, FORMAT, MAX_BYTES, snapshot, availableApps, createBackup, parseBackup, describe, importBackup, recoveryBackup, restoreRecovery } from './backup.js'
 
 const $ = id => document.getElementById(id)
 const names = { math: 'MathQuest', chess: 'Chess Puzzle Training' }
